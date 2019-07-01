@@ -1,0 +1,175 @@
+2019-07-01 19:23:08,277 INFO  DownloadService - Downloading "https://github.com/barisatalay/HtmlTableBuilder/archive/master.zip", attempt 3
+2019-07-01 19:23:10,724 INFO  DownloadService - Downloaded https://github.com/barisatalay/HtmlTableBuilder/archive/master.zip, attempt 3
+2019-07-01 19:23:10,724 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/master.zip": 254 KB
+2019-07-01 19:23:10,725 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-01 19:23:10,735 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/master.zip: true
+2019-07-01 19:23:10,736 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src'.
+2019-07-01 19:23:10,772 INFO  FullProcessService - Size of directory with sources: 300 KB
+2019-07-01 19:23:10,777 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src]
+2019-07-01 19:23:10,838 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/.git/
+
+2019-07-01 19:23:10,855 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/gradlew
+2019-07-01 19:23:10,866 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/htmltablebuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/build.gradle
+2019-07-01 19:23:10,872 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/htmltablebuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/settings.gradle
+2019-07-01 19:23:10,875 INFO  ProjectBuildService - Remote scripts: none
+2019-07-01 19:23:10,875 INFO  ProjectFixService - Fixing project...
+2019-07-01 19:23:10,925 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-07-01 19:23:10,925 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-07-01 19:23:10,929 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-07-01 19:23:10,931 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-07-01 19:23:10,934 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-07-01 19:23:10,936 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2019-07-01 19:23:10,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/local.properties
+2019-07-01 19:23:10,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-01 19:23:10,946 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-01 19:23:10,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/htmltablebuilder/local.properties
+2019-07-01 19:23:10,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/htmltablebuilder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-01 19:23:10,950 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/htmltablebuilder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-01 19:23:10,951 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/local.properties
+2019-07-01 19:23:10,956 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-01 19:23:10,957 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-01 19:23:10,958 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-01 19:23:10,959 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-01 19:23:10,959 INFO  ProjectFixService - Project was maybe fixed
+2019-07-01 19:23:10,961 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-01 19:23:10,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-01 19:23:20,724 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-07-01 19:23:20,727 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-01 19:23:20,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-01 19:23:57,907 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:htmltablebuilder:preBuild UP-TO-DATE
+:htmltablebuilder:preDebugBuild UP-TO-DATE
+:htmltablebuilder:checkDebugManifest
+:htmltablebuilder:processDebugManifest
+:app:preDebugBuild
+:htmltablebuilder:compileDebugAidl
+:app:compileDebugAidl
+:htmltablebuilder:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:htmltablebuilder:compileDebugRenderscript
+:htmltablebuilder:generateDebugResValues
+:htmltablebuilder:generateDebugResources
+:htmltablebuilder:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:htmltablebuilder:platformAttrExtractor
+:htmltablebuilder:generateDebugBuildConfig
+:htmltablebuilder:prepareLintJar
+:htmltablebuilder:javaPreCompileDebug
+:htmltablebuilder:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:htmltablebuilder:mergeDebugShaders
+:htmltablebuilder:compileDebugShaders
+:htmltablebuilder:generateDebugAssets
+:htmltablebuilder:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:htmltablebuilder:compileDebugNdk NO-SOURCE
+:htmltablebuilder:mergeDebugJniLibFolders
+:htmltablebuilder:transformNativeLibsWithMergeJniLibsForDebug
+:htmltablebuilder:transformNativeLibsWithStripDebugSymbolForDebug
+:htmltablebuilder:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:htmltablebuilder:preReleaseBuild UP-TO-DATE
+:htmltablebuilder:checkReleaseManifest
+:htmltablebuilder:processReleaseManifest
+:app:preReleaseBuild
+:htmltablebuilder:compileReleaseAidl
+:app:compileReleaseAidl
+:htmltablebuilder:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:htmltablebuilder:compileReleaseRenderscript
+:htmltablebuilder:generateReleaseResValues
+:htmltablebuilder:generateReleaseResources
+:htmltablebuilder:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:htmltablebuilder:generateReleaseBuildConfig
+:htmltablebuilder:javaPreCompileRelease
+:htmltablebuilder:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:htmltablebuilder:mergeReleaseShaders
+:htmltablebuilder:compileReleaseShaders
+:htmltablebuilder:generateReleaseAssets
+:htmltablebuilder:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:htmltablebuilder:compileReleaseNdk NO-SOURCE
+:htmltablebuilder:mergeReleaseJniLibFolders
+:htmltablebuilder:transformNativeLibsWithMergeJniLibsForRelease
+:htmltablebuilder:transformNativeLibsWithStripDebugSymbolForRelease
+:htmltablebuilder:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:htmltablebuilder:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:htmltablebuilder:generateDebugSources
+:htmltablebuilder:compileDebugJavaWithJavac
+:htmltablebuilder:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:htmltablebuilder:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:htmltablebuilder:generateReleaseSources
+:htmltablebuilder:compileReleaseJavaWithJavac
+:htmltablebuilder:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 36s
+91 actionable tasks: 91 executed
+
+2019-07-01 19:23:57,988 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1561983788162-0/src/HtmlTableBuilder-master/app/build/outputs/apk/debug/app-debug.apk
