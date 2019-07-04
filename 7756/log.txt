@@ -1,0 +1,193 @@
+2019-07-04 21:53:24,545 INFO  DownloadService - Downloading "https://github.com/AmanpreetYatin/Easy-SharedPreferences/archive/master.zip", attempt 3
+2019-07-04 21:53:26,497 INFO  DownloadService - Downloaded https://github.com/AmanpreetYatin/Easy-SharedPreferences/archive/master.zip, attempt 3
+2019-07-04 21:53:26,497 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/master.zip": 150 KB
+2019-07-04 21:53:26,497 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-04 21:53:26,503 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/master.zip: true
+2019-07-04 21:53:26,504 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src'.
+2019-07-04 21:53:26,525 INFO  FullProcessService - Size of directory with sources: 167 KB
+2019-07-04 21:53:26,525 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src]
+2019-07-04 21:53:26,542 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/.git/
+
+2019-07-04 21:53:26,545 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/gradlew
+2019-07-04 21:53:26,548 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/build.gradle
+2019-07-04 21:53:26,550 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/settings.gradle
+2019-07-04 21:53:26,551 INFO  ProjectBuildService - Remote scripts: none
+2019-07-04 21:53:26,551 INFO  ProjectFixService - Fixing project...
+2019-07-04 21:53:26,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/local.properties
+2019-07-04 21:53:26,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 21:53:26,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 21:53:26,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/local.properties
+2019-07-04 21:53:26,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 21:53:26,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 21:53:26,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/local.properties
+2019-07-04 21:53:26,564 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-04 21:53:26,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-04 21:53:26,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 21:53:26,566 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-07-04 21:53:26,567 INFO  ProjectFixService - Project was maybe fixed
+2019-07-04 21:53:26,567 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-04 21:53:26,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-04 21:53:32,969 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-07-04 21:53:32,970 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-04 21:53:32,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-04 21:54:18,372 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :app
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Configure project :easysharedpreferences
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :app:preBuild UP-TO-DATE
+> Task :easysharedpreferences:preBuild UP-TO-DATE
+> Task :easysharedpreferences:preDebugBuild UP-TO-DATE
+> Task :easysharedpreferences:checkDebugManifest
+> Task :easysharedpreferences:processDebugManifest
+> Task :app:preDebugBuild
+> Task :easysharedpreferences:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :easysharedpreferences:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :easysharedpreferences:compileDebugRenderscript NO-SOURCE
+> Task :easysharedpreferences:generateDebugResValues
+> Task :easysharedpreferences:generateDebugResources
+> Task :easysharedpreferences:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :easysharedpreferences:generateDebugRFile
+> Task :app:processDebugResources
+> Task :easysharedpreferences:generateDebugBuildConfig
+
+> Task :easysharedpreferences:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (49, 74): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (135, 21): Condition 'bitmap == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (165, 45): Condition 'bitmap == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (168, 45): Variable 'bitmapCompressed' initializer is redundant
+
+> Task :easysharedpreferences:prepareLintJar
+> Task :easysharedpreferences:generateDebugSources
+> Task :easysharedpreferences:javaPreCompileDebug
+> Task :easysharedpreferences:compileDebugJavaWithJavac
+> Task :easysharedpreferences:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :easysharedpreferences:mergeDebugShaders
+> Task :easysharedpreferences:compileDebugShaders
+> Task :easysharedpreferences:generateDebugAssets
+> Task :easysharedpreferences:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :easysharedpreferences:processDebugJavaRes NO-SOURCE
+> Task :easysharedpreferences:bundleLibResDebug
+> Task :easysharedpreferences:bundleLibRuntimeDebug
+> Task :easysharedpreferences:createFullJarDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :easysharedpreferences:mergeDebugJniLibFolders
+> Task :easysharedpreferences:transformNativeLibsWithMergeJniLibsForDebug
+> Task :easysharedpreferences:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :easysharedpreferences:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :easysharedpreferences:preReleaseBuild UP-TO-DATE
+> Task :easysharedpreferences:checkReleaseManifest
+> Task :easysharedpreferences:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :easysharedpreferences:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :easysharedpreferences:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :easysharedpreferences:compileReleaseRenderscript NO-SOURCE
+> Task :easysharedpreferences:generateReleaseResValues
+> Task :easysharedpreferences:generateReleaseResources
+> Task :easysharedpreferences:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :easysharedpreferences:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :easysharedpreferences:generateReleaseBuildConfig
+
+> Task :easysharedpreferences:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (49, 74): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (135, 21): Condition 'bitmap == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (165, 45): Condition 'bitmap == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/easysharedpreferences/src/main/java/com/amn/easysharedpreferences/EasySharedPreference.kt: (168, 45): Variable 'bitmapCompressed' initializer is redundant
+
+> Task :easysharedpreferences:generateReleaseSources
+> Task :easysharedpreferences:javaPreCompileRelease
+> Task :easysharedpreferences:compileReleaseJavaWithJavac
+> Task :easysharedpreferences:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :easysharedpreferences:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :easysharedpreferences:processReleaseJavaRes NO-SOURCE
+> Task :easysharedpreferences:bundleLibResRelease
+> Task :easysharedpreferences:bundleLibRuntimeRelease
+> Task :easysharedpreferences:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :easysharedpreferences:mergeReleaseShaders
+> Task :easysharedpreferences:compileReleaseShaders
+> Task :easysharedpreferences:generateReleaseAssets
+> Task :easysharedpreferences:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :easysharedpreferences:mergeReleaseJniLibFolders
+> Task :easysharedpreferences:transformNativeLibsWithMergeJniLibsForRelease
+> Task :easysharedpreferences:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :easysharedpreferences:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 44s
+96 actionable tasks: 96 executed
+
+2019-07-04 21:54:18,434 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562252004541-0/src/Easy-SharedPreferences-master/app/build/outputs/apk/debug/app-debug.apk
