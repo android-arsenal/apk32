@@ -1,0 +1,216 @@
+2019-07-16 22:07:05,083 INFO  DownloadService - Downloading "https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip", attempt 3
+2019-07-16 22:07:07,236 INFO  DownloadService - Downloaded https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip, attempt 3
+2019-07-16 22:07:07,236 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/master.zip": 180 KB
+2019-07-16 22:07:07,236 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-16 22:07:07,238 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/master.zip: true
+2019-07-16 22:07:07,238 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src'.
+2019-07-16 22:07:07,269 INFO  FullProcessService - Size of directory with sources: 257 KB
+2019-07-16 22:07:07,269 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src]
+2019-07-16 22:07:07,302 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/.git/
+
+2019-07-16 22:07:07,306 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/gradlew
+2019-07-16 22:07:07,309 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/build.gradle
+2019-07-16 22:07:07,312 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/settings.gradle
+2019-07-16 22:07:07,313 INFO  ProjectBuildService - Remote scripts: none
+2019-07-16 22:07:07,313 INFO  ProjectFixService - Fixing project...
+2019-07-16 22:07:07,322 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/local.properties
+2019-07-16 22:07:07,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-16 22:07:07,324 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-16 22:07:07,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/smartadapter/local.properties
+2019-07-16 22:07:07,328 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-16 22:07:07,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-16 22:07:07,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/local.properties
+2019-07-16 22:07:07,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-16 22:07:07,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-16 22:07:07,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-16 22:07:07,332 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-16 22:07:07,333 INFO  ProjectFixService - Project was maybe fixed
+2019-07-16 22:07:07,333 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-16 22:07:07,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-16 22:07:13,994 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-16 22:07:13,994 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-16 22:07:13,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-16 22:08:15,119 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :sample
+WARNING: The following project options are deprecated and have been removed: 
+android.enableAapt2
+This property has no effect, AAPT2 is now always used.
+
+
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Configure project :smartadapter
+WARNING: The following project options are deprecated and have been removed: 
+android.enableAapt2
+This property has no effect, AAPT2 is now always used.
+
+
+
+> Task :sample:preBuild UP-TO-DATE
+> Task :smartadapter:preBuild UP-TO-DATE
+> Task :smartadapter:preDebugBuild UP-TO-DATE
+> Task :smartadapter:checkDebugManifest
+> Task :smartadapter:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :smartadapter:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :smartadapter:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :smartadapter:compileDebugRenderscript NO-SOURCE
+> Task :smartadapter:generateDebugResValues
+> Task :smartadapter:generateDebugResources
+> Task :smartadapter:packageDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :smartadapter:generateDebugRFile
+> Task :sample:processDebugResources
+> Task :smartadapter:generateDebugBuildConfig
+> Task :smartadapter:prepareLintJar
+> Task :smartadapter:generateDebugSources
+> Task :smartadapter:javaPreCompileDebug
+
+> Task :smartadapter:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :smartadapter:bundleLibCompileDebug
+
+> Task :sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (48, 13): 'when' is exhaustive so 'else' is redundant here
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (66, 92): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (66, 98): Parameter 'actionId' is never used, could be renamed to _
+
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :smartadapter:mergeDebugShaders
+> Task :smartadapter:compileDebugShaders
+> Task :smartadapter:generateDebugAssets
+> Task :smartadapter:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :smartadapter:bundleLibRuntimeDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :smartadapter:processDebugJavaRes NO-SOURCE
+> Task :smartadapter:bundleLibResDebug
+> Task :smartadapter:mergeDebugJniLibFolders
+> Task :smartadapter:transformNativeLibsWithMergeJniLibsForDebug
+> Task :smartadapter:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :smartadapter:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:extractProguardFiles
+> Task :smartadapter:preReleaseBuild UP-TO-DATE
+> Task :smartadapter:checkReleaseManifest
+> Task :smartadapter:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :smartadapter:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :smartadapter:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :smartadapter:compileReleaseRenderscript NO-SOURCE
+> Task :smartadapter:generateReleaseResValues
+> Task :smartadapter:generateReleaseResources
+> Task :smartadapter:packageReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :smartadapter:generateReleaseRFile
+> Task :sample:processReleaseResources
+> Task :smartadapter:generateReleaseBuildConfig
+> Task :smartadapter:generateReleaseSources
+> Task :smartadapter:javaPreCompileRelease
+
+> Task :smartadapter:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :smartadapter:bundleLibCompileRelease
+
+> Task :sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (48, 13): 'when' is exhaustive so 'else' is redundant here
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (66, 92): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (66, 98): Parameter 'actionId' is never used, could be renamed to _
+
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :smartadapter:prepareLintJarForPublish
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/df1ecef9f7eff0ff67c3031e3740c4e5/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :smartadapter:mergeReleaseShaders
+> Task :smartadapter:compileReleaseShaders
+> Task :smartadapter:generateReleaseAssets
+> Task :smartadapter:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :smartadapter:processReleaseJavaRes NO-SOURCE
+> Task :smartadapter:bundleLibResRelease
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :smartadapter:bundleLibRuntimeRelease
+> Task :smartadapter:mergeReleaseConsumerProguardFiles
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+
+> Task :sample:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
+
+
+> Task :sample:mergeReleaseJniLibFolders
+> Task :smartadapter:mergeReleaseJniLibFolders
+> Task :smartadapter:transformNativeLibsWithMergeJniLibsForRelease
+> Task :smartadapter:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :smartadapter:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 0s
+90 actionable tasks: 90 executed
+
+2019-07-16 22:08:15,182 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289625080-0/src/smart-recycler-adapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
