@@ -1,0 +1,491 @@
+2019-07-18 12:48:14,678 INFO  DownloadService - Downloading "https://github.com/nuonveyo/AutoRefreshNetworkConnection/archive/master.zip", attempt 3
+2019-07-18 12:48:17,215 INFO  DownloadService - Downloaded https://github.com/nuonveyo/AutoRefreshNetworkConnection/archive/master.zip, attempt 3
+2019-07-18 12:48:17,215 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/master.zip": 158 KB
+2019-07-18 12:48:17,216 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-18 12:48:17,230 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/master.zip: true
+2019-07-18 12:48:17,231 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src'.
+2019-07-18 12:48:17,262 INFO  FullProcessService - Size of directory with sources: 177 KB
+2019-07-18 12:48:17,266 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src]
+2019-07-18 12:48:17,330 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/.git/
+
+2019-07-18 12:48:17,348 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/gradlew
+2019-07-18 12:48:17,364 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/autorefreshnetworkconnection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/build.gradle
+2019-07-18 12:48:17,372 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/autorefreshnetworkconnection/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/settings.gradle
+2019-07-18 12:48:17,381 INFO  DownloadService - Downloading "https://gist.githubusercontent.com/nuonveyo/a9cc28cabaf39db3fa44381561f88f53/raw", attempt 3
+2019-07-18 12:48:18,082 INFO  DownloadService - Downloaded https://gist.githubusercontent.com/nuonveyo/a9cc28cabaf39db3fa44381561f88f53/raw, attempt 3
+2019-07-18 12:48:18,083 INFO  ProjectBuildService - Remote scripts: https://gist.githubusercontent.com/nuonveyo/a9cc28cabaf39db3fa44381561f88f53/raw
+2019-07-18 12:48:18,083 INFO  ProjectFixService - Fixing project...
+2019-07-18 12:48:18,137 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-07-18 12:48:18,137 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-07-18 12:48:18,172 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2019-07-18 12:48:18,175 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 28.0.0-rc1 28.0.0-rc2
+2019-07-18 12:48:18,190 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-07-18 12:48:18,191 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2019-07-18 12:48:18,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/local.properties
+2019-07-18 12:48:18,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-18 12:48:18,203 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-18 12:48:18,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/autorefreshnetworkconnection/local.properties
+2019-07-18 12:48:18,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/autorefreshnetworkconnection/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-18 12:48:18,207 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/autorefreshnetworkconnection/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-18 12:48:18,209 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/local.properties
+2019-07-18 12:48:18,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-07-18 12:48:18,215 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-07-18 12:48:18,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-18 12:48:18,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-18 12:48:18,218 INFO  ProjectFixService - Project was maybe fixed
+2019-07-18 12:48:18,220 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-18 12:48:18,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-18 12:48:32,165 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-18 12:48:32,165 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-18 12:48:32,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-18 12:48:40,167 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-18 12:48:40,168 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':app'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:190)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:145)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:124)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+
+2019-07-18 12:48:40,168 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-18 12:48:40,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-18 12:49:52,095 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :autorefreshnetworkconnection
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :autorefreshnetworkconnection:preBuild UP-TO-DATE
+> Task :autorefreshnetworkconnection:preDebugBuild UP-TO-DATE
+> Task :autorefreshnetworkconnection:checkDebugManifest
+> Task :autorefreshnetworkconnection:processDebugManifest
+> Task :app:preDebugBuild
+> Transform print.aar (com.android.support:print:28.0.0) with IdentityTransform
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with IdentityTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with IdentityTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with IdentityTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with IdentityTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with IdentityTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with IdentityTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with IdentityTransform
+> Transform print.aar (com.android.support:print:28.0.0) with ExtractAarTransform
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with ExtractAarTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with ExtractAarTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with ExtractAarTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with ExtractAarTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with ExtractAarTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with ExtractAarTransform
+> Transform print.aar (com.android.support:print:28.0.0) with AarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with IdentityTransform
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with AarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with ExtractAarTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with IdentityTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarTransform
+> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with IdentityTransform
+> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with ExtractAarTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with AarTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with IdentityTransform
+> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with IdentityTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with ExtractAarTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with AarTransform
+> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with IdentityTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with ExtractAarTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with AarTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with IdentityTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with IdentityTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with ExtractAarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with AarTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with AarTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with IdentityTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with IdentityTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with AarTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with IdentityTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with ExtractAarTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with AarTransform
+> Transform loader.aar (com.android.support:loader:28.0.0) with IdentityTransform
+> Transform loader.aar (com.android.support:loader:28.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with AarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with IdentityTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with ExtractAarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with IdentityTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with ExtractAarTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with AarTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with AarTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with AarTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with IdentityTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with IdentityTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with IdentityTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with ExtractAarTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with AarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with ExtractAarTransform
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with IdentityTransform
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with ExtractAarTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with AarTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with IdentityTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with ExtractAarTransform
+> Transform loader.aar (com.android.support:loader:28.0.0) with AarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with AarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with AarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with AarTransform
+> Task :autorefreshnetworkconnection:packageDebugRenderscript NO-SOURCE
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with AarTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with AarTransform
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with AarTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
+> Task :app:compileDebugRenderscript
+> Task :autorefreshnetworkconnection:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with AarCompileClassesTransform
+> Transform print.aar (com.android.support:print:28.0.0) with AarCompileClassesTransform
+> Transform support-annotations.jar (com.android.support:support-annotations:28.0.0) with IdentityTransform
+> Transform support-annotations.jar (com.android.support:support-annotations:28.0.0) with IdentityTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarCompileClassesTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with AarCompileClassesTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarCompileClassesTransform
+> Transform common.jar (android.arch.lifecycle:common:1.1.1) with IdentityTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarCompileClassesTransform
+> Transform common.jar (android.arch.core:common:1.1.1) with IdentityTransform
+> Transform common.jar (android.arch.lifecycle:common:1.1.1) with IdentityTransform
+> Transform common.jar (android.arch.core:common:1.1.1) with IdentityTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with AarCompileClassesTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with AarCompileClassesTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with AarCompileClassesTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with AarCompileClassesTransform
+> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with AarCompileClassesTransform
+> Transform collections.jar (com.android.support:collections:28.0.0) with IdentityTransform
+> Transform collections.jar (com.android.support:collections:28.0.0) with IdentityTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with AarCompileClassesTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarCompileClassesTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with AarCompileClassesTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with AarCompileClassesTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with AarCompileClassesTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with AarCompileClassesTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with AarCompileClassesTransform
+> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with AarCompileClassesTransform
+> Transform loader.aar (com.android.support:loader:28.0.0) with AarCompileClassesTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with AarCompileClassesTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with AarCompileClassesTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with AarCompileClassesTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with AarCompileClassesTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with AarCompileClassesTransform
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with AarCompileClassesTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarCompileClassesTransform
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with AarTransform
+> Transform print.aar (com.android.support:print:28.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with AarTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with AarTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with AarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with AarTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with AarTransform
+> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with AarTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with AarTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with AarTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with AarTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with AarTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with AarTransform
+> Transform loader.aar (com.android.support:loader:28.0.0) with AarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with AarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with AarTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with AarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with AarTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with AarTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with AarTransform
+> Task :autorefreshnetworkconnection:generateDebugBuildConfig
+> Task :autorefreshnetworkconnection:compileDebugRenderscript
+> Transform print.aar (com.android.support:print:28.0.0) with LibrarySymbolTableTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with LibrarySymbolTableTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with LibrarySymbolTableTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with LibrarySymbolTableTransform
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with LibrarySymbolTableTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with LibrarySymbolTableTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with LibrarySymbolTableTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (com.android.support:loader:28.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with LibrarySymbolTableTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with LibrarySymbolTableTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with LibrarySymbolTableTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with LibrarySymbolTableTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with LibrarySymbolTableTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with LibrarySymbolTableTransform
+> Task :autorefreshnetworkconnection:generateDebugResValues
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with LibrarySymbolTableTransform
+> Task :autorefreshnetworkconnection:generateDebugResources
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with LibrarySymbolTableTransform
+> Task :autorefreshnetworkconnection:packageDebugResources
+> Task :autorefreshnetworkconnection:generateDebugRFile
+> Task :autorefreshnetworkconnection:prepareLintJar
+> Task :autorefreshnetworkconnection:generateDebugSources
+> Task :autorefreshnetworkconnection:javaPreCompileDebug
+
+> Task :autorefreshnetworkconnection:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :autorefreshnetworkconnection:processDebugJavaRes NO-SOURCE
+> Task :autorefreshnetworkconnection:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :autorefreshnetworkconnection:mergeDebugShaders
+> Task :autorefreshnetworkconnection:compileDebugShaders
+> Task :autorefreshnetworkconnection:generateDebugAssets
+> Task :autorefreshnetworkconnection:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :autorefreshnetworkconnection:compileDebugNdk NO-SOURCE
+> Task :autorefreshnetworkconnection:mergeDebugJniLibFolders
+> Task :autorefreshnetworkconnection:transformNativeLibsWithMergeJniLibsForDebug
+> Task :autorefreshnetworkconnection:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :autorefreshnetworkconnection:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :autorefreshnetworkconnection:preReleaseBuild UP-TO-DATE
+> Task :autorefreshnetworkconnection:checkReleaseManifest
+> Task :autorefreshnetworkconnection:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :autorefreshnetworkconnection:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :autorefreshnetworkconnection:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :autorefreshnetworkconnection:compileReleaseRenderscript
+> Task :autorefreshnetworkconnection:generateReleaseBuildConfig
+> Task :autorefreshnetworkconnection:generateReleaseResValues
+> Task :autorefreshnetworkconnection:generateReleaseResources
+> Task :autorefreshnetworkconnection:packageReleaseResources
+> Task :autorefreshnetworkconnection:generateReleaseRFile
+> Task :autorefreshnetworkconnection:generateReleaseSources
+> Task :autorefreshnetworkconnection:javaPreCompileRelease
+
+> Task :autorefreshnetworkconnection:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :autorefreshnetworkconnection:processReleaseJavaRes NO-SOURCE
+> Task :autorefreshnetworkconnection:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :autorefreshnetworkconnection:mergeReleaseShaders
+> Task :autorefreshnetworkconnection:compileReleaseShaders
+> Task :autorefreshnetworkconnection:generateReleaseAssets
+> Task :autorefreshnetworkconnection:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :autorefreshnetworkconnection:compileReleaseNdk NO-SOURCE
+> Task :autorefreshnetworkconnection:mergeReleaseJniLibFolders
+> Task :autorefreshnetworkconnection:transformNativeLibsWithMergeJniLibsForRelease
+> Task :autorefreshnetworkconnection:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :autorefreshnetworkconnection:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+
+> Task :app:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/be7a3df690bbb5655b9d045a27fd4628/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 8 issues found
+Ran lint on variant release: 8 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build/reports/lint-results.xml
+
+> Task :app:generateDebugUnitTestSources
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:testDebugUnitTest
+> Task :app:generateReleaseUnitTestSources
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:check
+> Task :app:build
+
+BUILD SUCCESSFUL in 1m 11s
+92 actionable tasks: 92 executed
+
+2019-07-18 12:49:52,231 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563428894593-0/src/AutoRefreshNetworkConnection-master/app/build/outputs/apk/debug/app-debug.apk

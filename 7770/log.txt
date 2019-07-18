@@ -1,0 +1,180 @@
+2019-07-18 12:50:01,808 INFO  DownloadService - Downloading "https://github.com/JDevZone/CheckableTextView/archive/master.zip", attempt 3
+2019-07-18 12:50:05,624 INFO  DownloadService - Downloaded https://github.com/JDevZone/CheckableTextView/archive/master.zip, attempt 3
+2019-07-18 12:50:05,624 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/master.zip": 740 KB
+2019-07-18 12:50:05,624 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-18 12:50:05,657 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/master.zip: true
+2019-07-18 12:50:05,658 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src'.
+2019-07-18 12:50:05,693 INFO  FullProcessService - Size of directory with sources: 852 KB
+2019-07-18 12:50:05,693 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src]
+2019-07-18 12:50:05,741 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/.git/
+
+2019-07-18 12:50:05,747 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/gradlew
+2019-07-18 12:50:05,752 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/checkabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/build.gradle
+2019-07-18 12:50:05,756 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/checkabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/settings.gradle
+2019-07-18 12:50:05,757 INFO  ProjectBuildService - Remote scripts: none
+2019-07-18 12:50:05,758 INFO  ProjectFixService - Fixing project...
+2019-07-18 12:50:05,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/local.properties
+2019-07-18 12:50:05,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-18 12:50:05,772 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-18 12:50:05,773 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/checkabletextview/local.properties
+2019-07-18 12:50:05,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/checkabletextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-18 12:50:05,776 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/checkabletextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-18 12:50:05,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/local.properties
+2019-07-18 12:50:05,778 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-18 12:50:05,779 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-18 12:50:05,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-18 12:50:05,782 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-07-18 12:50:05,783 INFO  ProjectFixService - Project was maybe fixed
+2019-07-18 12:50:05,783 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-18 12:50:05,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-18 12:50:42,298 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-18 12:50:42,298 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-18 12:50:42,298 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-18 12:52:40,597 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :checkabletextview
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :app:preBuild UP-TO-DATE
+> Task :checkabletextview:preBuild UP-TO-DATE
+> Task :checkabletextview:preDebugBuild UP-TO-DATE
+> Task :checkabletextview:checkDebugManifest
+> Task :checkabletextview:processDebugManifest
+> Task :checkabletextview:packageDebugRenderscript NO-SOURCE
+> Task :checkabletextview:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :checkabletextview:compileDebugRenderscript NO-SOURCE
+> Task :checkabletextview:generateDebugResValues
+> Task :checkabletextview:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :checkabletextview:generateDebugBuildConfig
+> Task :checkabletextview:prepareLintJar
+> Task :checkabletextview:generateDebugSources
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :checkabletextview:mergeDebugShaders
+> Task :checkabletextview:compileDebugShaders
+> Task :checkabletextview:generateDebugAssets
+> Task :checkabletextview:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :checkabletextview:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :checkabletextview:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :checkabletextview:generateDebugRFile
+> Task :app:processDebugResources
+> Task :checkabletextview:compileDebugKotlin
+> Task :checkabletextview:javaPreCompileDebug
+> Task :checkabletextview:compileDebugJavaWithJavac
+> Task :checkabletextview:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :checkabletextview:bundleLibResDebug
+> Task :checkabletextview:bundleLibRuntimeDebug
+> Task :checkabletextview:createFullJarDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :checkabletextview:mergeDebugJniLibFolders
+> Task :checkabletextview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :checkabletextview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :checkabletextview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :checkabletextview:preReleaseBuild UP-TO-DATE
+> Task :checkabletextview:checkReleaseManifest
+> Task :checkabletextview:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :checkabletextview:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :checkabletextview:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :checkabletextview:compileReleaseRenderscript NO-SOURCE
+> Task :checkabletextview:generateReleaseResValues
+> Task :checkabletextview:generateReleaseResources
+> Task :checkabletextview:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :checkabletextview:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :checkabletextview:generateReleaseBuildConfig
+> Task :checkabletextview:compileReleaseKotlin
+> Task :checkabletextview:generateReleaseSources
+> Task :checkabletextview:javaPreCompileRelease
+> Task :checkabletextview:compileReleaseJavaWithJavac
+> Task :checkabletextview:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :checkabletextview:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c45f14a49fda039677feda45ede4b8fb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :checkabletextview:processReleaseJavaRes NO-SOURCE
+> Task :checkabletextview:bundleLibResRelease
+> Task :checkabletextview:bundleLibRuntimeRelease
+> Task :checkabletextview:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :checkabletextview:mergeReleaseShaders
+> Task :checkabletextview:compileReleaseShaders
+> Task :checkabletextview:generateReleaseAssets
+> Task :checkabletextview:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :checkabletextview:mergeReleaseJniLibFolders
+> Task :checkabletextview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :checkabletextview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :checkabletextview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 57s
+95 actionable tasks: 95 executed
+
+2019-07-18 12:52:40,711 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563429001802-0/src/CheckableTextView-master/app/build/outputs/apk/debug/app-debug.apk
