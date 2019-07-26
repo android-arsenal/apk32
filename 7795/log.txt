@@ -1,0 +1,17 @@
+2019-07-26 20:27:34,368 INFO  DownloadService - Downloading "https://github.com/dotanuki-labs/norris/archive/master.zip", attempt 3
+2019-07-26 20:27:37,732 INFO  DownloadService - Downloaded https://github.com/dotanuki-labs/norris/archive/master.zip, attempt 3
+2019-07-26 20:27:37,733 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/master.zip": 1 MB
+2019-07-26 20:27:37,733 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-26 20:27:37,751 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/master.zip: true
+2019-07-26 20:27:37,752 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/src'.
+2019-07-26 20:27:37,877 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-26 20:27:37,880 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/src]
+2019-07-26 20:27:37,921 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/src/.git/
+
+2019-07-26 20:27:37,950 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/src/norris-master/gradlew
+2019-07-26 20:27:37,970 INFO  ProjectBuildService - Build script(s): none
+2019-07-26 20:27:37,985 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/src/norris-master/buildSrc/shared/kotlin-module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564147654289-0/src/norris-master/buildSrc/shared/android-module.gradle
+2019-07-26 20:27:37,988 INFO  ProjectBuildService - Remote scripts: none
+2019-07-26 20:27:37,988 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-26 20:27:37,988 ERROR FullProcessService - Project build has not produced APK file
+2019-07-26 20:27:38,000 ERROR FullProcessService - Could not find generated or existed APK file
