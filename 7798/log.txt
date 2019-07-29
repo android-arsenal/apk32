@@ -1,0 +1,184 @@
+2019-07-29 18:10:54,213 INFO  DownloadService - Downloading "https://github.com/MrNouri/DynamicSizes/archive/master.zip", attempt 3
+2019-07-29 18:12:19,908 INFO  DownloadService - Downloaded https://github.com/MrNouri/DynamicSizes/archive/master.zip, attempt 3
+2019-07-29 18:12:19,909 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/master.zip": 2 MB
+2019-07-29 18:12:19,909 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-29 18:12:19,911 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/master.zip: true
+2019-07-29 18:12:19,912 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src'.
+2019-07-29 18:12:19,975 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-29 18:12:19,975 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src]
+2019-07-29 18:12:20,020 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/.git/
+
+2019-07-29 18:12:20,024 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/gradlew
+2019-07-29 18:12:20,028 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/dynamicsizeslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/build.gradle
+2019-07-29 18:12:20,032 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/dynamicsizeslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/settings.gradle
+2019-07-29 18:12:20,033 INFO  ProjectBuildService - Remote scripts: none
+2019-07-29 18:12:20,033 INFO  ProjectFixService - Fixing project...
+2019-07-29 18:12:20,044 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/local.properties
+2019-07-29 18:12:20,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-29 18:12:20,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/dynamicsizeslib/local.properties
+2019-07-29 18:12:20,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/dynamicsizeslib/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-29 18:12:20,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/local.properties
+2019-07-29 18:12:20,046 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-29 18:12:20,046 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-29 18:12:20,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-29 18:12:20,047 INFO  ProjectFixService - Project was maybe fixed
+2019-07-29 18:12:20,047 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-29 18:12:20,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-29 18:12:30,111 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-29 18:12:30,111 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-29 18:12:30,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-29 18:13:26,536 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :dynamicsizeslib:preBuild UP-TO-DATE
+> Task :dynamicsizeslib:preDebugBuild UP-TO-DATE
+> Task :dynamicsizeslib:checkDebugManifest
+> Task :dynamicsizeslib:processDebugManifest
+> Task :app:preDebugBuild
+> Task :dynamicsizeslib:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :dynamicsizeslib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :dynamicsizeslib:generateDebugResValues
+> Task :dynamicsizeslib:compileDebugRenderscript NO-SOURCE
+> Task :dynamicsizeslib:generateDebugResources
+> Task :dynamicsizeslib:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :dynamicsizeslib:generateDebugBuildConfig
+> Task :dynamicsizeslib:prepareLintJar
+> Task :dynamicsizeslib:generateDebugRFile
+> Task :app:processDebugResources
+> Task :dynamicsizeslib:generateDebugSources
+> Task :dynamicsizeslib:javaPreCompileDebug
+> Task :dynamicsizeslib:compileDebugJavaWithJavac
+> Task :dynamicsizeslib:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (59, 13): Condition 'bitmapDrawable != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (79, 17): Type mismatch: inferred type is Paint? but Paint was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (83, 78): Type mismatch: inferred type is Paint? but Paint was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (99, 22): Variable 'result' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (113, 55): Parameter 'measureSpecWidth' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (114, 22): Variable 'result' initializer is redundant
+
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :dynamicsizeslib:mergeDebugShaders
+> Task :dynamicsizeslib:compileDebugShaders
+> Task :dynamicsizeslib:generateDebugAssets
+> Task :dynamicsizeslib:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :dynamicsizeslib:processDebugJavaRes NO-SOURCE
+> Task :dynamicsizeslib:bundleLibResDebug
+> Task :dynamicsizeslib:bundleLibRuntimeDebug
+> Task :dynamicsizeslib:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :dynamicsizeslib:mergeDebugJniLibFolders
+> Task :dynamicsizeslib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :dynamicsizeslib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :dynamicsizeslib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :dynamicsizeslib:preReleaseBuild UP-TO-DATE
+> Task :dynamicsizeslib:checkReleaseManifest
+> Task :dynamicsizeslib:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :dynamicsizeslib:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :dynamicsizeslib:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :dynamicsizeslib:compileReleaseRenderscript NO-SOURCE
+> Task :dynamicsizeslib:generateReleaseResValues
+> Task :dynamicsizeslib:generateReleaseResources
+> Task :dynamicsizeslib:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :dynamicsizeslib:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :dynamicsizeslib:generateReleaseBuildConfig
+> Task :dynamicsizeslib:generateReleaseSources
+> Task :dynamicsizeslib:javaPreCompileRelease
+> Task :dynamicsizeslib:compileReleaseJavaWithJavac
+> Task :dynamicsizeslib:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (59, 13): Condition 'bitmapDrawable != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (79, 17): Type mismatch: inferred type is Paint? but Paint was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (83, 78): Type mismatch: inferred type is Paint? but Paint was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (99, 22): Variable 'result' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (113, 55): Parameter 'measureSpecWidth' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/src/main/java/in/nouri/dynamic_sizes/custom_view/RoundedImageView.kt: (114, 22): Variable 'result' initializer is redundant
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :dynamicsizeslib:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :dynamicsizeslib:processReleaseJavaRes NO-SOURCE
+> Task :dynamicsizeslib:bundleLibResRelease
+> Task :dynamicsizeslib:bundleLibRuntimeRelease
+> Task :dynamicsizeslib:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :dynamicsizeslib:mergeReleaseShaders
+> Task :dynamicsizeslib:compileReleaseShaders
+> Task :dynamicsizeslib:generateReleaseAssets
+> Task :dynamicsizeslib:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :dynamicsizeslib:mergeReleaseJniLibFolders
+> Task :dynamicsizeslib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :dynamicsizeslib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :dynamicsizeslib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 55s
+93 actionable tasks: 93 executed
+
+2019-07-29 18:13:26,618 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564398654208-0/src/DynamicSizes-master/app/build/outputs/apk/debug/app-debug.apk
