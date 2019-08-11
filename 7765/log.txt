@@ -1,36 +1,36 @@
-2019-07-16 22:08:23,638 INFO  DownloadService - Downloading "https://github.com/p32929/AndroidAppLockscreen/archive/master.zip", attempt 3
-2019-07-16 22:08:25,807 INFO  DownloadService - Downloaded https://github.com/p32929/AndroidAppLockscreen/archive/master.zip, attempt 3
-2019-07-16 22:08:25,807 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/master.zip": 195 KB
-2019-07-16 22:08:25,807 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-16 22:08:25,808 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/master.zip: true
-2019-07-16 22:08:25,808 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src'.
-2019-07-16 22:08:25,835 INFO  FullProcessService - Size of directory with sources: 302 KB
-2019-07-16 22:08:25,835 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src]
-2019-07-16 22:08:25,850 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/.git/
+2019-08-11 19:11:46,753 INFO  DownloadService - Downloading "https://github.com/p32929/AndroidAppLockscreen/archive/master.zip", attempt 3
+2019-08-11 19:11:49,002 INFO  DownloadService - Downloaded https://github.com/p32929/AndroidAppLockscreen/archive/master.zip, attempt 3
+2019-08-11 19:11:49,003 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/master.zip": 196 KB
+2019-08-11 19:11:49,003 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 19:11:49,008 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/master.zip: true
+2019-08-11 19:11:49,009 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src'.
+2019-08-11 19:11:49,043 INFO  FullProcessService - Size of directory with sources: 303 KB
+2019-08-11 19:11:49,043 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src]
+2019-08-11 19:11:49,061 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/.git/
 
-2019-07-16 22:08:25,855 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/gradlew
-2019-07-16 22:08:25,859 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/build.gradle
-2019-07-16 22:08:25,862 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/settings.gradle
-2019-07-16 22:08:25,863 INFO  ProjectBuildService - Remote scripts: none
-2019-07-16 22:08:25,863 INFO  ProjectFixService - Fixing project...
-2019-07-16 22:08:25,871 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/local.properties
-2019-07-16 22:08:25,872 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-07-16 22:08:25,872 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-07-16 22:08:25,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/easypasscodelock/local.properties
-2019-07-16 22:08:25,873 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-07-16 22:08:25,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-07-16 22:08:25,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/local.properties
-2019-07-16 22:08:25,875 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-16 22:08:25,876 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-16 22:08:25,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-07-16 22:08:25,877 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-07-16 22:08:25,877 INFO  ProjectFixService - Project was maybe fixed
-2019-07-16 22:08:25,877 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-16 22:08:25,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-16 22:08:31,884 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-16 22:08:31,885 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-16 22:08:31,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-16 22:13:28,994 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 19:11:49,065 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/gradlew
+2019-08-11 19:11:49,069 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/build.gradle
+2019-08-11 19:11:49,073 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/settings.gradle
+2019-08-11 19:11:49,074 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 19:11:49,074 INFO  ProjectFixService - Fixing project...
+2019-08-11 19:11:49,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/local.properties
+2019-08-11 19:11:49,084 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-08-11 19:11:49,084 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-08-11 19:11:49,085 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/easypasscodelock/local.properties
+2019-08-11 19:11:49,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 19:11:49,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/easypasscodelock/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 19:11:49,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/local.properties
+2019-08-11 19:11:49,087 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-11 19:11:49,087 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-11 19:11:49,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 19:11:49,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 19:11:49,089 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 19:11:49,089 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 19:11:49,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 19:11:56,235 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-11 19:11:56,235 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 19:11:56,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 19:12:40,309 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :easypasscodelock:preBuild UP-TO-DATE
 > Task :easypasscodelock:preDebugBuild UP-TO-DATE
@@ -56,7 +56,7 @@
 > Task :easypasscodelock:javaPreCompileDebug
 
 > Task :easypasscodelock:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/easypasscodelock/src/main/java/p32929/easypasscodelock/Utils/LockscreenHandler.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/easypasscodelock/src/main/java/p32929/easypasscodelock/Utils/LockscreenHandler.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :easypasscodelock:bundleLibCompileDebug
@@ -120,7 +120,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :easypasscodelock:javaPreCompileRelease
 
 > Task :easypasscodelock:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/easypasscodelock/src/main/java/p32929/easypasscodelock/Utils/LockscreenHandler.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/easypasscodelock/src/main/java/p32929/easypasscodelock/Utils/LockscreenHandler.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :easypasscodelock:bundleLibCompileRelease
@@ -175,7 +175,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 4m 56s
+BUILD SUCCESSFUL in 43s
 91 actionable tasks: 91 executed
 
-2019-07-16 22:13:29,042 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563289703635-0/src/AndroidAppLockscreen-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-11 19:12:40,365 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565525506743-0/src/AndroidAppLockscreen-master/app/build/outputs/apk/debug/app-debug.apk
