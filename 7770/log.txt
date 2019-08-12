@@ -1,36 +1,36 @@
-2019-07-29 10:14:21,452 INFO  DownloadService - Downloading "https://github.com/JDevZone/CheckableTextView/archive/master.zip", attempt 3
-2019-07-29 10:14:24,216 INFO  DownloadService - Downloaded https://github.com/JDevZone/CheckableTextView/archive/master.zip, attempt 3
-2019-07-29 10:14:24,217 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/master.zip": 1 MB
-2019-07-29 10:14:24,217 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-29 10:14:24,217 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/master.zip: true
-2019-07-29 10:14:24,217 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src'.
-2019-07-29 10:14:24,245 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-29 10:14:24,245 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src]
-2019-07-29 10:14:24,267 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/.git/
+2019-08-12 19:18:01,108 INFO  DownloadService - Downloading "https://github.com/JDevZone/CheckableTextView/archive/master.zip", attempt 3
+2019-08-12 19:18:06,872 INFO  DownloadService - Downloaded https://github.com/JDevZone/CheckableTextView/archive/master.zip, attempt 3
+2019-08-12 19:18:06,873 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/master.zip": 1 MB
+2019-08-12 19:18:06,873 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-12 19:18:06,878 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/master.zip: true
+2019-08-12 19:18:06,879 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src'.
+2019-08-12 19:18:06,925 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-12 19:18:06,925 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src]
+2019-08-12 19:18:06,956 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/.git/
 
-2019-07-29 10:14:24,270 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/gradlew
-2019-07-29 10:14:24,273 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/checkabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/build.gradle
-2019-07-29 10:14:24,275 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/checkabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/settings.gradle
-2019-07-29 10:14:24,276 INFO  ProjectBuildService - Remote scripts: none
-2019-07-29 10:14:24,276 INFO  ProjectFixService - Fixing project...
-2019-07-29 10:14:24,283 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/local.properties
-2019-07-29 10:14:24,284 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-07-29 10:14:24,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-07-29 10:14:24,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/checkabletextview/local.properties
-2019-07-29 10:14:24,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/checkabletextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-07-29 10:14:24,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/checkabletextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-07-29 10:14:24,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/local.properties
-2019-07-29 10:14:24,288 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-29 10:14:24,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-29 10:14:24,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-07-29 10:14:24,290 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-07-29 10:14:24,291 INFO  ProjectFixService - Project was maybe fixed
-2019-07-29 10:14:24,291 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:14:24,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:14:32,998 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-29 10:14:32,998 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-29 10:14:32,998 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-29 10:15:23,367 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-12 19:18:06,960 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/gradlew
+2019-08-12 19:18:06,962 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/checkabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/build.gradle
+2019-08-12 19:18:06,965 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/checkabletextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/settings.gradle
+2019-08-12 19:18:06,965 INFO  ProjectBuildService - Remote scripts: none
+2019-08-12 19:18:06,965 INFO  ProjectFixService - Fixing project...
+2019-08-12 19:18:06,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/local.properties
+2019-08-12 19:18:06,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-08-12 19:18:06,972 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-08-12 19:18:06,973 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/checkabletextview/local.properties
+2019-08-12 19:18:06,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/checkabletextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-08-12 19:18:06,974 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/checkabletextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-08-12 19:18:06,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/local.properties
+2019-08-12 19:18:06,975 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-12 19:18:06,976 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-12 19:18:06,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-08-12 19:18:06,977 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-08-12 19:18:06,977 INFO  ProjectFixService - Project was maybe fixed
+2019-08-12 19:18:06,977 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 19:18:06,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 19:18:16,295 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-12 19:18:16,296 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-12 19:18:16,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-12 19:19:04,926 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :checkabletextview
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -40,26 +40,18 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :checkabletextview:preDebugBuild UP-TO-DATE
 > Task :checkabletextview:checkDebugManifest
 > Task :checkabletextview:processDebugManifest
-> Task :checkabletextview:packageDebugRenderscript NO-SOURCE
-> Task :checkabletextview:generateDebugResValues
-> Task :checkabletextview:generateDebugBuildConfig
-> Task :checkabletextview:prepareLintJar
-> Task :app:prepareLintJar
-> Task :checkabletextview:mergeDebugShaders
-> Task :checkabletextview:compileDebugShaders
-> Task :checkabletextview:generateDebugAssets
-> Task :checkabletextview:packageDebugAssets
-> Task :checkabletextview:processDebugJavaRes NO-SOURCE
-> Task :checkabletextview:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
+> Task :checkabletextview:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :checkabletextview:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :checkabletextview:compileDebugRenderscript NO-SOURCE
+> Task :checkabletextview:generateDebugResValues
 > Task :checkabletextview:generateDebugResources
 > Task :checkabletextview:packageDebugResources
 > Task :app:mergeDebugResources
@@ -67,12 +59,18 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:processDebugManifest
 > Task :checkabletextview:generateDebugRFile
 > Task :app:processDebugResources
+> Task :checkabletextview:generateDebugBuildConfig
 > Task :checkabletextview:compileDebugKotlin
+> Task :checkabletextview:prepareLintJar
 > Task :checkabletextview:generateDebugSources
 > Task :checkabletextview:javaPreCompileDebug
 > Task :checkabletextview:compileDebugJavaWithJavac
 > Task :checkabletextview:bundleLibCompileDebug
+
 > Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/src/main/java/com/devzone/ctv_sample/MainActivity.kt: (16, 46): Parameter 'view' is never used, could be renamed to _
+
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -80,7 +78,12 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :checkabletextview:mergeDebugShaders
+> Task :checkabletextview:compileDebugShaders
+> Task :checkabletextview:generateDebugAssets
+> Task :checkabletextview:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :checkabletextview:processDebugJavaRes NO-SOURCE
 > Task :checkabletextview:bundleLibResDebug
 > Task :checkabletextview:bundleLibRuntimeDebug
 > Task :checkabletextview:createFullJarDebug
@@ -125,7 +128,10 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :checkabletextview:javaPreCompileRelease
 > Task :checkabletextview:compileReleaseJavaWithJavac
 > Task :checkabletextview:bundleLibCompileRelease
+
 > Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/src/main/java/com/devzone/ctv_sample/MainActivity.kt: (16, 46): Parameter 'view' is never used, could be renamed to _
+
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
@@ -135,10 +141,7 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :checkabletextview:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c45f14a49fda039677feda45ede4b8fb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
 > Task :checkabletextview:processReleaseJavaRes NO-SOURCE
 > Task :checkabletextview:bundleLibResRelease
 > Task :checkabletextview:bundleLibRuntimeRelease
@@ -174,7 +177,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 49s
+BUILD SUCCESSFUL in 47s
 95 actionable tasks: 95 executed
 
-2019-07-29 10:15:23,438 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370061449-0/src/CheckableTextView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-12 19:19:05,004 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612281104-0/src/CheckableTextView-master/app/build/outputs/apk/debug/app-debug.apk
