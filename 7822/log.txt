@@ -1,0 +1,282 @@
+2019-08-13 14:01:45,663 INFO  DownloadService - Downloading "https://github.com/HirogaKatageri/rista-adapter/archive/master.zip", attempt 3
+2019-08-13 14:02:45,667 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-13 14:02:47,630 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-13 14:02:47,631 INFO  DownloadService - Downloading "https://github.com/HirogaKatageri/rista-adapter/archive/master.zip", attempt 3
+2019-08-13 14:03:49,720 DEBUG FullProcessService - Repository https://github.com/HirogaKatageri/rista-adapter available: true
+2019-08-13 14:03:49,720 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-13 14:03:49,720 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/HirogaKatageri/rista-adapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src]
+2019-08-13 14:03:52,299 INFO  SysUtils - 
+2019-08-13 14:03:52,333 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/.git": true
+2019-08-13 14:03:52,335 INFO  FullProcessService - Size of directory with sources: 832 KB
+2019-08-13 14:03:52,335 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src]
+2019-08-13 14:03:52,352 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/.git/
+
+2019-08-13 14:03:52,354 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/gradlew
+2019-08-13 14:03:52,356 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/build.gradle
+2019-08-13 14:03:52,359 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/settings.gradle
+2019-08-13 14:03:52,359 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 14:03:52,359 INFO  ProjectFixService - Fixing project...
+2019-08-13 14:03:52,366 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/local.properties
+2019-08-13 14:03:52,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-13 14:03:52,368 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-13 14:03:52,370 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/local.properties
+2019-08-13 14:03:52,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-13 14:03:52,372 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-13 14:03:52,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/local.properties
+2019-08-13 14:03:52,374 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-13 14:03:52,374 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-13 14:03:52,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-13 14:03:52,376 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-13 14:03:52,377 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 14:03:52,377 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 14:03:52,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 14:04:00,486 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-13 14:04:00,486 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-13 14:04:00,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-13 14:04:20,763 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :adapter:preBuild UP-TO-DATE
+> Task :adapter:preDebugBuild UP-TO-DATE
+> Task :adapter:checkDebugManifest
+> Task :adapter:generateDebugBuildConfig
+> Task :adapter:generateDebugResValues
+> Task :adapter:processDebugManifest
+> Task :adapter:prepareLintJar
+> Task :adapter:mergeDebugConsumerProguardFiles
+> Task :adapter:mergeDebugShaders
+> Task :adapter:compileDebugShaders
+> Task :adapter:generateDebugAssets
+> Task :adapter:packageDebugAssets
+> Task :adapter:packageDebugRenderscript NO-SOURCE
+> Task :adapter:prepareLintJarForPublish
+> Task :adapter:processDebugJavaRes NO-SOURCE
+> Task :adapter:mergeDebugJniLibFolders
+> Task :adapter:compileDebugAidl NO-SOURCE
+> Task :adapter:compileDebugRenderscript NO-SOURCE
+> Task :adapter:generateDebugResources
+> Task :adapter:packageDebugResources
+> Task :adapter:generateDebugRFile
+
+> Task :adapter:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/src/main/java/com/hirogakatageri/rekata/RekataAdapter.kt: (209, 13): Variable 'size' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/src/main/java/com/hirogakatageri/rekata/RekataConfig.kt: (59, 23): Parameter 'viewType' is never used
+
+> Task :adapter:generateDebugSources
+> Task :adapter:javaPreCompileDebug
+> Task :adapter:compileDebugJavaWithJavac
+> Task :adapter:extractDebugAnnotations
+> Task :adapter:transformResourcesWithMergeJavaResForDebug
+> Task :adapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :adapter:transformNativeLibsWithMergeJniLibsForDebug
+> Task :adapter:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :adapter:transformNativeLibsWithSyncJniLibsForDebug
+> Task :adapter:bundleDebugAar
+> Task :adapter:compileDebugSources
+> Task :adapter:assembleDebug
+> Task :adapter:preReleaseBuild UP-TO-DATE
+> Task :adapter:compileReleaseAidl NO-SOURCE
+> Task :adapter:compileReleaseRenderscript NO-SOURCE
+> Task :adapter:checkReleaseManifest
+> Task :adapter:generateReleaseBuildConfig
+> Task :adapter:generateReleaseResValues
+> Task :adapter:generateReleaseResources
+> Task :adapter:packageReleaseResources
+> Task :adapter:processReleaseManifest
+> Task :adapter:generateReleaseRFile
+
+> Task :adapter:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/src/main/java/com/hirogakatageri/rekata/RekataAdapter.kt: (209, 13): Variable 'size' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/adapter/src/main/java/com/hirogakatageri/rekata/RekataConfig.kt: (59, 23): Parameter 'viewType' is never used
+
+> Task :adapter:generateReleaseSources
+> Task :adapter:javaPreCompileRelease
+> Task :adapter:compileReleaseJavaWithJavac
+> Task :adapter:extractReleaseAnnotations
+> Task :adapter:mergeReleaseConsumerProguardFiles
+> Task :adapter:mergeReleaseShaders
+> Task :adapter:compileReleaseShaders
+> Task :adapter:generateReleaseAssets
+> Task :adapter:packageReleaseAssets
+> Task :adapter:packageReleaseRenderscript NO-SOURCE
+> Task :adapter:processReleaseJavaRes NO-SOURCE
+> Task :adapter:transformResourcesWithMergeJavaResForRelease
+> Task :adapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :adapter:mergeReleaseJniLibFolders
+> Task :adapter:transformNativeLibsWithMergeJniLibsForRelease
+> Task :adapter:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :adapter:transformNativeLibsWithSyncJniLibsForRelease
+> Task :adapter:bundleReleaseAar
+> Task :adapter:compileReleaseSources
+> Task :adapter:mergeReleaseResources
+> Task :adapter:verifyReleaseResources
+> Task :adapter:assembleRelease
+> Task :adapter:assemble
+> Task :adapter:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 19s
+46 actionable tasks: 46 executed
+
+2019-08-13 14:04:20,800 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 14:04:20,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 14:04:27,654 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-13 14:04:27,655 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-13 14:04:27,655 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-13 14:05:24,272 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :adapter:preBuild UP-TO-DATE
+> Task :adapter:preDebugBuild UP-TO-DATE
+> Task :adapter:compileDebugAidl NO-SOURCE
+> Task :adapter:checkDebugManifest UP-TO-DATE
+> Task :adapter:compileDebugRenderscript NO-SOURCE
+> Task :adapter:generateDebugBuildConfig UP-TO-DATE
+> Task :adapter:generateDebugResValues UP-TO-DATE
+> Task :adapter:generateDebugResources UP-TO-DATE
+> Task :adapter:processDebugManifest UP-TO-DATE
+> Task :adapter:packageDebugResources UP-TO-DATE
+> Task :adapter:generateDebugRFile UP-TO-DATE
+> Task :adapter:compileDebugKotlin UP-TO-DATE
+> Task :adapter:prepareLintJar UP-TO-DATE
+> Task :adapter:generateDebugSources UP-TO-DATE
+> Task :adapter:javaPreCompileDebug UP-TO-DATE
+> Task :adapter:compileDebugJavaWithJavac UP-TO-DATE
+> Task :adapter:bundleLibCompileDebug
+> Task :app:preBuild UP-TO-DATE
+> Task :adapter:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/src/main/java/com/hirogakatageri/rekata/demo/SampleActivity.kt: (36, 65): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/src/main/java/com/hirogakatageri/rekata/demo/SampleActivity.kt: (36, 71): Parameter 'data' is never used, could be renamed to _
+
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :adapter:mergeDebugShaders UP-TO-DATE
+> Task :adapter:compileDebugShaders UP-TO-DATE
+> Task :adapter:generateDebugAssets UP-TO-DATE
+> Task :adapter:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :adapter:processDebugJavaRes NO-SOURCE
+> Task :adapter:bundleLibResDebug
+> Task :adapter:bundleLibRuntimeDebug
+> Task :adapter:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :adapter:mergeDebugJniLibFolders UP-TO-DATE
+> Task :adapter:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :adapter:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :adapter:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :adapter:preReleaseBuild UP-TO-DATE
+> Task :adapter:compileReleaseAidl NO-SOURCE
+> Task :adapter:compileReleaseRenderscript NO-SOURCE
+> Task :adapter:checkReleaseManifest UP-TO-DATE
+> Task :adapter:generateReleaseBuildConfig UP-TO-DATE
+> Task :adapter:generateReleaseResValues UP-TO-DATE
+> Task :adapter:generateReleaseResources UP-TO-DATE
+> Task :adapter:packageReleaseResources UP-TO-DATE
+> Task :adapter:processReleaseManifest UP-TO-DATE
+> Task :adapter:generateReleaseRFile UP-TO-DATE
+> Task :adapter:compileReleaseKotlin UP-TO-DATE
+> Task :adapter:generateReleaseSources UP-TO-DATE
+> Task :adapter:javaPreCompileRelease UP-TO-DATE
+> Task :adapter:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :adapter:bundleLibCompileRelease
+> Task :app:preReleaseBuild
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :adapter:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:kaptGenerateStubsReleaseKotlin
+> Task :app:kaptReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/src/main/java/com/hirogakatageri/rekata/demo/SampleActivity.kt: (36, 65): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/src/main/java/com/hirogakatageri/rekata/demo/SampleActivity.kt: (36, 71): Parameter 'data' is never used, could be renamed to _
+
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :adapter:prepareLintJarForPublish UP-TO-DATE
+> Task :adapter:processReleaseJavaRes NO-SOURCE
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/81f334fa4bf474a78fe6339d4ca8d78c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :adapter:bundleLibResRelease
+> Task :adapter:bundleLibRuntimeRelease
+> Task :adapter:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :adapter:mergeReleaseShaders UP-TO-DATE
+> Task :adapter:compileReleaseShaders UP-TO-DATE
+> Task :adapter:generateReleaseAssets UP-TO-DATE
+> Task :adapter:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :adapter:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :adapter:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :adapter:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :adapter:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 55s
+99 actionable tasks: 67 executed, 32 up-to-date
+
+2019-08-13 14:05:24,370 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565679705660-0/src/app/build/outputs/apk/debug/app-debug.apk
