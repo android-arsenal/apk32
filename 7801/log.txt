@@ -1,42 +1,36 @@
-2019-07-31 12:09:37,815 INFO  DownloadService - Downloading "https://github.com/TecOrb-Developers/HRCarMarkerAnimation/archive/master.zip", attempt 3
-2019-07-31 12:09:55,240 INFO  DownloadService - Downloaded https://github.com/TecOrb-Developers/HRCarMarkerAnimation/archive/master.zip, attempt 3
-2019-07-31 12:09:55,241 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/master.zip": 24 MB
-2019-07-31 12:09:55,241 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-31 12:09:55,255 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/master.zip: true
-2019-07-31 12:09:55,255 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src'.
-2019-07-31 12:09:55,410 INFO  FullProcessService - Size of directory with sources: 25 MB
-2019-07-31 12:09:55,414 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src]
-2019-07-31 12:09:55,451 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/.git/
+2019-08-20 11:32:16,922 INFO  DownloadService - Downloading "https://github.com/TecOrb-Developers/HRCarMarkerAnimation/archive/master.zip", attempt 3
+2019-08-20 11:32:35,937 INFO  DownloadService - Downloaded https://github.com/TecOrb-Developers/HRCarMarkerAnimation/archive/master.zip, attempt 3
+2019-08-20 11:32:35,938 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/master.zip": 24 MB
+2019-08-20 11:32:35,938 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-20 11:32:35,945 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/master.zip: true
+2019-08-20 11:32:35,945 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src'.
+2019-08-20 11:32:36,075 INFO  FullProcessService - Size of directory with sources: 25 MB
+2019-08-20 11:32:36,075 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src]
+2019-08-20 11:32:36,126 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/.git/
 
-2019-07-31 12:09:55,469 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/gradlew
-2019-07-31 12:09:55,482 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/build.gradle
-2019-07-31 12:09:55,489 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/settings.gradle
-2019-07-31 12:09:55,492 INFO  ProjectBuildService - Remote scripts: none
-2019-07-31 12:09:55,492 INFO  ProjectFixService - Fixing project...
-2019-07-31 12:09:55,545 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-07-31 12:09:55,545 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-07-31 12:09:55,551 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-07-31 12:09:55,554 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 28.0.0-rc1 28.0.0-rc2
-2019-07-31 12:09:55,557 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-07-31 12:09:55,558 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-07-31 12:09:55,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/local.properties
-2019-07-31 12:09:55,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-31 12:09:55,571 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-31 12:09:55,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/local.properties
-2019-07-31 12:09:55,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-31 12:09:55,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-31 12:09:55,578 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/local.properties
-2019-07-31 12:09:55,583 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-31 12:09:55,584 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-31 12:09:55,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-31 12:09:55,586 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-07-31 12:09:55,587 INFO  ProjectFixService - Project was maybe fixed
-2019-07-31 12:09:55,589 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-31 12:09:55,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-31 12:10:06,242 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-07-31 12:10:06,243 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-31 12:10:06,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-31 12:10:18,872 ERROR SysUtils - Could not process external command
+2019-08-20 11:32:36,133 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/gradlew
+2019-08-20 11:32:36,143 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/build.gradle
+2019-08-20 11:32:36,150 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/settings.gradle
+2019-08-20 11:32:36,151 INFO  ProjectBuildService - Remote scripts: none
+2019-08-20 11:32:36,152 INFO  ProjectFixService - Fixing project...
+2019-08-20 11:32:36,167 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/local.properties
+2019-08-20 11:32:36,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-20 11:32:36,170 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-20 11:32:36,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/local.properties
+2019-08-20 11:32:36,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-20 11:32:36,174 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-20 11:32:36,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/local.properties
+2019-08-20 11:32:36,176 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-20 11:32:36,177 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-20 11:32:36,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-20 11:32:36,186 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-08-20 11:32:36,188 INFO  ProjectFixService - Project was maybe fixed
+2019-08-20 11:32:36,188 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-20 11:32:36,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-20 11:32:45,743 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-20 11:32:45,744 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-20 11:32:45,744 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-20 11:32:54,337 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,14 +51,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-31 12:10:18,872 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-20 11:32:54,337 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
@@ -86,12 +80,12 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -133,12 +127,12 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/google-services.json
 	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:80)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
@@ -182,16 +176,16 @@ Caused by: org.gradle.api.GradleException: File google-services.json is missing.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 12s
+BUILD FAILED in 8s
 6 actionable tasks: 6 executed
 
-2019-07-31 12:10:18,883 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-31 12:10:18,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-31 12:10:20,591 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-31 12:10:20,591 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-31 12:10:20,591 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-31 12:10:20,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-31 12:10:22,448 ERROR SysUtils - Could not process external command
+2019-08-20 11:32:54,343 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-20 11:32:54,343 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-20 11:32:56,192 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-20 11:32:56,192 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-20 11:32:56,192 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-20 11:32:56,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-20 11:32:58,821 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -212,24 +206,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-31 12:10:22,448 INFO  SysUtils - 
+2019-08-20 11:32:58,821 INFO  SysUtils - 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/hrmovecarmarkeranimation/build.gradle' is not part of the build defined by settings file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/settings.gradle'. If this is an unrelated build, it must have its own settings file.
 	at org.gradle.initialization.AbstractProjectSpec.selectProject(AbstractProjectSpec.java:40)
 	at org.gradle.initialization.DefaultSettingsLoader.setDefaultProject(DefaultSettingsLoader.java:88)
 	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:52)
@@ -310,14 +304,14 @@ org.gradle.api.InvalidUserDataException: Build file '/private/var/folders/bq/vtz
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1s
+BUILD FAILED in 2s
 
-2019-07-31 12:10:22,460 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-31 12:10:22,461 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-31 12:10:30,306 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-07-31 12:10:30,307 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-31 12:10:30,307 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-31 12:10:37,574 ERROR SysUtils - Could not process external command
+2019-08-20 11:32:58,831 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-20 11:32:58,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-20 11:33:07,532 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-08-20 11:33:07,533 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-20 11:33:07,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-20 11:33:16,137 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -338,14 +332,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-31 12:10:37,574 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-20 11:33:16,137 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
@@ -367,12 +361,12 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':app:processDebugGoogleServices'.
 > File google-services.json is missing. The Google Services Plugin cannot function without it. 
    Searched Location: 
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/google-services.json
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -414,12 +408,12 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:pro
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.api.GradleException: File google-services.json is missing. The Google Services Plugin cannot function without it. 
  Searched Location: 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564549777735-0/src/HRCarMarkerAnimation-master/app/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnull/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/debug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/src/nullnullDebug/google-services.json
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566275536919-0/src/HRCarMarkerAnimation-master/app/google-services.json
 	at com.google.gms.googleservices.GoogleServicesTask.action(GoogleServicesTask.java:80)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
@@ -463,8 +457,8 @@ Caused by: org.gradle.api.GradleException: File google-services.json is missing.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 8s
 6 actionable tasks: 1 executed, 5 up-to-date
 
-2019-07-31 12:10:37,583 ERROR FullProcessService - Project build has not produced APK file
-2019-07-31 12:10:37,590 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-20 11:33:16,145 ERROR FullProcessService - Project build has not produced APK file
+2019-08-20 11:33:16,153 ERROR FullProcessService - Could not find generated or existed APK file
