@@ -1,36 +1,36 @@
-2019-08-09 12:05:25,978 INFO  DownloadService - Downloading "https://github.com/v2rc/Badger/archive/master.zip", attempt 3
-2019-08-09 12:05:28,213 INFO  DownloadService - Downloaded https://github.com/v2rc/Badger/archive/master.zip, attempt 3
-2019-08-09 12:05:28,213 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/master.zip": 64 KB
-2019-08-09 12:05:28,213 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-09 12:05:28,214 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/master.zip: true
-2019-08-09 12:05:28,214 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src'.
-2019-08-09 12:05:28,233 INFO  FullProcessService - Size of directory with sources: 106 KB
-2019-08-09 12:05:28,233 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src]
-2019-08-09 12:05:28,283 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/.git/
+2019-08-29 10:38:32,346 INFO  DownloadService - Downloading "https://github.com/v2rc/Badger/archive/master.zip", attempt 3
+2019-08-29 10:38:34,382 INFO  DownloadService - Downloaded https://github.com/v2rc/Badger/archive/master.zip, attempt 3
+2019-08-29 10:38:34,382 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/master.zip": 64 KB
+2019-08-29 10:38:34,382 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-29 10:38:34,388 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/master.zip: true
+2019-08-29 10:38:34,388 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src'.
+2019-08-29 10:38:34,408 INFO  FullProcessService - Size of directory with sources: 105 KB
+2019-08-29 10:38:34,408 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src]
+2019-08-29 10:38:34,433 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/.git/
 
-2019-08-09 12:05:28,286 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-08-09 12:05:28,286 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-08-09 12:05:28,289 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/library/build.gradle
-2019-08-09 12:05:28,292 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/settings.gradle
-2019-08-09 12:05:28,292 INFO  ProjectBuildService - Remote scripts: none
-2019-08-09 12:05:28,292 INFO  ProjectFixService - Fixing project...
-2019-08-09 12:05:28,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/local.properties
-2019-08-09 12:05:28,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-09 12:05:28,300 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-09 12:05:28,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/example/local.properties
-2019-08-09 12:05:28,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-09 12:05:28,304 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-09 12:05:28,305 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/library/local.properties
-2019-08-09 12:05:28,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-09 12:05:28,307 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-08-09 12:05:28,308 INFO  ProjectFixService - Project was maybe fixed
-2019-08-09 12:05:28,308 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:05:28,309 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:05:28,331 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-08-09 12:05:28,331 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:05:28,331 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:05:28,331 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:05:28,338 ERROR SysUtils - Could not process external command
+2019-08-29 10:38:34,435 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-08-29 10:38:34,435 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-08-29 10:38:34,438 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/library/build.gradle
+2019-08-29 10:38:34,440 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/settings.gradle
+2019-08-29 10:38:34,440 INFO  ProjectBuildService - Remote scripts: none
+2019-08-29 10:38:34,440 INFO  ProjectFixService - Fixing project...
+2019-08-29 10:38:34,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/local.properties
+2019-08-29 10:38:34,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:38:34,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:38:34,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/example/local.properties
+2019-08-29 10:38:34,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:38:34,448 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:38:34,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/library/local.properties
+2019-08-29 10:38:34,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:38:34,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-08-29 10:38:34,451 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 10:38:34,451 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 10:38:34,452 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 10:38:34,459 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-08-29 10:38:34,459 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 10:38:34,459 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 10:38:34,459 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 10:38:34,464 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -55,7 +55,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -68,14 +68,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-08-09 12:05:28,339 INFO  SysUtils - 
-2019-08-09 12:05:28,342 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:05:28,342 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:05:28,347 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-08-09 12:05:28,347 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:05:28,347 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:05:28,347 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:05:28,352 ERROR SysUtils - Could not process external command
+2019-08-29 10:38:34,464 INFO  SysUtils - 
+2019-08-29 10:38:34,466 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 10:38:34,466 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 10:38:34,471 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-08-29 10:38:34,471 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 10:38:34,471 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 10:38:34,471 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 10:38:34,475 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -100,7 +100,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -113,14 +113,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-08-09 12:05:28,352 INFO  SysUtils - 
-2019-08-09 12:05:28,354 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:05:28,355 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:05:28,359 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-08-09 12:05:28,359 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:05:28,359 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:05:28,360 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327125974-0/src/Badger-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:05:28,364 ERROR SysUtils - Could not process external command
+2019-08-29 10:38:34,475 INFO  SysUtils - 
+2019-08-29 10:38:34,477 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 10:38:34,477 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 10:38:34,482 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-08-29 10:38:34,482 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-29 10:38:34,482 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-29 10:38:34,482 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049912343-0/src/Badger-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-29 10:38:34,486 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -145,7 +145,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -158,6 +158,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-08-09 12:05:28,364 INFO  SysUtils - 
-2019-08-09 12:05:28,367 ERROR FullProcessService - Project build has not produced APK file
-2019-08-09 12:05:28,369 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-29 10:38:34,486 INFO  SysUtils - 
+2019-08-29 10:38:34,488 ERROR FullProcessService - Project build has not produced APK file
+2019-08-29 10:38:34,490 ERROR FullProcessService - Could not find generated or existed APK file
