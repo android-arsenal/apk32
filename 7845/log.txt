@@ -1,0 +1,190 @@
+2019-09-01 21:56:19,388 INFO  DownloadService - Downloading "https://github.com/farzadfarazmand/EmptyStateLibrary/archive/master.zip", attempt 3
+2019-09-01 21:56:22,717 INFO  DownloadService - Downloaded https://github.com/farzadfarazmand/EmptyStateLibrary/archive/master.zip, attempt 3
+2019-09-01 21:56:22,717 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/master.zip": 658 KB
+2019-09-01 21:56:22,718 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 21:56:22,726 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/master.zip: true
+2019-09-01 21:56:22,726 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src'.
+2019-09-01 21:56:22,763 INFO  FullProcessService - Size of directory with sources: 901 KB
+2019-09-01 21:56:22,766 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src]
+2019-09-01 21:56:22,796 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/.git/
+
+2019-09-01 21:56:22,811 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/gradlew
+2019-09-01 21:56:22,820 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/emptystate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/build.gradle
+2019-09-01 21:56:22,825 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/emptystate/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/settings.gradle
+2019-09-01 21:56:22,827 INFO  ProjectBuildService - Remote scripts: none
+2019-09-01 21:56:22,828 INFO  ProjectFixService - Fixing project...
+2019-09-01 21:56:22,865 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-09-01 21:56:22,865 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-09-01 21:56:22,868 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2019-09-01 21:56:22,872 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 28.0.0-rc1 28.0.0-rc2
+2019-09-01 21:56:22,875 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-09-01 21:56:22,876 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2019-09-01 21:56:22,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/local.properties
+2019-09-01 21:56:22,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-01 21:56:22,886 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-01 21:56:22,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/emptystate/local.properties
+2019-09-01 21:56:22,890 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/emptystate/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-01 21:56:22,890 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/emptystate/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-01 21:56:22,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/local.properties
+2019-09-01 21:56:22,897 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-01 21:56:22,898 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-01 21:56:22,900 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-01 21:56:22,900 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-09-01 21:56:22,901 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 21:56:22,903 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:56:22,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:56:30,781 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-01 21:56:30,782 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-01 21:56:30,782 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-01 21:57:29,887 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :demo:preBuild UP-TO-DATE
+> Task :emptystate:preBuild UP-TO-DATE
+> Task :emptystate:preDebugBuild UP-TO-DATE
+> Task :emptystate:checkDebugManifest
+> Task :emptystate:processDebugManifest
+> Task :emptystate:packageDebugRenderscript NO-SOURCE
+> Task :emptystate:generateDebugResValues
+> Task :emptystate:generateDebugBuildConfig
+> Task :emptystate:prepareLintJar
+> Task :demo:prepareLintJar
+> Task :emptystate:compileDebugRenderscript NO-SOURCE
+> Task :emptystate:compileDebugAidl NO-SOURCE
+> Task :demo:preDebugBuild
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugRenderscript NO-SOURCE
+> Task :demo:checkDebugManifest
+> Task :demo:generateDebugBuildConfig
+> Task :demo:mainApkListPersistenceDebug
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :emptystate:generateDebugResources
+> Task :emptystate:packageDebugResources
+> Task :demo:mergeDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:processDebugManifest
+> Task :emptystate:generateDebugRFile
+> Task :demo:processDebugResources
+> Task :emptystate:compileDebugKotlin
+> Task :emptystate:generateDebugSources
+> Task :emptystate:javaPreCompileDebug
+> Task :emptystate:compileDebugJavaWithJavac
+> Task :emptystate:bundleLibCompileDebug
+> Task :demo:compileDebugKotlin
+> Task :demo:generateDebugSources
+> Task :demo:javaPreCompileDebug
+> Task :demo:compileDebugJavaWithJavac
+> Task :demo:compileDebugSources
+> Task :demo:mergeDebugShaders
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
+> Task :emptystate:mergeDebugShaders
+> Task :emptystate:compileDebugShaders
+> Task :emptystate:generateDebugAssets
+> Task :emptystate:packageDebugAssets
+> Task :demo:mergeDebugAssets
+> Task :emptystate:processDebugJavaRes NO-SOURCE
+> Task :emptystate:bundleLibResDebug
+> Task :emptystate:bundleLibRuntimeDebug
+> Task :emptystate:createFullJarDebug
+> Task :demo:checkDebugDuplicateClasses
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :demo:validateSigningDebug
+> Task :demo:signingConfigWriterDebug
+> Task :demo:mergeDebugJniLibFolders
+> Task :emptystate:mergeDebugJniLibFolders
+> Task :emptystate:transformNativeLibsWithMergeJniLibsForDebug
+> Task :emptystate:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :emptystate:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo:processDebugJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForDebug
+> Task :demo:extractProguardFiles
+> Task :emptystate:preReleaseBuild UP-TO-DATE
+> Task :emptystate:checkReleaseManifest
+> Task :emptystate:processReleaseManifest
+> Task :demo:preReleaseBuild
+> Task :emptystate:compileReleaseAidl NO-SOURCE
+> Task :demo:compileReleaseAidl NO-SOURCE
+> Task :emptystate:packageReleaseRenderscript NO-SOURCE
+> Task :demo:compileReleaseRenderscript NO-SOURCE
+> Task :demo:checkReleaseManifest
+> Task :demo:generateReleaseBuildConfig
+> Task :demo:mainApkListPersistenceRelease
+> Task :demo:generateReleaseResValues
+> Task :demo:generateReleaseResources
+> Task :emptystate:compileReleaseRenderscript NO-SOURCE
+> Task :emptystate:generateReleaseResValues
+> Task :emptystate:generateReleaseResources
+> Task :emptystate:packageReleaseResources
+> Task :demo:mergeReleaseResources
+> Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:processReleaseManifest
+> Task :emptystate:generateReleaseRFile
+> Task :demo:processReleaseResources
+> Task :emptystate:generateReleaseBuildConfig
+> Task :emptystate:compileReleaseKotlin
+> Task :demo:mergeExtDexDebug
+> Task :demo:mergeDexDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
+> Task :emptystate:generateReleaseSources
+> Task :emptystate:javaPreCompileRelease
+> Task :emptystate:compileReleaseJavaWithJavac
+> Task :emptystate:bundleLibCompileRelease
+> Task :demo:compileReleaseKotlin
+> Task :demo:generateReleaseSources
+> Task :demo:javaPreCompileRelease
+> Task :demo:compileReleaseJavaWithJavac
+> Task :demo:compileReleaseSources
+> Task :emptystate:prepareLintJarForPublish
+
+> Task :demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/33f5438726d6fb39cab7c3095f98654c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :demo:mergeReleaseShaders
+> Task :demo:compileReleaseShaders
+> Task :demo:generateReleaseAssets
+> Task :emptystate:mergeReleaseShaders
+> Task :emptystate:compileReleaseShaders
+> Task :emptystate:generateReleaseAssets
+> Task :emptystate:packageReleaseAssets
+> Task :demo:mergeReleaseAssets
+> Task :demo:signingConfigWriterRelease
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Task :emptystate:processReleaseJavaRes NO-SOURCE
+> Task :emptystate:bundleLibResRelease
+> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Task :emptystate:bundleLibRuntimeRelease
+> Task :emptystate:mergeReleaseConsumerProguardFiles
+D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+
+> Task :demo:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
+
+
+> Task :demo:mergeReleaseJniLibFolders
+> Task :emptystate:mergeReleaseJniLibFolders
+> Task :emptystate:transformNativeLibsWithMergeJniLibsForRelease
+> Task :emptystate:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :emptystate:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo:packageRelease
+> Task :demo:assembleRelease
+> Task :demo:assemble
+> Task :demo:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 58s
+93 actionable tasks: 93 executed
+
+2019-09-01 21:57:29,975 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349779303-0/src/EmptyStateLibrary-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

@@ -1,214 +1,188 @@
-2019-08-11 20:30:50,619 INFO  DownloadService - Downloading "https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip", attempt 3
-2019-08-11 20:30:51,293 INFO  DownloadService - Downloaded https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip, attempt 3
-2019-08-11 20:30:51,293 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/master.zip": 197 KB
-2019-08-11 20:30:51,293 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 20:30:51,295 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/master.zip: true
-2019-08-11 20:30:51,295 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src'.
-2019-08-11 20:30:51,344 INFO  FullProcessService - Size of directory with sources: 288 KB
-2019-08-11 20:30:51,344 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src]
-2019-08-11 20:30:51,363 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/.git/
+2019-09-01 21:58:38,233 INFO  DownloadService - Downloading "https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip", attempt 3
+2019-09-01 21:58:39,064 INFO  DownloadService - Downloaded https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip, attempt 3
+2019-09-01 21:58:39,064 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/master.zip": 271 KB
+2019-09-01 21:58:39,064 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 21:58:39,070 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/master.zip: true
+2019-09-01 21:58:39,070 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src'.
+2019-09-01 21:58:39,125 INFO  FullProcessService - Size of directory with sources: 454 KB
+2019-09-01 21:58:39,125 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src]
+2019-09-01 21:58:39,141 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/.git/
 
-2019-08-11 20:30:51,367 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/gradlew
-2019-08-11 20:30:51,371 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/build.gradle
-2019-08-11 20:30:51,375 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/settings.gradle
-2019-08-11 20:30:51,376 INFO  ProjectBuildService - Remote scripts: none
-2019-08-11 20:30:51,376 INFO  ProjectFixService - Fixing project...
-2019-08-11 20:30:51,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/local.properties
-2019-08-11 20:30:51,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 20:30:51,388 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 20:30:51,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/smartadapter/local.properties
-2019-08-11 20:30:51,391 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 20:30:51,391 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 20:30:51,393 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/local.properties
-2019-08-11 20:30:51,393 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-11 20:30:51,394 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-11 20:30:51,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-11 20:30:51,396 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-11 20:30:51,397 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 20:30:51,397 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 20:30:51,397 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 20:30:58,134 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-08-11 20:30:58,134 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-11 20:30:58,134 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-11 20:31:44,233 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-01 21:58:39,146 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/gradlew
+2019-09-01 21:58:39,151 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle
+2019-09-01 21:58:39,156 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/maven-release-script.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/maven-release-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/settings.gradle
+2019-09-01 21:58:39,159 INFO  ProjectBuildService - Remote scripts: none
+2019-09-01 21:58:39,159 INFO  ProjectFixService - Fixing project...
+2019-09-01 21:58:39,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/local.properties
+2019-09-01 21:58:39,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:58:39,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:58:39,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/local.properties
+2019-09-01 21:58:39,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:58:39,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:58:39,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/local.properties
+2019-09-01 21:58:39,192 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-01 21:58:39,192 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-01 21:58:39,195 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-01 21:58:39,195 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-01 21:58:39,196 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 21:58:39,196 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 21:58:39,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 21:58:51,466 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-09-01 21:58:51,466 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-01 21:58:51,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-01 22:00:24,305 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample
-WARNING: The following project options are deprecated and have been removed: 
-android.enableAapt2
-This property has no effect, AAPT2 is now always used.
-
-
 WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-
-> Configure project :smartadapter
-WARNING: The following project options are deprecated and have been removed: 
-android.enableAapt2
-This property has no effect, AAPT2 is now always used.
-
-
+It will be removed soon. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
 
 > Task :sample:preBuild UP-TO-DATE
-> Task :smartadapter:preBuild UP-TO-DATE
-> Task :smartadapter:preDebugBuild UP-TO-DATE
-> Task :smartadapter:checkDebugManifest
-> Task :smartadapter:processDebugManifest
-> Task :sample:preDebugBuild
-> Task :smartadapter:compileDebugAidl NO-SOURCE
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :smartadapter:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :smartadapter:compileDebugRenderscript NO-SOURCE
-> Task :smartadapter:generateDebugResValues
-> Task :smartadapter:generateDebugResources
-> Task :smartadapter:packageDebugResources
-> Task :sample:mergeDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
-> Task :smartadapter:generateDebugRFile
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
-> Task :smartadapter:generateDebugBuildConfig
-> Task :smartadapter:prepareLintJar
-> Task :smartadapter:generateDebugSources
-> Task :smartadapter:javaPreCompileDebug
-> Task :smartadapter:compileDebugJavaWithJavac
-> Task :smartadapter:bundleLibCompileDebug
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (69, 100): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (69, 106): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (79, 100): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (79, 106): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/viewholder/NestedRecyclerViewHolder.kt: (32, 53): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/viewholder/NestedRecyclerViewHolder.kt: (62, 53): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/CustomViewEventActivity.kt: (35, 41): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectItemsActivity.kt: (21, 5): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (60, 40): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 61): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 67): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (53, 60): Parameter 'direction' is never used, could be renamed to _
 
-> Task :sample:prepareLintJar
-> Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
+
 > Task :sample:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/extension/PreCachingLinearLayoutManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :sample:compileDebugSources
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
-> Task :smartadapter:mergeDebugShaders
-> Task :smartadapter:compileDebugShaders
-> Task :smartadapter:generateDebugAssets
-> Task :smartadapter:packageDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
+> Task :sample:desugarDebugFileDependencies
+> Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
-> Task :sample:checkDebugDuplicateClasses
-> Task :smartadapter:bundleLibRuntimeDebug
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :sample:transformDexArchiveWithDexMergerForDebug
 > Task :sample:mergeDebugJniLibFolders
-> Task :smartadapter:processDebugJavaRes NO-SOURCE
-> Task :smartadapter:bundleLibResDebug
-> Task :smartadapter:mergeDebugJniLibFolders
-> Task :smartadapter:transformNativeLibsWithMergeJniLibsForDebug
-> Task :smartadapter:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :smartadapter:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:extractProguardFiles
-> Task :smartadapter:preReleaseBuild UP-TO-DATE
-> Task :smartadapter:checkReleaseManifest
-> Task :smartadapter:processReleaseManifest
 > Task :sample:preReleaseBuild
-> Task :smartadapter:compileReleaseAidl NO-SOURCE
 > Task :sample:compileReleaseAidl NO-SOURCE
-> Task :smartadapter:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :smartadapter:compileReleaseRenderscript NO-SOURCE
-> Task :smartadapter:generateReleaseResValues
-> Task :smartadapter:generateReleaseResources
-> Task :smartadapter:packageReleaseResources
-> Task :sample:mergeReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
-> Task :smartadapter:generateReleaseRFile
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
-> Task :smartadapter:generateReleaseBuildConfig
-> Task :smartadapter:generateReleaseSources
-> Task :smartadapter:javaPreCompileRelease
-> Task :smartadapter:compileReleaseJavaWithJavac
-> Task :smartadapter:bundleLibCompileRelease
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (69, 100): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (69, 106): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (79, 100): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/MovieCategoryDetailsActivity.kt: (79, 106): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/viewholder/NestedRecyclerViewHolder.kt: (32, 53): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/src/main/java/com/example/smartrecycleradapter/viewholder/NestedRecyclerViewHolder.kt: (62, 53): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/CustomViewEventActivity.kt: (35, 41): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectItemsActivity.kt: (21, 5): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (60, 40): Parameter 'item' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 21): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 27): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 61): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 67): Parameter 'actionId' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (53, 60): Parameter 'direction' is never used, could be renamed to _
 
-> Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
+
 > Task :sample:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/extension/PreCachingLinearLayoutManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :sample:compileReleaseSources
-> Task :smartadapter:prepareLintJarForPublish
+> Task :sample:prepareLintJar
+> Task :sample:mergeReleaseShaders
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8649c54952f4286bc18f94b213704b05/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f5df754471e63f0c712ce25497d6ff6d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :sample:mergeReleaseShaders
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
-> Task :smartadapter:mergeReleaseShaders
-> Task :smartadapter:compileReleaseShaders
-> Task :smartadapter:generateReleaseAssets
-> Task :smartadapter:packageReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :sample:signingConfigWriterRelease
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :smartadapter:processReleaseJavaRes NO-SOURCE
-> Task :smartadapter:bundleLibResRelease
-> Task :sample:transformResourcesWithMergeJavaResForRelease
-> Task :smartadapter:bundleLibRuntimeRelease
-> Task :smartadapter:mergeReleaseConsumerProguardFiles
-D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
-  <init>();
-}` uses extends but actually matches implements.
-
-> Task :sample:transformClassesAndResourcesWithR8ForRelease
-R8 is the new Android code shrinker. If you experience any issues, please file a bug at
-https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
-disable R8 by updating gradle.properties with 'android.enableR8=false'.
-Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
-
-
 > Task :sample:mergeReleaseJniLibFolders
-> Task :smartadapter:mergeReleaseJniLibFolders
-> Task :smartadapter:transformNativeLibsWithMergeJniLibsForRelease
-> Task :smartadapter:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :smartadapter:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeReleaseGeneratedProguardFiles
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:transformClassesAndResourcesWithR8ForRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:assemble
 > Task :sample:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 45s
-90 actionable tasks: 90 executed
+BUILD SUCCESSFUL in 1m 32s
+51 actionable tasks: 51 executed
 
-2019-08-11 20:31:44,304 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530250614-0/src/smart-recycler-adapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-09-01 22:00:24,381 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
