@@ -1,0 +1,171 @@
+2019-09-03 11:07:23,417 INFO  DownloadService - Downloading "https://github.com/lopspower/GradientView/archive/master.zip", attempt 3
+2019-09-03 11:07:33,827 INFO  DownloadService - Downloaded https://github.com/lopspower/GradientView/archive/master.zip, attempt 3
+2019-09-03 11:07:33,827 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/master.zip": 7 MB
+2019-09-03 11:07:33,827 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-03 11:07:33,828 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/master.zip: true
+2019-09-03 11:07:33,828 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src'.
+2019-09-03 11:07:33,883 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-09-03 11:07:33,883 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src]
+2019-09-03 11:07:33,909 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/.git/
+
+2019-09-03 11:07:33,913 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradlew
+2019-09-03 11:07:33,915 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/build.gradle
+2019-09-03 11:07:33,917 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview/build.gradle
+2019-09-03 11:07:33,920 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 11:07:33,921 INFO  ProjectFixService - Fixing project...
+2019-09-03 11:07:33,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/local.properties
+2019-09-03 11:07:33,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 11:07:33,929 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 11:07:33,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview/local.properties
+2019-09-03 11:07:33,932 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 11:07:33,932 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 11:07:33,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/local.properties
+2019-09-03 11:07:33,934 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-03 11:07:33,934 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-03 11:07:33,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-03 11:07:33,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-03 11:07:33,938 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 11:07:33,938 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 11:07:33,939 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 11:07:41,432 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-03 11:07:41,432 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-03 11:07:41,433 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-03 11:08:23,671 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :gradientview:preBuild UP-TO-DATE
+> Task :gradientview:preDebugBuild UP-TO-DATE
+> Task :gradientview:compileDebugAidl NO-SOURCE
+> Task :gradientview:compileDebugRenderscript NO-SOURCE
+> Task :gradientview:checkDebugManifest
+> Task :gradientview:generateDebugBuildConfig
+> Task :gradientview:generateDebugResValues
+> Task :gradientview:generateDebugResources
+> Task :gradientview:packageDebugResources
+> Task :gradientview:processDebugManifest
+> Task :gradientview:generateDebugRFile
+> Task :gradientview:compileDebugKotlin
+> Task :gradientview:prepareLintJar
+> Task :gradientview:generateDebugSources
+> Task :gradientview:javaPreCompileDebug
+> Task :gradientview:compileDebugJavaWithJavac
+> Task :gradientview:bundleLibCompileDebug
+> Task :gradientview-example:preBuild UP-TO-DATE
+> Task :gradientview-example:preDebugBuild
+> Task :gradientview-example:compileDebugAidl NO-SOURCE
+> Task :gradientview:packageDebugRenderscript NO-SOURCE
+> Task :gradientview-example:compileDebugRenderscript NO-SOURCE
+> Task :gradientview-example:checkDebugManifest
+> Task :gradientview-example:generateDebugBuildConfig
+> Task :gradientview-example:mainApkListPersistenceDebug
+> Task :gradientview-example:generateDebugResValues
+> Task :gradientview-example:generateDebugResources
+> Task :gradientview-example:mergeDebugResources
+> Task :gradientview-example:createDebugCompatibleScreenManifests
+> Task :gradientview-example:processDebugManifest
+> Task :gradientview-example:processDebugResources
+> Task :gradientview-example:compileDebugKotlin
+> Task :gradientview-example:prepareLintJar
+> Task :gradientview-example:generateDebugSources
+> Task :gradientview-example:javaPreCompileDebug
+> Task :gradientview-example:compileDebugJavaWithJavac
+> Task :gradientview-example:compileDebugSources
+> Task :gradientview:mergeDebugShaders
+> Task :gradientview:compileDebugShaders
+> Task :gradientview:generateDebugAssets
+> Task :gradientview:packageDebugAssets
+> Task :gradientview-example:mergeDebugShaders
+> Task :gradientview-example:compileDebugShaders
+> Task :gradientview-example:generateDebugAssets
+> Task :gradientview-example:mergeDebugAssets
+> Task :gradientview-example:validateSigningDebug
+> Task :gradientview-example:signingConfigWriterDebug
+> Task :gradientview-example:checkDebugDuplicateClasses
+> Task :gradientview:bundleLibRuntimeDebug
+> Task :gradientview-example:transformClassesWithDexBuilderForDebug
+> Task :gradientview-example:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :gradientview-example:transformDexArchiveWithDexMergerForDebug
+> Task :gradientview:processDebugJavaRes NO-SOURCE
+> Task :gradientview:bundleLibResDebug
+> Task :gradientview:mergeDebugJniLibFolders
+> Task :gradientview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :gradientview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :gradientview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :gradientview-example:mergeDebugJniLibFolders
+> Task :gradientview-example:transformNativeLibsWithMergeJniLibsForDebug
+> Task :gradientview-example:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :gradientview-example:processDebugJavaRes NO-SOURCE
+> Task :gradientview-example:transformResourcesWithMergeJavaResForDebug
+> Task :gradientview-example:packageDebug
+> Task :gradientview-example:assembleDebug
+> Task :gradientview:preReleaseBuild UP-TO-DATE
+> Task :gradientview:compileReleaseAidl NO-SOURCE
+> Task :gradientview:compileReleaseRenderscript NO-SOURCE
+> Task :gradientview:checkReleaseManifest
+> Task :gradientview:generateReleaseBuildConfig
+> Task :gradientview:generateReleaseResValues
+> Task :gradientview:generateReleaseResources
+> Task :gradientview:packageReleaseResources
+> Task :gradientview:processReleaseManifest
+> Task :gradientview:generateReleaseRFile
+> Task :gradientview:compileReleaseKotlin
+> Task :gradientview:generateReleaseSources
+> Task :gradientview:javaPreCompileRelease
+> Task :gradientview:compileReleaseJavaWithJavac
+> Task :gradientview:bundleLibCompileRelease
+> Task :gradientview-example:preReleaseBuild
+> Task :gradientview-example:compileReleaseAidl NO-SOURCE
+> Task :gradientview:packageReleaseRenderscript NO-SOURCE
+> Task :gradientview-example:compileReleaseRenderscript NO-SOURCE
+> Task :gradientview-example:checkReleaseManifest
+> Task :gradientview-example:generateReleaseBuildConfig
+> Task :gradientview-example:mainApkListPersistenceRelease
+> Task :gradientview-example:generateReleaseResValues
+> Task :gradientview-example:generateReleaseResources
+> Task :gradientview-example:mergeReleaseResources
+> Task :gradientview-example:createReleaseCompatibleScreenManifests
+> Task :gradientview-example:processReleaseManifest
+> Task :gradientview-example:processReleaseResources
+> Task :gradientview-example:compileReleaseKotlin
+> Task :gradientview-example:generateReleaseSources
+> Task :gradientview-example:javaPreCompileRelease
+> Task :gradientview-example:compileReleaseJavaWithJavac
+> Task :gradientview-example:compileReleaseSources
+> Task :gradientview:prepareLintJarForPublish
+> Task :gradientview-example:lintVitalRelease
+> Task :gradientview:mergeReleaseShaders
+> Task :gradientview:compileReleaseShaders
+> Task :gradientview:generateReleaseAssets
+> Task :gradientview:packageReleaseAssets
+> Task :gradientview-example:mergeReleaseShaders
+> Task :gradientview-example:compileReleaseShaders
+> Task :gradientview-example:generateReleaseAssets
+> Task :gradientview-example:mergeReleaseAssets
+> Task :gradientview-example:signingConfigWriterRelease
+> Task :gradientview-example:checkReleaseDuplicateClasses
+> Task :gradientview:bundleLibRuntimeRelease
+> Task :gradientview-example:transformClassesWithDexBuilderForRelease
+> Task :gradientview-example:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :gradientview-example:transformDexArchiveWithDexMergerForRelease
+> Task :gradientview:processReleaseJavaRes NO-SOURCE
+> Task :gradientview:bundleLibResRelease
+> Task :gradientview:mergeReleaseJniLibFolders
+> Task :gradientview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :gradientview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :gradientview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :gradientview-example:mergeReleaseJniLibFolders
+> Task :gradientview-example:transformNativeLibsWithMergeJniLibsForRelease
+> Task :gradientview-example:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :gradientview-example:processReleaseJavaRes NO-SOURCE
+> Task :gradientview-example:transformResourcesWithMergeJavaResForRelease
+> Task :gradientview-example:packageRelease
+> Task :gradientview-example:assembleRelease
+> Task :gradientview-example:assemble
+> Task :gradientview-example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 41s
+93 actionable tasks: 93 executed
+
+2019-09-03 11:08:23,734 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483643414-0/src/GradientView-master/gradientview-example/build/outputs/apk/release/gradientview-example-release-unsigned.apk
