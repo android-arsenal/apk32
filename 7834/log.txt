@@ -1,40 +1,40 @@
-2019-08-29 10:37:29,280 INFO  DownloadService - Downloading "https://github.com/pratikvar/Humanizer/archive/master.zip", attempt 3
-2019-08-29 10:37:31,226 INFO  DownloadService - Downloaded https://github.com/pratikvar/Humanizer/archive/master.zip, attempt 3
-2019-08-29 10:37:31,227 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/master.zip": 144 KB
-2019-08-29 10:37:31,227 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-29 10:37:31,228 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/master.zip: true
-2019-08-29 10:37:31,228 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src'.
-2019-08-29 10:37:31,246 INFO  FullProcessService - Size of directory with sources: 196 KB
-2019-08-29 10:37:31,247 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src]
-2019-08-29 10:37:31,275 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/.git/
+2019-09-07 14:38:53,279 INFO  DownloadService - Downloading "https://github.com/pratikvar/Humanizer/archive/master.zip", attempt 3
+2019-09-07 14:38:55,201 INFO  DownloadService - Downloaded https://github.com/pratikvar/Humanizer/archive/master.zip, attempt 3
+2019-09-07 14:38:55,201 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/master.zip": 144 KB
+2019-09-07 14:38:55,201 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 14:38:55,207 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/master.zip: true
+2019-09-07 14:38:55,207 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src'.
+2019-09-07 14:38:55,225 INFO  FullProcessService - Size of directory with sources: 196 KB
+2019-09-07 14:38:55,226 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src]
+2019-09-07 14:38:55,247 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/.git/
 
-2019-08-29 10:37:31,278 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/gradlew
-2019-08-29 10:37:31,281 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/humanizer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/build.gradle
-2019-08-29 10:37:31,283 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/humanizer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/settings.gradle
-2019-08-29 10:37:31,288 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle", attempt 3
-2019-08-29 10:37:32,233 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle, attempt 3
-2019-08-29 10:37:32,234 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle", attempt 3
-2019-08-29 10:37:32,482 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle, attempt 3
-2019-08-29 10:37:32,483 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle
-2019-08-29 10:37:32,483 INFO  ProjectFixService - Fixing project...
-2019-08-29 10:37:32,492 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/local.properties
-2019-08-29 10:37:32,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-29 10:37:32,494 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-29 10:37:32,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/humanizer/local.properties
-2019-08-29 10:37:32,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/humanizer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-29 10:37:32,498 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/humanizer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-29 10:37:32,499 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/local.properties
-2019-08-29 10:37:32,499 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-29 10:37:32,500 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-29 10:37:32,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-29 10:37:32,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-29 10:37:32,502 INFO  ProjectFixService - Project was maybe fixed
-2019-08-29 10:37:32,503 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-29 10:37:32,503 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-29 10:37:38,804 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-29 10:37:38,804 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-29 10:37:38,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-29 10:37:44,201 ERROR SysUtils - Could not process external command
+2019-09-07 14:38:55,249 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/gradlew
+2019-09-07 14:38:55,251 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/humanizer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/build.gradle
+2019-09-07 14:38:55,253 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/humanizer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/settings.gradle
+2019-09-07 14:38:55,258 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle", attempt 3
+2019-09-07 14:38:55,983 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle, attempt 3
+2019-09-07 14:38:55,984 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle", attempt 3
+2019-09-07 14:38:56,214 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle, attempt 3
+2019-09-07 14:38:56,214 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle
+2019-09-07 14:38:56,214 INFO  ProjectFixService - Fixing project...
+2019-09-07 14:38:56,221 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/local.properties
+2019-09-07 14:38:56,222 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-09-07 14:38:56,222 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-09-07 14:38:56,223 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/humanizer/local.properties
+2019-09-07 14:38:56,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/humanizer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-09-07 14:38:56,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/humanizer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-09-07 14:38:56,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/local.properties
+2019-09-07 14:38:56,225 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-07 14:38:56,226 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-07 14:38:56,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-09-07 14:38:56,227 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-09-07 14:38:56,228 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 14:38:56,228 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 14:38:56,228 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 14:39:02,606 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-09-07 14:39:02,606 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-07 14:39:02,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-07 14:39:08,333 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-29 10:37:44,201 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 14:39:08,333 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -159,9 +159,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-08-29 10:37:44,201 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-08-29 10:37:44,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-29 10:38:23,484 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 14:39:08,333 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-09-07 14:39:08,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-07 14:39:45,545 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :humanizer:preBuild UP-TO-DATE
 > Task :humanizer:preDebugBuild UP-TO-DATE
@@ -185,20 +185,20 @@ BUILD FAILED in 5s
 > Task :humanizer:compileDebugRenderscript NO-SOURCE
 > Task :humanizer:generateDebugResValues
 > Task :humanizer:generateDebugResources
-> Task :humanizer:generateDebugBuildConfig
-> Task :humanizer:prepareLintJar
-> Task :humanizer:generateDebugSources
-> Task :humanizer:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
 > Task :humanizer:packageDebugResources
 > Task :app:mergeDebugResources
 > Task :app:dataBindingGenBaseClassesDebug
+> Task :humanizer:generateDebugBuildConfig
 > Task :humanizer:generateDebugRFile
+> Task :humanizer:prepareLintJar
+> Task :humanizer:generateDebugSources
+> Task :humanizer:javaPreCompileDebug
 > Task :humanizer:compileDebugJavaWithJavac
 > Task :humanizer:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
@@ -306,11 +306,10 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :app:assemble
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/55d5ac94ee5d24eeebe3055905ff1d3b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 24 issues found
-Ran lint on variant release: 24 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build/reports/lint-results.xml
+Ran lint on variant debug: 25 issues found
+Ran lint on variant release: 25 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build/reports/lint-results.xml
 
 > Task :app:generateDebugUnitTestSources
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
@@ -332,7 +331,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 36s
 101 actionable tasks: 101 executed
 
-2019-08-29 10:38:23,559 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567049849277-0/src/Humanizer-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-07 14:39:45,609 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841933275-0/src/Humanizer-master/app/build/outputs/apk/debug/app-debug.apk

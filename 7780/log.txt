@@ -1,36 +1,36 @@
-2019-08-04 20:10:35,304 INFO  DownloadService - Downloading "https://github.com/p32929/AndroidAppUpdater/archive/master.zip", attempt 3
-2019-08-04 20:10:36,107 INFO  DownloadService - Downloaded https://github.com/p32929/AndroidAppUpdater/archive/master.zip, attempt 3
-2019-08-04 20:10:36,107 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/master.zip": 142 KB
-2019-08-04 20:10:36,107 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-04 20:10:36,112 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/master.zip: true
-2019-08-04 20:10:36,112 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src'.
-2019-08-04 20:10:36,136 INFO  FullProcessService - Size of directory with sources: 151 KB
-2019-08-04 20:10:36,136 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src]
-2019-08-04 20:10:36,155 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/.git/
+2019-09-07 14:39:54,356 INFO  DownloadService - Downloading "https://github.com/p32929/AndroidAppUpdater/archive/master.zip", attempt 3
+2019-09-07 14:39:56,426 INFO  DownloadService - Downloaded https://github.com/p32929/AndroidAppUpdater/archive/master.zip, attempt 3
+2019-09-07 14:39:56,426 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/master.zip": 142 KB
+2019-09-07 14:39:56,426 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 14:39:56,427 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/master.zip: true
+2019-09-07 14:39:56,427 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src'.
+2019-09-07 14:39:56,443 INFO  FullProcessService - Size of directory with sources: 151 KB
+2019-09-07 14:39:56,443 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src]
+2019-09-07 14:39:56,460 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/.git/
 
-2019-08-04 20:10:36,158 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/gradlew
-2019-08-04 20:10:36,161 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/updaterlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/build.gradle
-2019-08-04 20:10:36,164 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/updaterlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/settings.gradle
-2019-08-04 20:10:36,164 INFO  ProjectBuildService - Remote scripts: none
-2019-08-04 20:10:36,165 INFO  ProjectFixService - Fixing project...
-2019-08-04 20:10:36,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/local.properties
-2019-08-04 20:10:36,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-04 20:10:36,173 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-04 20:10:36,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/updaterlib/local.properties
-2019-08-04 20:10:36,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/updaterlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-04 20:10:36,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/updaterlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-04 20:10:36,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/local.properties
-2019-08-04 20:10:36,177 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-04 20:10:36,178 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-04 20:10:36,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-04 20:10:36,179 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-08-04 20:10:36,180 INFO  ProjectFixService - Project was maybe fixed
-2019-08-04 20:10:36,180 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-04 20:10:36,181 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-04 20:10:43,377 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-04 20:10:43,377 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-04 20:10:43,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-04 20:11:28,331 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-07 14:39:56,463 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/gradlew
+2019-09-07 14:39:56,466 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/updaterlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/build.gradle
+2019-09-07 14:39:56,468 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/updaterlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/settings.gradle
+2019-09-07 14:39:56,468 INFO  ProjectBuildService - Remote scripts: none
+2019-09-07 14:39:56,468 INFO  ProjectFixService - Fixing project...
+2019-09-07 14:39:56,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/local.properties
+2019-09-07 14:39:56,475 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-07 14:39:56,476 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-07 14:39:56,476 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/updaterlib/local.properties
+2019-09-07 14:39:56,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/updaterlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-07 14:39:56,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/updaterlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-07 14:39:56,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/local.properties
+2019-09-07 14:39:56,479 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-07 14:39:56,480 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-07 14:39:56,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-07 14:39:56,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-09-07 14:39:56,482 INFO  ProjectFixService - Project was maybe fixed
+2019-09-07 14:39:56,482 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-07 14:39:56,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-07 14:40:03,376 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-07 14:40:03,377 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-07 14:40:03,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-07 14:40:42,268 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :updaterlib:preBuild UP-TO-DATE
 > Task :updaterlib:preDebugBuild UP-TO-DATE
@@ -56,7 +56,7 @@
 > Task :updaterlib:javaPreCompileDebug
 
 > Task :updaterlib:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/updaterlib/src/main/java/p32929/updaterlib/AppUpdater.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/updaterlib/src/main/java/p32929/updaterlib/AppUpdater.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :updaterlib:bundleLibCompileDebug
@@ -120,7 +120,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :updaterlib:javaPreCompileRelease
 
 > Task :updaterlib:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/updaterlib/src/main/java/p32929/updaterlib/AppUpdater.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/updaterlib/src/main/java/p32929/updaterlib/AppUpdater.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :updaterlib:bundleLibCompileRelease
@@ -135,7 +135,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :updaterlib:prepareLintJarForPublish
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/924370082e1e776270a5fc268d07f30e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :updaterlib:processReleaseJavaRes NO-SOURCE
 > Task :updaterlib:bundleLibResRelease
 > Task :updaterlib:bundleLibRuntimeRelease
@@ -171,7 +174,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 44s
+BUILD SUCCESSFUL in 38s
 91 actionable tasks: 91 executed
 
-2019-08-04 20:11:28,401 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564924235295-0/src/AndroidAppUpdater-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-07 14:40:42,333 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567841994354-0/src/AndroidAppUpdater-master/app/build/outputs/apk/debug/app-debug.apk
