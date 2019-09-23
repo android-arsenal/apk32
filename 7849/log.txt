@@ -1,33 +1,33 @@
-2019-09-03 11:05:39,793 INFO  DownloadService - Downloading "https://github.com/FarshadTahmasbi/Vita/archive/master.zip", attempt 3
-2019-09-03 11:05:42,100 INFO  DownloadService - Downloaded https://github.com/FarshadTahmasbi/Vita/archive/master.zip, attempt 3
-2019-09-03 11:05:42,100 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/master.zip": 314 KB
-2019-09-03 11:05:42,100 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-03 11:05:42,101 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/master.zip: true
-2019-09-03 11:05:42,101 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src'.
-2019-09-03 11:05:42,138 INFO  FullProcessService - Size of directory with sources: 373 KB
-2019-09-03 11:05:42,139 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src]
-2019-09-03 11:05:42,164 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/.git/
+2019-09-23 23:16:27,640 INFO  DownloadService - Downloading "https://github.com/FarshadTahmasbi/Vita/archive/master.zip", attempt 3
+2019-09-23 23:16:29,925 INFO  DownloadService - Downloaded https://github.com/FarshadTahmasbi/Vita/archive/master.zip, attempt 3
+2019-09-23 23:16:29,925 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/master.zip": 314 KB
+2019-09-23 23:16:29,925 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-23 23:16:29,931 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/master.zip: true
+2019-09-23 23:16:29,931 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src'.
+2019-09-23 23:16:29,960 INFO  FullProcessService - Size of directory with sources: 373 KB
+2019-09-23 23:16:29,960 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src]
+2019-09-23 23:16:29,977 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/.git/
 
-2019-09-03 11:05:42,167 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/gradlew
-2019-09-03 11:05:42,171 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/build.gradle
-2019-09-03 11:05:42,175 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/settings.gradle
-2019-09-03 11:05:42,176 INFO  ProjectBuildService - Remote scripts: none
-2019-09-03 11:05:42,176 INFO  ProjectFixService - Fixing project...
-2019-09-03 11:05:42,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/library/local.properties
-2019-09-03 11:05:42,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/library/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-03 11:05:42,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/sample/local.properties
-2019-09-03 11:05:42,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/sample/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-09-03 11:05:42,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/local.properties
-2019-09-03 11:05:42,189 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-03 11:05:42,189 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-03 11:05:42,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-03 11:05:42,191 INFO  ProjectFixService - Project was maybe fixed
-2019-09-03 11:05:42,191 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 11:05:42,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 11:05:52,302 INFO  ProjectTaskService - Detected possible tasks: 81
-2019-09-03 11:05:52,302 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-03 11:05:52,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-03 11:06:13,098 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-23 23:16:29,980 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/gradlew
+2019-09-23 23:16:29,983 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/build.gradle
+2019-09-23 23:16:29,986 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/settings.gradle
+2019-09-23 23:16:29,986 INFO  ProjectBuildService - Remote scripts: none
+2019-09-23 23:16:29,986 INFO  ProjectFixService - Fixing project...
+2019-09-23 23:16:29,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/library/local.properties
+2019-09-23 23:16:29,995 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/library/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-23 23:16:29,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/sample/local.properties
+2019-09-23 23:16:29,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/sample/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-09-23 23:16:29,997 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/local.properties
+2019-09-23 23:16:29,998 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-09-23 23:16:29,998 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-09-23 23:16:29,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-09-23 23:16:29,999 INFO  ProjectFixService - Project was maybe fixed
+2019-09-23 23:16:29,999 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-23 23:16:30,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-23 23:16:38,832 INFO  ProjectTaskService - Detected possible tasks: 81
+2019-09-23 23:16:38,832 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-23 23:16:38,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-23 23:16:57,981 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -57,6 +57,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
@@ -69,7 +70,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:extractDebugAnnotations
 > Task :library:transformResourcesWithMergeJavaResForDebug
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :library:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library:bundleDebugAar
 > Task :library:compileDebugSources
@@ -114,15 +114,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 20s
+BUILD SUCCESSFUL in 18s
 46 actionable tasks: 46 executed
 
-2019-09-03 11:06:13,136 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 11:06:13,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 11:06:20,280 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-03 11:06:20,280 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-03 11:06:20,280 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-03 11:07:12,661 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-23 23:16:58,017 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-23 23:16:58,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-23 23:17:03,951 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-23 23:17:03,951 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-23 23:17:03,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-23 23:17:47,099 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -143,8 +143,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:generateDebugBuildConfig UP-TO-DATE
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
-> Task :library:packageDebugResources UP-TO-DATE
 > Task :library:processDebugManifest UP-TO-DATE
+> Task :library:packageDebugResources UP-TO-DATE
 > Task :library:generateDebugRFile UP-TO-DATE
 > Task :library:compileDebugKotlin UP-TO-DATE
 > Task :library:prepareLintJar UP-TO-DATE
@@ -154,15 +154,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:prepareLintJar
-> Task :library:mergeDebugShaders UP-TO-DATE
-> Task :library:compileDebugShaders UP-TO-DATE
-> Task :library:generateDebugAssets UP-TO-DATE
-> Task :library:packageDebugAssets UP-TO-DATE
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:bundleLibResDebug
-> Task :library:bundleLibRuntimeDebug
-> Task :library:createFullJarDebug
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
@@ -176,14 +167,23 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:processDebugManifest
 > Task :sample:processDebugResources
 > Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
+> Task :library:mergeDebugShaders UP-TO-DATE
+> Task :library:compileDebugShaders UP-TO-DATE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :library:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
@@ -235,11 +235,11 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :library:processReleaseJavaRes NO-SOURCE
 
 > Task :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a0cbf4eb59367a1bf6897cd571396272/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
 > Task :library:createFullJarRelease
@@ -274,7 +274,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 42s
 95 actionable tasks: 63 executed, 32 up-to-date
 
-2019-09-03 11:07:12,759 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567483539789-0/src/Vita-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-09-23 23:17:47,189 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255387632-0/src/Vita-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
