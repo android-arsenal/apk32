@@ -1,0 +1,271 @@
+2019-09-26 10:41:30,761 INFO  DownloadService - Downloading "https://github.com/Jamshid-M/ExactRatingBar/archive/master.zip", attempt 3
+2019-09-26 10:41:33,464 INFO  DownloadService - Downloaded https://github.com/Jamshid-M/ExactRatingBar/archive/master.zip, attempt 3
+2019-09-26 10:41:33,464 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/master.zip": 403 KB
+2019-09-26 10:41:33,464 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 10:41:33,464 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/master.zip: true
+2019-09-26 10:41:33,465 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src'.
+2019-09-26 10:41:33,489 INFO  FullProcessService - Size of directory with sources: 496 KB
+2019-09-26 10:41:33,489 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src]
+2019-09-26 10:41:33,527 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/.git/
+
+2019-09-26 10:41:33,534 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/gradlew
+2019-09-26 10:41:33,539 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/build.gradle
+2019-09-26 10:41:33,544 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/settings.gradle
+2019-09-26 10:41:33,545 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 10:41:33,545 INFO  ProjectFixService - Fixing project...
+2019-09-26 10:41:33,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/local.properties
+2019-09-26 10:41:33,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-09-26 10:41:33,558 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-09-26 10:41:33,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/local.properties
+2019-09-26 10:41:33,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-09-26 10:41:33,562 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-09-26 10:41:33,563 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/local.properties
+2019-09-26 10:41:33,567 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 10:41:33,570 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 10:41:33,573 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-09-26 10:41:33,573 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 10:41:33,573 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 10:41:33,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 10:41:46,617 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-09-26 10:41:46,618 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-26 10:41:46,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-26 10:42:06,723 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:checkDebugManifest
+> Task :library:generateDebugBuildConfig
+> Task :library:generateDebugResValues
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:prepareLintJarForPublish
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:checkReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
+> Task :library:mergeReleaseShaders
+> Task :library:processReleaseManifest
+> Task :library:mergeDebugNativeLibs
+> Task :library:processDebugManifest
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
+> Task :library:transformNativeLibsWithSyncJniLibsForRelease
+> Task :library:parseDebugLibraryResources
+> Task :library:parseReleaseLibraryResources
+> Task :library:mergeReleaseResources
+> Task :library:generateReleaseRFile
+
+> Task :library:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/src/main/java/uz/jamshid/library/ExactRatingBar.kt: (221, 20): Variable 'rate' initializer is redundant
+
+> Task :library:verifyReleaseResources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseGeneratedProguardFiles
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:compileReleaseSources
+> Task :library:generateDebugRFile
+
+> Task :library:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/library/src/main/java/uz/jamshid/library/ExactRatingBar.kt: (221, 20): Variable 'rate' initializer is redundant
+
+> Task :library:mergeReleaseJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:bundleReleaseAar
+> Task :library:assembleRelease
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugGeneratedProguardFiles
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:compileDebugSources
+> Task :library:mergeDebugJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:bundleDebugAar
+> Task :library:assembleDebug
+> Task :library:assemble
+> Task :library:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 19s
+49 actionable tasks: 49 executed
+
+2019-09-26 10:42:06,765 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 10:42:06,765 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 10:42:12,898 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 10:42:12,898 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 10:42:12,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 10:43:01,521 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:checkDebugManifest UP-TO-DATE
+> Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:generateDebugBuildConfig UP-TO-DATE
+> Task :library:generateDebugResValues UP-TO-DATE
+> Task :library:generateDebugResources UP-TO-DATE
+> Task :library:packageDebugResources UP-TO-DATE
+> Task :library:parseDebugLibraryResources UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
+> Task :library:generateDebugRFile UP-TO-DATE
+> Task :library:compileDebugKotlin UP-TO-DATE
+> Task :library:javaPreCompileDebug UP-TO-DATE
+> Task :library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :library:bundleLibCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :library:mergeDebugShaders UP-TO-DATE
+> Task :library:compileDebugShaders UP-TO-DATE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :library:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :library:mergeDebugJniLibFolders UP-TO-DATE
+> Task :library:mergeDebugNativeLibs UP-TO-DATE
+> Task :library:stripDebugDebugSymbols UP-TO-DATE
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:checkReleaseManifest UP-TO-DATE
+> Task :library:generateReleaseBuildConfig UP-TO-DATE
+> Task :library:generateReleaseResValues UP-TO-DATE
+> Task :library:generateReleaseResources UP-TO-DATE
+> Task :library:packageReleaseResources UP-TO-DATE
+> Task :library:parseReleaseLibraryResources UP-TO-DATE
+> Task :library:processReleaseManifest UP-TO-DATE
+> Task :library:generateReleaseRFile UP-TO-DATE
+> Task :library:compileReleaseKotlin UP-TO-DATE
+> Task :library:javaPreCompileRelease UP-TO-DATE
+> Task :library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :library:bundleLibCompileRelease
+> Task :sample:preReleaseBuild UP-TO-DATE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :library:bundleLibRuntimeRelease
+> Task :sample:compileReleaseKotlin
+> Task :sample:checkReleaseDuplicateClasses
+> Task :library:bundleLibResRelease
+> Task :library:createFullJarRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/dc1c9d2466d82a236136a943dcd09f27/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :library:mergeReleaseShaders UP-TO-DATE
+> Task :library:compileReleaseShaders UP-TO-DATE
+> Task :library:generateReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:signingConfigWriterRelease
+> Task :library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :library:mergeReleaseNativeLibs UP-TO-DATE
+> Task :library:stripReleaseDebugSymbols UP-TO-DATE
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 47s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2019-09-26 10:43:01,675 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469290758-0/src/ExactRatingBar-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -1,0 +1,223 @@
+2019-09-26 10:43:12,581 INFO  DownloadService - Downloading "https://github.com/AliAsadi/bintray-upload-plugin/archive/master.zip", attempt 3
+2019-09-26 10:43:14,706 INFO  DownloadService - Downloaded https://github.com/AliAsadi/bintray-upload-plugin/archive/master.zip, attempt 3
+2019-09-26 10:43:14,706 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/master.zip": 79 KB
+2019-09-26 10:43:14,706 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 10:43:14,707 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/master.zip: true
+2019-09-26 10:43:14,707 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src'.
+2019-09-26 10:43:14,723 INFO  FullProcessService - Size of directory with sources: 91 KB
+2019-09-26 10:43:14,723 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src]
+2019-09-26 10:43:14,745 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/.git/
+
+2019-09-26 10:43:14,747 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/gradlew
+2019-09-26 10:43:14,749 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/sample-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/bintray-upload/build.gradle
+2019-09-26 10:43:14,751 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/sample-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/bintray-upload/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/settings.gradle
+2019-09-26 10:43:14,751 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 10:43:14,751 INFO  ProjectFixService - Fixing project...
+2019-09-26 10:43:14,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/sample-library/local.properties
+2019-09-26 10:43:14,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/sample-library/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 10:43:14,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/local.properties
+2019-09-26 10:43:14,758 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 10:43:14,759 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 10:43:14,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 10:43:14,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/bintray-upload/local.properties
+2019-09-26 10:43:14,762 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/bintray-upload/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-26 10:43:14,762 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 10:43:14,762 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 10:43:14,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/sample-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 10:43:27,175 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 10:43:27,175 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-26 10:43:27,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/sample-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-26 10:43:41,037 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample-library:preBuild UP-TO-DATE
+> Task :sample-library:preDebugBuild UP-TO-DATE
+> Task :sample-library:checkDebugManifest
+> Task :sample-library:generateDebugBuildConfig
+> Task :sample-library:generateDebugResValues
+> Task :sample-library:mergeDebugShaders
+> Task :sample-library:compileDebugShaders
+> Task :sample-library:generateDebugAssets
+> Task :sample-library:packageDebugAssets
+> Task :sample-library:packageDebugRenderscript NO-SOURCE
+> Task :sample-library:processDebugJavaRes NO-SOURCE
+> Task :sample-library:mergeDebugJniLibFolders
+> Task :sample-library:processDebugManifest
+> Task :sample-library:prepareLintJarForPublish
+> Task :sample-library:preReleaseBuild UP-TO-DATE
+> Task :sample-library:checkReleaseManifest
+> Task :sample-library:generateReleaseBuildConfig
+> Task :sample-library:generateReleaseResValues
+> Task :sample-library:compileDebugAidl NO-SOURCE
+> Task :sample-library:compileDebugRenderscript NO-SOURCE
+> Task :sample-library:generateDebugResources
+> Task :sample-library:packageDebugResources
+> Task :sample-library:mergeDebugNativeLibs
+> Task :sample-library:stripDebugDebugSymbols
+> Task :sample-library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :sample-library:compileReleaseAidl NO-SOURCE
+> Task :sample-library:compileReleaseRenderscript NO-SOURCE
+> Task :sample-library:generateReleaseResources
+> Task :sample-library:packageReleaseResources
+> Task :sample-library:mergeReleaseShaders
+> Task :sample-library:compileReleaseShaders
+> Task :sample-library:generateReleaseAssets
+> Task :sample-library:packageReleaseAssets
+> Task :sample-library:packageReleaseRenderscript NO-SOURCE
+> Task :sample-library:processReleaseJavaRes NO-SOURCE
+> Task :sample-library:mergeReleaseJniLibFolders
+> Task :sample-library:parseDebugLibraryResources
+> Task :sample-library:processReleaseManifest
+> Task :sample-library:parseReleaseLibraryResources
+> Task :sample-library:mergeReleaseNativeLibs
+> Task :sample-library:stripReleaseDebugSymbols
+> Task :sample-library:transformNativeLibsWithSyncJniLibsForRelease
+> Task :sample-library:javadoc
+> Task :sample-library:mergeReleaseResources
+> Task :sample-library:javadocJar
+> Task :sample-library:sourcesJar
+> Task :sample-library:generateDebugRFile
+> Task :sample-library:compileDebugKotlin
+> Task :sample-library:verifyReleaseResources
+> Task :sample-library:generateReleaseRFile
+> Task :sample-library:compileReleaseKotlin
+> Task :sample-library:javaPreCompileDebug
+> Task :sample-library:compileDebugJavaWithJavac
+> Task :sample-library:extractDebugAnnotations
+> Task :sample-library:mergeDebugGeneratedProguardFiles
+> Task :sample-library:mergeDebugConsumerProguardFiles
+> Task :sample-library:compileDebugSources
+> Task :sample-library:javaPreCompileRelease
+> Task :sample-library:compileReleaseJavaWithJavac
+> Task :sample-library:extractReleaseAnnotations
+> Task :sample-library:mergeReleaseGeneratedProguardFiles
+> Task :sample-library:mergeReleaseConsumerProguardFiles
+> Task :sample-library:compileReleaseSources
+> Task :sample-library:mergeDebugJavaResource
+> Task :sample-library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :sample-library:bundleDebugAar
+> Task :sample-library:assembleDebug
+> Task :sample-library:mergeReleaseJavaResource
+> Task :sample-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :sample-library:bundleReleaseAar
+> Task :sample-library:assembleRelease
+> Task :sample-library:assemble
+> Task :sample-library:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 13s
+52 actionable tasks: 52 executed
+
+2019-09-26 10:43:41,072 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 10:43:41,072 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 10:43:48,248 INFO  ProjectTaskService - Detected possible tasks: 82
+2019-09-26 10:43:48,248 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-09-26 10:43:48,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-09-26 10:43:58,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :bintray-upload:compileJava NO-SOURCE
+> Task :bintray-upload:compileGroovy
+> Task :bintray-upload:pluginDescriptors
+> Task :bintray-upload:processResources
+> Task :bintray-upload:classes
+> Task :bintray-upload:jar
+> Task :bintray-upload:sourcesJar
+> Task :bintray-upload:assemble
+> Task :bintray-upload:build
+> Task :sample-library:preBuild UP-TO-DATE
+> Task :sample-library:preDebugBuild UP-TO-DATE
+> Task :sample-library:checkDebugManifest UP-TO-DATE
+> Task :sample-library:generateDebugBuildConfig UP-TO-DATE
+> Task :sample-library:generateDebugResValues UP-TO-DATE
+> Task :sample-library:processDebugManifest UP-TO-DATE
+> Task :sample-library:mergeDebugShaders UP-TO-DATE
+> Task :sample-library:compileDebugShaders UP-TO-DATE
+> Task :sample-library:generateDebugAssets UP-TO-DATE
+> Task :sample-library:packageDebugAssets UP-TO-DATE
+> Task :sample-library:packageDebugRenderscript NO-SOURCE
+> Task :sample-library:prepareLintJarForPublish UP-TO-DATE
+> Task :sample-library:compileDebugRenderscript NO-SOURCE
+> Task :sample-library:compileDebugAidl NO-SOURCE
+> Task :sample-library:generateDebugResources UP-TO-DATE
+> Task :sample-library:packageDebugResources UP-TO-DATE
+> Task :sample-library:parseDebugLibraryResources UP-TO-DATE
+> Task :sample-library:generateDebugRFile UP-TO-DATE
+> Task :sample-library:compileDebugKotlin UP-TO-DATE
+> Task :sample-library:javaPreCompileDebug UP-TO-DATE
+> Task :sample-library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample-library:extractDebugAnnotations UP-TO-DATE
+> Task :sample-library:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :sample-library:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :sample-library:processDebugJavaRes NO-SOURCE
+> Task :sample-library:mergeDebugJavaResource UP-TO-DATE
+> Task :sample-library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :sample-library:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sample-library:mergeDebugNativeLibs UP-TO-DATE
+> Task :sample-library:stripDebugDebugSymbols UP-TO-DATE
+> Task :sample-library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :sample-library:bundleDebugAar UP-TO-DATE
+> Task :sample-library:compileDebugSources UP-TO-DATE
+> Task :sample-library:assembleDebug UP-TO-DATE
+> Task :sample-library:preReleaseBuild UP-TO-DATE
+> Task :sample-library:compileReleaseAidl NO-SOURCE
+> Task :sample-library:compileReleaseRenderscript NO-SOURCE
+> Task :sample-library:checkReleaseManifest UP-TO-DATE
+> Task :sample-library:generateReleaseBuildConfig UP-TO-DATE
+> Task :sample-library:generateReleaseResValues UP-TO-DATE
+> Task :sample-library:generateReleaseResources UP-TO-DATE
+> Task :sample-library:packageReleaseResources UP-TO-DATE
+> Task :sample-library:parseReleaseLibraryResources UP-TO-DATE
+> Task :sample-library:processReleaseManifest UP-TO-DATE
+> Task :sample-library:generateReleaseRFile UP-TO-DATE
+> Task :sample-library:compileReleaseKotlin UP-TO-DATE
+> Task :sample-library:javaPreCompileRelease UP-TO-DATE
+> Task :sample-library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sample-library:extractReleaseAnnotations UP-TO-DATE
+> Task :sample-library:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :sample-library:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :sample-library:mergeReleaseShaders UP-TO-DATE
+> Task :sample-library:compileReleaseShaders UP-TO-DATE
+> Task :sample-library:generateReleaseAssets UP-TO-DATE
+> Task :sample-library:packageReleaseAssets UP-TO-DATE
+> Task :sample-library:packageReleaseRenderscript NO-SOURCE
+> Task :sample-library:processReleaseJavaRes NO-SOURCE
+> Task :sample-library:mergeReleaseJavaResource UP-TO-DATE
+> Task :sample-library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :sample-library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :sample-library:mergeReleaseNativeLibs UP-TO-DATE
+> Task :sample-library:stripReleaseDebugSymbols UP-TO-DATE
+> Task :sample-library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :sample-library:bundleReleaseAar UP-TO-DATE
+> Task :sample-library:compileReleaseSources UP-TO-DATE
+> Task :sample-library:javadocJar UP-TO-DATE
+> Task :sample-library:mergeReleaseResources UP-TO-DATE
+> Task :sample-library:verifyReleaseResources UP-TO-DATE
+> Task :sample-library:assembleRelease UP-TO-DATE
+> Task :sample-library:sourcesJar UP-TO-DATE
+> Task :sample-library:assemble UP-TO-DATE
+> Task :sample-library:build
+
+BUILD SUCCESSFUL in 10s
+56 actionable tasks: 5 executed, 51 up-to-date
+
+2019-09-26 10:43:58,727 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 10:43:58,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/bintray-upload/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 10:44:02,576 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-09-26 10:44:02,576 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-09-26 10:44:02,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469392577-0/src/bintray-upload-plugin-master/bintray-upload/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-09-26 10:44:06,404 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :bintray-upload:compileJava NO-SOURCE
+> Task :bintray-upload:compileGroovy UP-TO-DATE
+> Task :bintray-upload:pluginDescriptors UP-TO-DATE
+> Task :bintray-upload:processResources UP-TO-DATE
+> Task :bintray-upload:classes UP-TO-DATE
+> Task :bintray-upload:jar UP-TO-DATE
+> Task :bintray-upload:sourcesJar UP-TO-DATE
+> Task :bintray-upload:assemble UP-TO-DATE
+> Task :bintray-upload:build
+
+BUILD SUCCESSFUL in 3s
+5 actionable tasks: 5 up-to-date
+
+2019-09-26 10:44:06,437 ERROR FullProcessService - Project build has not produced APK file
+2019-09-26 10:44:06,466 ERROR FullProcessService - Could not find generated or existed APK file
