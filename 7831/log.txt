@@ -1,93 +1,167 @@
-2019-09-05 10:39:21,107 INFO  DownloadService - Downloading "https://github.com/rezaiyan/LevelProgressBar/archive/master.zip", attempt 3
-2019-09-05 10:39:27,317 INFO  DownloadService - Downloaded https://github.com/rezaiyan/LevelProgressBar/archive/master.zip, attempt 3
-2019-09-05 10:39:27,317 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/master.zip": 2 MB
-2019-09-05 10:39:27,317 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-05 10:39:27,318 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/master.zip: true
-2019-09-05 10:39:27,318 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src'.
-2019-09-05 10:39:27,352 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-09-05 10:39:27,352 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src]
-2019-09-05 10:39:27,368 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/.git/
+2019-09-26 18:30:15,930 INFO  DownloadService - Downloading "https://github.com/rezaiyan/LevelProgressBar/archive/master.zip", attempt 3
+2019-09-26 18:30:18,561 INFO  DownloadService - Downloaded https://github.com/rezaiyan/LevelProgressBar/archive/master.zip, attempt 3
+2019-09-26 18:30:18,562 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/master.zip": 717 KB
+2019-09-26 18:30:18,562 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 18:30:18,567 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/master.zip: true
+2019-09-26 18:30:18,567 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src'.
+2019-09-26 18:30:18,596 INFO  FullProcessService - Size of directory with sources: 760 KB
+2019-09-26 18:30:18,596 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src]
+2019-09-26 18:30:18,624 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/.git/
 
-2019-09-05 10:39:27,371 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/gradlew
-2019-09-05 10:39:27,374 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/progressbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/build.gradle
-2019-09-05 10:39:27,376 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/progressbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/settings.gradle
-2019-09-05 10:39:27,376 INFO  ProjectBuildService - Remote scripts: none
-2019-09-05 10:39:27,376 INFO  ProjectFixService - Fixing project...
-2019-09-05 10:39:27,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/app/local.properties
-2019-09-05 10:39:27,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-09-05 10:39:27,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/progressbar/local.properties
-2019-09-05 10:39:27,385 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/progressbar/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-09-05 10:39:27,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/local.properties
-2019-09-05 10:39:27,386 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-05 10:39:27,386 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-05 10:39:27,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-09-05 10:39:27,387 INFO  ProjectFixService - Project was maybe fixed
-2019-09-05 10:39:27,388 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-05 10:39:27,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-05 10:39:33,005 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-05 10:39:33,006 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-05 10:39:33,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-05 10:40:15,451 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 18:30:18,628 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/gradlew
+2019-09-26 18:30:18,632 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/progressbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/build.gradle
+2019-09-26 18:30:18,635 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/progressbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/settings.gradle
+2019-09-26 18:30:18,636 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 18:30:18,636 INFO  ProjectFixService - Fixing project...
+2019-09-26 18:30:18,646 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/app/local.properties
+2019-09-26 18:30:18,647 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-26 18:30:18,648 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/progressbar/local.properties
+2019-09-26 18:30:18,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/progressbar/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-26 18:30:18,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/local.properties
+2019-09-26 18:30:18,649 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 18:30:18,650 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 18:30:18,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-26 18:30:18,651 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 18:30:18,651 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 18:30:18,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 18:30:31,115 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-09-26 18:30:31,116 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 18:30:31,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 18:31:26,655 INFO  SysUtils - Loading package information...                                                  Loading local repository...                                                     [                                       ] 3% Loading local repository...        [                                       ] 3% Fetch remote repository...         [                                       ] 3% Fetch remote repository...         [=                                      ] 3% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...                                                                                         Warning: File /Users/vbauer/.android/repositories.cfg could not be loaded.
+[=                                      ] 4% Fetch remote repository...         [=                                      ] 4% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [=                                      ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 5% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Fetch remote repository...         [==                                     ] 6% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 8% Computing updates...               [===                                    ] 10% Computing updates...              [=======================================] 100% Computing updates...             
+Configuration on demand is an incubating feature.
+
+> Configure project :progressbar
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
+> Task :progressbar:preBuild UP-TO-DATE
+> Task :progressbar:preDebugBuild UP-TO-DATE
+> Task :progressbar:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :progressbar:generateDebugResValues
+> Task :progressbar:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :progressbar:compileDebugRenderscript NO-SOURCE
+> Task :progressbar:generateDebugResources
+> Task :progressbar:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
+> Task :progressbar:checkDebugManifest
 > Task :app:mergeDebugResources
+> Task :progressbar:processDebugManifest
+> Task :app:processDebugManifest
+> Task :progressbar:parseDebugLibraryResources
+> Task :progressbar:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :progressbar:mergeDebugShaders
+> Task :progressbar:compileDebugShaders
+> Task :progressbar:generateDebugAssets
+> Task :progressbar:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :progressbar:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :progressbar:generateDebugRFile
 > Task :app:processDebugResources
+> Task :progressbar:compileDebugKotlin
+> Task :progressbar:javaPreCompileDebug
+> Task :progressbar:compileDebugJavaWithJavac
+> Task :progressbar:bundleLibResDebug
+> Task :progressbar:bundleLibRuntimeDebug
+> Task :progressbar:createFullJarDebug
+> Task :progressbar:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
+> Task :progressbar:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
+> Task :progressbar:preReleaseBuild UP-TO-DATE
+> Task :progressbar:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
+> Task :progressbar:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :progressbar:compileReleaseRenderscript NO-SOURCE
+> Task :progressbar:generateReleaseResValues
+> Task :progressbar:generateReleaseResources
+> Task :progressbar:packageReleaseResources
+> Task :progressbar:mergeDebugNativeLibs
+> Task :progressbar:stripDebugDebugSymbols
+> Task :progressbar:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :progressbar:checkReleaseManifest
+> Task :progressbar:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :progressbar:generateReleaseBuildConfig
+> Task :progressbar:parseReleaseLibraryResources
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
 > Task :app:mergeReleaseResources
+> Task :progressbar:generateReleaseRFile
 > Task :app:processReleaseResources
+> Task :progressbar:compileReleaseKotlin
+> Task :progressbar:javaPreCompileRelease
+> Task :progressbar:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :progressbar:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
+> Task :progressbar:processReleaseJavaRes NO-SOURCE
+> Task :progressbar:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/34dd2b6d9234edbbf2faab1b6391f661/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :progressbar:bundleLibRuntimeRelease
+> Task :progressbar:bundleLibResRelease
+> Task :progressbar:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
+> Task :progressbar:mergeReleaseShaders
+> Task :progressbar:compileReleaseShaders
+> Task :progressbar:generateReleaseAssets
+> Task :progressbar:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
+> Task :progressbar:mergeReleaseJniLibFolders
+> Task :progressbar:mergeReleaseNativeLibs
+> Task :progressbar:stripReleaseDebugSymbols
+> Task :progressbar:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
@@ -103,7 +177,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 41s
-51 actionable tasks: 51 executed
+BUILD SUCCESSFUL in 52s
+94 actionable tasks: 94 executed
 
-2019-09-05 10:40:15,497 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567654761104-0/src/LevelProgressBar-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-26 18:31:26,730 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569497415926-0/src/LevelProgressBar-master/app/build/outputs/apk/debug/app-debug.apk
