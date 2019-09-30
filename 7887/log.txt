@@ -1,0 +1,182 @@
+2019-09-30 16:36:47,361 INFO  DownloadService - Downloading "https://github.com/JalalJanKhan3336/JKPMUtils/archive/master.zip", attempt 3
+2019-09-30 16:36:49,870 INFO  DownloadService - Downloaded https://github.com/JalalJanKhan3336/JKPMUtils/archive/master.zip, attempt 3
+2019-09-30 16:36:49,870 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/master.zip": 146 KB
+2019-09-30 16:36:49,870 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-30 16:36:49,876 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/master.zip: true
+2019-09-30 16:36:49,876 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src'.
+2019-09-30 16:36:49,898 INFO  FullProcessService - Size of directory with sources: 159 KB
+2019-09-30 16:36:49,898 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src]
+2019-09-30 16:36:49,921 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/.git/
+
+2019-09-30 16:36:49,924 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/gradlew
+2019-09-30 16:36:49,927 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/jkutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/build.gradle
+2019-09-30 16:36:49,930 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/jkutils/build.gradle
+2019-09-30 16:36:49,930 INFO  ProjectBuildService - Remote scripts: none
+2019-09-30 16:36:49,930 INFO  ProjectFixService - Fixing project...
+2019-09-30 16:36:49,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/local.properties
+2019-09-30 16:36:49,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-30 16:36:49,939 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-30 16:36:49,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/jkutils/local.properties
+2019-09-30 16:36:49,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/jkutils/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-30 16:36:49,941 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/jkutils/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-30 16:36:49,942 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/local.properties
+2019-09-30 16:36:49,943 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-30 16:36:49,943 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-30 16:36:49,944 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-09-30 16:36:49,944 INFO  ProjectFixService - Project was maybe fixed
+2019-09-30 16:36:49,944 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-30 16:36:49,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-30 16:36:58,815 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-30 16:36:58,815 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-30 16:36:58,816 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-30 16:37:48,850 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :jkutils:preBuild UP-TO-DATE
+> Task :jkutils:preDebugBuild UP-TO-DATE
+> Task :jkutils:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :jkutils:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :jkutils:checkDebugManifest
+> Task :jkutils:compileDebugRenderscript NO-SOURCE
+> Task :jkutils:generateDebugBuildConfig
+> Task :jkutils:generateDebugResValues
+> Task :jkutils:generateDebugResources
+> Task :jkutils:packageDebugResources
+> Task :jkutils:parseDebugLibraryResources
+> Task :jkutils:processDebugManifest
+> Task :jkutils:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :jkutils:generateDebugRFile
+
+> Task :jkutils:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/jkutils/src/main/java/com/pakistan/jkutils/utils/utils/SystemUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeDebugResources
+> Task :jkutils:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :jkutils:mergeDebugShaders
+> Task :jkutils:compileDebugShaders
+> Task :jkutils:generateDebugAssets
+> Task :jkutils:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :jkutils:processDebugJavaRes NO-SOURCE
+> Task :jkutils:bundleLibResDebug
+> Task :jkutils:bundleLibRuntimeDebug
+> Task :jkutils:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :jkutils:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :jkutils:preReleaseBuild UP-TO-DATE
+> Task :jkutils:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :jkutils:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :jkutils:compileReleaseRenderscript NO-SOURCE
+> Task :jkutils:checkReleaseManifest
+> Task :jkutils:generateReleaseBuildConfig
+> Task :jkutils:generateReleaseResValues
+> Task :jkutils:generateReleaseResources
+> Task :jkutils:packageReleaseResources
+> Task :jkutils:mergeDebugNativeLibs
+> Task :jkutils:stripDebugDebugSymbols
+> Task :jkutils:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :jkutils:processReleaseManifest
+> Task :jkutils:parseReleaseLibraryResources
+> Task :jkutils:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :jkutils:generateReleaseRFile
+
+> Task :jkutils:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/jkutils/src/main/java/com/pakistan/jkutils/utils/utils/SystemUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :jkutils:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :jkutils:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :jkutils:bundleLibResRelease
+> Task :jkutils:bundleLibRuntimeRelease
+> Task :jkutils:createFullJarRelease
+> Task :jkutils:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/51ca9bb25d2e8627a85ef1607f65b49b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :jkutils:mergeReleaseShaders
+> Task :jkutils:compileReleaseShaders
+> Task :jkutils:generateReleaseAssets
+> Task :jkutils:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :jkutils:mergeReleaseJniLibFolders
+> Task :jkutils:mergeReleaseNativeLibs
+> Task :jkutils:stripReleaseDebugSymbols
+> Task :jkutils:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 49s
+90 actionable tasks: 90 executed
+
+2019-09-30 16:37:48,923 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836207357-0/src/JKPMUtils-master/app/build/outputs/apk/debug/app-debug.apk
