@@ -1,55 +1,55 @@
-2019-09-26 10:45:52,124 INFO  DownloadService - Downloading "https://github.com/Nikoloutsos/KLoadingSpin/archive/master.zip", attempt 3
-2019-09-26 10:45:59,143 INFO  DownloadService - Downloaded https://github.com/Nikoloutsos/KLoadingSpin/archive/master.zip, attempt 3
-2019-09-26 10:45:59,143 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/master.zip": 3 MB
-2019-09-26 10:45:59,143 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 10:45:59,144 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/master.zip: true
-2019-09-26 10:45:59,144 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src'.
-2019-09-26 10:45:59,213 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-09-26 10:45:59,213 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src]
-2019-09-26 10:45:59,242 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/.git/
+2019-10-04 11:34:19,629 INFO  DownloadService - Downloading "https://github.com/Nikoloutsos/KLoadingSpin/archive/master.zip", attempt 3
+2019-10-04 11:34:23,923 INFO  DownloadService - Downloaded https://github.com/Nikoloutsos/KLoadingSpin/archive/master.zip, attempt 3
+2019-10-04 11:34:23,924 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/master.zip": 3 MB
+2019-10-04 11:34:23,924 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-04 11:34:23,930 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/master.zip: true
+2019-10-04 11:34:23,931 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src'.
+2019-10-04 11:34:24,019 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-10-04 11:34:24,019 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src]
+2019-10-04 11:34:24,052 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/.git/
 
-2019-09-26 10:45:59,246 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/gradlew
-2019-09-26 10:45:59,250 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/build.gradle
-2019-09-26 10:45:59,254 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/settings.gradle
-2019-09-26 10:45:59,255 INFO  ProjectBuildService - Remote scripts: none
-2019-09-26 10:45:59,255 INFO  ProjectFixService - Fixing project...
-2019-09-26 10:45:59,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/local.properties
-2019-09-26 10:45:59,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-09-26 10:45:59,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/sample/local.properties
-2019-09-26 10:45:59,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/sample/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-09-26 10:45:59,267 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/local.properties
-2019-09-26 10:45:59,267 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-26 10:45:59,268 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-26 10:45:59,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-09-26 10:45:59,269 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 10:45:59,269 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 10:45:59,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 10:46:08,768 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-09-26 10:46:08,768 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-26 10:46:08,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-26 10:46:20,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 11:34:24,057 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/gradlew
+2019-10-04 11:34:24,064 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/build.gradle
+2019-10-04 11:34:24,068 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/settings.gradle
+2019-10-04 11:34:24,069 INFO  ProjectBuildService - Remote scripts: none
+2019-10-04 11:34:24,069 INFO  ProjectFixService - Fixing project...
+2019-10-04 11:34:24,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/local.properties
+2019-10-04 11:34:24,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-04 11:34:24,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/sample/local.properties
+2019-10-04 11:34:24,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/sample/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-04 11:34:24,087 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/local.properties
+2019-10-04 11:34:24,088 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-04 11:34:24,089 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-04 11:34:24,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-04 11:34:24,091 INFO  ProjectFixService - Project was maybe fixed
+2019-10-04 11:34:24,091 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 11:34:24,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 11:34:35,999 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-10-04 11:34:36,000 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-04 11:34:36,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-04 11:34:53,098 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kloadingspin:preBuild UP-TO-DATE
 > Task :kloadingspin:preDebugBuild UP-TO-DATE
 > Task :kloadingspin:checkDebugManifest
 > Task :kloadingspin:generateDebugBuildConfig
 > Task :kloadingspin:generateDebugResValues
 > Task :kloadingspin:processDebugManifest
-> Task :kloadingspin:prepareLintJar
-> Task :kloadingspin:mergeDebugConsumerProguardFiles
-> Task :kloadingspin:mergeDebugShaders
 > Task :kloadingspin:compileDebugAidl NO-SOURCE
 > Task :kloadingspin:compileDebugRenderscript NO-SOURCE
 > Task :kloadingspin:generateDebugResources
 > Task :kloadingspin:packageDebugResources
 > Task :kloadingspin:generateDebugRFile
+> Task :kloadingspin:prepareLintJar
 > Task :kloadingspin:generateDebugSources
 > Task :kloadingspin:javaPreCompileDebug
 
 > Task :kloadingspin:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/src/main/java/com/example/kloadingspin/KLoadingSpin.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/src/main/java/com/example/kloadingspin/KLoadingSpin.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :kloadingspin:extractDebugAnnotations
+> Task :kloadingspin:mergeDebugConsumerProguardFiles
+> Task :kloadingspin:mergeDebugShaders
 > Task :kloadingspin:compileDebugShaders
 > Task :kloadingspin:generateDebugAssets
 > Task :kloadingspin:packageDebugAssets
@@ -79,7 +79,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :kloadingspin:javaPreCompileRelease
 
 > Task :kloadingspin:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/kloadingspin/src/main/java/com/example/kloadingspin/KLoadingSpin.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/kloadingspin/src/main/java/com/example/kloadingspin/KLoadingSpin.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :kloadingspin:extractReleaseAnnotations
@@ -108,27 +108,27 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 16s
 44 actionable tasks: 44 executed
 
-2019-09-26 10:46:20,493 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 10:46:20,494 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 10:46:28,119 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-26 10:46:28,119 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 10:46:28,119 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 10:47:02,291 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 11:34:53,132 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 11:34:53,133 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 11:35:02,732 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-04 11:35:02,732 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-04 11:35:02,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-04 11:35:33,188 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kloadingspin:preBuild UP-TO-DATE
 > Task :kloadingspin:preDebugBuild UP-TO-DATE
 > Task :kloadingspin:checkDebugManifest UP-TO-DATE
 > Task :kloadingspin:generateDebugBuildConfig UP-TO-DATE
 > Task :kloadingspin:generateDebugResValues UP-TO-DATE
 > Task :kloadingspin:processDebugManifest UP-TO-DATE
-> Task :kloadingspin:prepareLintJar UP-TO-DATE
 > Task :kloadingspin:compileDebugAidl NO-SOURCE
 > Task :kloadingspin:compileDebugRenderscript NO-SOURCE
 > Task :kloadingspin:generateDebugResources UP-TO-DATE
 > Task :kloadingspin:packageDebugResources UP-TO-DATE
 > Task :kloadingspin:generateDebugRFile UP-TO-DATE
+> Task :kloadingspin:prepareLintJar UP-TO-DATE
 > Task :kloadingspin:generateDebugSources UP-TO-DATE
 > Task :kloadingspin:javaPreCompileDebug UP-TO-DATE
 > Task :kloadingspin:compileDebugJavaWithJavac UP-TO-DATE
@@ -168,6 +168,8 @@ BUILD SUCCESSFUL in 11s
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
 > Task :kloadingspin:mergeDebugJniLibFolders UP-TO-DATE
 > Task :kloadingspin:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :kloadingspin:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
@@ -177,6 +179,8 @@ BUILD SUCCESSFUL in 11s
 > Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :kloadingspin:preReleaseBuild UP-TO-DATE
 > Task :kloadingspin:compileReleaseAidl NO-SOURCE
 > Task :kloadingspin:compileReleaseRenderscript NO-SOURCE
@@ -207,22 +211,20 @@ BUILD SUCCESSFUL in 11s
 > Task :sample:processReleaseManifest
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseJavaWithJavac
-> Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:compileReleaseSources
 > Task :kloadingspin:prepareLintJarForPublish UP-TO-DATE
 > Task :kloadingspin:processReleaseJavaRes NO-SOURCE
-> Task :kloadingspin:bundleLibResRelease
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e2d1f96ff4456f5b2179adc669c6e817/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d38abeb9d0a5333f9e319ec6a7e126ba/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
+> Task :kloadingspin:bundleLibResRelease
 > Task :kloadingspin:bundleLibRuntimeRelease
 > Task :kloadingspin:createFullJarRelease
 > Task :sample:checkReleaseDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
 > Task :kloadingspin:mergeReleaseShaders UP-TO-DATE
 > Task :kloadingspin:compileReleaseShaders UP-TO-DATE
 > Task :kloadingspin:generateReleaseAssets UP-TO-DATE
@@ -241,8 +243,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForRelease
-> Task :sample:mergeExtDexRelease
-> Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
@@ -252,7 +252,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 29s
 91 actionable tasks: 61 executed, 30 up-to-date
 
-2019-09-26 10:47:02,376 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469552120-0/src/KLoadingSpin-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-10-04 11:35:33,271 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163659623-0/src/KLoadingSpin-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

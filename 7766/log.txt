@@ -1,188 +1,663 @@
-2019-09-01 21:58:38,233 INFO  DownloadService - Downloading "https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip", attempt 3
-2019-09-01 21:58:39,064 INFO  DownloadService - Downloaded https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip, attempt 3
-2019-09-01 21:58:39,064 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/master.zip": 271 KB
-2019-09-01 21:58:39,064 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-01 21:58:39,070 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/master.zip: true
-2019-09-01 21:58:39,070 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src'.
-2019-09-01 21:58:39,125 INFO  FullProcessService - Size of directory with sources: 454 KB
-2019-09-01 21:58:39,125 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src]
-2019-09-01 21:58:39,141 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/.git/
+2019-10-04 11:36:51,822 INFO  DownloadService - Downloading "https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip", attempt 3
+2019-10-04 11:36:53,766 INFO  DownloadService - Downloaded https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip, attempt 3
+2019-10-04 11:36:53,766 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/master.zip": 267 KB
+2019-10-04 11:36:53,766 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-04 11:36:53,767 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/master.zip: true
+2019-10-04 11:36:53,767 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src'.
+2019-10-04 11:36:53,815 INFO  FullProcessService - Size of directory with sources: 448 KB
+2019-10-04 11:36:53,815 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src]
+2019-10-04 11:36:53,835 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/.git/
 
-2019-09-01 21:58:39,146 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/gradlew
-2019-09-01 21:58:39,151 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle
-2019-09-01 21:58:39,156 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/maven-release-script.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/maven-release-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/settings.gradle
-2019-09-01 21:58:39,159 INFO  ProjectBuildService - Remote scripts: none
-2019-09-01 21:58:39,159 INFO  ProjectFixService - Fixing project...
-2019-09-01 21:58:39,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/local.properties
-2019-09-01 21:58:39,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 21:58:39,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 21:58:39,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/local.properties
-2019-09-01 21:58:39,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 21:58:39,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 21:58:39,191 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/local.properties
-2019-09-01 21:58:39,192 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-01 21:58:39,192 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-01 21:58:39,195 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-01 21:58:39,195 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-01 21:58:39,196 INFO  ProjectFixService - Project was maybe fixed
-2019-09-01 21:58:39,196 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-01 21:58:39,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-01 21:58:51,466 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-09-01 21:58:51,466 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-01 21:58:51,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-01 22:00:24,305 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 11:36:53,839 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/gradlew
+2019-10-04 11:36:53,844 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/build.gradle
+2019-10-04 11:36:53,848 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/maven-release-script.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/maven-release-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/settings.gradle
+2019-10-04 11:36:53,852 INFO  ProjectBuildService - Remote scripts: none
+2019-10-04 11:36:53,852 INFO  ProjectFixService - Fixing project...
+2019-10-04 11:36:53,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/local.properties
+2019-10-04 11:36:53,867 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 11:36:53,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 11:36:53,871 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/local.properties
+2019-10-04 11:36:53,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 11:36:53,875 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 11:36:53,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/local.properties
+2019-10-04 11:36:53,876 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-04 11:36:53,877 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-04 11:36:53,881 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 11:36:53,881 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 11:36:53,882 INFO  ProjectFixService - Project was maybe fixed
+2019-10-04 11:36:53,882 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 11:36:53,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 11:37:00,313 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-04 11:37:00,313 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-04 11:37:00,314 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-04 11:37:00,314 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-04 11:37:04,602 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-04 11:37:04,603 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-> Configure project :sample
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed soon. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+FAILURE: Build failed with an exception.
 
-> Task :sample:preBuild UP-TO-DATE
-> Task :sample:preDebugBuild UP-TO-DATE
-> Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:checkDebugManifest
-> Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:generateDebugBuildConfig
-> Task :sample:mainApkListPersistenceDebug
-> Task :sample:generateDebugResValues
-> Task :sample:generateDebugResources
-> Task :sample:createDebugCompatibleScreenManifests
-> Task :sample:processDebugManifest
-> Task :sample:mergeDebugResources
-> Task :sample:processDebugResources
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle' line: 26
 
-> Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/CustomViewEventActivity.kt: (35, 41): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectItemsActivity.kt: (21, 5): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (60, 40): Parameter 'item' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 61): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 67): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (53, 60): Parameter 'direction' is never used, could be renamed to _
+* What went wrong:
+A problem occurred evaluating project ':sample'.
+> path may not be null or empty string. path='null'
 
-> Task :sample:javaPreCompileDebug
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
-> Task :sample:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/extension/PreCachingLinearLayoutManager.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sample'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:221)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:226)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:44)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:106)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:95)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:67)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:695)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:143)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:45)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$2.proceed(DefaultBuildConfigurationActionExecuter.java:63)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$2.proceed(DefaultBuildConfigurationActionExecuter.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
+	at org.gradle.api.internal.file.AbstractBaseDirFileResolver.doResolve(AbstractBaseDirFileResolver.java:64)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:58)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:89)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:154)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at build_ukmseekb9bxoxc9jnc0d4gji$_run_closure1$_closure4$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:26)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:96)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
+	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
+	at build_ukmseekb9bxoxc9jnc0d4gji$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:25)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
+	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:106)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:39)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:103)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:424)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.signingConfigs(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
+	at build_ukmseekb9bxoxc9jnc0d4gji$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:24)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
+	at org.gradle.internal.extensibility.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:173)
+	at org.gradle.internal.extensibility.ExtensionsStorage.configureExtension(ExtensionsStorage.java:64)
+	at org.gradle.internal.extensibility.DefaultConvention.configureExtension(DefaultConvention.java:372)
+	at org.gradle.internal.extensibility.DefaultConvention.access$500(DefaultConvention.java:44)
+	at org.gradle.internal.extensibility.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:309)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
+	at build_ukmseekb9bxoxc9jnc0d4gji.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:8)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 131 more
 
-> Task :sample:compileDebugSources
-> Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
-> Task :sample:mergeDebugAssets
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:checkDebugDuplicateClasses
-> Task :sample:mergeDebugJavaResource
-> Task :sample:desugarDebugFileDependencies
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
-> Task :sample:mergeDebugJniLibFolders
-> Task :sample:extractProguardFiles
-> Task :sample:preReleaseBuild
-> Task :sample:compileReleaseAidl NO-SOURCE
-> Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
-> Task :sample:generateReleaseBuildConfig
-> Task :sample:mainApkListPersistenceRelease
-> Task :sample:generateReleaseResValues
-> Task :sample:generateReleaseResources
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
 
-> Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/CustomViewEventActivity.kt: (35, 41): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (40, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropHandleItemActivity.kt: (44, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/DragAndDropItemActivity.kt: (32, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectCheckBoxItemsActivity.kt: (53, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectItemsActivity.kt: (21, 5): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultiSelectSwitchItemsActivity.kt: (47, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (39, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleEventsAndExtensionsActivity.kt: (43, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (55, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/MultipleViewTypesResolverActivity.kt: (60, 40): Parameter 'item' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (29, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SimpleItemOnClickOnLongClickActivity.kt: (33, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 21): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SingleSelectRadioButtonItemActivity.kt: (52, 27): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 61): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (39, 67): Parameter 'actionId' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/feature/SwipeRemoveItemActivity.kt: (53, 60): Parameter 'direction' is never used, could be renamed to _
+* Get more help at https://help.gradle.org
 
-> Task :sample:javaPreCompileRelease
+BUILD FAILED in 4s
 
-> Task :sample:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/src/main/java/smartrecycleradapter/extension/PreCachingLinearLayoutManager.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+2019-10-04 11:37:04,609 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 11:37:04,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 11:37:23,011 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-10-04 11:37:23,011 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-04 11:37:23,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-04 11:37:54,670 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :smartadapter:preBuild UP-TO-DATE
+> Task :smartadapter:preDebugBuild UP-TO-DATE
+> Task :smartadapter:checkDebugManifest
+> Task :smartadapter:generateDebugBuildConfig
+> Task :smartadapter:generateDebugResValues
+> Task :smartadapter:mergeDebugShaders
+> Task :smartadapter:compileDebugShaders
+> Task :smartadapter:generateDebugAssets
+> Task :smartadapter:packageDebugAssets
+> Task :smartadapter:packageDebugRenderscript NO-SOURCE
+> Task :smartadapter:processDebugJavaRes NO-SOURCE
+> Task :smartadapter:mergeDebugJniLibFolders
+> Task :smartadapter:prepareLintJarForPublish
+> Task :smartadapter:processDebugManifest
+> Task :smartadapter:mergeDebugNativeLibs
+> Task :smartadapter:stripDebugDebugSymbols
+> Task :smartadapter:transformNativeLibsWithSyncJniLibsForDebug
+> Task :smartadapter:compileDebugAidl NO-SOURCE
+> Task :smartadapter:compileDebugRenderscript NO-SOURCE
+> Task :smartadapter:generateDebugResources
+> Task :smartadapter:packageDebugResources
+> Task :smartadapter:preReleaseBuild UP-TO-DATE
+> Task :smartadapter:compileReleaseAidl NO-SOURCE
+> Task :smartadapter:compileReleaseRenderscript NO-SOURCE
+> Task :smartadapter:mergeDebugResources
+> Task :smartadapter:checkReleaseManifest
+> Task :smartadapter:generateReleaseBuildConfig
+> Task :smartadapter:generateReleaseResValues
+> Task :smartadapter:generateReleaseResources
+> Task :smartadapter:packageReleaseResources
+> Task :smartadapter:parseDebugLibraryResources
+> Task :smartadapter:processReleaseManifest
+> Task :smartadapter:mergeReleaseShaders
+> Task :smartadapter:compileReleaseShaders
+> Task :smartadapter:generateReleaseAssets
+> Task :smartadapter:packageReleaseAssets
+> Task :smartadapter:packageReleaseRenderscript NO-SOURCE
+> Task :smartadapter:processReleaseJavaRes NO-SOURCE
+> Task :smartadapter:mergeReleaseJniLibFolders
+> Task :smartadapter:mergeReleaseResources
 
-> Task :sample:compileReleaseSources
-> Task :sample:prepareLintJar
-> Task :sample:mergeReleaseShaders
+> Task :smartadapter:javadoc
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemMovedListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewDetachedFromWindowListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemSelectedListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewAttachedToWindowListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemClickListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnLoadMoreListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemLongClickListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewEventListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemLongClickSelectedListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/SwipeExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DiffUtilExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DiffUtilExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DefaultDiffUtilExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DragAndDropExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/BasicDragAndDropExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DragAndDropExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/SwipeExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/BasicSwipeExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/AutoDragAndDropExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/ViewTypeResolver.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/AutoRemoveItemSwipeExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartRecyclerAdapter.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/extension/ListExtensions.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewEventMapper.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewEventBinderProvider.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewHolderMapper.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewHolderConstructorMapper.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/utils/ReflectionUtils.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/utils/ViewEventValidator.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/exception/ConstructorNotFoundException.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/factory/SmartRecyclerAdapterExtensionFactory.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SingleSelectionStateHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SelectionStateHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SmartStateHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/ISmartRecyclerAdapter.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartEndlessScrollRecyclerAdapter.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartAdapterBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/LoadMoreViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/StatefulViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/SmartAdapterHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/ViewEventListenerHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/SmartViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/DraggableViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/BindableViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/RecyclableViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/ISmartEndlessScrollRecyclerAdapter.kt"
+47 errors
 
-> Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f5df754471e63f0c712ce25497d6ff6d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
-> Task :sample:mergeReleaseAssets
-> Task :sample:signingConfigWriterRelease
-> Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeExtDexDebug
-> Task :sample:mergeReleaseGeneratedProguardFiles
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeReleaseJavaResource
-> Task :sample:transformClassesAndResourcesWithR8ForRelease
-> Task :sample:packageRelease
-> Task :sample:assembleRelease
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :sample:assemble
-> Task :sample:build
+> Task :smartadapter:javadocJar
+> Task :smartadapter:sourcesJar
+> Task :smartadapter:generateDebugRFile
+> Task :smartadapter:compileDebugKotlin
+> Task :smartadapter:mergeReleaseNativeLibs
+> Task :smartadapter:stripReleaseDebugSymbols
+> Task :smartadapter:transformNativeLibsWithSyncJniLibsForRelease
+> Task :smartadapter:parseReleaseLibraryResources
+> Task :smartadapter:verifyReleaseResources
+> Task :smartadapter:javaPreCompileDebug
+> Task :smartadapter:compileDebugJavaWithJavac
+> Task :smartadapter:extractDebugAnnotations
+> Task :smartadapter:mergeDebugGeneratedProguardFiles
+> Task :smartadapter:mergeDebugConsumerProguardFiles
+> Task :smartadapter:generateReleaseRFile
+> Task :smartadapter:compileDebugSources
+> Task :smartadapter:compileReleaseKotlin
+> Task :smartadapter:mergeDebugJavaResource
+> Task :smartadapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :smartadapter:bundleDebugAar
+> Task :smartadapter:assembleDebug
+> Task :smartadapter:javaPreCompileRelease
+> Task :smartadapter:compileReleaseJavaWithJavac
+> Task :smartadapter:extractReleaseAnnotations
+> Task :smartadapter:mergeReleaseGeneratedProguardFiles
+> Task :smartadapter:mergeReleaseConsumerProguardFiles
+> Task :smartadapter:compileReleaseSources
+> Task :smartadapter:mergeReleaseJavaResource
+> Task :smartadapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :smartadapter:bundleReleaseAar
+> Task :smartadapter:assembleRelease
+> Task :smartadapter:assemble
+> Task :smartadapter:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 32s
-51 actionable tasks: 51 executed
+BUILD SUCCESSFUL in 31s
+53 actionable tasks: 53 executed
 
-2019-09-01 22:00:24,381 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567349918229-0/src/smart-recycler-adapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-10-04 11:37:54,742 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 11:37:54,742 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 11:37:59,646 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-04 11:37:59,646 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-10-04 11:37:59,646 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-10-04 11:37:59,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-04 11:38:03,848 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-04 11:38:03,848 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle' line: 26
+
+* What went wrong:
+A problem occurred evaluating project ':sample'.
+> path may not be null or empty string. path='null'
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':sample'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:221)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:226)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:44)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:106)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:192)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:186)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:95)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:67)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:695)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:143)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:45)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$2.proceed(DefaultBuildConfigurationActionExecuter.java:63)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$2.proceed(DefaultBuildConfigurationActionExecuter.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
+	at org.gradle.api.internal.file.AbstractBaseDirFileResolver.doResolve(AbstractBaseDirFileResolver.java:64)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:58)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:89)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:154)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:128)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:579)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
+	at build_ukmseekb9bxoxc9jnc0d4gji$_run_closure1$_closure4$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:26)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:96)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
+	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
+	at build_ukmseekb9bxoxc9jnc0d4gji$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:25)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
+	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:106)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:39)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:103)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:424)
+	at com.android.build.gradle.internal.dsl.BaseAppModuleExtension_Decorated.signingConfigs(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
+	at build_ukmseekb9bxoxc9jnc0d4gji$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:24)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
+	at org.gradle.util.ConfigureUtil$WrappedConfigureAction.execute(ConfigureUtil.java:166)
+	at org.gradle.internal.extensibility.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:173)
+	at org.gradle.internal.extensibility.ExtensionsStorage.configureExtension(ExtensionsStorage.java:64)
+	at org.gradle.internal.extensibility.DefaultConvention.configureExtension(DefaultConvention.java:372)
+	at org.gradle.internal.extensibility.DefaultConvention.access$500(DefaultConvention.java:44)
+	at org.gradle.internal.extensibility.DefaultConvention$ExtensionsDynamicObject.tryInvokeMethod(DefaultConvention.java:309)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
+	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
+	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
+	at build_ukmseekb9bxoxc9jnc0d4gji.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163811819-0/src/smart-recycler-adapter-master/sample/build.gradle:8)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 131 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s
+
+2019-10-04 11:38:03,901 ERROR FullProcessService - Project build has not produced APK file
+2019-10-04 11:38:03,950 ERROR FullProcessService - Could not find generated or existed APK file
