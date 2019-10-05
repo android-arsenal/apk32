@@ -1,55 +1,49 @@
-2019-09-26 12:03:48,230 INFO  DownloadService - Downloading "https://github.com/utsmannn/Recycling/archive/master.zip", attempt 3
-2019-09-26 12:03:51,031 INFO  DownloadService - Downloaded https://github.com/utsmannn/Recycling/archive/master.zip, attempt 3
-2019-09-26 12:03:51,031 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/master.zip": 278 KB
-2019-09-26 12:03:51,031 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 12:03:51,045 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/master.zip: true
-2019-09-26 12:03:51,046 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src'.
-2019-09-26 12:03:51,109 INFO  FullProcessService - Size of directory with sources: 312 KB
-2019-09-26 12:03:51,114 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src]
-2019-09-26 12:03:51,150 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/.git/
+2019-10-05 21:17:35,140 INFO  DownloadService - Downloading "https://github.com/utsmannn/Recycling/archive/master.zip", attempt 3
+2019-10-05 21:17:35,971 INFO  DownloadService - Downloaded https://github.com/utsmannn/Recycling/archive/master.zip, attempt 3
+2019-10-05 21:17:35,971 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/master.zip": 280 KB
+2019-10-05 21:17:35,971 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 21:17:35,978 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/master.zip: true
+2019-10-05 21:17:35,978 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src'.
+2019-10-05 21:17:36,023 INFO  FullProcessService - Size of directory with sources: 314 KB
+2019-10-05 21:17:36,024 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src]
+2019-10-05 21:17:36,048 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/.git/
 
-2019-09-26 12:03:51,177 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/gradlew
-2019-09-26 12:03:51,198 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/apppaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recycling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recyclingpaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/build.gradle
-2019-09-26 12:03:51,218 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recycling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/apppaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recyclingpaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/settings.gradle
-2019-09-26 12:03:51,236 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-09-26 12:03:51,739 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-09-26 12:03:51,740 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-09-26 12:03:51,953 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-09-26 12:03:51,954 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-09-26 12:03:51,955 INFO  ProjectFixService - Fixing project...
-2019-09-26 12:03:52,036 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-09-26 12:03:52,036 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-09-26 12:03:52,040 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-09-26 12:03:52,044 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 28.0.0-rc1 28.0.0-rc2
-2019-09-26 12:03:52,048 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-09-26 12:03:52,049 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-09-26 12:03:52,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/local.properties
-2019-09-26 12:03:52,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,068 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,071 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/apppaged/local.properties
-2019-09-26 12:03:52,074 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/apppaged/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,075 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/apppaged/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/core/local.properties
-2019-09-26 12:03:52,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recycling/local.properties
-2019-09-26 12:03:52,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recycling/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,088 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recycling/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recyclingpaged/local.properties
-2019-09-26 12:03:52,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recyclingpaged/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,094 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recyclingpaged/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,096 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/local.properties
-2019-09-26 12:03:52,103 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-26 12:03:52,105 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-26 12:03:52,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,112 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-09-26 12:03:52,113 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 12:03:52,117 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 12:03:52,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 12:04:03,831 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-09-26 12:04:03,832 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 12:04:03,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 12:04:09,102 ERROR SysUtils - Could not process external command
+2019-10-05 21:17:36,054 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/gradlew
+2019-10-05 21:17:36,061 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/apppaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recycling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recyclingpaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/build.gradle
+2019-10-05 21:17:36,066 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recycling/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/apppaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recyclingpaged/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/settings.gradle
+2019-10-05 21:17:36,073 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-10-05 21:17:36,994 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-10-05 21:17:36,995 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-10-05 21:17:37,221 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-10-05 21:17:37,222 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-10-05 21:17:37,222 INFO  ProjectFixService - Fixing project...
+2019-10-05 21:17:37,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/local.properties
+2019-10-05 21:17:37,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,244 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/apppaged/local.properties
+2019-10-05 21:17:37,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/apppaged/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,247 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/apppaged/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/core/local.properties
+2019-10-05 21:17:37,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,251 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recycling/local.properties
+2019-10-05 21:17:37,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recycling/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,254 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recycling/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recyclingpaged/local.properties
+2019-10-05 21:17:37,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recyclingpaged/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,258 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/recyclingpaged/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/local.properties
+2019-10-05 21:17:37,259 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-05 21:17:37,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-05 21:17:37,262 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,262 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-05 21:17:37,263 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 21:17:37,263 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 21:17:37,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 21:17:42,766 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-05 21:17:42,766 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-05 21:17:42,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-05 21:17:47,591 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -77,7 +71,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-09-26 12:04:09,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 21:17:47,591 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -178,9 +172,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 4s
 
-2019-09-26 12:04:09,103 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-09-26 12:04:09,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-09-26 12:05:29,586 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-05 21:17:47,591 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-10-05 21:17:47,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-10-05 21:18:50,529 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :core:preBuild UP-TO-DATE
@@ -201,20 +195,18 @@ BUILD FAILED in 4s
 > Task :recycling:compileDebugRenderscript NO-SOURCE
 > Task :recycling:generateDebugResources
 > Task :recycling:packageDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :core:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :core:compileDebugRenderscript NO-SOURCE
 > Task :core:generateDebugResources
 > Task :core:packageDebugResources
+> Task :core:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:createDebugCompatibleScreenManifests
 > Task :core:checkDebugManifest
 > Task :recycling:checkDebugManifest
-> Task :core:processDebugManifest
-> Task :recycling:processDebugManifest
-> Task :app:processDebugManifest
 > Task :app:mergeDebugResources
-> Task :core:parseDebugLibraryResources
-> Task :recycling:parseDebugLibraryResources
+> Task :recycling:processDebugManifest
+> Task :core:processDebugManifest
+> Task :app:processDebugManifest
 > Task :core:generateDebugBuildConfig
 > Task :recycling:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
@@ -225,45 +217,48 @@ BUILD FAILED in 4s
 > Task :core:generateDebugAssets
 > Task :core:packageDebugAssets
 > Task :recycling:mergeDebugShaders
+> Task :recycling:parseDebugLibraryResources
 > Task :recycling:compileDebugShaders
 > Task :recycling:generateDebugAssets
 > Task :recycling:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :core:parseDebugLibraryResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :core:processDebugJavaRes NO-SOURCE
+> Task :recycling:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
 > Task :core:generateDebugRFile
 > Task :core:compileDebugKotlin
 > Task :recycling:generateDebugRFile
 > Task :app:processDebugResources
-
 > Task :recycling:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recycling/src/main/java/com/utsman/recycling/utsman.kt: (26, 36): Unchecked cast: List<T?>? to MutableList<out T>
-
 > Task :core:javaPreCompileDebug
 > Task :core:compileDebugJavaWithJavac
 > Task :recycling:javaPreCompileDebug
 > Task :recycling:compileDebugJavaWithJavac
 > Task :core:bundleLibCompileDebug
+> Task :core:bundleLibRuntimeDebug
+> Task :core:bundleLibResDebug
+> Task :core:createFullJarDebug
+> Task :recycling:bundleLibResDebug
+> Task :recycling:bundleLibRuntimeDebug
+> Task :recycling:createFullJarDebug
 > Task :recycling:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/MainActivity.kt: (55, 53): Parameter 'itemCount' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 78): Parameter 'adapter' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 87): Parameter 'context' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 96): Parameter 'list' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (28, 30): Parameter 'position' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/MainActivity.kt: (56, 53): Parameter 'itemCount' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 78): Parameter 'adapter' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 87): Parameter 'context' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 96): Parameter 'list' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (28, 30): Parameter 'position' is never used, could be renamed to _
 
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :core:processDebugJavaRes NO-SOURCE
-> Task :recycling:processDebugJavaRes NO-SOURCE
-> Task :recycling:bundleLibResDebug
 > Task :app:javaPreCompileDebug
+
 > Task :app:compileDebugJavaWithJavac
+
 > Task :app:compileDebugSources
-> Task :core:bundleLibResDebug
-> Task :core:bundleLibRuntimeDebug
-> Task :core:createFullJarDebug
-> Task :recycling:bundleLibRuntimeDebug
-> Task :recycling:createFullJarDebug
-> Task :app:checkDebugDuplicateClasses
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/javasample/SimpleJavaActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 > Task :app:mergeDebugJavaResource
 > Task :app:desugarDebugFileDependencies
 > Task :app:transformClassesWithDexBuilderForDebug
@@ -297,6 +292,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/
 > Task :recycling:generateReleaseResValues
 > Task :recycling:generateReleaseResources
 > Task :recycling:packageReleaseResources
+> Task :recycling:mergeDebugNativeLibs
+> Task :recycling:stripDebugDebugSymbols
+> Task :recycling:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :core:checkReleaseManifest
 > Task :core:processReleaseManifest
@@ -307,9 +305,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/
 > Task :core:generateReleaseBuildConfig
 > Task :recycling:generateReleaseBuildConfig
 > Task :recycling:parseReleaseLibraryResources
-> Task :recycling:mergeDebugNativeLibs
-> Task :recycling:stripDebugDebugSymbols
-> Task :recycling:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :core:parseReleaseLibraryResources
 > Task :app:prepareLintJar
 > Task :recycling:processReleaseJavaRes NO-SOURCE
@@ -318,40 +315,39 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/
 > Task :core:prepareLintJarForPublish
 > Task :recycling:prepareLintJarForPublish
 > Task :recycling:generateReleaseRFile
-
 > Task :recycling:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/recycling/src/main/java/com/utsman/recycling/utsman.kt: (26, 36): Unchecked cast: List<T?>? to MutableList<out T>
-
 > Task :core:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :core:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :core:javaPreCompileRelease
-> Task :core:compileReleaseJavaWithJavac
-> Task :core:bundleLibCompileRelease
 > Task :recycling:javaPreCompileRelease
 > Task :recycling:compileReleaseJavaWithJavac
+> Task :core:javaPreCompileRelease
+> Task :core:compileReleaseJavaWithJavac
 > Task :core:bundleLibResRelease
 > Task :core:bundleLibRuntimeRelease
 > Task :core:createFullJarRelease
-> Task :recycling:bundleLibResRelease
+> Task :recycling:bundleLibRuntimeRelease
 > Task :recycling:bundleLibCompileRelease
+> Task :core:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/MainActivity.kt: (55, 53): Parameter 'itemCount' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 78): Parameter 'adapter' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 87): Parameter 'context' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 96): Parameter 'list' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (28, 30): Parameter 'position' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/MainActivity.kt: (56, 53): Parameter 'itemCount' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 78): Parameter 'adapter' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 87): Parameter 'context' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (27, 96): Parameter 'list' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/SimpleActivity.kt: (28, 30): Parameter 'position' is never used, could be renamed to _
 
-> Task :recycling:bundleLibRuntimeRelease
-> Task :recycling:createFullJarRelease
 > Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
+
 > Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/src/main/java/com/utsman/recycling/sample/javasample/SimpleJavaActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :recycling:bundleLibResRelease
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease SKIPPED
+> Task :recycling:createFullJarRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
@@ -374,30 +370,30 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/
 > Task :app:mergeReleaseJniLibFolders
 > Task :core:mergeReleaseJniLibFolders
 > Task :recycling:mergeReleaseJniLibFolders
-> Task :core:mergeReleaseNativeLibs
-> Task :core:stripReleaseDebugSymbols
-> Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
 
 > Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a289cc0710439c0682b476f1eeb72b03/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/70faa1a23a2b4d657967c821ec58c2c9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 Ran lint on variant release: 7 issues found
 Ran lint on variant debug: 7 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build/reports/lint-results.xml
 
 > Task :app:mergeReleaseJavaResource
 > Task :recycling:mergeReleaseNativeLibs
 > Task :recycling:stripReleaseDebugSymbols
 > Task :recycling:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
-> Task :app:processDebugUnitTestJavaRes NO-SOURCE
-> Task :app:preReleaseUnitTestBuild UP-TO-DATE
-> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
 > Task :app:compileDebugUnitTestKotlin
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
 > Task :app:compileReleaseUnitTestKotlin
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
 > Task :app:javaPreCompileDebugUnitTest
 > Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testDebugUnitTest
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :core:mergeReleaseNativeLibs
+> Task :core:stripReleaseDebugSymbols
+> Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeExtDexRelease
 > Task :app:javaPreCompileReleaseUnitTest
 > Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
@@ -416,7 +412,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 19s
+BUILD SUCCESSFUL in 1m 2s
 145 actionable tasks: 145 executed
 
-2019-09-26 12:05:29,728 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569474228123-0/src/Recycling-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-05 21:18:50,628 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285055135-0/src/Recycling-master/app/build/outputs/apk/debug/app-debug.apk
