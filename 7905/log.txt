@@ -1,0 +1,366 @@
+2019-10-06 21:14:19,345 INFO  DownloadService - Downloading "https://github.com/GuilhE/SharedPrefs-ktx/archive/master.zip", attempt 3
+2019-10-06 21:14:21,205 INFO  DownloadService - Downloaded https://github.com/GuilhE/SharedPrefs-ktx/archive/master.zip, attempt 3
+2019-10-06 21:14:21,206 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/master.zip": 77 KB
+2019-10-06 21:14:21,206 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 21:14:21,206 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/master.zip: true
+2019-10-06 21:14:21,206 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src'.
+2019-10-06 21:14:21,219 INFO  FullProcessService - Size of directory with sources: 98 KB
+2019-10-06 21:14:21,220 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src]
+2019-10-06 21:14:21,246 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/.git/
+
+2019-10-06 21:14:21,249 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/gradlew
+2019-10-06 21:14:21,252 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/build.gradle
+2019-10-06 21:14:21,254 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/deploy-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/settings.gradle
+2019-10-06 21:14:21,255 INFO  ProjectBuildService - Remote scripts: none
+2019-10-06 21:14:21,255 INFO  ProjectFixService - Fixing project...
+2019-10-06 21:14:21,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-gson/local.properties
+2019-10-06 21:14:21,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-gson/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-06 21:14:21,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-moshi/local.properties
+2019-10-06 21:14:21,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-moshi/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-06 21:14:21,279 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/local.properties
+2019-10-06 21:14:21,280 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-06 21:14:21,281 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-06 21:14:21,282 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-06 21:14:21,282 INFO  ProjectFixService - Project was maybe fixed
+2019-10-06 21:14:21,282 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 21:14:21,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 21:14:36,917 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-10-06 21:14:36,917 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-06 21:14:36,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-06 21:14:57,326 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :converter-gson:preBuild UP-TO-DATE
+> Task :converter-gson:preDebugBuild UP-TO-DATE
+> Task :converter-gson:checkDebugManifest
+> Task :converter-gson:generateDebugBuildConfig
+> Task :converter-gson:compileDebugAidl NO-SOURCE
+> Task :converter-gson:compileDebugRenderscript NO-SOURCE
+> Task :converter-gson:generateDebugResValues
+> Task :converter-gson:generateDebugResources
+> Task :converter-gson:packageDebugResources
+> Task :converter-gson:mergeDebugShaders
+> Task :converter-gson:compileDebugShaders
+> Task :converter-gson:generateDebugAssets
+> Task :converter-gson:packageDebugAssets
+> Task :converter-gson:packageDebugRenderscript NO-SOURCE
+> Task :converter-gson:processDebugJavaRes NO-SOURCE
+> Task :converter-gson:mergeDebugJniLibFolders
+> Task :converter-gson:parseDebugLibraryResources
+> Task :converter-gson:preReleaseBuild UP-TO-DATE
+> Task :converter-gson:compileReleaseAidl NO-SOURCE
+> Task :converter-gson:compileReleaseRenderscript NO-SOURCE
+> Task :converter-gson:checkReleaseManifest
+> Task :converter-gson:generateReleaseBuildConfig
+> Task :converter-gson:generateReleaseResValues
+> Task :converter-gson:generateReleaseResources
+> Task :converter-gson:packageReleaseResources
+> Task :converter-gson:processDebugManifest
+> Task :converter-gson:mergeReleaseShaders
+> Task :converter-gson:compileReleaseShaders
+> Task :converter-gson:generateReleaseAssets
+> Task :converter-gson:packageReleaseAssets
+> Task :converter-gson:packageReleaseRenderscript NO-SOURCE
+> Task :converter-gson:processReleaseJavaRes NO-SOURCE
+> Task :converter-gson:mergeReleaseJniLibFolders
+> Task :converter-gson:generateDebugRFile
+> Task :converter-gson:compileDebugKotlin
+> Task :converter-gson:mergeReleaseNativeLibs
+> Task :converter-gson:stripReleaseDebugSymbols
+> Task :converter-gson:transformNativeLibsWithSyncJniLibsForRelease
+> Task :converter-gson:javaPreCompileDebug
+> Task :converter-gson:compileDebugJavaWithJavac
+> Task :converter-gson:extractDebugAnnotations
+> Task :converter-gson:mergeDebugGeneratedProguardFiles
+> Task :converter-gson:mergeDebugConsumerProguardFiles
+> Task :converter-gson:mergeDebugNativeLibs
+> Task :converter-gson:stripDebugDebugSymbols
+> Task :converter-gson:transformNativeLibsWithSyncJniLibsForDebug
+> Task :converter-gson:compileDebugSources
+> Task :converter-gson:mergeReleaseResources
+> Task :converter-gson:javadoc NO-SOURCE
+> Task :converter-gson:javadocJar
+> Task :converter-gson:sourcesJar
+> Task :converter-gson:prepareLintJarForPublish
+> Task :converter-gson:parseReleaseLibraryResources
+> Task :converter-gson:mergeDebugJavaResource
+> Task :converter-gson:processReleaseManifest
+> Task :converter-gson:generateReleaseRFile
+> Task :converter-gson:compileReleaseKotlin
+> Task :converter-gson:jacocoDebug
+> Task :converter-gson:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :converter-gson:bundleDebugAar
+> Task :converter-gson:assembleDebug
+> Task :converter-gson:javaPreCompileRelease
+> Task :converter-gson:compileReleaseJavaWithJavac
+> Task :converter-gson:extractReleaseAnnotations
+> Task :converter-gson:mergeReleaseGeneratedProguardFiles
+> Task :converter-gson:mergeReleaseConsumerProguardFiles
+> Task :converter-gson:compileReleaseSources
+> Task :converter-gson:verifyReleaseResources
+> Task :converter-gson:mergeReleaseJavaResource
+> Task :converter-gson:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :converter-gson:bundleReleaseAar
+> Task :converter-gson:assembleRelease
+> Task :converter-gson:assemble
+> Task :converter-gson:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 19s
+52 actionable tasks: 52 executed
+
+2019-10-06 21:14:57,341 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 21:14:57,342 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-moshi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 21:15:05,821 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-10-06 21:15:05,822 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-06 21:15:05,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/converter-moshi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-06 21:15:24,727 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :converter-moshi:preBuild UP-TO-DATE
+> Task :converter-moshi:preDebugBuild UP-TO-DATE
+> Task :converter-moshi:compileDebugAidl NO-SOURCE
+> Task :converter-moshi:checkDebugManifest
+> Task :converter-moshi:compileDebugRenderscript NO-SOURCE
+> Task :converter-moshi:generateDebugBuildConfig
+> Task :converter-moshi:generateDebugResValues
+> Task :converter-moshi:generateDebugResources
+> Task :converter-moshi:packageDebugResources
+> Task :converter-moshi:mergeDebugShaders
+> Task :converter-moshi:compileDebugShaders
+> Task :converter-moshi:generateDebugAssets
+> Task :converter-moshi:packageDebugAssets
+> Task :converter-moshi:packageDebugRenderscript NO-SOURCE
+> Task :converter-moshi:parseDebugLibraryResources
+> Task :converter-moshi:processDebugJavaRes NO-SOURCE
+> Task :converter-moshi:mergeDebugJniLibFolders
+> Task :converter-moshi:preReleaseBuild UP-TO-DATE
+> Task :converter-moshi:compileReleaseAidl NO-SOURCE
+> Task :converter-moshi:compileReleaseRenderscript NO-SOURCE
+> Task :converter-moshi:checkReleaseManifest
+> Task :converter-moshi:generateReleaseBuildConfig
+> Task :converter-moshi:generateReleaseResValues
+> Task :converter-moshi:generateReleaseResources
+> Task :converter-moshi:packageReleaseResources
+> Task :converter-moshi:processDebugManifest
+> Task :converter-moshi:processReleaseManifest
+> Task :converter-moshi:mergeReleaseShaders
+> Task :converter-moshi:compileReleaseShaders
+> Task :converter-moshi:generateReleaseAssets
+> Task :converter-moshi:packageReleaseAssets
+> Task :converter-moshi:packageReleaseRenderscript NO-SOURCE
+> Task :converter-moshi:processReleaseJavaRes NO-SOURCE
+> Task :converter-moshi:mergeReleaseJniLibFolders
+> Task :converter-moshi:generateDebugRFile
+> Task :converter-moshi:compileDebugKotlin
+> Task :converter-moshi:mergeReleaseNativeLibs
+> Task :converter-moshi:stripReleaseDebugSymbols
+> Task :converter-moshi:transformNativeLibsWithSyncJniLibsForRelease
+> Task :converter-moshi:javaPreCompileDebug
+> Task :converter-moshi:compileDebugJavaWithJavac
+> Task :converter-moshi:extractDebugAnnotations
+> Task :converter-moshi:mergeDebugGeneratedProguardFiles
+> Task :converter-moshi:mergeDebugConsumerProguardFiles
+> Task :converter-moshi:prepareLintJarForPublish
+> Task :converter-moshi:parseReleaseLibraryResources
+> Task :converter-moshi:compileDebugSources
+> Task :converter-moshi:mergeDebugNativeLibs
+> Task :converter-moshi:stripDebugDebugSymbols
+> Task :converter-moshi:transformNativeLibsWithSyncJniLibsForDebug
+> Task :converter-moshi:mergeReleaseResources
+> Task :converter-moshi:javadoc NO-SOURCE
+> Task :converter-moshi:javadocJar
+> Task :converter-moshi:sourcesJar
+> Task :converter-moshi:mergeDebugJavaResource
+> Task :converter-moshi:generateReleaseRFile
+> Task :converter-moshi:compileReleaseKotlin
+> Task :converter-moshi:jacocoDebug
+> Task :converter-moshi:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :converter-moshi:verifyReleaseResources
+> Task :converter-moshi:bundleDebugAar
+> Task :converter-moshi:assembleDebug
+> Task :converter-moshi:javaPreCompileRelease
+> Task :converter-moshi:compileReleaseJavaWithJavac
+> Task :converter-moshi:extractReleaseAnnotations
+> Task :converter-moshi:mergeReleaseGeneratedProguardFiles
+> Task :converter-moshi:mergeReleaseConsumerProguardFiles
+> Task :converter-moshi:compileReleaseSources
+> Task :converter-moshi:mergeReleaseJavaResource
+> Task :converter-moshi:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :converter-moshi:bundleReleaseAar
+> Task :converter-moshi:assembleRelease
+> Task :converter-moshi:assemble
+> Task :converter-moshi:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 18s
+52 actionable tasks: 52 executed
+
+2019-10-06 21:15:24,754 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 21:15:24,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 21:15:34,288 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-10-06 21:15:34,288 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-06 21:15:34,289 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371259337-0/src/SharedPrefs-ktx-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-06 21:15:45,771 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :assemble UP-TO-DATE
+> Task :build
+> Task :converter-gson:preBuild UP-TO-DATE
+> Task :converter-gson:preDebugBuild UP-TO-DATE
+> Task :converter-gson:checkDebugManifest UP-TO-DATE
+> Task :converter-gson:generateDebugBuildConfig UP-TO-DATE
+> Task :converter-gson:generateDebugResValues UP-TO-DATE
+> Task :converter-gson:compileDebugRenderscript NO-SOURCE
+> Task :converter-gson:compileDebugAidl NO-SOURCE
+> Task :converter-gson:generateDebugResources UP-TO-DATE
+> Task :converter-gson:packageDebugResources UP-TO-DATE
+> Task :converter-gson:parseDebugLibraryResources UP-TO-DATE
+> Task :converter-gson:processDebugManifest UP-TO-DATE
+> Task :converter-gson:generateDebugRFile UP-TO-DATE
+> Task :converter-gson:compileDebugKotlin UP-TO-DATE
+> Task :converter-gson:javaPreCompileDebug UP-TO-DATE
+> Task :converter-gson:compileDebugJavaWithJavac UP-TO-DATE
+> Task :converter-gson:extractDebugAnnotations UP-TO-DATE
+> Task :converter-gson:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :converter-gson:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :converter-gson:mergeDebugShaders UP-TO-DATE
+> Task :converter-gson:compileDebugShaders UP-TO-DATE
+> Task :converter-gson:generateDebugAssets UP-TO-DATE
+> Task :converter-gson:packageDebugAssets UP-TO-DATE
+> Task :converter-gson:packageDebugRenderscript NO-SOURCE
+> Task :converter-gson:prepareLintJarForPublish UP-TO-DATE
+> Task :converter-gson:jacocoDebug UP-TO-DATE
+> Task :converter-gson:processDebugJavaRes NO-SOURCE
+> Task :converter-gson:mergeDebugJavaResource UP-TO-DATE
+> Task :converter-gson:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :converter-gson:mergeDebugJniLibFolders UP-TO-DATE
+> Task :converter-gson:mergeDebugNativeLibs UP-TO-DATE
+> Task :converter-gson:stripDebugDebugSymbols UP-TO-DATE
+> Task :converter-gson:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :converter-gson:bundleDebugAar UP-TO-DATE
+> Task :converter-gson:compileDebugSources UP-TO-DATE
+> Task :converter-gson:assembleDebug UP-TO-DATE
+> Task :converter-gson:preReleaseBuild UP-TO-DATE
+> Task :converter-gson:compileReleaseAidl NO-SOURCE
+> Task :converter-gson:compileReleaseRenderscript NO-SOURCE
+> Task :converter-gson:checkReleaseManifest UP-TO-DATE
+> Task :converter-gson:generateReleaseBuildConfig UP-TO-DATE
+> Task :converter-gson:generateReleaseResValues UP-TO-DATE
+> Task :converter-gson:generateReleaseResources UP-TO-DATE
+> Task :converter-gson:packageReleaseResources UP-TO-DATE
+> Task :converter-gson:parseReleaseLibraryResources UP-TO-DATE
+> Task :converter-gson:processReleaseManifest UP-TO-DATE
+> Task :converter-gson:generateReleaseRFile UP-TO-DATE
+> Task :converter-gson:compileReleaseKotlin UP-TO-DATE
+> Task :converter-gson:javaPreCompileRelease UP-TO-DATE
+> Task :converter-gson:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :converter-gson:extractReleaseAnnotations UP-TO-DATE
+> Task :converter-gson:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :converter-gson:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :converter-gson:mergeReleaseShaders UP-TO-DATE
+> Task :converter-gson:compileReleaseShaders UP-TO-DATE
+> Task :converter-gson:generateReleaseAssets UP-TO-DATE
+> Task :converter-gson:packageReleaseAssets UP-TO-DATE
+> Task :converter-gson:packageReleaseRenderscript NO-SOURCE
+> Task :converter-gson:processReleaseJavaRes NO-SOURCE
+> Task :converter-gson:mergeReleaseJavaResource UP-TO-DATE
+> Task :converter-gson:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :converter-gson:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :converter-gson:mergeReleaseNativeLibs UP-TO-DATE
+> Task :converter-gson:stripReleaseDebugSymbols UP-TO-DATE
+> Task :converter-gson:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :converter-gson:bundleReleaseAar UP-TO-DATE
+> Task :converter-gson:compileReleaseSources UP-TO-DATE
+> Task :converter-gson:javadoc NO-SOURCE
+> Task :converter-gson:mergeReleaseResources UP-TO-DATE
+> Task :converter-gson:verifyReleaseResources UP-TO-DATE
+> Task :converter-gson:assembleRelease UP-TO-DATE
+> Task :converter-gson:javadocJar UP-TO-DATE
+> Task :converter-gson:sourcesJar UP-TO-DATE
+> Task :converter-gson:assemble UP-TO-DATE
+> Task :converter-gson:build
+> Task :converter-moshi:preBuild UP-TO-DATE
+> Task :converter-moshi:preDebugBuild UP-TO-DATE
+> Task :converter-moshi:compileDebugAidl NO-SOURCE
+> Task :converter-moshi:compileDebugRenderscript NO-SOURCE
+> Task :converter-moshi:checkDebugManifest UP-TO-DATE
+> Task :converter-moshi:generateDebugBuildConfig UP-TO-DATE
+> Task :converter-moshi:generateDebugResValues UP-TO-DATE
+> Task :converter-moshi:generateDebugResources UP-TO-DATE
+> Task :converter-moshi:packageDebugResources UP-TO-DATE
+> Task :converter-moshi:parseDebugLibraryResources UP-TO-DATE
+> Task :converter-moshi:processDebugManifest UP-TO-DATE
+> Task :converter-moshi:generateDebugRFile UP-TO-DATE
+> Task :converter-moshi:compileDebugKotlin UP-TO-DATE
+> Task :converter-moshi:javaPreCompileDebug UP-TO-DATE
+> Task :converter-moshi:compileDebugJavaWithJavac UP-TO-DATE
+> Task :converter-moshi:extractDebugAnnotations UP-TO-DATE
+> Task :converter-moshi:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :converter-moshi:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :converter-moshi:mergeDebugShaders UP-TO-DATE
+> Task :converter-moshi:compileDebugShaders UP-TO-DATE
+> Task :converter-moshi:generateDebugAssets UP-TO-DATE
+> Task :converter-moshi:packageDebugAssets UP-TO-DATE
+> Task :converter-moshi:packageDebugRenderscript NO-SOURCE
+> Task :converter-moshi:prepareLintJarForPublish UP-TO-DATE
+> Task :converter-moshi:jacocoDebug UP-TO-DATE
+> Task :converter-moshi:processDebugJavaRes NO-SOURCE
+> Task :converter-moshi:mergeDebugJavaResource UP-TO-DATE
+> Task :converter-moshi:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :converter-moshi:mergeDebugJniLibFolders UP-TO-DATE
+> Task :converter-moshi:mergeDebugNativeLibs UP-TO-DATE
+> Task :converter-moshi:stripDebugDebugSymbols UP-TO-DATE
+> Task :converter-moshi:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :converter-moshi:bundleDebugAar UP-TO-DATE
+> Task :converter-moshi:compileDebugSources UP-TO-DATE
+> Task :converter-moshi:assembleDebug UP-TO-DATE
+> Task :converter-moshi:preReleaseBuild UP-TO-DATE
+> Task :converter-moshi:compileReleaseAidl NO-SOURCE
+> Task :converter-moshi:compileReleaseRenderscript NO-SOURCE
+> Task :converter-moshi:checkReleaseManifest UP-TO-DATE
+> Task :converter-moshi:generateReleaseBuildConfig UP-TO-DATE
+> Task :converter-moshi:generateReleaseResValues UP-TO-DATE
+> Task :converter-moshi:generateReleaseResources UP-TO-DATE
+> Task :converter-moshi:packageReleaseResources UP-TO-DATE
+> Task :converter-moshi:parseReleaseLibraryResources UP-TO-DATE
+> Task :converter-moshi:processReleaseManifest UP-TO-DATE
+> Task :converter-moshi:generateReleaseRFile UP-TO-DATE
+> Task :converter-moshi:compileReleaseKotlin UP-TO-DATE
+> Task :converter-moshi:javaPreCompileRelease UP-TO-DATE
+> Task :converter-moshi:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :converter-moshi:extractReleaseAnnotations UP-TO-DATE
+> Task :converter-moshi:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :converter-moshi:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :converter-moshi:mergeReleaseShaders UP-TO-DATE
+> Task :converter-moshi:compileReleaseShaders UP-TO-DATE
+> Task :converter-moshi:generateReleaseAssets UP-TO-DATE
+> Task :converter-moshi:packageReleaseAssets UP-TO-DATE
+> Task :converter-moshi:packageReleaseRenderscript NO-SOURCE
+> Task :converter-moshi:processReleaseJavaRes NO-SOURCE
+> Task :converter-moshi:mergeReleaseJavaResource UP-TO-DATE
+> Task :converter-moshi:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :converter-moshi:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :converter-moshi:mergeReleaseNativeLibs UP-TO-DATE
+> Task :converter-moshi:stripReleaseDebugSymbols UP-TO-DATE
+> Task :converter-moshi:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :converter-moshi:bundleReleaseAar UP-TO-DATE
+> Task :converter-moshi:compileReleaseSources UP-TO-DATE
+> Task :converter-moshi:javadoc NO-SOURCE
+> Task :converter-moshi:mergeReleaseResources UP-TO-DATE
+> Task :converter-moshi:verifyReleaseResources UP-TO-DATE
+> Task :converter-moshi:assembleRelease UP-TO-DATE
+> Task :converter-moshi:javadocJar UP-TO-DATE
+> Task :converter-moshi:sourcesJar UP-TO-DATE
+> Task :converter-moshi:assemble UP-TO-DATE
+> Task :converter-moshi:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 11s
+104 actionable tasks: 104 up-to-date
+
+2019-10-06 21:15:45,799 ERROR FullProcessService - Project build has not produced APK file
+2019-10-06 21:15:45,824 ERROR FullProcessService - Could not find generated or existed APK file
