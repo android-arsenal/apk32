@@ -1,72 +1,64 @@
-2019-08-27 10:48:54,423 INFO  DownloadService - Downloading "https://github.com/Zeuskartik/MediaSliderView/archive/master.zip", attempt 3
-2019-08-27 10:48:56,866 INFO  DownloadService - Downloaded https://github.com/Zeuskartik/MediaSliderView/archive/master.zip, attempt 3
-2019-08-27 10:48:56,867 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/master.zip": 192 KB
-2019-08-27 10:48:56,867 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-27 10:48:56,872 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/master.zip: true
-2019-08-27 10:48:56,872 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src'.
-2019-08-27 10:48:56,899 INFO  FullProcessService - Size of directory with sources: 288 KB
-2019-08-27 10:48:56,899 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src]
-2019-08-27 10:48:56,922 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/.git/
+2019-10-06 20:11:06,327 INFO  DownloadService - Downloading "https://github.com/Zeuskartik/MediaSliderView/archive/master.zip", attempt 3
+2019-10-06 20:11:08,597 INFO  DownloadService - Downloaded https://github.com/Zeuskartik/MediaSliderView/archive/master.zip, attempt 3
+2019-10-06 20:11:08,597 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/master.zip": 193 KB
+2019-10-06 20:11:08,598 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 20:11:08,598 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/master.zip: true
+2019-10-06 20:11:08,599 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src'.
+2019-10-06 20:11:08,629 INFO  FullProcessService - Size of directory with sources: 291 KB
+2019-10-06 20:11:08,629 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src]
+2019-10-06 20:11:08,657 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/.git/
 
-2019-08-27 10:48:56,926 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/gradlew
-2019-08-27 10:48:56,930 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/mediaslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/build.gradle
-2019-08-27 10:48:56,933 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/mediaslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/settings.gradle
-2019-08-27 10:48:56,933 INFO  ProjectBuildService - Remote scripts: none
-2019-08-27 10:48:56,933 INFO  ProjectFixService - Fixing project...
-2019-08-27 10:48:56,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/app/local.properties
-2019-08-27 10:48:56,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-08-27 10:48:56,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/mediaslider/local.properties
-2019-08-27 10:48:56,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/mediaslider/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-08-27 10:48:56,942 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/local.properties
-2019-08-27 10:48:56,942 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-27 10:48:56,942 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-27 10:48:56,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-08-27 10:48:56,943 INFO  ProjectFixService - Project was maybe fixed
-2019-08-27 10:48:56,943 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-27 10:48:56,943 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-27 10:49:04,367 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-27 10:49:04,368 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-27 10:49:04,368 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-27 10:49:48,831 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-06 20:11:08,661 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/gradlew
+2019-10-06 20:11:08,664 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/mediaslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/build.gradle
+2019-10-06 20:11:08,668 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/mediaslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/settings.gradle
+2019-10-06 20:11:08,668 INFO  ProjectBuildService - Remote scripts: none
+2019-10-06 20:11:08,668 INFO  ProjectFixService - Fixing project...
+2019-10-06 20:11:08,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/app/local.properties
+2019-10-06 20:11:08,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-06 20:11:08,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/mediaslider/local.properties
+2019-10-06 20:11:08,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/mediaslider/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-06 20:11:08,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/local.properties
+2019-10-06 20:11:08,681 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-06 20:11:08,682 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-06 20:11:08,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-06 20:11:08,684 INFO  ProjectFixService - Project was maybe fixed
+2019-10-06 20:11:08,684 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-06 20:11:08,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-06 20:11:15,836 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-06 20:11:15,836 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-06 20:11:15,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-06 20:12:07,293 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :mediaslider:preBuild UP-TO-DATE
 > Task :mediaslider:preDebugBuild UP-TO-DATE
-> Task :mediaslider:checkDebugManifest
-> Task :mediaslider:processDebugManifest
-> Task :mediaslider:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
-> Task :mediaslider:generateDebugBuildConfig
-> Task :mediaslider:generateDebugResValues
-> Task :mediaslider:prepareLintJar
-> Task :mediaslider:mergeDebugShaders
-> Task :mediaslider:compileDebugShaders
-> Task :mediaslider:generateDebugAssets
-> Task :mediaslider:packageDebugAssets
-> Task :mediaslider:processDebugJavaRes NO-SOURCE
-> Task :app:preDebugBuild
 > Task :mediaslider:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :mediaslider:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:generateDebugSources
+> Task :mediaslider:checkDebugManifest
 > Task :mediaslider:compileDebugRenderscript NO-SOURCE
+> Task :mediaslider:generateDebugBuildConfig
+> Task :mediaslider:generateDebugResValues
 > Task :mediaslider:generateDebugResources
 > Task :mediaslider:packageDebugResources
-> Task :mediaslider:generateDebugRFile
-> Task :mediaslider:generateDebugSources
+> Task :mediaslider:processDebugManifest
+> Task :mediaslider:parseDebugLibraryResources
 > Task :mediaslider:javaPreCompileDebug
-
-> Task :mediaslider:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/mediaslider/src/main/java/com/zeuskartik/mediaslider/MediaSliderActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :mediaslider:bundleLibCompileDebug
-> Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :mediaslider:generateDebugRFile
+
+> Task :mediaslider:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/mediaslider/src/main/java/com/zeuskartik/mediaslider/MediaSliderActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 > Task :app:mergeDebugResources
+> Task :mediaslider:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
@@ -75,72 +67,73 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :mediaslider:mergeDebugShaders
+> Task :mediaslider:compileDebugShaders
+> Task :mediaslider:generateDebugAssets
+> Task :mediaslider:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :mediaslider:processDebugJavaRes NO-SOURCE
 > Task :mediaslider:bundleLibResDebug
 > Task :mediaslider:bundleLibRuntimeDebug
 > Task :mediaslider:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :mediaslider:mergeDebugJniLibFolders
-> Task :mediaslider:transformNativeLibsWithMergeJniLibsForDebug
-> Task :mediaslider:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :mediaslider:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :mediaslider:preReleaseBuild UP-TO-DATE
-> Task :mediaslider:checkReleaseManifest
-> Task :mediaslider:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :mediaslider:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :mediaslider:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
 > Task :mediaslider:compileReleaseRenderscript NO-SOURCE
+> Task :mediaslider:checkReleaseManifest
 > Task :mediaslider:generateReleaseBuildConfig
 > Task :mediaslider:generateReleaseResValues
 > Task :mediaslider:generateReleaseResources
 > Task :mediaslider:packageReleaseResources
-> Task :mediaslider:generateReleaseRFile
-> Task :mediaslider:generateReleaseSources
+> Task :mediaslider:mergeDebugNativeLibs
+> Task :mediaslider:stripDebugDebugSymbols
+> Task :mediaslider:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :mediaslider:processReleaseManifest
+> Task :mediaslider:parseReleaseLibraryResources
 > Task :mediaslider:javaPreCompileRelease
-
-> Task :mediaslider:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/mediaslider/src/main/java/com/zeuskartik/mediaslider/MediaSliderActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :mediaslider:bundleLibCompileRelease
-> Task :app:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
+> Task :app:prepareLintJar
+> Task :mediaslider:prepareLintJarForPublish
+> Task :mediaslider:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :mediaslider:generateReleaseRFile
+
+> Task :mediaslider:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/mediaslider/src/main/java/com/zeuskartik/mediaslider/MediaSliderActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :mediaslider:bundleLibCompileRelease
+> Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
+> Task :mediaslider:bundleLibResRelease
+> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :mediaslider:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/77df12cffa1b9e24ab14b439233cd788/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e88ba07a9627213acee7c0dcf140d905/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :mediaslider:processReleaseJavaRes NO-SOURCE
-> Task :mediaslider:bundleLibResRelease
 > Task :mediaslider:bundleLibRuntimeRelease
 > Task :mediaslider:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -150,16 +143,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :mediaslider:generateReleaseAssets
 > Task :mediaslider:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :mediaslider:mergeReleaseJniLibFolders
-> Task :mediaslider:transformNativeLibsWithMergeJniLibsForRelease
-> Task :mediaslider:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :mediaslider:mergeReleaseNativeLibs
+> Task :mediaslider:stripReleaseDebugSymbols
 > Task :mediaslider:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -169,9 +166,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 43s
-91 actionable tasks: 91 executed
+BUILD SUCCESSFUL in 50s
+90 actionable tasks: 90 executed
 
-2019-08-27 10:49:48,904 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566877734420-0/src/MediaSliderView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-06 20:12:07,373 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570367466318-0/src/MediaSliderView-master/app/build/outputs/apk/debug/app-debug.apk
