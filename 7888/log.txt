@@ -1,45 +1,39 @@
-2019-09-30 16:34:53,854 INFO  DownloadService - Downloading "https://github.com/OmarShehe/FormInputs/archive/master.zip", attempt 3
-2019-09-30 16:35:00,007 INFO  DownloadService - Downloaded https://github.com/OmarShehe/FormInputs/archive/master.zip, attempt 3
-2019-09-30 16:35:00,007 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/master.zip": 6 MB
-2019-09-30 16:35:00,008 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-30 16:35:00,020 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/master.zip: true
-2019-09-30 16:35:00,021 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src'.
-2019-09-30 16:35:00,174 INFO  FullProcessService - Size of directory with sources: 9 MB
-2019-09-30 16:35:00,178 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src]
-2019-09-30 16:35:00,224 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/.git/
+2019-10-12 23:55:14,284 INFO  DownloadService - Downloading "https://github.com/OmarShehe/FormInputs/archive/master.zip", attempt 3
+2019-10-12 23:55:20,648 INFO  DownloadService - Downloaded https://github.com/OmarShehe/FormInputs/archive/master.zip, attempt 3
+2019-10-12 23:55:20,650 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/master.zip": 3 MB
+2019-10-12 23:55:20,650 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-12 23:55:20,651 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/master.zip: true
+2019-10-12 23:55:20,651 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src'.
+2019-10-12 23:55:20,786 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-10-12 23:55:20,786 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src]
+2019-10-12 23:55:20,881 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/.git/
 
-2019-09-30 16:35:00,254 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/gradlew
-2019-09-30 16:35:00,275 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/build.gradle
-2019-09-30 16:35:00,288 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputjava/build.gradle
-2019-09-30 16:35:00,291 INFO  ProjectBuildService - Remote scripts: none
-2019-09-30 16:35:00,292 INFO  ProjectFixService - Fixing project...
-2019-09-30 16:35:00,352 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-09-30 16:35:00,352 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-09-30 16:35:00,358 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-09-30 16:35:00,362 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 28.0.0-rc1 28.0.0-rc2
-2019-09-30 16:35:00,365 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-09-30 16:35:00,366 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-09-30 16:35:00,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/local.properties
-2019-09-30 16:35:00,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,380 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,381 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputjava/local.properties
-2019-09-30 16:35:00,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,384 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/local.properties
-2019-09-30 16:35:00,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,389 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,390 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/local.properties
-2019-09-30 16:35:00,396 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-30 16:35:00,397 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-30 16:35:00,398 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,399 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-30 16:35:00,399 INFO  ProjectFixService - Project was maybe fixed
-2019-09-30 16:35:00,401 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-30 16:35:00,402 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-30 16:35:08,931 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-30 16:35:08,931 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-30 16:35:08,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-30 16:36:24,568 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-12 23:55:20,890 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/gradlew
+2019-10-12 23:55:20,899 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/build.gradle
+2019-10-12 23:55:20,907 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputjava/build.gradle
+2019-10-12 23:55:20,908 INFO  ProjectBuildService - Remote scripts: none
+2019-10-12 23:55:20,908 INFO  ProjectFixService - Fixing project...
+2019-10-12 23:55:20,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/local.properties
+2019-10-12 23:55:20,936 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputjava/local.properties
+2019-10-12 23:55:20,946 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,947 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/local.properties
+2019-10-12 23:55:20,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,954 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/local.properties
+2019-10-12 23:55:20,956 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-12 23:55:20,957 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-12 23:55:20,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-12 23:55:20,965 INFO  ProjectFixService - Project was maybe fixed
+2019-10-12 23:55:20,966 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-12 23:55:20,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-12 23:55:30,087 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-12 23:55:30,088 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-12 23:55:30,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-12 23:57:43,423 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :forminputkotlin:preBuild UP-TO-DATE
@@ -57,12 +51,14 @@
 > Task :forminputkotlin:compileDebugRenderscript NO-SOURCE
 > Task :forminputkotlin:generateDebugResources
 > Task :forminputkotlin:packageDebugResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml:1042: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
 > Task :app:createDebugCompatibleScreenManifests
 > Task :forminputkotlin:checkDebugManifest
 > Task :app:mergeDebugResources
+> Task :forminputkotlin:parseDebugLibraryResources
 > Task :forminputkotlin:processDebugManifest
 > Task :app:processDebugManifest
-> Task :forminputkotlin:parseDebugLibraryResources
 > Task :forminputkotlin:generateDebugBuildConfig
 > Task :forminputkotlin:prepareLintJar
 > Task :forminputkotlin:prepareLintJarForPublish
@@ -79,27 +75,11 @@
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
 > Task :forminputkotlin:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputButton.kt: (34, 13): Variable 'mInFlater' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputButton.kt: (82, 71): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputButton.kt: (86, 43): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (64, 13): Variable 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (104, 17): Variable 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (105, 17): Variable 'maxLines' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (194, 21): Variable 'autoCompleteListArray' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (201, 21): Variable 'listArray' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (297, 75): Unchecked cast: SparseArray<(raw) Any!>! to SparseArray<Parcelable>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (301, 49): Unchecked cast: SparseArray<Parcelable>? to SparseArray<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (278, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (281, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (288, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (291, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (201, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (204, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (211, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (214, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (63, 49): Unchecked cast: Any! to ArrayList<String>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (12, 72): Unchecked cast: SparseArray<(raw) Any!>! to SparseArray<Parcelable>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (16, 45): Unchecked cast: SparseArray<Parcelable>? to SparseArray<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (129, 13): Variable 'lSparams' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (133, 13): Variable 'lInparams' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (51, 49): Unchecked cast: Any! to ArrayList<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (12, 72): Unchecked cast: SparseArray<(raw) Any!>! to SparseArray<Parcelable>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (16, 45): Unchecked cast: SparseArray<Parcelable>? to SparseArray<Any>
 
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -113,8 +93,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/
 > Task :forminputkotlin:compileDebugJavaWithJavac
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :forminputkotlin:processDebugJavaRes NO-SOURCE
-> Task :forminputkotlin:bundleLibResDebug
 > Task :forminputkotlin:bundleLibCompileDebug
+> Task :forminputkotlin:bundleLibResDebug
 > Task :app:compileDebugKotlin
 > Task :forminputkotlin:bundleLibRuntimeDebug
 > Task :forminputkotlin:createFullJarDebug
@@ -143,21 +123,28 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/
 > Task :forminputkotlin:generateReleaseResValues
 > Task :forminputkotlin:generateReleaseResources
 > Task :forminputkotlin:packageReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :forminputkotlin:checkReleaseManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml:1042: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
+
 > Task :forminputkotlin:mergeDebugNativeLibs
 > Task :forminputkotlin:stripDebugDebugSymbols
 > Task :forminputkotlin:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :forminputkotlin:checkReleaseManifest
+> Task :forminputkotlin:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :forminputkotlin:generateReleaseBuildConfig
 > Task :forminputkotlin:generateReleaseSources
 > Task :forminputkotlin:dataBindingExportBuildInfoRelease
-> Task :forminputkotlin:processReleaseManifest
-> Task :forminputkotlin:parseReleaseLibraryResources
-> Task :app:processReleaseManifest
-> Task :forminputkotlin:dataBindingMergeDependencyArtifactsRelease
-> Task :forminputkotlin:dataBindingMergeGenClassesRelease
-> Task :forminputkotlin:dataBindingGenBaseClassesRelease
 > Task :app:mergeReleaseResources
+> Task :forminputkotlin:parseReleaseLibraryResources
+> Task :forminputkotlin:dataBindingMergeGenClassesRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :forminputkotlin:dataBindingMergeDependencyArtifactsRelease
+> Task :forminputkotlin:dataBindingGenBaseClassesRelease
+> Task :app:prepareLintJar
+> Task :forminputkotlin:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
 > Task :forminputkotlin:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :forminputkotlin:kaptGenerateStubsReleaseKotlin
@@ -166,48 +153,30 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
 > Task :forminputkotlin:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputButton.kt: (34, 13): Variable 'mInFlater' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputButton.kt: (82, 71): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputButton.kt: (86, 43): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (64, 13): Variable 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (104, 17): Variable 'value' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (105, 17): Variable 'maxLines' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (194, 21): Variable 'autoCompleteListArray' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (201, 21): Variable 'listArray' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (297, 75): Unchecked cast: SparseArray<(raw) Any!>! to SparseArray<Parcelable>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputLayout.kt: (301, 49): Unchecked cast: SparseArray<Parcelable>? to SparseArray<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (278, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (281, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (288, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (291, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (201, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (204, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (211, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputText.kt: (214, 56): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (63, 49): Unchecked cast: Any! to ArrayList<String>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (12, 72): Unchecked cast: SparseArray<(raw) Any!>! to SparseArray<Parcelable>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (16, 45): Unchecked cast: SparseArray<Parcelable>? to SparseArray<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (129, 13): Variable 'lSparams' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinnerInputBox.kt: (133, 13): Variable 'lInparams' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (51, 49): Unchecked cast: Any! to ArrayList<String>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (12, 72): Unchecked cast: SparseArray<(raw) Any!>! to SparseArray<Parcelable>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/utils/SavedState.kt: (16, 45): Unchecked cast: SparseArray<Parcelable>? to SparseArray<Any>
 
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
+> Task :app:mergeExtDexDebug
 > Task :forminputkotlin:javaPreCompileRelease
 > Task :forminputkotlin:compileReleaseJavaWithJavac
-> Task :app:mergeExtDexDebug
+> Task :forminputkotlin:bundleLibResRelease
 > Task :forminputkotlin:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
+> Task :forminputkotlin:bundleLibRuntimeRelease
+> Task :forminputkotlin:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:prepareLintJar
-> Task :forminputkotlin:processReleaseJavaRes NO-SOURCE
+
 > Task :app:lintVitalRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :forminputkotlin:bundleLibResRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0e0264fac581812b4321a735ab9017e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :forminputkotlin:bundleLibRuntimeRelease
-> Task :forminputkotlin:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -238,7 +207,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 14s
+BUILD SUCCESSFUL in 2m 12s
 107 actionable tasks: 107 executed
 
-2019-09-30 16:36:24,765 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836093775-0/src/FormInputs-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-12 23:57:43,655 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899314269-0/src/FormInputs-master/app/build/outputs/apk/debug/app-debug.apk
