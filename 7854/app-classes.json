@@ -149,7 +149,7 @@
   "com.j256.ormlite.table" : [ "DatabaseTable", "DatabaseTableConfig", "DatabaseTableConfigLoader", "ObjectFactory", "TableInfo", "TableUtils" ],
   "com.smlnskgmail.jaman.hashchecker" : [ "App", "BuildConfig", "MainActivity", "R", "R$anim", "R$animator", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$font", "R$id", "R$integer", "R$interpolator", "R$layout", "R$menu", "R$mipmap", "R$raw", "R$string", "R$style", "R$styleable", "R$xml" ],
   "com.smlnskgmail.jaman.hashchecker.calculator" : [ "CheckerMessageDigest", "HashCalculator", "HashGenerator", "HashGenerator$1" ],
-  "com.smlnskgmail.jaman.hashchecker.calculator.support" : [ "HashGeneratorTarget", "HashType" ],
+  "com.smlnskgmail.jaman.hashchecker.calculator.support" : [ "HashGeneratorTarget", "HashType", "HashUtils" ],
   "com.smlnskgmail.jaman.hashchecker.components" : [ "BaseActivity" ],
   "com.smlnskgmail.jaman.hashchecker.components.bottomsheets" : [ "BaseBottomSheet" ],
   "com.smlnskgmail.jaman.hashchecker.components.bottomsheets.lists.base" : [ "BaseListBottomSheet", "ListMarker" ],
@@ -166,13 +166,13 @@
   "com.smlnskgmail.jaman.hashchecker.components.filemanager.entities" : [ "FileItem", "FileType" ],
   "com.smlnskgmail.jaman.hashchecker.components.filemanager.manager" : [ "-$$Lambda$FileManagerActivity$m9sJqzxUl87qk65plaLJumvaE-U", "FileManagerActivity" ],
   "com.smlnskgmail.jaman.hashchecker.components.filemanager.manager.listadapter" : [ "-$$Lambda$FileDialogHolder$Yr37Yghfl5VgMFPXWk2IfxBUD0o", "FileDialogHolder", "FileItemsAdapter" ],
-  "com.smlnskgmail.jaman.hashchecker.components.filemanager.manager.support" : [ "FileSelectTarget", "Requests" ],
+  "com.smlnskgmail.jaman.hashchecker.components.filemanager.manager.support" : [ "FileExtensions", "FileSelectTarget", "Requests" ],
   "com.smlnskgmail.jaman.hashchecker.db" : [ "HelperFactory" ],
   "com.smlnskgmail.jaman.hashchecker.db.config" : [ "DatabaseConfigUtil" ],
   "com.smlnskgmail.jaman.hashchecker.db.entity" : [ "DBEntity" ],
   "com.smlnskgmail.jaman.hashchecker.db.helper" : [ "DatabaseHelper" ],
   "com.smlnskgmail.jaman.hashchecker.db.utils" : [ "DatabaseExporter" ],
-  "com.smlnskgmail.jaman.hashchecker.navigation.fragments" : [ "-$$Lambda$FeedbackFragment$ZrFGStUvN97cfUl522Rw7K8XdqQ", "-$$Lambda$MainFragment$78_lWQARm4Kegvar11Jdsnh-0H4", "-$$Lambda$MainFragment$Stq3mmnL-sBUfM-vBZiL-jJ99Gs", "-$$Lambda$MainFragment$aa1nL2bly2KUJ4Wx_O4MC7sfq4Q", "-$$Lambda$MainFragment$qT0SMCieYxjvE7aCm7oP29O0lTc", "-$$Lambda$MainFragment$t1e06r7lRpjFEn_EM6TjuNgdEiw", "-$$Lambda$MainFragment$zxr66mkpQOASyJpC0MapsVoUvjc", "-$$Lambda$SettingsFragment$0B4K3MugkxgGtqpLJWKT02P4F5M", "-$$Lambda$SettingsFragment$HZLI9UxprInciJXdsJ4EO5cBriU", "-$$Lambda$SettingsFragment$jVe5hPHistqcUTfxtKWoMEmRnFM", "-$$Lambda$SettingsFragment$mfeCuB73OwQHCSOOMDN0QuiQg0k", "-$$Lambda$SettingsFragment$sMscERbxdpKwn5QSsqOE6zTKo6A", "-$$Lambda$SettingsFragment$sdiQhksaRyvT3lyeC8dTstWmU88", "BaseFragment", "FeedbackFragment", "MainFragment", "MainFragment$1", "SettingsFragment" ],
+  "com.smlnskgmail.jaman.hashchecker.navigation.fragments" : [ "-$$Lambda$FeedbackFragment$ZrFGStUvN97cfUl522Rw7K8XdqQ", "-$$Lambda$MainFragment$6NUaSYXvCTeJBMc23KVF0_llhUI", "-$$Lambda$MainFragment$Stq3mmnL-sBUfM-vBZiL-jJ99Gs", "-$$Lambda$MainFragment$aa1nL2bly2KUJ4Wx_O4MC7sfq4Q", "-$$Lambda$MainFragment$qT0SMCieYxjvE7aCm7oP29O0lTc", "-$$Lambda$MainFragment$t1e06r7lRpjFEn_EM6TjuNgdEiw", "-$$Lambda$MainFragment$zxr66mkpQOASyJpC0MapsVoUvjc", "-$$Lambda$SettingsFragment$0B4K3MugkxgGtqpLJWKT02P4F5M", "-$$Lambda$SettingsFragment$HZLI9UxprInciJXdsJ4EO5cBriU", "-$$Lambda$SettingsFragment$jVe5hPHistqcUTfxtKWoMEmRnFM", "-$$Lambda$SettingsFragment$mfeCuB73OwQHCSOOMDN0QuiQg0k", "-$$Lambda$SettingsFragment$sMscERbxdpKwn5QSsqOE6zTKo6A", "-$$Lambda$SettingsFragment$sdiQhksaRyvT3lyeC8dTstWmU88", "BaseFragment", "FeedbackFragment", "MainFragment", "MainFragment$1", "SettingsFragment" ],
   "com.smlnskgmail.jaman.hashchecker.navigation.fragments.history" : [ "-$$Lambda$HistoryFragment$bgVdAyRQ995VAaPp0srcb_hsogo", "HistoryFragment", "HistoryFragment$1" ],
   "com.smlnskgmail.jaman.hashchecker.navigation.fragments.history.entities" : [ "HistoryItem", "HistoryPortion" ],
   "com.smlnskgmail.jaman.hashchecker.navigation.fragments.history.listadapter" : [ "-$$Lambda$HistoryItemHolder$nblPOASW99k78hzEYj-mmJFhj7c", "-$$Lambda$HistoryItemHolder$qKx_k7AXkI1t5d0iyTwCPFX2Z54", "HistoryItemHolder", "HistoryItemsAdapter" ],
@@ -180,5 +180,5 @@
   "com.smlnskgmail.jaman.hashchecker.navigation.states" : [ "AppResumeTarget", "BackClickTarget" ],
   "com.smlnskgmail.jaman.hashchecker.support.logs" : [ "L" ],
   "com.smlnskgmail.jaman.hashchecker.support.prefs" : [ "SettingsHelper" ],
-  "com.smlnskgmail.jaman.hashchecker.utils" : [ "-$$Lambda$UIUtils$IsoHOPvzfzIp3GxAUnZrsmniVzI", "AppUtils", "FileUtils", "HashUtils", "TextUtils", "UIUtils" ]
+  "com.smlnskgmail.jaman.hashchecker.utils" : [ "-$$Lambda$UIUtils$IsoHOPvzfzIp3GxAUnZrsmniVzI", "AppUtils", "TextUtils", "UIUtils" ]
 }
