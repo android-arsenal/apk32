@@ -1,0 +1,169 @@
+2019-10-27 21:09:37,063 INFO  DownloadService - Downloading "https://github.com/mejdi14/Flat-Dialog-Android/archive/master.zip", attempt 3
+2019-10-27 21:09:40,406 INFO  DownloadService - Downloaded https://github.com/mejdi14/Flat-Dialog-Android/archive/master.zip, attempt 3
+2019-10-27 21:09:40,406 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/master.zip": 627 KB
+2019-10-27 21:09:40,406 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-27 21:09:40,407 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/master.zip: true
+2019-10-27 21:09:40,407 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src'.
+2019-10-27 21:09:40,434 INFO  FullProcessService - Size of directory with sources: 832 KB
+2019-10-27 21:09:40,434 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src]
+2019-10-27 21:09:40,462 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/.git/
+
+2019-10-27 21:09:40,465 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/gradlew
+2019-10-27 21:09:40,468 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/build.gradle
+2019-10-27 21:09:40,471 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/settings.gradle
+2019-10-27 21:09:40,471 INFO  ProjectBuildService - Remote scripts: none
+2019-10-27 21:09:40,471 INFO  ProjectFixService - Fixing project...
+2019-10-27 21:09:40,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/local.properties
+2019-10-27 21:09:40,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-27 21:09:40,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-27 21:09:40,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/flatdialoglibrary/local.properties
+2019-10-27 21:09:40,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-27 21:09:40,482 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-27 21:09:40,483 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/local.properties
+2019-10-27 21:09:40,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-27 21:09:40,484 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-27 21:09:40,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-27 21:09:40,485 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-27 21:09:40,486 INFO  ProjectFixService - Project was maybe fixed
+2019-10-27 21:09:40,486 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-27 21:09:40,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-27 21:09:46,310 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-27 21:09:46,310 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-27 21:09:46,310 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-27 21:10:15,634 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :flatdialoglibrary:preBuild UP-TO-DATE
+> Task :flatdialoglibrary:preDebugBuild UP-TO-DATE
+> Task :flatdialoglibrary:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :flatdialoglibrary:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :flatdialoglibrary:checkDebugManifest
+> Task :flatdialoglibrary:compileDebugRenderscript NO-SOURCE
+> Task :flatdialoglibrary:generateDebugBuildConfig
+> Task :flatdialoglibrary:generateDebugResValues
+> Task :flatdialoglibrary:generateDebugResources
+> Task :flatdialoglibrary:packageDebugResources
+> Task :app:mainApkListPersistenceDebug
+> Task :flatdialoglibrary:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :flatdialoglibrary:processDebugManifest
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :flatdialoglibrary:parseDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :flatdialoglibrary:generateDebugRFile
+> Task :flatdialoglibrary:compileDebugJavaWithJavac
+> Task :app:processDebugResources
+> Task :flatdialoglibrary:bundleLibCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :flatdialoglibrary:mergeDebugShaders
+> Task :flatdialoglibrary:compileDebugShaders
+> Task :flatdialoglibrary:generateDebugAssets
+> Task :flatdialoglibrary:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :flatdialoglibrary:processDebugJavaRes NO-SOURCE
+> Task :flatdialoglibrary:bundleLibResDebug
+> Task :flatdialoglibrary:bundleLibRuntimeDebug
+> Task :flatdialoglibrary:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :flatdialoglibrary:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :flatdialoglibrary:preReleaseBuild UP-TO-DATE
+> Task :flatdialoglibrary:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :flatdialoglibrary:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :flatdialoglibrary:compileReleaseRenderscript NO-SOURCE
+> Task :flatdialoglibrary:checkReleaseManifest
+> Task :flatdialoglibrary:generateReleaseBuildConfig
+> Task :flatdialoglibrary:generateReleaseResValues
+> Task :flatdialoglibrary:generateReleaseResources
+> Task :flatdialoglibrary:packageReleaseResources
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :flatdialoglibrary:parseReleaseLibraryResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:prepareLintJar
+> Task :flatdialoglibrary:prepareLintJarForPublish
+> Task :flatdialoglibrary:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :flatdialoglibrary:mergeDebugNativeLibs
+> Task :flatdialoglibrary:stripDebugDebugSymbols
+> Task :flatdialoglibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :flatdialoglibrary:processReleaseManifest
+> Task :flatdialoglibrary:javaPreCompileRelease
+> Task :app:processReleaseManifest
+> Task :flatdialoglibrary:generateReleaseRFile
+> Task :flatdialoglibrary:compileReleaseJavaWithJavac
+> Task :flatdialoglibrary:bundleLibCompileRelease
+> Task :flatdialoglibrary:bundleLibRuntimeRelease
+> Task :app:javaPreCompileRelease
+> Task :flatdialoglibrary:bundleLibResRelease
+> Task :flatdialoglibrary:createFullJarRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :flatdialoglibrary:mergeReleaseShaders
+> Task :flatdialoglibrary:compileReleaseShaders
+> Task :flatdialoglibrary:generateReleaseAssets
+> Task :flatdialoglibrary:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :flatdialoglibrary:mergeReleaseJniLibFolders
+> Task :flatdialoglibrary:mergeReleaseNativeLibs
+> Task :flatdialoglibrary:stripReleaseDebugSymbols
+> Task :flatdialoglibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e2656fb542f3178dab76659b651e8a88/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 28s
+90 actionable tasks: 90 executed
+
+2019-10-27 21:10:15,696 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185377058-0/src/Flat-Dialog-Android-master/app/build/outputs/apk/debug/app-debug.apk

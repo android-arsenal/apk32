@@ -1,39 +1,33 @@
-2019-10-06 19:29:33,996 INFO  DownloadService - Downloading "https://github.com/MohammadRezaei92/IranMapSvg/archive/master.zip", attempt 3
-2019-10-06 19:29:38,071 INFO  DownloadService - Downloaded https://github.com/MohammadRezaei92/IranMapSvg/archive/master.zip, attempt 3
-2019-10-06 19:29:38,072 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/master.zip": 2 MB
-2019-10-06 19:29:38,073 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 19:29:38,082 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/master.zip: true
-2019-10-06 19:29:38,083 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src'.
-2019-10-06 19:29:38,133 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-10-06 19:29:38,136 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src]
-2019-10-06 19:29:38,165 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/.git/
+2019-10-27 21:11:51,424 INFO  DownloadService - Downloading "https://github.com/MohammadRezaei92/IranMapSvg/archive/master.zip", attempt 3
+2019-10-27 21:11:56,373 INFO  DownloadService - Downloaded https://github.com/MohammadRezaei92/IranMapSvg/archive/master.zip, attempt 3
+2019-10-27 21:11:56,374 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/master.zip": 2 MB
+2019-10-27 21:11:56,374 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-27 21:11:56,374 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/master.zip: true
+2019-10-27 21:11:56,375 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src'.
+2019-10-27 21:11:56,414 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-10-27 21:11:56,414 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src]
+2019-10-27 21:11:56,444 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/.git/
 
-2019-10-06 19:29:38,183 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/gradlew
-2019-10-06 19:29:38,192 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/iranmap/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/build.gradle
-2019-10-06 19:29:38,198 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/iranmap/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/settings.gradle
-2019-10-06 19:29:38,200 INFO  ProjectBuildService - Remote scripts: none
-2019-10-06 19:29:38,200 INFO  ProjectFixService - Fixing project...
-2019-10-06 19:29:38,242 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-10-06 19:29:38,242 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-10-06 19:29:38,245 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-10-06 19:29:38,249 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2019-10-06 19:29:38,253 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-10-06 19:29:38,254 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-10-06 19:29:38,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/local.properties
-2019-10-06 19:29:38,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-10-06 19:29:38,263 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/iranmap/local.properties
-2019-10-06 19:29:38,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/iranmap/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-10-06 19:29:38,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/local.properties
-2019-10-06 19:29:38,268 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-06 19:29:38,268 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-06 19:29:38,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-10-06 19:29:38,271 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 19:29:38,273 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 19:29:38,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 19:29:55,675 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-06 19:29:55,676 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 19:29:55,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 19:31:02,873 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-27 21:11:56,447 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/gradlew
+2019-10-27 21:11:56,449 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/iranmap/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/build.gradle
+2019-10-27 21:11:56,452 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/iranmap/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/settings.gradle
+2019-10-27 21:11:56,452 INFO  ProjectBuildService - Remote scripts: none
+2019-10-27 21:11:56,452 INFO  ProjectFixService - Fixing project...
+2019-10-27 21:11:56,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/local.properties
+2019-10-27 21:11:56,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-10-27 21:11:56,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/iranmap/local.properties
+2019-10-27 21:11:56,460 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/iranmap/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-10-27 21:11:56,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/local.properties
+2019-10-27 21:11:56,461 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-27 21:11:56,461 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-27 21:11:56,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-10-27 21:11:56,462 INFO  ProjectFixService - Project was maybe fixed
+2019-10-27 21:11:56,462 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-27 21:11:56,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-27 21:12:01,786 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-27 21:12:01,786 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-27 21:12:01,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-27 21:13:06,619 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :iranmap:preBuild UP-TO-DATE
@@ -54,7 +48,6 @@
 > Task :app:createDebugCompatibleScreenManifests
 > Task :iranmap:checkDebugManifest
 > Task :app:mergeDebugResources
-> Task :iranmap:parseDebugLibraryResources
 > Task :iranmap:processDebugManifest
 > Task :app:processDebugManifest
 > Task :iranmap:generateDebugBuildConfig
@@ -66,6 +59,7 @@
 > Task :iranmap:generateDebugAssets
 > Task :iranmap:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :iranmap:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :iranmap:processDebugJavaRes NO-SOURCE
 > Task :app:checkDebugDuplicateClasses
@@ -80,7 +74,7 @@
 > Task :iranmap:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/src/main/java/rezaei/mohammad/iranmapsvg/MainActivity.kt: (27, 34): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/src/main/java/rezaei/mohammad/iranmapsvg/MainActivity.kt: (27, 34): Parameter 'view' is never used, could be renamed to _
 
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -110,36 +104,36 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/
 > Task :iranmap:checkReleaseManifest
 > Task :iranmap:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :iranmap:generateReleaseBuildConfig
-> Task :iranmap:parseReleaseLibraryResources
-> Task :app:prepareLintJar
-> Task :iranmap:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :iranmap:generateReleaseRFile
-> Task :iranmap:compileReleaseKotlin
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
 > Task :iranmap:mergeDebugNativeLibs
 > Task :iranmap:stripDebugDebugSymbols
 > Task :iranmap:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :iranmap:prepareLintJarForPublish
+> Task :iranmap:parseReleaseLibraryResources
+> Task :iranmap:generateReleaseRFile
+> Task :iranmap:generateReleaseBuildConfig
+> Task :iranmap:compileReleaseKotlin
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
 > Task :iranmap:javaPreCompileRelease
 > Task :iranmap:compileReleaseJavaWithJavac
 > Task :iranmap:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/src/main/java/rezaei/mohammad/iranmapsvg/MainActivity.kt: (27, 34): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/src/main/java/rezaei/mohammad/iranmapsvg/MainActivity.kt: (27, 34): Parameter 'view' is never used, could be renamed to _
 
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
+> Task :app:prepareLintJar
+> Task :iranmap:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :iranmap:prepareLintJarForPublish
 > Task :app:lintVitalRelease
-> Task :app:mergeExtDexDebug
 > Task :iranmap:bundleLibResRelease
 > Task :iranmap:bundleLibRuntimeRelease
 > Task :iranmap:createFullJarRelease
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -173,7 +167,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 1m 4s
 94 actionable tasks: 94 executed
 
-2019-10-06 19:31:02,984 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570364973930-0/src/IranMapSvg-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-27 21:13:06,694 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185511420-0/src/IranMapSvg-master/app/build/outputs/apk/debug/app-debug.apk
