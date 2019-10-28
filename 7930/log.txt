@@ -1,0 +1,184 @@
+2019-10-28 14:26:40,197 INFO  DownloadService - Downloading "https://github.com/skydoves/indicatorscrollview/archive/master.zip", attempt 3
+2019-10-28 14:26:42,741 INFO  DownloadService - Downloaded https://github.com/skydoves/indicatorscrollview/archive/master.zip, attempt 3
+2019-10-28 14:26:42,741 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/master.zip": 392 KB
+2019-10-28 14:26:42,742 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-28 14:26:42,742 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/master.zip: true
+2019-10-28 14:26:42,742 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src'.
+2019-10-28 14:26:42,770 INFO  FullProcessService - Size of directory with sources: 427 KB
+2019-10-28 14:26:42,770 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src]
+2019-10-28 14:26:42,797 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/.git/
+
+2019-10-28 14:26:42,802 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/gradlew
+2019-10-28 14:26:42,806 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/indicatorscrollview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/build.gradle
+2019-10-28 14:26:42,810 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/indicatorscrollview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/spotless.gradle
+2019-10-28 14:26:42,814 INFO  ProjectBuildService - Remote scripts: none
+2019-10-28 14:26:42,814 INFO  ProjectFixService - Fixing project...
+2019-10-28 14:26:42,822 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/local.properties
+2019-10-28 14:26:42,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-28 14:26:42,827 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-28 14:26:42,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/indicatorscrollview/local.properties
+2019-10-28 14:26:42,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/indicatorscrollview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-28 14:26:42,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/indicatorscrollview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-28 14:26:42,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/local.properties
+2019-10-28 14:26:42,833 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-28 14:26:42,834 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-28 14:26:42,837 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-28 14:26:42,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-28 14:26:42,838 INFO  ProjectFixService - Project was maybe fixed
+2019-10-28 14:26:42,838 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-28 14:26:42,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-28 14:26:53,221 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-10-28 14:26:53,221 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-28 14:26:53,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-28 14:27:45,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :indicatorscrollview
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :indicatorscrollview:preBuild UP-TO-DATE
+> Task :indicatorscrollview:preDebugBuild UP-TO-DATE
+> Task :indicatorscrollview:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :indicatorscrollview:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :indicatorscrollview:generateDebugResValues
+> Task :indicatorscrollview:compileDebugRenderscript NO-SOURCE
+> Task :indicatorscrollview:generateDebugResources
+> Task :indicatorscrollview:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :indicatorscrollview:checkDebugManifest
+> Task :app:mergeDebugResources
+> Task :indicatorscrollview:processDebugManifest
+> Task :app:processDebugManifest
+> Task :indicatorscrollview:parseDebugLibraryResources
+> Task :indicatorscrollview:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :indicatorscrollview:mergeDebugShaders
+> Task :indicatorscrollview:compileDebugShaders
+> Task :indicatorscrollview:generateDebugAssets
+> Task :indicatorscrollview:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :indicatorscrollview:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :indicatorscrollview:generateDebugRFile
+> Task :app:processDebugResources
+> Task :indicatorscrollview:compileDebugKotlin
+> Task :indicatorscrollview:javaPreCompileDebug
+> Task :indicatorscrollview:compileDebugJavaWithJavac
+> Task :indicatorscrollview:bundleLibResDebug
+> Task :indicatorscrollview:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :indicatorscrollview:bundleLibRuntimeDebug
+> Task :indicatorscrollview:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :indicatorscrollview:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :indicatorscrollview:preReleaseBuild UP-TO-DATE
+> Task :indicatorscrollview:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :indicatorscrollview:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :indicatorscrollview:compileReleaseRenderscript NO-SOURCE
+> Task :indicatorscrollview:generateReleaseResValues
+> Task :indicatorscrollview:generateReleaseResources
+> Task :indicatorscrollview:packageReleaseResources
+> Task :indicatorscrollview:mergeDebugNativeLibs
+> Task :indicatorscrollview:stripDebugDebugSymbols
+> Task :indicatorscrollview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :indicatorscrollview:checkReleaseManifest
+> Task :indicatorscrollview:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :indicatorscrollview:parseReleaseLibraryResources
+> Task :indicatorscrollview:generateReleaseBuildConfig
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :indicatorscrollview:generateReleaseRFile
+> Task :indicatorscrollview:compileReleaseKotlin
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :indicatorscrollview:javaPreCompileRelease
+> Task :indicatorscrollview:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :indicatorscrollview:processReleaseJavaRes NO-SOURCE
+> Task :indicatorscrollview:prepareLintJarForPublish
+> Task :indicatorscrollview:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :indicatorscrollview:bundleLibRuntimeRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :indicatorscrollview:bundleLibResRelease
+> Task :indicatorscrollview:createFullJarRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9f18a6fc77782854e881c55bdc2b2218/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :indicatorscrollview:mergeReleaseShaders
+> Task :indicatorscrollview:compileReleaseShaders
+> Task :indicatorscrollview:generateReleaseAssets
+> Task :indicatorscrollview:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :indicatorscrollview:mergeReleaseJniLibFolders
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :indicatorscrollview:mergeReleaseNativeLibs
+> Task :indicatorscrollview:stripReleaseDebugSymbols
+> Task :indicatorscrollview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 51s
+94 actionable tasks: 94 executed
+
+2019-10-28 14:27:45,535 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247600194-0/src/IndicatorScrollView-master/app/build/outputs/apk/debug/app-debug.apk

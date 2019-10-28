@@ -1,0 +1,187 @@
+2019-10-28 14:24:59,611 INFO  DownloadService - Downloading "https://github.com/deepakkumardk/EasyVideoPicker/archive/master.zip", attempt 3
+2019-10-28 14:25:01,946 INFO  DownloadService - Downloaded https://github.com/deepakkumardk/EasyVideoPicker/archive/master.zip, attempt 3
+2019-10-28 14:25:01,946 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/master.zip": 170 KB
+2019-10-28 14:25:01,947 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-28 14:25:01,962 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/master.zip: true
+2019-10-28 14:25:01,963 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src'.
+2019-10-28 14:25:02,067 INFO  FullProcessService - Size of directory with sources: 205 KB
+2019-10-28 14:25:02,073 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src]
+2019-10-28 14:25:02,136 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/.git/
+
+2019-10-28 14:25:02,157 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/gradlew
+2019-10-28 14:25:02,172 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/videopickerlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/build.gradle
+2019-10-28 14:25:02,178 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/videopickerlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/settings.gradle
+2019-10-28 14:25:02,182 INFO  ProjectBuildService - Remote scripts: none
+2019-10-28 14:25:02,183 INFO  ProjectFixService - Fixing project...
+2019-10-28 14:25:02,236 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-10-28 14:25:02,237 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-10-28 14:25:02,240 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2019-10-28 14:25:02,243 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
+2019-10-28 14:25:02,247 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-10-28 14:25:02,248 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2019-10-28 14:25:02,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/local.properties
+2019-10-28 14:25:02,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-28 14:25:02,259 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-28 14:25:02,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/videopickerlib/local.properties
+2019-10-28 14:25:02,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/videopickerlib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-28 14:25:02,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/videopickerlib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-28 14:25:02,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/local.properties
+2019-10-28 14:25:02,270 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-28 14:25:02,271 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-28 14:25:02,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-28 14:25:02,273 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-28 14:25:02,274 INFO  ProjectFixService - Project was maybe fixed
+2019-10-28 14:25:02,276 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-28 14:25:02,276 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-28 14:25:11,706 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-28 14:25:11,707 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-28 14:25:11,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-28 14:26:23,657 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :videopickerlib:preBuild UP-TO-DATE
+> Task :videopickerlib:preDebugBuild UP-TO-DATE
+> Task :videopickerlib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :videopickerlib:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :videopickerlib:compileDebugRenderscript NO-SOURCE
+> Task :videopickerlib:generateDebugResValues
+> Task :videopickerlib:generateDebugResources
+> Task :videopickerlib:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :videopickerlib:checkDebugManifest
+> Task :videopickerlib:generateDebugBuildConfig
+> Task :videopickerlib:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :videopickerlib:parseDebugLibraryResources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :videopickerlib:mergeDebugShaders
+> Task :videopickerlib:compileDebugShaders
+> Task :videopickerlib:generateDebugAssets
+> Task :videopickerlib:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :videopickerlib:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :videopickerlib:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :videopickerlib:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/videopickerlib/src/main/java/com/deepakkumardk/videopickerlib/VideoPickerActivity.kt: (57, 58): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+
+> Task :videopickerlib:javaPreCompileDebug
+> Task :videopickerlib:compileDebugJavaWithJavac
+> Task :videopickerlib:bundleLibResDebug
+> Task :videopickerlib:bundleLibRuntimeDebug
+> Task :videopickerlib:createFullJarDebug
+> Task :videopickerlib:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :videopickerlib:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :videopickerlib:preReleaseBuild UP-TO-DATE
+> Task :videopickerlib:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :videopickerlib:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :videopickerlib:compileReleaseRenderscript NO-SOURCE
+> Task :videopickerlib:generateReleaseResValues
+> Task :videopickerlib:generateReleaseResources
+> Task :videopickerlib:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :videopickerlib:checkReleaseManifest
+> Task :videopickerlib:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :videopickerlib:generateReleaseBuildConfig
+> Task :videopickerlib:parseReleaseLibraryResources
+> Task :videopickerlib:mergeDebugNativeLibs
+> Task :videopickerlib:stripDebugDebugSymbols
+> Task :videopickerlib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :videopickerlib:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :videopickerlib:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/videopickerlib/src/main/java/com/deepakkumardk/videopickerlib/VideoPickerActivity.kt: (57, 58): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+
+> Task :videopickerlib:javaPreCompileRelease
+> Task :videopickerlib:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :videopickerlib:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:desugarReleaseFileDependencies
+> Task :videopickerlib:bundleLibCompileRelease
+> Task :videopickerlib:bundleLibRuntimeRelease
+> Task :app:compileReleaseKotlin
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :videopickerlib:mergeReleaseShaders
+> Task :videopickerlib:compileReleaseShaders
+> Task :videopickerlib:generateReleaseAssets
+> Task :videopickerlib:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :videopickerlib:mergeReleaseJniLibFolders
+> Task :videopickerlib:prepareLintJarForPublish
+> Task :videopickerlib:bundleLibResRelease
+> Task :videopickerlib:createFullJarRelease
+> Task :videopickerlib:mergeReleaseNativeLibs
+> Task :videopickerlib:stripReleaseDebugSymbols
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e5bcc856678d4e5a25783bb3137b22ab/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :videopickerlib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 11s
+96 actionable tasks: 96 executed
+
+2019-10-28 14:26:23,761 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572247499522-0/src/EasyVideoPicker-master/app/build/outputs/apk/debug/app-debug.apk
