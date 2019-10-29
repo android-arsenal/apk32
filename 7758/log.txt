@@ -1,42 +1,37 @@
-2019-10-10 12:16:23,383 INFO  DownloadService - Downloading "https://github.com/barisatalay/filter-dialog-activity/archive/master.zip", attempt 3
-2019-10-10 12:16:25,817 INFO  DownloadService - Downloaded https://github.com/barisatalay/filter-dialog-activity/archive/master.zip, attempt 3
-2019-10-10 12:16:25,817 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/master.zip": 319 KB
-2019-10-10 12:16:25,817 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-10 12:16:25,823 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/master.zip: true
-2019-10-10 12:16:25,823 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src'.
-2019-10-10 12:16:25,852 INFO  FullProcessService - Size of directory with sources: 568 KB
-2019-10-10 12:16:25,852 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src]
-2019-10-10 12:16:25,873 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/.git/
+2019-10-29 18:04:49,045 INFO  DownloadService - Downloading "https://github.com/barisatalay/filter-dialog-activity/archive/master.zip", attempt 3
+2019-10-29 18:04:52,004 INFO  DownloadService - Downloaded https://github.com/barisatalay/filter-dialog-activity/archive/master.zip, attempt 3
+2019-10-29 18:04:52,004 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/master.zip": 321 KB
+2019-10-29 18:04:52,004 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-29 18:04:52,010 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/master.zip: true
+2019-10-29 18:04:52,010 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src'.
+2019-10-29 18:04:52,040 INFO  FullProcessService - Size of directory with sources: 569 KB
+2019-10-29 18:04:52,041 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src]
+2019-10-29 18:04:52,057 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/.git/
 
-2019-10-10 12:16:25,877 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/gradlew
-2019-10-10 12:16:25,881 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/filterdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/build.gradle
-2019-10-10 12:16:25,885 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/filterdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/settings.gradle
-2019-10-10 12:16:25,885 INFO  ProjectBuildService - Remote scripts: none
-2019-10-10 12:16:25,885 INFO  ProjectFixService - Fixing project...
-2019-10-10 12:16:25,894 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/local.properties
-2019-10-10 12:16:25,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-10 12:16:25,895 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-10 12:16:25,896 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/filterdialog/local.properties
-2019-10-10 12:16:25,897 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/filterdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-10 12:16:25,897 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/filterdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-10 12:16:25,898 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/local.properties
-2019-10-10 12:16:25,899 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-10-10 12:16:25,899 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-10-10 12:16:25,900 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-10 12:16:25,900 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2019-10-10 12:16:25,901 INFO  ProjectFixService - Project was maybe fixed
-2019-10-10 12:16:25,901 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-10 12:16:25,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-10 12:16:34,940 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-10-10 12:16:34,940 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-10 12:16:34,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-10 12:17:20,235 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-29 18:04:52,060 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/gradlew
+2019-10-29 18:04:52,063 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/filterdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/build.gradle
+2019-10-29 18:04:52,067 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/filterdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/settings.gradle
+2019-10-29 18:04:52,067 INFO  ProjectBuildService - Remote scripts: none
+2019-10-29 18:04:52,067 INFO  ProjectFixService - Fixing project...
+2019-10-29 18:04:52,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/local.properties
+2019-10-29 18:04:52,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-29 18:04:52,076 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-29 18:04:52,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/filterdialog/local.properties
+2019-10-29 18:04:52,077 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/filterdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-29 18:04:52,077 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/filterdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-29 18:04:52,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/local.properties
+2019-10-29 18:04:52,079 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-10-29 18:04:52,079 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-10-29 18:04:52,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-29 18:04:52,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-10-29 18:04:52,081 INFO  ProjectFixService - Project was maybe fixed
+2019-10-29 18:04:52,081 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-29 18:04:52,081 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-29 18:04:59,302 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-29 18:04:59,303 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-29 18:04:59,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-29 18:05:27,245 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/26.1.0/recyclerview-v7-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/transition/26.1.0/transition-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/26.1.0/cardview-v7-26.1.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/design/26.1.0/design-26.1.0.aar
-Download https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.0.2/rxjava-2.0.2.jar
 :app:preBuild UP-TO-DATE
 :filterdialog:preBuild UP-TO-DATE
 :filterdialog:preDebugBuild UP-TO-DATE
@@ -168,7 +163,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 44s
+BUILD SUCCESSFUL in 27s
 90 actionable tasks: 90 executed
 
-2019-10-10 12:17:20,309 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570684583380-0/src/filter-dialog-activity-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-29 18:05:27,313 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572347089040-0/src/filter-dialog-activity-master/app/build/outputs/apk/debug/app-debug.apk
