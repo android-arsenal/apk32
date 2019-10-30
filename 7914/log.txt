@@ -1,43 +1,42 @@
-2019-10-17 14:56:01,347 INFO  DownloadService - Downloading "https://github.com/AntonPopoff/android-color-wheel/archive/master.zip", attempt 3
-2019-10-17 14:56:08,356 INFO  DownloadService - Downloaded https://github.com/AntonPopoff/android-color-wheel/archive/master.zip, attempt 3
-2019-10-17 14:56:08,356 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/master.zip": 6 MB
-2019-10-17 14:56:08,356 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-17 14:56:08,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/master.zip: true
-2019-10-17 14:56:08,359 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src'.
-2019-10-17 14:56:08,417 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-10-17 14:56:08,417 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src]
-2019-10-17 14:56:08,439 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/.git/
+2019-10-30 12:12:57,754 INFO  DownloadService - Downloading "https://github.com/AntonPopoff/android-color-wheel/archive/master.zip", attempt 3
+2019-10-30 12:13:10,324 INFO  DownloadService - Downloaded https://github.com/AntonPopoff/android-color-wheel/archive/master.zip, attempt 3
+2019-10-30 12:13:10,325 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/master.zip": 6 MB
+2019-10-30 12:13:10,325 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-30 12:13:10,330 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/master.zip: true
+2019-10-30 12:13:10,331 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src'.
+2019-10-30 12:13:10,384 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-10-30 12:13:10,384 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src]
+2019-10-30 12:13:10,402 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/.git/
 
-2019-10-17 14:56:08,443 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/gradlew
-2019-10-17 14:56:08,445 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/build.gradle
-2019-10-17 14:56:08,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/settings.gradle
-2019-10-17 14:56:08,448 INFO  ProjectBuildService - Remote scripts: none
-2019-10-17 14:56:08,449 INFO  ProjectFixService - Fixing project...
-2019-10-17 14:56:08,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/local.properties
-2019-10-17 14:56:08,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-17 14:56:08,457 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-17 14:56:08,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/colorwheel/local.properties
-2019-10-17 14:56:08,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-17 14:56:08,460 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-17 14:56:08,461 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/local.properties
-2019-10-17 14:56:08,462 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-10-17 14:56:08,463 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-10-17 14:56:08,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-17 14:56:08,465 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-10-17 14:56:08,466 INFO  ProjectFixService - Project was maybe fixed
-2019-10-17 14:56:08,466 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-17 14:56:08,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-17 14:56:18,606 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-17 14:56:18,606 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-17 14:56:18,607 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-17 14:57:25,562 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-30 12:13:10,404 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/gradlew
+2019-10-30 12:13:10,407 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/build.gradle
+2019-10-30 12:13:10,409 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/settings.gradle
+2019-10-30 12:13:10,409 INFO  ProjectBuildService - Remote scripts: none
+2019-10-30 12:13:10,409 INFO  ProjectFixService - Fixing project...
+2019-10-30 12:13:10,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/local.properties
+2019-10-30 12:13:10,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-30 12:13:10,416 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-30 12:13:10,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/colorwheel/local.properties
+2019-10-30 12:13:10,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-30 12:13:10,418 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-30 12:13:10,419 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/local.properties
+2019-10-30 12:13:10,419 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-30 12:13:10,420 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-30 12:13:10,421 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-30 12:13:10,421 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-30 12:13:10,421 INFO  ProjectFixService - Project was maybe fixed
+2019-10-30 12:13:10,421 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-30 12:13:10,422 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-30 12:13:16,978 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-30 12:13:16,979 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-30 12:13:16,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-30 12:13:55,185 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
-> Task :app:prepareLintJar
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -47,12 +46,13 @@
 > Task :app:processDebugResources
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 38): Parameter 'offset' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 53): Parameter 'color' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (53, 38): Parameter 'offset' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (78, 56): Parameter 'color' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (83, 37): Parameter 'group' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 38): Parameter 'offset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 53): Parameter 'color' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (53, 38): Parameter 'offset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (78, 56): Parameter 'color' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (83, 37): Parameter 'group' is never used
 
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -84,25 +84,22 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 38): Parameter 'offset' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 53): Parameter 'color' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (53, 38): Parameter 'offset' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (78, 56): Parameter 'color' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (83, 37): Parameter 'group' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 38): Parameter 'offset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (49, 53): Parameter 'color' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/PreviewFragment.kt: (53, 38): Parameter 'offset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (78, 56): Parameter 'color' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/src/main/java/com/apandroid/colorwheelapp/TestGradientSeekBarFragment.kt: (83, 37): Parameter 'group' is never used
 
-> Task :app:generateReleaseSources
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:checkReleaseDuplicateClasses
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5af692996f8c5b5a31f4352733368aa8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -125,7 +122,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 37s
 53 actionable tasks: 53 executed
 
-2019-10-17 14:57:25,638 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571298961344-0/src/android-color-wheel-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-30 12:13:55,240 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412377751-0/src/android-color-wheel-master/app/build/outputs/apk/debug/app-debug.apk
