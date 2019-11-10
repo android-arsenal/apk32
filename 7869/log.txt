@@ -1,36 +1,36 @@
-2019-09-23 23:12:53,071 INFO  DownloadService - Downloading "https://github.com/CysionLiu/WeDialog/archive/master.zip", attempt 3
-2019-09-23 23:12:55,238 INFO  DownloadService - Downloaded https://github.com/CysionLiu/WeDialog/archive/master.zip, attempt 3
-2019-09-23 23:12:55,239 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/master.zip": 1 MB
-2019-09-23 23:12:55,239 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-23 23:12:55,244 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/master.zip: true
-2019-09-23 23:12:55,244 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src'.
-2019-09-23 23:12:55,276 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-09-23 23:12:55,276 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src]
-2019-09-23 23:12:55,292 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/.git/
+2019-11-10 22:52:27,891 INFO  DownloadService - Downloading "https://github.com/CysionLiu/WeDialog/archive/master.zip", attempt 3
+2019-11-10 22:52:31,681 INFO  DownloadService - Downloaded https://github.com/CysionLiu/WeDialog/archive/master.zip, attempt 3
+2019-11-10 22:52:31,682 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/master.zip": 1 MB
+2019-11-10 22:52:31,682 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-10 22:52:31,682 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/master.zip: true
+2019-11-10 22:52:31,683 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src'.
+2019-11-10 22:52:31,728 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-11-10 22:52:31,729 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src]
+2019-11-10 22:52:31,759 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/.git/
 
-2019-09-23 23:12:55,295 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/gradlew
-2019-09-23 23:12:55,300 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/build.gradle
-2019-09-23 23:12:55,303 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/build.gradle
-2019-09-23 23:12:55,303 INFO  ProjectBuildService - Remote scripts: none
-2019-09-23 23:12:55,303 INFO  ProjectFixService - Fixing project...
-2019-09-23 23:12:55,311 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/local.properties
-2019-09-23 23:12:55,312 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-23 23:12:55,312 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-23 23:12:55,313 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/local.properties
-2019-09-23 23:12:55,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-23 23:12:55,314 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-23 23:12:55,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/local.properties
-2019-09-23 23:12:55,316 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-23 23:12:55,316 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-23 23:12:55,317 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-23 23:12:55,317 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-09-23 23:12:55,318 INFO  ProjectFixService - Project was maybe fixed
-2019-09-23 23:12:55,318 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-23 23:12:55,318 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-23 23:14:13,617 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-23 23:14:13,617 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-23 23:14:13,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-23 23:15:03,358 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 22:52:31,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/gradlew
+2019-11-10 22:52:31,773 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/build.gradle
+2019-11-10 22:52:31,779 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/build.gradle
+2019-11-10 22:52:31,780 INFO  ProjectBuildService - Remote scripts: none
+2019-11-10 22:52:31,780 INFO  ProjectFixService - Fixing project...
+2019-11-10 22:52:31,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/local.properties
+2019-11-10 22:52:31,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-10 22:52:31,797 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-10 22:52:31,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/local.properties
+2019-11-10 22:52:31,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-10 22:52:31,801 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-10 22:52:31,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/local.properties
+2019-11-10 22:52:31,804 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-10 22:52:31,804 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-10 22:52:31,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-10 22:52:31,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-10 22:52:31,809 INFO  ProjectFixService - Project was maybe fixed
+2019-11-10 22:52:31,809 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 22:52:31,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 22:52:41,098 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-10 22:52:41,099 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-10 22:52:41,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-10 22:53:50,560 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :wedialog:preBuild UP-TO-DATE
@@ -41,20 +41,20 @@
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :wedialog:generateDebugResValues
-> Task :app:createDebugCompatibleScreenManifests
-> Task :wedialog:checkDebugManifest
-> Task :wedialog:generateDebugBuildConfig
 > Task :wedialog:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugResources
+> Task :wedialog:generateDebugResValues
 > Task :wedialog:compileDebugRenderscript NO-SOURCE
 > Task :wedialog:generateDebugResources
 > Task :wedialog:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :wedialog:checkDebugManifest
 > Task :wedialog:processDebugManifest
 > Task :app:processDebugManifest
 > Task :app:mergeDebugResources
 > Task :wedialog:parseDebugLibraryResources
+> Task :wedialog:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -67,9 +67,9 @@
 > Task :app:processDebugResources
 
 > Task :wedialog:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (321, 20): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (321, 24): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (321, 36): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (322, 20): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (322, 24): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (322, 36): Parameter 'bundle' is never used, could be renamed to _
 
 > Task :wedialog:javaPreCompileDebug
 > Task :wedialog:compileDebugJavaWithJavac
@@ -78,24 +78,24 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/
 > Task :wedialog:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 25): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 29): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 41): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 25): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 29): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 41): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 25): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 29): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 41): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (74, 53): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (97, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 25): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 29): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 25): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 29): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 25): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 29): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (74, 53): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (97, 41): Parameter 'bundle' is never used, could be renamed to _
 
+> Task :wedialog:bundleLibRuntimeDebug
 > Task :wedialog:bundleLibResDebug
+> Task :wedialog:createFullJarDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :wedialog:bundleLibRuntimeDebug
-> Task :wedialog:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
@@ -103,9 +103,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :wedialog:mergeDebugJniLibFolders
-> Task :wedialog:mergeDebugNativeLibs
-> Task :wedialog:stripDebugDebugSymbols
-> Task :wedialog:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :wedialog:preReleaseBuild UP-TO-DATE
 > Task :wedialog:compileReleaseAidl NO-SOURCE
@@ -121,45 +118,48 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/
 > Task :wedialog:generateReleaseResValues
 > Task :wedialog:generateReleaseResources
 > Task :wedialog:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :wedialog:checkReleaseManifest
-> Task :wedialog:generateReleaseBuildConfig
-> Task :wedialog:parseReleaseLibraryResources
 > Task :wedialog:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
+> Task :wedialog:generateReleaseBuildConfig
+> Task :wedialog:mergeDebugNativeLibs
+> Task :wedialog:stripDebugDebugSymbols
+> Task :wedialog:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :wedialog:parseReleaseLibraryResources
 > Task :wedialog:generateReleaseRFile
-> Task :app:processReleaseResources
 
 > Task :wedialog:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (321, 20): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (321, 24): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (321, 36): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (322, 20): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (322, 24): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/wedialog/src/main/java/com/cysion/wedialog/dialogs/CustomDialog.kt: (322, 36): Parameter 'bundle' is never used, could be renamed to _
 
-> Task :app:prepareLintJar
-> Task :wedialog:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
 > Task :wedialog:javaPreCompileRelease
 > Task :wedialog:compileReleaseJavaWithJavac
-> Task :wedialog:bundleLibResRelease
-> Task :wedialog:prepareLintJarForPublish
+> Task :app:prepareLintJar
 > Task :wedialog:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 25): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 29): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 41): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 25): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 29): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 41): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 25): Parameter 'df' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 29): Parameter 'dialogView' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 41): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (74, 53): Parameter 'bundle' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (97, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 25): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 29): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (27, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 25): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 29): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (35, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 25): Parameter 'df' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 29): Parameter 'dialogView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/AnchorActivity.kt: (44, 41): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (74, 53): Parameter 'bundle' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/src/main/java/com/cysion/dialogtest/MainActivity.kt: (97, 41): Parameter 'bundle' is never used, could be renamed to _
 
+> Task :wedialog:processReleaseJavaRes NO-SOURCE
+> Task :wedialog:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
+> Task :wedialog:bundleLibResRelease
 > Task :wedialog:bundleLibRuntimeRelease
 > Task :wedialog:createFullJarRelease
 > Task :app:javaPreCompileRelease
@@ -180,18 +180,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :wedialog:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :wedialog:mergeReleaseJniLibFolders
 > Task :wedialog:mergeReleaseNativeLibs
 > Task :wedialog:stripReleaseDebugSymbols
 > Task :wedialog:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -203,7 +203,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 49s
+BUILD SUCCESSFUL in 1m 8s
 94 actionable tasks: 94 executed
 
-2019-09-23 23:15:03,427 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255173066-0/src/WeDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-10 22:53:50,637 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401147881-0/src/WeDialog-master/app/build/outputs/apk/debug/app-debug.apk

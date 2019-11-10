@@ -1,33 +1,33 @@
-2019-10-22 11:04:00,473 INFO  DownloadService - Downloading "https://github.com/nedimf/maildroid/archive/master.zip", attempt 3
-2019-10-22 11:04:01,535 INFO  DownloadService - Downloaded https://github.com/nedimf/maildroid/archive/master.zip, attempt 3
-2019-10-22 11:04:01,536 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/master.zip": 708 KB
-2019-10-22 11:04:01,536 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-22 11:04:01,541 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/master.zip: true
-2019-10-22 11:04:01,541 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src'.
-2019-10-22 11:04:01,565 INFO  FullProcessService - Size of directory with sources: 769 KB
-2019-10-22 11:04:01,565 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src]
-2019-10-22 11:04:01,583 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/.git/
+2019-11-10 22:54:02,802 INFO  DownloadService - Downloading "https://github.com/nedimf/maildroid/archive/master.zip", attempt 3
+2019-11-10 22:54:05,380 INFO  DownloadService - Downloaded https://github.com/nedimf/maildroid/archive/master.zip, attempt 3
+2019-11-10 22:54:05,381 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/master.zip": 708 KB
+2019-11-10 22:54:05,381 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-10 22:54:05,381 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/master.zip: true
+2019-11-10 22:54:05,381 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src'.
+2019-11-10 22:54:05,410 INFO  FullProcessService - Size of directory with sources: 769 KB
+2019-11-10 22:54:05,410 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src]
+2019-11-10 22:54:05,438 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/.git/
 
-2019-10-22 11:04:01,585 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/gradlew
-2019-10-22 11:04:01,588 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/maildroidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/build.gradle
-2019-10-22 11:04:01,591 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/maildroidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/settings.gradle
-2019-10-22 11:04:01,591 INFO  ProjectBuildService - Remote scripts: none
-2019-10-22 11:04:01,591 INFO  ProjectFixService - Fixing project...
-2019-10-22 11:04:01,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/local.properties
-2019-10-22 11:04:01,598 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-22 11:04:01,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/maildroidx/local.properties
-2019-10-22 11:04:01,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/maildroidx/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-22 11:04:01,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/local.properties
-2019-10-22 11:04:01,600 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-10-22 11:04:01,600 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-10-22 11:04:01,601 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-22 11:04:01,601 INFO  ProjectFixService - Project was maybe fixed
-2019-10-22 11:04:01,601 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 11:04:01,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 11:04:08,013 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-22 11:04:08,013 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-22 11:04:08,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-22 11:04:47,912 ERROR SysUtils - Could not process external command
+2019-11-10 22:54:05,441 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/gradlew
+2019-11-10 22:54:05,445 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/maildroidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/build.gradle
+2019-11-10 22:54:05,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/maildroidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/settings.gradle
+2019-11-10 22:54:05,448 INFO  ProjectBuildService - Remote scripts: none
+2019-11-10 22:54:05,448 INFO  ProjectFixService - Fixing project...
+2019-11-10 22:54:05,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/local.properties
+2019-11-10 22:54:05,458 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-11-10 22:54:05,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/maildroidx/local.properties
+2019-11-10 22:54:05,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/maildroidx/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-11-10 22:54:05,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/local.properties
+2019-11-10 22:54:05,461 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-11-10 22:54:05,461 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-11-10 22:54:05,462 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-11-10 22:54:05,463 INFO  ProjectFixService - Project was maybe fixed
+2019-11-10 22:54:05,463 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-10 22:54:05,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-10 22:54:14,822 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-10 22:54:14,822 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-10 22:54:14,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-10 22:55:11,077 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-22 11:04:47,912 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-10 22:55:11,078 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :maildroidx
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -65,18 +65,21 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :maildroidx:preDebugBuild UP-TO-DATE
 > Task :maildroidx:checkDebugManifest
 > Task :maildroidx:processDebugManifest
-> Task :app:preDebugBuild
-> Task :maildroidx:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :maildroidx:packageDebugRenderscript NO-SOURCE
+> Task :maildroidx:generateDebugResValues
+> Task :maildroidx:generateDebugBuildConfig
+> Task :maildroidx:prepareLintJar
+> Task :maildroidx:compileDebugAidl NO-SOURCE
+> Task :app:prepareLintJar
+> Task :maildroidx:compileDebugRenderscript NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :maildroidx:compileDebugRenderscript NO-SOURCE
-> Task :maildroidx:generateDebugResValues
 > Task :maildroidx:generateDebugResources
 > Task :maildroidx:packageDebugResources
 > Task :app:mergeDebugResources
@@ -84,11 +87,24 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:processDebugManifest
 > Task :maildroidx:generateDebugRFile
 > Task :app:processDebugResources
-> Task :maildroidx:generateDebugBuildConfig
-> Task :maildroidx:prepareLintJar
 > Task :maildroidx:generateDebugSources
-> Task :app:prepareLintJar
 > Task :app:generateDebugSources
+> Task :maildroidx:compileDebugKotlin
+> Task :maildroidx:javaPreCompileDebug
+> Task :maildroidx:compileDebugJavaWithJavac
+> Task :maildroidx:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (26, 17): Name shadowed: text
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (68, 12): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -99,31 +115,15 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :maildroidx:processDebugJavaRes NO-SOURCE
-> Task :maildroidx:mergeDebugJniLibFolders
-> Task :maildroidx:compileDebugKotlin
-> Task :maildroidx:javaPreCompileDebug
-> Task :maildroidx:compileDebugJavaWithJavac
-> Task :maildroidx:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (26, 17): Name shadowed: text
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (68, 12): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
-
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:checkDebugDuplicateClasses
 > Task :maildroidx:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :maildroidx:processDebugJavaRes NO-SOURCE
 > Task :maildroidx:bundleLibResDebug
+> Task :maildroidx:mergeDebugJniLibFolders
 > Task :maildroidx:transformNativeLibsWithMergeJniLibsForDebug
 > Task :maildroidx:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :maildroidx:transformNativeLibsWithIntermediateJniLibsForDebug
@@ -163,12 +163,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/
 > Task :maildroidx:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (26, 17): Name shadowed: text
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 16): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'ProgressDialog' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (68, 12): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (3, 20): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (26, 17): Name shadowed: text
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 16): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'constructor ProgressDialog(Context!)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (66, 33): 'ProgressDialog' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/java/co/nedim/maildroid/MainActivity.kt: (68, 12): 'setMessage(CharSequence!): Unit' is deprecated. Deprecated in Java
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -178,7 +178,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/
 > Task :app:mergeReleaseShaders
 
 > Task :app:lintVitalRelease
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/src/main/res/layout/activity_main.xml:33: Error: Cannot be relative to self: id=text, layout_constraintTop_toBottomOf=text [NotSibling]
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5af692996f8c5b5a31f4352733368aa8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/src/main/res/layout/activity_main.xml:33: Error: Cannot be relative to self: id=text, layout_constraintTop_toBottomOf=text [NotSibling]
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/text"
                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -312,7 +313,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 39s
+BUILD FAILED in 55s
 72 actionable tasks: 72 executed
 
-2019-10-22 11:04:47,972 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571717040465-0/src/maildroid-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-10 22:55:11,152 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573401242798-0/src/maildroid-master/app/build/outputs/apk/debug/app-debug.apk
