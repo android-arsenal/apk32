@@ -1,33 +1,33 @@
-2019-09-23 23:12:50,598 INFO  DownloadService - Downloading "https://github.com/sivze/snapui/archive/master.zip", attempt 3
-2019-09-23 23:12:52,952 INFO  DownloadService - Downloaded https://github.com/sivze/snapui/archive/master.zip, attempt 3
-2019-09-23 23:12:52,952 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/master.zip": 477 KB
-2019-09-23 23:12:52,952 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-23 23:12:52,958 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/master.zip: true
-2019-09-23 23:12:52,958 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src'.
-2019-09-23 23:12:52,977 INFO  FullProcessService - Size of directory with sources: 579 KB
-2019-09-23 23:12:52,977 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src]
-2019-09-23 23:12:53,000 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/.git/
+2019-11-12 10:53:50,932 INFO  DownloadService - Downloading "https://github.com/sivze/snapui/archive/master.zip", attempt 3
+2019-11-12 10:53:51,428 INFO  DownloadService - Downloaded https://github.com/sivze/snapui/archive/master.zip, attempt 3
+2019-11-12 10:53:51,428 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/master.zip": 478 KB
+2019-11-12 10:53:51,428 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-12 10:53:51,433 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/master.zip: true
+2019-11-12 10:53:51,434 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src'.
+2019-11-12 10:53:51,448 INFO  FullProcessService - Size of directory with sources: 582 KB
+2019-11-12 10:53:51,448 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src]
+2019-11-12 10:53:51,466 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/.git/
 
-2019-09-23 23:12:53,002 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-09-23 23:12:53,002 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-09-23 23:12:53,004 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/build.gradle
-2019-09-23 23:12:53,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/settings.gradle
-2019-09-23 23:12:53,006 INFO  ProjectBuildService - Remote scripts: none
-2019-09-23 23:12:53,006 INFO  ProjectFixService - Fixing project...
-2019-09-23 23:12:53,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/app/local.properties
-2019-09-23 23:12:53,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-23 23:12:53,013 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-23 23:12:53,014 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/local.properties
-2019-09-23 23:12:53,015 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-23 23:12:53,015 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-23 23:12:53,016 INFO  ProjectFixService - Project was maybe fixed
-2019-09-23 23:12:53,016 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-23 23:12:53,016 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-23 23:12:53,030 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-09-23 23:12:53,030 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-09-23 23:12:53,030 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-09-23 23:12:53,030 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-09-23 23:12:53,034 ERROR SysUtils - Could not process external command
+2019-11-12 10:53:51,468 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-11-12 10:53:51,468 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-11-12 10:53:51,470 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/build.gradle
+2019-11-12 10:53:51,472 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/settings.gradle
+2019-11-12 10:53:51,472 INFO  ProjectBuildService - Remote scripts: none
+2019-11-12 10:53:51,472 INFO  ProjectFixService - Fixing project...
+2019-11-12 10:53:51,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/app/local.properties
+2019-11-12 10:53:51,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-11-12 10:53:51,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-11-12 10:53:51,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/local.properties
+2019-11-12 10:53:51,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-11-12 10:53:51,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-11-12 10:53:51,481 INFO  ProjectFixService - Project was maybe fixed
+2019-11-12 10:53:51,481 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-12 10:53:51,481 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-12 10:53:51,494 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-11-12 10:53:51,494 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-12 10:53:51,494 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-12 10:53:51,494 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-12 10:53:51,499 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -65,14 +65,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-09-23 23:12:53,034 INFO  SysUtils - 
-2019-09-23 23:12:53,036 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-23 23:12:53,036 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-23 23:12:53,040 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-09-23 23:12:53,041 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-09-23 23:12:53,041 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-09-23 23:12:53,041 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569255170592-0/src/SnapUI-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-09-23 23:12:53,045 ERROR SysUtils - Could not process external command
+2019-11-12 10:53:51,499 INFO  SysUtils - 
+2019-11-12 10:53:51,501 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-12 10:53:51,501 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-12 10:53:51,505 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-11-12 10:53:51,505 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-12 10:53:51,505 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-12 10:53:51,506 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545230929-0/src/SnapUI-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-12 10:53:51,510 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -110,6 +110,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-09-23 23:12:53,045 INFO  SysUtils - 
-2019-09-23 23:12:53,047 ERROR FullProcessService - Project build has not produced APK file
-2019-09-23 23:12:53,049 ERROR FullProcessService - Could not find generated or existed APK file
+2019-11-12 10:53:51,510 INFO  SysUtils - 
+2019-11-12 10:53:51,512 ERROR FullProcessService - Project build has not produced APK file
+2019-11-12 10:53:51,514 ERROR FullProcessService - Could not find generated or existed APK file
