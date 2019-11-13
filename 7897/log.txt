@@ -1,36 +1,36 @@
-2019-10-22 10:59:00,654 INFO  DownloadService - Downloading "https://github.com/HBiSoft/HBRecorder/archive/master.zip", attempt 3
-2019-10-22 10:59:01,364 INFO  DownloadService - Downloaded https://github.com/HBiSoft/HBRecorder/archive/master.zip, attempt 3
-2019-10-22 10:59:01,364 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/master.zip": 134 KB
-2019-10-22 10:59:01,364 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-22 10:59:01,367 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/master.zip: true
-2019-10-22 10:59:01,367 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src'.
-2019-10-22 10:59:01,394 INFO  FullProcessService - Size of directory with sources: 193 KB
-2019-10-22 10:59:01,394 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src]
-2019-10-22 10:59:01,412 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/.git/
+2019-11-13 11:22:05,578 INFO  DownloadService - Downloading "https://github.com/HBiSoft/HBRecorder/archive/master.zip", attempt 3
+2019-11-13 11:22:06,150 INFO  DownloadService - Downloaded https://github.com/HBiSoft/HBRecorder/archive/master.zip, attempt 3
+2019-11-13 11:22:06,151 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/master.zip": 134 KB
+2019-11-13 11:22:06,151 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-13 11:22:06,156 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/master.zip: true
+2019-11-13 11:22:06,156 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src'.
+2019-11-13 11:22:06,178 INFO  FullProcessService - Size of directory with sources: 193 KB
+2019-11-13 11:22:06,179 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src]
+2019-11-13 11:22:06,198 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/.git/
 
-2019-10-22 10:59:01,415 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/gradlew
-2019-10-22 10:59:01,418 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/build.gradle
-2019-10-22 10:59:01,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/settings.gradle
-2019-10-22 10:59:01,421 INFO  ProjectBuildService - Remote scripts: none
-2019-10-22 10:59:01,421 INFO  ProjectFixService - Fixing project...
-2019-10-22 10:59:01,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/local.properties
-2019-10-22 10:59:01,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-22 10:59:01,429 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-22 10:59:01,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/hbrecorder/local.properties
-2019-10-22 10:59:01,431 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-22 10:59:01,431 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-22 10:59:01,432 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/local.properties
-2019-10-22 10:59:01,432 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-10-22 10:59:01,433 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-10-22 10:59:01,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-22 10:59:01,434 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-10-22 10:59:01,435 INFO  ProjectFixService - Project was maybe fixed
-2019-10-22 10:59:01,435 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 10:59:01,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 10:59:12,196 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-22 10:59:12,196 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-22 10:59:12,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-22 10:59:42,460 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-13 11:22:06,200 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/gradlew
+2019-11-13 11:22:06,203 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/build.gradle
+2019-11-13 11:22:06,206 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/settings.gradle
+2019-11-13 11:22:06,206 INFO  ProjectBuildService - Remote scripts: none
+2019-11-13 11:22:06,206 INFO  ProjectFixService - Fixing project...
+2019-11-13 11:22:06,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/local.properties
+2019-11-13 11:22:06,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-13 11:22:06,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-13 11:22:06,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/hbrecorder/local.properties
+2019-11-13 11:22:06,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-13 11:22:06,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-13 11:22:06,217 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/local.properties
+2019-11-13 11:22:06,218 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-11-13 11:22:06,218 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-11-13 11:22:06,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-13 11:22:06,220 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-11-13 11:22:06,220 INFO  ProjectFixService - Project was maybe fixed
+2019-11-13 11:22:06,221 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-13 11:22:06,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-13 11:22:15,458 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-13 11:22:15,458 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-13 11:22:15,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-13 11:22:42,402 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :hbrecorder:preBuild UP-TO-DATE
 > Task :hbrecorder:preDebugBuild UP-TO-DATE
@@ -39,29 +39,33 @@
 > Task :hbrecorder:packageDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
 > Task :hbrecorder:generateDebugBuildConfig
-> Task :hbrecorder:compileDebugAidl NO-SOURCE
-> Task :hbrecorder:compileDebugRenderscript NO-SOURCE
+> Task :hbrecorder:generateDebugResValues
+> Task :hbrecorder:prepareLintJar
+> Task :hbrecorder:mergeDebugShaders
+> Task :hbrecorder:compileDebugShaders
+> Task :hbrecorder:generateDebugAssets
+> Task :hbrecorder:packageDebugAssets
+> Task :hbrecorder:javaPreCompileDebug
 > Task :app:preDebugBuild
+> Task :hbrecorder:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
-> Task :hbrecorder:generateDebugResValues
+> Task :hbrecorder:compileDebugRenderscript NO-SOURCE
 > Task :hbrecorder:generateDebugResources
-> Task :hbrecorder:prepareLintJar
-> Task :hbrecorder:generateDebugSources
-> Task :hbrecorder:javaPreCompileDebug
 > Task :hbrecorder:packageDebugResources
 > Task :hbrecorder:generateDebugRFile
+> Task :hbrecorder:generateDebugSources
 > Task :hbrecorder:compileDebugJavaWithJavac
 > Task :hbrecorder:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
 
@@ -73,10 +77,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :hbrecorder:mergeDebugShaders
-> Task :hbrecorder:compileDebugShaders
-> Task :hbrecorder:generateDebugAssets
-> Task :hbrecorder:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :hbrecorder:processDebugJavaRes NO-SOURCE
 > Task :hbrecorder:bundleLibResDebug
@@ -135,8 +135,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assembleDebug
 > Task :app:compileReleaseSources
 > Task :hbrecorder:prepareLintJarForPublish
-> Task :app:lintVitalRelease
 > Task :hbrecorder:processReleaseJavaRes NO-SOURCE
+> Task :app:lintVitalRelease
 > Task :hbrecorder:bundleLibResRelease
 > Task :hbrecorder:bundleLibRuntimeRelease
 > Task :hbrecorder:createFullJarRelease
@@ -171,7 +171,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 26s
 91 actionable tasks: 91 executed
 
-2019-10-22 10:59:42,521 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716740646-0/src/HBRecorder-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-13 11:22:42,463 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633325574-0/src/HBRecorder-master/app/build/outputs/apk/debug/app-debug.apk

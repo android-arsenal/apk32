@@ -1,40 +1,40 @@
-2019-07-20 12:43:36,270 INFO  DownloadService - Downloading "https://github.com/barisatalay/CoinAndBeyond/archive/master.zip", attempt 3
-2019-07-20 12:43:38,518 INFO  DownloadService - Downloaded https://github.com/barisatalay/CoinAndBeyond/archive/master.zip, attempt 3
-2019-07-20 12:43:38,519 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/master.zip": 207 KB
-2019-07-20 12:43:38,519 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-20 12:43:38,520 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/master.zip: true
-2019-07-20 12:43:38,520 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src'.
-2019-07-20 12:43:38,561 INFO  FullProcessService - Size of directory with sources: 240 KB
-2019-07-20 12:43:38,561 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src]
-2019-07-20 12:43:38,583 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/.git/
+2019-11-13 11:30:55,430 INFO  DownloadService - Downloading "https://github.com/barisatalay/CoinAndBeyond/archive/master.zip", attempt 3
+2019-11-13 11:30:56,955 INFO  DownloadService - Downloaded https://github.com/barisatalay/CoinAndBeyond/archive/master.zip, attempt 3
+2019-11-13 11:30:56,955 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/master.zip": 207 KB
+2019-11-13 11:30:56,955 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-13 11:30:56,956 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/master.zip: true
+2019-11-13 11:30:56,957 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src'.
+2019-11-13 11:30:56,988 INFO  FullProcessService - Size of directory with sources: 240 KB
+2019-11-13 11:30:56,989 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src]
+2019-11-13 11:30:57,005 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/.git/
 
-2019-07-20 12:43:38,589 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew
-2019-07-20 12:43:38,595 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/cointracker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/build.gradle
-2019-07-20 12:43:38,601 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/cointracker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle
-2019-07-20 12:43:38,601 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 12:43:38,601 INFO  ProjectFixService - Fixing project...
-2019-07-20 12:43:38,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/app/local.properties
-2019-07-20 12:43:38,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-20 12:43:38,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-20 12:43:38,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/coinandbeyondbasic/local.properties
-2019-07-20 12:43:38,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-20 12:43:38,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-20 12:43:38,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/cointracker/local.properties
-2019-07-20 12:43:38,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/cointracker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-20 12:43:38,629 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/cointracker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-20 12:43:38,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/local.properties
-2019-07-20 12:43:38,632 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-07-20 12:43:38,633 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-07-20 12:43:38,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-20 12:43:38,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-20 12:43:38,635 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 12:43:38,635 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:43:38,636 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:43:38,791 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-20 12:43:38,791 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-20 12:43:38,791 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-20 12:43:38,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-20 12:43:38,962 ERROR SysUtils - Could not process external command
+2019-11-13 11:30:57,009 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew
+2019-11-13 11:30:57,014 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/cointracker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/build.gradle
+2019-11-13 11:30:57,018 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/cointracker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle
+2019-11-13 11:30:57,018 INFO  ProjectBuildService - Remote scripts: none
+2019-11-13 11:30:57,018 INFO  ProjectFixService - Fixing project...
+2019-11-13 11:30:57,027 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/app/local.properties
+2019-11-13 11:30:57,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-11-13 11:30:57,028 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-11-13 11:30:57,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/coinandbeyondbasic/local.properties
+2019-11-13 11:30:57,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-13 11:30:57,030 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-13 11:30:57,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/cointracker/local.properties
+2019-11-13 11:30:57,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/cointracker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-13 11:30:57,032 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/cointracker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-11-13 11:30:57,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/local.properties
+2019-11-13 11:30:57,033 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-11-13 11:30:57,033 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-11-13 11:30:57,034 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-11-13 11:30:57,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-11-13 11:30:57,034 INFO  ProjectFixService - Project was maybe fixed
+2019-11-13 11:30:57,034 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-13 11:30:57,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-13 11:30:57,171 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-13 11:30:57,171 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-13 11:30:57,171 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-13 11:30:57,171 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-13 11:30:57,304 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,22 +55,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-20 12:43:38,962 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-11-13 11:30:57,305 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-07-20 12:43:38,969 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:43:38,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:43:39,135 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-20 12:43:39,135 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-20 12:43:39,136 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-20 12:43:39,136 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-20 12:43:39,293 ERROR SysUtils - Could not process external command
+2019-11-13 11:30:57,309 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-13 11:30:57,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-13 11:30:57,456 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-13 11:30:57,456 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-13 11:30:57,456 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-13 11:30:57,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/coinandbeyondbasic/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-13 11:30:57,596 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -91,22 +91,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-20 12:43:39,293 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-11-13 11:30:57,596 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-07-20 12:43:39,299 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:43:39,300 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/cointracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:43:39,453 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-20 12:43:39,453 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-20 12:43:39,453 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-20 12:43:39,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/cointracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-20 12:43:39,597 ERROR SysUtils - Could not process external command
+2019-11-13 11:30:57,601 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-13 11:30:57,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/cointracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-13 11:30:57,752 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-13 11:30:57,752 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-13 11:30:57,752 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-13 11:30:57,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/cointracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-13 11:30:57,901 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -127,22 +127,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-20 12:43:39,597 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-11-13 11:30:57,901 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-07-20 12:43:39,602 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 12:43:39,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 12:43:39,758 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-20 12:43:39,759 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-20 12:43:39,759 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-20 12:43:39,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563601416267-0/src/CoinAndBeyond-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-20 12:43:39,907 ERROR SysUtils - Could not process external command
+2019-11-13 11:30:57,905 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-13 11:30:57,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-13 11:30:58,038 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-13 11:30:58,038 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-11-13 11:30:58,038 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-11-13 11:30:58,038 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633855425-0/src/CoinAndBeyond-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-11-13 11:30:58,173 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -163,14 +163,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-20 12:43:39,907 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-11-13 11:30:58,173 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-07-20 12:43:39,913 ERROR FullProcessService - Project build has not produced APK file
-2019-07-20 12:43:39,918 ERROR FullProcessService - Could not find generated or existed APK file
+2019-11-13 11:30:58,178 ERROR FullProcessService - Project build has not produced APK file
+2019-11-13 11:30:58,181 ERROR FullProcessService - Could not find generated or existed APK file
