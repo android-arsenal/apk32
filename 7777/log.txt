@@ -1,50 +1,48 @@
-2019-10-27 21:17:23,069 INFO  DownloadService - Downloading "https://github.com/aminography/ChoosePhotoHelper/archive/master.zip", attempt 3
-2019-10-27 21:17:25,196 INFO  DownloadService - Downloaded https://github.com/aminography/ChoosePhotoHelper/archive/master.zip, attempt 3
-2019-10-27 21:17:25,197 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/master.zip": 254 KB
-2019-10-27 21:17:25,197 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-27 21:17:25,197 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/master.zip: true
-2019-10-27 21:17:25,197 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src'.
-2019-10-27 21:17:25,232 INFO  FullProcessService - Size of directory with sources: 288 KB
-2019-10-27 21:17:25,232 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src]
-2019-10-27 21:17:25,260 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/.git/
+2019-11-21 12:56:27,194 INFO  DownloadService - Downloading "https://github.com/aminography/ChoosePhotoHelper/archive/master.zip", attempt 3
+2019-11-21 12:56:29,898 INFO  DownloadService - Downloaded https://github.com/aminography/ChoosePhotoHelper/archive/master.zip, attempt 3
+2019-11-21 12:56:29,898 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/master.zip": 255 KB
+2019-11-21 12:56:29,899 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-21 12:56:29,904 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/master.zip: true
+2019-11-21 12:56:29,904 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src'.
+2019-11-21 12:56:29,939 INFO  FullProcessService - Size of directory with sources: 289 KB
+2019-11-21 12:56:29,940 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src]
+2019-11-21 12:56:29,960 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/.git/
 
-2019-10-27 21:17:25,264 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/gradlew
-2019-10-27 21:17:25,270 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/build.gradle
-2019-10-27 21:17:25,275 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/gradle/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/gradle/bintray-java.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/gradle/bintray-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/settings.gradle
-2019-10-27 21:17:25,276 INFO  ProjectBuildService - Remote scripts: none
-2019-10-27 21:17:25,276 INFO  ProjectFixService - Fixing project...
-2019-10-27 21:17:25,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/local.properties
-2019-10-27 21:17:25,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,290 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/library/local.properties
-2019-10-27 21:17:25,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,293 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/sample-app/local.properties
-2019-10-27 21:17:25,295 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,296 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/local.properties
-2019-10-27 21:17:25,297 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-10-27 21:17:25,298 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-10-27 21:17:25,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,300 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-10-27 21:17:25,301 INFO  ProjectFixService - Project was maybe fixed
-2019-10-27 21:17:25,301 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-27 21:17:25,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-27 21:17:32,979 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-27 21:17:32,980 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-27 21:17:32,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-27 21:18:33,977 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-21 12:56:29,967 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/gradlew
+2019-11-21 12:56:29,973 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/build.gradle
+2019-11-21 12:56:29,977 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/gradle/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/gradle/bintray-java.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/gradle/bintray-android.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/settings.gradle
+2019-11-21 12:56:29,978 INFO  ProjectBuildService - Remote scripts: none
+2019-11-21 12:56:29,978 INFO  ProjectFixService - Fixing project...
+2019-11-21 12:56:29,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/local.properties
+2019-11-21 12:56:29,993 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:29,995 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:29,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/library/local.properties
+2019-11-21 12:56:29,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:29,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:30,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/sample-app/local.properties
+2019-11-21 12:56:30,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/sample-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:30,003 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/sample-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:30,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/local.properties
+2019-11-21 12:56:30,004 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-21 12:56:30,005 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-21 12:56:30,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:30,008 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-11-21 12:56:30,009 INFO  ProjectFixService - Project was maybe fixed
+2019-11-21 12:56:30,009 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-21 12:56:30,009 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-21 12:56:38,066 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-21 12:56:38,066 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-21 12:56:38,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-21 12:57:36,979 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :java-sample-app:preBuild UP-TO-DATE
+> Task :java-sample-app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest
-> Task :library:processDebugManifest
-> Task :java-sample-app:preDebugBuild
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :java-sample-app:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :java-sample-app:compileDebugRenderscript NO-SOURCE
 > Task :java-sample-app:checkDebugManifest
+> Task :java-sample-app:compileDebugRenderscript NO-SOURCE
 > Task :java-sample-app:generateDebugBuildConfig
 > Task :java-sample-app:mainApkListPersistenceDebug
 > Task :java-sample-app:generateDebugResValues
@@ -53,24 +51,13 @@
 > Task :library:generateDebugResValues
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
-> Task :java-sample-app:mergeDebugResources
 > Task :java-sample-app:createDebugCompatibleScreenManifests
-> Task :java-sample-app:processDebugManifest
-> Task :library:generateDebugRFile
-> Task :java-sample-app:processDebugResources
+> Task :library:checkDebugManifest
 > Task :library:generateDebugBuildConfig
-> Task :library:compileDebugKotlin
-> Task :library:prepareLintJar
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:bundleLibCompileDebug
-> Task :java-sample-app:compileDebugKotlin
-> Task :java-sample-app:prepareLintJar
-> Task :java-sample-app:generateDebugSources
-> Task :java-sample-app:javaPreCompileDebug
-> Task :java-sample-app:compileDebugJavaWithJavac
-> Task :java-sample-app:compileDebugSources
+> Task :java-sample-app:mergeDebugResources
+> Task :library:processDebugManifest
+> Task :java-sample-app:processDebugManifest
+> Task :library:parseDebugLibraryResources
 > Task :java-sample-app:mergeDebugShaders
 > Task :java-sample-app:compileDebugShaders
 > Task :java-sample-app:generateDebugAssets
@@ -79,30 +66,31 @@
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :java-sample-app:mergeDebugAssets
+> Task :java-sample-app:processDebugJavaRes NO-SOURCE
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :java-sample-app:checkDebugDuplicateClasses
+> Task :library:generateDebugRFile
+> Task :java-sample-app:processDebugResources
+> Task :library:compileDebugKotlin
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :library:createFullJarDebug
+> Task :library:bundleLibCompileDebug
+> Task :java-sample-app:compileDebugKotlin
+> Task :java-sample-app:javaPreCompileDebug
+> Task :java-sample-app:compileDebugJavaWithJavac
+> Task :java-sample-app:compileDebugSources
+> Task :java-sample-app:desugarDebugFileDependencies
+> Task :java-sample-app:transformClassesWithDexBuilderForDebug
 > Task :java-sample-app:validateSigningDebug
 > Task :java-sample-app:signingConfigWriterDebug
-> Task :java-sample-app:checkDebugDuplicateClasses
-> Task :library:bundleLibRuntimeDebug
-> Task :java-sample-app:transformClassesWithDexBuilderForDebug
-> Task :java-sample-app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :java-sample-app:transformDexArchiveWithDexMergerForDebug
+> Task :java-sample-app:mergeDebugJavaResource
 > Task :java-sample-app:mergeDebugJniLibFolders
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:bundleLibResDebug
 > Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :java-sample-app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :java-sample-app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :java-sample-app:processDebugJavaRes NO-SOURCE
-> Task :java-sample-app:transformResourcesWithMergeJavaResForDebug
-> Task :java-sample-app:packageDebug
-> Task :java-sample-app:assembleDebug
+> Task :java-sample-app:preReleaseBuild UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :java-sample-app:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :java-sample-app:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
@@ -116,27 +104,42 @@
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :java-sample-app:mergeReleaseResources
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :java-sample-app:createReleaseCompatibleScreenManifests
+> Task :library:checkReleaseManifest
+> Task :library:processReleaseManifest
 > Task :java-sample-app:processReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :java-sample-app:mergeDebugNativeLibs
+> Task :java-sample-app:stripDebugDebugSymbols
+> Task :library:parseReleaseLibraryResources
+> Task :java-sample-app:mergeReleaseResources
 > Task :library:generateReleaseRFile
 > Task :java-sample-app:processReleaseResources
-> Task :library:generateReleaseBuildConfig
 > Task :library:compileReleaseKotlin
-> Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
+> Task :java-sample-app:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :java-sample-app:checkReleaseDuplicateClasses
+> Task :library:bundleLibResRelease
+> Task :library:prepareLintJarForPublish
 > Task :library:bundleLibCompileRelease
 > Task :java-sample-app:compileReleaseKotlin
-> Task :java-sample-app:generateReleaseSources
+> Task :library:bundleLibRuntimeRelease
+> Task :library:createFullJarRelease
 > Task :java-sample-app:javaPreCompileRelease
 > Task :java-sample-app:compileReleaseJavaWithJavac
 > Task :java-sample-app:compileReleaseSources
-> Task :library:prepareLintJarForPublish
 
 > Task :java-sample-app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/53c3a12fb6e497103c2a512d24ee6cdd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0e0264fac581812b4321a735ab9017e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :java-sample-app:mergeExtDexDebug
+> Task :java-sample-app:desugarReleaseFileDependencies
+> Task :java-sample-app:transformClassesWithDexBuilderForRelease
 > Task :java-sample-app:mergeReleaseShaders
 > Task :java-sample-app:compileReleaseShaders
 > Task :java-sample-app:generateReleaseAssets
@@ -145,23 +148,21 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :java-sample-app:mergeReleaseAssets
-> Task :java-sample-app:signingConfigWriterRelease
-> Task :java-sample-app:checkReleaseDuplicateClasses
-> Task :library:bundleLibRuntimeRelease
-> Task :java-sample-app:transformClassesWithDexBuilderForRelease
-> Task :java-sample-app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :java-sample-app:transformDexArchiveWithDexMergerForRelease
-> Task :java-sample-app:mergeReleaseJniLibFolders
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:bundleLibResRelease
-> Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :java-sample-app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :java-sample-app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :java-sample-app:processReleaseJavaRes NO-SOURCE
-> Task :java-sample-app:transformResourcesWithMergeJavaResForRelease
+> Task :java-sample-app:mergeDexDebug
+> Task :java-sample-app:packageDebug
+> Task :java-sample-app:assembleDebug
+> Task :java-sample-app:signingConfigWriterRelease
+> Task :java-sample-app:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
+> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :java-sample-app:mergeReleaseJavaResource
+> Task :java-sample-app:mergeReleaseNativeLibs
+> Task :java-sample-app:stripReleaseDebugSymbols
+> Task :java-sample-app:mergeExtDexRelease
+> Task :java-sample-app:mergeDexRelease
 > Task :java-sample-app:packageRelease
 > Task :java-sample-app:assembleRelease
 > Task :java-sample-app:assemble
@@ -169,9 +170,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 0s
-93 actionable tasks: 93 executed
+BUILD SUCCESSFUL in 58s
+96 actionable tasks: 96 executed
 
-2019-10-27 21:18:34,059 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185843065-0/src/ChoosePhotoHelper-master/java-sample-app/build/outputs/apk/release/java-sample-app-release-unsigned.apk
+2019-11-21 12:57:37,058 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574315787190-0/src/ChoosePhotoHelper-master/java-sample-app/build/outputs/apk/release/java-sample-app-release-unsigned.apk
