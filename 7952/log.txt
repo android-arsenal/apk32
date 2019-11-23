@@ -1,0 +1,143 @@
+2019-11-23 20:30:31,695 INFO  DownloadService - Downloading "https://github.com/AllanHasegawa/kelm/archive/master.zip", attempt 3
+2019-11-23 20:30:33,841 INFO  DownloadService - Downloaded https://github.com/AllanHasegawa/kelm/archive/master.zip, attempt 3
+2019-11-23 20:30:33,841 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/master.zip": 242 KB
+2019-11-23 20:30:33,841 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-23 20:30:33,847 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/master.zip: true
+2019-11-23 20:30:33,847 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src'.
+2019-11-23 20:30:33,879 INFO  FullProcessService - Size of directory with sources: 334 KB
+2019-11-23 20:30:33,879 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src]
+2019-11-23 20:30:33,906 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/.git/
+
+2019-11-23 20:30:33,911 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/gradlew
+2019-11-23 20:30:33,915 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/kelm-core/build.gradle
+2019-11-23 20:30:33,918 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/kelm-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/settings.gradle
+2019-11-23 20:30:33,918 INFO  ProjectBuildService - Remote scripts: none
+2019-11-23 20:30:33,918 INFO  ProjectFixService - Fixing project...
+2019-11-23 20:30:33,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/local.properties
+2019-11-23 20:30:33,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-11-23 20:30:33,929 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-11-23 20:30:33,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/local.properties
+2019-11-23 20:30:33,931 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2019-11-23 20:30:33,931 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2019-11-23 20:30:33,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-11-23 20:30:33,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-11-23 20:30:33,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/kelm-core/local.properties
+2019-11-23 20:30:33,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/kelm-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-11-23 20:30:33,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/kelm-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-11-23 20:30:33,936 INFO  ProjectFixService - Project was maybe fixed
+2019-11-23 20:30:33,936 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-23 20:30:33,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-23 20:31:20,056 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-11-23 20:31:20,056 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-23 20:31:20,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-23 20:33:04,059 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+> Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+> Task :kelm-core:compileKotlin
+> Task :kelm-core:compileJava NO-SOURCE
+> Task :kelm-core:processResources NO-SOURCE
+> Task :kelm-core:classes UP-TO-DATE
+> Task :kelm-core:inspectClassesForKotlinIC
+> Task :kelm-core:jar
+> Task :sample-android:preBuild UP-TO-DATE
+> Task :sample-android:preDebugBuild UP-TO-DATE
+> Task :sample-android:compileDebugAidl NO-SOURCE
+> Task :sample-android:checkDebugManifest
+> Task :sample-android:compileDebugRenderscript NO-SOURCE
+> Task :sample-android:generateDebugBuildConfig
+> Task :sample-android:mainApkListPersistenceDebug
+> Task :sample-android:generateDebugResValues
+> Task :sample-android:generateDebugResources
+> Task :sample-android:createDebugCompatibleScreenManifests
+> Task :sample-android:processDebugManifest
+> Task :sample-android:mergeDebugResources
+> Task :sample-android:processDebugResources
+> Task :sample-android:compileDebugKotlin
+> Task :sample-android:javaPreCompileDebug
+> Task :sample-android:compileDebugJavaWithJavac
+> Task :sample-android:compileDebugSources
+> Task :sample-android:mergeDebugShaders
+> Task :sample-android:compileDebugShaders
+> Task :sample-android:generateDebugAssets
+> Task :sample-android:mergeDebugAssets
+> Task :sample-android:processDebugJavaRes NO-SOURCE
+> Task :sample-android:mergeDebugJavaResource
+> Task :sample-android:transformClassesWithDexBuilderForDebug
+> Task :sample-android:checkDebugDuplicateClasses
+> Task :sample-android:validateSigningDebug
+> Task :sample-android:signingConfigWriterDebug
+> Task :sample-android:mergeLibDexDebug
+> Task :sample-android:mergeDebugJniLibFolders
+> Task :sample-android:preReleaseBuild UP-TO-DATE
+> Task :sample-android:compileReleaseAidl NO-SOURCE
+> Task :sample-android:compileReleaseRenderscript NO-SOURCE
+> Task :sample-android:checkReleaseManifest
+> Task :sample-android:generateReleaseBuildConfig
+> Task :sample-android:mainApkListPersistenceRelease
+> Task :sample-android:generateReleaseResValues
+> Task :sample-android:generateReleaseResources
+> Task :sample-android:createReleaseCompatibleScreenManifests
+> Task :sample-android:processReleaseManifest
+> Task :sample-android:mergeDebugNativeLibs
+> Task :sample-android:stripDebugDebugSymbols
+> Task :sample-android:mergeProjectDexDebug
+> Task :sample-android:prepareLintJar
+> Task :sample-android:checkReleaseDuplicateClasses
+> Task :sample-android:mergeReleaseResources
+> Task :sample-android:processReleaseResources
+> Task :sample-android:compileReleaseKotlin
+> Task :sample-android:javaPreCompileRelease
+> Task :sample-android:compileReleaseJavaWithJavac
+> Task :sample-android:compileReleaseSources
+
+> Task :sample-android:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/37adbcdd6429a0b0bb95b1dac09b6837/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :sample-android:mergeExtDexDebug
+> Task :sample-android:packageDebug
+> Task :sample-android:assembleDebug
+> Task :sample-android:transformClassesWithDexBuilderForRelease
+> Task :sample-android:mergeReleaseShaders
+> Task :sample-android:compileReleaseShaders
+> Task :sample-android:generateReleaseAssets
+> Task :sample-android:mergeReleaseAssets
+> Task :sample-android:processReleaseJavaRes NO-SOURCE
+> Task :sample-android:signingConfigWriterRelease
+> Task :sample-android:mergeReleaseJniLibFolders
+> Task :sample-android:mergeReleaseNativeLibs
+> Task :sample-android:stripReleaseDebugSymbols
+> Task :sample-android:mergeReleaseJavaResource
+> Task :sample-android:mergeExtDexRelease
+> Task :sample-android:mergeDexRelease
+> Task :sample-android:packageRelease
+> Task :sample-android:assembleRelease
+> Task :sample-android:assemble
+> Task :sample-android:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 43s
+55 actionable tasks: 55 executed
+
+2019-11-23 20:33:04,171 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574515831686-0/src/kelm-master/sample-android/build/outputs/apk/release/sample-android-release-unsigned.apk
