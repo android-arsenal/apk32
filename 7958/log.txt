@@ -1,0 +1,257 @@
+2019-11-25 21:22:33,392 INFO  DownloadService - Downloading "https://github.com/saurabhdhillon/anim-press-view/archive/master.zip", attempt 3
+2019-11-25 21:22:35,374 INFO  DownloadService - Downloaded https://github.com/saurabhdhillon/anim-press-view/archive/master.zip, attempt 3
+2019-11-25 21:22:35,374 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/master.zip": 143 KB
+2019-11-25 21:22:35,374 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-25 21:22:35,380 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/master.zip: true
+2019-11-25 21:22:35,380 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src'.
+2019-11-25 21:22:35,400 INFO  FullProcessService - Size of directory with sources: 155 KB
+2019-11-25 21:22:35,400 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src]
+2019-11-25 21:22:35,435 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/.git/
+
+2019-11-25 21:22:35,437 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/gradlew
+2019-11-25 21:22:35,440 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/animpresseffect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/build.gradle
+2019-11-25 21:22:35,442 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/animpresseffect/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/settings.gradle
+2019-11-25 21:22:35,443 INFO  ProjectBuildService - Remote scripts: none
+2019-11-25 21:22:35,443 INFO  ProjectFixService - Fixing project...
+2019-11-25 21:22:35,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/animpresseffect/local.properties
+2019-11-25 21:22:35,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/animpresseffect/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-11-25 21:22:35,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/local.properties
+2019-11-25 21:22:35,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-11-25 21:22:35,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/local.properties
+2019-11-25 21:22:35,453 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-25 21:22:35,454 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-25 21:22:35,455 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-11-25 21:22:35,455 INFO  ProjectFixService - Project was maybe fixed
+2019-11-25 21:22:35,455 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-25 21:22:35,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/animpresseffect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-25 21:22:43,985 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-11-25 21:22:43,985 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-11-25 21:22:43,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/animpresseffect/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-11-25 21:23:04,758 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :animpresseffect:preBuild UP-TO-DATE
+> Task :animpresseffect:preDebugBuild UP-TO-DATE
+> Task :animpresseffect:checkDebugManifest
+> Task :animpresseffect:generateDebugBuildConfig
+> Task :animpresseffect:generateDebugResValues
+> Task :animpresseffect:mergeDebugShaders
+> Task :animpresseffect:compileDebugShaders
+> Task :animpresseffect:compileDebugAidl NO-SOURCE
+> Task :animpresseffect:compileDebugRenderscript NO-SOURCE
+> Task :animpresseffect:generateDebugResources
+> Task :animpresseffect:packageDebugResources
+> Task :animpresseffect:generateDebugAssets
+> Task :animpresseffect:packageDebugAssets
+> Task :animpresseffect:packageDebugRenderscript NO-SOURCE
+> Task :animpresseffect:processDebugJavaRes NO-SOURCE
+> Task :animpresseffect:mergeDebugJniLibFolders
+> Task :animpresseffect:preReleaseBuild UP-TO-DATE
+> Task :animpresseffect:compileReleaseAidl NO-SOURCE
+> Task :animpresseffect:compileReleaseRenderscript NO-SOURCE
+> Task :animpresseffect:checkReleaseManifest
+> Task :animpresseffect:generateReleaseBuildConfig
+> Task :animpresseffect:generateReleaseResValues
+> Task :animpresseffect:generateReleaseResources
+> Task :animpresseffect:packageReleaseResources
+> Task :animpresseffect:parseDebugLibraryResources
+> Task :animpresseffect:mergeReleaseShaders
+> Task :animpresseffect:compileReleaseShaders
+> Task :animpresseffect:generateReleaseAssets
+> Task :animpresseffect:packageReleaseAssets
+> Task :animpresseffect:packageReleaseRenderscript NO-SOURCE
+> Task :animpresseffect:processReleaseJavaRes NO-SOURCE
+> Task :animpresseffect:mergeReleaseJniLibFolders
+> Task :animpresseffect:parseReleaseLibraryResources
+> Task :animpresseffect:mergeDebugNativeLibs
+> Task :animpresseffect:stripDebugDebugSymbols
+> Task :animpresseffect:transformNativeLibsWithSyncJniLibsForDebug
+> Task :animpresseffect:prepareLintJarForPublish
+> Task :animpresseffect:mergeReleaseNativeLibs
+> Task :animpresseffect:stripReleaseDebugSymbols
+> Task :animpresseffect:transformNativeLibsWithSyncJniLibsForRelease
+> Task :animpresseffect:processDebugManifest
+> Task :animpresseffect:processReleaseManifest
+> Task :animpresseffect:mergeReleaseResources
+> Task :animpresseffect:generateReleaseRFile
+> Task :animpresseffect:compileReleaseKotlin
+> Task :animpresseffect:verifyReleaseResources
+> Task :animpresseffect:generateDebugRFile
+> Task :animpresseffect:compileDebugKotlin
+> Task :animpresseffect:javaPreCompileRelease
+> Task :animpresseffect:compileReleaseJavaWithJavac
+> Task :animpresseffect:extractReleaseAnnotations
+> Task :animpresseffect:mergeReleaseGeneratedProguardFiles
+> Task :animpresseffect:mergeReleaseConsumerProguardFiles
+> Task :animpresseffect:compileReleaseSources
+> Task :animpresseffect:javaPreCompileDebug
+> Task :animpresseffect:compileDebugJavaWithJavac
+> Task :animpresseffect:extractDebugAnnotations
+> Task :animpresseffect:mergeDebugGeneratedProguardFiles
+> Task :animpresseffect:mergeDebugConsumerProguardFiles
+> Task :animpresseffect:mergeReleaseJavaResource
+> Task :animpresseffect:compileDebugSources
+> Task :animpresseffect:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :animpresseffect:bundleReleaseAar
+> Task :animpresseffect:assembleRelease
+> Task :animpresseffect:mergeDebugJavaResource
+> Task :animpresseffect:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :animpresseffect:bundleDebugAar
+> Task :animpresseffect:assembleDebug
+> Task :animpresseffect:assemble
+> Task :animpresseffect:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 20s
+49 actionable tasks: 49 executed
+
+2019-11-25 21:23:04,800 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-25 21:23:04,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-25 21:23:11,201 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-25 21:23:11,202 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-25 21:23:11,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-25 21:24:06,250 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :animpresseffect:preBuild UP-TO-DATE
+> Task :animpresseffect:preDebugBuild UP-TO-DATE
+> Task :animpresseffect:checkDebugManifest UP-TO-DATE
+> Task :animpresseffect:compileDebugAidl NO-SOURCE
+> Task :animpresseffect:compileDebugRenderscript NO-SOURCE
+> Task :animpresseffect:generateDebugBuildConfig UP-TO-DATE
+> Task :animpresseffect:generateDebugResValues UP-TO-DATE
+> Task :animpresseffect:generateDebugResources UP-TO-DATE
+> Task :animpresseffect:packageDebugResources UP-TO-DATE
+> Task :animpresseffect:parseDebugLibraryResources UP-TO-DATE
+> Task :animpresseffect:processDebugManifest UP-TO-DATE
+> Task :animpresseffect:generateDebugRFile UP-TO-DATE
+> Task :animpresseffect:compileDebugKotlin UP-TO-DATE
+> Task :animpresseffect:javaPreCompileDebug UP-TO-DATE
+> Task :animpresseffect:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :animpresseffect:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :animpresseffect:bundleLibCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugResources
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/src/main/java/com/animation/anim_press_effect/MainActivity.kt: (15, 21): Parameter 'v' is never used
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :animpresseffect:mergeDebugShaders UP-TO-DATE
+> Task :animpresseffect:compileDebugShaders UP-TO-DATE
+> Task :animpresseffect:generateDebugAssets UP-TO-DATE
+> Task :animpresseffect:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :animpresseffect:processDebugJavaRes NO-SOURCE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :animpresseffect:bundleLibResDebug
+> Task :animpresseffect:bundleLibRuntimeDebug
+> Task :animpresseffect:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :animpresseffect:mergeDebugJniLibFolders UP-TO-DATE
+> Task :animpresseffect:mergeDebugNativeLibs UP-TO-DATE
+> Task :animpresseffect:stripDebugDebugSymbols UP-TO-DATE
+> Task :animpresseffect:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :animpresseffect:preReleaseBuild UP-TO-DATE
+> Task :animpresseffect:compileReleaseAidl NO-SOURCE
+> Task :animpresseffect:compileReleaseRenderscript NO-SOURCE
+> Task :animpresseffect:checkReleaseManifest UP-TO-DATE
+> Task :animpresseffect:generateReleaseBuildConfig UP-TO-DATE
+> Task :animpresseffect:generateReleaseResValues UP-TO-DATE
+> Task :animpresseffect:generateReleaseResources UP-TO-DATE
+> Task :animpresseffect:packageReleaseResources UP-TO-DATE
+> Task :animpresseffect:parseReleaseLibraryResources UP-TO-DATE
+> Task :animpresseffect:processReleaseManifest UP-TO-DATE
+> Task :animpresseffect:generateReleaseRFile UP-TO-DATE
+> Task :animpresseffect:compileReleaseKotlin UP-TO-DATE
+> Task :animpresseffect:javaPreCompileRelease UP-TO-DATE
+> Task :animpresseffect:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :animpresseffect:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :animpresseffect:bundleLibCompileRelease
+> Task :animpresseffect:prepareLintJarForPublish UP-TO-DATE
+> Task :app:prepareLintJar
+> Task :animpresseffect:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :animpresseffect:bundleLibResRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/src/main/java/com/animation/anim_press_effect/MainActivity.kt: (15, 21): Parameter 'v' is never used
+
+> Task :animpresseffect:bundleLibRuntimeRelease
+> Task :animpresseffect:createFullJarRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :animpresseffect:mergeReleaseShaders UP-TO-DATE
+> Task :animpresseffect:compileReleaseShaders UP-TO-DATE
+> Task :animpresseffect:generateReleaseAssets UP-TO-DATE
+> Task :animpresseffect:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :animpresseffect:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :animpresseffect:mergeReleaseNativeLibs UP-TO-DATE
+> Task :animpresseffect:stripReleaseDebugSymbols UP-TO-DATE
+> Task :animpresseffect:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 54s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2019-11-25 21:24:06,357 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574691753389-0/src/anim-press-view-master/app/build/outputs/apk/debug/app-debug.apk

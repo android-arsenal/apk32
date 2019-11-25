@@ -1,33 +1,33 @@
-2019-10-30 12:11:50,614 INFO  DownloadService - Downloading "https://github.com/zladnrms/RoundableLayout/archive/master.zip", attempt 3
-2019-10-30 12:11:52,967 INFO  DownloadService - Downloaded https://github.com/zladnrms/RoundableLayout/archive/master.zip, attempt 3
-2019-10-30 12:11:52,967 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/master.zip": 230 KB
-2019-10-30 12:11:52,967 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-30 12:11:52,973 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/master.zip: true
-2019-10-30 12:11:52,973 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src'.
-2019-10-30 12:11:52,995 INFO  FullProcessService - Size of directory with sources: 249 KB
-2019-10-30 12:11:52,995 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src]
-2019-10-30 12:11:53,030 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/.git/
+2019-11-25 21:27:51,374 INFO  DownloadService - Downloading "https://github.com/zladnrms/RoundableLayout/archive/master.zip", attempt 3
+2019-11-25 21:27:55,595 INFO  DownloadService - Downloaded https://github.com/zladnrms/RoundableLayout/archive/master.zip, attempt 3
+2019-11-25 21:27:55,596 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/master.zip": 1 MB
+2019-11-25 21:27:55,596 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-25 21:27:55,597 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/master.zip: true
+2019-11-25 21:27:55,597 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src'.
+2019-11-25 21:27:55,628 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-11-25 21:27:55,628 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src]
+2019-11-25 21:27:55,646 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/.git/
 
-2019-10-30 12:11:53,033 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/gradlew
-2019-10-30 12:11:53,036 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/build.gradle
-2019-10-30 12:11:53,039 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/settings.gradle
-2019-10-30 12:11:53,039 INFO  ProjectBuildService - Remote scripts: none
-2019-10-30 12:11:53,039 INFO  ProjectFixService - Fixing project...
-2019-10-30 12:11:53,046 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/app/local.properties
-2019-10-30 12:11:53,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-30 12:11:53,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/library/local.properties
-2019-10-30 12:11:53,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-30 12:11:53,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/local.properties
-2019-10-30 12:11:53,048 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-10-30 12:11:53,049 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-10-30 12:11:53,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-30 12:11:53,050 INFO  ProjectFixService - Project was maybe fixed
-2019-10-30 12:11:53,050 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-30 12:11:53,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-30 12:12:00,004 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-30 12:12:00,004 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-30 12:12:00,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-30 12:12:45,766 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-25 21:27:55,649 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/gradlew
+2019-11-25 21:27:55,652 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/build.gradle
+2019-11-25 21:27:55,655 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/settings.gradle
+2019-11-25 21:27:55,655 INFO  ProjectBuildService - Remote scripts: none
+2019-11-25 21:27:55,655 INFO  ProjectFixService - Fixing project...
+2019-11-25 21:27:55,662 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/app/local.properties
+2019-11-25 21:27:55,663 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-11-25 21:27:55,663 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/library/local.properties
+2019-11-25 21:27:55,664 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-11-25 21:27:55,664 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/local.properties
+2019-11-25 21:27:55,665 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-11-25 21:27:55,665 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-11-25 21:27:55,666 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-11-25 21:27:55,666 INFO  ProjectFixService - Project was maybe fixed
+2019-11-25 21:27:55,666 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-25 21:27:55,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-25 21:28:03,729 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-25 21:28:03,729 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-25 21:28:03,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-25 21:29:06,124 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -40,37 +40,46 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:checkDebugManifest
 > Task :library:processDebugManifest
-> Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:generateDebugResValues
-> Task :library:generateDebugBuildConfig
 > Task :app:preDebugBuild
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :app:dataBindingMergeDependencyArtifactsDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :library:generateDebugResValues
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
 > Task :app:mergeDebugResources
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:mainApkListPersistenceDebug
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :library:generateDebugBuildConfig
 > Task :library:generateDebugRFile
 > Task :app:processDebugResources
-> Task :library:compileDebugKotlin
 > Task :library:prepareLintJar
+> Task :library:compileDebugKotlin
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
 > Task :library:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
+> Task :app:dataBindingExportFeaturePackageIdsDebug
 > Task :app:javaPreCompileDebug
+
 > Task :app:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.4.1.jar (androidx.databinding:databinding-compiler:3.4.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -107,7 +116,10 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :library:compileReleaseRenderscript NO-SOURCE
@@ -115,24 +127,30 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
 > Task :app:mergeReleaseResources
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :app:mainApkListPersistenceRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :library:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :library:generateReleaseBuildConfig
 > Task :library:compileReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
 > Task :library:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:generateReleaseSources
+> Task :app:dataBindingExportFeaturePackageIdsRelease
 > Task :app:javaPreCompileRelease
+
 > Task :app:compileReleaseJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: databinding-compiler-3.4.1.jar (androidx.databinding:databinding-compiler:3.4.1).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+
 > Task :app:compileReleaseSources
 > Task :library:prepareLintJarForPublish
 
@@ -174,7 +192,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 45s
-95 actionable tasks: 95 executed
+BUILD SUCCESSFUL in 1m 1s
+105 actionable tasks: 105 executed
 
-2019-10-30 12:12:45,828 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572412310611-0/src/RoundableLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-25 21:29:06,211 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574692071366-0/src/RoundableLayout-master/app/build/outputs/apk/debug/app-debug.apk
