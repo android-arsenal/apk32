@@ -1,36 +1,36 @@
-2019-11-07 13:32:30,853 INFO  DownloadService - Downloading "https://github.com/Chrisvin/RubberPicker/archive/master.zip", attempt 3
-2019-11-07 13:32:35,726 INFO  DownloadService - Downloaded https://github.com/Chrisvin/RubberPicker/archive/master.zip, attempt 3
-2019-11-07 13:32:35,727 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/master.zip": 3 MB
-2019-11-07 13:32:35,727 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-07 13:32:35,728 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/master.zip: true
-2019-11-07 13:32:35,728 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src'.
-2019-11-07 13:32:35,775 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-11-07 13:32:35,775 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src]
-2019-11-07 13:32:35,796 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/.git/
+2019-11-27 18:36:11,160 INFO  DownloadService - Downloading "https://github.com/Chrisvin/RubberPicker/archive/master.zip", attempt 3
+2019-11-27 18:36:15,750 INFO  DownloadService - Downloaded https://github.com/Chrisvin/RubberPicker/archive/master.zip, attempt 3
+2019-11-27 18:36:15,751 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/master.zip": 3 MB
+2019-11-27 18:36:15,751 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-27 18:36:15,757 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/master.zip: true
+2019-11-27 18:36:15,757 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src'.
+2019-11-27 18:36:15,826 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-11-27 18:36:15,827 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src]
+2019-11-27 18:36:15,861 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/.git/
 
-2019-11-07 13:32:35,799 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/gradlew
-2019-11-07 13:32:35,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/rubberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/build.gradle
-2019-11-07 13:32:35,805 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/rubberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/settings.gradle
-2019-11-07 13:32:35,805 INFO  ProjectBuildService - Remote scripts: none
-2019-11-07 13:32:35,805 INFO  ProjectFixService - Fixing project...
-2019-11-07 13:32:35,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/local.properties
-2019-11-07 13:32:35,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-07 13:32:35,813 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-07 13:32:35,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/rubberpicker/local.properties
-2019-11-07 13:32:35,815 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/rubberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-07 13:32:35,815 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/rubberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-07 13:32:35,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/local.properties
-2019-11-07 13:32:35,817 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-07 13:32:35,817 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-07 13:32:35,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-07 13:32:35,818 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-11-07 13:32:35,819 INFO  ProjectFixService - Project was maybe fixed
-2019-11-07 13:32:35,819 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-07 13:32:35,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-07 13:32:41,858 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-07 13:32:41,858 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-07 13:32:41,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-07 13:33:36,709 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-27 18:36:15,864 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/gradlew
+2019-11-27 18:36:15,868 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/rubberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/build.gradle
+2019-11-27 18:36:15,871 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/rubberpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/settings.gradle
+2019-11-27 18:36:15,872 INFO  ProjectBuildService - Remote scripts: none
+2019-11-27 18:36:15,872 INFO  ProjectFixService - Fixing project...
+2019-11-27 18:36:15,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/local.properties
+2019-11-27 18:36:15,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:36:15,883 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:36:15,884 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/rubberpicker/local.properties
+2019-11-27 18:36:15,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/rubberpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:36:15,885 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/rubberpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:36:15,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/local.properties
+2019-11-27 18:36:15,887 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-11-27 18:36:15,888 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-11-27 18:36:15,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:36:15,889 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-11-27 18:36:15,890 INFO  ProjectFixService - Project was maybe fixed
+2019-11-27 18:36:15,890 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-27 18:36:15,890 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-27 18:36:22,699 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-27 18:36:22,699 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-27 18:36:22,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-27 18:37:17,502 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -78,21 +78,21 @@
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:prepareLintJar
-> Task :app:lintVitalRelease
 > Task :app:checkReleaseDuplicateClasses
+> Task :app:lintVitalRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeExtDexDebug
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
@@ -109,4 +109,4 @@ See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 54s
 51 actionable tasks: 51 executed
 
-2019-11-07 13:33:36,767 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108350850-0/src/RubberPicker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-11-27 18:37:17,570 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574854571154-0/src/RubberPicker-master/app/build/outputs/apk/debug/app-debug.apk
