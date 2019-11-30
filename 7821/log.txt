@@ -1,36 +1,36 @@
-2019-11-13 11:27:45,826 INFO  DownloadService - Downloading "https://github.com/trieulh-ict/SimpleGenericAdapter/archive/master.zip", attempt 3
-2019-11-13 11:27:48,109 INFO  DownloadService - Downloaded https://github.com/trieulh-ict/SimpleGenericAdapter/archive/master.zip, attempt 3
-2019-11-13 11:27:48,109 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/master.zip": 1 MB
-2019-11-13 11:27:48,109 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-13 11:27:48,110 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/master.zip: true
-2019-11-13 11:27:48,110 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src'.
-2019-11-13 11:27:48,147 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-11-13 11:27:48,147 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src]
-2019-11-13 11:27:48,182 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/.git/
+2019-12-01 00:42:31,065 INFO  DownloadService - Downloading "https://github.com/trieulh-ict/SimpleGenericAdapter/archive/master.zip", attempt 3
+2019-12-01 00:42:34,607 INFO  DownloadService - Downloaded https://github.com/trieulh-ict/SimpleGenericAdapter/archive/master.zip, attempt 3
+2019-12-01 00:42:34,607 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/master.zip": 1 MB
+2019-12-01 00:42:34,608 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 00:42:34,610 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/master.zip: true
+2019-12-01 00:42:34,610 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src'.
+2019-12-01 00:42:34,655 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-12-01 00:42:34,655 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src]
+2019-12-01 00:42:34,683 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/.git/
 
-2019-11-13 11:27:48,185 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/gradlew
-2019-11-13 11:27:48,188 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/build.gradle
-2019-11-13 11:27:48,191 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/settings.gradle
-2019-11-13 11:27:48,191 INFO  ProjectBuildService - Remote scripts: none
-2019-11-13 11:27:48,191 INFO  ProjectFixService - Fixing project...
-2019-11-13 11:27:48,199 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/local.properties
-2019-11-13 11:27:48,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2019-11-13 11:27:48,200 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2019-11-13 11:27:48,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/local.properties
-2019-11-13 11:27:48,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2019-11-13 11:27:48,201 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2019-11-13 11:27:48,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/local.properties
-2019-11-13 11:27:48,202 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-13 11:27:48,203 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-13 11:27:48,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2019-11-13 11:27:48,204 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
-2019-11-13 11:27:48,204 INFO  ProjectFixService - Project was maybe fixed
-2019-11-13 11:27:48,204 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-13 11:27:48,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-13 11:27:53,919 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-13 11:27:53,919 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-13 11:27:53,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-13 11:28:46,740 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 00:42:34,687 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/gradlew
+2019-12-01 00:42:34,690 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/build.gradle
+2019-12-01 00:42:34,693 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/settings.gradle
+2019-12-01 00:42:34,694 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 00:42:34,694 INFO  ProjectFixService - Fixing project...
+2019-12-01 00:42:34,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/local.properties
+2019-12-01 00:42:34,705 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-12-01 00:42:34,705 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-12-01 00:42:34,706 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/local.properties
+2019-12-01 00:42:34,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-12-01 00:42:34,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-12-01 00:42:34,708 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/local.properties
+2019-12-01 00:42:34,708 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-01 00:42:34,708 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-01 00:42:34,710 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-12-01 00:42:34,710 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=23,targetSdkVersion=29]
+2019-12-01 00:42:34,710 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 00:42:34,710 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 00:42:34,711 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 00:42:43,655 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-01 00:42:43,656 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 00:42:43,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 00:43:52,402 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :simplegenericadapter:preBuild UP-TO-DATE
@@ -50,9 +50,10 @@
 > Task :simplegenericadapter:packageDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :simplegenericadapter:checkDebugManifest
-> Task :sample:mergeDebugResources
 > Task :simplegenericadapter:processDebugManifest
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
+> Task :simplegenericadapter:parseDebugLibraryResources
 > Task :simplegenericadapter:generateDebugBuildConfig
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
@@ -62,19 +63,18 @@
 > Task :simplegenericadapter:generateDebugAssets
 > Task :simplegenericadapter:packageDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :simplegenericadapter:parseDebugLibraryResources
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :simplegenericadapter:processDebugJavaRes NO-SOURCE
 > Task :simplegenericadapter:generateDebugRFile
 > Task :sample:processDebugResources
 
 > Task :simplegenericadapter:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (84, 39): Parameter 'recyclerView' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (88, 37): Parameter 'recyclerView' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (142, 54): Unchecked cast: ItemModule<T> to ItemModule<Diffable>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (290, 32): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (297, 29): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/holder/SimpleViewHolder.kt: (18, 39): Name shadowed: view
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (84, 39): Parameter 'recyclerView' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (88, 37): Parameter 'recyclerView' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (142, 54): Unchecked cast: ItemModule<T> to ItemModule<Diffable>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (290, 32): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (297, 29): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/holder/SimpleViewHolder.kt: (18, 39): Name shadowed: view
 
 > Task :simplegenericadapter:javaPreCompileDebug
 > Task :simplegenericadapter:compileDebugJavaWithJavac
@@ -111,38 +111,38 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/
 > Task :sample:mergeDebugJavaResource
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :simplegenericadapter:checkReleaseManifest
+> Task :sample:mergeProjectDexDebug
+> Task :simplegenericadapter:parseReleaseLibraryResources
+> Task :simplegenericadapter:generateReleaseBuildConfig
 > Task :simplegenericadapter:processReleaseManifest
 > Task :sample:processReleaseManifest
-> Task :sample:mergeReleaseResources
-> Task :simplegenericadapter:generateReleaseBuildConfig
-> Task :simplegenericadapter:parseReleaseLibraryResources
-> Task :sample:mergeProjectDexDebug
 > Task :simplegenericadapter:mergeDebugNativeLibs
 > Task :simplegenericadapter:stripDebugDebugSymbols
 > Task :simplegenericadapter:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :sample:prepareLintJar
-> Task :simplegenericadapter:processReleaseJavaRes NO-SOURCE
-> Task :sample:checkReleaseDuplicateClasses
-> Task :simplegenericadapter:prepareLintJarForPublish
+> Task :sample:mergeReleaseResources
 > Task :simplegenericadapter:generateReleaseRFile
 > Task :sample:processReleaseResources
-
-> Task :simplegenericadapter:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (84, 39): Parameter 'recyclerView' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (88, 37): Parameter 'recyclerView' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (142, 54): Unchecked cast: ItemModule<T> to ItemModule<Diffable>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (290, 32): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (297, 29): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/holder/SimpleViewHolder.kt: (18, 39): Name shadowed: view
-
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
+
+> Task :simplegenericadapter:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (84, 39): Parameter 'recyclerView' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (88, 37): Parameter 'recyclerView' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (142, 54): Unchecked cast: ItemModule<T> to ItemModule<Diffable>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (290, 32): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/InternalAdapter.kt: (297, 29): The corresponding parameter in the supertype 'ItemTouchHelperContract' is named 'myViewHolder'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/simplegenericadapter/src/main/java/io/trieulh/simplegenericadapter/holder/SimpleViewHolder.kt: (18, 39): Name shadowed: view
+
 > Task :simplegenericadapter:javaPreCompileRelease
 > Task :simplegenericadapter:compileReleaseJavaWithJavac
+> Task :sample:prepareLintJar
+> Task :simplegenericadapter:processReleaseJavaRes NO-SOURCE
+> Task :simplegenericadapter:prepareLintJarForPublish
+> Task :sample:checkReleaseDuplicateClasses
 > Task :simplegenericadapter:bundleLibCompileRelease
 > Task :sample:compileReleaseKotlin
-> Task :simplegenericadapter:bundleLibRuntimeRelease
 > Task :simplegenericadapter:bundleLibResRelease
+> Task :simplegenericadapter:bundleLibRuntimeRelease
 > Task :simplegenericadapter:createFullJarRelease
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
@@ -184,7 +184,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 52s
+BUILD SUCCESSFUL in 1m 7s
 95 actionable tasks: 95 executed
 
-2019-11-13 11:28:46,801 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633665817-0/src/SimpleGenericAdapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-12-01 00:43:52,476 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135751060-0/src/SimpleGenericAdapter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

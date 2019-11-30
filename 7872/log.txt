@@ -1,37 +1,37 @@
-2019-11-13 11:23:38,942 INFO  DownloadService - Downloading "https://github.com/dphans/AndroidDynamicLayout/archive/master.zip", attempt 3
-2019-11-13 11:23:39,370 INFO  DownloadService - Downloaded https://github.com/dphans/AndroidDynamicLayout/archive/master.zip, attempt 3
-2019-11-13 11:23:39,370 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/master.zip": 132 KB
-2019-11-13 11:23:39,370 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-13 11:23:39,376 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/master.zip: true
-2019-11-13 11:23:39,376 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src'.
-2019-11-13 11:23:39,401 INFO  FullProcessService - Size of directory with sources: 198 KB
-2019-11-13 11:23:39,401 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src]
-2019-11-13 11:23:39,418 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/.git/
+2019-12-01 00:41:23,628 INFO  DownloadService - Downloading "https://github.com/dphans/AndroidDynamicLayout/archive/master.zip", attempt 3
+2019-12-01 00:41:25,572 INFO  DownloadService - Downloaded https://github.com/dphans/AndroidDynamicLayout/archive/master.zip, attempt 3
+2019-12-01 00:41:25,573 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/master.zip": 132 KB
+2019-12-01 00:41:25,573 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 00:41:25,573 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/master.zip: true
+2019-12-01 00:41:25,574 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src'.
+2019-12-01 00:41:25,602 INFO  FullProcessService - Size of directory with sources: 198 KB
+2019-12-01 00:41:25,602 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src]
+2019-12-01 00:41:25,626 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/.git/
 
-2019-11-13 11:23:39,423 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/gradlew
-2019-11-13 11:23:39,428 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/build.gradle
-2019-11-13 11:23:39,431 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/settings.gradle
-2019-11-13 11:23:39,435 INFO  ProjectBuildService - Remote scripts: none
-2019-11-13 11:23:39,435 INFO  ProjectFixService - Fixing project...
-2019-11-13 11:23:39,445 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/local.properties
-2019-11-13 11:23:39,448 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-11-13 11:23:39,448 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-11-13 11:23:39,449 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/sample/local.properties
-2019-11-13 11:23:39,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-11-13 11:23:39,450 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-11-13 11:23:39,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/local.properties
-2019-11-13 11:23:39,451 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-13 11:23:39,452 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-13 11:23:39,454 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-11-13 11:23:39,454 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
-2019-11-13 11:23:39,454 INFO  ProjectFixService - Project was maybe fixed
-2019-11-13 11:23:39,455 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-13 11:23:39,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-13 11:23:39,594 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-13 11:23:39,594 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-11-13 11:23:39,594 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-11-13 11:23:39,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-13 11:23:39,730 ERROR SysUtils - Could not process external command
+2019-12-01 00:41:25,632 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/gradlew
+2019-12-01 00:41:25,637 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/build.gradle
+2019-12-01 00:41:25,642 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/settings.gradle
+2019-12-01 00:41:25,648 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 00:41:25,648 INFO  ProjectFixService - Fixing project...
+2019-12-01 00:41:25,667 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/local.properties
+2019-12-01 00:41:25,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-01 00:41:25,670 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-01 00:41:25,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/sample/local.properties
+2019-12-01 00:41:25,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-01 00:41:25,674 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-01 00:41:25,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/local.properties
+2019-12-01 00:41:25,677 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-01 00:41:25,677 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-01 00:41:25,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-01 00:41:25,682 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-01 00:41:25,683 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 00:41:25,683 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 00:41:25,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 00:41:25,861 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-01 00:41:25,861 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-01 00:41:25,861 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-01 00:41:25,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-01 00:41:26,041 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,15 +59,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-13 11:23:39,730 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-01 00:41:26,042 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-11-13 11:23:39,734 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-13 11:23:39,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-13 11:23:39,878 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-13 11:23:39,878 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-11-13 11:23:39,878 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-11-13 11:23:39,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-13 11:23:40,015 ERROR SysUtils - Could not process external command
+2019-12-01 00:41:26,047 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 00:41:26,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 00:41:26,203 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-01 00:41:26,203 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-01 00:41:26,203 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-01 00:41:26,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-01 00:41:26,378 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -95,15 +95,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-13 11:23:40,015 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-01 00:41:26,378 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-11-13 11:23:40,019 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-13 11:23:40,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-13 11:23:40,169 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-11-13 11:23:40,169 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-11-13 11:23:40,169 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-11-13 11:23:40,170 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633418937-0/src/AndroidDynamicLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-11-13 11:23:40,316 ERROR SysUtils - Could not process external command
+2019-12-01 00:41:26,383 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 00:41:26,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 00:41:26,544 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-01 00:41:26,545 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-01 00:41:26,545 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-01 00:41:26,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135683621-0/src/AndroidDynamicLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-01 00:41:26,723 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -131,7 +131,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-13 11:23:40,316 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-12-01 00:41:26,723 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-11-13 11:23:40,321 ERROR FullProcessService - Project build has not produced APK file
-2019-11-13 11:23:40,324 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-01 00:41:26,729 ERROR FullProcessService - Project build has not produced APK file
+2019-12-01 00:41:26,734 ERROR FullProcessService - Could not find generated or existed APK file
