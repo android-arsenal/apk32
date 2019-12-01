@@ -1,36 +1,36 @@
-2019-11-13 11:26:01,863 INFO  DownloadService - Downloading "https://github.com/HirogaKatageri/rekata-adapter/archive/master.zip", attempt 3
-2019-11-13 11:26:04,190 INFO  DownloadService - Downloaded https://github.com/HirogaKatageri/rekata-adapter/archive/master.zip, attempt 3
-2019-11-13 11:26:04,190 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/master.zip": 907 KB
-2019-11-13 11:26:04,190 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-13 11:26:04,196 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/master.zip: true
-2019-11-13 11:26:04,196 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src'.
-2019-11-13 11:26:04,256 INFO  FullProcessService - Size of directory with sources: 934 KB
-2019-11-13 11:26:04,256 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src]
-2019-11-13 11:26:04,279 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/.git/
+2019-12-01 19:09:50,771 INFO  DownloadService - Downloading "https://github.com/HirogaKatageri/rekata-adapter/archive/master.zip", attempt 3
+2019-12-01 19:09:53,463 INFO  DownloadService - Downloaded https://github.com/HirogaKatageri/rekata-adapter/archive/master.zip, attempt 3
+2019-12-01 19:09:53,463 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/master.zip": 907 KB
+2019-12-01 19:09:53,463 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 19:09:53,464 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/master.zip: true
+2019-12-01 19:09:53,464 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src'.
+2019-12-01 19:09:53,521 INFO  FullProcessService - Size of directory with sources: 934 KB
+2019-12-01 19:09:53,521 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src]
+2019-12-01 19:09:53,545 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/.git/
 
-2019-11-13 11:26:04,287 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/gradlew
-2019-11-13 11:26:04,292 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/build.gradle
-2019-11-13 11:26:04,297 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/settings.gradle
-2019-11-13 11:26:04,297 INFO  ProjectBuildService - Remote scripts: none
-2019-11-13 11:26:04,297 INFO  ProjectFixService - Fixing project...
-2019-11-13 11:26:04,310 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/adapter/local.properties
-2019-11-13 11:26:04,311 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-13 11:26:04,311 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-13 11:26:04,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/local.properties
-2019-11-13 11:26:04,314 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-13 11:26:04,314 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-13 11:26:04,315 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/local.properties
-2019-11-13 11:26:04,316 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-13 11:26:04,316 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-13 11:26:04,318 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-13 11:26:04,318 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-13 11:26:04,319 INFO  ProjectFixService - Project was maybe fixed
-2019-11-13 11:26:04,319 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-13 11:26:04,319 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-13 11:26:11,895 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-13 11:26:11,895 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-13 11:26:11,896 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-13 11:26:32,187 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 19:09:53,551 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/gradlew
+2019-12-01 19:09:53,557 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/build.gradle
+2019-12-01 19:09:53,562 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/settings.gradle
+2019-12-01 19:09:53,562 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 19:09:53,562 INFO  ProjectFixService - Fixing project...
+2019-12-01 19:09:53,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/adapter/local.properties
+2019-12-01 19:09:53,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-01 19:09:53,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-01 19:09:53,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/local.properties
+2019-12-01 19:09:53,579 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-01 19:09:53,579 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-01 19:09:53,580 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/local.properties
+2019-12-01 19:09:53,581 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-01 19:09:53,581 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-01 19:09:53,583 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-01 19:09:53,583 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-01 19:09:53,584 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 19:09:53,584 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 19:09:53,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 19:10:00,190 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-01 19:10:00,190 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-01 19:10:00,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-01 19:10:26,799 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :adapter:preBuild UP-TO-DATE
 > Task :adapter:preDebugBuild UP-TO-DATE
 > Task :adapter:checkDebugManifest
@@ -38,64 +38,64 @@
 > Task :adapter:generateDebugResValues
 > Task :adapter:mergeDebugShaders
 > Task :adapter:compileDebugShaders
-> Task :adapter:processDebugManifest
 > Task :adapter:generateDebugAssets
 > Task :adapter:packageDebugAssets
 > Task :adapter:packageDebugRenderscript NO-SOURCE
 > Task :adapter:processDebugJavaRes NO-SOURCE
 > Task :adapter:mergeDebugJniLibFolders
 > Task :adapter:prepareLintJarForPublish
+> Task :adapter:processDebugManifest
 > Task :adapter:preReleaseBuild UP-TO-DATE
 > Task :adapter:checkReleaseManifest
 > Task :adapter:generateReleaseBuildConfig
 > Task :adapter:generateReleaseResValues
-> Task :adapter:mergeReleaseShaders
-> Task :adapter:compileReleaseShaders
-> Task :adapter:generateReleaseAssets
 > Task :adapter:mergeDebugNativeLibs
 > Task :adapter:stripDebugDebugSymbols
-> Task :adapter:transformNativeLibsWithSyncJniLibsForDebug
-> Task :adapter:packageReleaseAssets
-> Task :adapter:packageReleaseRenderscript NO-SOURCE
-> Task :adapter:processReleaseJavaRes NO-SOURCE
-> Task :adapter:mergeReleaseJniLibFolders
-> Task :adapter:processReleaseManifest
-> Task :adapter:mergeReleaseNativeLibs
-> Task :adapter:stripReleaseDebugSymbols
-> Task :adapter:transformNativeLibsWithSyncJniLibsForRelease
-> Task :adapter:compileDebugRenderscript NO-SOURCE
 > Task :adapter:compileDebugAidl NO-SOURCE
+> Task :adapter:compileDebugRenderscript NO-SOURCE
 > Task :adapter:generateDebugResources
 > Task :adapter:packageDebugResources
-> Task :adapter:mergeDebugResources
+> Task :adapter:transformNativeLibsWithSyncJniLibsForDebug
 > Task :adapter:compileReleaseAidl NO-SOURCE
 > Task :adapter:compileReleaseRenderscript NO-SOURCE
+> Task :adapter:mergeDebugResources
 > Task :adapter:generateReleaseResources
 > Task :adapter:packageReleaseResources
 > Task :adapter:parseDebugLibraryResources
 > Task :adapter:parseReleaseLibraryResources
+> Task :adapter:mergeReleaseShaders
+> Task :adapter:compileReleaseShaders
+> Task :adapter:generateReleaseAssets
+> Task :adapter:packageReleaseAssets
+> Task :adapter:packageReleaseRenderscript NO-SOURCE
+> Task :adapter:processReleaseJavaRes NO-SOURCE
+> Task :adapter:mergeReleaseJniLibFolders
 > Task :adapter:mergeReleaseResources
+> Task :adapter:mergeReleaseNativeLibs
+> Task :adapter:stripReleaseDebugSymbols
+> Task :adapter:transformNativeLibsWithSyncJniLibsForRelease
 > Task :adapter:generateDebugRFile
 > Task :adapter:compileDebugKotlin
-> Task :adapter:verifyReleaseResources
-> Task :adapter:generateReleaseRFile
-> Task :adapter:compileReleaseKotlin
+> Task :adapter:processReleaseManifest
 > Task :adapter:javaPreCompileDebug
 > Task :adapter:compileDebugJavaWithJavac
 > Task :adapter:extractDebugAnnotations
 > Task :adapter:mergeDebugGeneratedProguardFiles
 > Task :adapter:mergeDebugConsumerProguardFiles
 > Task :adapter:compileDebugSources
+> Task :adapter:generateReleaseRFile
+> Task :adapter:compileReleaseKotlin
+> Task :adapter:mergeDebugJavaResource
+> Task :adapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :adapter:bundleDebugAar
+> Task :adapter:assembleDebug
+> Task :adapter:verifyReleaseResources
 > Task :adapter:javaPreCompileRelease
 > Task :adapter:compileReleaseJavaWithJavac
 > Task :adapter:extractReleaseAnnotations
 > Task :adapter:mergeReleaseGeneratedProguardFiles
 > Task :adapter:mergeReleaseConsumerProguardFiles
 > Task :adapter:compileReleaseSources
-> Task :adapter:mergeDebugJavaResource
-> Task :adapter:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :adapter:bundleDebugAar
-> Task :adapter:assembleDebug
 > Task :adapter:mergeReleaseJavaResource
 > Task :adapter:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :adapter:bundleReleaseAar
@@ -107,15 +107,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 25s
 50 actionable tasks: 50 executed
 
-2019-11-13 11:26:32,238 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-13 11:26:32,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-13 11:26:38,142 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-13 11:26:38,142 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-13 11:26:38,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-13 11:27:29,823 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 19:10:26,858 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 19:10:26,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 19:10:34,047 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-01 19:10:34,047 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 19:10:34,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 19:12:02,567 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :adapter:preBuild UP-TO-DATE
 > Task :adapter:preDebugBuild UP-TO-DATE
 > Task :adapter:compileDebugAidl NO-SOURCE
@@ -133,13 +133,13 @@ BUILD SUCCESSFUL in 19s
 > Task :adapter:compileDebugJavaWithJavac UP-TO-DATE
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
-> Task :adapter:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :adapter:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
 > Task :adapter:bundleLibCompileDebug
+> Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
@@ -198,24 +198,23 @@ BUILD SUCCESSFUL in 19s
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :adapter:bundleLibCompileRelease
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
+> Task :adapter:bundleLibCompileRelease
 > Task :adapter:prepareLintJarForPublish UP-TO-DATE
 > Task :app:prepareLintJar
 > Task :adapter:processReleaseJavaRes NO-SOURCE
-> Task :adapter:bundleLibResRelease
-> Task :adapter:bundleLibRuntimeRelease
-> Task :adapter:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:kaptGenerateStubsReleaseKotlin
 > Task :app:kaptReleaseKotlin
 > Task :app:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
+> Task :adapter:bundleLibResRelease
+> Task :adapter:bundleLibRuntimeRelease
+> Task :adapter:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -223,9 +222,7 @@ BUILD SUCCESSFUL in 19s
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/3a99d0a3299a48aaac00793336b5eb85/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :adapter:mergeReleaseShaders UP-TO-DATE
 > Task :adapter:compileReleaseShaders UP-TO-DATE
@@ -242,6 +239,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :adapter:stripReleaseDebugSymbols UP-TO-DATE
 > Task :adapter:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
@@ -256,7 +256,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 1m 27s
 98 actionable tasks: 65 executed, 33 up-to-date
 
-2019-11-13 11:27:29,943 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573633561859-0/src/rekata-adapter-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-01 19:12:02,706 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202190768-0/src/rekata-adapter-master/app/build/outputs/apk/debug/app-debug.apk

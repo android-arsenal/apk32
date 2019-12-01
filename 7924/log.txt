@@ -1,36 +1,36 @@
-2019-11-19 12:39:26,265 INFO  DownloadService - Downloading "https://github.com/eugeneek/Injector/archive/master.zip", attempt 3
-2019-11-19 12:39:28,130 INFO  DownloadService - Downloaded https://github.com/eugeneek/Injector/archive/master.zip, attempt 3
-2019-11-19 12:39:28,130 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/master.zip": 136 KB
-2019-11-19 12:39:28,130 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-19 12:39:28,136 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/master.zip: true
-2019-11-19 12:39:28,136 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src'.
-2019-11-19 12:39:28,153 INFO  FullProcessService - Size of directory with sources: 148 KB
-2019-11-19 12:39:28,153 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src]
-2019-11-19 12:39:28,177 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/.git/
+2019-12-01 18:56:18,804 INFO  DownloadService - Downloading "https://github.com/eugeneek/Injector/archive/master.zip", attempt 3
+2019-12-01 18:56:19,769 INFO  DownloadService - Downloaded https://github.com/eugeneek/Injector/archive/master.zip, attempt 3
+2019-12-01 18:56:19,769 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/master.zip": 136 KB
+2019-12-01 18:56:19,769 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 18:56:19,774 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/master.zip: true
+2019-12-01 18:56:19,774 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src'.
+2019-12-01 18:56:19,788 INFO  FullProcessService - Size of directory with sources: 148 KB
+2019-12-01 18:56:19,788 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src]
+2019-12-01 18:56:19,807 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/.git/
 
-2019-11-19 12:39:28,179 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/gradlew
-2019-11-19 12:39:28,181 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/injector/build.gradle
-2019-11-19 12:39:28,183 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/injector/build.gradle
-2019-11-19 12:39:28,183 INFO  ProjectBuildService - Remote scripts: none
-2019-11-19 12:39:28,183 INFO  ProjectFixService - Fixing project...
-2019-11-19 12:39:28,189 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/local.properties
-2019-11-19 12:39:28,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-19 12:39:28,191 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-19 12:39:28,192 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/local.properties
-2019-11-19 12:39:28,192 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-19 12:39:28,193 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-19 12:39:28,194 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-19 12:39:28,194 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-19 12:39:28,195 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/injector/local.properties
-2019-11-19 12:39:28,196 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-19 12:39:28,196 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-11-19 12:39:28,197 INFO  ProjectFixService - Project was maybe fixed
-2019-11-19 12:39:28,197 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-19 12:39:28,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-19 12:39:34,542 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-19 12:39:34,542 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-19 12:39:34,542 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-19 12:40:25,287 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-01 18:56:19,809 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/gradlew
+2019-12-01 18:56:19,812 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/injector/build.gradle
+2019-12-01 18:56:19,814 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/injector/build.gradle
+2019-12-01 18:56:19,815 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 18:56:19,815 INFO  ProjectFixService - Fixing project...
+2019-12-01 18:56:19,820 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/local.properties
+2019-12-01 18:56:19,822 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-01 18:56:19,822 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-01 18:56:19,823 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/local.properties
+2019-12-01 18:56:19,824 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-01 18:56:19,824 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-01 18:56:19,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-01 18:56:19,825 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-01 18:56:19,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/injector/local.properties
+2019-12-01 18:56:19,827 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-01 18:56:19,827 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/injector/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-12-01 18:56:19,828 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 18:56:19,828 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 18:56:19,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 18:56:26,227 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-01 18:56:26,227 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 18:56:26,227 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 18:57:19,079 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :injector:compileKotlin
 > Task :injector:compileJava NO-SOURCE
 > Task :injector:processResources NO-SOURCE
@@ -84,11 +84,11 @@
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/de0e4f63441bd5c9d368cfdd8677a40d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -115,7 +115,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 49s
+BUILD SUCCESSFUL in 52s
 54 actionable tasks: 54 executed
 
-2019-11-19 12:40:25,351 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1574141966262-0/src/Injector-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-01 18:57:19,137 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201378801-0/src/Injector-master/app/build/outputs/apk/debug/app-debug.apk

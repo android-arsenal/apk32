@@ -1,0 +1,180 @@
+2019-12-01 18:54:16,081 INFO  DownloadService - Downloading "https://github.com/emcthye/VerticalCalendar/archive/master.zip", attempt 3
+2019-12-01 18:54:20,149 INFO  DownloadService - Downloaded https://github.com/emcthye/VerticalCalendar/archive/master.zip, attempt 3
+2019-12-01 18:54:20,150 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/master.zip": 2 MB
+2019-12-01 18:54:20,150 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-01 18:54:20,157 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/master.zip: true
+2019-12-01 18:54:20,157 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src'.
+2019-12-01 18:54:20,204 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-12-01 18:54:20,204 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src]
+2019-12-01 18:54:20,232 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/.git/
+
+2019-12-01 18:54:20,235 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/gradlew
+2019-12-01 18:54:20,238 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/verticalweekcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/build.gradle
+2019-12-01 18:54:20,241 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/verticalweekcalendar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/settings.gradle
+2019-12-01 18:54:20,242 INFO  ProjectBuildService - Remote scripts: none
+2019-12-01 18:54:20,242 INFO  ProjectFixService - Fixing project...
+2019-12-01 18:54:20,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/local.properties
+2019-12-01 18:54:20,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-01 18:54:20,252 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-01 18:54:20,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/verticalweekcalendar/local.properties
+2019-12-01 18:54:20,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/verticalweekcalendar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-01 18:54:20,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/verticalweekcalendar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-01 18:54:20,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/local.properties
+2019-12-01 18:54:20,257 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-01 18:54:20,257 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-01 18:54:20,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-01 18:54:20,259 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-12-01 18:54:20,259 INFO  ProjectFixService - Project was maybe fixed
+2019-12-01 18:54:20,259 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-01 18:54:20,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-01 18:54:27,022 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-01 18:54:27,022 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-01 18:54:27,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-01 18:55:05,637 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :verticalweekcalendar
+WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :verticalweekcalendar:preBuild UP-TO-DATE
+> Task :verticalweekcalendar:preDebugBuild UP-TO-DATE
+> Task :verticalweekcalendar:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :verticalweekcalendar:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :verticalweekcalendar:checkDebugManifest
+> Task :verticalweekcalendar:generateDebugBuildConfig
+> Task :verticalweekcalendar:compileDebugRenderscript NO-SOURCE
+> Task :verticalweekcalendar:generateDebugResValues
+> Task :verticalweekcalendar:generateDebugResources
+> Task :verticalweekcalendar:packageDebugResources
+> Task :verticalweekcalendar:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :verticalweekcalendar:parseDebugLibraryResources
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :verticalweekcalendar:processDebugManifest
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :verticalweekcalendar:generateDebugRFile
+> Task :verticalweekcalendar:compileDebugJavaWithJavac
+> Task :app:processDebugResources
+> Task :verticalweekcalendar:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :verticalweekcalendar:mergeDebugShaders
+> Task :verticalweekcalendar:compileDebugShaders
+> Task :verticalweekcalendar:generateDebugAssets
+> Task :verticalweekcalendar:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :verticalweekcalendar:processDebugJavaRes NO-SOURCE
+> Task :verticalweekcalendar:bundleLibResDebug
+> Task :verticalweekcalendar:bundleLibRuntimeDebug
+> Task :verticalweekcalendar:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :verticalweekcalendar:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :verticalweekcalendar:preReleaseBuild UP-TO-DATE
+> Task :verticalweekcalendar:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :verticalweekcalendar:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :verticalweekcalendar:compileReleaseRenderscript NO-SOURCE
+> Task :verticalweekcalendar:checkReleaseManifest
+> Task :verticalweekcalendar:generateReleaseBuildConfig
+> Task :verticalweekcalendar:generateReleaseResValues
+> Task :verticalweekcalendar:generateReleaseResources
+> Task :verticalweekcalendar:packageReleaseResources
+> Task :verticalweekcalendar:mergeDebugNativeLibs
+> Task :verticalweekcalendar:stripDebugDebugSymbols
+> Task :verticalweekcalendar:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :verticalweekcalendar:parseReleaseLibraryResources
+> Task :verticalweekcalendar:processReleaseManifest
+> Task :verticalweekcalendar:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :verticalweekcalendar:generateReleaseRFile
+> Task :verticalweekcalendar:compileReleaseJavaWithJavac
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :verticalweekcalendar:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:prepareLintJar
+> Task :verticalweekcalendar:processReleaseJavaRes NO-SOURCE
+> Task :verticalweekcalendar:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c7723bb1cad337b4059320cb5d12b242/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :verticalweekcalendar:bundleLibRuntimeRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :verticalweekcalendar:bundleLibResRelease
+> Task :verticalweekcalendar:createFullJarRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :verticalweekcalendar:mergeReleaseShaders
+> Task :verticalweekcalendar:compileReleaseShaders
+> Task :verticalweekcalendar:generateReleaseAssets
+> Task :verticalweekcalendar:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :verticalweekcalendar:mergeReleaseJniLibFolders
+> Task :verticalweekcalendar:mergeReleaseNativeLibs
+> Task :verticalweekcalendar:stripReleaseDebugSymbols
+> Task :verticalweekcalendar:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 38s
+90 actionable tasks: 90 executed
+
+2019-12-01 18:55:05,712 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201256072-0/src/VerticalCalendar-master/app/build/outputs/apk/debug/app-debug.apk
