@@ -1,41 +1,36 @@
-2019-09-28 21:27:46,693 INFO  DownloadService - Downloading "https://github.com/Jamshid-M/IGRefreshLayout/archive/master.zip", attempt 3
-2019-09-28 21:27:48,747 INFO  DownloadService - Downloaded https://github.com/Jamshid-M/IGRefreshLayout/archive/master.zip, attempt 3
-2019-09-28 21:27:48,748 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/master.zip": 1 MB
-2019-09-28 21:27:48,748 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-28 21:27:48,753 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/master.zip: true
-2019-09-28 21:27:48,754 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src'.
-2019-09-28 21:27:48,783 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-09-28 21:27:48,783 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src]
-2019-09-28 21:27:49,820 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/.git/
+2019-12-07 21:53:47,772 INFO  DownloadService - Downloading "https://github.com/Jamshid-M/IGRefreshLayout/archive/master.zip", attempt 3
+2019-12-07 21:53:51,284 INFO  DownloadService - Downloaded https://github.com/Jamshid-M/IGRefreshLayout/archive/master.zip, attempt 3
+2019-12-07 21:53:51,284 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/master.zip": 1 MB
+2019-12-07 21:53:51,284 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-07 21:53:51,285 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/master.zip: true
+2019-12-07 21:53:51,285 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src'.
+2019-12-07 21:53:51,335 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-12-07 21:53:51,335 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src]
+2019-12-07 21:53:51,367 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/.git/
 
-2019-09-28 21:27:49,824 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/gradlew
-2019-09-28 21:27:49,827 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/build.gradle
-2019-09-28 21:27:49,832 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/settings.gradle
-2019-09-28 21:27:49,832 INFO  ProjectBuildService - Remote scripts: none
-2019-09-28 21:27:49,832 INFO  ProjectFixService - Fixing project...
-2019-09-28 21:27:49,841 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/local.properties
-2019-09-28 21:27:49,841 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=26,targetSdkVersion=28]
-2019-09-28 21:27:49,841 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=26,targetSdkVersion=28]
-2019-09-28 21:27:49,842 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/local.properties
-2019-09-28 21:27:49,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=26,targetSdkVersion=28]
-2019-09-28 21:27:49,843 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=26,targetSdkVersion=28]
-2019-09-28 21:27:49,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/local.properties
-2019-09-28 21:27:49,845 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-28 21:27:49,846 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-28 21:27:49,847 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=26,targetSdkVersion=28]
-2019-09-28 21:27:49,847 INFO  ProjectFixService - Project was maybe fixed
-2019-09-28 21:27:49,847 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-28 21:27:49,847 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-28 21:27:59,810 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-09-28 21:27:59,810 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-28 21:27:59,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-28 21:28:25,091 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-07 21:53:51,372 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/gradlew
+2019-12-07 21:53:51,377 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/build.gradle
+2019-12-07 21:53:51,382 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/settings.gradle
+2019-12-07 21:53:51,383 INFO  ProjectBuildService - Remote scripts: none
+2019-12-07 21:53:51,383 INFO  ProjectFixService - Fixing project...
+2019-12-07 21:53:51,395 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/local.properties
+2019-12-07 21:53:51,395 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-07 21:53:51,396 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/local.properties
+2019-12-07 21:53:51,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=26,targetSdkVersion=28]
+2019-12-07 21:53:51,397 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/local.properties
+2019-12-07 21:53:51,398 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-12-07 21:53:51,398 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-12-07 21:53:51,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-07 21:53:51,400 INFO  ProjectFixService - Project was maybe fixed
+2019-12-07 21:53:51,400 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-07 21:53:51,400 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-07 21:54:01,499 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-12-07 21:54:01,500 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-07 21:54:01,500 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-07 21:54:26,904 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
@@ -58,15 +53,15 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :library:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:checkReleaseManifest
-> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:generateDebugRFile
 
 > Task :library:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (64, 20): 'setChildrenDrawingOrderEnabled(ViewGroup!, Boolean): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (246, 27): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (64, 20): 'setChildrenDrawingOrderEnabled(ViewGroup!, Boolean): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (246, 27): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
 
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
@@ -87,8 +82,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/
 > Task :library:generateReleaseRFile
 
 > Task :library:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (64, 20): 'setChildrenDrawingOrderEnabled(ViewGroup!, Boolean): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (246, 27): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (64, 20): 'setChildrenDrawingOrderEnabled(ViewGroup!, Boolean): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/library/src/main/java/uz/jamshid/library/IGRefreshLayout.kt: (246, 27): 'canScrollVertically(View!, Int): Boolean' is deprecated. Deprecated in Java
 
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
@@ -122,23 +117,15 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 24s
 46 actionable tasks: 46 executed
 
-2019-09-28 21:28:25,131 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-28 21:28:25,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-28 21:28:31,993 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-09-28 21:28:31,993 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-28 21:28:31,993 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-28 21:29:17,826 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :sample
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2019-12-07 21:54:26,946 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-07 21:54:26,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-07 21:54:35,578 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-07 21:54:35,578 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-07 21:54:35,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-07 21:55:29,753 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
@@ -147,8 +134,8 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:processDebugManifest UP-TO-DATE
 > Task :library:prepareLintJar UP-TO-DATE
-> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
+> Task :library:compileDebugAidl NO-SOURCE
 > Task :library:generateDebugResources UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
 > Task :library:generateDebugRFile UP-TO-DATE
@@ -173,8 +160,8 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/MainActivity.kt: (31, 13): Variable 'l' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/RVAdapter.kt: (24, 20): Parameter 'str' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/MainActivity.kt: (31, 13): Variable 'l' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/RVAdapter.kt: (24, 20): Parameter 'str' is never used
 
 > Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
@@ -189,8 +176,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :library:processDebugJavaRes NO-SOURCE
 > Task :sample:checkDebugDuplicateClasses
+> Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:bundleLibResDebug
 > Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
@@ -238,23 +225,23 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/MainActivity.kt: (31, 13): Variable 'l' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/RVAdapter.kt: (24, 20): Parameter 'str' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/MainActivity.kt: (31, 13): Variable 'l' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/src/main/java/uz/jamshid/igrefreshlayout/RVAdapter.kt: (24, 20): Parameter 'str' is never used
 
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
 
 > Task :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8649c54952f4286bc18f94b213704b05/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :library:bundleLibResRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :library:bundleLibRuntimeRelease
 > Task :library:createFullJarRelease
 > Task :sample:checkReleaseDuplicateClasses
@@ -288,7 +275,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 53s
 96 actionable tasks: 64 executed, 32 up-to-date
 
-2019-09-28 21:29:17,922 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680866686-0/src/IGRefreshLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-12-07 21:55:29,860 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575730427769-0/src/IGRefreshLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

@@ -1,0 +1,197 @@
+2019-12-07 21:45:34,901 INFO  DownloadService - Downloading "https://github.com/devendroid/MapDrawingManager/archive/master.zip", attempt 3
+2019-12-07 21:45:44,081 INFO  DownloadService - Downloaded https://github.com/devendroid/MapDrawingManager/archive/master.zip, attempt 3
+2019-12-07 21:45:44,082 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/master.zip": 9 MB
+2019-12-07 21:45:44,082 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-07 21:45:44,097 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/master.zip: true
+2019-12-07 21:45:44,098 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src'.
+2019-12-07 21:45:44,215 INFO  FullProcessService - Size of directory with sources: 10 MB
+2019-12-07 21:45:44,218 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src]
+2019-12-07 21:45:44,272 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/.git/
+
+2019-12-07 21:45:44,295 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/gradlew
+2019-12-07 21:45:44,316 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/mdmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/build.gradle
+2019-12-07 21:45:44,326 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/mdmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/settings.gradle
+2019-12-07 21:45:44,329 INFO  ProjectBuildService - Remote scripts: none
+2019-12-07 21:45:44,329 INFO  ProjectFixService - Fixing project...
+2019-12-07 21:45:44,393 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-12-07 21:45:44,394 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-12-07 21:45:44,423 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2019-12-07 21:45:44,427 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
+2019-12-07 21:45:44,455 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-12-07 21:45:44,457 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2019-12-07 21:45:44,458 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/local.properties
+2019-12-07 21:45:44,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-07 21:45:44,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/mdmanager/local.properties
+2019-12-07 21:45:44,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/mdmanager/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-07 21:45:44,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/local.properties
+2019-12-07 21:45:44,484 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-07 21:45:44,485 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-07 21:45:44,487 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-07 21:45:44,488 INFO  ProjectFixService - Project was maybe fixed
+2019-12-07 21:45:44,490 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-07 21:45:44,491 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-07 21:46:34,697 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-07 21:46:34,698 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-07 21:46:34,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-07 21:47:37,106 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :mdmanager:preBuild UP-TO-DATE
+> Task :mdmanager:preDebugBuild UP-TO-DATE
+> Task :mdmanager:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :mdmanager:generateDebugResValues
+> Task :mdmanager:compileDebugRenderscript NO-SOURCE
+> Task :mdmanager:generateDebugResources
+> Task :mdmanager:packageDebugResources
+> Task :mdmanager:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :mdmanager:checkDebugManifest
+> Task :mdmanager:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :mdmanager:parseDebugLibraryResources
+> Task :mdmanager:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :mdmanager:mergeDebugShaders
+> Task :mdmanager:compileDebugShaders
+> Task :mdmanager:generateDebugAssets
+> Task :mdmanager:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :mdmanager:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :mdmanager:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/mdmanager/src/main/java/com/devs/mdmanager/Utils.kt: (152, 13): Variable 'textHeight' is never used
+
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :mdmanager:processDebugJavaRes NO-SOURCE
+> Task :mdmanager:javaPreCompileDebug
+> Task :mdmanager:compileDebugJavaWithJavac
+> Task :mdmanager:bundleLibResDebug
+> Task :mdmanager:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (77, 50): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (78, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (79, 49): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (80, 46): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (81, 59): 'getColor(Int): Int' is deprecated. Deprecated in Java
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :mdmanager:bundleLibRuntimeDebug
+> Task :mdmanager:createFullJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :mdmanager:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :mdmanager:preReleaseBuild UP-TO-DATE
+> Task :mdmanager:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :mdmanager:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :mdmanager:compileReleaseRenderscript NO-SOURCE
+> Task :mdmanager:generateReleaseResValues
+> Task :mdmanager:generateReleaseResources
+> Task :mdmanager:packageReleaseResources
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :mdmanager:checkReleaseManifest
+> Task :app:mergeDebugJavaResource
+> Task :mdmanager:generateReleaseBuildConfig
+> Task :mdmanager:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :mdmanager:parseReleaseLibraryResources
+> Task :mdmanager:mergeDebugNativeLibs
+> Task :mdmanager:stripDebugDebugSymbols
+> Task :mdmanager:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :mdmanager:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :mdmanager:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/mdmanager/src/main/java/com/devs/mdmanager/Utils.kt: (152, 13): Variable 'textHeight' is never used
+
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :mdmanager:javaPreCompileRelease
+> Task :mdmanager:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
+> Task :mdmanager:processReleaseJavaRes NO-SOURCE
+> Task :mdmanager:prepareLintJarForPublish
+> Task :mdmanager:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (77, 50): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (78, 51): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (79, 49): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (80, 46): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/src/main/java/com/devs/mapdrawingmanager/FragMap.kt: (81, 59): 'getColor(Int): Int' is deprecated. Deprecated in Java
+
+> Task :app:checkReleaseDuplicateClasses
+> Task :mdmanager:bundleLibRuntimeRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/0d474bbb1c0c2487295dfd7d86318072/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :mdmanager:bundleLibResRelease
+> Task :mdmanager:createFullJarRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :mdmanager:mergeReleaseShaders
+> Task :mdmanager:compileReleaseShaders
+> Task :mdmanager:generateReleaseAssets
+> Task :mdmanager:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :mdmanager:mergeReleaseJniLibFolders
+> Task :mdmanager:mergeReleaseNativeLibs
+> Task :mdmanager:stripReleaseDebugSymbols
+> Task :mdmanager:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 1s
+95 actionable tasks: 95 executed
+
+2019-12-07 21:47:37,197 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575729934770-0/src/MapDrawingManager-master/app/build/outputs/apk/debug/app-debug.apk
