@@ -1,0 +1,180 @@
+2019-12-21 22:53:16,630 INFO  DownloadService - Downloading "https://github.com/astrit-veliu/Smoolider/archive/master.zip", attempt 3
+2019-12-21 22:53:19,587 INFO  DownloadService - Downloaded https://github.com/astrit-veliu/Smoolider/archive/master.zip, attempt 3
+2019-12-21 22:53:19,588 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/master.zip": 1015 KB
+2019-12-21 22:53:19,588 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-21 22:53:19,588 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/master.zip: true
+2019-12-21 22:53:19,589 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src'.
+2019-12-21 22:53:19,626 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-12-21 22:53:19,626 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src]
+2019-12-21 22:53:19,655 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/.git/
+
+2019-12-21 22:53:19,659 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/gradlew
+2019-12-21 22:53:19,664 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/smoothviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/build.gradle
+2019-12-21 22:53:19,668 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/smoothviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/settings.gradle
+2019-12-21 22:53:19,669 INFO  ProjectBuildService - Remote scripts: none
+2019-12-21 22:53:19,670 INFO  ProjectFixService - Fixing project...
+2019-12-21 22:53:19,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/local.properties
+2019-12-21 22:53:19,682 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-21 22:53:19,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-21 22:53:19,685 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/smoothviewpager/local.properties
+2019-12-21 22:53:19,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/smoothviewpager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-21 22:53:19,687 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/smoothviewpager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-12-21 22:53:19,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/local.properties
+2019-12-21 22:53:19,690 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-12-21 22:53:19,690 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-12-21 22:53:19,693 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-21 22:53:19,693 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-12-21 22:53:19,694 INFO  ProjectFixService - Project was maybe fixed
+2019-12-21 22:53:19,694 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-21 22:53:19,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-21 22:53:29,096 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-21 22:53:29,097 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-21 22:53:29,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-21 22:54:20,160 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :smoothviewpager:preBuild UP-TO-DATE
+> Task :smoothviewpager:preDebugBuild UP-TO-DATE
+> Task :smoothviewpager:checkDebugManifest
+> Task :smoothviewpager:processDebugManifest
+> Task :smoothviewpager:compileDebugAidl NO-SOURCE
+> Task :smoothviewpager:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :smoothviewpager:compileDebugRenderscript NO-SOURCE
+> Task :smoothviewpager:generateDebugBuildConfig
+> Task :smoothviewpager:generateDebugResValues
+> Task :smoothviewpager:generateDebugResources
+> Task :smoothviewpager:prepareLintJar
+> Task :smoothviewpager:generateDebugSources
+> Task :smoothviewpager:javaPreCompileDebug
+> Task :smoothviewpager:packageDebugResources
+> Task :smoothviewpager:generateDebugRFile
+> Task :smoothviewpager:compileDebugJavaWithJavac
+> Task :smoothviewpager:bundleLibCompileDebug
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/src/main/java/com/av/smoothslider/ui/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :smoothviewpager:mergeDebugShaders
+> Task :smoothviewpager:compileDebugShaders
+> Task :smoothviewpager:generateDebugAssets
+> Task :smoothviewpager:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :smoothviewpager:processDebugJavaRes NO-SOURCE
+> Task :smoothviewpager:bundleLibResDebug
+> Task :smoothviewpager:bundleLibRuntimeDebug
+> Task :smoothviewpager:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :smoothviewpager:mergeDebugJniLibFolders
+> Task :smoothviewpager:transformNativeLibsWithMergeJniLibsForDebug
+> Task :smoothviewpager:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :smoothviewpager:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :smoothviewpager:preReleaseBuild UP-TO-DATE
+> Task :smoothviewpager:checkReleaseManifest
+> Task :smoothviewpager:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :smoothviewpager:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :smoothviewpager:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :smoothviewpager:compileReleaseRenderscript NO-SOURCE
+> Task :smoothviewpager:generateReleaseBuildConfig
+> Task :smoothviewpager:generateReleaseResValues
+> Task :smoothviewpager:generateReleaseResources
+> Task :smoothviewpager:packageReleaseResources
+> Task :smoothviewpager:generateReleaseRFile
+> Task :smoothviewpager:generateReleaseSources
+> Task :smoothviewpager:javaPreCompileRelease
+> Task :smoothviewpager:compileReleaseJavaWithJavac
+> Task :smoothviewpager:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/src/main/java/com/av/smoothslider/ui/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileReleaseSources
+> Task :smoothviewpager:prepareLintJarForPublish
+> Task :smoothviewpager:processReleaseJavaRes NO-SOURCE
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f85379bb14387ce41a5cad89272db491/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :smoothviewpager:bundleLibResRelease
+> Task :smoothviewpager:bundleLibRuntimeRelease
+> Task :smoothviewpager:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :smoothviewpager:mergeReleaseShaders
+> Task :smoothviewpager:compileReleaseShaders
+> Task :smoothviewpager:generateReleaseAssets
+> Task :smoothviewpager:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :smoothviewpager:mergeReleaseJniLibFolders
+> Task :smoothviewpager:transformNativeLibsWithMergeJniLibsForRelease
+> Task :smoothviewpager:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :smoothviewpager:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 50s
+91 actionable tasks: 91 executed
+
+2019-12-21 22:54:20,241 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576943596624-0/src/Smoolider-master/app/build/outputs/apk/debug/app-debug.apk
