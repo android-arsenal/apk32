@@ -1,33 +1,33 @@
-2019-11-07 13:31:12,488 INFO  DownloadService - Downloading "https://github.com/kelmer44/fabmenus/archive/master.zip", attempt 3
-2019-11-07 13:31:15,666 INFO  DownloadService - Downloaded https://github.com/kelmer44/fabmenus/archive/master.zip, attempt 3
-2019-11-07 13:31:15,666 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/master.zip": 3 MB
-2019-11-07 13:31:15,666 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-07 13:31:15,672 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/master.zip: true
-2019-11-07 13:31:15,673 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src'.
-2019-11-07 13:31:15,727 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-11-07 13:31:15,727 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src]
-2019-11-07 13:31:15,743 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/.git/
+2019-12-22 22:21:53,789 INFO  DownloadService - Downloading "https://github.com/kelmer44/fabmenus/archive/master.zip", attempt 3
+2019-12-22 22:21:57,144 INFO  DownloadService - Downloaded https://github.com/kelmer44/fabmenus/archive/master.zip, attempt 3
+2019-12-22 22:21:57,145 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/master.zip": 3 MB
+2019-12-22 22:21:57,145 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-22 22:21:57,146 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/master.zip: true
+2019-12-22 22:21:57,146 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src'.
+2019-12-22 22:21:57,203 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-12-22 22:21:57,203 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src]
+2019-12-22 22:21:57,231 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/.git/
 
-2019-11-07 13:31:15,747 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/gradlew
-2019-11-07 13:31:15,751 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/build.gradle
-2019-11-07 13:31:15,754 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/settings.gradle
-2019-11-07 13:31:15,754 INFO  ProjectBuildService - Remote scripts: none
-2019-11-07 13:31:15,754 INFO  ProjectFixService - Fixing project...
-2019-11-07 13:31:15,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/local.properties
-2019-11-07 13:31:15,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-11-07 13:31:15,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/local.properties
-2019-11-07 13:31:15,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-07 13:31:15,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/local.properties
-2019-11-07 13:31:15,766 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-07 13:31:15,766 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-07 13:31:15,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-11-07 13:31:15,767 INFO  ProjectFixService - Project was maybe fixed
-2019-11-07 13:31:15,767 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-07 13:31:15,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-07 13:31:21,344 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-07 13:31:21,344 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-07 13:31:21,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-07 13:32:18,438 ERROR SysUtils - Could not process external command
+2019-12-22 22:21:57,236 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/gradlew
+2019-12-22 22:21:57,240 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/build.gradle
+2019-12-22 22:21:57,246 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/settings.gradle
+2019-12-22 22:21:57,246 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 22:21:57,246 INFO  ProjectFixService - Fixing project...
+2019-12-22 22:21:57,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/local.properties
+2019-12-22 22:21:57,257 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-12-22 22:21:57,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/local.properties
+2019-12-22 22:21:57,259 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-22 22:21:57,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/local.properties
+2019-12-22 22:21:57,260 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-22 22:21:57,260 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-22 22:21:57,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2019-12-22 22:21:57,262 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 22:21:57,262 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 22:21:57,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 22:22:03,768 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-22 22:22:03,768 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-22 22:22:03,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-22 22:23:08,533 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-11-07 13:32:18,439 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 22:23:08,534 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :fabmenu:preBuild UP-TO-DATE
@@ -94,14 +94,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:processDebugResources
 
 > Task :fabmenu:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/FloatingActionButton.kt: (329, 13): Condition 'getIconDrawable() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/Label.kt: (158, 13): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (556, 30): Parameter 'changed' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (556, 48): Parameter 'left' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (556, 69): Parameter 'right' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (655, 30): Parameter 'changed' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (690, 13): Variable 'offsetMaxX' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (693, 13): Variable 'offsetMaxY' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/FloatingActionButton.kt: (324, 13): Condition 'getIconDrawable() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/Label.kt: (158, 13): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (535, 9): Parameter 'fab' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (548, 13): Variable 'degAngle' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (559, 30): Parameter 'changed' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (559, 48): Parameter 'left' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (559, 69): Parameter 'right' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (716, 25): Variable 'labelOffset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (745, 30): Parameter 'changed' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (828, 13): Variable 'offsetMaxX' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (831, 13): Variable 'offsetMaxY' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (843, 53): Elvis operator (?:) always returns the left operand of non-nullable type FloatingActionButton
 
 > Task :fabmenu:javaPreCompileDebug
 > Task :fabmenu:compileDebugJavaWithJavac
@@ -109,7 +113,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/
 > Task :fabmenu:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/src/main/java/com/kelmer/android/fabmenu/MainActivity.kt: (46, 49): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/src/main/java/com/kelmer/android/fabmenu/MainActivity.kt: (50, 49): 'getColor(Int): Int' is deprecated. Deprecated in Java
 
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -118,6 +122,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/
 > Task :fabmenu:bundleLibRuntimeDebug
 > Task :fabmenu:createFullJarDebug
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeLibDexDebug
@@ -127,69 +132,72 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/
 > Task :fabmenu:preReleaseBuild UP-TO-DATE
 > Task :fabmenu:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :fabmenu:mergeDebugNativeLibs
-> Task :fabmenu:stripDebugDebugSymbols
-> Task :fabmenu:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :fabmenu:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
-> Task :app:mergeDebugJavaResource
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :fabmenu:compileReleaseRenderscript NO-SOURCE
 > Task :fabmenu:generateReleaseResValues
 > Task :fabmenu:generateReleaseResources
 > Task :fabmenu:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :fabmenu:checkReleaseManifest
-> Task :app:mergeProjectDexDebug
 > Task :fabmenu:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :fabmenu:generateReleaseBuildConfig
-> Task :app:mergeReleaseResources
+> Task :fabmenu:mergeDebugNativeLibs
+> Task :fabmenu:stripDebugDebugSymbols
+> Task :fabmenu:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :fabmenu:parseReleaseLibraryResources
-> Task :app:prepareLintJar
-> Task :fabmenu:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :fabmenu:prepareLintJarForPublish
+> Task :app:mergeReleaseResources
+> Task :app:mergeProjectDexDebug
 > Task :fabmenu:generateReleaseRFile
 > Task :app:processReleaseResources
 
 > Task :fabmenu:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/FloatingActionButton.kt: (329, 13): Condition 'getIconDrawable() != null' is always 'true'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/Label.kt: (158, 13): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (556, 30): Parameter 'changed' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (556, 48): Parameter 'left' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (556, 69): Parameter 'right' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (655, 30): Parameter 'changed' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (690, 13): Variable 'offsetMaxX' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/LinearFabMenu.kt: (693, 13): Variable 'offsetMaxY' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/FloatingActionButton.kt: (324, 13): Condition 'getIconDrawable() != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/fab/Label.kt: (158, 13): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (535, 9): Parameter 'fab' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (548, 13): Variable 'degAngle' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (559, 30): Parameter 'changed' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (559, 48): Parameter 'left' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (559, 69): Parameter 'right' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (716, 25): Variable 'labelOffset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (745, 30): Parameter 'changed' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (828, 13): Variable 'offsetMaxX' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (831, 13): Variable 'offsetMaxY' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/fabmenu/src/main/java/com/kelmer/android/fabmenu/linear/AdvancedFabMenu.kt: (843, 53): Elvis operator (?:) always returns the left operand of non-nullable type FloatingActionButton
 
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :fabmenu:javaPreCompileRelease
 > Task :fabmenu:compileReleaseJavaWithJavac
-> Task :fabmenu:bundleLibResRelease
+> Task :app:prepareLintJar
 > Task :fabmenu:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/src/main/java/com/kelmer/android/fabmenu/MainActivity.kt: (46, 49): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/src/main/java/com/kelmer/android/fabmenu/MainActivity.kt: (50, 49): 'getColor(Int): Int' is deprecated. Deprecated in Java
 
-> Task :fabmenu:bundleLibRuntimeRelease
-> Task :fabmenu:createFullJarRelease
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :fabmenu:processReleaseJavaRes NO-SOURCE
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
+> Task :fabmenu:prepareLintJarForPublish
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8ab1c3bcc32f3764c731c37265cd8c20/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/05deb0149d429a3ec997ccba01d47ddc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :app:checkReleaseDuplicateClasses
+> Task :fabmenu:bundleLibResRelease
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :fabmenu:bundleLibRuntimeRelease
+> Task :fabmenu:createFullJarRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -310,89 +318,9 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:mer
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
-	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
-	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
-	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
-	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
 	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkerExecution.waitForCompletion(DefaultWorkerExecutor.java:285)
 	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:115)
@@ -450,7 +378,7 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
 	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
-	... 115 more
+	... 35 more
 Caused by: com.android.build.api.transform.TransformException: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
 Program type already present: com.kelmer.android.fabmenu.BuildConfig
@@ -474,9 +402,7 @@ Program type already present: com.kelmer.android.fabmenu.BuildConfig
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:215)
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:131)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	... 3 more
 Caused by: com.android.builder.dexing.DexArchiveMergerException: Error while merging dex archives: 
 Learn how to resolve the issue at https://developer.android.com/studio/build/dependencies#duplicate_classes.
 Program type already present: com.kelmer.android.fabmenu.BuildConfig
@@ -503,7 +429,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 56s
+BUILD FAILED in 1m 3s
 94 actionable tasks: 94 executed
 
-2019-11-07 13:32:18,507 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573108272485-0/src/fabmenus-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-22 22:23:08,601 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577028113778-0/src/fabmenus-master/app/build/outputs/apk/debug/app-debug.apk
