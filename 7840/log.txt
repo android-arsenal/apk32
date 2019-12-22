@@ -1,73 +1,57 @@
-2019-09-26 10:48:55,897 INFO  DownloadService - Downloading "https://github.com/JDevZone/FillProgressLayout/archive/master.zip", attempt 3
-2019-09-26 10:49:00,227 INFO  DownloadService - Downloaded https://github.com/JDevZone/FillProgressLayout/archive/master.zip, attempt 3
-2019-09-26 10:49:00,227 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/master.zip": 1 MB
-2019-09-26 10:49:00,227 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-26 10:49:00,227 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/master.zip: true
-2019-09-26 10:49:00,228 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src'.
-2019-09-26 10:49:00,258 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-09-26 10:49:00,258 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src]
-2019-09-26 10:49:00,281 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/.git/
+2019-12-22 21:39:56,905 INFO  DownloadService - Downloading "https://github.com/JDevZone/FillProgressLayout/archive/master.zip", attempt 3
+2019-12-22 21:40:02,193 INFO  DownloadService - Downloaded https://github.com/JDevZone/FillProgressLayout/archive/master.zip, attempt 3
+2019-12-22 21:40:02,194 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/master.zip": 2 MB
+2019-12-22 21:40:02,194 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-22 21:40:02,195 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/master.zip: true
+2019-12-22 21:40:02,195 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src'.
+2019-12-22 21:40:02,234 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-12-22 21:40:02,234 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src]
+2019-12-22 21:40:02,250 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/.git/
 
-2019-09-26 10:49:00,284 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/gradlew
-2019-09-26 10:49:00,286 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/fillprogresslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/build.gradle
-2019-09-26 10:49:00,288 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/fillprogresslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/settings.gradle
-2019-09-26 10:49:00,288 INFO  ProjectBuildService - Remote scripts: none
-2019-09-26 10:49:00,288 INFO  ProjectFixService - Fixing project...
-2019-09-26 10:49:00,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/local.properties
-2019-09-26 10:49:00,294 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-26 10:49:00,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/fillprogresslayout/local.properties
-2019-09-26 10:49:00,295 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/fillprogresslayout/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-26 10:49:00,295 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/local.properties
-2019-09-26 10:49:00,295 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-26 10:49:00,296 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-26 10:49:00,296 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-09-26 10:49:00,297 INFO  ProjectFixService - Project was maybe fixed
-2019-09-26 10:49:00,297 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-26 10:49:00,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-26 10:49:10,419 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-26 10:49:10,420 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-26 10:49:10,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-26 10:50:02,950 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-22 21:40:02,253 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/gradlew
+2019-12-22 21:40:02,255 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/fillprogresslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/build.gradle
+2019-12-22 21:40:02,257 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/fillprogresslayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/settings.gradle
+2019-12-22 21:40:02,258 INFO  ProjectBuildService - Remote scripts: none
+2019-12-22 21:40:02,258 INFO  ProjectFixService - Fixing project...
+2019-12-22 21:40:02,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/local.properties
+2019-12-22 21:40:02,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-12-22 21:40:02,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/fillprogresslayout/local.properties
+2019-12-22 21:40:02,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/fillprogresslayout/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-12-22 21:40:02,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/local.properties
+2019-12-22 21:40:02,266 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-22 21:40:02,267 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-22 21:40:02,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2019-12-22 21:40:02,268 INFO  ProjectFixService - Project was maybe fixed
+2019-12-22 21:40:02,268 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-22 21:40:02,268 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-22 21:40:08,093 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-22 21:40:08,093 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-22 21:40:08,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-22 21:40:54,903 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :fillprogresslayout:preBuild UP-TO-DATE
 > Task :fillprogresslayout:preDebugBuild UP-TO-DATE
-> Task :fillprogresslayout:checkDebugManifest
-> Task :fillprogresslayout:processDebugManifest
-> Task :fillprogresslayout:packageDebugRenderscript NO-SOURCE
 > Task :fillprogresslayout:compileDebugAidl NO-SOURCE
-> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :fillprogresslayout:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :fillprogresslayout:compileDebugRenderscript NO-SOURCE
 > Task :fillprogresslayout:generateDebugResValues
+> Task :fillprogresslayout:compileDebugRenderscript NO-SOURCE
 > Task :fillprogresslayout:generateDebugResources
 > Task :fillprogresslayout:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :fillprogresslayout:checkDebugManifest
+> Task :fillprogresslayout:processDebugManifest
 > Task :app:processDebugManifest
-> Task :fillprogresslayout:generateDebugRFile
-> Task :app:processDebugResources
+> Task :app:mergeDebugResources
+> Task :fillprogresslayout:parseDebugLibraryResources
 > Task :fillprogresslayout:generateDebugBuildConfig
-> Task :fillprogresslayout:compileDebugKotlin
-> Task :fillprogresslayout:prepareLintJar
-> Task :fillprogresslayout:generateDebugSources
-> Task :fillprogresslayout:javaPreCompileDebug
-> Task :fillprogresslayout:compileDebugJavaWithJavac
-> Task :fillprogresslayout:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/src/main/java/com/devzone/fpl_sample/MainActivity.kt: (26, 36): Parameter 'v' is never used, could be renamed to _
-
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -76,27 +60,33 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/
 > Task :fillprogresslayout:generateDebugAssets
 > Task :fillprogresslayout:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :fillprogresslayout:processDebugJavaRes NO-SOURCE
+> Task :fillprogresslayout:generateDebugRFile
+> Task :app:processDebugResources
+> Task :fillprogresslayout:compileDebugKotlin
+> Task :app:checkDebugDuplicateClasses
+> Task :fillprogresslayout:javaPreCompileDebug
+> Task :fillprogresslayout:compileDebugJavaWithJavac
 > Task :fillprogresslayout:bundleLibResDebug
 > Task :fillprogresslayout:bundleLibRuntimeDebug
 > Task :fillprogresslayout:createFullJarDebug
-> Task :app:checkDebugDuplicateClasses
+> Task :fillprogresslayout:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/src/main/java/com/devzone/fpl_sample/MainActivity.kt: (61, 37): Parameter 'v' is never used, could be renamed to _
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :fillprogresslayout:mergeDebugJniLibFolders
-> Task :fillprogresslayout:transformNativeLibsWithMergeJniLibsForDebug
-> Task :fillprogresslayout:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :fillprogresslayout:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :fillprogresslayout:preReleaseBuild UP-TO-DATE
-> Task :fillprogresslayout:checkReleaseManifest
-> Task :fillprogresslayout:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :fillprogresslayout:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :fillprogresslayout:packageReleaseRenderscript NO-SOURCE
@@ -110,39 +100,42 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/
 > Task :fillprogresslayout:generateReleaseResValues
 > Task :fillprogresslayout:generateReleaseResources
 > Task :fillprogresslayout:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :fillprogresslayout:checkReleaseManifest
+> Task :fillprogresslayout:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :fillprogresslayout:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :fillprogresslayout:parseReleaseLibraryResources
+> Task :fillprogresslayout:mergeDebugNativeLibs
+> Task :fillprogresslayout:stripDebugDebugSymbols
+> Task :fillprogresslayout:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:prepareLintJar
+> Task :fillprogresslayout:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :fillprogresslayout:prepareLintJarForPublish
 > Task :fillprogresslayout:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :fillprogresslayout:generateReleaseBuildConfig
 > Task :fillprogresslayout:compileReleaseKotlin
-> Task :fillprogresslayout:generateReleaseSources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :fillprogresslayout:javaPreCompileRelease
 > Task :fillprogresslayout:compileReleaseJavaWithJavac
 > Task :fillprogresslayout:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/src/main/java/com/devzone/fpl_sample/MainActivity.kt: (26, 36): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/src/main/java/com/devzone/fpl_sample/MainActivity.kt: (61, 37): Parameter 'v' is never used, could be renamed to _
 
-> Task :app:generateReleaseSources
+> Task :fillprogresslayout:bundleLibRuntimeRelease
+> Task :fillprogresslayout:bundleLibResRelease
+> Task :fillprogresslayout:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:compileReleaseSources
-> Task :fillprogresslayout:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c45f14a49fda039677feda45ede4b8fb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/daec4dc7b741495a4eebbd996d942b70/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :fillprogresslayout:processReleaseJavaRes NO-SOURCE
-> Task :fillprogresslayout:bundleLibResRelease
-> Task :fillprogresslayout:bundleLibRuntimeRelease
-> Task :fillprogresslayout:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -152,16 +145,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :fillprogresslayout:generateReleaseAssets
 > Task :fillprogresslayout:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :fillprogresslayout:mergeReleaseJniLibFolders
-> Task :fillprogresslayout:transformNativeLibsWithMergeJniLibsForRelease
-> Task :fillprogresslayout:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :fillprogresslayout:mergeReleaseNativeLibs
+> Task :fillprogresslayout:stripReleaseDebugSymbols
 > Task :fillprogresslayout:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -171,9 +168,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 51s
-95 actionable tasks: 95 executed
+BUILD SUCCESSFUL in 46s
+94 actionable tasks: 94 executed
 
-2019-09-26 10:50:03,020 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569469735888-0/src/FillProgressLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-22 21:40:54,964 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577025596901-0/src/FillProgressLayout-master/app/build/outputs/apk/debug/app-debug.apk
