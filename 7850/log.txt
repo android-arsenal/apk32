@@ -1,36 +1,36 @@
-2019-10-22 11:01:40,235 INFO  DownloadService - Downloading "https://github.com/FarshidRoohi/LineGraph/archive/master.zip", attempt 3
-2019-10-22 11:01:42,423 INFO  DownloadService - Downloaded https://github.com/FarshidRoohi/LineGraph/archive/master.zip, attempt 3
-2019-10-22 11:01:42,424 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/master.zip": 202 KB
-2019-10-22 11:01:42,424 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-22 11:01:42,424 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/master.zip: true
-2019-10-22 11:01:42,425 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src'.
-2019-10-22 11:01:42,444 INFO  FullProcessService - Size of directory with sources: 228 KB
-2019-10-22 11:01:42,444 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src]
-2019-10-22 11:01:42,468 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/.git/
+2019-12-28 19:40:03,795 INFO  DownloadService - Downloading "https://github.com/FarshidRoohi/LineGraph/archive/master.zip", attempt 3
+2019-12-28 19:40:06,002 INFO  DownloadService - Downloaded https://github.com/FarshidRoohi/LineGraph/archive/master.zip, attempt 3
+2019-12-28 19:40:06,002 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/master.zip": 203 KB
+2019-12-28 19:40:06,003 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-28 19:40:06,008 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/master.zip: true
+2019-12-28 19:40:06,008 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src'.
+2019-12-28 19:40:06,027 INFO  FullProcessService - Size of directory with sources: 231 KB
+2019-12-28 19:40:06,027 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src]
+2019-12-28 19:40:06,064 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/.git/
 
-2019-10-22 11:01:42,470 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/gradlew
-2019-10-22 11:01:42,472 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/build.gradle
-2019-10-22 11:01:42,474 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/settings.gradle
-2019-10-22 11:01:42,475 INFO  ProjectBuildService - Remote scripts: none
-2019-10-22 11:01:42,475 INFO  ProjectFixService - Fixing project...
-2019-10-22 11:01:42,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/local.properties
-2019-10-22 11:01:42,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-22 11:01:42,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-22 11:01:42,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/local.properties
-2019-10-22 11:01:42,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-22 11:01:42,483 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-22 11:01:42,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/local.properties
-2019-10-22 11:01:42,484 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-22 11:01:42,484 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-22 11:01:42,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-22 11:01:42,486 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2019-10-22 11:01:42,486 INFO  ProjectFixService - Project was maybe fixed
-2019-10-22 11:01:42,486 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 11:01:42,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 11:01:48,609 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-22 11:01:48,609 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-22 11:01:48,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-22 11:02:09,191 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-28 19:40:06,066 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/gradlew
+2019-12-28 19:40:06,069 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/build.gradle
+2019-12-28 19:40:06,071 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/settings.gradle
+2019-12-28 19:40:06,071 INFO  ProjectBuildService - Remote scripts: none
+2019-12-28 19:40:06,071 INFO  ProjectFixService - Fixing project...
+2019-12-28 19:40:06,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/local.properties
+2019-12-28 19:40:06,078 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-28 19:40:06,078 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-28 19:40:06,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/local.properties
+2019-12-28 19:40:06,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-28 19:40:06,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-28 19:40:06,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/local.properties
+2019-12-28 19:40:06,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-28 19:40:06,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-28 19:40:06,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-28 19:40:06,082 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-12-28 19:40:06,083 INFO  ProjectFixService - Project was maybe fixed
+2019-12-28 19:40:06,083 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-28 19:40:06,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-28 19:40:13,520 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-28 19:40:13,520 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-28 19:40:13,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-28 19:40:33,931 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :linegraph:preBuild UP-TO-DATE
 > Task :linegraph:preDebugBuild UP-TO-DATE
 > Task :linegraph:checkDebugManifest
@@ -48,44 +48,46 @@
 > Task :linegraph:checkReleaseManifest
 > Task :linegraph:generateReleaseBuildConfig
 > Task :linegraph:generateReleaseResValues
-> Task :linegraph:mergeDebugNativeLibs
-> Task :linegraph:processDebugManifest
-> Task :linegraph:stripDebugDebugSymbols
-> Task :linegraph:compileDebugAidl NO-SOURCE
-> Task :linegraph:compileDebugRenderscript NO-SOURCE
-> Task :linegraph:generateDebugResources
-> Task :linegraph:packageDebugResources
-> Task :linegraph:processReleaseManifest
-> Task :linegraph:transformNativeLibsWithSyncJniLibsForDebug
-> Task :linegraph:compileReleaseAidl NO-SOURCE
-> Task :linegraph:compileReleaseRenderscript NO-SOURCE
-> Task :linegraph:generateReleaseResources
-> Task :linegraph:packageReleaseResources
 > Task :linegraph:mergeReleaseShaders
 > Task :linegraph:compileReleaseShaders
 > Task :linegraph:generateReleaseAssets
 > Task :linegraph:packageReleaseAssets
 > Task :linegraph:packageReleaseRenderscript NO-SOURCE
 > Task :linegraph:processReleaseJavaRes NO-SOURCE
+> Task :linegraph:mergeDebugNativeLibs
+> Task :linegraph:processReleaseManifest
+> Task :linegraph:stripDebugDebugSymbols
+> Task :linegraph:transformNativeLibsWithSyncJniLibsForDebug
+> Task :linegraph:compileDebugAidl NO-SOURCE
+> Task :linegraph:compileDebugRenderscript NO-SOURCE
+> Task :linegraph:generateDebugResources
+> Task :linegraph:packageDebugResources
+> Task :linegraph:compileReleaseAidl NO-SOURCE
+> Task :linegraph:compileReleaseRenderscript NO-SOURCE
+> Task :linegraph:generateReleaseResources
+> Task :linegraph:packageReleaseResources
 > Task :linegraph:mergeReleaseJniLibFolders
-> Task :linegraph:parseDebugLibraryResources
+> Task :linegraph:processDebugManifest
 > Task :linegraph:mergeReleaseNativeLibs
 > Task :linegraph:stripReleaseDebugSymbols
 > Task :linegraph:transformNativeLibsWithSyncJniLibsForRelease
 > Task :linegraph:parseReleaseLibraryResources
+> Task :linegraph:parseDebugLibraryResources
 > Task :linegraph:generateJavadocs SKIPPED
 > Task :linegraph:generateJavadocsJar
 > Task :linegraph:mergeReleaseResources
 > Task :linegraph:generateDebugRFile
 
 > Task :linegraph:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/src/main/java/ir/farshid_roohi/utilites/GraphCanvasWrapper.kt: (30, 9): Parameter 'useCenter' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/src/main/java/ir/farshid_roohi/linegraph/LineChart.kt: (181, 13): Condition 'chartEntities == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/src/main/java/ir/farshid_roohi/utilites/GraphCanvasWrapper.kt: (30, 9): Parameter 'useCenter' is never used
 
 > Task :linegraph:generateSourcesJar
 > Task :linegraph:generateReleaseRFile
 
 > Task :linegraph:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/linegraph/src/main/java/ir/farshid_roohi/utilites/GraphCanvasWrapper.kt: (30, 9): Parameter 'useCenter' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/src/main/java/ir/farshid_roohi/linegraph/LineChart.kt: (181, 13): Condition 'chartEntities == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/linegraph/src/main/java/ir/farshid_roohi/utilites/GraphCanvasWrapper.kt: (30, 9): Parameter 'useCenter' is never used
 
 > Task :linegraph:javaPreCompileDebug
 > Task :linegraph:compileDebugJavaWithJavac
@@ -93,20 +95,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/
 > Task :linegraph:mergeDebugGeneratedProguardFiles
 > Task :linegraph:mergeDebugConsumerProguardFiles
 > Task :linegraph:compileDebugSources
-> Task :linegraph:verifyReleaseResources
 > Task :linegraph:javaPreCompileRelease
 > Task :linegraph:compileReleaseJavaWithJavac
 > Task :linegraph:extractReleaseAnnotations
 > Task :linegraph:mergeReleaseGeneratedProguardFiles
 > Task :linegraph:mergeReleaseConsumerProguardFiles
-> Task :linegraph:compileReleaseSources
 > Task :linegraph:mergeDebugJavaResource
 > Task :linegraph:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :linegraph:bundleDebugAar
 > Task :linegraph:assembleDebug
+> Task :linegraph:compileReleaseSources
 > Task :linegraph:mergeReleaseJavaResource
 > Task :linegraph:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :linegraph:bundleReleaseAar
+> Task :linegraph:verifyReleaseResources
 > Task :linegraph:assembleRelease
 > Task :linegraph:assemble
 > Task :linegraph:build
@@ -118,12 +120,12 @@ See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 19s
 51 actionable tasks: 51 executed
 
-2019-10-22 11:02:09,229 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 11:02:09,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 11:02:14,922 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-22 11:02:14,922 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-22 11:02:14,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-22 11:03:00,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-28 19:40:33,968 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-28 19:40:33,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-28 19:40:39,586 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-28 19:40:39,586 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-28 19:40:39,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-28 19:41:24,043 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :linegraph:preBuild UP-TO-DATE
 > Task :linegraph:preDebugBuild UP-TO-DATE
 > Task :linegraph:compileDebugAidl NO-SOURCE
@@ -207,11 +209,11 @@ BUILD SUCCESSFUL in 19s
 > Task :sample:generateReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
@@ -219,7 +221,7 @@ BUILD SUCCESSFUL in 19s
 > Task :sample:prepareLintJar
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/608fdf9982ba131eee586b21d8493a09/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/068eb907434cd8361d49c2468af6fb29/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :linegraph:processReleaseJavaRes NO-SOURCE
 > Task :sample:checkReleaseDuplicateClasses
@@ -260,7 +262,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 44s
+BUILD SUCCESSFUL in 43s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2019-10-22 11:03:00,544 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716900232-0/src/LineGraph-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-12-28 19:41:24,128 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536803791-0/src/LineGraph-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

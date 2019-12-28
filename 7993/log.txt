@@ -1,0 +1,171 @@
+2019-12-28 19:30:32,679 INFO  DownloadService - Downloading "https://github.com/robinkrsingh/PinUIAndroid/archive/master.zip", attempt 3
+2019-12-28 19:30:34,564 INFO  DownloadService - Downloaded https://github.com/robinkrsingh/PinUIAndroid/archive/master.zip, attempt 3
+2019-12-28 19:30:34,565 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/master.zip": 140 KB
+2019-12-28 19:30:34,565 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-28 19:30:34,567 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/master.zip: true
+2019-12-28 19:30:34,567 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src'.
+2019-12-28 19:30:34,585 INFO  FullProcessService - Size of directory with sources: 151 KB
+2019-12-28 19:30:34,585 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src]
+2019-12-28 19:30:34,606 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/.git/
+
+2019-12-28 19:30:34,610 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/gradlew
+2019-12-28 19:30:34,614 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/pinui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/build.gradle
+2019-12-28 19:30:34,618 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/pinui/build.gradle
+2019-12-28 19:30:34,618 INFO  ProjectBuildService - Remote scripts: none
+2019-12-28 19:30:34,618 INFO  ProjectFixService - Fixing project...
+2019-12-28 19:30:34,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/app/local.properties
+2019-12-28 19:30:34,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-28 19:30:34,628 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/pinui/local.properties
+2019-12-28 19:30:34,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/pinui/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-28 19:30:34,630 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/local.properties
+2019-12-28 19:30:34,630 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-28 19:30:34,631 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-28 19:30:34,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=22,targetSdkVersion=28]
+2019-12-28 19:30:34,632 INFO  ProjectFixService - Project was maybe fixed
+2019-12-28 19:30:34,632 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-28 19:30:34,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-28 19:30:43,147 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-12-28 19:30:43,147 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-28 19:30:43,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-28 19:31:39,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :pinui:preBuild UP-TO-DATE
+> Task :pinui:preDebugBuild UP-TO-DATE
+> Task :pinui:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :pinui:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :pinui:generateDebugResValues
+> Task :pinui:compileDebugRenderscript NO-SOURCE
+> Task :pinui:generateDebugResources
+> Task :pinui:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :pinui:checkDebugManifest
+> Task :pinui:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :pinui:parseDebugLibraryResources
+> Task :pinui:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :pinui:mergeDebugShaders
+> Task :pinui:compileDebugShaders
+> Task :pinui:generateDebugAssets
+> Task :pinui:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :pinui:processDebugJavaRes NO-SOURCE
+> Task :pinui:generateDebugRFile
+> Task :app:processDebugResources
+> Task :pinui:compileDebugKotlin
+> Task :pinui:javaPreCompileDebug
+> Task :pinui:compileDebugJavaWithJavac
+> Task :pinui:bundleLibResDebug
+> Task :pinui:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :pinui:bundleLibRuntimeDebug
+> Task :pinui:createFullJarDebug
+> Task :app:mergeLibDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :pinui:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :pinui:preReleaseBuild UP-TO-DATE
+> Task :pinui:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :pinui:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :pinui:compileReleaseRenderscript NO-SOURCE
+> Task :pinui:generateReleaseResValues
+> Task :pinui:generateReleaseResources
+> Task :pinui:packageReleaseResources
+> Task :pinui:mergeDebugNativeLibs
+> Task :pinui:stripDebugDebugSymbols
+> Task :pinui:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :pinui:checkReleaseManifest
+> Task :pinui:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :pinui:parseReleaseLibraryResources
+> Task :app:mergeProjectDexDebug
+> Task :pinui:generateReleaseBuildConfig
+> Task :app:prepareLintJar
+> Task :pinui:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :pinui:prepareLintJarForPublish
+> Task :app:mergeReleaseResources
+> Task :pinui:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :pinui:compileReleaseKotlin
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :pinui:javaPreCompileRelease
+> Task :pinui:compileReleaseJavaWithJavac
+> Task :pinui:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :pinui:bundleLibResRelease
+> Task :pinui:bundleLibRuntimeRelease
+> Task :pinui:createFullJarRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6678d231d86184414a3ea2164bd0e9a0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :pinui:mergeReleaseShaders
+> Task :pinui:compileReleaseShaders
+> Task :pinui:generateReleaseAssets
+> Task :pinui:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :pinui:mergeReleaseJniLibFolders
+> Task :pinui:mergeReleaseNativeLibs
+> Task :pinui:stripReleaseDebugSymbols
+> Task :pinui:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 55s
+95 actionable tasks: 95 executed
+
+2019-12-28 19:31:39,156 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536232674-0/src/PinUIAndroid-master/app/build/outputs/apk/debug/app-debug.apk

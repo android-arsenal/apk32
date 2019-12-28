@@ -1,46 +1,40 @@
-2019-10-04 14:46:54,951 INFO  DownloadService - Downloading "https://github.com/wangsun6/android-upi-payment/archive/master.zip", attempt 3
-2019-10-04 14:46:58,901 INFO  DownloadService - Downloaded https://github.com/wangsun6/android-upi-payment/archive/master.zip, attempt 3
-2019-10-04 14:46:58,902 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/master.zip": 1 MB
-2019-10-04 14:46:58,903 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-04 14:46:58,916 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/master.zip: true
-2019-10-04 14:46:58,917 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src'.
-2019-10-04 14:46:58,968 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-10-04 14:46:58,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src]
-2019-10-04 14:46:59,016 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/.git/
+2019-12-28 19:38:14,550 INFO  DownloadService - Downloading "https://github.com/wangsun6/android-upi-payment/archive/master.zip", attempt 3
+2019-12-28 19:38:19,011 INFO  DownloadService - Downloaded https://github.com/wangsun6/android-upi-payment/archive/master.zip, attempt 3
+2019-12-28 19:38:19,011 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/master.zip": 1 MB
+2019-12-28 19:38:19,011 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-28 19:38:19,012 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/master.zip: true
+2019-12-28 19:38:19,012 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src'.
+2019-12-28 19:38:19,054 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-12-28 19:38:19,054 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src]
+2019-12-28 19:38:19,077 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/.git/
 
-2019-10-04 14:46:59,039 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/gradlew
-2019-10-04 14:46:59,054 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/build.gradle
-2019-10-04 14:46:59,062 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/settings.gradle
-2019-10-04 14:46:59,075 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-10-04 14:46:59,871 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-10-04 14:46:59,872 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-10-04 14:47:00,057 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-10-04 14:47:00,057 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-10-04 14:47:00,058 INFO  ProjectFixService - Fixing project...
-2019-10-04 14:47:00,131 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-10-04 14:47:00,131 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-10-04 14:47:00,134 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-10-04 14:47:00,137 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2019-10-04 14:47:00,141 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-10-04 14:47:00,141 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-10-04 14:47:00,142 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/local.properties
-2019-10-04 14:47:00,149 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 14:47:00,152 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 14:47:00,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/lib/local.properties
-2019-10-04 14:47:00,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 14:47:00,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 14:47:00,158 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/local.properties
-2019-10-04 14:47:00,163 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-04 14:47:00,164 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-04 14:47:00,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 14:47:00,165 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 14:47:00,166 INFO  ProjectFixService - Project was maybe fixed
-2019-10-04 14:47:00,168 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-04 14:47:00,169 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-04 14:47:08,945 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-10-04 14:47:08,947 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-04 14:47:08,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-04 14:47:15,030 ERROR SysUtils - Could not process external command
+2019-12-28 19:38:19,082 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/gradlew
+2019-12-28 19:38:19,087 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/build.gradle
+2019-12-28 19:38:19,091 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/settings.gradle
+2019-12-28 19:38:19,091 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-12-28 19:38:19,266 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-12-28 19:38:19,267 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-12-28 19:38:19,446 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-12-28 19:38:19,447 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-12-28 19:38:19,447 INFO  ProjectFixService - Fixing project...
+2019-12-28 19:38:19,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/local.properties
+2019-12-28 19:38:19,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-28 19:38:19,462 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-28 19:38:19,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/lib/local.properties
+2019-12-28 19:38:19,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-28 19:38:19,466 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-28 19:38:19,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/local.properties
+2019-12-28 19:38:19,468 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-28 19:38:19,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-28 19:38:19,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-28 19:38:19,471 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-12-28 19:38:19,471 INFO  ProjectFixService - Project was maybe fixed
+2019-12-28 19:38:19,471 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-28 19:38:19,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-28 19:38:26,730 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-12-28 19:38:26,730 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-28 19:38:26,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-28 19:38:32,942 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -68,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-04 14:47:15,030 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-28 19:38:32,942 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -169,9 +163,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-10-04 14:47:15,030 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-10-04 14:47:15,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-10-04 14:48:19,626 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-28 19:38:32,942 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-12-28 19:38:32,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-28 19:39:42,170 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :lib:preBuild UP-TO-DATE
@@ -191,10 +185,10 @@ BUILD FAILED in 5s
 > Task :lib:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :lib:checkDebugManifest
+> Task :app:mergeDebugResources
 > Task :lib:processDebugManifest
 > Task :app:processDebugManifest
 > Task :lib:parseDebugLibraryResources
-> Task :app:mergeDebugResources
 > Task :lib:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -204,22 +198,21 @@ BUILD FAILED in 5s
 > Task :lib:generateDebugAssets
 > Task :lib:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
 > Task :lib:generateDebugRFile
 > Task :app:processDebugResources
 > Task :lib:compileDebugKotlin
 > Task :lib:javaPreCompileDebug
 > Task :lib:compileDebugJavaWithJavac
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:bundleLibResDebug
 > Task :lib:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :lib:bundleLibResDebug
 > Task :lib:bundleLibRuntimeDebug
-> Task :lib:createFullJarDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
@@ -251,27 +244,24 @@ BUILD FAILED in 5s
 > Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:mergeReleaseResources
 > Task :lib:parseReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :app:prepareLintJar
-> Task :lib:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
 > Task :lib:prepareLintJarForPublish
 > Task :lib:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :lib:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
 > Task :lib:javaPreCompileRelease
 > Task :lib:compileReleaseJavaWithJavac
 > Task :lib:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :lib:bundleLibRuntimeRelease
-> Task :lib:bundleLibResRelease
-> Task :lib:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -282,35 +272,38 @@ BUILD FAILED in 5s
 > Task :lib:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :lib:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :lib:mergeReleaseJniLibFolders
+
+> Task :app:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9c1805b5f95a34abd89ffe7be4d21118/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Ran lint on variant debug: 3 issues found
+Ran lint on variant release: 3 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build/reports/lint-results.xml
+
+> Task :lib:mergeReleaseNativeLibs
+> Task :lib:stripReleaseDebugSymbols
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-
-> Task :app:lint
-Ran lint on variant release: 3 issues found
-Ran lint on variant debug: 3 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build/reports/lint-results.xml
-
-> Task :app:mergeReleaseJavaResource
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
 > Task :app:processDebugUnitTestJavaRes NO-SOURCE
 > Task :app:preReleaseUnitTestBuild UP-TO-DATE
 > Task :app:processReleaseUnitTestJavaRes NO-SOURCE
-> Task :lib:mergeReleaseNativeLibs
-> Task :lib:stripReleaseDebugSymbols
-> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :lib:bundleLibResRelease
 > Task :app:compileDebugUnitTestKotlin
 > Task :app:compileReleaseUnitTestKotlin
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexRelease
 > Task :app:javaPreCompileReleaseUnitTest
 > Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testReleaseUnitTest
-> Task :app:mergeExtDexRelease
+> Task :app:mergeReleaseJavaResource
 > Task :app:javaPreCompileDebugUnitTest
 > Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
 > Task :app:testDebugUnitTest
@@ -326,7 +319,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 3s
-100 actionable tasks: 100 executed
+BUILD SUCCESSFUL in 1m 8s
+98 actionable tasks: 98 executed
 
-2019-10-04 14:48:19,786 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175214853-0/src/android-upi-payment-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-28 19:39:42,266 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577536694545-0/src/android-upi-payment-master/app/build/outputs/apk/debug/app-debug.apk
