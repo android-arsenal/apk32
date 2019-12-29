@@ -1,66 +1,69 @@
-2019-10-25 15:15:19,891 INFO  DownloadService - Downloading "https://github.com/LDRAlighieri/Corbind/archive/master.zip", attempt 3
-2019-10-25 15:15:22,402 INFO  DownloadService - Downloaded https://github.com/LDRAlighieri/Corbind/archive/master.zip, attempt 3
-2019-10-25 15:15:22,403 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/master.zip": 389 KB
-2019-10-25 15:15:22,403 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-25 15:15:22,405 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/master.zip: true
-2019-10-25 15:15:22,405 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src'.
-2019-10-25 15:15:22,476 INFO  FullProcessService - Size of directory with sources: 761 KB
-2019-10-25 15:15:22,477 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src]
-2019-10-25 15:15:22,511 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/.git/
+2019-12-29 20:20:34,784 INFO  DownloadService - Downloading "https://github.com/LDRAlighieri/Corbind/archive/master.zip", attempt 3
+2019-12-29 20:20:37,346 INFO  DownloadService - Downloaded https://github.com/LDRAlighieri/Corbind/archive/master.zip, attempt 3
+2019-12-29 20:20:37,347 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/master.zip": 397 KB
+2019-12-29 20:20:37,347 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-29 20:20:37,352 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/master.zip: true
+2019-12-29 20:20:37,353 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src'.
+2019-12-29 20:20:37,426 INFO  FullProcessService - Size of directory with sources: 775 KB
+2019-12-29 20:20:37,426 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src]
+2019-12-29 20:20:37,447 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/.git/
 
-2019-10-25 15:15:22,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew
-2019-10-25 15:15:22,526 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-drawerlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-leanback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-material/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/build.gradle
-2019-10-25 15:15:22,532 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-drawerlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-leanback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-material/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind/build.gradle
-2019-10-25 15:15:22,535 INFO  ProjectBuildService - Remote scripts: none
-2019-10-25 15:15:22,535 INFO  ProjectFixService - Fixing project...
-2019-10-25 15:15:22,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-appcompat/local.properties
-2019-10-25 15:15:22,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-appcompat/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,585 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-appcompat/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,587 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-core/local.properties
-2019-10-25 15:15:22,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,596 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-drawerlayout/local.properties
-2019-10-25 15:15:22,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-drawerlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-drawerlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-leanback/local.properties
-2019-10-25 15:15:22,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-leanback/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,618 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-leanback/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-material/local.properties
-2019-10-25 15:15:22,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-material/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,628 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-material/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,629 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-recyclerview/local.properties
-2019-10-25 15:15:22,639 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-recyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,639 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-recyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,640 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-slidingpanelayout/local.properties
-2019-10-25 15:15:22,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,648 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,649 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-swiperefreshlayout/local.properties
-2019-10-25 15:15:22,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager/local.properties
-2019-10-25 15:15:22,667 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,668 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager2/local.properties
-2019-10-25 15:15:22,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,678 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind/local.properties
-2019-10-25 15:15:22,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,687 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/sample/local.properties
-2019-10-25 15:15:22,708 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,708 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/local.properties
-2019-10-25 15:15:22,710 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
-2019-10-25 15:15:22,710 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
-2019-10-25 15:15:22,719 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-25 15:15:22,719 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-25 15:15:22,721 INFO  ProjectFixService - Project was maybe fixed
-2019-10-25 15:15:22,721 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:15:22,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:15:46,616 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:15:46,618 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:15:46,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:16:44,882 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:20:37,454 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew
+2019-12-29 20:20:37,464 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-drawerlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-leanback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-material/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/build.gradle
+2019-12-29 20:20:37,472 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-drawerlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-leanback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-recyclerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-navigation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-material/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind/build.gradle
+2019-12-29 20:20:37,474 INFO  ProjectBuildService - Remote scripts: none
+2019-12-29 20:20:37,474 INFO  ProjectFixService - Fixing project...
+2019-12-29 20:20:37,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-appcompat/local.properties
+2019-12-29 20:20:37,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-appcompat/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,539 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-appcompat/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,540 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-core/local.properties
+2019-12-29 20:20:37,555 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,555 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-drawerlayout/local.properties
+2019-12-29 20:20:37,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-drawerlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-drawerlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-leanback/local.properties
+2019-12-29 20:20:37,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-leanback/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,582 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-leanback/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-material/local.properties
+2019-12-29 20:20:37,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-material/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-material/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,596 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-navigation/local.properties
+2019-12-29 20:20:37,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-navigation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,609 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-navigation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-recyclerview/local.properties
+2019-12-29 20:20:37,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-recyclerview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,622 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-recyclerview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-slidingpanelayout/local.properties
+2019-12-29 20:20:37,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,635 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-swiperefreshlayout/local.properties
+2019-12-29 20:20:37,646 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,646 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,648 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager/local.properties
+2019-12-29 20:20:37,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,660 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager2/local.properties
+2019-12-29 20:20:37,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,677 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,677 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind/local.properties
+2019-12-29 20:20:37,688 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,688 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,689 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/local.properties
+2019-12-29 20:20:37,700 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,700 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/local.properties
+2019-12-29 20:20:37,702 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.0.1-all.zip
+2019-12-29 20:20:37,703 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.0.1-bin.zip)
+2019-12-29 20:20:37,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-29 20:20:37,713 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-29 20:20:37,716 INFO  ProjectFixService - Project was maybe fixed
+2019-12-29 20:20:37,716 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:20:37,716 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:21:11,141 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:21:11,142 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:21:11,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:22:16,859 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -81,36 +84,38 @@
 > Task :corbind-appcompat:preBuild UP-TO-DATE
 > Task :corbind-appcompat:preDebugBuild UP-TO-DATE
 > Task :corbind-appcompat:compileDebugAidl NO-SOURCE
+> Task :corbind:parseDebugLibraryResources
 > Task :corbind:packageDebugRenderscript NO-SOURCE
 > Task :corbind-appcompat:compileDebugRenderscript NO-SOURCE
 > Task :corbind-appcompat:preReleaseBuild UP-TO-DATE
 > Task :corbind-appcompat:compileReleaseAidl NO-SOURCE
 > Task :corbind:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-appcompat:compileReleaseRenderscript NO-SOURCE
+> Task :corbind:parseReleaseLibraryResources
 > Task :corbind-appcompat:checkDebugManifest
 > Task :corbind-appcompat:generateDebugBuildConfig
 > Task :corbind-appcompat:generateDebugResValues
 > Task :corbind-appcompat:generateDebugResources
 > Task :corbind-appcompat:packageDebugResources
-> Task :corbind:parseReleaseLibraryResources
-> Task :corbind:parseDebugLibraryResources
+> Task :corbind:processReleaseManifest
 > Task :corbind-appcompat:checkReleaseManifest
+> Task :corbind-appcompat:parseDebugLibraryResources
 > Task :corbind-appcompat:generateReleaseBuildConfig
 > Task :corbind-appcompat:generateReleaseResValues
 > Task :corbind-appcompat:generateReleaseResources
 > Task :corbind-appcompat:packageReleaseResources
-> Task :corbind:processReleaseManifest
-> Task :corbind-appcompat:parseDebugLibraryResources
+> Task :corbind:generateReleaseRFile
+> Task :corbind:compileReleaseKotlin
+> Task :corbind-appcompat:processDebugManifest
 > Task :corbind-appcompat:androidSourcesJar
 > Task :corbind-appcompat:mergeDebugShaders
 > Task :corbind-appcompat:compileDebugShaders
 > Task :corbind-appcompat:generateDebugAssets
 > Task :corbind-appcompat:packageDebugAssets
 > Task :corbind-appcompat:packageDebugRenderscript NO-SOURCE
-> Task :corbind:processDebugManifest
-> Task :corbind-appcompat:processDebugManifest
 > Task :corbind-appcompat:processDebugJavaRes NO-SOURCE
 > Task :corbind-appcompat:mergeDebugJniLibFolders
+> Task :corbind-appcompat:prepareLintJarForPublish
 > Task :corbind-appcompat:mergeReleaseShaders
 > Task :corbind-appcompat:compileReleaseShaders
 > Task :corbind-appcompat:generateReleaseAssets
@@ -118,50 +123,48 @@
 > Task :corbind-appcompat:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-appcompat:processReleaseJavaRes NO-SOURCE
 > Task :corbind-appcompat:mergeReleaseJniLibFolders
-> Task :corbind:generateDebugRFile
-> Task :corbind-appcompat:parseReleaseLibraryResources
-> Task :corbind:compileDebugKotlin
-> Task :corbind-appcompat:prepareLintJarForPublish
 > Task :corbind-appcompat:processReleaseManifest
-> Task :corbind-appcompat:mergeReleaseResources
-> Task :corbind:generateReleaseRFile
-> Task :corbind:compileReleaseKotlin
-> Task :corbind-appcompat:verifyReleaseResources
 > Task :corbind:javaPreCompileRelease
 > Task :corbind:compileReleaseJavaWithJavac
-> Task :corbind:javaPreCompileDebug
+> Task :corbind-appcompat:mergeReleaseResources
 > Task :corbind-appcompat:mergeDebugNativeLibs
-> Task :corbind:compileDebugJavaWithJavac
-> Task :corbind-appcompat:generateDebugRFile
+> Task :corbind-appcompat:stripDebugDebugSymbols
+> Task :corbind-appcompat:transformNativeLibsWithSyncJniLibsForDebug
 > Task :corbind-appcompat:mergeReleaseNativeLibs
 > Task :corbind-appcompat:stripReleaseDebugSymbols
 > Task :corbind-appcompat:transformNativeLibsWithSyncJniLibsForRelease
-> Task :corbind-appcompat:stripDebugDebugSymbols
-> Task :corbind-appcompat:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind-appcompat:generateReleaseRFile
+> Task :corbind:processDebugManifest
+> Task :corbind-appcompat:parseReleaseLibraryResources
 > Task :corbind:bundleLibCompileRelease
+> Task :corbind:generateDebugRFile
+> Task :corbind:compileDebugKotlin
+> Task :corbind-appcompat:verifyReleaseResources
+> Task :corbind-appcompat:generateReleaseRFile
 > Task :corbind-appcompat:compileReleaseKotlin
-> Task :corbind:bundleLibCompileDebug
-> Task :corbind-appcompat:dokka
-> Task :corbind-appcompat:androidJavadocsJar
-> Task :corbind-appcompat:compileDebugKotlin
+> Task :corbind-appcompat:generateDebugRFile
+> Task :corbind:javaPreCompileDebug
+> Task :corbind:compileDebugJavaWithJavac
 > Task :corbind-appcompat:javaPreCompileRelease
 > Task :corbind-appcompat:compileReleaseJavaWithJavac
 > Task :corbind-appcompat:extractReleaseAnnotations
 > Task :corbind-appcompat:mergeReleaseGeneratedProguardFiles
 > Task :corbind-appcompat:mergeReleaseConsumerProguardFiles
+> Task :corbind:bundleLibCompileDebug
+> Task :corbind-appcompat:dokka
+> Task :corbind-appcompat:androidJavadocsJar
+> Task :corbind-appcompat:compileDebugKotlin
+> Task :corbind-appcompat:mergeReleaseJavaResource
+> Task :corbind-appcompat:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :corbind-appcompat:bundleReleaseAar
 > Task :corbind-appcompat:compileReleaseSources
+> Task :corbind-appcompat:assembleRelease
+> Task :corbind-appcompat:signArchives SKIPPED
 > Task :corbind-appcompat:javaPreCompileDebug
 > Task :corbind-appcompat:compileDebugJavaWithJavac
 > Task :corbind-appcompat:extractDebugAnnotations
 > Task :corbind-appcompat:mergeDebugGeneratedProguardFiles
 > Task :corbind-appcompat:mergeDebugConsumerProguardFiles
 > Task :corbind-appcompat:compileDebugSources
-> Task :corbind-appcompat:mergeReleaseJavaResource
-> Task :corbind-appcompat:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :corbind-appcompat:bundleReleaseAar
-> Task :corbind-appcompat:assembleRelease
-> Task :corbind-appcompat:signArchives SKIPPED
 > Task :corbind-appcompat:mergeDebugJavaResource
 > Task :corbind-appcompat:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :corbind-appcompat:bundleDebugAar
@@ -169,19 +172,19 @@
 > Task :corbind-appcompat:assemble
 > Task :corbind-appcompat:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 1m 5s
 74 actionable tasks: 74 executed
 
-2019-10-25 15:16:45,025 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:16:45,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:16:53,135 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:16:53,135 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:16:53,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:17:25,506 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:22:16,926 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:22:16,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:22:26,250 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:22:26,250 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:22:26,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:22:54,577 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -238,51 +241,51 @@ BUILD SUCCESSFUL in 57s
 > Task :corbind-core:generateDebugAssets
 > Task :corbind-core:packageDebugAssets
 > Task :corbind-core:packageDebugRenderscript NO-SOURCE
+> Task :corbind-core:processReleaseManifest
 > Task :corbind-core:processDebugJavaRes NO-SOURCE
 > Task :corbind-core:mergeDebugJniLibFolders
 > Task :corbind-core:prepareLintJarForPublish
 > Task :corbind-core:mergeReleaseShaders
-> Task :corbind-core:processDebugManifest
 > Task :corbind-core:compileReleaseShaders
 > Task :corbind-core:generateReleaseAssets
 > Task :corbind-core:packageReleaseAssets
 > Task :corbind-core:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-core:processReleaseJavaRes NO-SOURCE
+> Task :corbind-core:parseDebugLibraryResources
 > Task :corbind-core:mergeReleaseJniLibFolders
 > Task :corbind-core:mergeReleaseResources
-> Task :corbind-core:mergeReleaseNativeLibs
-> Task :corbind-core:stripReleaseDebugSymbols
-> Task :corbind-core:transformNativeLibsWithSyncJniLibsForRelease
+> Task :corbind-core:parseReleaseLibraryResources
 > Task :corbind-core:mergeDebugNativeLibs
 > Task :corbind-core:stripDebugDebugSymbols
 > Task :corbind-core:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind-core:parseReleaseLibraryResources
-> Task :corbind-core:processReleaseManifest
+> Task :corbind-core:processDebugManifest
+> Task :corbind-core:mergeReleaseNativeLibs
+> Task :corbind-core:stripReleaseDebugSymbols
+> Task :corbind-core:transformNativeLibsWithSyncJniLibsForRelease
 > Task :corbind-core:generateReleaseRFile
 > Task :corbind-core:compileReleaseKotlin
-> Task :corbind-core:verifyReleaseResources
-> Task :corbind-core:parseDebugLibraryResources
+> Task :corbind-core:generateDebugRFile
+> Task :corbind-core:dokka
+> Task :corbind-core:androidJavadocsJar
+> Task :corbind-core:compileDebugKotlin
 > Task :corbind-core:javaPreCompileRelease
 > Task :corbind-core:compileReleaseJavaWithJavac
 > Task :corbind-core:extractReleaseAnnotations
 > Task :corbind-core:mergeReleaseGeneratedProguardFiles
 > Task :corbind-core:mergeReleaseConsumerProguardFiles
 > Task :corbind-core:compileReleaseSources
-> Task :corbind-core:generateDebugRFile
-> Task :corbind-core:dokka
-> Task :corbind-core:androidJavadocsJar
-> Task :corbind-core:compileDebugKotlin
-> Task :corbind-core:mergeReleaseJavaResource
-> Task :corbind-core:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :corbind-core:bundleReleaseAar
-> Task :corbind-core:assembleRelease
-> Task :corbind-core:signArchives SKIPPED
 > Task :corbind-core:javaPreCompileDebug
 > Task :corbind-core:compileDebugJavaWithJavac
 > Task :corbind-core:extractDebugAnnotations
 > Task :corbind-core:mergeDebugGeneratedProguardFiles
 > Task :corbind-core:mergeDebugConsumerProguardFiles
 > Task :corbind-core:compileDebugSources
+> Task :corbind-core:mergeReleaseJavaResource
+> Task :corbind-core:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :corbind-core:bundleReleaseAar
+> Task :corbind-core:signArchives SKIPPED
+> Task :corbind-core:verifyReleaseResources
+> Task :corbind-core:assembleRelease
 > Task :corbind-core:mergeDebugJavaResource
 > Task :corbind-core:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :corbind-core:bundleDebugAar
@@ -290,19 +293,19 @@ BUILD SUCCESSFUL in 57s
 > Task :corbind-core:assemble
 > Task :corbind-core:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 27s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:17:25,676 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:17:25,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-drawerlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:17:35,069 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:17:35,070 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:17:35,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-drawerlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:18:05,442 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:22:54,661 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:22:54,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-drawerlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:23:03,655 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:23:03,655 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:23:03,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-drawerlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:23:40,048 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -359,71 +362,71 @@ BUILD SUCCESSFUL in 31s
 > Task :corbind-drawerlayout:generateDebugAssets
 > Task :corbind-drawerlayout:packageDebugAssets
 > Task :corbind-drawerlayout:packageDebugRenderscript NO-SOURCE
+> Task :corbind-drawerlayout:parseReleaseLibraryResources
 > Task :corbind-drawerlayout:processDebugJavaRes NO-SOURCE
 > Task :corbind-drawerlayout:mergeDebugJniLibFolders
-> Task :corbind-drawerlayout:prepareLintJarForPublish
 > Task :corbind-drawerlayout:mergeReleaseShaders
 > Task :corbind-drawerlayout:compileReleaseShaders
 > Task :corbind-drawerlayout:generateReleaseAssets
 > Task :corbind-drawerlayout:packageReleaseAssets
 > Task :corbind-drawerlayout:packageReleaseRenderscript NO-SOURCE
-> Task :corbind-drawerlayout:processDebugManifest
 > Task :corbind-drawerlayout:processReleaseJavaRes NO-SOURCE
 > Task :corbind-drawerlayout:mergeReleaseJniLibFolders
-> Task :corbind-drawerlayout:mergeReleaseResources
 > Task :corbind-drawerlayout:processReleaseManifest
-> Task :corbind-drawerlayout:parseDebugLibraryResources
-> Task :corbind-drawerlayout:parseReleaseLibraryResources
-> Task :corbind-drawerlayout:mergeReleaseNativeLibs
-> Task :corbind-drawerlayout:stripReleaseDebugSymbols
-> Task :corbind-drawerlayout:transformNativeLibsWithSyncJniLibsForRelease
+> Task :corbind-drawerlayout:mergeReleaseResources
+> Task :corbind-drawerlayout:generateReleaseRFile
+> Task :corbind-drawerlayout:compileReleaseKotlin
 > Task :corbind-drawerlayout:mergeDebugNativeLibs
 > Task :corbind-drawerlayout:stripDebugDebugSymbols
 > Task :corbind-drawerlayout:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind-drawerlayout:generateDebugRFile
-> Task :corbind-drawerlayout:compileDebugKotlin
+> Task :corbind-drawerlayout:mergeReleaseNativeLibs
+> Task :corbind-drawerlayout:stripReleaseDebugSymbols
+> Task :corbind-drawerlayout:transformNativeLibsWithSyncJniLibsForRelease
+> Task :corbind-drawerlayout:javaPreCompileRelease
+> Task :corbind-drawerlayout:compileReleaseJavaWithJavac
+> Task :corbind-drawerlayout:extractReleaseAnnotations
+> Task :corbind-drawerlayout:mergeReleaseGeneratedProguardFiles
+> Task :corbind-drawerlayout:mergeReleaseConsumerProguardFiles
+> Task :corbind-drawerlayout:processDebugManifest
+> Task :corbind-drawerlayout:compileReleaseSources
 > Task :corbind-drawerlayout:verifyReleaseResources
-> Task :corbind-drawerlayout:generateReleaseRFile
+> Task :corbind-drawerlayout:prepareLintJarForPublish
+> Task :corbind-drawerlayout:parseDebugLibraryResources
+> Task :corbind-drawerlayout:generateDebugRFile
 > Task :corbind-drawerlayout:dokka
 > Task :corbind-drawerlayout:androidJavadocsJar
-> Task :corbind-drawerlayout:compileReleaseKotlin
+> Task :corbind-drawerlayout:compileDebugKotlin
+> Task :corbind-drawerlayout:mergeReleaseJavaResource
+> Task :corbind-drawerlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :corbind-drawerlayout:bundleReleaseAar
+> Task :corbind-drawerlayout:assembleRelease
+> Task :corbind-drawerlayout:signArchives SKIPPED
 > Task :corbind-drawerlayout:javaPreCompileDebug
 > Task :corbind-drawerlayout:compileDebugJavaWithJavac
 > Task :corbind-drawerlayout:extractDebugAnnotations
 > Task :corbind-drawerlayout:mergeDebugGeneratedProguardFiles
 > Task :corbind-drawerlayout:mergeDebugConsumerProguardFiles
 > Task :corbind-drawerlayout:compileDebugSources
-> Task :corbind-drawerlayout:javaPreCompileRelease
-> Task :corbind-drawerlayout:compileReleaseJavaWithJavac
-> Task :corbind-drawerlayout:extractReleaseAnnotations
-> Task :corbind-drawerlayout:mergeReleaseGeneratedProguardFiles
-> Task :corbind-drawerlayout:mergeReleaseConsumerProguardFiles
-> Task :corbind-drawerlayout:compileReleaseSources
 > Task :corbind-drawerlayout:mergeDebugJavaResource
 > Task :corbind-drawerlayout:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :corbind-drawerlayout:bundleDebugAar
 > Task :corbind-drawerlayout:assembleDebug
-> Task :corbind-drawerlayout:mergeReleaseJavaResource
-> Task :corbind-drawerlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :corbind-drawerlayout:bundleReleaseAar
-> Task :corbind-drawerlayout:assembleRelease
-> Task :corbind-drawerlayout:signArchives SKIPPED
 > Task :corbind-drawerlayout:assemble
 > Task :corbind-drawerlayout:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 35s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:18:05,600 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:18:05,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-leanback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:18:15,412 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:18:15,413 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:18:15,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-leanback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:18:49,814 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:23:40,147 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:23:40,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-leanback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:23:47,729 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:23:47,729 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:23:47,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-leanback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:24:24,144 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -477,13 +480,13 @@ BUILD SUCCESSFUL in 29s
 > Task :corbind-leanback:androidSourcesJar
 > Task :corbind-leanback:mergeDebugShaders
 > Task :corbind-leanback:compileDebugShaders
-> Task :corbind-leanback:parseDebugLibraryResources
 > Task :corbind-leanback:generateDebugAssets
 > Task :corbind-leanback:packageDebugAssets
+> Task :corbind-leanback:parseDebugLibraryResources
 > Task :corbind-leanback:packageDebugRenderscript NO-SOURCE
-> Task :corbind-leanback:processReleaseManifest
 > Task :corbind-leanback:processDebugJavaRes NO-SOURCE
 > Task :corbind-leanback:mergeDebugJniLibFolders
+> Task :corbind-leanback:prepareLintJarForPublish
 > Task :corbind-leanback:mergeReleaseShaders
 > Task :corbind-leanback:compileReleaseShaders
 > Task :corbind-leanback:generateReleaseAssets
@@ -491,40 +494,40 @@ BUILD SUCCESSFUL in 29s
 > Task :corbind-leanback:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-leanback:processReleaseJavaRes NO-SOURCE
 > Task :corbind-leanback:mergeReleaseJniLibFolders
-> Task :corbind-leanback:parseReleaseLibraryResources
+> Task :corbind-leanback:processReleaseManifest
 > Task :corbind-leanback:mergeReleaseResources
-> Task :corbind-leanback:generateReleaseRFile
-> Task :corbind-leanback:compileReleaseKotlin
+> Task :corbind-leanback:processDebugManifest
 > Task :corbind-leanback:mergeDebugNativeLibs
 > Task :corbind-leanback:stripDebugDebugSymbols
 > Task :corbind-leanback:transformNativeLibsWithSyncJniLibsForDebug
+> Task :corbind-leanback:parseReleaseLibraryResources
+> Task :corbind-leanback:mergeReleaseNativeLibs
+> Task :corbind-leanback:stripReleaseDebugSymbols
+> Task :corbind-leanback:transformNativeLibsWithSyncJniLibsForRelease
+> Task :corbind-leanback:generateReleaseRFile
+> Task :corbind-leanback:compileReleaseKotlin
+> Task :corbind-leanback:generateDebugRFile
+> Task :corbind-leanback:dokka
+> Task :corbind-leanback:androidJavadocsJar
+> Task :corbind-leanback:compileDebugKotlin
 > Task :corbind-leanback:javaPreCompileRelease
 > Task :corbind-leanback:compileReleaseJavaWithJavac
 > Task :corbind-leanback:extractReleaseAnnotations
 > Task :corbind-leanback:mergeReleaseGeneratedProguardFiles
 > Task :corbind-leanback:mergeReleaseConsumerProguardFiles
-> Task :corbind-leanback:prepareLintJarForPublish
 > Task :corbind-leanback:compileReleaseSources
-> Task :corbind-leanback:processDebugManifest
-> Task :corbind-leanback:mergeReleaseNativeLibs
-> Task :corbind-leanback:stripReleaseDebugSymbols
-> Task :corbind-leanback:transformNativeLibsWithSyncJniLibsForRelease
-> Task :corbind-leanback:verifyReleaseResources
-> Task :corbind-leanback:mergeReleaseJavaResource
-> Task :corbind-leanback:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :corbind-leanback:bundleReleaseAar
-> Task :corbind-leanback:assembleRelease
-> Task :corbind-leanback:generateDebugRFile
-> Task :corbind-leanback:dokka
-> Task :corbind-leanback:androidJavadocsJar
-> Task :corbind-leanback:compileDebugKotlin
-> Task :corbind-leanback:signArchives SKIPPED
 > Task :corbind-leanback:javaPreCompileDebug
 > Task :corbind-leanback:compileDebugJavaWithJavac
 > Task :corbind-leanback:extractDebugAnnotations
 > Task :corbind-leanback:mergeDebugGeneratedProguardFiles
 > Task :corbind-leanback:mergeDebugConsumerProguardFiles
 > Task :corbind-leanback:compileDebugSources
+> Task :corbind-leanback:mergeReleaseJavaResource
+> Task :corbind-leanback:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :corbind-leanback:bundleReleaseAar
+> Task :corbind-leanback:signArchives SKIPPED
+> Task :corbind-leanback:verifyReleaseResources
+> Task :corbind-leanback:assembleRelease
 > Task :corbind-leanback:mergeDebugJavaResource
 > Task :corbind-leanback:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :corbind-leanback:bundleDebugAar
@@ -532,19 +535,19 @@ BUILD SUCCESSFUL in 29s
 > Task :corbind-leanback:assemble
 > Task :corbind-leanback:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 35s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:18:50,055 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:18:50,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-material/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:18:59,880 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:18:59,881 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:18:59,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-material/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:19:55,690 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:24:24,300 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:24:24,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-material/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:24:33,211 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:24:33,211 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:24:33,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-material/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:25:21,544 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -597,14 +600,14 @@ BUILD SUCCESSFUL in 32s
 > Task :corbind-material:packageReleaseResources
 > Task :corbind-material:androidSourcesJar
 > Task :corbind-material:mergeDebugShaders
+> Task :corbind-material:processReleaseManifest
 > Task :corbind-material:compileDebugShaders
 > Task :corbind-material:generateDebugAssets
 > Task :corbind-material:packageDebugAssets
 > Task :corbind-material:packageDebugRenderscript NO-SOURCE
-> Task :corbind-material:parseReleaseLibraryResources
 > Task :corbind-material:processDebugJavaRes NO-SOURCE
 > Task :corbind-material:mergeDebugJniLibFolders
-> Task :corbind-material:processReleaseManifest
+> Task :corbind-material:parseReleaseLibraryResources
 > Task :corbind-material:mergeReleaseShaders
 > Task :corbind-material:compileReleaseShaders
 > Task :corbind-material:generateReleaseAssets
@@ -612,60 +615,181 @@ BUILD SUCCESSFUL in 32s
 > Task :corbind-material:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-material:processReleaseJavaRes NO-SOURCE
 > Task :corbind-material:mergeReleaseJniLibFolders
+> Task :corbind-material:parseDebugLibraryResources
 > Task :corbind-material:mergeReleaseResources
-> Task :corbind-material:mergeDebugNativeLibs
-> Task :corbind-material:stripDebugDebugSymbols
-> Task :corbind-material:transformNativeLibsWithSyncJniLibsForDebug
 > Task :corbind-material:generateReleaseRFile
 > Task :corbind-material:compileReleaseKotlin
-> Task :corbind-material:prepareLintJarForPublish
+> Task :corbind-material:processDebugManifest
 > Task :corbind-material:mergeReleaseNativeLibs
 > Task :corbind-material:stripReleaseDebugSymbols
 > Task :corbind-material:transformNativeLibsWithSyncJniLibsForRelease
-> Task :corbind-material:parseDebugLibraryResources
-> Task :corbind-material:processDebugManifest
-> Task :corbind-material:verifyReleaseResources
-> Task :corbind-material:javaPreCompileRelease
-> Task :corbind-material:compileReleaseJavaWithJavac
-> Task :corbind-material:extractReleaseAnnotations
-> Task :corbind-material:mergeReleaseGeneratedProguardFiles
-> Task :corbind-material:mergeReleaseConsumerProguardFiles
-> Task :corbind-material:compileReleaseSources
 > Task :corbind-material:generateDebugRFile
+> Task :corbind-material:prepareLintJarForPublish
+> Task :corbind-material:mergeDebugNativeLibs
 > Task :corbind-material:dokka
 > Task :corbind-material:androidJavadocsJar
 > Task :corbind-material:compileDebugKotlin
-> Task :corbind-material:mergeReleaseJavaResource
-> Task :corbind-material:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :corbind-material:bundleReleaseAar
-> Task :corbind-material:assembleRelease
-> Task :corbind-material:signArchives SKIPPED
+> Task :corbind-material:stripDebugDebugSymbols
+> Task :corbind-material:transformNativeLibsWithSyncJniLibsForDebug
 > Task :corbind-material:javaPreCompileDebug
 > Task :corbind-material:compileDebugJavaWithJavac
 > Task :corbind-material:extractDebugAnnotations
 > Task :corbind-material:mergeDebugGeneratedProguardFiles
 > Task :corbind-material:mergeDebugConsumerProguardFiles
 > Task :corbind-material:compileDebugSources
+> Task :corbind-material:javaPreCompileRelease
+> Task :corbind-material:compileReleaseJavaWithJavac
+> Task :corbind-material:extractReleaseAnnotations
+> Task :corbind-material:mergeReleaseGeneratedProguardFiles
+> Task :corbind-material:mergeReleaseConsumerProguardFiles
+> Task :corbind-material:verifyReleaseResources
+> Task :corbind-material:compileReleaseSources
 > Task :corbind-material:mergeDebugJavaResource
 > Task :corbind-material:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :corbind-material:bundleDebugAar
 > Task :corbind-material:assembleDebug
+> Task :corbind-material:mergeReleaseJavaResource
+> Task :corbind-material:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :corbind-material:bundleReleaseAar
+> Task :corbind-material:assembleRelease
+> Task :corbind-material:signArchives SKIPPED
 > Task :corbind-material:assemble
 > Task :corbind-material:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 47s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:19:55,959 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:19:55,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-recyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:20:04,895 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:20:04,897 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:20:04,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-recyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:20:39,011 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:25:21,726 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:25:21,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:25:30,457 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:25:30,458 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:25:30,458 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-navigation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:26:05,068 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :corbind:preBuild UP-TO-DATE
+> Task :corbind:preDebugBuild UP-TO-DATE
+> Task :corbind:compileDebugAidl NO-SOURCE
+> Task :corbind:compileDebugRenderscript NO-SOURCE
+> Task :corbind:checkDebugManifest UP-TO-DATE
+> Task :corbind:generateDebugBuildConfig UP-TO-DATE
+> Task :corbind:generateDebugResValues UP-TO-DATE
+> Task :corbind:generateDebugResources UP-TO-DATE
+> Task :corbind:packageDebugResources UP-TO-DATE
+> Task :corbind:parseDebugLibraryResources UP-TO-DATE
+> Task :corbind:processDebugManifest UP-TO-DATE
+> Task :corbind:generateDebugRFile UP-TO-DATE
+> Task :corbind:compileDebugKotlin UP-TO-DATE
+> Task :corbind:javaPreCompileDebug UP-TO-DATE
+> Task :corbind:compileDebugJavaWithJavac UP-TO-DATE
+> Task :corbind:bundleLibCompileDebug UP-TO-DATE
+> Task :corbind:preReleaseBuild UP-TO-DATE
+> Task :corbind:compileReleaseAidl NO-SOURCE
+> Task :corbind:compileReleaseRenderscript NO-SOURCE
+> Task :corbind:checkReleaseManifest UP-TO-DATE
+> Task :corbind:generateReleaseBuildConfig UP-TO-DATE
+> Task :corbind:generateReleaseResValues UP-TO-DATE
+> Task :corbind:generateReleaseResources UP-TO-DATE
+> Task :corbind:packageReleaseResources UP-TO-DATE
+> Task :corbind:parseReleaseLibraryResources UP-TO-DATE
+> Task :corbind:processReleaseManifest UP-TO-DATE
+> Task :corbind:generateReleaseRFile UP-TO-DATE
+> Task :corbind:compileReleaseKotlin UP-TO-DATE
+> Task :corbind:javaPreCompileRelease UP-TO-DATE
+> Task :corbind:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :corbind:bundleLibCompileRelease UP-TO-DATE
+> Task :corbind-navigation:preBuild UP-TO-DATE
+> Task :corbind-navigation:preDebugBuild UP-TO-DATE
+> Task :corbind-navigation:compileDebugAidl NO-SOURCE
+> Task :corbind:packageDebugRenderscript NO-SOURCE
+> Task :corbind-navigation:compileDebugRenderscript NO-SOURCE
+> Task :corbind-navigation:preReleaseBuild UP-TO-DATE
+> Task :corbind-navigation:compileReleaseAidl NO-SOURCE
+> Task :corbind:packageReleaseRenderscript NO-SOURCE
+> Task :corbind-navigation:compileReleaseRenderscript NO-SOURCE
+> Task :corbind-navigation:checkDebugManifest
+> Task :corbind-navigation:generateDebugBuildConfig
+> Task :corbind-navigation:generateDebugResValues
+> Task :corbind-navigation:generateDebugResources
+> Task :corbind-navigation:packageDebugResources
+> Task :corbind-navigation:checkReleaseManifest
+> Task :corbind-navigation:generateReleaseBuildConfig
+> Task :corbind-navigation:generateReleaseResValues
+> Task :corbind-navigation:generateReleaseResources
+> Task :corbind-navigation:packageReleaseResources
+> Task :corbind-navigation:androidSourcesJar
+> Task :corbind-navigation:mergeDebugShaders
+> Task :corbind-navigation:compileDebugShaders
+> Task :corbind-navigation:generateDebugAssets
+> Task :corbind-navigation:packageDebugAssets
+> Task :corbind-navigation:packageDebugRenderscript NO-SOURCE
+> Task :corbind-navigation:processDebugJavaRes NO-SOURCE
+> Task :corbind-navigation:mergeDebugJniLibFolders
+> Task :corbind-navigation:prepareLintJarForPublish
+> Task :corbind-navigation:mergeReleaseShaders
+> Task :corbind-navigation:compileReleaseShaders
+> Task :corbind-navigation:generateReleaseAssets
+> Task :corbind-navigation:packageReleaseAssets
+> Task :corbind-navigation:packageReleaseRenderscript NO-SOURCE
+> Task :corbind-navigation:processReleaseJavaRes NO-SOURCE
+> Task :corbind-navigation:mergeReleaseJniLibFolders
+> Task :corbind-navigation:parseDebugLibraryResources
+> Task :corbind-navigation:mergeReleaseResources
+> Task :corbind-navigation:mergeDebugNativeLibs
+> Task :corbind-navigation:stripDebugDebugSymbols
+> Task :corbind-navigation:transformNativeLibsWithSyncJniLibsForDebug
+> Task :corbind-navigation:mergeReleaseNativeLibs
+> Task :corbind-navigation:stripReleaseDebugSymbols
+> Task :corbind-navigation:transformNativeLibsWithSyncJniLibsForRelease
+> Task :corbind-navigation:processReleaseManifest
+> Task :corbind-navigation:processDebugManifest
+> Task :corbind-navigation:parseReleaseLibraryResources
+> Task :corbind-navigation:generateDebugRFile
+> Task :corbind-navigation:compileDebugKotlin
+> Task :corbind-navigation:generateReleaseRFile
+> Task :corbind-navigation:dokka
+> Task :corbind-navigation:androidJavadocsJar
+> Task :corbind-navigation:compileReleaseKotlin
+> Task :corbind-navigation:javaPreCompileDebug
+> Task :corbind-navigation:compileDebugJavaWithJavac
+> Task :corbind-navigation:extractDebugAnnotations
+> Task :corbind-navigation:mergeDebugGeneratedProguardFiles
+> Task :corbind-navigation:mergeDebugConsumerProguardFiles
+> Task :corbind-navigation:compileDebugSources
+> Task :corbind-navigation:javaPreCompileRelease
+> Task :corbind-navigation:compileReleaseJavaWithJavac
+> Task :corbind-navigation:extractReleaseAnnotations
+> Task :corbind-navigation:mergeReleaseGeneratedProguardFiles
+> Task :corbind-navigation:mergeReleaseConsumerProguardFiles
+> Task :corbind-navigation:compileReleaseSources
+> Task :corbind-navigation:verifyReleaseResources
+> Task :corbind-navigation:mergeDebugJavaResource
+> Task :corbind-navigation:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :corbind-navigation:bundleDebugAar
+> Task :corbind-navigation:assembleDebug
+> Task :corbind-navigation:mergeReleaseJavaResource
+> Task :corbind-navigation:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :corbind-navigation:bundleReleaseAar
+> Task :corbind-navigation:assembleRelease
+> Task :corbind-navigation:signArchives SKIPPED
+> Task :corbind-navigation:assemble
+> Task :corbind-navigation:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 33s
+74 actionable tasks: 52 executed, 22 up-to-date
+
+2019-12-29 20:26:05,257 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:26:05,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-recyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:26:13,311 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:26:13,311 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:26:13,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-recyclerview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:26:42,064 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -722,9 +846,13 @@ BUILD SUCCESSFUL in 55s
 > Task :corbind-recyclerview:generateDebugAssets
 > Task :corbind-recyclerview:packageDebugAssets
 > Task :corbind-recyclerview:packageDebugRenderscript NO-SOURCE
-> Task :corbind-recyclerview:processDebugManifest
+> Task :corbind-recyclerview:parseReleaseLibraryResources
 > Task :corbind-recyclerview:processDebugJavaRes NO-SOURCE
 > Task :corbind-recyclerview:mergeDebugJniLibFolders
+> Task :corbind-recyclerview:processReleaseManifest
+> Task :corbind-recyclerview:mergeDebugNativeLibs
+> Task :corbind-recyclerview:stripDebugDebugSymbols
+> Task :corbind-recyclerview:transformNativeLibsWithSyncJniLibsForDebug
 > Task :corbind-recyclerview:mergeReleaseShaders
 > Task :corbind-recyclerview:compileReleaseShaders
 > Task :corbind-recyclerview:generateReleaseAssets
@@ -733,56 +861,56 @@ BUILD SUCCESSFUL in 55s
 > Task :corbind-recyclerview:processReleaseJavaRes NO-SOURCE
 > Task :corbind-recyclerview:mergeReleaseJniLibFolders
 > Task :corbind-recyclerview:mergeReleaseResources
+> Task :corbind-recyclerview:generateReleaseRFile
+> Task :corbind-recyclerview:compileReleaseKotlin
 > Task :corbind-recyclerview:parseDebugLibraryResources
 > Task :corbind-recyclerview:prepareLintJarForPublish
-> Task :corbind-recyclerview:mergeDebugNativeLibs
-> Task :corbind-recyclerview:stripDebugDebugSymbols
-> Task :corbind-recyclerview:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind-recyclerview:parseReleaseLibraryResources
-> Task :corbind-recyclerview:processReleaseManifest
-> Task :corbind-recyclerview:generateDebugRFile
-> Task :corbind-recyclerview:compileDebugKotlin
+> Task :corbind-recyclerview:verifyReleaseResources
+> Task :corbind-recyclerview:processDebugManifest
 > Task :corbind-recyclerview:mergeReleaseNativeLibs
 > Task :corbind-recyclerview:stripReleaseDebugSymbols
 > Task :corbind-recyclerview:transformNativeLibsWithSyncJniLibsForRelease
-> Task :corbind-recyclerview:javaPreCompileDebug
-> Task :corbind-recyclerview:compileDebugJavaWithJavac
-> Task :corbind-recyclerview:extractDebugAnnotations
-> Task :corbind-recyclerview:mergeDebugGeneratedProguardFiles
-> Task :corbind-recyclerview:mergeDebugConsumerProguardFiles
-> Task :corbind-recyclerview:compileDebugSources
-> Task :corbind-recyclerview:verifyReleaseResources
-> Task :corbind-recyclerview:generateReleaseRFile
-> Task :corbind-recyclerview:dokka
-> Task :corbind-recyclerview:androidJavadocsJar
-> Task :corbind-recyclerview:compileReleaseKotlin
-> Task :corbind-recyclerview:mergeDebugJavaResource
-> Task :corbind-recyclerview:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :corbind-recyclerview:bundleDebugAar
-> Task :corbind-recyclerview:assembleDebug
 > Task :corbind-recyclerview:javaPreCompileRelease
 > Task :corbind-recyclerview:compileReleaseJavaWithJavac
 > Task :corbind-recyclerview:extractReleaseAnnotations
 > Task :corbind-recyclerview:mergeReleaseGeneratedProguardFiles
 > Task :corbind-recyclerview:mergeReleaseConsumerProguardFiles
 > Task :corbind-recyclerview:compileReleaseSources
+> Task :corbind-recyclerview:generateDebugRFile
+> Task :corbind-recyclerview:dokka
+> Task :corbind-recyclerview:androidJavadocsJar
+> Task :corbind-recyclerview:compileDebugKotlin
 > Task :corbind-recyclerview:mergeReleaseJavaResource
 > Task :corbind-recyclerview:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :corbind-recyclerview:bundleReleaseAar
 > Task :corbind-recyclerview:assembleRelease
 > Task :corbind-recyclerview:signArchives SKIPPED
+> Task :corbind-recyclerview:javaPreCompileDebug
+> Task :corbind-recyclerview:compileDebugJavaWithJavac
+> Task :corbind-recyclerview:extractDebugAnnotations
+> Task :corbind-recyclerview:mergeDebugGeneratedProguardFiles
+> Task :corbind-recyclerview:mergeDebugConsumerProguardFiles
+> Task :corbind-recyclerview:compileDebugSources
+> Task :corbind-recyclerview:mergeDebugJavaResource
+> Task :corbind-recyclerview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :corbind-recyclerview:bundleDebugAar
+> Task :corbind-recyclerview:assembleDebug
 > Task :corbind-recyclerview:assemble
 > Task :corbind-recyclerview:build
 
-BUILD SUCCESSFUL in 33s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 28s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:20:39,460 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:20:39,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:20:52,426 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:20:52,427 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:20:52,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:21:29,274 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:26:42,262 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:26:42,263 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:26:49,500 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:26:49,500 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:26:49,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-slidingpanelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:27:12,905 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -836,13 +964,12 @@ BUILD SUCCESSFUL in 33s
 > Task :corbind-slidingpanelayout:androidSourcesJar
 > Task :corbind-slidingpanelayout:mergeDebugShaders
 > Task :corbind-slidingpanelayout:compileDebugShaders
-> Task :corbind-slidingpanelayout:processDebugManifest
 > Task :corbind-slidingpanelayout:generateDebugAssets
 > Task :corbind-slidingpanelayout:packageDebugAssets
 > Task :corbind-slidingpanelayout:packageDebugRenderscript NO-SOURCE
-> Task :corbind-slidingpanelayout:parseReleaseLibraryResources
 > Task :corbind-slidingpanelayout:processDebugJavaRes NO-SOURCE
 > Task :corbind-slidingpanelayout:mergeDebugJniLibFolders
+> Task :corbind-slidingpanelayout:parseReleaseLibraryResources
 > Task :corbind-slidingpanelayout:mergeReleaseShaders
 > Task :corbind-slidingpanelayout:compileReleaseShaders
 > Task :corbind-slidingpanelayout:generateReleaseAssets
@@ -850,56 +977,61 @@ BUILD SUCCESSFUL in 33s
 > Task :corbind-slidingpanelayout:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-slidingpanelayout:processReleaseJavaRes NO-SOURCE
 > Task :corbind-slidingpanelayout:mergeReleaseJniLibFolders
-> Task :corbind-slidingpanelayout:mergeReleaseResources
-> Task :corbind-slidingpanelayout:processReleaseManifest
 > Task :corbind-slidingpanelayout:parseDebugLibraryResources
-> Task :corbind-slidingpanelayout:prepareLintJarForPublish
-> Task :corbind-slidingpanelayout:mergeReleaseNativeLibs
-> Task :corbind-slidingpanelayout:stripReleaseDebugSymbols
-> Task :corbind-slidingpanelayout:transformNativeLibsWithSyncJniLibsForRelease
+> Task :corbind-slidingpanelayout:mergeReleaseResources
 > Task :corbind-slidingpanelayout:mergeDebugNativeLibs
 > Task :corbind-slidingpanelayout:stripDebugDebugSymbols
 > Task :corbind-slidingpanelayout:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind-slidingpanelayout:generateDebugRFile
-> Task :corbind-slidingpanelayout:compileDebugKotlin
-> Task :corbind-slidingpanelayout:verifyReleaseResources
+> Task :corbind-slidingpanelayout:processReleaseManifest
+> Task :corbind-slidingpanelayout:processDebugManifest
+> Task :corbind-slidingpanelayout:mergeReleaseNativeLibs
+> Task :corbind-slidingpanelayout:stripReleaseDebugSymbols
+> Task :corbind-slidingpanelayout:transformNativeLibsWithSyncJniLibsForRelease
 > Task :corbind-slidingpanelayout:generateReleaseRFile
-> Task :corbind-slidingpanelayout:dokka
-> Task :corbind-slidingpanelayout:androidJavadocsJar
 > Task :corbind-slidingpanelayout:compileReleaseKotlin
+> Task :corbind-slidingpanelayout:verifyReleaseResources
+> Task :corbind-slidingpanelayout:generateDebugRFile
+> Task :corbind-slidingpanelayout:dokka
+> Task :corbind-slidingpanelayout:javaPreCompileRelease
+> Task :corbind-slidingpanelayout:androidJavadocsJar
+> Task :corbind-slidingpanelayout:compileDebugKotlin
+> Task :corbind-slidingpanelayout:compileReleaseJavaWithJavac
+> Task :corbind-slidingpanelayout:extractReleaseAnnotations
+> Task :corbind-slidingpanelayout:mergeReleaseGeneratedProguardFiles
+> Task :corbind-slidingpanelayout:mergeReleaseConsumerProguardFiles
+> Task :corbind-slidingpanelayout:prepareLintJarForPublish
+> Task :corbind-slidingpanelayout:compileReleaseSources
 > Task :corbind-slidingpanelayout:javaPreCompileDebug
 > Task :corbind-slidingpanelayout:compileDebugJavaWithJavac
 > Task :corbind-slidingpanelayout:extractDebugAnnotations
 > Task :corbind-slidingpanelayout:mergeDebugGeneratedProguardFiles
 > Task :corbind-slidingpanelayout:mergeDebugConsumerProguardFiles
-> Task :corbind-slidingpanelayout:javaPreCompileRelease
 > Task :corbind-slidingpanelayout:compileDebugSources
-> Task :corbind-slidingpanelayout:compileReleaseJavaWithJavac
-> Task :corbind-slidingpanelayout:extractReleaseAnnotations
-> Task :corbind-slidingpanelayout:mergeReleaseGeneratedProguardFiles
-> Task :corbind-slidingpanelayout:mergeReleaseConsumerProguardFiles
-> Task :corbind-slidingpanelayout:mergeDebugJavaResource
-> Task :corbind-slidingpanelayout:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :corbind-slidingpanelayout:bundleDebugAar
-> Task :corbind-slidingpanelayout:assembleDebug
-> Task :corbind-slidingpanelayout:compileReleaseSources
 > Task :corbind-slidingpanelayout:mergeReleaseJavaResource
 > Task :corbind-slidingpanelayout:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :corbind-slidingpanelayout:bundleReleaseAar
 > Task :corbind-slidingpanelayout:assembleRelease
 > Task :corbind-slidingpanelayout:signArchives SKIPPED
+> Task :corbind-slidingpanelayout:mergeDebugJavaResource
+> Task :corbind-slidingpanelayout:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :corbind-slidingpanelayout:bundleDebugAar
+> Task :corbind-slidingpanelayout:assembleDebug
 > Task :corbind-slidingpanelayout:assemble
 > Task :corbind-slidingpanelayout:build
 
-BUILD SUCCESSFUL in 36s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 22s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:21:29,672 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:21:29,674 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:21:41,165 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:21:41,166 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:21:41,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:22:26,845 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:27:13,137 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:27:13,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:27:20,736 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:27:20,736 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:27:20,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-swiperefreshlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:27:43,142 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -975,17 +1107,17 @@ BUILD SUCCESSFUL in 36s
 > Task :corbind-swiperefreshlayout:stripDebugDebugSymbols
 > Task :corbind-swiperefreshlayout:transformNativeLibsWithSyncJniLibsForDebug
 > Task :corbind-swiperefreshlayout:parseReleaseLibraryResources
+> Task :corbind-swiperefreshlayout:parseDebugLibraryResources
 > Task :corbind-swiperefreshlayout:processReleaseManifest
 > Task :corbind-swiperefreshlayout:generateReleaseRFile
 > Task :corbind-swiperefreshlayout:compileReleaseKotlin
 > Task :corbind-swiperefreshlayout:verifyReleaseResources
-> Task :corbind-swiperefreshlayout:parseDebugLibraryResources
-> Task :corbind-swiperefreshlayout:javaPreCompileRelease
-> Task :corbind-swiperefreshlayout:compileReleaseJavaWithJavac
 > Task :corbind-swiperefreshlayout:generateDebugRFile
 > Task :corbind-swiperefreshlayout:dokka
 > Task :corbind-swiperefreshlayout:androidJavadocsJar
 > Task :corbind-swiperefreshlayout:compileDebugKotlin
+> Task :corbind-swiperefreshlayout:javaPreCompileRelease
+> Task :corbind-swiperefreshlayout:compileReleaseJavaWithJavac
 > Task :corbind-swiperefreshlayout:extractReleaseAnnotations
 > Task :corbind-swiperefreshlayout:mergeReleaseGeneratedProguardFiles
 > Task :corbind-swiperefreshlayout:mergeReleaseConsumerProguardFiles
@@ -995,8 +1127,8 @@ BUILD SUCCESSFUL in 36s
 > Task :corbind-swiperefreshlayout:extractDebugAnnotations
 > Task :corbind-swiperefreshlayout:mergeDebugGeneratedProguardFiles
 > Task :corbind-swiperefreshlayout:mergeDebugConsumerProguardFiles
-> Task :corbind-swiperefreshlayout:mergeReleaseJavaResource
 > Task :corbind-swiperefreshlayout:compileDebugSources
+> Task :corbind-swiperefreshlayout:mergeReleaseJavaResource
 > Task :corbind-swiperefreshlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :corbind-swiperefreshlayout:bundleReleaseAar
 > Task :corbind-swiperefreshlayout:assembleRelease
@@ -1008,15 +1140,19 @@ BUILD SUCCESSFUL in 36s
 > Task :corbind-swiperefreshlayout:assemble
 > Task :corbind-swiperefreshlayout:build
 
-BUILD SUCCESSFUL in 44s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 21s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:22:27,291 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:22:27,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:22:37,565 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:22:37,566 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:22:37,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:23:07,317 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:27:43,377 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:27:43,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:27:50,527 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:27:50,527 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:27:50,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:28:14,437 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -1073,10 +1209,8 @@ BUILD SUCCESSFUL in 44s
 > Task :corbind-viewpager:generateDebugAssets
 > Task :corbind-viewpager:packageDebugAssets
 > Task :corbind-viewpager:packageDebugRenderscript NO-SOURCE
-> Task :corbind-viewpager:processReleaseManifest
 > Task :corbind-viewpager:processDebugJavaRes NO-SOURCE
 > Task :corbind-viewpager:mergeDebugJniLibFolders
-> Task :corbind-viewpager:prepareLintJarForPublish
 > Task :corbind-viewpager:mergeReleaseShaders
 > Task :corbind-viewpager:compileReleaseShaders
 > Task :corbind-viewpager:generateReleaseAssets
@@ -1084,22 +1218,25 @@ BUILD SUCCESSFUL in 44s
 > Task :corbind-viewpager:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-viewpager:processReleaseJavaRes NO-SOURCE
 > Task :corbind-viewpager:mergeReleaseJniLibFolders
-> Task :corbind-viewpager:processDebugManifest
+> Task :corbind-viewpager:parseDebugLibraryResources
 > Task :corbind-viewpager:mergeReleaseResources
-> Task :corbind-viewpager:mergeReleaseNativeLibs
-> Task :corbind-viewpager:stripReleaseDebugSymbols
-> Task :corbind-viewpager:transformNativeLibsWithSyncJniLibsForRelease
-> Task :corbind-viewpager:parseReleaseLibraryResources
 > Task :corbind-viewpager:mergeDebugNativeLibs
 > Task :corbind-viewpager:stripDebugDebugSymbols
 > Task :corbind-viewpager:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind-viewpager:parseDebugLibraryResources
+> Task :corbind-viewpager:parseReleaseLibraryResources
+> Task :corbind-viewpager:mergeReleaseNativeLibs
+> Task :corbind-viewpager:stripReleaseDebugSymbols
+> Task :corbind-viewpager:transformNativeLibsWithSyncJniLibsForRelease
+> Task :corbind-viewpager:prepareLintJarForPublish
+> Task :corbind-viewpager:processDebugManifest
+> Task :corbind-viewpager:processReleaseManifest
 > Task :corbind-viewpager:generateDebugRFile
 > Task :corbind-viewpager:compileDebugKotlin
 > Task :corbind-viewpager:generateReleaseRFile
 > Task :corbind-viewpager:dokka
 > Task :corbind-viewpager:androidJavadocsJar
 > Task :corbind-viewpager:compileReleaseKotlin
+> Task :corbind-viewpager:verifyReleaseResources
 > Task :corbind-viewpager:javaPreCompileDebug
 > Task :corbind-viewpager:compileDebugJavaWithJavac
 > Task :corbind-viewpager:extractDebugAnnotations
@@ -1119,21 +1256,24 @@ BUILD SUCCESSFUL in 44s
 > Task :corbind-viewpager:mergeReleaseJavaResource
 > Task :corbind-viewpager:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :corbind-viewpager:bundleReleaseAar
-> Task :corbind-viewpager:signArchives SKIPPED
-> Task :corbind-viewpager:verifyReleaseResources
 > Task :corbind-viewpager:assembleRelease
+> Task :corbind-viewpager:signArchives SKIPPED
 > Task :corbind-viewpager:assemble
 > Task :corbind-viewpager:build
 
-BUILD SUCCESSFUL in 29s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 23s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:23:07,776 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:23:07,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:23:16,172 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:23:16,173 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:23:16,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind-viewpager2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:23:46,441 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:28:14,683 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:28:14,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:28:22,341 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:28:22,341 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:28:22,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind-viewpager2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:28:48,738 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -1190,11 +1330,9 @@ BUILD SUCCESSFUL in 29s
 > Task :corbind-viewpager2:generateDebugAssets
 > Task :corbind-viewpager2:packageDebugAssets
 > Task :corbind-viewpager2:packageDebugRenderscript NO-SOURCE
-> Task :corbind-viewpager2:processDebugManifest
 > Task :corbind-viewpager2:processDebugJavaRes NO-SOURCE
 > Task :corbind-viewpager2:mergeDebugJniLibFolders
-> Task :corbind-viewpager2:parseDebugLibraryResources
-> Task :corbind-viewpager2:parseReleaseLibraryResources
+> Task :corbind-viewpager2:prepareLintJarForPublish
 > Task :corbind-viewpager2:mergeReleaseShaders
 > Task :corbind-viewpager2:compileReleaseShaders
 > Task :corbind-viewpager2:generateReleaseAssets
@@ -1202,59 +1340,61 @@ BUILD SUCCESSFUL in 29s
 > Task :corbind-viewpager2:packageReleaseRenderscript NO-SOURCE
 > Task :corbind-viewpager2:processReleaseJavaRes NO-SOURCE
 > Task :corbind-viewpager2:mergeReleaseJniLibFolders
+> Task :corbind-viewpager2:parseReleaseLibraryResources
 > Task :corbind-viewpager2:mergeReleaseResources
 > Task :corbind-viewpager2:mergeDebugNativeLibs
 > Task :corbind-viewpager2:stripDebugDebugSymbols
 > Task :corbind-viewpager2:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind-viewpager2:generateDebugRFile
-> Task :corbind-viewpager2:compileDebugKotlin
 > Task :corbind-viewpager2:mergeReleaseNativeLibs
 > Task :corbind-viewpager2:stripReleaseDebugSymbols
 > Task :corbind-viewpager2:transformNativeLibsWithSyncJniLibsForRelease
-> Task :corbind-viewpager2:prepareLintJarForPublish
 > Task :corbind-viewpager2:processReleaseManifest
+> Task :corbind-viewpager2:parseDebugLibraryResources
 > Task :corbind-viewpager2:generateReleaseRFile
-> Task :corbind-viewpager2:dokka
-> Task :corbind-viewpager2:androidJavadocsJar
 > Task :corbind-viewpager2:compileReleaseKotlin
-> Task :corbind-viewpager2:javaPreCompileDebug
-> Task :corbind-viewpager2:compileDebugJavaWithJavac
-> Task :corbind-viewpager2:extractDebugAnnotations
-> Task :corbind-viewpager2:mergeDebugGeneratedProguardFiles
-> Task :corbind-viewpager2:mergeDebugConsumerProguardFiles
 > Task :corbind-viewpager2:verifyReleaseResources
-> Task :corbind-viewpager2:compileDebugSources
+> Task :corbind-viewpager2:processDebugManifest
 > Task :corbind-viewpager2:javaPreCompileRelease
 > Task :corbind-viewpager2:compileReleaseJavaWithJavac
 > Task :corbind-viewpager2:extractReleaseAnnotations
 > Task :corbind-viewpager2:mergeReleaseGeneratedProguardFiles
 > Task :corbind-viewpager2:mergeReleaseConsumerProguardFiles
-> Task :corbind-viewpager2:mergeDebugJavaResource
-> Task :corbind-viewpager2:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :corbind-viewpager2:bundleDebugAar
-> Task :corbind-viewpager2:assembleDebug
 > Task :corbind-viewpager2:compileReleaseSources
+> Task :corbind-viewpager2:generateDebugRFile
+> Task :corbind-viewpager2:dokka
+> Task :corbind-viewpager2:androidJavadocsJar
+> Task :corbind-viewpager2:compileDebugKotlin
 > Task :corbind-viewpager2:mergeReleaseJavaResource
 > Task :corbind-viewpager2:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :corbind-viewpager2:bundleReleaseAar
 > Task :corbind-viewpager2:assembleRelease
 > Task :corbind-viewpager2:signArchives SKIPPED
+> Task :corbind-viewpager2:javaPreCompileDebug
+> Task :corbind-viewpager2:compileDebugJavaWithJavac
+> Task :corbind-viewpager2:extractDebugAnnotations
+> Task :corbind-viewpager2:mergeDebugGeneratedProguardFiles
+> Task :corbind-viewpager2:mergeDebugConsumerProguardFiles
+> Task :corbind-viewpager2:compileDebugSources
+> Task :corbind-viewpager2:mergeDebugJavaResource
+> Task :corbind-viewpager2:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :corbind-viewpager2:bundleDebugAar
+> Task :corbind-viewpager2:assembleDebug
 > Task :corbind-viewpager2:assemble
 > Task :corbind-viewpager2:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 25s
 74 actionable tasks: 52 executed, 22 up-to-date
 
-2019-10-25 15:23:46,819 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:23:46,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:23:57,689 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-25 15:23:57,689 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-25 15:23:57,690 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/corbind/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-25 15:24:32,383 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 20:28:49,023 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:28:49,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:28:56,441 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-12-29 20:28:56,441 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-12-29 20:28:56,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/corbind/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-12-29 20:29:22,522 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :corbind:preBuild UP-TO-DATE
 > Task :corbind:preDebugBuild UP-TO-DATE
 > Task :corbind:compileDebugAidl NO-SOURCE
@@ -1294,6 +1434,7 @@ BUILD SUCCESSFUL in 29s
 > Task :corbind:packageDebugRenderscript NO-SOURCE
 > Task :corbind:processDebugJavaRes NO-SOURCE
 > Task :corbind:mergeDebugJniLibFolders
+> Task :corbind:prepareLintJarForPublish
 > Task :corbind:compileDebugSources UP-TO-DATE
 > Task :corbind:compileReleaseKotlin UP-TO-DATE
 > Task :corbind:javaPreCompileRelease UP-TO-DATE
@@ -1307,34 +1448,240 @@ BUILD SUCCESSFUL in 29s
 > Task :corbind:packageReleaseAssets
 > Task :corbind:packageReleaseRenderscript NO-SOURCE
 > Task :corbind:processReleaseJavaRes NO-SOURCE
-> Task :corbind:mergeReleaseJniLibFolders
-> Task :corbind:mergeDebugNativeLibs
-> Task :corbind:stripDebugDebugSymbols
-> Task :corbind:transformNativeLibsWithSyncJniLibsForDebug
-> Task :corbind:compileReleaseSources UP-TO-DATE
-> Task :corbind:mergeReleaseResources
 > Task :corbind:mergeDebugJavaResource
 > Task :corbind:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :corbind:mergeReleaseJniLibFolders
+> Task :corbind:compileReleaseSources UP-TO-DATE
+> Task :corbind:mergeReleaseResources
+> Task :corbind:mergeReleaseJavaResource
+> Task :corbind:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :corbind:mergeReleaseNativeLibs
 > Task :corbind:stripReleaseDebugSymbols
 > Task :corbind:transformNativeLibsWithSyncJniLibsForRelease
-> Task :corbind:prepareLintJarForPublish
-> Task :corbind:bundleDebugAar
-> Task :corbind:assembleDebug
-> Task :corbind:mergeReleaseJavaResource
-> Task :corbind:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :corbind:bundleReleaseAar
 > Task :corbind:signArchives SKIPPED
 > Task :corbind:verifyReleaseResources
 > Task :corbind:assembleRelease
+> Task :corbind:mergeDebugNativeLibs
+> Task :corbind:stripDebugDebugSymbols
+> Task :corbind:transformNativeLibsWithSyncJniLibsForDebug
+> Task :corbind:bundleDebugAar
+> Task :corbind:assembleDebug
 > Task :corbind:assemble
 > Task :corbind:build
 
-BUILD SUCCESSFUL in 34s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 25s
 52 actionable tasks: 32 executed, 20 up-to-date
 
-2019-10-25 15:24:32,771 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-25 15:24:32,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-25 15:24:40,837 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-10-25 15:24:40,840 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-25 15:24:40,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571991319887-0/src/Corbind-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-29 20:29:22,809 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 20:29:22,810 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 20:29:29,779 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-12-29 20:29:29,779 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-12-29 20:29:29,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-12-29 20:30:26,938 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :corbind:preBuild UP-TO-DATE
+> Task :corbind:preDebugBuild UP-TO-DATE
+> Task :corbind:compileDebugAidl NO-SOURCE
+> Task :corbind:compileDebugRenderscript NO-SOURCE
+> Task :corbind:checkDebugManifest UP-TO-DATE
+> Task :corbind:generateDebugBuildConfig UP-TO-DATE
+> Task :corbind:generateDebugResValues UP-TO-DATE
+> Task :corbind:generateDebugResources UP-TO-DATE
+> Task :corbind:packageDebugResources UP-TO-DATE
+> Task :corbind:parseDebugLibraryResources UP-TO-DATE
+> Task :corbind:processDebugManifest UP-TO-DATE
+> Task :corbind:generateDebugRFile UP-TO-DATE
+> Task :corbind:compileDebugKotlin UP-TO-DATE
+> Task :corbind:javaPreCompileDebug UP-TO-DATE
+> Task :corbind:compileDebugJavaWithJavac UP-TO-DATE
+> Task :corbind:bundleLibCompileDebug UP-TO-DATE
+> Task :corbind-swiperefreshlayout:preBuild UP-TO-DATE
+> Task :corbind-swiperefreshlayout:preDebugBuild UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileDebugAidl NO-SOURCE
+> Task :corbind:packageDebugRenderscript NO-SOURCE
+> Task :corbind-swiperefreshlayout:compileDebugRenderscript NO-SOURCE
+> Task :corbind-swiperefreshlayout:checkDebugManifest UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateDebugBuildConfig UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateDebugResValues UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateDebugResources UP-TO-DATE
+> Task :corbind-swiperefreshlayout:packageDebugResources UP-TO-DATE
+> Task :corbind-swiperefreshlayout:parseDebugLibraryResources UP-TO-DATE
+> Task :corbind-swiperefreshlayout:processDebugManifest UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateDebugRFile UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileDebugKotlin UP-TO-DATE
+> Task :corbind-swiperefreshlayout:javaPreCompileDebug UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :corbind-swiperefreshlayout:bundleLibCompileDebug
+> Task :corbind-swiperefreshlayout:packageDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :corbind:mergeDebugShaders UP-TO-DATE
+> Task :corbind:compileDebugShaders UP-TO-DATE
+> Task :corbind:generateDebugAssets UP-TO-DATE
+> Task :corbind:packageDebugAssets UP-TO-DATE
+> Task :corbind-swiperefreshlayout:mergeDebugShaders UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileDebugShaders UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateDebugAssets UP-TO-DATE
+> Task :corbind-swiperefreshlayout:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :corbind:processDebugJavaRes NO-SOURCE
+> Task :corbind-swiperefreshlayout:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :corbind:bundleLibResDebug
+> Task :corbind-swiperefreshlayout:bundleLibResDebug
+> Task :corbind-swiperefreshlayout:bundleLibRuntimeDebug
+> Task :corbind:bundleLibRuntimeDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
+> Task :sample:desugarDebugFileDependencies
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :corbind:mergeDebugJniLibFolders UP-TO-DATE
+> Task :corbind:mergeDebugNativeLibs UP-TO-DATE
+> Task :corbind:stripDebugDebugSymbols UP-TO-DATE
+> Task :corbind:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :corbind-swiperefreshlayout:mergeDebugJniLibFolders UP-TO-DATE
+> Task :corbind-swiperefreshlayout:mergeDebugNativeLibs UP-TO-DATE
+> Task :corbind-swiperefreshlayout:stripDebugDebugSymbols UP-TO-DATE
+> Task :corbind-swiperefreshlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :corbind:preReleaseBuild UP-TO-DATE
+> Task :corbind:compileReleaseAidl NO-SOURCE
+> Task :corbind:compileReleaseRenderscript NO-SOURCE
+> Task :corbind:checkReleaseManifest UP-TO-DATE
+> Task :corbind:generateReleaseBuildConfig UP-TO-DATE
+> Task :corbind:generateReleaseResValues UP-TO-DATE
+> Task :corbind:generateReleaseResources UP-TO-DATE
+> Task :corbind:packageReleaseResources UP-TO-DATE
+> Task :corbind:parseReleaseLibraryResources UP-TO-DATE
+> Task :corbind:processReleaseManifest UP-TO-DATE
+> Task :corbind:generateReleaseRFile UP-TO-DATE
+> Task :corbind:compileReleaseKotlin UP-TO-DATE
+> Task :corbind:javaPreCompileRelease UP-TO-DATE
+> Task :corbind:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :corbind:bundleLibCompileRelease UP-TO-DATE
+> Task :corbind-swiperefreshlayout:preReleaseBuild UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileReleaseAidl NO-SOURCE
+> Task :corbind:packageReleaseRenderscript NO-SOURCE
+> Task :corbind-swiperefreshlayout:compileReleaseRenderscript NO-SOURCE
+> Task :corbind-swiperefreshlayout:checkReleaseManifest UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateReleaseBuildConfig UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateReleaseResValues UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateReleaseResources UP-TO-DATE
+> Task :corbind-swiperefreshlayout:packageReleaseResources UP-TO-DATE
+> Task :corbind-swiperefreshlayout:parseReleaseLibraryResources UP-TO-DATE
+> Task :corbind-swiperefreshlayout:processReleaseManifest UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateReleaseRFile UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileReleaseKotlin UP-TO-DATE
+> Task :corbind-swiperefreshlayout:javaPreCompileRelease UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sample:extractProguardFiles
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :corbind-swiperefreshlayout:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :corbind-swiperefreshlayout:bundleLibCompileRelease
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :corbind:prepareLintJarForPublish UP-TO-DATE
+> Task :corbind-swiperefreshlayout:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :corbind:mergeReleaseShaders UP-TO-DATE
+> Task :corbind:compileReleaseShaders UP-TO-DATE
+> Task :corbind:generateReleaseAssets UP-TO-DATE
+> Task :corbind:packageReleaseAssets UP-TO-DATE
+> Task :corbind-swiperefreshlayout:mergeReleaseShaders UP-TO-DATE
+> Task :corbind-swiperefreshlayout:compileReleaseShaders UP-TO-DATE
+> Task :corbind-swiperefreshlayout:generateReleaseAssets UP-TO-DATE
+> Task :corbind-swiperefreshlayout:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :corbind:processReleaseJavaRes NO-SOURCE
+> Task :corbind:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :corbind:mergeReleaseNativeLibs UP-TO-DATE
+> Task :corbind:stripReleaseDebugSymbols UP-TO-DATE
+> Task :corbind:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :corbind-swiperefreshlayout:processReleaseJavaRes NO-SOURCE
+> Task :corbind-swiperefreshlayout:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :corbind-swiperefreshlayout:mergeReleaseNativeLibs UP-TO-DATE
+> Task :corbind-swiperefreshlayout:stripReleaseDebugSymbols UP-TO-DATE
+> Task :corbind-swiperefreshlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :corbind:bundleLibResRelease
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:mergeExtDexDebug
+> Task :corbind-swiperefreshlayout:bundleLibResRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/774c51fbdd67a5e4360a876cfc7f663f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :corbind:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :corbind:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :corbind-swiperefreshlayout:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :corbind-swiperefreshlayout:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :sample:mergeReleaseGeneratedProguardFiles
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :corbind-swiperefreshlayout:bundleLibRuntimeRelease
+> Task :corbind:bundleLibRuntimeRelease
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:transformClassesAndResourcesWithR8ForRelease
+
+> Task :sample:transformClassesAndDexWithShrinkResForRelease
+Removed unused resources: Binary resource data reduced from 909KB to 872KB: Removed 4%
+
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 56s
+138 actionable tasks: 66 executed, 72 up-to-date
+
+2019-12-29 20:30:27,274 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625634775-0/src/Corbind-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
