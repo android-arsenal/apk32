@@ -1,109 +1,189 @@
-2019-12-01 19:07:07,568 INFO  DownloadService - Downloading "https://github.com/fartem/hash-checker/archive/master.zip", attempt 3
-2019-12-01 19:07:10,686 INFO  DownloadService - Downloaded https://github.com/fartem/hash-checker/archive/master.zip, attempt 3
-2019-12-01 19:07:10,686 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/master.zip": 933 KB
-2019-12-01 19:07:10,686 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-01 19:07:10,687 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/master.zip: true
-2019-12-01 19:07:10,687 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src'.
-2019-12-01 19:07:10,753 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-12-01 19:07:10,753 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src]
-2019-12-01 19:07:10,773 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/.git/
+2019-12-29 16:46:32,963 INFO  DownloadService - Downloading "https://github.com/fartem/hash-checker/archive/master.zip", attempt 3
+2019-12-29 16:46:36,021 INFO  DownloadService - Downloaded https://github.com/fartem/hash-checker/archive/master.zip, attempt 3
+2019-12-29 16:46:36,021 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/master.zip": 938 KB
+2019-12-29 16:46:36,021 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-29 16:46:36,027 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/master.zip: true
+2019-12-29 16:46:36,028 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src'.
+2019-12-29 16:46:36,099 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-12-29 16:46:36,099 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src]
+2019-12-29 16:46:36,118 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/.git/
 
-2019-12-01 19:07:10,780 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/gradlew
-2019-12-01 19:07:10,788 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/build.gradle
-2019-12-01 19:07:10,796 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/settings.gradle
-2019-12-01 19:07:10,796 INFO  ProjectBuildService - Remote scripts: none
-2019-12-01 19:07:10,796 INFO  ProjectFixService - Fixing project...
-2019-12-01 19:07:10,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/app/local.properties
-2019-12-01 19:07:10,812 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:07:10,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/local.properties
-2019-12-01 19:07:10,813 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-01 19:07:10,813 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-01 19:07:10,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:07:10,815 INFO  ProjectFixService - Project was maybe fixed
-2019-12-01 19:07:10,815 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-01 19:07:10,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-01 19:07:17,699 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-01 19:07:17,700 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-01 19:07:17,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-01 19:07:58,872 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-29 16:46:36,127 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/gradlew
+2019-12-29 16:46:36,135 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/build.gradle
+2019-12-29 16:46:36,143 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/settings.gradle
+2019-12-29 16:46:36,143 INFO  ProjectBuildService - Remote scripts: none
+2019-12-29 16:46:36,143 INFO  ProjectFixService - Fixing project...
+2019-12-29 16:46:36,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/app/local.properties
+2019-12-29 16:46:36,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-12-29 16:46:36,161 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/local.properties
+2019-12-29 16:46:36,162 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-12-29 16:46:36,162 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-12-29 16:46:36,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-12-29 16:46:36,164 INFO  ProjectFixService - Project was maybe fixed
+2019-12-29 16:46:36,164 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-29 16:46:36,164 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-29 16:46:43,923 INFO  ProjectTaskService - Detected possible tasks: 91
+2019-12-29 16:46:43,923 INFO  ProjectTaskService - Excluded tasks (9): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll checkstyle test check connectedAndroidTest
+2019-12-29 16:46:43,924 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-12-29 16:47:41,731 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
-> Task :app:javaPreCompileDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
+> Task :app:preGithubDebugBuild UP-TO-DATE
+> Task :app:compileGithubDebugAidl NO-SOURCE
+> Task :app:checkGithubDebugManifest
+> Task :app:compileGithubDebugRenderscript NO-SOURCE
+> Task :app:generateGithubDebugBuildConfig
+> Task :app:mainApkListPersistenceGithubDebug
+> Task :app:javaPreCompileGithubDebug
+> Task :app:generateGithubDebugResValues
+> Task :app:generateGithubDebugResources
+> Task :app:createGithubDebugCompatibleScreenManifests
+> Task :app:processGithubDebugManifest
+> Task :app:mergeGithubDebugResources
+> Task :app:processGithubDebugResources
 
-> Task :app:compileDebugJavaWithJavac
+> Task :app:compileGithubDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:mergeDebugJavaResource
-> Task :app:validateSigningDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:desugarDebugFileDependencies
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeLibDexDebug
-> Task :app:mergeDebugJniLibFolders
+> Task :app:compileGithubDebugSources
+> Task :app:checkGithubDebugDuplicateClasses
+> Task :app:desugarGithubDebugFileDependencies
+> Task :app:mergeGithubDebugShaders
+> Task :app:compileGithubDebugShaders
+> Task :app:generateGithubDebugAssets
+> Task :app:mergeGithubDebugAssets
+> Task :app:processGithubDebugJavaRes NO-SOURCE
+> Task :app:mergeLibDexGithubDebug
+> Task :app:transformClassesWithDexBuilderForGithubDebug
+> Task :app:validateSigningGithubDebug
+> Task :app:signingConfigWriterGithubDebug
+> Task :app:mergeGithubDebugJavaResource
+> Task :app:mergeGithubDebugJniLibFolders
+> Task :app:preGooglePlayDebugBuild UP-TO-DATE
+> Task :app:compileGooglePlayDebugAidl NO-SOURCE
+> Task :app:compileGooglePlayDebugRenderscript NO-SOURCE
+> Task :app:checkGooglePlayDebugManifest
+> Task :app:generateGooglePlayDebugBuildConfig
+> Task :app:javaPreCompileGooglePlayDebug
+> Task :app:mainApkListPersistenceGooglePlayDebug
+> Task :app:generateGooglePlayDebugResValues
+> Task :app:generateGooglePlayDebugResources
+> Task :app:createGooglePlayDebugCompatibleScreenManifests
+> Task :app:processGooglePlayDebugManifest
+> Task :app:mergeGithubDebugNativeLibs
+> Task :app:stripGithubDebugDebugSymbols
+> Task :app:checkGooglePlayDebugDuplicateClasses
+> Task :app:mergeProjectDexGithubDebug
+> Task :app:mergeGooglePlayDebugResources
+> Task :app:processGooglePlayDebugResources
+
+> Task :app:compileGooglePlayDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileGooglePlayDebugSources
+> Task :app:desugarGooglePlayDebugFileDependencies
+> Task :app:mergeGooglePlayDebugShaders
+> Task :app:compileGooglePlayDebugShaders
+> Task :app:generateGooglePlayDebugAssets
+> Task :app:mergeGooglePlayDebugAssets
+> Task :app:processGooglePlayDebugJavaRes NO-SOURCE
+> Task :app:transformClassesWithDexBuilderForGooglePlayDebug
+> Task :app:mergeGooglePlayDebugJavaResource
+> Task :app:validateSigningGooglePlayDebug
+> Task :app:signingConfigWriterGooglePlayDebug
+> Task :app:mergeLibDexGooglePlayDebug
+> Task :app:mergeGooglePlayDebugJniLibFolders
 > Task :app:extractProguardFiles
-> Task :app:preReleaseBuild
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:mergeProjectDexDebug
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:javaPreCompileRelease
-> Task :app:prepareLintJar
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
+> Task :app:preGithubReleaseBuild
+> Task :app:compileGithubReleaseAidl NO-SOURCE
+> Task :app:compileGithubReleaseRenderscript NO-SOURCE
+> Task :app:checkGithubReleaseManifest
+> Task :app:generateGithubReleaseBuildConfig
+> Task :app:mainApkListPersistenceGithubRelease
+> Task :app:generateGithubReleaseResValues
+> Task :app:generateGithubReleaseResources
+> Task :app:mergeExtDexGithubDebug
+> Task :app:packageGithubDebug
+> Task :app:assembleGithubDebug
+> Task :app:createGithubReleaseCompatibleScreenManifests
+> Task :app:processGithubReleaseManifest
+> Task :app:mergeExtDexGooglePlayDebug
+> Task :app:mergeProjectDexGooglePlayDebug
+> Task :app:mergeGithubReleaseResources
+> Task :app:processGithubReleaseResources
+> Task :app:javaPreCompileGithubRelease
 
-> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileGithubReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:compileReleaseSources
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
+> Task :app:compileGithubReleaseSources
+> Task :app:mergeGooglePlayDebugNativeLibs
+> Task :app:stripGooglePlayDebugDebugSymbols
+> Task :app:packageGooglePlayDebug
+> Task :app:assembleGooglePlayDebug
 > Task :app:assembleDebug
-> Task :app:lintVitalRelease
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseGeneratedProguardFiles
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeReleaseJavaResource
-> Task :app:transformClassesAndResourcesWithR8ForRelease
+> Task :app:prepareLintJar
+> Task :app:mergeGithubReleaseShaders
+> Task :app:lintVitalGithubRelease
+> Task :app:compileGithubReleaseShaders
+> Task :app:generateGithubReleaseAssets
+> Task :app:mergeGithubReleaseAssets
+> Task :app:signingConfigWriterGithubRelease
+> Task :app:mergeGithubReleaseJniLibFolders
+> Task :app:mergeGithubReleaseGeneratedProguardFiles
+> Task :app:processGithubReleaseJavaRes NO-SOURCE
+> Task :app:preGooglePlayReleaseBuild
+> Task :app:compileGooglePlayReleaseAidl NO-SOURCE
+> Task :app:compileGooglePlayReleaseRenderscript NO-SOURCE
+> Task :app:checkGooglePlayReleaseManifest
+> Task :app:generateGooglePlayReleaseBuildConfig
+> Task :app:mainApkListPersistenceGooglePlayRelease
+> Task :app:generateGooglePlayReleaseResValues
+> Task :app:generateGooglePlayReleaseResources
+> Task :app:createGooglePlayReleaseCompatibleScreenManifests
+> Task :app:processGooglePlayReleaseManifest
+> Task :app:mergeGithubReleaseJavaResource
+> Task :app:transformClassesAndResourcesWithR8ForGithubRelease
 
-> Task :app:transformClassesAndDexWithShrinkResForRelease
+> Task :app:transformClassesAndDexWithShrinkResForGithubRelease
 Removed unused resources: Binary resource data reduced from 882KB to 851KB: Removed 3%
 
-> Task :app:packageRelease
+> Task :app:mergeGooglePlayReleaseShaders
+> Task :app:compileGooglePlayReleaseShaders
+> Task :app:generateGooglePlayReleaseAssets
+> Task :app:mergeGooglePlayReleaseAssets
+> Task :app:signingConfigWriterGooglePlayRelease
+> Task :app:mergeGooglePlayReleaseJniLibFolders
+> Task :app:javaPreCompileGooglePlayRelease
+> Task :app:processGooglePlayReleaseJavaRes NO-SOURCE
+> Task :app:mergeGithubReleaseNativeLibs
+> Task :app:stripGithubReleaseDebugSymbols
+> Task :app:packageGithubRelease
+> Task :app:assembleGithubRelease
+> Task :app:assembleGithub
+> Task :app:mergeGooglePlayReleaseNativeLibs
+> Task :app:stripGooglePlayReleaseDebugSymbols
+> Task :app:mergeGooglePlayReleaseResources
+> Task :app:processGooglePlayReleaseResources
+
+> Task :app:compileGooglePlayReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileGooglePlayReleaseSources
+> Task :app:lintVitalGooglePlayRelease
+> Task :app:mergeGooglePlayReleaseGeneratedProguardFiles
+> Task :app:mergeGooglePlayReleaseJavaResource
+> Task :app:transformClassesAndResourcesWithR8ForGooglePlayRelease
+
+> Task :app:transformClassesAndDexWithShrinkResForGooglePlayRelease
+Removed unused resources: Binary resource data reduced from 883KB to 851KB: Removed 3%
+
+> Task :app:packageGooglePlayRelease
+> Task :app:assembleGooglePlayRelease
+> Task :app:assembleGooglePlay
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
@@ -112,7 +192,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 40s
-51 actionable tasks: 51 executed
+BUILD SUCCESSFUL in 57s
+100 actionable tasks: 100 executed
 
-2019-12-01 19:07:58,955 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202027560-0/src/hash-checker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-12-29 16:47:41,887 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612792958-0/src/hash-checker-master/app/build/outputs/apk/googlePlay/release/app-googlePlay-release-unsigned.apk
