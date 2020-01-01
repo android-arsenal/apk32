@@ -3,8 +3,16 @@
     "packageName" : "com.smlnskgmail.jaman.deviceinfo",
     "label" : "Device Info",
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
-    "versionName" : "0.9.7",
+    "versionName" : "1.0.1",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "21",
     "targetSdkVersion" : "29",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -28,11 +38,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADn0lEQVR42u1ZzU8TQRSvFo2IkYMmxkRJNGr4ECFptLRbsChq/CBGkyIXYtTE/8CDN09ykXhR/IoXQzyYSNAEBCQhQvwgoPEkRIgQEmu72y6lpNCvYXxvp0vXppTShO4Qu8kvb+fNezO/33RmtztjMOQuji9KHUZK7Xn6wmHMgLhhI4KfgVwFH20g9R/bQWVbEfXW7NUF2DdwSMYtJXnqNG2lktC6KFpdxCV49YTCwW1tRU4rilAroy7h8aIoUOLmB75fVc+A2oZlBaiLxe807QQBIiZF3ZYQqCdRl0UXKH0DBxxM/1SVNNBdslvLNUGAPQ/tjy+VByMuYUYRoDSi78gjB0XAZJWvo62sVMs1qYDBzopDEbdV5lHAy6elZekJ4PQXePGo5PDaCvBcoUQ8nTpGPANxDTwKsFEy3wnoApJnmRCPgxLvNWaxLJ2D+h5KAh2c/gJSPSXBIcA3SkJjlJAwgDAbGgX/d8BHiDvPqwAY4YWBGOllsPCBxXEnQLTD9HjPSEYDYEMJ5EMxP9zP97J4rgTM3AKC80AwQsnsXSDZ968ALKMf6zEO47kSEOiKk436YmI0ArCMfrWM8fwIsLEFilMkXWA85nEjwHuVEvlm+sB4/QRUw3xuhifKIMzl27AgT8Ac72aPz3SB8ZiH+dgOtoftZkWAdCH+RAlPQ/kS2KnUj89EYLySNx1/cmG7WRHgadQszjn2ps1EAOZhvurDdnMCcgJyAnIC/gMB0kXoOMg6jfyB8uUM3wOXWb4yEEHWbnbexDWUzD0HEuPwBr0Hb9Q6uJ9cpYBJlof52A62h+1m979Qdfy/UKAdRlMEckHN9PIzH9ol8kHmw/il/0LVnHwT43dv8Guc7NxDNspoVR/WKx/+Ng4/Kd3HgeBwnKz/PvOjXRIwzOK4/CZe/wJq2K6EQjYKxFtiAlpYWREwlHSxciIAyT6IL1TvdeZDqy5wrOd2Z07ZnaiNbWY1ahaqjZXRj/VrLmA9b+5+6ikv5nVzt+1JcXkKAezQ4HXbgT1hp8WDSbwccFBJoPK42dt8p2g/cuzvTyJAc8S05eeQ6VXYaaWYiELQ6gG179BvKx3pq2gHbvnpnJEZhaPbyoZ7K99Io2Z5ZsI8K0+YfWizCbVPz5hZ/vzuyFuLqQCnjzHdk8p8wL5TtYUnbzTtqm9q0AfYd529sA65rDj6iSIcDsNmuC0AbNcZBcglo4N3XCwjI6ZNemLZBZu7OLn+AiD1tuFMUZ0/AAAAAElFTkSuQmCC",
     "file" : true
   },
-  "dexClasses" : 3449,
+  "dexClasses" : 3483,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.9.7\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.smlnskgmail.jaman.deviceinfo\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f0f0007\" android:label=\"Device Info\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.smlnskgmail.jaman.deviceinfo.navigation.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.smlnskgmail.jaman.deviceinfo.info.components.gpu.realization.components.DeviceGPUActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3364664,
-  "crc32" : 3596419088,
-  "sha256" : "e38bdcc6fa637851df2ea72a0318ae3368c78345d38ba890e044acf30ddf4a31",
-  "buildTime" : 1575356207000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.1\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.smlnskgmail.jaman.deviceinfo\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f0f0008\" android:label=\"Device Info\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.smlnskgmail.jaman.deviceinfo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.smlnskgmail.jaman.deviceinfo.logic.info.realizations.mainpager.pages.gpu.renderer.DeviceGPUActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3398583,
+  "crc32" : 2963189590,
+  "sha256" : "23c8de917a3f75bd954f64d1c8aae2b4270601eb3cecfa714384d9815b52f477",
+  "buildTime" : 1577880132000
 }
