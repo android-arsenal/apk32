@@ -1,45 +1,47 @@
-2019-12-16 12:39:34,615 INFO  DownloadService - Downloading "https://github.com/skydoves/GoldMovies/archive/master.zip", attempt 3
-2019-12-16 12:40:22,188 INFO  DownloadService - Downloaded https://github.com/skydoves/GoldMovies/archive/master.zip, attempt 3
-2019-12-16 12:40:22,189 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/master.zip": 37 MB
-2019-12-16 12:40:22,189 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-16 12:40:22,191 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/master.zip: true
-2019-12-16 12:40:22,191 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src'.
-2019-12-16 12:40:22,495 INFO  FullProcessService - Size of directory with sources: 37 MB
-2019-12-16 12:40:22,495 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src]
-2019-12-16 12:40:22,529 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/.git/
+2020-01-03 03:09:44,774 INFO  DownloadService - Downloading "https://github.com/skydoves/GoldMovies/archive/master.zip", attempt 3
+2020-01-03 03:09:47,434 INFO  VirusProcessorServiceImpl - Queued project 8010 to scan viruses
+2020-01-03 03:09:55,151 INFO  VirusProcessorServiceImpl - Queued project 7983 to scan viruses
+2020-01-03 03:09:55,337 INFO  DownloadService - Downloaded https://github.com/skydoves/GoldMovies/archive/master.zip, attempt 3
+2020-01-03 03:09:55,338 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/master.zip": 37 MB
+2020-01-03 03:09:55,338 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-03 03:09:55,340 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/master.zip: true
+2020-01-03 03:09:55,340 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src'.
+2020-01-03 03:09:55,617 INFO  FullProcessService - Size of directory with sources: 37 MB
+2020-01-03 03:09:55,617 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src]
+2020-01-03 03:09:55,648 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/.git/
 
-2019-12-16 12:40:22,541 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/gradlew
-2019-12-16 12:40:22,552 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/common-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/entity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/build.gradle
-2019-12-16 12:40:22,562 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/entity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/versionsPlugin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/common-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/spotless.gradle
-2019-12-16 12:40:22,563 INFO  ProjectBuildService - Remote scripts: none
-2019-12-16 12:40:22,563 INFO  ProjectFixService - Fixing project...
-2019-12-16 12:40:22,585 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/common-ui/local.properties
-2019-12-16 12:40:22,593 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/common-ui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-16 12:40:22,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/common-ui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-16 12:40:22,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/entity/local.properties
-2019-12-16 12:40:22,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/entity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-16 12:40:22,603 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/entity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-16 12:40:22,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/local.properties
-2019-12-16 12:40:22,610 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-16 12:40:22,610 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-16 12:40:22,612 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm/local.properties
-2019-12-16 12:40:22,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-16 12:40:22,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-16 12:40:22,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/network/local.properties
-2019-12-16 12:40:22,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/network/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-16 12:40:22,625 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/network/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-16 12:40:22,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/local.properties
-2019-12-16 12:40:22,627 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-16 12:40:22,627 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-16 12:40:22,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-16 12:40:22,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-16 12:40:22,634 INFO  ProjectFixService - Project was maybe fixed
-2019-12-16 12:40:22,634 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-16 12:40:22,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/common-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-16 12:40:34,195 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-12-16 12:40:34,195 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-16 12:40:34,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/common-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-16 12:41:20,633 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-03 03:09:55,659 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/gradlew
+2020-01-03 03:09:55,668 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/common-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/entity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/build.gradle
+2020-01-03 03:09:55,676 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/entity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/versionsPlugin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/common-ui/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/spotless.gradle
+2020-01-03 03:09:55,677 INFO  ProjectBuildService - Remote scripts: none
+2020-01-03 03:09:55,677 INFO  ProjectFixService - Fixing project...
+2020-01-03 03:09:55,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/common-ui/local.properties
+2020-01-03 03:09:55,701 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/common-ui/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-03 03:09:55,701 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/common-ui/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-03 03:09:55,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/entity/local.properties
+2020-01-03 03:09:55,709 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/entity/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-03 03:09:55,709 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/entity/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-03 03:09:55,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/local.properties
+2020-01-03 03:09:55,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-03 03:09:55,716 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-03 03:09:55,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm/local.properties
+2020-01-03 03:09:55,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-03 03:09:55,723 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-03 03:09:55,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/network/local.properties
+2020-01-03 03:09:55,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/network/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-03 03:09:55,730 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/network/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-03 03:09:55,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/local.properties
+2020-01-03 03:09:55,733 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-03 03:09:55,734 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-03 03:09:55,739 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-03 03:09:55,739 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-03 03:09:55,740 INFO  ProjectFixService - Project was maybe fixed
+2020-01-03 03:09:55,740 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-03 03:09:55,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/common-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-03 03:10:03,440 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-03 03:10:03,440 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-03 03:10:03,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/common-ui/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-03 03:10:49,093 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :common-ui
 WARNING: The following project options are deprecated and have been removed: 
@@ -62,8 +64,8 @@ Databinding v1 is removed.
 > Task :entity:compileDebugAidl NO-SOURCE
 > Task :common-ui:compileDebugAidl NO-SOURCE
 > Task :entity:packageDebugRenderscript NO-SOURCE
-> Task :common-ui:compileDebugRenderscript NO-SOURCE
 > Task :common-ui:checkDebugManifest
+> Task :common-ui:compileDebugRenderscript NO-SOURCE
 > Task :common-ui:generateDebugBuildConfig
 > Task :common-ui:prepareLintJar
 > Task :common-ui:prepareLintJarForPublish
@@ -81,8 +83,8 @@ Databinding v1 is removed.
 > Task :entity:packageDebugResources
 > Task :entity:checkDebugManifest
 > Task :entity:parseDebugLibraryResources
-> Task :common-ui:parseDebugLibraryResources
 > Task :entity:generateDebugBuildConfig
+> Task :common-ui:parseDebugLibraryResources
 > Task :entity:processDebugManifest
 > Task :common-ui:processDebugManifest
 > Task :entity:generateDebugRFile
@@ -93,6 +95,9 @@ Databinding v1 is removed.
 > Task :common-ui:packageDebugRenderscript NO-SOURCE
 > Task :common-ui:processDebugJavaRes NO-SOURCE
 > Task :common-ui:mergeDebugJniLibFolders
+> Task :common-ui:mergeDebugNativeLibs
+> Task :common-ui:stripDebugDebugSymbols
+> Task :common-ui:transformNativeLibsWithSyncJniLibsForDebug
 > Task :common-ui:preReleaseBuild UP-TO-DATE
 > Task :entity:preReleaseBuild UP-TO-DATE
 > Task :entity:compileReleaseAidl NO-SOURCE
@@ -104,21 +109,18 @@ Databinding v1 is removed.
 > Task :common-ui:generateReleaseSources
 > Task :common-ui:dataBindingExportBuildInfoRelease
 > Task :common-ui:dataBindingMergeDependencyArtifactsRelease
-> Task :common-ui:generateDebugRFile
+> Task :common-ui:dataBindingMergeGenClassesRelease
 > Task :common-ui:generateReleaseResValues
 > Task :common-ui:generateReleaseResources
 > Task :common-ui:packageReleaseResources
-> Task :common-ui:mergeDebugNativeLibs
-> Task :common-ui:stripDebugDebugSymbols
-> Task :common-ui:transformNativeLibsWithSyncJniLibsForDebug
+> Task :common-ui:dataBindingGenBaseClassesRelease
+> Task :common-ui:generateDebugRFile
 > Task :entity:compileReleaseRenderscript NO-SOURCE
 > Task :entity:generateReleaseResValues
 > Task :entity:generateReleaseResources
 > Task :entity:packageReleaseResources
-> Task :common-ui:parseReleaseLibraryResources
 > Task :entity:checkReleaseManifest
-> Task :common-ui:dataBindingMergeGenClassesRelease
-> Task :common-ui:dataBindingGenBaseClassesRelease
+> Task :common-ui:processReleaseManifest
 > Task :entity:generateReleaseBuildConfig
 > Task :common-ui:mergeReleaseShaders
 > Task :common-ui:compileReleaseShaders
@@ -127,9 +129,9 @@ Databinding v1 is removed.
 > Task :common-ui:packageReleaseRenderscript NO-SOURCE
 > Task :common-ui:processReleaseJavaRes NO-SOURCE
 > Task :common-ui:mergeReleaseJniLibFolders
-> Task :entity:parseReleaseLibraryResources
-> Task :common-ui:processReleaseManifest
 > Task :entity:processReleaseManifest
+> Task :common-ui:parseReleaseLibraryResources
+> Task :entity:parseReleaseLibraryResources
 > Task :common-ui:mergeReleaseNativeLibs
 > Task :common-ui:stripReleaseDebugSymbols
 > Task :common-ui:transformNativeLibsWithSyncJniLibsForRelease
@@ -141,17 +143,24 @@ Databinding v1 is removed.
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
 
 > Task :entity:compileDebugKotlin
-> Task :common-ui:generateReleaseRFile
 > Task :entity:kaptGenerateStubsReleaseKotlin
 
 > Task :entity:kaptReleaseKotlin
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: androidx.room.RoomProcessor (DYNAMIC).
 
 > Task :entity:compileReleaseKotlin
-> Task :entity:javaPreCompileRelease
-> Task :entity:compileReleaseJavaWithJavac
+> Task :common-ui:generateReleaseRFile
 > Task :entity:javaPreCompileDebug
 > Task :entity:compileDebugJavaWithJavac
+> Task :entity:javaPreCompileRelease
+> Task :entity:compileReleaseJavaWithJavac
+> Task :entity:bundleLibCompileDebug
+> Task :common-ui:kaptGenerateStubsDebugKotlin
+
+> Task :common-ui:kaptDebugKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
+
+> Task :common-ui:compileDebugKotlin
 > Task :common-ui:verifyReleaseResources
 > Task :entity:bundleLibCompileRelease
 > Task :common-ui:kaptGenerateStubsReleaseKotlin
@@ -160,33 +169,26 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
 > Task :common-ui:compileReleaseKotlin
-> Task :entity:bundleLibCompileDebug
-> Task :common-ui:kaptGenerateStubsDebugKotlin
-
-> Task :common-ui:kaptDebugKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
-
-> Task :common-ui:compileDebugKotlin
-> Task :common-ui:javaPreCompileRelease
-> Task :common-ui:compileReleaseJavaWithJavac
-> Task :common-ui:extractReleaseAnnotations
-> Task :common-ui:mergeReleaseGeneratedProguardFiles
-> Task :common-ui:mergeReleaseConsumerProguardFiles
 > Task :common-ui:javaPreCompileDebug
 > Task :common-ui:compileDebugJavaWithJavac
 > Task :common-ui:extractDebugAnnotations
 > Task :common-ui:mergeDebugGeneratedProguardFiles
 > Task :common-ui:mergeDebugConsumerProguardFiles
 > Task :common-ui:compileDebugSources
+> Task :common-ui:javaPreCompileRelease
+> Task :common-ui:compileReleaseJavaWithJavac
+> Task :common-ui:extractReleaseAnnotations
+> Task :common-ui:mergeReleaseGeneratedProguardFiles
+> Task :common-ui:mergeReleaseConsumerProguardFiles
 > Task :common-ui:compileReleaseSources
-> Task :common-ui:mergeReleaseJavaResource
-> Task :common-ui:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :common-ui:bundleReleaseAar
-> Task :common-ui:assembleRelease
 > Task :common-ui:mergeDebugJavaResource
 > Task :common-ui:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :common-ui:bundleDebugAar
 > Task :common-ui:assembleDebug
+> Task :common-ui:mergeReleaseJavaResource
+> Task :common-ui:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :common-ui:bundleReleaseAar
+> Task :common-ui:assembleRelease
 > Task :common-ui:assemble
 > Task :common-ui:build
 
@@ -194,15 +196,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 45s
+BUILD SUCCESSFUL in 44s
 88 actionable tasks: 88 executed
 
-2019-12-16 12:41:20,709 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-16 12:41:20,710 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/entity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-16 12:41:26,443 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-12-16 12:41:26,444 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-16 12:41:26,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/entity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-16 12:41:33,400 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-03 03:10:49,173 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-03 03:10:49,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/entity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-03 03:10:56,381 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-03 03:10:56,382 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-03 03:10:56,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/entity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-03 03:11:05,118 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :entity
 WARNING: The following project options are deprecated and have been removed: 
@@ -266,18 +268,18 @@ Databinding v1 is removed.
 > Task :entity:packageReleaseRenderscript NO-SOURCE
 > Task :entity:processReleaseJavaRes NO-SOURCE
 > Task :entity:mergeReleaseJniLibFolders
-> Task :entity:prepareLintJarForPublish
+> Task :entity:mergeDebugNativeLibs
+> Task :entity:stripDebugDebugSymbols
+> Task :entity:transformNativeLibsWithSyncJniLibsForDebug
 > Task :entity:mergeReleaseResources
 > Task :entity:compileReleaseSources
 > Task :entity:mergeDebugJavaResource
 > Task :entity:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :entity:mergeDebugNativeLibs
-> Task :entity:stripDebugDebugSymbols
-> Task :entity:transformNativeLibsWithSyncJniLibsForDebug
-> Task :entity:bundleDebugAar
-> Task :entity:assembleDebug
 > Task :entity:mergeReleaseJavaResource
 > Task :entity:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :entity:prepareLintJarForPublish
+> Task :entity:bundleDebugAar
+> Task :entity:assembleDebug
 > Task :entity:mergeReleaseNativeLibs
 > Task :entity:stripReleaseDebugSymbols
 > Task :entity:transformNativeLibsWithSyncJniLibsForRelease
@@ -287,15 +289,15 @@ Databinding v1 is removed.
 > Task :entity:assemble
 > Task :entity:build
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 8s
 54 actionable tasks: 30 executed, 24 up-to-date
 
-2019-12-16 12:41:33,471 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-16 12:41:33,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-16 12:41:39,509 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-12-16 12:41:39,509 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-16 12:41:39,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-16 12:43:13,543 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-03 03:11:05,203 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-03 03:11:05,203 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-03 03:11:12,773 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-01-03 03:11:12,773 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-03 03:11:12,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-03 03:12:53,949 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :mvvm-coroutines
 WARNING: The following project options are deprecated and have been removed: 
@@ -341,22 +343,25 @@ Databinding v1 is removed.
 > Task :common-ui:dataBindingExportBuildInfoDebug UP-TO-DATE
 > Task :common-ui:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
 > Task :common-ui:generateDebugResValues UP-TO-DATE
+> Task :common-ui:dataBindingMergeGenClassesDebug UP-TO-DATE
 > Task :common-ui:generateDebugResources UP-TO-DATE
 > Task :common-ui:packageDebugResources UP-TO-DATE
-> Task :common-ui:dataBindingMergeGenClassesDebug UP-TO-DATE
 > Task :common-ui:dataBindingGenBaseClassesDebug UP-TO-DATE
 > Task :common-ui:parseDebugLibraryResources UP-TO-DATE
 > Task :common-ui:processDebugManifest UP-TO-DATE
 > Task :entity:generateDebugResValues UP-TO-DATE
+> Task :entity:checkDebugManifest UP-TO-DATE
 > Task :entity:compileDebugRenderscript NO-SOURCE
 > Task :entity:generateDebugResources UP-TO-DATE
 > Task :entity:packageDebugResources UP-TO-DATE
 > Task :entity:parseDebugLibraryResources UP-TO-DATE
-> Task :entity:checkDebugManifest UP-TO-DATE
 > Task :entity:processDebugManifest UP-TO-DATE
 > Task :entity:generateDebugRFile UP-TO-DATE
 > Task :common-ui:generateDebugRFile UP-TO-DATE
 > Task :entity:generateDebugBuildConfig UP-TO-DATE
+> Task :mvvm-coroutines:preBuild UP-TO-DATE
+> Task :mvvm-coroutines:preDebugBuild UP-TO-DATE
+> Task :network:preBuild UP-TO-DATE
 > Task :entity:kaptGenerateStubsDebugKotlin UP-TO-DATE
 > Task :entity:kaptDebugKotlin UP-TO-DATE
 > Task :entity:compileDebugKotlin UP-TO-DATE
@@ -368,9 +373,6 @@ Databinding v1 is removed.
 > Task :common-ui:compileDebugKotlin UP-TO-DATE
 > Task :common-ui:javaPreCompileDebug UP-TO-DATE
 > Task :common-ui:compileDebugJavaWithJavac UP-TO-DATE
-> Task :mvvm-coroutines:preBuild UP-TO-DATE
-> Task :mvvm-coroutines:preDebugBuild UP-TO-DATE
-> Task :network:preBuild UP-TO-DATE
 > Task :network:preDebugBuild UP-TO-DATE
 > Task :network:compileDebugAidl NO-SOURCE
 > Task :mvvm-coroutines:compileDebugAidl NO-SOURCE
@@ -384,8 +386,8 @@ Databinding v1 is removed.
 > Task :mvvm-coroutines:prepareLintJarForPublish
 > Task :mvvm-coroutines:generateDebugSources
 > Task :mvvm-coroutines:dataBindingExportBuildInfoDebug
-> Task :mvvm-coroutines:dataBindingMergeGenClassesDebug
 > Task :mvvm-coroutines:dataBindingMergeDependencyArtifactsDebug
+> Task :mvvm-coroutines:dataBindingMergeGenClassesDebug
 > Task :mvvm-coroutines:generateDebugResValues
 > Task :mvvm-coroutines:generateDebugResources
 > Task :network:generateDebugResValues
@@ -397,6 +399,7 @@ Databinding v1 is removed.
 > Task :mvvm-coroutines:createDebugCompatibleScreenManifests
 > Task :network:checkDebugManifest
 > Task :network:generateDebugBuildConfig
+> Task :network:parseDebugLibraryResources
 > Task :common-ui:mergeDebugShaders UP-TO-DATE
 > Task :common-ui:compileDebugShaders UP-TO-DATE
 > Task :common-ui:generateDebugAssets UP-TO-DATE
@@ -413,16 +416,26 @@ Databinding v1 is removed.
 > Task :network:generateDebugAssets
 > Task :network:packageDebugAssets
 > Task :mvvm-coroutines:mergeDebugAssets
-> Task :network:parseDebugLibraryResources
-> Task :network:processDebugManifest
-> Task :mvvm-coroutines:processDebugManifest
 > Task :mvvm-coroutines:mergeDebugResources
 > Task :mvvm-coroutines:dataBindingGenBaseClassesDebug
+> Task :network:processDebugManifest
+> Task :mvvm-coroutines:processDebugManifest
+> Task :common-ui:processDebugJavaRes NO-SOURCE
+> Task :entity:processDebugJavaRes NO-SOURCE
+> Task :mvvm-coroutines:processDebugJavaRes NO-SOURCE
+> Task :network:processDebugJavaRes NO-SOURCE
+> Task :common-ui:bundleLibResDebug
 > Task :network:generateDebugRFile
 > Task :mvvm-coroutines:processDebugResources
 > Task :network:compileDebugKotlin
+> Task :entity:bundleLibResDebug
+> Task :entity:bundleLibRuntimeDebug
+> Task :entity:createFullJarDebug
+> Task :common-ui:bundleLibRuntimeDebug
+> Task :common-ui:createFullJarDebug
 > Task :network:javaPreCompileDebug
 > Task :network:compileDebugJavaWithJavac
+> Task :network:bundleLibResDebug
 > Task :network:bundleLibCompileDebug
 > Task :mvvm-coroutines:kaptGenerateStubsDebugKotlin
 
@@ -430,22 +443,11 @@ Databinding v1 is removed.
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
 > Task :mvvm-coroutines:compileDebugKotlin
+> Task :network:bundleLibRuntimeDebug
+> Task :network:createFullJarDebug
 > Task :mvvm-coroutines:javaPreCompileDebug
 > Task :mvvm-coroutines:compileDebugJavaWithJavac
 > Task :mvvm-coroutines:compileDebugSources
-> Task :common-ui:processDebugJavaRes NO-SOURCE
-> Task :entity:processDebugJavaRes NO-SOURCE
-> Task :mvvm-coroutines:processDebugJavaRes NO-SOURCE
-> Task :network:processDebugJavaRes NO-SOURCE
-> Task :common-ui:bundleLibResDebug
-> Task :network:bundleLibResDebug
-> Task :entity:bundleLibResDebug
-> Task :entity:bundleLibRuntimeDebug
-> Task :entity:createFullJarDebug
-> Task :common-ui:bundleLibRuntimeDebug
-> Task :common-ui:createFullJarDebug
-> Task :network:bundleLibRuntimeDebug
-> Task :network:createFullJarDebug
 > Task :mvvm-coroutines:checkDebugDuplicateClasses
 > Task :mvvm-coroutines:mergeDebugJavaResource
 > Task :mvvm-coroutines:transformClassesWithDexBuilderForDebug
@@ -500,6 +502,9 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :common-ui:compileReleaseKotlin UP-TO-DATE
 > Task :common-ui:javaPreCompileRelease UP-TO-DATE
 > Task :common-ui:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :network:mergeDebugNativeLibs
+> Task :network:stripDebugDebugSymbols
+> Task :network:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :mvvm-coroutines:preReleaseBuild UP-TO-DATE
 > Task :network:preReleaseBuild UP-TO-DATE
 > Task :network:compileReleaseAidl NO-SOURCE
@@ -511,48 +516,33 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :mvvm-coroutines:generateReleaseBuildConfig
 > Task :mvvm-coroutines:generateReleaseSources
 > Task :mvvm-coroutines:dataBindingExportBuildInfoRelease
-> Task :common-ui:bundleLibCompileRelease
 > Task :mvvm-coroutines:dataBindingMergeDependencyArtifactsRelease
+> Task :common-ui:bundleLibCompileRelease
 > Task :mvvm-coroutines:generateReleaseResValues
 > Task :mvvm-coroutines:generateReleaseResources
 > Task :network:compileReleaseRenderscript NO-SOURCE
 > Task :network:generateReleaseResValues
 > Task :network:generateReleaseResources
 > Task :network:packageReleaseResources
-> Task :mvvm-coroutines:dataBindingMergeGenClassesRelease
+> Task :mvvm-coroutines:mergeDebugNativeLibs
+> Task :mvvm-coroutines:stripDebugDebugSymbols
 > Task :mvvm-coroutines:mainApkListPersistenceRelease
 > Task :mvvm-coroutines:createReleaseCompatibleScreenManifests
 > Task :network:checkReleaseManifest
-> Task :network:mergeDebugNativeLibs
-> Task :network:stripDebugDebugSymbols
-> Task :network:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :network:generateReleaseBuildConfig
+> Task :mvvm-coroutines:dataBindingMergeGenClassesRelease
 > Task :mvvm-coroutines:dataBindingExportFeaturePackageIdsRelease
 > Task :network:parseReleaseLibraryResources
-> Task :entity:prepareLintJarForPublish UP-TO-DATE
-> Task :entity:processReleaseJavaRes NO-SOURCE
-> Task :network:processReleaseJavaRes NO-SOURCE
-> Task :common-ui:processReleaseJavaRes NO-SOURCE
-> Task :entity:bundleLibResRelease
 > Task :network:processReleaseManifest
 > Task :mvvm-coroutines:processReleaseManifest
 > Task :mvvm-coroutines:mergeReleaseResources
 > Task :mvvm-coroutines:dataBindingGenBaseClassesRelease
-> Task :mvvm-coroutines:checkReleaseDuplicateClasses
-> Task :network:prepareLintJarForPublish
-> Task :mvvm-coroutines:mergeDebugNativeLibs
-> Task :mvvm-coroutines:stripDebugDebugSymbols
-> Task :common-ui:bundleLibResRelease
-> Task :entity:bundleLibRuntimeRelease
-> Task :entity:createFullJarRelease
 > Task :network:generateReleaseRFile
 > Task :mvvm-coroutines:processReleaseResources
 > Task :network:compileReleaseKotlin
-> Task :common-ui:bundleLibRuntimeRelease
-> Task :common-ui:createFullJarRelease
 > Task :network:javaPreCompileRelease
 > Task :network:compileReleaseJavaWithJavac
-> Task :network:bundleLibResRelease
+> Task :mvvm-coroutines:mergeExtDexDebug
 > Task :network:bundleLibCompileRelease
 > Task :mvvm-coroutines:kaptGenerateStubsReleaseKotlin
 
@@ -560,19 +550,31 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: android.databinding.annotationprocessor.ProcessDataBinding (DYNAMIC).
 
 > Task :mvvm-coroutines:compileReleaseKotlin
-> Task :mvvm-coroutines:mergeExtDexDebug
-> Task :network:bundleLibRuntimeRelease
-> Task :network:createFullJarRelease
-> Task :mvvm-coroutines:javaPreCompileRelease
-> Task :mvvm-coroutines:compileReleaseJavaWithJavac
-> Task :mvvm-coroutines:compileReleaseSources
-
-> Task :mvvm-coroutines:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/18aba76e6f64f50d2d53651fbf26c4ad/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
 > Task :mvvm-coroutines:mergeDexDebug
 > Task :mvvm-coroutines:packageDebug
 > Task :mvvm-coroutines:assembleDebug
+> Task :mvvm-coroutines:javaPreCompileRelease
+> Task :mvvm-coroutines:compileReleaseJavaWithJavac
+> Task :mvvm-coroutines:compileReleaseSources
+> Task :entity:prepareLintJarForPublish UP-TO-DATE
+> Task :entity:processReleaseJavaRes NO-SOURCE
+> Task :network:processReleaseJavaRes NO-SOURCE
+> Task :common-ui:processReleaseJavaRes NO-SOURCE
+> Task :entity:bundleLibResRelease
+> Task :network:prepareLintJarForPublish
+
+> Task :mvvm-coroutines:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/53a315c53d682221b71c1d5bad288fbe/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :mvvm-coroutines:checkReleaseDuplicateClasses
+> Task :common-ui:bundleLibRuntimeRelease
+> Task :common-ui:bundleLibResRelease
+> Task :common-ui:createFullJarRelease
+> Task :entity:bundleLibRuntimeRelease
+> Task :entity:createFullJarRelease
+> Task :network:bundleLibResRelease
+> Task :network:bundleLibRuntimeRelease
+> Task :network:createFullJarRelease
 > Task :mvvm-coroutines:transformClassesWithDexBuilderForRelease
 > Task :common-ui:mergeReleaseShaders UP-TO-DATE
 > Task :common-ui:compileReleaseShaders UP-TO-DATE
@@ -619,7 +621,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 33s
+BUILD SUCCESSFUL in 1m 40s
 212 actionable tasks: 127 executed, 85 up-to-date
 
-2019-12-16 12:43:13,747 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576474774611-0/src/GoldMovies-master/mvvm-coroutines/build/outputs/apk/release/mvvm-coroutines-release-unsigned.apk
+2020-01-03 03:12:54,157 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995784771-0/src/GoldMovies-master/mvvm-coroutines/build/outputs/apk/release/mvvm-coroutines-release-unsigned.apk
