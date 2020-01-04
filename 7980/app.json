@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.0.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "21",
     "targetSdkVersion" : "28",
@@ -24,7 +32,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ "android.permission.ACCESS_NETWORK_STATE", "android.permission.INTERNET" ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -35,8 +45,8 @@
   "dexClasses" : 3414,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.devs.mapdrawingmanager\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0f0005\" android:label=\"MapDrawingManager\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.devs.mapdrawingmanager.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyBXsFGkFo1sUxNZI-n2Zggqsg-zEyJ2Pko\" />\n\t\t<uses-library android:name=\"org.apache.http.legacy\" android:required=\"false\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2925650,
-  "crc32" : 3042582493,
-  "sha256" : "45f147a5488f611e487a1b96b0a39ae6a28093c1573bdc26158f17cd7d6b6e82",
-  "buildTime" : 1575730035000
+  "fileSize" : 2925532,
+  "crc32" : 2821324581,
+  "sha256" : "5821c9275c1b068cc4dd4adc8e2395cd968d1a39a4f6da45db0cba991d7c3d1e",
+  "buildTime" : 1578144189000
 }
