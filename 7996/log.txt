@@ -1,42 +1,37 @@
-2019-12-29 16:45:17,174 INFO  DownloadService - Downloading "https://github.com/tizisdeepan/PieProgress/archive/master.zip", attempt 3
-2019-12-29 16:45:19,770 INFO  DownloadService - Downloaded https://github.com/tizisdeepan/PieProgress/archive/master.zip, attempt 3
-2019-12-29 16:45:19,771 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/master.zip": 374 KB
-2019-12-29 16:45:19,771 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-29 16:45:19,788 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/master.zip: true
-2019-12-29 16:45:19,789 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src'.
-2019-12-29 16:45:19,831 INFO  FullProcessService - Size of directory with sources: 391 KB
-2019-12-29 16:45:19,836 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src]
-2019-12-29 16:45:19,885 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/.git/
+2020-01-19 19:40:36,260 INFO  DownloadService - Downloading "https://github.com/tizisdeepan/PieProgress/archive/master.zip", attempt 3
+2020-01-19 19:40:38,711 INFO  DownloadService - Downloaded https://github.com/tizisdeepan/PieProgress/archive/master.zip, attempt 3
+2020-01-19 19:40:38,712 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/master.zip": 374 KB
+2020-01-19 19:40:38,712 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 19:40:38,717 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/master.zip: true
+2020-01-19 19:40:38,717 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src'.
+2020-01-19 19:40:38,746 INFO  FullProcessService - Size of directory with sources: 391 KB
+2020-01-19 19:40:38,746 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src]
+2020-01-19 19:40:38,771 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/.git/
 
-2019-12-29 16:45:19,904 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/gradlew
-2019-12-29 16:45:19,917 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/pieprogress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/build.gradle
-2019-12-29 16:45:19,924 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/pieprogress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/settings.gradle
-2019-12-29 16:45:19,926 INFO  ProjectBuildService - Remote scripts: none
-2019-12-29 16:45:19,927 INFO  ProjectFixService - Fixing project...
-2019-12-29 16:45:20,004 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-12-29 16:45:20,004 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-12-29 16:45:20,008 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-12-29 16:45:20,011 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
-2019-12-29 16:45:20,015 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-12-29 16:45:20,016 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-12-29 16:45:20,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/local.properties
-2019-12-29 16:45:20,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-12-29 16:45:20,033 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-12-29 16:45:20,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/pieprogress/local.properties
-2019-12-29 16:45:20,038 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/pieprogress/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-12-29 16:45:20,038 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/pieprogress/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-12-29 16:45:20,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/local.properties
-2019-12-29 16:45:20,045 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-12-29 16:45:20,046 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-12-29 16:45:20,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-12-29 16:45:20,048 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-12-29 16:45:20,049 INFO  ProjectFixService - Project was maybe fixed
-2019-12-29 16:45:20,051 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 16:45:20,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 16:45:30,892 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-29 16:45:30,893 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-29 16:45:30,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-29 16:46:20,553 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 19:40:38,774 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/gradlew
+2020-01-19 19:40:38,777 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/pieprogress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/build.gradle
+2020-01-19 19:40:38,779 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/pieprogress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/settings.gradle
+2020-01-19 19:40:38,780 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 19:40:38,780 INFO  ProjectFixService - Fixing project...
+2020-01-19 19:40:38,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/local.properties
+2020-01-19 19:40:38,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-19 19:40:38,789 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-19 19:40:38,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/pieprogress/local.properties
+2020-01-19 19:40:38,792 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/pieprogress/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-19 19:40:38,792 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/pieprogress/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-19 19:40:38,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/local.properties
+2020-01-19 19:40:38,794 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-01-19 19:40:38,794 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-01-19 19:40:38,796 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-19 19:40:38,796 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-01-19 19:40:38,796 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 19:40:38,796 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 19:40:38,797 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 19:40:46,803 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-19 19:40:46,804 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-19 19:40:46,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-19 19:40:54,622 INFO  VirusProcessorServiceImpl - Queued project 8021 to scan viruses
+2020-01-19 19:41:42,263 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :pieprogress
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -46,18 +41,21 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :pieprogress:preDebugBuild UP-TO-DATE
 > Task :pieprogress:checkDebugManifest
 > Task :pieprogress:processDebugManifest
+> Task :pieprogress:packageDebugRenderscript NO-SOURCE
+> Task :pieprogress:generateDebugResValues
+> Task :pieprogress:generateDebugBuildConfig
+> Task :pieprogress:prepareLintJar
+> Task :app:prepareLintJar
 > Task :pieprogress:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :pieprogress:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :pieprogress:compileDebugRenderscript NO-SOURCE
-> Task :pieprogress:generateDebugResValues
 > Task :pieprogress:generateDebugResources
 > Task :pieprogress:packageDebugResources
 > Task :app:mergeDebugResources
@@ -65,15 +63,12 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:processDebugManifest
 > Task :pieprogress:generateDebugRFile
 > Task :app:processDebugResources
-> Task :pieprogress:generateDebugBuildConfig
 > Task :pieprogress:compileDebugKotlin
-> Task :pieprogress:prepareLintJar
 > Task :pieprogress:generateDebugSources
 > Task :pieprogress:javaPreCompileDebug
 > Task :pieprogress:compileDebugJavaWithJavac
 > Task :pieprogress:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
@@ -91,9 +86,9 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :pieprogress:bundleLibResDebug
 > Task :pieprogress:bundleLibRuntimeDebug
 > Task :pieprogress:createFullJarDebug
+> Task :app:mergeLibDexDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:mergeProjectDexDebug
-> Task :app:mergeLibDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
@@ -129,9 +124,6 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:processReleaseResources
 > Task :pieprogress:generateReleaseBuildConfig
 > Task :pieprogress:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :pieprogress:generateReleaseSources
 > Task :pieprogress:javaPreCompileRelease
 > Task :pieprogress:compileReleaseJavaWithJavac
@@ -142,8 +134,14 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :pieprogress:prepareLintJarForPublish
-> Task :app:lintVitalRelease
 > Task :pieprogress:processReleaseJavaRes NO-SOURCE
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8431378665e78b45e4ed5e8236a0496a/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :pieprogress:bundleLibResRelease
 > Task :pieprogress:bundleLibRuntimeRelease
 > Task :pieprogress:createFullJarRelease
@@ -178,7 +176,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 54s
 96 actionable tasks: 96 executed
 
-2019-12-29 16:46:20,638 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577612717091-0/src/PieProgress-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-19 19:41:42,328 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437636251-0/src/PieProgress-master/app/build/outputs/apk/debug/app-debug.apk
