@@ -1,36 +1,36 @@
-2019-12-28 19:43:58,635 INFO  DownloadService - Downloading "https://github.com/skydoves/Balloon/archive/master.zip", attempt 3
-2019-12-28 19:44:00,974 INFO  DownloadService - Downloaded https://github.com/skydoves/Balloon/archive/master.zip, attempt 3
-2019-12-28 19:44:00,975 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/master.zip": 452 KB
-2019-12-28 19:44:00,975 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-28 19:44:00,980 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/master.zip: true
-2019-12-28 19:44:00,981 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src'.
-2019-12-28 19:44:01,015 INFO  FullProcessService - Size of directory with sources: 523 KB
-2019-12-28 19:44:01,015 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src]
-2019-12-28 19:44:01,033 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/.git/
+2020-01-19 18:55:11,867 INFO  DownloadService - Downloading "https://github.com/skydoves/Balloon/archive/master.zip", attempt 3
+2020-01-19 18:55:12,949 INFO  DownloadService - Downloaded https://github.com/skydoves/Balloon/archive/master.zip, attempt 3
+2020-01-19 18:55:12,949 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/master.zip": 452 KB
+2020-01-19 18:55:12,949 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 18:55:12,955 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/master.zip: true
+2020-01-19 18:55:12,955 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src'.
+2020-01-19 18:55:12,988 INFO  FullProcessService - Size of directory with sources: 527 KB
+2020-01-19 18:55:12,989 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src]
+2020-01-19 18:55:13,006 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/.git/
 
-2019-12-28 19:44:01,036 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/gradlew
-2019-12-28 19:44:01,039 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/balloon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/build.gradle
-2019-12-28 19:44:01,042 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/balloon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/spotless.gradle
-2019-12-28 19:44:01,043 INFO  ProjectBuildService - Remote scripts: none
-2019-12-28 19:44:01,043 INFO  ProjectFixService - Fixing project...
-2019-12-28 19:44:01,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/local.properties
-2019-12-28 19:44:01,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-28 19:44:01,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-28 19:44:01,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/balloon/local.properties
-2019-12-28 19:44:01,056 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/balloon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-28 19:44:01,056 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/balloon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-28 19:44:01,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/local.properties
-2019-12-28 19:44:01,057 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-28 19:44:01,057 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-28 19:44:01,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-28 19:44:01,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-28 19:44:01,060 INFO  ProjectFixService - Project was maybe fixed
-2019-12-28 19:44:01,060 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-28 19:44:01,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-28 19:44:09,453 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-12-28 19:44:09,453 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-28 19:44:09,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-28 19:45:14,207 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-19 18:55:13,009 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/gradlew
+2020-01-19 18:55:13,013 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/balloon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/build.gradle
+2020-01-19 18:55:13,016 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/balloon/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/spotless.gradle
+2020-01-19 18:55:13,017 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 18:55:13,017 INFO  ProjectFixService - Fixing project...
+2020-01-19 18:55:13,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/local.properties
+2020-01-19 18:55:13,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 18:55:13,026 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 18:55:13,027 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/balloon/local.properties
+2020-01-19 18:55:13,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/balloon/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 18:55:13,029 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/balloon/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 18:55:13,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/local.properties
+2020-01-19 18:55:13,030 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-19 18:55:13,031 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-19 18:55:13,033 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-19 18:55:13,033 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-19 18:55:13,033 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 18:55:13,033 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 18:55:13,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 18:55:19,691 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-19 18:55:19,691 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-19 18:55:19,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-19 18:56:21,164 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :balloon
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -62,16 +62,11 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :balloon:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :balloon:checkDebugManifest
+> Task :app:mergeDebugResources
 > Task :balloon:processDebugManifest
 > Task :app:processDebugManifest
 > Task :balloon:parseDebugLibraryResources
-> Task :app:mergeDebugResources
-> Task :balloon:generateDebugRFile
-> Task :app:processDebugResources
 > Task :balloon:generateDebugBuildConfig
-> Task :balloon:compileDebugKotlin
-> Task :balloon:javaPreCompileDebug
-> Task :balloon:compileDebugJavaWithJavac
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -80,20 +75,24 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :balloon:generateDebugAssets
 > Task :balloon:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :balloon:processDebugJavaRes NO-SOURCE
+> Task :balloon:generateDebugRFile
+> Task :app:processDebugResources
+> Task :balloon:compileDebugKotlin
+> Task :app:checkDebugDuplicateClasses
+> Task :balloon:javaPreCompileDebug
+> Task :balloon:compileDebugJavaWithJavac
+> Task :balloon:bundleLibResDebug
 > Task :balloon:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
+> Task :balloon:bundleLibRuntimeDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :balloon:processDebugJavaRes NO-SOURCE
-> Task :balloon:bundleLibResDebug
-> Task :balloon:bundleLibRuntimeDebug
-> Task :balloon:createFullJarDebug
-> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
-> Task :app:desugarDebugFileDependencies
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:desugarDebugFileDependencies
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
@@ -113,43 +112,40 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :balloon:generateReleaseResValues
 > Task :balloon:generateReleaseResources
 > Task :balloon:packageReleaseResources
+> Task :balloon:mergeDebugNativeLibs
+> Task :balloon:stripDebugDebugSymbols
+> Task :balloon:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :balloon:checkReleaseManifest
 > Task :balloon:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :balloon:generateReleaseBuildConfig
-> Task :balloon:mergeDebugNativeLibs
-> Task :balloon:stripDebugDebugSymbols
-> Task :balloon:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :balloon:parseReleaseLibraryResources
-> Task :app:prepareLintJar
-> Task :balloon:prepareLintJarForPublish
-> Task :balloon:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :balloon:generateReleaseRFile
-> Task :balloon:compileReleaseKotlin
 > Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
-> Task :balloon:javaPreCompileRelease
-> Task :balloon:compileReleaseJavaWithJavac
+> Task :balloon:parseReleaseLibraryResources
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :balloon:bundleLibResRelease
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :balloon:prepareLintJarForPublish
+> Task :balloon:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :balloon:compileReleaseKotlin
+> Task :balloon:javaPreCompileRelease
+> Task :balloon:compileReleaseJavaWithJavac
 > Task :balloon:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:mergeExtDexDebug
+> Task :balloon:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7c0d5af6b21b58cdfef94ecd30343c41/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/867cd9993f76e04d80beaebf248485b8/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :balloon:bundleLibRuntimeRelease
-> Task :balloon:createFullJarRelease
 > Task :app:desugarReleaseFileDependencies
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
@@ -161,9 +157,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :balloon:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :balloon:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :balloon:mergeReleaseJniLibFolders
+> Task :balloon:bundleLibResRelease
 > Task :balloon:mergeReleaseNativeLibs
 > Task :balloon:stripReleaseDebugSymbols
 > Task :balloon:transformNativeLibsWithIntermediateJniLibsForRelease
@@ -181,7 +179,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 3s
-96 actionable tasks: 96 executed
+BUILD SUCCESSFUL in 1m 0s
+94 actionable tasks: 94 executed
 
-2019-12-28 19:45:14,289 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577537038627-0/src/Balloon-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-19 18:56:21,241 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434911863-0/src/Balloon-master/app/build/outputs/apk/debug/app-debug.apk
