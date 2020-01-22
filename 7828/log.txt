@@ -1,36 +1,37 @@
-2019-10-27 21:16:14,099 INFO  DownloadService - Downloading "https://github.com/skydoves/Rainbow/archive/master.zip", attempt 3
-2019-10-27 21:16:15,058 INFO  DownloadService - Downloaded https://github.com/skydoves/Rainbow/archive/master.zip, attempt 3
-2019-10-27 21:16:15,059 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/master.zip": 169 KB
-2019-10-27 21:16:15,059 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-27 21:16:15,064 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/master.zip: true
-2019-10-27 21:16:15,064 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src'.
-2019-10-27 21:16:15,080 INFO  FullProcessService - Size of directory with sources: 201 KB
-2019-10-27 21:16:15,080 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src]
-2019-10-27 21:16:15,100 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/.git/
+2020-01-22 17:40:20,867 INFO  DownloadService - Downloading "https://github.com/skydoves/Rainbow/archive/master.zip", attempt 3
+2020-01-22 17:40:22,913 INFO  DownloadService - Downloaded https://github.com/skydoves/Rainbow/archive/master.zip, attempt 3
+2020-01-22 17:40:22,914 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/master.zip": 170 KB
+2020-01-22 17:40:22,914 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-22 17:40:22,915 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/master.zip: true
+2020-01-22 17:40:22,916 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src'.
+2020-01-22 17:40:22,938 INFO  FullProcessService - Size of directory with sources: 203 KB
+2020-01-22 17:40:22,938 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src]
+2020-01-22 17:40:22,967 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/.git/
 
-2019-10-27 21:16:15,102 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/gradlew
-2019-10-27 21:16:15,104 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/rainbow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/build.gradle
-2019-10-27 21:16:15,106 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/rainbow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/spotless.gradle
-2019-10-27 21:16:15,107 INFO  ProjectBuildService - Remote scripts: none
-2019-10-27 21:16:15,107 INFO  ProjectFixService - Fixing project...
-2019-10-27 21:16:15,114 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/local.properties
-2019-10-27 21:16:15,116 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-27 21:16:15,117 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-27 21:16:15,118 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/rainbow/local.properties
-2019-10-27 21:16:15,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/rainbow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-27 21:16:15,120 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/rainbow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-27 21:16:15,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/local.properties
-2019-10-27 21:16:15,122 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-10-27 21:16:15,122 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-10-27 21:16:15,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-27 21:16:15,125 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-27 21:16:15,125 INFO  ProjectFixService - Project was maybe fixed
-2019-10-27 21:16:15,125 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-27 21:16:15,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-27 21:16:26,635 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-10-27 21:16:26,635 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-27 21:16:26,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-27 21:17:11,248 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-22 17:40:22,969 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/gradlew
+2020-01-22 17:40:22,972 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/rainbow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/build.gradle
+2020-01-22 17:40:22,974 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/rainbow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/spotless.gradle
+2020-01-22 17:40:22,979 INFO  ProjectBuildService - Remote scripts: none
+2020-01-22 17:40:22,979 INFO  ProjectFixService - Fixing project...
+2020-01-22 17:40:22,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/local.properties
+2020-01-22 17:40:22,992 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-22 17:40:22,993 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-22 17:40:22,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/rainbow/local.properties
+2020-01-22 17:40:22,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/rainbow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-22 17:40:22,997 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/rainbow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-22 17:40:22,999 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/local.properties
+2020-01-22 17:40:22,999 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-22 17:40:23,000 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-22 17:40:23,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-01-22 17:40:23,003 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-01-22 17:40:23,004 INFO  ProjectFixService - Project was maybe fixed
+2020-01-22 17:40:23,004 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-22 17:40:23,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-22 17:40:30,574 INFO  VirusProcessorServiceImpl - Queued project 8027 to scan viruses
+2020-01-22 17:40:30,763 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-22 17:40:30,763 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-22 17:40:30,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-22 17:41:37,931 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :rainbow
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -43,27 +44,28 @@ For more information, see https://d.android.com/r/tools/task-configuration-avoid
 To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :rainbow:preBuild UP-TO-DATE
 > Task :rainbow:preDebugBuild UP-TO-DATE
-> Task :rainbow:checkDebugManifest
-> Task :rainbow:processDebugManifest
-> Task :rainbow:packageDebugRenderscript NO-SOURCE
 > Task :rainbow:compileDebugAidl NO-SOURCE
-> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :rainbow:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :rainbow:compileDebugRenderscript NO-SOURCE
 > Task :rainbow:generateDebugResValues
+> Task :rainbow:compileDebugRenderscript NO-SOURCE
 > Task :rainbow:generateDebugResources
 > Task :rainbow:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :rainbow:checkDebugManifest
+> Task :rainbow:processDebugManifest
 > Task :app:processDebugManifest
+> Task :rainbow:parseDebugLibraryResources
+> Task :app:mergeDebugResources
 > Task :rainbow:generateDebugRFile
 > Task :app:processDebugResources
 > Task :rainbow:generateDebugBuildConfig
@@ -79,17 +81,8 @@ as no stability/compatibility guarantees are given on
 compiler or generated code. Use it at your own risk!
 
 
-> Task :rainbow:prepareLintJar
-> Task :rainbow:generateDebugSources
 > Task :rainbow:javaPreCompileDebug
 > Task :rainbow:compileDebugJavaWithJavac
-> Task :rainbow:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -98,27 +91,25 @@ compiler or generated code. Use it at your own risk!
 > Task :rainbow:generateDebugAssets
 > Task :rainbow:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :rainbow:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :rainbow:processDebugJavaRes NO-SOURCE
 > Task :rainbow:bundleLibResDebug
 > Task :rainbow:bundleLibRuntimeDebug
 > Task :rainbow:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :rainbow:mergeDebugJniLibFolders
-> Task :rainbow:transformNativeLibsWithMergeJniLibsForDebug
-> Task :rainbow:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :rainbow:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :rainbow:preReleaseBuild UP-TO-DATE
-> Task :rainbow:checkReleaseManifest
-> Task :rainbow:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :rainbow:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :rainbow:packageReleaseRenderscript NO-SOURCE
@@ -132,12 +123,24 @@ compiler or generated code. Use it at your own risk!
 > Task :rainbow:generateReleaseResValues
 > Task :rainbow:generateReleaseResources
 > Task :rainbow:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :rainbow:checkReleaseManifest
+> Task :rainbow:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :rainbow:generateReleaseBuildConfig
+> Task :rainbow:mergeDebugNativeLibs
+> Task :rainbow:stripDebugDebugSymbols
+> Task :rainbow:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeReleaseResources
+> Task :rainbow:parseReleaseLibraryResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:prepareLintJar
+> Task :rainbow:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :rainbow:prepareLintJarForPublish
 > Task :rainbow:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :rainbow:generateReleaseBuildConfig
 
 > Task :rainbow:compileReleaseKotlin
 w: ATTENTION!
@@ -150,29 +153,20 @@ as no stability/compatibility guarantees are given on
 compiler or generated code. Use it at your own risk!
 
 
-> Task :rainbow:generateReleaseSources
 > Task :rainbow:javaPreCompileRelease
 > Task :rainbow:compileReleaseJavaWithJavac
 > Task :rainbow:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:generateReleaseSources
+> Task :rainbow:bundleLibRuntimeRelease
+> Task :rainbow:bundleLibResRelease
+> Task :rainbow:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :rainbow:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f91d61a706b9151b3d42eab34a96425c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c5dc680522dfb8be76a0d53fe8058437/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :rainbow:processReleaseJavaRes NO-SOURCE
-> Task :rainbow:bundleLibResRelease
-> Task :rainbow:bundleLibRuntimeRelease
-> Task :rainbow:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -182,16 +176,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :rainbow:generateReleaseAssets
 > Task :rainbow:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :rainbow:mergeReleaseJniLibFolders
-> Task :rainbow:transformNativeLibsWithMergeJniLibsForRelease
-> Task :rainbow:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :rainbow:mergeReleaseNativeLibs
+> Task :rainbow:stripReleaseDebugSymbols
 > Task :rainbow:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -201,9 +199,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 43s
-95 actionable tasks: 95 executed
+BUILD SUCCESSFUL in 1m 6s
+94 actionable tasks: 94 executed
 
-2019-10-27 21:17:11,312 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1572185774095-0/src/Rainbow-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-22 17:41:37,996 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579689620864-0/src/Rainbow-master/app/build/outputs/apk/debug/app-debug.apk
