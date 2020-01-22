@@ -1,45 +1,46 @@
-2019-12-29 20:30:39,461 INFO  DownloadService - Downloading "https://github.com/sagar-viradiya/eazypermissions/archive/master.zip", attempt 3
-2019-12-29 20:30:41,844 INFO  DownloadService - Downloaded https://github.com/sagar-viradiya/eazypermissions/archive/master.zip, attempt 3
-2019-12-29 20:30:41,845 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/master.zip": 295 KB
-2019-12-29 20:30:41,845 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-29 20:30:41,846 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/master.zip: true
-2019-12-29 20:30:41,846 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src'.
-2019-12-29 20:30:41,884 INFO  FullProcessService - Size of directory with sources: 363 KB
-2019-12-29 20:30:41,884 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src]
-2019-12-29 20:30:41,915 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/.git/
+2020-01-22 16:13:45,269 INFO  DownloadService - Downloading "https://github.com/sagar-viradiya/eazypermissions/archive/master.zip", attempt 3
+2020-01-22 16:13:46,870 INFO  DownloadService - Downloaded https://github.com/sagar-viradiya/eazypermissions/archive/master.zip, attempt 3
+2020-01-22 16:13:46,870 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/master.zip": 295 KB
+2020-01-22 16:13:46,870 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-22 16:13:46,871 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/master.zip: true
+2020-01-22 16:13:46,872 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src'.
+2020-01-22 16:13:46,908 INFO  FullProcessService - Size of directory with sources: 363 KB
+2020-01-22 16:13:46,908 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src]
+2020-01-22 16:13:46,950 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/.git/
 
-2019-12-29 20:30:41,921 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew
-2019-12-29 20:30:41,927 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/coroutinespermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/build.gradle
-2019-12-29 20:30:41,931 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/scripts/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/scripts/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/coroutinespermission/build.gradle
-2019-12-29 20:30:41,932 INFO  ProjectBuildService - Remote scripts: none
-2019-12-29 20:30:41,932 INFO  ProjectFixService - Fixing project...
-2019-12-29 20:30:41,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/common/local.properties
-2019-12-29 20:30:41,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,950 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,951 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/coroutinespermission/local.properties
-2019-12-29 20:30:41,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/coroutinespermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,955 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/coroutinespermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/dslpermission/local.properties
-2019-12-29 20:30:41,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/dslpermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,960 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/dslpermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/livedatapermission/local.properties
-2019-12-29 20:30:41,968 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/livedatapermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,968 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/livedatapermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,969 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/local.properties
-2019-12-29 20:30:41,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,973 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/local.properties
-2019-12-29 20:30:41,975 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
-2019-12-29 20:30:41,976 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
-2019-12-29 20:30:41,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,978 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2019-12-29 20:30:41,978 INFO  ProjectFixService - Project was maybe fixed
-2019-12-29 20:30:41,979 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 20:30:41,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 20:30:50,641 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-12-29 20:30:50,642 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-29 20:30:50,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-29 20:31:09,125 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-22 16:13:46,956 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew
+2020-01-22 16:13:46,962 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/coroutinespermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/build.gradle
+2020-01-22 16:13:46,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/scripts/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/scripts/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/coroutinespermission/build.gradle
+2020-01-22 16:13:46,968 INFO  ProjectBuildService - Remote scripts: none
+2020-01-22 16:13:46,968 INFO  ProjectFixService - Fixing project...
+2020-01-22 16:13:46,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/common/local.properties
+2020-01-22 16:13:46,993 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:46,993 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:46,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/coroutinespermission/local.properties
+2020-01-22 16:13:46,999 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/coroutinespermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,000 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/coroutinespermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/dslpermission/local.properties
+2020-01-22 16:13:47,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/dslpermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,005 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/dslpermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/livedatapermission/local.properties
+2020-01-22 16:13:47,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/livedatapermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,010 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/livedatapermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/local.properties
+2020-01-22 16:13:47,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,014 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/local.properties
+2020-01-22 16:13:47,015 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
+2020-01-22 16:13:47,016 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
+2020-01-22 16:13:47,018 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,018 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
+2020-01-22 16:13:47,019 INFO  ProjectFixService - Project was maybe fixed
+2020-01-22 16:13:47,019 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-22 16:13:47,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-22 16:13:51,181 INFO  VirusProcessorServiceImpl - Queued project 7830 to scan viruses
+2020-01-22 16:13:59,929 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-01-22 16:13:59,929 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-22 16:13:59,930 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-22 16:14:24,456 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
 > Task :common:checkDebugManifest
@@ -55,10 +56,17 @@
 > Task :common:prepareLintJarForPublish
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:checkReleaseManifest
-> Task :common:processDebugManifest
 > Task :common:generateReleaseBuildConfig
 > Task :common:generateReleaseResValues
 > Task :common:mergeReleaseShaders
+> Task :common:compileReleaseShaders
+> Task :common:generateReleaseAssets
+> Task :common:packageReleaseAssets
+> Task :common:mergeDebugNativeLibs
+> Task :common:processDebugManifest
+> Task :common:processReleaseManifest
+> Task :common:stripDebugDebugSymbols
+> Task :common:transformNativeLibsWithSyncJniLibsForDebug
 > Task :common:compileDebugAidl NO-SOURCE
 > Task :common:compileDebugRenderscript NO-SOURCE
 > Task :common:generateDebugResources
@@ -67,46 +75,39 @@
 > Task :common:compileReleaseRenderscript NO-SOURCE
 > Task :common:generateReleaseResources
 > Task :common:packageReleaseResources
-> Task :common:compileReleaseShaders
-> Task :common:generateReleaseAssets
-> Task :common:packageReleaseAssets
 > Task :common:packageReleaseRenderscript NO-SOURCE
 > Task :common:processReleaseJavaRes NO-SOURCE
 > Task :common:mergeReleaseJniLibFolders
-> Task :common:processReleaseManifest
-> Task :common:mergeDebugNativeLibs
-> Task :common:stripDebugDebugSymbols
-> Task :common:transformNativeLibsWithSyncJniLibsForDebug
-> Task :common:mergeReleaseNativeLibs
-> Task :common:stripReleaseDebugSymbols
-> Task :common:transformNativeLibsWithSyncJniLibsForRelease
-> Task :common:parseReleaseLibraryResources
-> Task :common:parseDebugLibraryResources
 > Task :common:javadoc SKIPPED
 > Task :common:javadocJar
 > Task :common:mergeReleaseResources
+> Task :common:parseReleaseLibraryResources
+> Task :common:sourcesJar
+> Task :common:mergeReleaseNativeLibs
+> Task :common:stripReleaseDebugSymbols
+> Task :common:transformNativeLibsWithSyncJniLibsForRelease
+> Task :common:parseDebugLibraryResources
 > Task :common:generateReleaseRFile
 > Task :common:compileReleaseKotlin
-> Task :common:sourcesJar
 > Task :common:verifyReleaseResources
+> Task :common:generateDebugRFile
+> Task :common:compileDebugKotlin
 > Task :common:javaPreCompileRelease
 > Task :common:compileReleaseJavaWithJavac
 > Task :common:extractReleaseAnnotations
 > Task :common:mergeReleaseGeneratedProguardFiles
 > Task :common:mergeReleaseConsumerProguardFiles
-> Task :common:generateDebugRFile
-> Task :common:compileDebugKotlin
 > Task :common:compileReleaseSources
-> Task :common:mergeReleaseJavaResource
-> Task :common:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :common:bundleReleaseAar
-> Task :common:assembleRelease
 > Task :common:javaPreCompileDebug
 > Task :common:compileDebugJavaWithJavac
 > Task :common:extractDebugAnnotations
 > Task :common:mergeDebugGeneratedProguardFiles
 > Task :common:mergeDebugConsumerProguardFiles
 > Task :common:compileDebugSources
+> Task :common:mergeReleaseJavaResource
+> Task :common:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :common:bundleReleaseAar
+> Task :common:assembleRelease
 > Task :common:mergeDebugJavaResource
 > Task :common:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :common:bundleDebugAar
@@ -118,15 +119,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 17s
+BUILD SUCCESSFUL in 23s
 51 actionable tasks: 51 executed
 
-2019-12-29 20:31:09,162 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 20:31:09,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 20:31:15,720 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-12-29 20:31:15,720 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-29 20:31:15,720 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-29 20:31:32,103 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-22 16:14:24,495 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-22 16:14:24,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-22 16:14:31,252 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-01-22 16:14:31,252 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-22 16:14:31,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-22 16:14:47,509 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
 > Task :coroutinespermission:preBuild UP-TO-DATE
@@ -149,6 +150,7 @@ BUILD SUCCESSFUL in 17s
 > Task :coroutinespermission:compileDebugRenderscript NO-SOURCE
 > Task :coroutinespermission:checkDebugManifest
 > Task :coroutinespermission:generateDebugBuildConfig
+> Task :common:bundleLibCompileDebug
 > Task :coroutinespermission:generateDebugResValues
 > Task :coroutinespermission:generateDebugResources
 > Task :coroutinespermission:packageDebugResources
@@ -175,9 +177,7 @@ BUILD SUCCESSFUL in 17s
 > Task :common:compileReleaseKotlin UP-TO-DATE
 > Task :common:javaPreCompileRelease UP-TO-DATE
 > Task :common:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :coroutinespermission:mergeDebugNativeLibs
-> Task :coroutinespermission:stripDebugDebugSymbols
-> Task :coroutinespermission:transformNativeLibsWithSyncJniLibsForDebug
+> Task :coroutinespermission:prepareLintJarForPublish
 > Task :common:packageReleaseRenderscript NO-SOURCE
 > Task :coroutinespermission:compileReleaseRenderscript NO-SOURCE
 > Task :coroutinespermission:checkReleaseManifest
@@ -185,38 +185,39 @@ BUILD SUCCESSFUL in 17s
 > Task :coroutinespermission:generateReleaseResValues
 > Task :coroutinespermission:generateReleaseResources
 > Task :coroutinespermission:packageReleaseResources
-> Task :coroutinespermission:parseDebugLibraryResources
+> Task :coroutinespermission:processDebugManifest
+> Task :coroutinespermission:mergeDebugNativeLibs
+> Task :coroutinespermission:stripDebugDebugSymbols
+> Task :coroutinespermission:transformNativeLibsWithSyncJniLibsForDebug
 > Task :coroutinespermission:mergeReleaseShaders
 > Task :coroutinespermission:compileReleaseShaders
 > Task :coroutinespermission:generateReleaseAssets
 > Task :coroutinespermission:packageReleaseAssets
 > Task :coroutinespermission:packageReleaseRenderscript NO-SOURCE
+> Task :coroutinespermission:processReleaseManifest
 > Task :coroutinespermission:processReleaseJavaRes NO-SOURCE
 > Task :coroutinespermission:mergeReleaseJniLibFolders
+> Task :coroutinespermission:parseDebugLibraryResources
 > Task :coroutinespermission:parseReleaseLibraryResources
-> Task :coroutinespermission:prepareLintJarForPublish
-> Task :coroutinespermission:processReleaseManifest
 > Task :coroutinespermission:mergeReleaseNativeLibs
 > Task :coroutinespermission:stripReleaseDebugSymbols
 > Task :coroutinespermission:transformNativeLibsWithSyncJniLibsForRelease
-> Task :common:bundleLibCompileDebug
 > Task :common:bundleLibCompileRelease
-> Task :coroutinespermission:processDebugManifest
 > Task :coroutinespermission:javadoc SKIPPED
 > Task :coroutinespermission:javadocJar
 > Task :coroutinespermission:mergeReleaseResources
+> Task :coroutinespermission:sourcesJar
 > Task :coroutinespermission:generateReleaseRFile
 > Task :coroutinespermission:compileReleaseKotlin
+> Task :coroutinespermission:verifyReleaseResources
 > Task :coroutinespermission:generateDebugRFile
 > Task :coroutinespermission:compileDebugKotlin
-> Task :coroutinespermission:sourcesJar
 > Task :coroutinespermission:javaPreCompileRelease
 > Task :coroutinespermission:compileReleaseJavaWithJavac
 > Task :coroutinespermission:extractReleaseAnnotations
 > Task :coroutinespermission:mergeReleaseGeneratedProguardFiles
 > Task :coroutinespermission:mergeReleaseConsumerProguardFiles
 > Task :coroutinespermission:compileReleaseSources
-> Task :coroutinespermission:verifyReleaseResources
 > Task :coroutinespermission:javaPreCompileDebug
 > Task :coroutinespermission:compileDebugJavaWithJavac
 > Task :coroutinespermission:extractDebugAnnotations
@@ -237,12 +238,12 @@ BUILD SUCCESSFUL in 17s
 BUILD SUCCESSFUL in 15s
 73 actionable tasks: 53 executed, 20 up-to-date
 
-2019-12-29 20:31:32,166 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 20:31:32,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 20:31:38,744 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-12-29 20:31:38,744 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-29 20:31:38,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-29 20:31:54,771 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-22 16:14:47,576 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-22 16:14:47,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-22 16:14:54,261 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-01-22 16:14:54,261 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-22 16:14:54,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-22 16:15:10,545 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
 > Task :dslpermission:preBuild UP-TO-DATE
@@ -301,6 +302,10 @@ BUILD SUCCESSFUL in 15s
 > Task :dslpermission:generateReleaseResValues
 > Task :dslpermission:generateReleaseResources
 > Task :dslpermission:packageReleaseResources
+> Task :dslpermission:mergeDebugNativeLibs
+> Task :dslpermission:stripDebugDebugSymbols
+> Task :dslpermission:transformNativeLibsWithSyncJniLibsForDebug
+> Task :dslpermission:parseReleaseLibraryResources
 > Task :dslpermission:mergeReleaseShaders
 > Task :dslpermission:compileReleaseShaders
 > Task :dslpermission:generateReleaseAssets
@@ -308,66 +313,62 @@ BUILD SUCCESSFUL in 15s
 > Task :dslpermission:packageReleaseRenderscript NO-SOURCE
 > Task :dslpermission:processReleaseJavaRes NO-SOURCE
 > Task :dslpermission:mergeReleaseJniLibFolders
-> Task :dslpermission:parseReleaseLibraryResources
+> Task :dslpermission:processDebugManifest
 > Task :dslpermission:parseDebugLibraryResources
-> Task :dslpermission:mergeDebugNativeLibs
-> Task :dslpermission:stripDebugDebugSymbols
-> Task :dslpermission:transformNativeLibsWithSyncJniLibsForDebug
+> Task :dslpermission:processReleaseManifest
 > Task :dslpermission:mergeReleaseNativeLibs
 > Task :dslpermission:stripReleaseDebugSymbols
 > Task :dslpermission:transformNativeLibsWithSyncJniLibsForRelease
-> Task :dslpermission:processReleaseManifest
-> Task :dslpermission:processDebugManifest
 > Task :dslpermission:javadoc SKIPPED
 > Task :dslpermission:javadocJar
 > Task :dslpermission:mergeReleaseResources
-> Task :dslpermission:sourcesJar
 > Task :dslpermission:generateReleaseRFile
 > Task :dslpermission:compileReleaseKotlin
-> Task :dslpermission:generateDebugRFile
-> Task :dslpermission:compileDebugKotlin
+> Task :dslpermission:verifyReleaseResources
+> Task :dslpermission:sourcesJar
 > Task :dslpermission:javaPreCompileRelease
 > Task :dslpermission:compileReleaseJavaWithJavac
 > Task :dslpermission:extractReleaseAnnotations
 > Task :dslpermission:mergeReleaseGeneratedProguardFiles
 > Task :dslpermission:mergeReleaseConsumerProguardFiles
 > Task :dslpermission:compileReleaseSources
+> Task :dslpermission:generateDebugRFile
+> Task :dslpermission:compileDebugKotlin
+> Task :dslpermission:mergeReleaseJavaResource
+> Task :dslpermission:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :dslpermission:bundleReleaseAar
+> Task :dslpermission:assembleRelease
 > Task :dslpermission:javaPreCompileDebug
 > Task :dslpermission:compileDebugJavaWithJavac
 > Task :dslpermission:extractDebugAnnotations
 > Task :dslpermission:mergeDebugGeneratedProguardFiles
 > Task :dslpermission:mergeDebugConsumerProguardFiles
-> Task :dslpermission:mergeReleaseJavaResource
 > Task :dslpermission:compileDebugSources
-> Task :dslpermission:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :dslpermission:bundleReleaseAar
 > Task :dslpermission:mergeDebugJavaResource
 > Task :dslpermission:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :dslpermission:bundleDebugAar
 > Task :dslpermission:assembleDebug
-> Task :dslpermission:verifyReleaseResources
-> Task :dslpermission:assembleRelease
 > Task :dslpermission:assemble
 > Task :dslpermission:build
 
 BUILD SUCCESSFUL in 15s
 73 actionable tasks: 51 executed, 22 up-to-date
 
-2019-12-29 20:31:54,864 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 20:31:54,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 20:32:00,986 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-12-29 20:32:00,986 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-29 20:32:00,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-29 20:32:16,753 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-22 16:15:10,638 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-22 16:15:10,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-22 16:15:17,597 INFO  ProjectTaskService - Detected possible tasks: 73
+2020-01-22 16:15:17,597 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-22 16:15:17,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-22 16:15:33,544 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
 > Task :livedatapermission:preBuild UP-TO-DATE
 > Task :livedatapermission:preDebugBuild UP-TO-DATE
-> Task :common:checkDebugManifest UP-TO-DATE
-> Task :common:generateDebugBuildConfig UP-TO-DATE
 > Task :common:compileDebugAidl NO-SOURCE
 > Task :livedatapermission:compileDebugAidl NO-SOURCE
+> Task :common:checkDebugManifest UP-TO-DATE
 > Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:generateDebugBuildConfig UP-TO-DATE
 > Task :common:generateDebugResValues UP-TO-DATE
 > Task :common:generateDebugResources UP-TO-DATE
 > Task :common:packageDebugResources UP-TO-DATE
@@ -416,7 +417,7 @@ BUILD SUCCESSFUL in 15s
 > Task :livedatapermission:generateReleaseResValues
 > Task :livedatapermission:generateReleaseResources
 > Task :livedatapermission:packageReleaseResources
-> Task :livedatapermission:parseDebugLibraryResources
+> Task :livedatapermission:prepareLintJarForPublish
 > Task :livedatapermission:mergeReleaseShaders
 > Task :livedatapermission:compileReleaseShaders
 > Task :livedatapermission:generateReleaseAssets
@@ -429,40 +430,40 @@ BUILD SUCCESSFUL in 15s
 > Task :livedatapermission:mergeReleaseNativeLibs
 > Task :livedatapermission:stripReleaseDebugSymbols
 > Task :livedatapermission:transformNativeLibsWithSyncJniLibsForRelease
+> Task :livedatapermission:parseDebugLibraryResources
 > Task :livedatapermission:mergeDebugNativeLibs
 > Task :livedatapermission:stripDebugDebugSymbols
 > Task :livedatapermission:transformNativeLibsWithSyncJniLibsForDebug
 > Task :livedatapermission:processDebugManifest
-> Task :livedatapermission:prepareLintJarForPublish
 > Task :livedatapermission:javadoc SKIPPED
 > Task :livedatapermission:javadocJar
 > Task :livedatapermission:mergeReleaseResources
 > Task :livedatapermission:sourcesJar
-> Task :livedatapermission:generateDebugRFile
-> Task :livedatapermission:compileDebugKotlin
-> Task :livedatapermission:verifyReleaseResources
-> Task :livedatapermission:javaPreCompileDebug
-> Task :livedatapermission:compileDebugJavaWithJavac
-> Task :livedatapermission:extractDebugAnnotations
-> Task :livedatapermission:mergeDebugGeneratedProguardFiles
-> Task :livedatapermission:mergeDebugConsumerProguardFiles
-> Task :livedatapermission:compileDebugSources
 > Task :livedatapermission:generateReleaseRFile
 > Task :livedatapermission:compileReleaseKotlin
-> Task :livedatapermission:mergeDebugJavaResource
-> Task :livedatapermission:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :livedatapermission:bundleDebugAar
-> Task :livedatapermission:assembleDebug
+> Task :livedatapermission:verifyReleaseResources
 > Task :livedatapermission:javaPreCompileRelease
 > Task :livedatapermission:compileReleaseJavaWithJavac
 > Task :livedatapermission:extractReleaseAnnotations
 > Task :livedatapermission:mergeReleaseGeneratedProguardFiles
 > Task :livedatapermission:mergeReleaseConsumerProguardFiles
 > Task :livedatapermission:compileReleaseSources
+> Task :livedatapermission:generateDebugRFile
+> Task :livedatapermission:compileDebugKotlin
 > Task :livedatapermission:mergeReleaseJavaResource
 > Task :livedatapermission:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :livedatapermission:bundleReleaseAar
 > Task :livedatapermission:assembleRelease
+> Task :livedatapermission:javaPreCompileDebug
+> Task :livedatapermission:compileDebugJavaWithJavac
+> Task :livedatapermission:extractDebugAnnotations
+> Task :livedatapermission:mergeDebugGeneratedProguardFiles
+> Task :livedatapermission:mergeDebugConsumerProguardFiles
+> Task :livedatapermission:compileDebugSources
+> Task :livedatapermission:mergeDebugJavaResource
+> Task :livedatapermission:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :livedatapermission:bundleDebugAar
+> Task :livedatapermission:assembleDebug
 > Task :livedatapermission:assemble
 > Task :livedatapermission:build
 
@@ -473,12 +474,12 @@ See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 15s
 73 actionable tasks: 51 executed, 22 up-to-date
 
-2019-12-29 20:32:16,873 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 20:32:16,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 20:32:22,671 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-29 20:32:22,671 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-29 20:32:22,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-29 20:33:22,791 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-22 16:15:33,662 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-22 16:15:33,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-22 16:15:39,466 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-22 16:15:39,466 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-22 16:15:39,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-22 16:16:38,146 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
 > Task :common:compileDebugAidl NO-SOURCE
@@ -587,20 +588,20 @@ BUILD SUCCESSFUL in 15s
 > Task :common:processDebugJavaRes NO-SOURCE
 > Task :coroutinespermission:processDebugJavaRes NO-SOURCE
 > Task :dslpermission:processDebugJavaRes NO-SOURCE
-> Task :common:bundleLibResDebug
 > Task :livedatapermission:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
+> Task :dslpermission:bundleLibResDebug
 > Task :livedatapermission:bundleLibResDebug
 > Task :coroutinespermission:bundleLibResDebug
 > Task :common:bundleLibRuntimeDebug
-> Task :common:createFullJarDebug
 > Task :coroutinespermission:bundleLibRuntimeDebug
 > Task :coroutinespermission:createFullJarDebug
-> Task :dslpermission:bundleLibResDebug
-> Task :dslpermission:bundleLibRuntimeDebug
-> Task :dslpermission:createFullJarDebug
 > Task :livedatapermission:bundleLibRuntimeDebug
 > Task :livedatapermission:createFullJarDebug
+> Task :dslpermission:bundleLibRuntimeDebug
+> Task :dslpermission:createFullJarDebug
+> Task :common:bundleLibResDebug
+> Task :common:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:mergeDebugJavaResource
 > Task :sample:desugarDebugFileDependencies
@@ -694,14 +695,14 @@ BUILD SUCCESSFUL in 15s
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
+> Task :livedatapermission:bundleLibCompileRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
-> Task :livedatapermission:bundleLibCompileRelease
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
-> Task :dslpermission:bundleLibCompileRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
+> Task :dslpermission:bundleLibCompileRelease
 > Task :sample:compileReleaseKotlin
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
@@ -716,21 +717,21 @@ BUILD SUCCESSFUL in 15s
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/3dba558ba59b7e027288778e24c5aeda/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :common:processReleaseJavaRes NO-SOURCE
-> Task :dslpermission:processReleaseJavaRes NO-SOURCE
-> Task :common:bundleLibResRelease
-> Task :coroutinespermission:processReleaseJavaRes NO-SOURCE
 > Task :sample:mergeExtDexDebug
-> Task :coroutinespermission:bundleLibResRelease
-> Task :livedatapermission:processReleaseJavaRes NO-SOURCE
-> Task :coroutinespermission:bundleLibRuntimeRelease
-> Task :coroutinespermission:createFullJarRelease
-> Task :sample:checkReleaseDuplicateClasses
+> Task :common:bundleLibRuntimeRelease
+> Task :dslpermission:processReleaseJavaRes NO-SOURCE
+> Task :coroutinespermission:processReleaseJavaRes NO-SOURCE
 > Task :dslpermission:bundleLibRuntimeRelease
-> Task :livedatapermission:bundleLibResRelease
+> Task :livedatapermission:processReleaseJavaRes NO-SOURCE
+> Task :coroutinespermission:bundleLibResRelease
 > Task :dslpermission:bundleLibResRelease
 > Task :dslpermission:createFullJarRelease
-> Task :common:bundleLibRuntimeRelease
+> Task :common:bundleLibResRelease
 > Task :common:createFullJarRelease
+> Task :coroutinespermission:bundleLibRuntimeRelease
+> Task :coroutinespermission:createFullJarRelease
+> Task :livedatapermission:bundleLibResRelease
+> Task :sample:checkReleaseDuplicateClasses
 > Task :livedatapermission:bundleLibRuntimeRelease
 > Task :livedatapermission:createFullJarRelease
 > Task :sample:mergeDexDebug
@@ -791,7 +792,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 59s
+BUILD SUCCESSFUL in 57s
 225 actionable tasks: 91 executed, 134 up-to-date
 
-2019-12-29 20:33:22,978 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577626239456-0/src/eazypermissions-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-01-22 16:16:38,336 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579684425265-0/src/eazypermissions-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
