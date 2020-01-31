@@ -1,34 +1,34 @@
-2020-01-03 03:12:55,816 INFO  DownloadService - Downloading "https://github.com/iammert/TabScrollAttacher/archive/master.zip", attempt 3
-2020-01-03 03:13:00,008 INFO  DownloadService - Downloaded https://github.com/iammert/TabScrollAttacher/archive/master.zip, attempt 3
-2020-01-03 03:13:00,008 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/master.zip": 5 MB
-2020-01-03 03:13:00,008 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-03 03:13:00,009 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/master.zip: true
-2020-01-03 03:13:00,010 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src'.
-2020-01-03 03:13:00,083 INFO  FullProcessService - Size of directory with sources: 5 MB
-2020-01-03 03:13:00,083 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src]
-2020-01-03 03:13:00,110 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/.git/
+2020-01-31 11:14:15,713 INFO  DownloadService - Downloading "https://github.com/iammert/TabScrollAttacher/archive/master.zip", attempt 3
+2020-01-31 11:14:19,379 INFO  DownloadService - Downloaded https://github.com/iammert/TabScrollAttacher/archive/master.zip, attempt 3
+2020-01-31 11:14:19,380 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/master.zip": 5 MB
+2020-01-31 11:14:19,380 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-31 11:14:19,382 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/master.zip: true
+2020-01-31 11:14:19,382 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src'.
+2020-01-31 11:14:19,447 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-01-31 11:14:19,447 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src]
+2020-01-31 11:14:19,512 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/.git/
 
-2020-01-03 03:13:00,113 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/gradlew
-2020-01-03 03:13:00,117 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/tabscrollattacherlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/build.gradle
-2020-01-03 03:13:00,120 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/tabscrollattacherlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/settings.gradle
-2020-01-03 03:13:00,120 INFO  ProjectBuildService - Remote scripts: none
-2020-01-03 03:13:00,120 INFO  ProjectFixService - Fixing project...
-2020-01-03 03:13:00,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/app/local.properties
-2020-01-03 03:13:00,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-03 03:13:00,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/tabscrollattacherlib/local.properties
-2020-01-03 03:13:00,129 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/tabscrollattacherlib/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-03 03:13:00,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/local.properties
-2020-01-03 03:13:00,130 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-03 03:13:00,130 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-03 03:13:00,131 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2020-01-03 03:13:00,131 INFO  ProjectFixService - Project was maybe fixed
-2020-01-03 03:13:00,131 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-03 03:13:00,131 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-03 03:13:06,634 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-03 03:13:06,634 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-03 03:13:06,634 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-03 03:13:14,030 INFO  VirusProcessorServiceImpl - Queued project 7982 to scan viruses
-2020-01-03 03:14:04,991 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-31 11:14:19,515 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/gradlew
+2020-01-31 11:14:19,518 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/tabscrollattacherlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/build.gradle
+2020-01-31 11:14:19,521 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/tabscrollattacherlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/settings.gradle
+2020-01-31 11:14:19,522 INFO  ProjectBuildService - Remote scripts: none
+2020-01-31 11:14:19,522 INFO  ProjectFixService - Fixing project...
+2020-01-31 11:14:19,529 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/app/local.properties
+2020-01-31 11:14:19,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-01-31 11:14:19,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/tabscrollattacherlib/local.properties
+2020-01-31 11:14:19,530 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/tabscrollattacherlib/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-01-31 11:14:19,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/local.properties
+2020-01-31 11:14:19,531 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-31 11:14:19,531 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-31 11:14:19,532 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-01-31 11:14:19,532 INFO  ProjectFixService - Project was maybe fixed
+2020-01-31 11:14:19,532 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-31 11:14:19,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-31 11:14:26,398 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-31 11:14:26,398 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-31 11:14:26,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-31 11:14:34,268 INFO  VirusProcessorServiceImpl - Queued project 7982 to scan viruses
+2020-01-31 11:15:23,075 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :tabscrollattacherlib:preBuild UP-TO-DATE
@@ -48,10 +48,10 @@
 > Task :tabscrollattacherlib:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :tabscrollattacherlib:checkDebugManifest
-> Task :tabscrollattacherlib:processDebugManifest
-> Task :app:processDebugManifest
 > Task :app:mergeDebugResources
 > Task :tabscrollattacherlib:parseDebugLibraryResources
+> Task :tabscrollattacherlib:processDebugManifest
+> Task :app:processDebugManifest
 > Task :tabscrollattacherlib:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -70,10 +70,10 @@
 > Task :tabscrollattacherlib:javaPreCompileDebug
 > Task :tabscrollattacherlib:compileDebugJavaWithJavac
 > Task :tabscrollattacherlib:bundleLibResDebug
-> Task :tabscrollattacherlib:bundleLibRuntimeDebug
-> Task :tabscrollattacherlib:createFullJarDebug
 > Task :tabscrollattacherlib:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
+> Task :tabscrollattacherlib:bundleLibRuntimeDebug
+> Task :tabscrollattacherlib:createFullJarDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -100,13 +100,13 @@
 > Task :tabscrollattacherlib:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :tabscrollattacherlib:checkReleaseManifest
+> Task :tabscrollattacherlib:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :tabscrollattacherlib:generateReleaseBuildConfig
 > Task :tabscrollattacherlib:mergeDebugNativeLibs
 > Task :tabscrollattacherlib:stripDebugDebugSymbols
 > Task :tabscrollattacherlib:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :tabscrollattacherlib:parseReleaseLibraryResources
-> Task :tabscrollattacherlib:generateReleaseBuildConfig
-> Task :tabscrollattacherlib:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :app:mergeReleaseResources
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
@@ -117,17 +117,20 @@
 > Task :tabscrollattacherlib:compileReleaseJavaWithJavac
 > Task :app:prepareLintJar
 > Task :tabscrollattacherlib:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
 > Task :tabscrollattacherlib:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :tabscrollattacherlib:bundleLibResRelease
 > Task :tabscrollattacherlib:prepareLintJarForPublish
-> Task :tabscrollattacherlib:bundleLibRuntimeRelease
-> Task :tabscrollattacherlib:createFullJarRelease
+> Task :tabscrollattacherlib:bundleLibResRelease
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/92c4a8deb17a063c85f77ca6c4952ae9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :tabscrollattacherlib:bundleLibRuntimeRelease
+> Task :tabscrollattacherlib:createFullJarRelease
 > Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
@@ -142,12 +145,12 @@
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :tabscrollattacherlib:mergeReleaseJniLibFolders
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :tabscrollattacherlib:mergeReleaseNativeLibs
 > Task :tabscrollattacherlib:stripReleaseDebugSymbols
 > Task :tabscrollattacherlib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
@@ -162,7 +165,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 55s
 94 actionable tasks: 94 executed
 
-2020-01-03 03:14:05,079 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577995975812-0/src/TabScrollAttacher-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-31 11:15:23,149 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580444055711-0/src/TabScrollAttacher-master/app/build/outputs/apk/debug/app-debug.apk
