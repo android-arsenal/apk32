@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.2",
     "versionCode" : 3,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "21",
     "targetSdkVersion" : "28",
@@ -29,7 +37,9 @@
       "name" : "android.hardware.sensor.accelerometer",
       "required" : false
     } ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -40,8 +50,8 @@
   "dexClasses" : 5052,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "en", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"pereira.agnaldo.previewimgcol\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"28\" />\n\t<uses-feature android:name=\"android.hardware.camera\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"false\" />\n\t<uses-feature android:name=\"android.hardware.sensor.accelerometer\" android:required=\"false\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NOTIFICATION_POLICY\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"Preview Images Collections\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"pereira.agnaldo.previewimgcol.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.google.android.gms.vision.DEPENDENCIES\" android:value=\"barcode\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f0007\" android:label=\"Photo\" android:name=\"com.ivan200.photobarcodelib.PhotoBarcodeActivity\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 8149806,
-  "crc32" : 161599365,
-  "sha256" : "4427fcbde6c0c79e0742144c8526d2b98a7934664fbcd3070863797f322ad096",
-  "buildTime" : 1574854424000
+  "fileSize" : 8150110,
+  "crc32" : 2368107962,
+  "sha256" : "2ddfd9d1a3472f7d25baecb720828d2f42795793976c2054a755d2202369f016",
+  "buildTime" : 1581404735000
 }

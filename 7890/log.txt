@@ -1,36 +1,37 @@
-2019-12-21 23:05:39,940 INFO  DownloadService - Downloading "https://github.com/HBiSoft/PickiT/archive/master.zip", attempt 3
-2019-12-21 23:05:42,191 INFO  DownloadService - Downloaded https://github.com/HBiSoft/PickiT/archive/master.zip, attempt 3
-2019-12-21 23:05:42,192 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/master.zip": 109 KB
-2019-12-21 23:05:42,192 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-21 23:05:42,197 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/master.zip: true
-2019-12-21 23:05:42,197 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src'.
-2019-12-21 23:05:42,217 INFO  FullProcessService - Size of directory with sources: 140 KB
-2019-12-21 23:05:42,217 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src]
-2019-12-21 23:05:42,241 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/.git/
+2020-02-11 14:11:49,873 INFO  DownloadService - Downloading "https://github.com/HBiSoft/PickiT/archive/master.zip", attempt 3
+2020-02-11 14:11:51,997 INFO  DownloadService - Downloaded https://github.com/HBiSoft/PickiT/archive/master.zip, attempt 3
+2020-02-11 14:11:51,997 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/master.zip": 109 KB
+2020-02-11 14:11:51,997 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-11 14:11:51,997 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/master.zip: true
+2020-02-11 14:11:51,997 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src'.
+2020-02-11 14:11:52,020 INFO  FullProcessService - Size of directory with sources: 140 KB
+2020-02-11 14:11:52,020 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src]
+2020-02-11 14:11:52,054 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/.git/
 
-2019-12-21 23:05:42,243 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/gradlew
-2019-12-21 23:05:42,247 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/pickit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/build.gradle
-2019-12-21 23:05:42,249 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/pickit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/settings.gradle
-2019-12-21 23:05:42,250 INFO  ProjectBuildService - Remote scripts: none
-2019-12-21 23:05:42,250 INFO  ProjectFixService - Fixing project...
-2019-12-21 23:05:42,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/local.properties
-2019-12-21 23:05:42,259 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-21 23:05:42,259 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-21 23:05:42,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/pickit/local.properties
-2019-12-21 23:05:42,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/pickit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-21 23:05:42,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/pickit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-21 23:05:42,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/local.properties
-2019-12-21 23:05:42,261 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-12-21 23:05:42,262 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-12-21 23:05:42,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-21 23:05:42,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-12-21 23:05:42,263 INFO  ProjectFixService - Project was maybe fixed
-2019-12-21 23:05:42,263 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-21 23:05:42,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-21 23:05:51,364 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-21 23:05:51,364 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-21 23:05:51,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-21 23:06:27,461 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-11 14:11:52,057 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/gradlew
+2020-02-11 14:11:52,059 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/pickit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/build.gradle
+2020-02-11 14:11:52,062 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/pickit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/settings.gradle
+2020-02-11 14:11:52,062 INFO  ProjectBuildService - Remote scripts: none
+2020-02-11 14:11:52,062 INFO  ProjectFixService - Fixing project...
+2020-02-11 14:11:52,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/local.properties
+2020-02-11 14:11:52,070 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-11 14:11:52,071 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-11 14:11:52,071 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/pickit/local.properties
+2020-02-11 14:11:52,072 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/pickit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-11 14:11:52,072 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/pickit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-11 14:11:52,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/local.properties
+2020-02-11 14:11:52,074 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-02-11 14:11:52,074 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-02-11 14:11:52,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-11 14:11:52,075 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-02-11 14:11:52,075 INFO  ProjectFixService - Project was maybe fixed
+2020-02-11 14:11:52,075 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-11 14:11:52,076 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-11 14:12:00,746 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-02-11 14:12:00,746 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-11 14:12:00,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-11 14:12:00,838 INFO  VirusProcessorServiceImpl - Queued project 7914 to scan viruses
+2020-02-11 14:12:37,111 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :pickit:preBuild UP-TO-DATE
 > Task :pickit:preDebugBuild UP-TO-DATE
@@ -39,34 +40,34 @@
 > Task :pickit:packageDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
 > Task :pickit:generateDebugBuildConfig
-> Task :pickit:generateDebugResValues
-> Task :pickit:prepareLintJar
+> Task :pickit:compileDebugRenderscript NO-SOURCE
 > Task :pickit:compileDebugAidl NO-SOURCE
-> Task :pickit:javaPreCompileDebug
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
-> Task :pickit:compileDebugRenderscript NO-SOURCE
+> Task :pickit:generateDebugResValues
 > Task :pickit:generateDebugResources
-> Task :pickit:packageDebugResources
-> Task :pickit:generateDebugRFile
+> Task :pickit:prepareLintJar
 > Task :pickit:generateDebugSources
-
-> Task :pickit:compileDebugJavaWithJavac
-
-> Task :pickit:bundleLibCompileDebug
-> Task :app:javaPreCompileDebug
+> Task :pickit:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/pickit/src/main/java/com/hbisoft/pickit/Utils.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :app:mergeDebugResources
 > Task :app:processDebugManifest
+> Task :pickit:packageDebugResources
+> Task :pickit:generateDebugRFile
+
+> Task :pickit:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/pickit/src/main/java/com/hbisoft/pickit/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :pickit:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugResources
 > Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -116,7 +117,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :pickit:javaPreCompileRelease
 
 > Task :pickit:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/pickit/src/main/java/com/hbisoft/pickit/Utils.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/pickit/src/main/java/com/hbisoft/pickit/Utils.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :pickit:bundleLibCompileRelease
@@ -128,10 +129,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :app:processReleaseResources
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :pickit:prepareLintJarForPublish
@@ -139,6 +136,10 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/924370082e1e776270a5fc268d07f30e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :pickit:processReleaseJavaRes NO-SOURCE
 > Task :pickit:bundleLibResRelease
 > Task :pickit:bundleLibRuntimeRelease
@@ -177,4 +178,4 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 35s
 91 actionable tasks: 91 executed
 
-2019-12-21 23:06:27,522 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944339932-0/src/PickiT-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-11 14:12:37,167 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581405109870-0/src/PickiT-master/app/build/outputs/apk/debug/app-debug.apk
