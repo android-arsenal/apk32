@@ -1,49 +1,39 @@
-2019-10-04 11:28:03,685 INFO  DownloadService - Downloading "https://github.com/armcha/AutoLinkTextViewV2/archive/master.zip", attempt 3
-2019-10-04 11:28:13,280 INFO  DownloadService - Downloaded https://github.com/armcha/AutoLinkTextViewV2/archive/master.zip, attempt 3
-2019-10-04 11:28:13,281 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/master.zip": 12 MB
-2019-10-04 11:28:13,281 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-04 11:28:13,294 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/master.zip: true
-2019-10-04 11:28:13,295 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src'.
-2019-10-04 11:28:13,423 INFO  FullProcessService - Size of directory with sources: 13 MB
-2019-10-04 11:28:13,427 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src]
-2019-10-04 11:28:13,469 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/.git/
+2020-02-16 19:22:57,493 INFO  DownloadService - Downloading "https://github.com/armcha/AutoLinkTextViewV2/archive/master.zip", attempt 3
+2020-02-16 19:23:02,735 INFO  DownloadService - Downloaded https://github.com/armcha/AutoLinkTextViewV2/archive/master.zip, attempt 3
+2020-02-16 19:23:02,736 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/master.zip": 12 MB
+2020-02-16 19:23:02,736 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:23:02,737 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/master.zip: true
+2020-02-16 19:23:02,737 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src'.
+2020-02-16 19:23:02,920 INFO  FullProcessService - Size of directory with sources: 13 MB
+2020-02-16 19:23:02,920 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src]
+2020-02-16 19:23:02,958 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/.git/
 
-2019-10-04 11:28:13,487 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/gradlew
-2019-10-04 11:28:13,507 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/build.gradle
-2019-10-04 11:28:13,516 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/settings.gradle
-2019-10-04 11:28:13,518 INFO  ProjectBuildService - Remote scripts: none
-2019-10-04 11:28:13,518 INFO  ProjectFixService - Fixing project...
-2019-10-04 11:28:13,569 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2019-10-04 11:28:13,570 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2019-10-04 11:28:13,578 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2019-10-04 11:28:13,582 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 28.0.0-rc1 28.0.0-rc2
-2019-10-04 11:28:13,601 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2019-10-04 11:28:13,602 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
-2019-10-04 11:28:13,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/local.properties
-2019-10-04 11:28:13,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 11:28:13,611 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 11:28:13,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/autolinklibrary/local.properties
-2019-10-04 11:28:13,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/autolinklibrary/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 11:28:13,615 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/autolinklibrary/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 11:28:13,617 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/local.properties
-2019-10-04 11:28:13,623 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.1-all.zip
-2019-10-04 11:28:13,624 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.1-bin.zip)
-2019-10-04 11:28:13,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-04 11:28:13,625 INFO  ProjectFixService - Project was maybe fixed
-2019-10-04 11:28:13,628 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-04 11:28:13,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-04 11:29:45,319 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-10-04 11:29:45,320 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-04 11:29:45,320 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-04 11:31:54,053 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:23:02,964 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/gradlew
+2020-02-16 19:23:02,969 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/build.gradle
+2020-02-16 19:23:02,975 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/autolinklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/settings.gradle
+2020-02-16 19:23:02,975 INFO  ProjectBuildService - Remote scripts: none
+2020-02-16 19:23:02,976 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:23:02,989 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/app/local.properties
+2020-02-16 19:23:02,990 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:23:02,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/autolinklibrary/local.properties
+2020-02-16 19:23:02,993 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/autolinklibrary/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:23:02,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/local.properties
+2020-02-16 19:23:02,995 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.1-all.zip
+2020-02-16 19:23:02,996 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.1-bin.zip)
+2020-02-16 19:23:02,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:23:02,999 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:23:02,999 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:23:02,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:23:08,440 INFO  VirusProcessorServiceImpl - Queued project 8018 to scan viruses
+2020-02-16 19:23:19,612 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-02-16 19:23:19,613 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:23:19,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:24:53,098 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
 WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
 It will be removed soon. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.0-alpha12.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Configure project :autolinklibrary
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -51,9 +41,6 @@ WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
 To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.0-alpha12.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -74,38 +61,38 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :autolinklibrary:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :autolinklibrary:compileDebugLibraryResources
 > Task :autolinklibrary:processDebugManifest
 > Task :app:processDebugManifest
-> Task :autolinklibrary:compileDebugLibraryResources
 > Task :autolinklibrary:parseDebugLocalResources
-> Task :app:mergeDebugResources
-> Task :autolinklibrary:generateDebugRFile
-> Task :app:processDebugResources
 > Task :autolinklibrary:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
-> Task :autolinklibrary:compileDebugKotlin
 > Task :app:generateDebugAssets
 > Task :autolinklibrary:mergeDebugShaders
 > Task :autolinklibrary:compileDebugShaders
 > Task :autolinklibrary:generateDebugAssets
 > Task :autolinklibrary:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :autolinklibrary:generateDebugRFile
+> Task :app:processDebugResources
+> Task :autolinklibrary:compileDebugKotlin
 > Task :autolinklibrary:javaPreCompileDebug
 > Task :autolinklibrary:compileDebugJavaWithJavac
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :autolinklibrary:processDebugJavaRes NO-SOURCE
 > Task :autolinklibrary:bundleLibResDebug
-> Task :autolinklibrary:bundleLibRuntimeDebug
 > Task :autolinklibrary:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
+> Task :autolinklibrary:bundleLibRuntimeDebug
 > Task :autolinklibrary:createFullJarDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
 > Task :app:dexBuilderDebug
 > Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :autolinklibrary:mergeDebugJniLibFolders
 > Task :autolinklibrary:mergeDebugNativeLibs
@@ -133,30 +120,30 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :autolinklibrary:extractDeepLinksRelease
 > Task :autolinklibrary:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
 > Task :autolinklibrary:generateReleaseBuildConfig
-> Task :autolinklibrary:parseReleaseLocalResources
 > Task :autolinklibrary:compileReleaseLibraryResources
+> Task :app:mergeReleaseResources
+> Task :autolinklibrary:parseReleaseLocalResources
 > Task :autolinklibrary:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :autolinklibrary:compileReleaseKotlin
-> Task :autolinklibrary:javaPreCompileRelease
-> Task :autolinklibrary:compileReleaseJavaWithJavac
-> Task :autolinklibrary:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
 > Task :app:prepareLintJar
 > Task :autolinklibrary:processReleaseJavaRes NO-SOURCE
+> Task :autolinklibrary:prepareLintJarForPublish
 > Task :app:checkReleaseDuplicateClasses
+> Task :autolinklibrary:javaPreCompileRelease
+> Task :autolinklibrary:compileReleaseJavaWithJavac
 > Task :autolinklibrary:bundleLibResRelease
+> Task :autolinklibrary:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
 > Task :autolinklibrary:bundleLibRuntimeRelease
 > Task :autolinklibrary:createFullJarRelease
-> Task :autolinklibrary:prepareLintJarForPublish
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :app:mergeExtDexDebug
 > Task :app:lintVitalRelease
 > Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -184,7 +171,7 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 2m 7s
+BUILD SUCCESSFUL in 1m 32s
 94 actionable tasks: 94 executed
 
-2019-10-04 11:31:54,121 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570163283582-0/src/AutoLinkTextViewV2-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-16 19:24:53,164 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855777466-0/src/AutoLinkTextViewV2-master/app/build/outputs/apk/debug/app-debug.apk

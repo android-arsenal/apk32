@@ -1,38 +1,38 @@
-2019-08-09 12:05:28,391 INFO  DownloadService - Downloading "https://github.com/BluRe-CN/ComplexView/archive/master.zip", attempt 3
-2019-08-09 12:05:30,120 INFO  DownloadService - Downloaded https://github.com/BluRe-CN/ComplexView/archive/master.zip, attempt 3
-2019-08-09 12:05:30,121 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/master.zip": 590 KB
-2019-08-09 12:05:30,121 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-09 12:05:30,126 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/master.zip: true
-2019-08-09 12:05:30,127 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src'.
-2019-08-09 12:05:30,161 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-08-09 12:05:30,162 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src]
-2019-08-09 12:05:30,180 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/.git/
+2020-02-16 19:30:26,395 INFO  DownloadService - Downloading "https://github.com/BluRe-CN/ComplexView/archive/master.zip", attempt 3
+2020-02-16 19:30:28,908 INFO  DownloadService - Downloaded https://github.com/BluRe-CN/ComplexView/archive/master.zip, attempt 3
+2020-02-16 19:30:28,908 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/master.zip": 360 KB
+2020-02-16 19:30:28,908 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:30:28,908 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/master.zip: true
+2020-02-16 19:30:28,909 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src'.
+2020-02-16 19:30:28,930 INFO  FullProcessService - Size of directory with sources: 473 KB
+2020-02-16 19:30:28,930 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src]
+2020-02-16 19:30:28,950 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/.git/
 
-2019-08-09 12:05:30,183 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/gradlew
-2019-08-09 12:05:30,187 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/build.gradle
-2019-08-09 12:05:30,190 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/settings.gradle
-2019-08-09 12:05:30,190 INFO  ProjectBuildService - Remote scripts: none
-2019-08-09 12:05:30,190 INFO  ProjectFixService - Fixing project...
-2019-08-09 12:05:30,198 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/local.properties
-2019-08-09 12:05:30,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-09 12:05:30,199 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-08-09 12:05:30,200 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/local.properties
-2019-08-09 12:05:30,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-08-09 12:05:30,202 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-08-09 12:05:30,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/local.properties
-2019-08-09 12:05:30,203 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-08-09 12:05:30,204 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-08-09 12:05:30,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-08-09 12:05:30,205 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=29]
-2019-08-09 12:05:30,206 INFO  ProjectFixService - Project was maybe fixed
-2019-08-09 12:05:30,206 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:05:30,206 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:05:30,383 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-09 12:05:30,383 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:05:30,383 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:05:30,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:05:30,540 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+2020-02-16 19:30:28,953 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/gradlew
+2020-02-16 19:30:28,956 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/build.gradle
+2020-02-16 19:30:28,958 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/settings.gradle
+2020-02-16 19:30:28,958 INFO  ProjectBuildService - Remote scripts: none
+2020-02-16 19:30:28,958 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:30:28,966 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/local.properties
+2020-02-16 19:30:28,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:30:28,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:30:28,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/local.properties
+2020-02-16 19:30:28,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-02-16 19:30:28,971 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-02-16 19:30:28,972 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/local.properties
+2020-02-16 19:30:28,972 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2020-02-16 19:30:28,973 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2020-02-16 19:30:28,974 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-02-16 19:30:28,974 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-02-16 19:30:28,974 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:30:28,975 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:30:28,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:30:29,001 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 127 (Exit value: 127)
+2020-02-16 19:30:29,001 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-02-16 19:30:29,001 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-02-16 19:30:29,001 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-02-16 19:30:29,007 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 127 (Exit value: 127)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
 	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
@@ -50,97 +50,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-08-09 12:05:30,540 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-02-16 19:30:29,008 INFO  SysUtils - env: sh\r: No such file or directory
 
-2019-08-09 12:05:30,544 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:05:30,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:05:31,707 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-08-09 12:05:31,708 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-08-09 12:05:31,708 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-08-09 12:05:31,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/gradlew, -b, "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle", -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-08-09 12:05:32,526 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-08-09 12:05:32,527 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-The specified build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle"' does not exist.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-java.lang.IllegalArgumentException: The specified build file '/Users/vbauer/Documents/workspace/java/bloodhound/"/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/ComplexView Example/build.gradle"' does not exist.
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.validateIsFileAndExists(StartParamsValidatingActionExecuter.java:65)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:42)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 0s
-
-2019-08-09 12:05:32,530 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-09 12:05:32,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-09 12:05:41,301 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-08-09 12:05:41,302 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-08-09 12:05:41,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565327128388-0/src/ComplexView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-08-09 12:05:51,597 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:30:29,011 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:30:29,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:30:39,249 INFO  VirusProcessorServiceImpl - Queued project 7818 to scan viruses
+2020-02-16 19:30:44,641 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-02-16 19:30:44,641 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:30:44,641 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:31:08,455 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :ComplexView:preBuild UP-TO-DATE
 > Task :ComplexView:preDebugBuild UP-TO-DATE
 > Task :ComplexView:compileDebugAidl NO-SOURCE
@@ -156,30 +83,63 @@ BUILD FAILED in 0s
 > Task :ComplexView:generateDebugSources
 > Task :ComplexView:javaPreCompileDebug
 > Task :ComplexView:compileDebugJavaWithJavac
-> Task :ComplexView:extractDebugAnnotations
-> Task :ComplexView:mergeDebugConsumerProguardFiles
+> Task :ComplexView:processDebugJavaRes NO-SOURCE
+> Task :ComplexView:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :ComplexViewExample:preBuild UP-TO-DATE
+> Task :ComplexViewExample:preDebugBuild
+> Task :ComplexViewExample:compileDebugAidl NO-SOURCE
+> Task :ComplexView:packageDebugRenderscript NO-SOURCE
+> Task :ComplexViewExample:compileDebugRenderscript
+> Task :ComplexViewExample:checkDebugManifest
+> Task :ComplexViewExample:generateDebugBuildConfig
+> Task :ComplexViewExample:prepareLintJar
+> Task :ComplexViewExample:generateDebugSources
+> Task :ComplexViewExample:javaPreCompileDebug
+> Task :ComplexViewExample:mainApkListPersistenceDebug
+> Task :ComplexViewExample:generateDebugResValues
+> Task :ComplexViewExample:generateDebugResources
+> Task :ComplexViewExample:mergeDebugResources
+> Task :ComplexViewExample:createDebugCompatibleScreenManifests
+> Task :ComplexViewExample:processDebugManifest
+> Task :ComplexViewExample:processDebugResources
+> Task :ComplexViewExample:compileDebugJavaWithJavac
+> Task :ComplexViewExample:compileDebugNdk NO-SOURCE
+> Task :ComplexViewExample:compileDebugSources
 > Task :ComplexView:mergeDebugShaders
 > Task :ComplexView:compileDebugShaders
 > Task :ComplexView:generateDebugAssets
 > Task :ComplexView:packageDebugAssets
-> Task :ComplexView:packageDebugRenderscript NO-SOURCE
-> Task :ComplexView:processDebugJavaRes NO-SOURCE
-> Task :ComplexView:transformResourcesWithMergeJavaResForDebug
-> Task :ComplexView:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :ComplexViewExample:mergeDebugShaders
+> Task :ComplexViewExample:compileDebugShaders
+> Task :ComplexViewExample:generateDebugAssets
+> Task :ComplexViewExample:mergeDebugAssets
+> Task :ComplexViewExample:mergeExtDexDebug
+> Task :ComplexView:createFullJarDebug
+> Transform full.jar (project :ComplexView) with IdentityTransform
+> Task :ComplexViewExample:transformClassesWithDexBuilderForDebug
+> Task :ComplexViewExample:mergeProjectDexDebug
+> Task :ComplexViewExample:validateSigningDebug
+> Task :ComplexViewExample:signingConfigWriterDebug
 > Task :ComplexView:compileDebugNdk NO-SOURCE
 > Task :ComplexView:mergeDebugJniLibFolders
 > Task :ComplexView:transformNativeLibsWithMergeJniLibsForDebug
 > Task :ComplexView:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :ComplexView:transformNativeLibsWithSyncJniLibsForDebug
-> Task :ComplexView:bundleDebugAar
-> Task :ComplexView:compileDebugSources
-> Task :ComplexView:assembleDebug
+> Task :ComplexView:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :ComplexViewExample:mergeDebugJniLibFolders
+> Task :ComplexViewExample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :ComplexViewExample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :ComplexViewExample:processDebugJavaRes NO-SOURCE
+> Task :ComplexViewExample:transformResourcesWithMergeJavaResForDebug
 > Task :ComplexView:preReleaseBuild UP-TO-DATE
 > Task :ComplexView:compileReleaseAidl NO-SOURCE
 > Task :ComplexView:compileReleaseRenderscript
 > Task :ComplexView:checkReleaseManifest
 > Task :ComplexView:generateReleaseBuildConfig
+> Transform full.jar (project :ComplexView) with DexingTransform
 > Task :ComplexView:generateReleaseResValues
+> Task :ComplexViewExample:mergeLibDexDebug
+> Task :ComplexViewExample:packageDebug
+> Task :ComplexViewExample:assembleDebug
 > Task :ComplexView:generateReleaseResources
 > Task :ComplexView:packageReleaseResources
 > Task :ComplexView:processReleaseManifest
@@ -187,31 +147,61 @@ BUILD FAILED in 0s
 > Task :ComplexView:generateReleaseSources
 > Task :ComplexView:javaPreCompileRelease
 > Task :ComplexView:compileReleaseJavaWithJavac
-> Task :ComplexView:extractReleaseAnnotations
-> Task :ComplexView:mergeReleaseConsumerProguardFiles
+> Task :ComplexView:processReleaseJavaRes NO-SOURCE
+> Task :ComplexView:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :ComplexViewExample:preReleaseBuild
+> Task :ComplexViewExample:compileReleaseAidl NO-SOURCE
+> Task :ComplexView:packageReleaseRenderscript NO-SOURCE
+> Task :ComplexViewExample:compileReleaseRenderscript
+> Task :ComplexViewExample:checkReleaseManifest
+> Task :ComplexViewExample:generateReleaseBuildConfig
+> Task :ComplexViewExample:generateReleaseSources
+> Task :ComplexViewExample:javaPreCompileRelease
+> Task :ComplexViewExample:mainApkListPersistenceRelease
+> Task :ComplexViewExample:generateReleaseResValues
+> Task :ComplexViewExample:generateReleaseResources
+> Task :ComplexViewExample:mergeReleaseResources
+> Task :ComplexViewExample:createReleaseCompatibleScreenManifests
+> Task :ComplexViewExample:processReleaseManifest
+> Task :ComplexViewExample:processReleaseResources
+> Task :ComplexViewExample:compileReleaseJavaWithJavac
+> Task :ComplexViewExample:compileReleaseNdk NO-SOURCE
+> Task :ComplexViewExample:compileReleaseSources
+
+> Task :ComplexViewExample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b8ca19c4746d00d525e6f6fc725621fb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :ComplexView:createFullJarRelease
+> Transform full.jar (project :ComplexView) with IdentityTransform
+> Task :ComplexViewExample:mergeExtDexRelease
+> Task :ComplexViewExample:transformClassesWithDexBuilderForRelease
 > Task :ComplexView:mergeReleaseShaders
 > Task :ComplexView:compileReleaseShaders
 > Task :ComplexView:generateReleaseAssets
 > Task :ComplexView:packageReleaseAssets
-> Task :ComplexView:packageReleaseRenderscript NO-SOURCE
-> Task :ComplexView:processReleaseJavaRes NO-SOURCE
-> Task :ComplexView:transformResourcesWithMergeJavaResForRelease
-> Task :ComplexView:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :ComplexViewExample:mergeReleaseShaders
+> Task :ComplexViewExample:compileReleaseShaders
+> Task :ComplexViewExample:generateReleaseAssets
+> Task :ComplexViewExample:mergeReleaseAssets
+> Task :ComplexViewExample:signingConfigWriterRelease
 > Task :ComplexView:compileReleaseNdk NO-SOURCE
 > Task :ComplexView:mergeReleaseJniLibFolders
 > Task :ComplexView:transformNativeLibsWithMergeJniLibsForRelease
 > Task :ComplexView:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :ComplexView:transformNativeLibsWithSyncJniLibsForRelease
-> Task :ComplexView:bundleReleaseAar
-> Task :ComplexView:compileReleaseSources
-> Task :ComplexView:mergeReleaseResources
-> Task :ComplexView:verifyReleaseResources
-> Task :ComplexView:assembleRelease
-> Task :ComplexView:assemble
-> Task :ComplexView:build
+> Task :ComplexView:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :ComplexViewExample:mergeReleaseJniLibFolders
+> Task :ComplexViewExample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :ComplexViewExample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :ComplexViewExample:processReleaseJavaRes NO-SOURCE
+> Task :ComplexViewExample:transformResourcesWithMergeJavaResForRelease
+> Transform full.jar (project :ComplexView) with DexingTransform
+> Task :ComplexViewExample:mergeDexRelease
+> Task :ComplexViewExample:packageRelease
+> Task :ComplexViewExample:assembleRelease
+> Task :ComplexViewExample:assemble
+> Task :ComplexViewExample:build
 
-BUILD SUCCESSFUL in 10s
-45 actionable tasks: 45 executed
+BUILD SUCCESSFUL in 23s
+89 actionable tasks: 89 executed
 
-2019-08-09 12:05:51,607 ERROR FullProcessService - Project build has not produced APK file
-2019-08-09 12:05:51,616 ERROR FullProcessService - Could not find generated or existed APK file
+2020-02-16 19:31:08,486 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856226391-0/src/ComplexView-master/ComplexViewExample/build/outputs/apk/release/ComplexViewExample-release-unsigned.apk

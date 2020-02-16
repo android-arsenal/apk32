@@ -1,41 +1,42 @@
-2019-10-12 23:58:17,137 INFO  DownloadService - Downloading "https://github.com/Turtlebody/android-image-preview/archive/master.zip", attempt 3
-2019-10-12 23:58:20,419 INFO  DownloadService - Downloaded https://github.com/Turtlebody/android-image-preview/archive/master.zip, attempt 3
-2019-10-12 23:58:20,419 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/master.zip": 1 MB
-2019-10-12 23:58:20,419 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-12 23:58:20,421 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/master.zip: true
-2019-10-12 23:58:20,422 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src'.
-2019-10-12 23:58:20,524 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-10-12 23:58:20,525 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src]
-2019-10-12 23:58:20,608 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/.git/
+2020-02-16 19:28:12,764 INFO  DownloadService - Downloading "https://github.com/Turtlebody/android-image-preview/archive/master.zip", attempt 3
+2020-02-16 19:28:15,563 INFO  DownloadService - Downloaded https://github.com/Turtlebody/android-image-preview/archive/master.zip, attempt 3
+2020-02-16 19:28:15,563 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/master.zip": 1 MB
+2020-02-16 19:28:15,563 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:28:15,563 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/master.zip: true
+2020-02-16 19:28:15,563 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src'.
+2020-02-16 19:28:15,610 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-02-16 19:28:15,611 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src]
+2020-02-16 19:28:15,632 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/.git/
 
-2019-10-12 23:58:20,615 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/gradlew
-2019-10-12 23:58:20,622 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/build.gradle
-2019-10-12 23:58:20,628 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/settings.gradle
-2019-10-12 23:58:20,649 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-10-12 23:58:21,240 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-10-12 23:58:21,242 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-10-12 23:58:21,469 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-10-12 23:58:21,469 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-10-12 23:58:21,469 INFO  ProjectFixService - Fixing project...
-2019-10-12 23:58:21,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/local.properties
-2019-10-12 23:58:21,498 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-12 23:58:21,499 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-12 23:58:21,502 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/local.properties
-2019-10-12 23:58:21,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-12 23:58:21,505 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-12 23:58:21,506 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/local.properties
-2019-10-12 23:58:21,506 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-12 23:58:21,507 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-12 23:58:21,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-12 23:58:21,509 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-12 23:58:21,510 INFO  ProjectFixService - Project was maybe fixed
-2019-10-12 23:58:21,511 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-12 23:58:21,511 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-12 23:58:31,273 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-12 23:58:31,282 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-10-12 23:58:31,282 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-10-12 23:58:31,283 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-10-12 23:58:38,275 ERROR SysUtils - Could not process external command
+2020-02-16 19:28:15,637 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/gradlew
+2020-02-16 19:28:15,643 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/build.gradle
+2020-02-16 19:28:15,647 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/settings.gradle
+2020-02-16 19:28:15,653 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2020-02-16 19:28:16,141 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2020-02-16 19:28:16,141 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2020-02-16 19:28:16,389 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2020-02-16 19:28:16,390 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2020-02-16 19:28:16,390 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:28:16,405 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/local.properties
+2020-02-16 19:28:16,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:28:16,406 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:28:16,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/local.properties
+2020-02-16 19:28:16,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:28:16,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:28:16,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/local.properties
+2020-02-16 19:28:16,410 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-02-16 19:28:16,410 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-02-16 19:28:16,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:28:16,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-02-16 19:28:16,413 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:28:16,413 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:28:16,413 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:28:22,749 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-16 19:28:22,758 INFO  ProjectTaskService - Detected possible tasks: 3
+2020-02-16 19:28:22,759 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2020-02-16 19:28:22,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2020-02-16 19:28:23,834 INFO  VirusProcessorServiceImpl - Queued project 7869 to scan viruses
+2020-02-16 19:28:28,616 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,16 +55,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-12 23:58:38,276 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:28:28,616 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 signing.properties
@@ -71,7 +72,7 @@ signing.properties
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle' line: 92
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle' line: 92
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -211,21 +212,21 @@ Caused by: org.gradle.api.InvalidUserDataException: Cannot convert URL 'D:/Andro
 	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:89)
 	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:154)
 	at org.gradle.api.Script$file$1.callCurrent(Unknown Source)
-	at build_5l6w2rxzxagz0j688d4bdtkpg.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle:92)
+	at build_je2uuc83acxp0d5fodmbe8lq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle:92)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 120 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-10-12 23:58:38,284 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-12 23:58:38,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-12 23:58:49,533 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-10-12 23:58:49,535 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-12 23:58:49,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-12 23:59:20,739 ERROR SysUtils - Could not process external command
+2020-02-16 19:28:28,623 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:28:28,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:28:38,351 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-02-16 19:28:38,351 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-02-16 19:28:38,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-02-16 19:29:06,775 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -244,32 +245,33 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-12 23:59:20,742 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:29:06,775 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :imagepreview:preBuild UP-TO-DATE
 > Task :imagepreview:preDebugBuild UP-TO-DATE
+> Task :imagepreview:compileDebugAidl NO-SOURCE
 > Task :imagepreview:checkDebugManifest
+> Task :imagepreview:compileDebugRenderscript NO-SOURCE
 > Task :imagepreview:generateDebugBuildConfig
 > Task :imagepreview:generateDebugResValues
-> Task :imagepreview:mergeDebugShaders
-> Task :imagepreview:compileDebugAidl NO-SOURCE
-> Task :imagepreview:compileDebugRenderscript NO-SOURCE
 > Task :imagepreview:generateDebugResources
 > Task :imagepreview:packageDebugResources
+> Task :imagepreview:mergeDebugShaders
 > Task :imagepreview:compileDebugShaders
 > Task :imagepreview:generateDebugAssets
 > Task :imagepreview:packageDebugAssets
 > Task :imagepreview:packageDebugRenderscript NO-SOURCE
 > Task :imagepreview:processDebugJavaRes NO-SOURCE
 > Task :imagepreview:mergeDebugJniLibFolders
+> Task :imagepreview:prepareLintJarForPublish
 > Task :imagepreview:preReleaseBuild UP-TO-DATE
 > Task :imagepreview:compileReleaseAidl NO-SOURCE
 > Task :imagepreview:compileReleaseRenderscript NO-SOURCE
@@ -278,9 +280,6 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :imagepreview:generateReleaseResValues
 > Task :imagepreview:generateReleaseResources
 > Task :imagepreview:packageReleaseResources
-> Task :imagepreview:mergeDebugNativeLibs
-> Task :imagepreview:stripDebugDebugSymbols
-> Task :imagepreview:transformNativeLibsWithSyncJniLibsForDebug
 > Task :imagepreview:processDebugManifest
 > Task :imagepreview:mergeReleaseShaders
 > Task :imagepreview:compileReleaseShaders
@@ -288,28 +287,29 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :imagepreview:packageReleaseAssets
 > Task :imagepreview:packageReleaseRenderscript NO-SOURCE
 > Task :imagepreview:processReleaseJavaRes NO-SOURCE
-> Task :imagepreview:mergeReleaseJniLibFolders
 > Task :imagepreview:parseReleaseLibraryResources
+> Task :imagepreview:mergeReleaseJniLibFolders
 > Task :imagepreview:processReleaseManifest
-> Task :imagepreview:parseDebugLibraryResources
+> Task :imagepreview:mergeDebugNativeLibs
+> Task :imagepreview:stripDebugDebugSymbols
+> Task :imagepreview:transformNativeLibsWithSyncJniLibsForDebug
 > Task :imagepreview:mergeReleaseNativeLibs
 > Task :imagepreview:stripReleaseDebugSymbols
 > Task :imagepreview:transformNativeLibsWithSyncJniLibsForRelease
-> Task :imagepreview:prepareLintJarForPublish
+> Task :imagepreview:parseDebugLibraryResources
 > Task :imagepreview:mergeReleaseResources
-> Task :imagepreview:generateDebugRFile
+> Task :imagepreview:generateReleaseRFile
 
-> Task :imagepreview:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/core/ImagePreviewConfig.kt: (14, 26): The resulting type of this 'javaClass' call is Class<ImagePreviewConfig.Companion> and not Class<ImagePreviewConfig>. Please use the more clear '::class.java' syntax to avoid confusion
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/ui/components/ViewPagerAdapter.kt: (11, 47): 'constructor FragmentStatePagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFile.kt: (31, 36): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFile.kt: (51, 62): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFile.kt: (55, 91): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFunction.kt: (17, 31): Variable 'hasSoftwareKeys' initializer is redundant
+> Task :imagepreview:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/ui/components/ViewPagerAdapter.kt: (11, 47): 'constructor FragmentStatePagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFile.kt: (31, 36): 'getExternalStorageDirectory(): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFile.kt: (51, 62): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFile.kt: (55, 91): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/java/com/greentoad/turtlebody/imagepreview/utils/UtilFunction.kt: (17, 31): Variable 'hasSoftwareKeys' initializer is redundant
 
 > Task :imagepreview:verifyReleaseResources FAILED
-> Task :imagepreview:generateReleaseRFile
-> Task :imagepreview:javaPreCompileDebug
+> Task :imagepreview:generateDebugRFile
+> Task :imagepreview:javaPreCompileRelease
 
 FAILURE: Build failed with an exception.
 
@@ -317,11 +317,11 @@ FAILURE: Build failed with an exception.
 Execution failed for task ':imagepreview:verifyReleaseResources'.
 > A failure occurred while executing com.android.build.gradle.internal.tasks.Workers$ActionFacade
    > Android resource linking failed
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:3:5-7:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:3:5-7:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
          
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:9:5-11:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:9:5-11:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
          
-     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:20:5-23:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
+     /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:20:5-23:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
          
 
 * Try:
@@ -427,11 +427,11 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
 	... 35 more
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:3:5-7:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:3:5-7:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:9:5-11:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:9:5-11:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
     
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:20:5-23:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/imagepreview/src/main/res/values/styles_app.xml:20:5-23:13: AAPT: error: resource color/tb_media_picker_accent (aka com.greentoad.turtlebody.imagepreview:color/tb_media_picker_accent) not found.
     
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:39)
@@ -466,20 +466,20 @@ Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 30s
-
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 27s
 33 actionable tasks: 33 executed
 
-2019-10-12 23:59:20,800 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-12 23:59:20,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-12 23:59:26,446 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-10-12 23:59:26,447 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-10-12 23:59:26,448 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-10-12 23:59:26,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-10-12 23:59:32,205 ERROR SysUtils - Could not process external command
+2020-02-16 19:29:06,827 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:29:06,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:29:11,677 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-02-16 19:29:11,677 INFO  ProjectTaskService - Detected possible tasks: 3
+2020-02-16 19:29:11,677 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2020-02-16 19:29:11,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2020-02-16 19:29:16,263 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -498,16 +498,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-12 23:59:32,206 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:29:16,263 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 signing.properties
@@ -515,7 +515,7 @@ signing.properties
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle' line: 92
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle' line: 92
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -657,14 +657,14 @@ Caused by: org.gradle.api.InvalidUserDataException: Cannot convert URL 'D:/Andro
 	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:89)
 	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:154)
 	at org.gradle.api.Script$file$1.callCurrent(Unknown Source)
-	at build_5l6w2rxzxagz0j688d4bdtkpg.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570899497122-0/src/android-image-preview-master/app/build.gradle:92)
+	at build_je2uuc83acxp0d5fodmbe8lq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856092759-0/src/android-image-preview-master/app/build.gradle:92)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 122 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2019-10-12 23:59:32,258 ERROR FullProcessService - Project build has not produced APK file
-2019-10-12 23:59:32,309 ERROR FullProcessService - Could not find generated or existed APK file
+2020-02-16 19:29:16,307 ERROR FullProcessService - Project build has not produced APK file
+2020-02-16 19:29:16,345 ERROR FullProcessService - Could not find generated or existed APK file

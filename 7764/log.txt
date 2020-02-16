@@ -1,59 +1,63 @@
-2019-09-08 21:01:51,573 INFO  DownloadService - Downloading "https://github.com/abdularis/TapHoldUpButton/archive/master.zip", attempt 3
-2019-09-08 21:01:53,857 INFO  DownloadService - Downloaded https://github.com/abdularis/TapHoldUpButton/archive/master.zip, attempt 3
-2019-09-08 21:01:53,857 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/master.zip": 282 KB
-2019-09-08 21:01:53,857 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-08 21:01:53,863 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/master.zip: true
-2019-09-08 21:01:53,863 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src'.
-2019-09-08 21:01:53,886 INFO  FullProcessService - Size of directory with sources: 753 KB
-2019-09-08 21:01:53,886 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src]
-2019-09-08 21:01:53,911 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/.git/
+2020-02-16 19:32:14,631 INFO  DownloadService - Downloading "https://github.com/abdularis/TapHoldUpButton/archive/master.zip", attempt 3
+2020-02-16 19:32:17,093 INFO  DownloadService - Downloaded https://github.com/abdularis/TapHoldUpButton/archive/master.zip, attempt 3
+2020-02-16 19:32:17,094 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/master.zip": 282 KB
+2020-02-16 19:32:17,094 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-02-16 19:32:17,099 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/master.zip: true
+2020-02-16 19:32:17,099 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src'.
+2020-02-16 19:32:17,124 INFO  FullProcessService - Size of directory with sources: 753 KB
+2020-02-16 19:32:17,124 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src]
+2020-02-16 19:32:17,152 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/.git/
 
-2019-09-08 21:01:53,914 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/gradlew
-2019-09-08 21:01:53,917 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/build.gradle
-2019-09-08 21:01:53,920 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/settings.gradle
-2019-09-08 21:01:53,920 INFO  ProjectBuildService - Remote scripts: none
-2019-09-08 21:01:53,920 INFO  ProjectFixService - Fixing project...
-2019-09-08 21:01:53,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/local.properties
-2019-09-08 21:01:53,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-08 21:01:53,928 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-08 21:01:53,929 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/tapholdupbutton/local.properties
-2019-09-08 21:01:53,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-08 21:01:53,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-08 21:01:53,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/local.properties
-2019-09-08 21:01:53,931 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-09-08 21:01:53,931 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-09-08 21:01:53,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-08 21:01:53,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-09-08 21:01:53,933 INFO  ProjectFixService - Project was maybe fixed
-2019-09-08 21:01:53,934 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-08 21:01:53,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-08 21:02:01,287 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-08 21:02:01,287 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-08 21:02:01,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-08 21:02:34,303 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-02-16 19:32:17,155 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/gradlew
+2020-02-16 19:32:17,158 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/build.gradle
+2020-02-16 19:32:17,160 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/settings.gradle
+2020-02-16 19:32:17,161 INFO  ProjectBuildService - Remote scripts: none
+2020-02-16 19:32:17,161 INFO  ProjectFixService - Fixing project...
+2020-02-16 19:32:17,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/local.properties
+2020-02-16 19:32:17,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-02-16 19:32:17,168 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-02-16 19:32:17,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/tapholdupbutton/local.properties
+2020-02-16 19:32:17,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-02-16 19:32:17,171 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/tapholdupbutton/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-02-16 19:32:17,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/local.properties
+2020-02-16 19:32:17,172 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-02-16 19:32:17,173 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-02-16 19:32:17,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-02-16 19:32:17,174 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-02-16 19:32:17,174 INFO  ProjectFixService - Project was maybe fixed
+2020-02-16 19:32:17,174 INFO  ProjectTaskService - Detecting possible tasks...
+2020-02-16 19:32:17,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-02-16 19:32:24,956 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-02-16 19:32:24,956 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-02-16 19:32:24,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-02-16 19:32:56,469 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :tapholdupbutton:preBuild UP-TO-DATE
 > Task :tapholdupbutton:preDebugBuild UP-TO-DATE
 > Task :tapholdupbutton:checkDebugManifest
 > Task :tapholdupbutton:processDebugManifest
+> Task :tapholdupbutton:packageDebugRenderscript NO-SOURCE
+> Task :app:prepareLintJar
+> Task :tapholdupbutton:generateDebugBuildConfig
+> Task :tapholdupbutton:generateDebugResValues
+> Task :tapholdupbutton:prepareLintJar
+> Task :tapholdupbutton:mergeDebugShaders
+> Task :tapholdupbutton:compileDebugShaders
+> Task :tapholdupbutton:generateDebugAssets
+> Task :tapholdupbutton:packageDebugAssets
+> Task :tapholdupbutton:javaPreCompileDebug
 > Task :app:preDebugBuild
 > Task :tapholdupbutton:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :tapholdupbutton:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :tapholdupbutton:compileDebugRenderscript NO-SOURCE
-> Task :tapholdupbutton:generateDebugBuildConfig
-> Task :tapholdupbutton:generateDebugResValues
 > Task :tapholdupbutton:generateDebugResources
-> Task :tapholdupbutton:prepareLintJar
 > Task :tapholdupbutton:packageDebugResources
 > Task :tapholdupbutton:generateDebugRFile
 > Task :tapholdupbutton:generateDebugSources
-> Task :tapholdupbutton:javaPreCompileDebug
 > Task :tapholdupbutton:compileDebugJavaWithJavac
 > Task :tapholdupbutton:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
@@ -69,10 +73,6 @@
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :tapholdupbutton:mergeDebugShaders
-> Task :tapholdupbutton:compileDebugShaders
-> Task :tapholdupbutton:generateDebugAssets
-> Task :tapholdupbutton:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :tapholdupbutton:processDebugJavaRes NO-SOURCE
 > Task :tapholdupbutton:bundleLibResDebug
@@ -127,8 +127,8 @@
 > Task :app:assembleDebug
 > Task :app:compileReleaseSources
 > Task :tapholdupbutton:prepareLintJarForPublish
-> Task :app:lintVitalRelease
 > Task :tapholdupbutton:processReleaseJavaRes NO-SOURCE
+> Task :app:lintVitalRelease
 > Task :tapholdupbutton:bundleLibResRelease
 > Task :tapholdupbutton:bundleLibRuntimeRelease
 > Task :tapholdupbutton:createFullJarRelease
@@ -163,7 +163,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 30s
 91 actionable tasks: 91 executed
 
-2019-09-08 21:02:34,372 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567951311568-0/src/TapHoldUpButton-master/app/build/outputs/apk/debug/app-debug.apk
+2020-02-16 19:32:56,532 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856334627-0/src/TapHoldUpButton-master/app/build/outputs/apk/debug/app-debug.apk
