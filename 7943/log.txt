@@ -1,111 +1,176 @@
-2020-01-19 18:51:12,422 INFO  DownloadService - Downloading "https://github.com/fartem/android-remote-temperature-control-client/archive/master.zip", attempt 3
-2020-01-19 18:51:15,381 INFO  DownloadService - Downloaded https://github.com/fartem/android-remote-temperature-control-client/archive/master.zip, attempt 3
-2020-01-19 18:51:15,382 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/master.zip": 1 MB
-2020-01-19 18:51:15,382 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-19 18:51:15,382 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/master.zip: true
-2020-01-19 18:51:15,383 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src'.
-2020-01-19 18:51:15,419 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-01-19 18:51:15,419 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src]
-2020-01-19 18:51:15,445 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/.git/
+2020-03-06 14:09:41,431 INFO  DownloadService - Downloading "https://github.com/fartem/android-remote-temperature-control-client/archive/master.zip", attempt 3
+2020-03-06 14:09:44,997 INFO  DownloadService - Downloaded https://github.com/fartem/android-remote-temperature-control-client/archive/master.zip, attempt 3
+2020-03-06 14:09:44,998 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/master.zip": 1 MB
+2020-03-06 14:09:44,998 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-06 14:09:44,998 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/master.zip: true
+2020-03-06 14:09:44,998 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src'.
+2020-03-06 14:09:45,040 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-06 14:09:45,040 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src]
+2020-03-06 14:09:45,061 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/.git/
 
-2020-01-19 18:51:15,448 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/gradlew
-2020-01-19 18:51:15,451 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/build.gradle
-2020-01-19 18:51:15,454 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/settings.gradle
-2020-01-19 18:51:15,454 INFO  ProjectBuildService - Remote scripts: none
-2020-01-19 18:51:15,454 INFO  ProjectFixService - Fixing project...
-2020-01-19 18:51:15,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/app/local.properties
-2020-01-19 18:51:15,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-19 18:51:15,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/local.properties
-2020-01-19 18:51:15,464 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-19 18:51:15,464 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-19 18:51:15,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-19 18:51:15,466 INFO  ProjectFixService - Project was maybe fixed
-2020-01-19 18:51:15,466 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 18:51:15,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 18:51:22,516 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-01-19 18:51:22,516 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-19 18:51:22,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-19 18:52:16,302 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-06 14:09:45,066 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/gradlew
+2020-03-06 14:09:45,070 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/build.gradle
+2020-03-06 14:09:45,074 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/settings.gradle
+2020-03-06 14:09:45,074 INFO  ProjectBuildService - Remote scripts: none
+2020-03-06 14:09:45,074 INFO  ProjectFixService - Fixing project...
+2020-03-06 14:09:45,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/local.properties
+2020-03-06 14:09:45,084 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-06 14:09:45,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/local.properties
+2020-03-06 14:09:45,085 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-06 14:09:45,085 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-06 14:09:45,087 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-06 14:09:45,087 INFO  ProjectFixService - Project was maybe fixed
+2020-03-06 14:09:45,087 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-06 14:09:45,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-06 14:09:56,499 INFO  VirusProcessorServiceImpl - Queued project 7971 to scan viruses
+2020-03-06 14:10:00,126 INFO  ProjectTaskService - Detected possible tasks: 105
+2020-03-06 14:10:00,127 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2020-03-06 14:10:00,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2020-03-06 14:11:10,849 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
-> Task :app:compileDebugKotlin
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:mergeDebugJavaResource
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeLibDexDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :app:preReleaseBuild UP-TO-DATE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:mergeProjectDexDebug
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
-> Task :app:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4638d87a62ad62f6c1c1daf081bce821/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
+> Task :app:preDebugbtDebugBuild UP-TO-DATE
+> Task :app:compileDebugbtDebugAidl NO-SOURCE
+> Task :app:generateDebugbtDebugBuildConfig
+> Task :app:compileDebugbtDebugRenderscript NO-SOURCE
+> Task :app:mainApkListPersistenceDebugbtDebug
+> Task :app:generateDebugbtDebugResValues
+> Task :app:generateDebugbtDebugResources
+> Task :app:createDebugbtDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebugbtDebug
+> Task :app:processDebugbtDebugManifest
+> Task :app:mergeDebugbtDebugResources
+> Task :app:processDebugbtDebugResources
+> Task :app:compileDebugbtDebugKotlin
+> Task :app:javaPreCompileDebugbtDebug
+> Task :app:compileDebugbtDebugJavaWithJavac
+> Task :app:compileDebugbtDebugSources
+> Task :app:mergeDebugbtDebugShaders
+> Task :app:compileDebugbtDebugShaders
+> Task :app:generateDebugbtDebugAssets
+> Task :app:mergeDebugbtDebugAssets
+> Task :app:processDebugbtDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugbtDebugJavaResource
+> Task :app:checkDebugbtDebugDuplicateClasses
+> Task :app:mergeLibDexDebugbtDebug
+> Task :app:dexBuilderDebugbtDebug
+> Task :app:mergeDebugbtDebugJniLibFolders
+> Task :app:validateSigningDebugbtDebug
+> Task :app:preDevicebtDebugBuild UP-TO-DATE
+> Task :app:compileDevicebtDebugAidl NO-SOURCE
+> Task :app:compileDevicebtDebugRenderscript NO-SOURCE
+> Task :app:generateDevicebtDebugBuildConfig
+> Task :app:mainApkListPersistenceDevicebtDebug
+> Task :app:generateDevicebtDebugResValues
+> Task :app:generateDevicebtDebugResources
+> Task :app:mergeDebugbtDebugNativeLibs
+> Task :app:stripDebugbtDebugDebugSymbols
+> Task :app:createDevicebtDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDevicebtDebug
+> Task :app:processDevicebtDebugManifest
+> Task :app:mergeDevicebtDebugShaders
+> Task :app:compileDevicebtDebugShaders
+> Task :app:generateDevicebtDebugAssets
+> Task :app:mergeDevicebtDebugAssets
+> Task :app:processDevicebtDebugJavaRes NO-SOURCE
+> Task :app:checkDevicebtDebugDuplicateClasses
+> Task :app:mergeProjectDexDebugbtDebug
+> Task :app:mergeDevicebtDebugJniLibFolders
+> Task :app:mergeDevicebtDebugResources
+> Task :app:processDevicebtDebugResources
+> Task :app:compileDevicebtDebugKotlin
+> Task :app:javaPreCompileDevicebtDebug
+> Task :app:compileDevicebtDebugJavaWithJavac
+> Task :app:compileDevicebtDebugSources
+> Task :app:dexBuilderDevicebtDebug
+> Task :app:validateSigningDevicebtDebug
+> Task :app:preDebugbtReleaseBuild UP-TO-DATE
+> Task :app:compileDebugbtReleaseAidl NO-SOURCE
+> Task :app:compileDebugbtReleaseRenderscript NO-SOURCE
+> Task :app:generateDebugbtReleaseBuildConfig
+> Task :app:mainApkListPersistenceDebugbtRelease
+> Task :app:generateDebugbtReleaseResValues
+> Task :app:generateDebugbtReleaseResources
+> Task :app:createDebugbtReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksDebugbtRelease
+> Task :app:processDebugbtReleaseManifest
+> Task :app:mergeLibDexDevicebtDebug
+> Task :app:mergeProjectDexDevicebtDebug
+> Task :app:mergeDevicebtDebugNativeLibs
+> Task :app:stripDevicebtDebugDebugSymbols
+> Task :app:mergeDevicebtDebugJavaResource
+> Task :app:mergeDebugbtReleaseResources
+> Task :app:processDebugbtReleaseResources
+> Task :app:compileDebugbtReleaseKotlin
+> Task :app:mergeExtDexDevicebtDebug
+> Task :app:packageDevicebtDebug
+> Task :app:assembleDevicebtDebug
+> Task :app:javaPreCompileDebugbtRelease
+> Task :app:compileDebugbtReleaseJavaWithJavac
+> Task :app:compileDebugbtReleaseSources
+> Task :app:mergeExtDexDebugbtDebug
+> Task :app:packageDebugbtDebug
+> Task :app:assembleDebugbtDebug
 > Task :app:assembleDebug
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDexRelease
-> Task :app:packageRelease
+> Task :app:prepareLintJar
+> Task :app:lintVitalDebugbtRelease
+> Task :app:mergeDebugbtReleaseShaders
+> Task :app:compileDebugbtReleaseShaders
+> Task :app:generateDebugbtReleaseAssets
+> Task :app:mergeDebugbtReleaseAssets
+> Task :app:processDebugbtReleaseJavaRes NO-SOURCE
+> Task :app:checkDebugbtReleaseDuplicateClasses
+> Task :app:dexBuilderDebugbtRelease
+> Task :app:mergeDebugbtReleaseJavaResource
+> Task :app:mergeDebugbtReleaseJniLibFolders
+> Task :app:preDevicebtReleaseBuild UP-TO-DATE
+> Task :app:compileDevicebtReleaseAidl NO-SOURCE
+> Task :app:compileDevicebtReleaseRenderscript NO-SOURCE
+> Task :app:generateDevicebtReleaseBuildConfig
+> Task :app:mainApkListPersistenceDevicebtRelease
+> Task :app:generateDevicebtReleaseResValues
+> Task :app:generateDevicebtReleaseResources
+> Task :app:createDevicebtReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksDevicebtRelease
+> Task :app:mergeDebugbtReleaseNativeLibs
+> Task :app:stripDebugbtReleaseDebugSymbols
+> Task :app:processDevicebtReleaseManifest
+> Task :app:mergeDevicebtReleaseShaders
+> Task :app:compileDevicebtReleaseShaders
+> Task :app:generateDevicebtReleaseAssets
+> Task :app:mergeDevicebtReleaseAssets
+> Task :app:processDevicebtReleaseJavaRes NO-SOURCE
+> Task :app:checkDevicebtReleaseDuplicateClasses
+> Task :app:mergeDevicebtReleaseJniLibFolders
+> Task :app:mergeDevicebtReleaseResources
+> Task :app:processDevicebtReleaseResources
+> Task :app:compileDevicebtReleaseKotlin
+> Task :app:mergeDevicebtReleaseNativeLibs
+> Task :app:stripDevicebtReleaseDebugSymbols
+> Task :app:javaPreCompileDevicebtRelease
+> Task :app:compileDevicebtReleaseJavaWithJavac
+> Task :app:compileDevicebtReleaseSources
+> Task :app:lintVitalDevicebtRelease
+> Task :app:dexBuilderDevicebtRelease
+> Task :app:mergeDevicebtReleaseJavaResource
+> Task :app:mergeExtDexDebugbtRelease
+> Task :app:mergeExtDexDevicebtRelease
+> Task :app:mergeDexDebugbtRelease
+> Task :app:packageDebugbtRelease
+> Task :app:assembleDebugbtRelease
+> Task :app:assembleDebugbt
+> Task :app:mergeDexDevicebtRelease
+> Task :app:packageDevicebtRelease
+> Task :app:assembleDevicebtRelease
+> Task :app:assembleDevicebt
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 52s
-52 actionable tasks: 52 executed
+BUILD SUCCESSFUL in 1m 10s
+99 actionable tasks: 99 executed
 
-2020-01-19 18:52:16,375 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434672414-0/src/android-remote-temperature-control-client-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-06 14:11:10,940 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478581423-0/src/android-remote-temperature-control-client-master/app/build/outputs/apk/debugbt/release/app-debugbt-release-unsigned.apk

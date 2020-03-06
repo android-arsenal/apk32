@@ -5,6 +5,14 @@
     "icon" : "res/drawable/ic_messenger.xml",
     "versionName" : "1.0.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "14",
     "targetSdkVersion" : "29",
@@ -20,14 +28,16 @@
     "largeScreens" : false,
     "usesPermissions" : [ "android.permission.INTERNET", "android.permission.SYSTEM_ALERT_WINDOW" ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : null,
-  "dexClasses" : 3845,
+  "dexClasses" : 3853,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.sha.apphead.sample\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<application android:theme=\"resourceId:0x7f0d0007\" android:label=\"AppHead\" android:icon=\"res/drawable/ic_messenger.xml\" android:allowBackup=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:label=\"AppHead\" android:name=\"com.apphead.sample.MainActivity\" android:launchMode=\"singleTask\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.apphead.sample.MessengerActivity\" android:launchMode=\"singleTask\" />\n\t\t<service android:name=\"com.sha.apphead.HeadService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"com.sha.apphead.sample.com.squareup.picasso\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3137643,
-  "crc32" : 273514947,
-  "sha256" : "f66abf6ef99e904cd2f2d6e298aff90a15fc81e9f11d5601e84f0ca28b8ab7b2",
-  "buildTime" : 1577683359000
+  "fileSize" : 3142520,
+  "crc32" : 3927327397,
+  "sha256" : "085351f7a39c90354ec817030a1cade24ac28e43065f02af17f2a20ff899e983",
+  "buildTime" : 1583478477000
 }

@@ -1,36 +1,37 @@
-2019-12-30 12:20:42,879 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/AppHead/archive/master.zip", attempt 3
-2019-12-30 12:20:46,409 INFO  DownloadService - Downloaded https://github.com/ShabanKamell/AppHead/archive/master.zip, attempt 3
-2019-12-30 12:20:46,410 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/master.zip": 3 MB
-2019-12-30 12:20:46,410 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-30 12:20:46,417 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/master.zip: true
-2019-12-30 12:20:46,417 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src'.
-2019-12-30 12:20:46,456 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-12-30 12:20:46,456 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src]
-2019-12-30 12:20:46,473 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/.git/
+2020-03-06 14:05:37,238 INFO  DownloadService - Downloading "https://github.com/ShabanKamell/AppHead/archive/master.zip", attempt 3
+2020-03-06 14:05:40,645 INFO  DownloadService - Downloaded https://github.com/ShabanKamell/AppHead/archive/master.zip, attempt 3
+2020-03-06 14:05:40,645 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/master.zip": 3 MB
+2020-03-06 14:05:40,645 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-06 14:05:40,646 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/master.zip: true
+2020-03-06 14:05:40,646 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src'.
+2020-03-06 14:05:40,693 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-03-06 14:05:40,693 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src]
+2020-03-06 14:05:40,717 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/.git/
 
-2019-12-30 12:20:46,476 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/gradlew
-2019-12-30 12:20:46,478 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/build.gradle
-2019-12-30 12:20:46,481 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/settings.gradle
-2019-12-30 12:20:46,481 INFO  ProjectBuildService - Remote scripts: none
-2019-12-30 12:20:46,481 INFO  ProjectFixService - Fixing project...
-2019-12-30 12:20:46,487 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/local.properties
-2019-12-30 12:20:46,489 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-30 12:20:46,489 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-30 12:20:46,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/local.properties
-2019-12-30 12:20:46,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-30 12:20:46,492 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-30 12:20:46,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/local.properties
-2019-12-30 12:20:46,494 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.1-all.zip
-2019-12-30 12:20:46,494 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.1-bin.zip)
-2019-12-30 12:20:46,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-30 12:20:46,496 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-30 12:20:46,496 INFO  ProjectFixService - Project was maybe fixed
-2019-12-30 12:20:46,496 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-30 12:20:46,496 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-30 12:21:12,134 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-12-30 12:21:12,135 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-30 12:21:12,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-30 12:21:47,198 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2020-03-06 14:05:40,721 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/gradlew
+2020-03-06 14:05:40,725 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/build.gradle
+2020-03-06 14:05:40,728 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/settings.gradle
+2020-03-06 14:05:40,728 INFO  ProjectBuildService - Remote scripts: none
+2020-03-06 14:05:40,728 INFO  ProjectFixService - Fixing project...
+2020-03-06 14:05:40,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/local.properties
+2020-03-06 14:05:40,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-06 14:05:40,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-06 14:05:40,741 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/local.properties
+2020-03-06 14:05:40,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-06 14:05:40,743 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-06 14:05:40,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/local.properties
+2020-03-06 14:05:40,744 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-06 14:05:40,744 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-06 14:05:40,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-06 14:05:40,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-06 14:05:40,747 INFO  ProjectFixService - Project was maybe fixed
+2020-03-06 14:05:40,747 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-06 14:05:40,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-06 14:05:50,883 INFO  VirusProcessorServiceImpl - Queued project 7995 to scan viruses
+2020-03-06 14:06:05,304 INFO  ProjectTaskService - Detected possible tasks: 65
+2020-03-06 14:06:05,304 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-06 14:06:05,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-06 14:06:36,665 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -52,90 +53,96 @@
 Configuration on demand is an incubating feature.
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
-> Task :lib:mergeDebugJniLibFolders
-> Task :lib:mergeDebugNativeLibs
-> Task :lib:stripDebugDebugSymbols
-> Task :lib:copyDebugJniLibsProjectAndLocalJars
+> Task :lib:checkDebugManifest
 > Task :lib:generateDebugBuildConfig
 > Task :lib:generateDebugResValues
 > Task :lib:mergeDebugShaders
 > Task :lib:compileDebugShaders
 > Task :lib:generateDebugAssets
 > Task :lib:packageDebugAssets
+> Task :lib:processDebugManifest
 > Task :lib:packageDebugRenderscript NO-SOURCE
-> Task :lib:prepareLintJarForPublish
 > Task :lib:processDebugJavaRes NO-SOURCE
-> Task :lib:preReleaseBuild UP-TO-DATE
-> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:mergeDebugJniLibFolders
 > Task :lib:compileDebugAidl NO-SOURCE
 > Task :lib:compileDebugRenderscript NO-SOURCE
 > Task :lib:generateDebugResources
 > Task :lib:packageDebugResources
-> Task :lib:processDebugManifest
+> Task :lib:preReleaseBuild UP-TO-DATE
 > Task :lib:compileReleaseAidl NO-SOURCE
 > Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:checkReleaseManifest
 > Task :lib:generateReleaseBuildConfig
 > Task :lib:generateReleaseResValues
 > Task :lib:generateReleaseResources
 > Task :lib:packageReleaseResources
-> Task :lib:parseDebugLocalResources
-> Task :lib:parseReleaseLocalResources
+> Task :lib:parseDebugLibraryResources
+> Task :lib:mergeDebugNativeLibs
+> Task :lib:stripDebugDebugSymbols
+> Task :lib:transformNativeLibsWithSyncJniLibsForDebug
 > Task :lib:mergeReleaseShaders
 > Task :lib:compileReleaseShaders
 > Task :lib:generateReleaseAssets
 > Task :lib:packageReleaseAssets
 > Task :lib:packageReleaseRenderscript NO-SOURCE
 > Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:prepareLintJarForPublish
+> Task :lib:parseReleaseLibraryResources
+> Task :lib:processReleaseManifest
 > Task :lib:mergeReleaseNativeLibs
 > Task :lib:stripReleaseDebugSymbols
-> Task :lib:copyReleaseJniLibsProjectAndLocalJars
-> Task :lib:processReleaseManifest
-> Task :lib:generateDebugRFile
-
-> Task :lib:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/LayoutInflaterHelper.kt: (10, 44): Unchecked cast: View! to T
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/WindowManagerHelper.kt: (20, 40): 'TYPE_PHONE: Int' is deprecated. Deprecated in Java
-
+> Task :lib:transformNativeLibsWithSyncJniLibsForRelease
+> Task :lib:mergeReleaseResources
 > Task :lib:generateReleaseRFile
 
 > Task :lib:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/LayoutInflaterHelper.kt: (10, 44): Unchecked cast: View! to T
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/WindowManagerHelper.kt: (20, 40): 'TYPE_PHONE: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/LayoutInflaterHelper.kt: (10, 44): Unchecked cast: View! to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/WindowManagerHelper.kt: (20, 40): 'TYPE_PHONE: Int' is deprecated. Deprecated in Java
 
-> Task :lib:mergeDebugJavaResource
-> Task :lib:javaPreCompileDebug
-> Task :lib:compileDebugJavaWithJavac
-> Task :lib:extractDebugAnnotations
-> Task :lib:mergeDebugGeneratedProguardFiles
-> Task :lib:mergeDebugConsumerProguardFiles
-> Task :lib:syncDebugLibJars
-> Task :lib:bundleDebugAar
-> Task :lib:compileDebugSources
-> Task :lib:assembleDebug
+> Task :lib:generateDebugRFile
+
+> Task :lib:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/LayoutInflaterHelper.kt: (10, 44): Unchecked cast: View! to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/lib/src/main/java/com/sha/apphead/WindowManagerHelper.kt: (20, 40): 'TYPE_PHONE: Int' is deprecated. Deprecated in Java
+
 > Task :lib:javaPreCompileRelease
 > Task :lib:compileReleaseJavaWithJavac
 > Task :lib:extractReleaseAnnotations
 > Task :lib:mergeReleaseGeneratedProguardFiles
 > Task :lib:mergeReleaseConsumerProguardFiles
 > Task :lib:compileReleaseSources
-> Task :lib:mergeReleaseJavaResource
-> Task :lib:syncReleaseLibJars
-> Task :lib:bundleReleaseAar
-> Task :lib:mergeReleaseResources
+> Task :lib:javaPreCompileDebug
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:extractDebugAnnotations
+> Task :lib:mergeDebugGeneratedProguardFiles
+> Task :lib:mergeDebugConsumerProguardFiles
+> Task :lib:compileDebugSources
 > Task :lib:verifyReleaseResources
+> Task :lib:mergeReleaseJavaResource
+> Task :lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :lib:bundleReleaseAar
+> Task :lib:mergeDebugJavaResource
+> Task :lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :lib:bundleDebugAar
+> Task :lib:assembleDebug
 > Task :lib:assembleRelease
 > Task :lib:assemble
 > Task :lib:build
 
-BUILD SUCCESSFUL in 34s
-47 actionable tasks: 47 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-12-30 12:21:47,238 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-30 12:21:47,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-30 12:21:54,081 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-12-30 12:21:54,081 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-30 12:21:54,081 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-30 12:22:40,442 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+BUILD SUCCESSFUL in 30s
+49 actionable tasks: 49 executed
+
+2020-03-06 14:06:36,725 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-06 14:06:36,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-06 14:06:45,018 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-03-06 14:06:45,018 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-06 14:06:45,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-06 14:07:58,639 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:pluginDescriptors UP-TO-DATE
@@ -162,12 +169,13 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
 > Task :lib:compileDebugAidl NO-SOURCE
+> Task :lib:checkDebugManifest UP-TO-DATE
 > Task :lib:generateDebugBuildConfig UP-TO-DATE
 > Task :lib:compileDebugRenderscript NO-SOURCE
 > Task :lib:generateDebugResValues UP-TO-DATE
 > Task :lib:generateDebugResources UP-TO-DATE
 > Task :lib:packageDebugResources UP-TO-DATE
-> Task :lib:parseDebugLocalResources UP-TO-DATE
+> Task :lib:parseDebugLibraryResources UP-TO-DATE
 > Task :lib:processDebugManifest UP-TO-DATE
 > Task :lib:generateDebugRFile UP-TO-DATE
 > Task :lib:compileDebugKotlin UP-TO-DATE
@@ -177,26 +185,21 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
 > Task :lib:packageDebugRenderscript NO-SOURCE
-> Task :sample:generateDebugBuildConfig
 > Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
 > Task :lib:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
-> Task :lib:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :lib:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
-> Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 
 > Task :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/src/main/java/com/apphead/sample/picasso/PicassoHelper.kt: (35, 48): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/src/main/java/com/apphead/sample/picasso/PicassoHelper.kt: (35, 48): Type mismatch: inferred type is String? but String was expected
 
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :lib:mergeDebugShaders UP-TO-DATE
 > Task :lib:compileDebugShaders UP-TO-DATE
 > Task :lib:generateDebugAssets UP-TO-DATE
@@ -205,64 +208,72 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :lib:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :lib:bundleLibResDebug
 > Task :lib:bundleLibRuntimeDebug
-> Task :sample:dexBuilderDebug
 > Task :sample:checkDebugDuplicateClasses
 > Task :sample:mergeDebugJavaResource
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:desugarDebugFileDependencies
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
 > Task :lib:mergeDebugJniLibFolders UP-TO-DATE
 > Task :lib:mergeDebugNativeLibs UP-TO-DATE
 > Task :lib:stripDebugDebugSymbols UP-TO-DATE
-> Task :lib:copyDebugJniLibsProjectOnly
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
-> Task :sample:validateSigningDebug
 > Task :lib:preReleaseBuild UP-TO-DATE
 > Task :lib:compileReleaseAidl NO-SOURCE
 > Task :lib:compileReleaseRenderscript NO-SOURCE
+> Task :lib:checkReleaseManifest UP-TO-DATE
 > Task :lib:generateReleaseBuildConfig UP-TO-DATE
 > Task :lib:generateReleaseResValues UP-TO-DATE
 > Task :lib:generateReleaseResources UP-TO-DATE
 > Task :lib:packageReleaseResources UP-TO-DATE
-> Task :lib:parseReleaseLocalResources UP-TO-DATE
+> Task :lib:parseReleaseLibraryResources UP-TO-DATE
 > Task :lib:processReleaseManifest UP-TO-DATE
 > Task :lib:generateReleaseRFile UP-TO-DATE
 > Task :lib:compileReleaseKotlin UP-TO-DATE
 > Task :lib:javaPreCompileRelease UP-TO-DATE
 > Task :lib:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :lib:bundleLibCompileRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :lib:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :lib:compileReleaseLibraryResources
-> Task :lib:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :lib:bundleLibCompileRelease
+> Task :lib:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :sample:checkReleaseDuplicateClasses
+> Task :lib:bundleLibRuntimeRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 
 > Task :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/src/main/java/com/apphead/sample/picasso/PicassoHelper.kt: (35, 48): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/src/main/java/com/apphead/sample/picasso/PicassoHelper.kt: (35, 48): Type mismatch: inferred type is String? but String was expected
 
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
-> Task :lib:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:prepareLintJar
+
 > Task :sample:lintVitalRelease
-> Task :sample:checkReleaseDuplicateClasses
-> Task :sample:dexBuilderRelease
-> Task :lib:bundleLibRuntimeRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/09eb31342612be9d37c2eaf5034ab210/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
 > Task :sample:mergeExtDexDebug
+> Task :sample:desugarReleaseFileDependencies
+> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :lib:mergeReleaseShaders UP-TO-DATE
 > Task :lib:compileReleaseShaders UP-TO-DATE
 > Task :lib:generateReleaseAssets UP-TO-DATE
@@ -272,19 +283,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :lib:processReleaseJavaRes NO-SOURCE
-> Task :lib:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:signingConfigWriterRelease
 > Task :lib:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :lib:mergeReleaseNativeLibs UP-TO-DATE
 > Task :lib:stripReleaseDebugSymbols UP-TO-DATE
-> Task :lib:copyReleaseJniLibsProjectOnly
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :lib:bundleLibResRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -292,7 +304,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 45s
-92 actionable tasks: 61 executed, 31 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-12-30 12:22:40,511 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577683242871-0/src/AppHead-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+BUILD SUCCESSFUL in 1m 12s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2020-03-06 14:07:58,806 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1583478337235-0/src/AppHead-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

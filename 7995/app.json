@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "15",
     "targetSdkVersion" : "28",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -31,8 +41,8 @@
   "dexClasses" : 3247,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.backdrop.matrixdev\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"Backdrop\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.backdrop.matrixdev.TestActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f014c\" android:name=\"com.backdrop.matrixdev.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.backdropeasy.matrixdev.BackdropListActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3117103,
-  "crc32" : 659814634,
-  "sha256" : "b2021a7db2a3b281cef920d2852d7f467242ec7e6f448076c2dd0d3d7283b75b",
-  "buildTime" : 1577536137000
+  "fileSize" : 3117581,
+  "crc32" : 2476725432,
+  "sha256" : "f15fcf1ddfd13f3423705440f2d2cb166da86b0f13e6c766c726c660cf7af65b",
+  "buildTime" : 1583478326000
 }
