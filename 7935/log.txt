@@ -1,79 +1,234 @@
-2020-01-04 20:24:44,925 INFO  DownloadService - Downloading "https://github.com/justeat/jubako/archive/master.zip", attempt 3
-2020-01-04 20:24:49,445 INFO  DownloadService - Downloaded https://github.com/justeat/jubako/archive/master.zip, attempt 3
-2020-01-04 20:24:49,446 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/master.zip": 2 MB
-2020-01-04 20:24:49,446 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-04 20:24:49,452 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/master.zip: true
-2020-01-04 20:24:49,452 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src'.
-2020-01-04 20:24:49,503 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-01-04 20:24:49,503 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src]
-2020-01-04 20:24:49,528 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/.git/
+2020-03-13 14:18:57,086 INFO  DownloadService - Downloading "https://github.com/justeat/jubako/archive/master.zip", attempt 3
+2020-03-13 14:19:00,189 INFO  DownloadService - Downloaded https://github.com/justeat/jubako/archive/master.zip, attempt 3
+2020-03-13 14:19:00,190 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/master.zip": 2 MB
+2020-03-13 14:19:00,190 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-13 14:19:00,190 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/master.zip: true
+2020-03-13 14:19:00,191 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src'.
+2020-03-13 14:19:00,246 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-03-13 14:19:00,246 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src]
+2020-03-13 14:19:00,266 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/.git/
 
-2020-01-04 20:24:49,532 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/gradlew
-2020-01-04 20:24:49,536 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/build.gradle
-2020-01-04 20:24:49,540 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/settings.gradle
-2020-01-04 20:24:49,540 INFO  ProjectBuildService - Remote scripts: none
-2020-01-04 20:24:49,540 INFO  ProjectFixService - Fixing project...
-2020-01-04 20:24:49,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/local.properties
-2020-01-04 20:24:49,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-04 20:24:49,552 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-01-04 20:24:49,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/local.properties
-2020-01-04 20:24:49,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-04 20:24:49,554 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-04 20:24:49,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/local.properties
-2020-01-04 20:24:49,555 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-01-04 20:24:49,555 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-01-04 20:24:49,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-04 20:24:49,557 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-04 20:24:49,558 INFO  ProjectFixService - Project was maybe fixed
-2020-01-04 20:24:49,558 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 20:24:49,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 20:25:00,394 INFO  VirusProcessorServiceImpl - Queued project 7955 to scan viruses
-2020-01-04 20:25:04,769 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-04 20:25:04,769 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-04 20:25:04,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-04 20:26:35,867 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-13 14:19:00,272 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/gradlew
+2020-03-13 14:19:00,281 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/build.gradle
+2020-03-13 14:19:00,287 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/settings.gradle
+2020-03-13 14:19:00,288 INFO  ProjectBuildService - Remote scripts: none
+2020-03-13 14:19:00,288 INFO  ProjectFixService - Fixing project...
+2020-03-13 14:19:00,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/local.properties
+2020-03-13 14:19:00,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-13 14:19:00,303 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-sample/local.properties
+2020-03-13 14:19:00,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-03-13 14:19:00,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/local.properties
+2020-03-13 14:19:00,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:19:00,305 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/local.properties
+2020-03-13 14:19:00,306 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-03-13 14:19:00,306 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-03-13 14:19:00,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:19:00,307 INFO  ProjectFixService - Project was maybe fixed
+2020-03-13 14:19:00,307 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-13 14:19:00,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-13 14:19:10,208 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-13 14:19:10,208 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-13 14:19:10,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-13 14:19:12,309 INFO  VirusProcessorServiceImpl - Queued project 7955 to scan viruses
+2020-03-13 14:19:41,919 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :jubako
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 > Task :jubako:preBuild UP-TO-DATE
 > Task :jubako:preDebugBuild UP-TO-DATE
+> Task :jubako-recyclerviews:preBuild UP-TO-DATE
+> Task :jubako-recyclerviews:preDebugBuild UP-TO-DATE
 > Task :jubako:checkDebugManifest
 > Task :jubako:generateDebugBuildConfig
 > Task :jubako:generateDebugResValues
 > Task :jubako:processDebugManifest
 > Task :jubako:prepareLintJar
-> Task :jubako-sample:preBuild UP-TO-DATE
 > Task :jubako:packageDebugRenderscript NO-SOURCE
-> Task :jubako-sample:prepareLintJar
-> Task :jubako:mergeDebugShaders
-> Task :jubako:compileDebugShaders
+> Task :jubako-recyclerviews:checkDebugManifest
+> Task :jubako-recyclerviews:generateDebugBuildConfig
+> Task :jubako-recyclerviews:generateDebugResValues
+> Task :jubako-recyclerviews:processDebugManifest
+> Task :jubako-recyclerviews:prepareLintJar
+> Task :jubako-recyclerviews:mergeDebugConsumerProguardFiles
+> Task :jubako-recyclerviews:mergeDebugShaders
+> Task :jubako-recyclerviews:compileDebugShaders
+> Task :jubako-recyclerviews:generateDebugAssets
+> Task :jubako-recyclerviews:packageDebugAssets
+> Task :jubako-recyclerviews:packageDebugRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:prepareLintJarForPublish
+> Task :jubako-recyclerviews:processDebugJavaRes NO-SOURCE
+> Task :jubako-recyclerviews:mergeDebugJniLibFolders
+> Task :jubako-recyclerviews:transformNativeLibsWithMergeJniLibsForDebug
+> Task :jubako-recyclerviews:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :jubako-recyclerviews:transformNativeLibsWithSyncJniLibsForDebug
+> Task :jubako:preReleaseBuild UP-TO-DATE
+> Task :jubako-recyclerviews:preReleaseBuild UP-TO-DATE
+> Task :jubako:checkReleaseManifest
+> Task :jubako:generateReleaseBuildConfig
+> Task :jubako:generateReleaseResValues
+> Task :jubako:processReleaseManifest
 > Task :jubako:compileDebugAidl NO-SOURCE
+> Task :jubako-recyclerviews:compileDebugAidl NO-SOURCE
 > Task :jubako:compileDebugRenderscript NO-SOURCE
 > Task :jubako:generateDebugResources
 > Task :jubako:packageDebugResources
 > Task :jubako:generateDebugRFile
 
 > Task :jubako:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/ContentDescriptionCollection.kt: (16, 36): Unchecked cast: ContentDescription<*> to ContentDescription<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/Jubako.kt: (151, 53): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (49, 52): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (83, 50): Unchecked cast: LiveData<Jubako.State> to LiveData<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (88, 60): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (164, 55): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (258, 64): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/SimpleJubakoAssembler.kt: (22, 22): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (27, 18): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (31, 51): Unchecked cast: ContentDescriptionProvider<T> to ContentDescriptionProvider<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoRecyclerViewContent.kt: (94, 85): Name shadowed: data
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoRecyclerViewContent.kt: (97, 65): Name shadowed: data
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoRecyclerViewContent.kt: (221, 35): Unchecked cast: Any? to ITEM_DATA
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoViewContent.kt: (68, 54): Unchecked cast: View to VIEW
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/ContentDescriptionCollection.kt: (15, 81): Unchecked cast: ContentDescription<*> to ContentDescription<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/Jubako.kt: (144, 53): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/SimpleJubakoAssembler.kt: (22, 22): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (25, 18): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (29, 51): Unchecked cast: ContentDescriptionProvider<T> to ContentDescriptionProvider<Any>
 
 > Task :jubako:generateDebugSources
 > Task :jubako:javaPreCompileDebug
 > Task :jubako:compileDebugJavaWithJavac
 > Task :jubako:bundleLibCompileDebug
+> Task :jubako-recyclerviews:compileDebugRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:generateDebugResources
+> Task :jubako-recyclerviews:packageDebugResources
+> Task :jubako-recyclerviews:generateDebugRFile
+
+> Task :jubako-recyclerviews:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoRecyclerViewContent.kt: (95, 85): Name shadowed: data
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoRecyclerViewContent.kt: (98, 65): Name shadowed: data
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoRecyclerViewContent.kt: (222, 35): Unchecked cast: Any? to ITEM_DATA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoViewContent.kt: (68, 54): Unchecked cast: View to VIEW
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (53, 52): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (87, 50): Unchecked cast: LiveData<Jubako.State> to LiveData<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (92, 60): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (168, 55): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (262, 64): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+
+> Task :jubako-recyclerviews:generateDebugSources
+> Task :jubako-recyclerviews:javaPreCompileDebug
+> Task :jubako-recyclerviews:compileDebugJavaWithJavac
+> Task :jubako-recyclerviews:extractDebugAnnotations
+> Task :jubako-recyclerviews:transformResourcesWithMergeJavaResForDebug
+> Task :jubako-recyclerviews:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :jubako-recyclerviews:bundleDebugAar
+> Task :jubako-recyclerviews:compileDebugSources
+> Task :jubako-recyclerviews:assembleDebug
+> Task :jubako:compileReleaseAidl NO-SOURCE
+> Task :jubako-recyclerviews:compileReleaseAidl NO-SOURCE
+> Task :jubako:compileReleaseRenderscript NO-SOURCE
+> Task :jubako:generateReleaseResources
+> Task :jubako:packageReleaseResources
+> Task :jubako:generateReleaseRFile
+
+> Task :jubako:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/ContentDescriptionCollection.kt: (15, 81): Unchecked cast: ContentDescription<*> to ContentDescription<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/Jubako.kt: (144, 53): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/SimpleJubakoAssembler.kt: (22, 22): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (25, 18): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (29, 51): Unchecked cast: ContentDescriptionProvider<T> to ContentDescriptionProvider<Any>
+
+> Task :jubako:generateReleaseSources
+> Task :jubako:javaPreCompileRelease
+> Task :jubako:compileReleaseJavaWithJavac
+> Task :jubako:bundleLibCompileRelease
+> Task :jubako:packageReleaseRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:compileReleaseRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:checkReleaseManifest
+> Task :jubako-recyclerviews:generateReleaseBuildConfig
+> Task :jubako-recyclerviews:generateReleaseResValues
+> Task :jubako-recyclerviews:generateReleaseResources
+> Task :jubako-recyclerviews:packageReleaseResources
+> Task :jubako-recyclerviews:processReleaseManifest
+> Task :jubako-recyclerviews:generateReleaseRFile
+
+> Task :jubako-recyclerviews:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoRecyclerViewContent.kt: (95, 85): Name shadowed: data
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoRecyclerViewContent.kt: (98, 65): Name shadowed: data
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoRecyclerViewContent.kt: (222, 35): Unchecked cast: Any? to ITEM_DATA
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/JubakoViewContent.kt: (68, 54): Unchecked cast: View to VIEW
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (53, 52): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (87, 50): Unchecked cast: LiveData<Jubako.State> to LiveData<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (92, 60): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (168, 55): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-recyclerviews/src/main/java/com/justeat/jubako/recyclerviews/adapters/PaginatedContentLoadingStrategy.kt: (262, 64): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
+
+> Task :jubako-recyclerviews:generateReleaseSources
+> Task :jubako-recyclerviews:javaPreCompileRelease
+> Task :jubako-recyclerviews:compileReleaseJavaWithJavac
+> Task :jubako-recyclerviews:extractReleaseAnnotations
+> Task :jubako-recyclerviews:mergeReleaseConsumerProguardFiles
+> Task :jubako-recyclerviews:mergeReleaseShaders
+> Task :jubako-recyclerviews:compileReleaseShaders
+> Task :jubako-recyclerviews:generateReleaseAssets
+> Task :jubako-recyclerviews:packageReleaseAssets
+> Task :jubako-recyclerviews:packageReleaseRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:processReleaseJavaRes NO-SOURCE
+> Task :jubako-recyclerviews:transformResourcesWithMergeJavaResForRelease
+> Task :jubako-recyclerviews:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :jubako-recyclerviews:mergeReleaseJniLibFolders
+> Task :jubako-recyclerviews:transformNativeLibsWithMergeJniLibsForRelease
+> Task :jubako-recyclerviews:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :jubako-recyclerviews:transformNativeLibsWithSyncJniLibsForRelease
+> Task :jubako-recyclerviews:bundleReleaseAar
+> Task :jubako-recyclerviews:compileReleaseSources
+> Task :jubako-recyclerviews:mergeReleaseResources
+> Task :jubako-recyclerviews:verifyReleaseResources
+> Task :jubako-recyclerviews:assembleRelease
+> Task :jubako-recyclerviews:assemble
+> Task :jubako-recyclerviews:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 31s
+67 actionable tasks: 67 executed
+
+2020-03-13 14:19:41,990 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-13 14:19:41,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-13 14:19:49,553 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-13 14:19:49,554 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-13 14:19:49,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-13 14:20:56,552 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :jubako
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
+> Task :jubako:preBuild UP-TO-DATE
+> Task :jubako:preDebugBuild UP-TO-DATE
+> Task :jubako:checkDebugManifest UP-TO-DATE
+> Task :jubako:generateDebugBuildConfig UP-TO-DATE
+> Task :jubako:compileDebugAidl NO-SOURCE
+> Task :jubako:compileDebugRenderscript NO-SOURCE
+> Task :jubako:generateDebugResValues UP-TO-DATE
+> Task :jubako:generateDebugResources UP-TO-DATE
+> Task :jubako:processDebugManifest UP-TO-DATE
+> Task :jubako:packageDebugResources UP-TO-DATE
+> Task :jubako:generateDebugRFile UP-TO-DATE
+> Task :jubako:compileDebugKotlin UP-TO-DATE
+> Task :jubako:prepareLintJar UP-TO-DATE
+> Task :jubako:generateDebugSources UP-TO-DATE
+> Task :jubako:javaPreCompileDebug UP-TO-DATE
+> Task :jubako:compileDebugJavaWithJavac UP-TO-DATE
+> Task :jubako:bundleLibCompileDebug UP-TO-DATE
+> Task :jubako-recyclerviews:preBuild UP-TO-DATE
+> Task :jubako-recyclerviews:preDebugBuild UP-TO-DATE
+> Task :jubako:packageDebugRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:compileDebugAidl NO-SOURCE
+> Task :jubako-recyclerviews:compileDebugRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:checkDebugManifest UP-TO-DATE
+> Task :jubako-recyclerviews:generateDebugBuildConfig UP-TO-DATE
+> Task :jubako-recyclerviews:generateDebugResValues UP-TO-DATE
+> Task :jubako-recyclerviews:generateDebugResources UP-TO-DATE
+> Task :jubako-recyclerviews:packageDebugResources UP-TO-DATE
+> Task :jubako-recyclerviews:processDebugManifest UP-TO-DATE
+> Task :jubako-recyclerviews:generateDebugRFile UP-TO-DATE
+> Task :jubako-recyclerviews:compileDebugKotlin UP-TO-DATE
+> Task :jubako-recyclerviews:prepareLintJar UP-TO-DATE
+> Task :jubako-recyclerviews:generateDebugSources UP-TO-DATE
+> Task :jubako-recyclerviews:javaPreCompileDebug UP-TO-DATE
+> Task :jubako-recyclerviews:compileDebugJavaWithJavac UP-TO-DATE
+> Task :jubako-recyclerviews:bundleLibCompileDebug
+> Task :jubako-sample:preBuild UP-TO-DATE
+> Task :jubako-recyclerviews:packageDebugRenderscript NO-SOURCE
 > Task :jubako-sample:preDebugBuild
 > Task :jubako-sample:compileDebugAidl NO-SOURCE
 > Task :jubako-sample:compileDebugRenderscript NO-SOURCE
@@ -86,18 +241,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/
 > Task :jubako-sample:createDebugCompatibleScreenManifests
 > Task :jubako-sample:processDebugManifest
 > Task :jubako-sample:processDebugResources
-
 > Task :jubako-sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/src/main/java/com/sample/jubako/MoviesActivity.kt: (113, 29): Unsafe use of a nullable receiver of type Array<String!>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/src/main/java/com/sample/jubako/MoviesActivity.kt: (114, 29): Unsafe use of a nullable receiver of type Array<String!>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/src/main/java/com/sample/jubako/MoviesActivity.kt: (115, 29): Unsafe use of a nullable receiver of type Array<String!>?
-
+> Task :jubako-sample:prepareLintJar
 > Task :jubako-sample:generateDebugSources
 > Task :jubako-sample:javaPreCompileDebug
 > Task :jubako-sample:compileDebugJavaWithJavac
 > Task :jubako-sample:compileDebugSources
+> Task :jubako:mergeDebugShaders
+> Task :jubako:compileDebugShaders
 > Task :jubako:generateDebugAssets
 > Task :jubako:packageDebugAssets
+> Task :jubako-recyclerviews:mergeDebugShaders UP-TO-DATE
+> Task :jubako-recyclerviews:compileDebugShaders UP-TO-DATE
+> Task :jubako-recyclerviews:generateDebugAssets UP-TO-DATE
+> Task :jubako-recyclerviews:packageDebugAssets UP-TO-DATE
 > Task :jubako-sample:mergeDebugShaders
 > Task :jubako-sample:compileDebugShaders
 > Task :jubako-sample:generateDebugAssets
@@ -107,15 +264,23 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/
 > Task :jubako:bundleLibResDebug
 > Task :jubako:bundleLibRuntimeDebug
 > Task :jubako:createFullJarDebug
+> Task :jubako-recyclerviews:processDebugJavaRes NO-SOURCE
+> Task :jubako-recyclerviews:bundleLibResDebug
+> Task :jubako-recyclerviews:bundleLibRuntimeDebug
+> Task :jubako-recyclerviews:createFullJarDebug
 > Task :jubako-sample:transformClassesWithDexBuilderForDebug
 > Task :jubako-sample:mergeProjectDexDebug
-> Task :jubako-sample:mergeLibDexDebug
 > Task :jubako-sample:validateSigningDebug
 > Task :jubako-sample:signingConfigWriterDebug
 > Task :jubako:mergeDebugJniLibFolders
 > Task :jubako:transformNativeLibsWithMergeJniLibsForDebug
 > Task :jubako:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :jubako:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :jubako-recyclerviews:mergeDebugJniLibFolders UP-TO-DATE
+> Task :jubako-recyclerviews:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :jubako-recyclerviews:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :jubako-recyclerviews:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :jubako-sample:mergeLibDexDebug
 > Task :jubako-sample:mergeDebugJniLibFolders
 > Task :jubako-sample:transformNativeLibsWithMergeJniLibsForDebug
 > Task :jubako-sample:transformNativeLibsWithStripDebugSymbolForDebug
@@ -124,40 +289,37 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/
 > Task :jubako:preReleaseBuild UP-TO-DATE
 > Task :jubako:compileReleaseAidl NO-SOURCE
 > Task :jubako:compileReleaseRenderscript NO-SOURCE
-> Task :jubako:checkReleaseManifest
-> Task :jubako:generateReleaseBuildConfig
-> Task :jubako:generateReleaseResValues
-> Task :jubako:generateReleaseResources
-> Task :jubako:packageReleaseResources
-> Task :jubako:processReleaseManifest
-> Task :jubako:generateReleaseRFile
-
-> Task :jubako:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/ContentDescriptionCollection.kt: (16, 36): Unchecked cast: ContentDescription<*> to ContentDescription<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/Jubako.kt: (151, 53): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (49, 52): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (83, 50): Unchecked cast: LiveData<Jubako.State> to LiveData<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (88, 60): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (164, 55): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/PaginatedContentLoadingStrategy.kt: (258, 64): Unchecked cast: List<ContentDescription<*>> to List<ContentDescription<Any>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/SimpleJubakoAssembler.kt: (22, 22): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (27, 18): Unchecked cast: ContentDescriptionProvider<*> to ContentDescriptionProvider<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoAssembleExtensions.kt: (31, 51): Unchecked cast: ContentDescriptionProvider<T> to ContentDescriptionProvider<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoRecyclerViewContent.kt: (94, 85): Name shadowed: data
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoRecyclerViewContent.kt: (97, 65): Name shadowed: data
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoRecyclerViewContent.kt: (221, 35): Unchecked cast: Any? to ITEM_DATA
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako/src/main/java/com/justeat/jubako/extensions/JubakoViewContent.kt: (68, 54): Unchecked cast: View to VIEW
-
-> Task :jubako-sample:mergeExtDexDebug
-> Task :jubako-sample:packageDebug
-> Task :jubako-sample:assembleDebug
-> Task :jubako:generateReleaseSources
-> Task :jubako:javaPreCompileRelease
-> Task :jubako:compileReleaseJavaWithJavac
-> Task :jubako:bundleLibCompileRelease
+> Task :jubako:checkReleaseManifest UP-TO-DATE
+> Task :jubako:generateReleaseBuildConfig UP-TO-DATE
+> Task :jubako:generateReleaseResValues UP-TO-DATE
+> Task :jubako:generateReleaseResources UP-TO-DATE
+> Task :jubako:packageReleaseResources UP-TO-DATE
+> Task :jubako:processReleaseManifest UP-TO-DATE
+> Task :jubako:generateReleaseRFile UP-TO-DATE
+> Task :jubako:compileReleaseKotlin UP-TO-DATE
+> Task :jubako:generateReleaseSources UP-TO-DATE
+> Task :jubako:javaPreCompileRelease UP-TO-DATE
+> Task :jubako:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :jubako:bundleLibCompileRelease UP-TO-DATE
+> Task :jubako-recyclerviews:preReleaseBuild UP-TO-DATE
+> Task :jubako-recyclerviews:compileReleaseAidl NO-SOURCE
+> Task :jubako:packageReleaseRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:compileReleaseRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:checkReleaseManifest UP-TO-DATE
+> Task :jubako-recyclerviews:generateReleaseBuildConfig UP-TO-DATE
+> Task :jubako-recyclerviews:generateReleaseResValues UP-TO-DATE
+> Task :jubako-recyclerviews:generateReleaseResources UP-TO-DATE
+> Task :jubako-recyclerviews:packageReleaseResources UP-TO-DATE
+> Task :jubako-recyclerviews:processReleaseManifest UP-TO-DATE
+> Task :jubako-recyclerviews:generateReleaseRFile UP-TO-DATE
+> Task :jubako-recyclerviews:compileReleaseKotlin UP-TO-DATE
+> Task :jubako-recyclerviews:generateReleaseSources UP-TO-DATE
+> Task :jubako-recyclerviews:javaPreCompileRelease UP-TO-DATE
+> Task :jubako-recyclerviews:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :jubako-recyclerviews:bundleLibCompileRelease
 > Task :jubako-sample:preReleaseBuild
 > Task :jubako-sample:compileReleaseAidl NO-SOURCE
-> Task :jubako:packageReleaseRenderscript NO-SOURCE
+> Task :jubako-recyclerviews:packageReleaseRenderscript NO-SOURCE
 > Task :jubako-sample:compileReleaseRenderscript NO-SOURCE
 > Task :jubako-sample:checkReleaseManifest
 > Task :jubako-sample:generateReleaseBuildConfig
@@ -168,32 +330,40 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/
 > Task :jubako-sample:createReleaseCompatibleScreenManifests
 > Task :jubako-sample:processReleaseManifest
 > Task :jubako-sample:processReleaseResources
-
 > Task :jubako-sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/src/main/java/com/sample/jubako/MoviesActivity.kt: (113, 29): Unsafe use of a nullable receiver of type Array<String!>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/src/main/java/com/sample/jubako/MoviesActivity.kt: (114, 29): Unsafe use of a nullable receiver of type Array<String!>?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/src/main/java/com/sample/jubako/MoviesActivity.kt: (115, 29): Unsafe use of a nullable receiver of type Array<String!>?
-
+> Task :jubako-sample:mergeExtDexDebug
+> Task :jubako-sample:packageDebug
+> Task :jubako-sample:assembleDebug
 > Task :jubako-sample:generateReleaseSources
 > Task :jubako-sample:javaPreCompileRelease
 > Task :jubako-sample:compileReleaseJavaWithJavac
 > Task :jubako-sample:compileReleaseSources
 > Task :jubako:prepareLintJarForPublish
+> Task :jubako-recyclerviews:prepareLintJarForPublish UP-TO-DATE
 
 > Task :jubako-sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6a27181d069b3a66042b9f3efb5a6b84/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7b1ed17d594da2646b23bcf61e36d1f9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5f84469db000918d407eeb99a4a5f145/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :jubako:processReleaseJavaRes NO-SOURCE
 > Task :jubako:bundleLibResRelease
 > Task :jubako:bundleLibRuntimeRelease
 > Task :jubako:createFullJarRelease
+> Task :jubako-recyclerviews:processReleaseJavaRes NO-SOURCE
+> Task :jubako-recyclerviews:bundleLibResRelease
+> Task :jubako-recyclerviews:bundleLibRuntimeRelease
+> Task :jubako-recyclerviews:createFullJarRelease
 > Task :jubako-sample:checkReleaseDuplicateClasses
 > Task :jubako-sample:transformClassesWithDexBuilderForRelease
 > Task :jubako:mergeReleaseShaders
 > Task :jubako:compileReleaseShaders
 > Task :jubako:generateReleaseAssets
 > Task :jubako:packageReleaseAssets
+> Task :jubako-recyclerviews:mergeReleaseShaders UP-TO-DATE
+> Task :jubako-recyclerviews:compileReleaseShaders UP-TO-DATE
+> Task :jubako-recyclerviews:generateReleaseAssets UP-TO-DATE
+> Task :jubako-recyclerviews:packageReleaseAssets UP-TO-DATE
 > Task :jubako-sample:mergeReleaseShaders
 > Task :jubako-sample:compileReleaseShaders
 > Task :jubako-sample:generateReleaseAssets
@@ -203,6 +373,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :jubako:transformNativeLibsWithMergeJniLibsForRelease
 > Task :jubako:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :jubako:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :jubako-recyclerviews:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :jubako-recyclerviews:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :jubako-recyclerviews:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :jubako-recyclerviews:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :jubako-sample:mergeReleaseJniLibFolders
 > Task :jubako-sample:transformNativeLibsWithMergeJniLibsForRelease
 > Task :jubako-sample:transformNativeLibsWithStripDebugSymbolForRelease
@@ -219,7 +393,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 30s
-96 actionable tasks: 96 executed
+BUILD SUCCESSFUL in 1m 6s
+138 actionable tasks: 85 executed, 53 up-to-date
 
-2020-01-04 20:26:35,945 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578144284922-0/src/jubako-master/jubako-sample/build/outputs/apk/release/jubako-sample-release-unsigned.apk
+2020-03-13 14:20:56,712 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083937081-0/src/jubako-master/jubako-sample/build/outputs/apk/release/jubako-sample-release-unsigned.apk

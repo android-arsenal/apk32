@@ -1,123 +1,214 @@
-2020-01-28 10:57:45,645 INFO  DownloadService - Downloading "https://github.com/fartem/crypto-tracker/archive/master.zip", attempt 3
-2020-01-28 10:57:48,708 INFO  DownloadService - Downloaded https://github.com/fartem/crypto-tracker/archive/master.zip, attempt 3
-2020-01-28 10:57:48,708 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/master.zip": 1 MB
-2020-01-28 10:57:48,708 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-28 10:57:48,710 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/master.zip: true
-2020-01-28 10:57:48,711 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src'.
-2020-01-28 10:57:48,753 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-01-28 10:57:48,753 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src]
-2020-01-28 10:57:48,780 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/.git/
+2020-03-13 14:16:49,587 INFO  DownloadService - Downloading "https://github.com/fartem/crypto-tracker/archive/master.zip", attempt 3
+2020-03-13 14:16:50,362 INFO  DownloadService - Downloaded https://github.com/fartem/crypto-tracker/archive/master.zip, attempt 3
+2020-03-13 14:16:50,363 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/master.zip": 1 MB
+2020-03-13 14:16:50,363 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-13 14:16:50,363 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/master.zip: true
+2020-03-13 14:16:50,363 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src'.
+2020-03-13 14:16:50,412 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-13 14:16:50,413 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src]
+2020-03-13 14:16:50,434 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/.git/
 
-2020-01-28 10:57:48,786 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/gradlew
-2020-01-28 10:57:48,790 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/build.gradle
-2020-01-28 10:57:48,794 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/settings.gradle
-2020-01-28 10:57:48,794 INFO  ProjectBuildService - Remote scripts: none
-2020-01-28 10:57:48,794 INFO  ProjectFixService - Fixing project...
-2020-01-28 10:57:48,803 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/local.properties
-2020-01-28 10:57:48,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-28 10:57:48,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/local.properties
-2020-01-28 10:57:48,804 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-28 10:57:48,805 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-28 10:57:48,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-28 10:57:48,806 INFO  ProjectFixService - Project was maybe fixed
-2020-01-28 10:57:48,806 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-28 10:57:48,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-28 10:57:57,672 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-01-28 10:57:57,672 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-28 10:57:57,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-28 10:58:08,960 INFO  VirusProcessorServiceImpl - Queued project 8032 to scan viruses
-2020-01-28 10:58:52,132 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-13 14:16:50,440 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/gradlew
+2020-03-13 14:16:50,446 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/build.gradle
+2020-03-13 14:16:50,452 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/settings.gradle
+2020-03-13 14:16:50,455 INFO  ProjectBuildService - Remote scripts: none
+2020-03-13 14:16:50,455 INFO  ProjectFixService - Fixing project...
+2020-03-13 14:16:50,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/local.properties
+2020-03-13 14:16:50,469 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:16:50,469 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/local.properties
+2020-03-13 14:16:50,470 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-13 14:16:50,470 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-13 14:16:50,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-13 14:16:50,472 INFO  ProjectFixService - Project was maybe fixed
+2020-03-13 14:16:50,472 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-13 14:16:50,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-13 14:17:00,257 INFO  VirusProcessorServiceImpl - Queued project 7977 to scan viruses
+2020-03-13 14:17:07,970 INFO  ProjectTaskService - Detected possible tasks: 107
+2020-03-13 14:17:07,970 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2020-03-13 14:17:07,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2020-03-13 14:18:55,656 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
+> Task :app:preCoinmarketcupDebugBuild UP-TO-DATE
+> Task :app:compileCoinmarketcupDebugAidl NO-SOURCE
+> Task :app:generateCoinmarketcupDebugBuildConfig
+> Task :app:compileCoinmarketcupDebugRenderscript NO-SOURCE
+> Task :app:mainApkListPersistenceCoinmarketcupDebug
+> Task :app:generateCoinmarketcupDebugResValues
+> Task :app:generateCoinmarketcupDebugResources
+> Task :app:createCoinmarketcupDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksCoinmarketcupDebug
+> Task :app:processCoinmarketcupDebugManifest
+> Task :app:mergeCoinmarketcupDebugResources
+> Task :app:processCoinmarketcupDebugResources
+> Task :app:kaptGenerateStubsCoinmarketcupDebugKotlin
+> Task :app:kaptCoinmarketcupDebugKotlin
 
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (4, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 9): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 27): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 16): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 34): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+> Task :app:compileCoinmarketcupDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (4, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 9): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 27): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 16): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 34): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
 
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeLibDexDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :app:preReleaseBuild UP-TO-DATE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:mergeDebugJavaResource
-> Task :app:mergeProjectDexDebug
+> Task :app:javaPreCompileCoinmarketcupDebug
+> Task :app:compileCoinmarketcupDebugJavaWithJavac
+> Task :app:compileCoinmarketcupDebugSources
+> Task :app:mergeCoinmarketcupDebugShaders
+> Task :app:compileCoinmarketcupDebugShaders
+> Task :app:generateCoinmarketcupDebugAssets
+> Task :app:mergeCoinmarketcupDebugAssets
+> Task :app:processCoinmarketcupDebugJavaRes NO-SOURCE
+> Task :app:mergeCoinmarketcupDebugJavaResource
+> Task :app:checkCoinmarketcupDebugDuplicateClasses
+> Task :app:mergeLibDexCoinmarketcupDebug
+> Task :app:mergeCoinmarketcupDebugJniLibFolders
+> Task :app:validateSigningCoinmarketcupDebug
+> Task :app:preCoinmarketcupReleaseBuild UP-TO-DATE
+> Task :app:compileCoinmarketcupReleaseAidl NO-SOURCE
+> Task :app:compileCoinmarketcupReleaseRenderscript NO-SOURCE
+> Task :app:generateCoinmarketcupReleaseBuildConfig
+> Task :app:mainApkListPersistenceCoinmarketcupRelease
+> Task :app:generateCoinmarketcupReleaseResValues
+> Task :app:generateCoinmarketcupReleaseResources
+> Task :app:createCoinmarketcupReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksCoinmarketcupRelease
+> Task :app:processCoinmarketcupReleaseManifest
+> Task :app:jacocoCoinmarketcupDebug
+> Task :app:dexBuilderCoinmarketcupDebug
+> Task :app:mergeCoinmarketcupReleaseResources
+> Task :app:processCoinmarketcupReleaseResources
+> Task :app:kaptGenerateStubsCoinmarketcupReleaseKotlin
+> Task :app:kaptCoinmarketcupReleaseKotlin
+
+> Task :app:compileCoinmarketcupReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (4, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 9): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 27): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 16): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 34): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+
+> Task :app:mergeExtDexCoinmarketcupDebug
+> Task :app:mergeProjectDexCoinmarketcupDebug
+> Task :app:mergeCoinmarketcupDebugNativeLibs
+> Task :app:stripCoinmarketcupDebugDebugSymbols
+> Task :app:packageCoinmarketcupDebug
+> Task :app:assembleCoinmarketcupDebug
+> Task :app:javaPreCompileCoinmarketcupRelease
+> Task :app:compileCoinmarketcupReleaseJavaWithJavac
+> Task :app:compileCoinmarketcupReleaseSources
 > Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
+> Task :app:lintVitalCoinmarketcupRelease
+> Task :app:mergeCoinmarketcupReleaseShaders
+> Task :app:compileCoinmarketcupReleaseShaders
+> Task :app:generateCoinmarketcupReleaseAssets
+> Task :app:mergeCoinmarketcupReleaseAssets
+> Task :app:processCoinmarketcupReleaseJavaRes NO-SOURCE
+> Task :app:checkCoinmarketcupReleaseDuplicateClasses
+> Task :app:dexBuilderCoinmarketcupRelease
+> Task :app:mergeCoinmarketcupReleaseJavaResource
+> Task :app:mergeCoinmarketcupReleaseJniLibFolders
+> Task :app:preDebugImplDebugBuild UP-TO-DATE
+> Task :app:compileDebugImplDebugAidl NO-SOURCE
+> Task :app:compileDebugImplDebugRenderscript NO-SOURCE
+> Task :app:generateDebugImplDebugBuildConfig
+> Task :app:mainApkListPersistenceDebugImplDebug
+> Task :app:generateDebugImplDebugResValues
+> Task :app:generateDebugImplDebugResources
+> Task :app:mergeCoinmarketcupReleaseNativeLibs
+> Task :app:stripCoinmarketcupReleaseDebugSymbols
+> Task :app:createDebugImplDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebugImplDebug
+> Task :app:processDebugImplDebugManifest
+> Task :app:mergeDebugImplDebugShaders
+> Task :app:compileDebugImplDebugShaders
+> Task :app:generateDebugImplDebugAssets
+> Task :app:mergeDebugImplDebugAssets
+> Task :app:processDebugImplDebugJavaRes NO-SOURCE
+> Task :app:checkDebugImplDebugDuplicateClasses
+> Task :app:mergeDebugImplDebugResources
+> Task :app:processDebugImplDebugResources
+> Task :app:kaptGenerateStubsDebugImplDebugKotlin
+> Task :app:kaptDebugImplDebugKotlin
 
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (4, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 9): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 27): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 16): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 34): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+> Task :app:compileDebugImplDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (4, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 9): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 27): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 16): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 34): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
 
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
+> Task :app:javaPreCompileDebugImplDebug
+> Task :app:compileDebugImplDebugJavaWithJavac
+> Task :app:compileDebugImplDebugSources
+> Task :app:mergeDebugImplDebugJniLibFolders
+> Task :app:mergeExtDexDebugImplDebug
+> Task :app:validateSigningDebugImplDebug
+> Task :app:preDebugImplReleaseBuild UP-TO-DATE
+> Task :app:compileDebugImplReleaseAidl NO-SOURCE
+> Task :app:compileDebugImplReleaseRenderscript NO-SOURCE
+> Task :app:generateDebugImplReleaseBuildConfig
+> Task :app:mainApkListPersistenceDebugImplRelease
+> Task :app:generateDebugImplReleaseResValues
+> Task :app:generateDebugImplReleaseResources
+> Task :app:createDebugImplReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksDebugImplRelease
+> Task :app:processDebugImplReleaseManifest
+> Task :app:mergeDebugImplReleaseShaders
+> Task :app:compileDebugImplReleaseShaders
+> Task :app:generateDebugImplReleaseAssets
+> Task :app:mergeDebugImplReleaseAssets
+> Task :app:processDebugImplReleaseJavaRes NO-SOURCE
+> Task :app:checkDebugImplReleaseDuplicateClasses
+> Task :app:jacocoDebugImplDebug
+> Task :app:dexBuilderDebugImplDebug
+> Task :app:mergeLibDexDebugImplDebug
+> Task :app:mergeDebugImplReleaseJniLibFolders
+> Task :app:mergeDebugImplReleaseResources
+> Task :app:processDebugImplReleaseResources
+> Task :app:kaptGenerateStubsDebugImplReleaseKotlin
+> Task :app:kaptDebugImplReleaseKotlin
+
+> Task :app:compileDebugImplReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (4, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 9): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (34, 27): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 16): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/src/main/java/com/smlnskgmail/jaman/cryptotracker/components/preferences/PreferencesManager.kt: (47, 34): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+
+> Task :app:mergeProjectDexDebugImplDebug
+> Task :app:mergeDebugImplReleaseNativeLibs
+> Task :app:stripDebugImplReleaseDebugSymbols
+> Task :app:mergeDebugImplDebugNativeLibs
+> Task :app:stripDebugImplDebugDebugSymbols
+> Task :app:mergeExtDexDebugImplRelease
+> Task :app:mergeExtDexCoinmarketcupRelease
+> Task :app:javaPreCompileDebugImplRelease
+> Task :app:compileDebugImplReleaseJavaWithJavac
+> Task :app:compileDebugImplReleaseSources
+> Task :app:lintVitalDebugImplRelease
+> Task :app:dexBuilderDebugImplRelease
+> Task :app:mergeDexCoinmarketcupRelease
+> Task :app:packageCoinmarketcupRelease
+> Task :app:assembleCoinmarketcupRelease
+> Task :app:assembleCoinmarketcup
+> Task :app:mergeDebugImplDebugJavaResource
+> Task :app:packageDebugImplDebug
+> Task :app:assembleDebugImplDebug
 > Task :app:assembleDebug
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDexRelease
-> Task :app:packageRelease
+> Task :app:mergeDebugImplReleaseJavaResource
+> Task :app:mergeDexDebugImplRelease
+> Task :app:packageDebugImplRelease
+> Task :app:assembleDebugImplRelease
+> Task :app:assembleDebugImpl
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 53s
-52 actionable tasks: 52 executed
+BUILD SUCCESSFUL in 1m 46s
+109 actionable tasks: 109 executed
 
-2020-01-28 10:58:52,220 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1580183865641-0/src/crypto-tracker-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-13 14:18:55,870 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584083809578-0/src/crypto-tracker-master/app/build/outputs/apk/debugImpl/release/app-debugImpl-release-unsigned.apk
