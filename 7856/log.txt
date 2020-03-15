@@ -1,50 +1,41 @@
-2020-01-24 14:43:06,137 INFO  DownloadService - Downloading "https://github.com/IslamKhSh/CardSlider/archive/master.zip", attempt 3
-2020-01-24 14:43:08,932 INFO  DownloadService - Downloaded https://github.com/IslamKhSh/CardSlider/archive/master.zip, attempt 3
-2020-01-24 14:43:08,932 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/master.zip": 5 MB
-2020-01-24 14:43:08,932 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-24 14:43:08,938 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/master.zip: true
-2020-01-24 14:43:08,939 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src'.
-2020-01-24 14:43:08,984 INFO  FullProcessService - Size of directory with sources: 5 MB
-2020-01-24 14:43:08,984 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src]
-2020-01-24 14:43:09,011 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/.git/
+2020-03-15 19:41:53,705 INFO  DownloadService - Downloading "https://github.com/IslamKhSh/CardSlider/archive/master.zip", attempt 3
+2020-03-15 19:41:59,506 INFO  DownloadService - Downloaded https://github.com/IslamKhSh/CardSlider/archive/master.zip, attempt 3
+2020-03-15 19:41:59,507 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/master.zip": 5 MB
+2020-03-15 19:41:59,507 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-15 19:41:59,508 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/master.zip: true
+2020-03-15 19:41:59,509 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src'.
+2020-03-15 19:41:59,586 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-03-15 19:41:59,587 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src]
+2020-03-15 19:41:59,640 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/.git/
 
-2020-01-24 14:43:09,013 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/gradlew
-2020-01-24 14:43:09,015 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/cardslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/build.gradle
-2020-01-24 14:43:09,017 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/cardslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/settings.gradle
-2020-01-24 14:43:09,017 INFO  ProjectBuildService - Remote scripts: none
-2020-01-24 14:43:09,017 INFO  ProjectFixService - Fixing project...
-2020-01-24 14:43:09,022 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/cardslider/local.properties
-2020-01-24 14:43:09,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/cardslider/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-24 14:43:09,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/sample/local.properties
-2020-01-24 14:43:09,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-24 14:43:09,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/local.properties
-2020-01-24 14:43:09,024 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-24 14:43:09,025 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-24 14:43:09,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2020-01-24 14:43:09,026 INFO  ProjectFixService - Project was maybe fixed
-2020-01-24 14:43:09,026 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-24 14:43:09,026 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/cardslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-24 14:43:15,341 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-01-24 14:43:15,342 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-01-24 14:43:15,342 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/cardslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-01-24 14:43:20,321 INFO  VirusProcessorServiceImpl - Queued project 7904 to scan viruses
-2020-01-24 14:43:43,593 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-15 19:41:59,645 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/gradlew
+2020-03-15 19:41:59,652 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/cardslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/build.gradle
+2020-03-15 19:41:59,657 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/cardslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/settings.gradle
+2020-03-15 19:41:59,658 INFO  ProjectBuildService - Remote scripts: none
+2020-03-15 19:41:59,658 INFO  ProjectFixService - Fixing project...
+2020-03-15 19:41:59,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/cardslider/local.properties
+2020-03-15 19:41:59,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/cardslider/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-15 19:41:59,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/sample/local.properties
+2020-03-15 19:41:59,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-15 19:41:59,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/local.properties
+2020-03-15 19:41:59,676 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-15 19:41:59,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-15 19:41:59,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-03-15 19:41:59,678 INFO  ProjectFixService - Project was maybe fixed
+2020-03-15 19:41:59,678 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:41:59,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/cardslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:42:07,073 INFO  VirusProcessorServiceImpl - Queued project 7875 to scan viruses
+2020-03-15 19:42:16,641 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-15 19:42:16,642 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-15 19:42:16,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/cardslider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-15 19:43:33,215 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :cardslider:preBuild UP-TO-DATE
 > Task :cardslider:preDebugBuild UP-TO-DATE
-> Task :cardslider:compileDebugAidl NO-SOURCE
 > Task :cardslider:checkDebugManifest
-> Task :cardslider:compileDebugRenderscript NO-SOURCE
 > Task :cardslider:generateDebugBuildConfig
 > Task :cardslider:prepareLintJar
 > Task :cardslider:prepareLintJarForPublish
-> Task :cardslider:generateDebugSources
-> Task :cardslider:dataBindingExportBuildInfoDebug
 > Task :cardslider:generateDebugResValues
-> Task :cardslider:generateDebugResources
-> Task :cardslider:packageDebugResources
-> Task :cardslider:dataBindingMergeDependencyArtifactsDebug
-> Task :cardslider:dataBindingMergeGenClassesDebug
-> Task :cardslider:dataBindingGenBaseClassesDebug
 > Task :cardslider:mergeDebugShaders
 > Task :cardslider:compileDebugShaders
 > Task :cardslider:generateDebugAssets
@@ -53,20 +44,10 @@
 > Task :cardslider:processDebugJavaRes NO-SOURCE
 > Task :cardslider:mergeDebugJniLibFolders
 > Task :cardslider:preReleaseBuild UP-TO-DATE
-> Task :cardslider:compileReleaseAidl NO-SOURCE
-> Task :cardslider:compileReleaseRenderscript NO-SOURCE
 > Task :cardslider:checkReleaseManifest
 > Task :cardslider:generateReleaseBuildConfig
-> Task :cardslider:generateReleaseSources
-> Task :cardslider:dataBindingExportBuildInfoRelease
-> Task :cardslider:parseDebugLibraryResources
 > Task :cardslider:generateReleaseResValues
-> Task :cardslider:generateReleaseResources
-> Task :cardslider:packageReleaseResources
-> Task :cardslider:mergeDebugNativeLibs
-> Task :cardslider:stripDebugDebugSymbols
-> Task :cardslider:transformNativeLibsWithSyncJniLibsForDebug
-> Task :cardslider:dataBindingMergeGenClassesRelease
+> Task :cardslider:processDebugManifest
 > Task :cardslider:mergeReleaseShaders
 > Task :cardslider:compileReleaseShaders
 > Task :cardslider:generateReleaseAssets
@@ -75,39 +56,58 @@
 > Task :cardslider:processReleaseJavaRes NO-SOURCE
 > Task :cardslider:mergeReleaseJniLibFolders
 > Task :cardslider:processReleaseManifest
+> Task :cardslider:mergeDebugNativeLibs
+> Task :cardslider:stripDebugDebugSymbols
+> Task :cardslider:transformNativeLibsWithSyncJniLibsForDebug
 > Task :cardslider:mergeReleaseNativeLibs
 > Task :cardslider:stripReleaseDebugSymbols
 > Task :cardslider:transformNativeLibsWithSyncJniLibsForRelease
+> Task :cardslider:compileDebugAidl NO-SOURCE
+> Task :cardslider:compileDebugRenderscript NO-SOURCE
+> Task :cardslider:generateDebugSources
+> Task :cardslider:dataBindingExportBuildInfoDebug
+> Task :cardslider:generateDebugResources
+> Task :cardslider:packageDebugResources
+> Task :cardslider:dataBindingMergeGenClassesDebug
+> Task :cardslider:compileReleaseAidl NO-SOURCE
+> Task :cardslider:compileReleaseRenderscript NO-SOURCE
+> Task :cardslider:generateReleaseSources
+> Task :cardslider:dataBindingExportBuildInfoRelease
+> Task :cardslider:generateReleaseResources
+> Task :cardslider:packageReleaseResources
+> Task :cardslider:mergeReleaseResources
 > Task :cardslider:parseReleaseLibraryResources
-> Task :cardslider:processDebugManifest
+> Task :cardslider:dataBindingMergeGenClassesRelease
 > Task :cardslider:dataBindingMergeDependencyArtifactsRelease
 > Task :cardslider:dataBindingGenBaseClassesRelease
-> Task :cardslider:mergeReleaseResources
-> Task :cardslider:generateDebugRFile
-> Task :cardslider:compileDebugKotlin
-> Task :cardslider:verifyReleaseResources
+> Task :cardslider:parseDebugLibraryResources
 > Task :cardslider:generateReleaseRFile
 > Task :cardslider:compileReleaseKotlin
-> Task :cardslider:javaPreCompileDebug
-> Task :cardslider:compileDebugJavaWithJavac
-> Task :cardslider:extractDebugAnnotations
-> Task :cardslider:mergeDebugGeneratedProguardFiles
-> Task :cardslider:mergeDebugConsumerProguardFiles
-> Task :cardslider:compileDebugSources
+> Task :cardslider:generateDebugRFile
+> Task :cardslider:dataBindingMergeDependencyArtifactsDebug
+> Task :cardslider:dataBindingGenBaseClassesDebug
+> Task :cardslider:verifyReleaseResources
+> Task :cardslider:compileDebugKotlin
 > Task :cardslider:javaPreCompileRelease
 > Task :cardslider:compileReleaseJavaWithJavac
 > Task :cardslider:extractReleaseAnnotations
 > Task :cardslider:mergeReleaseGeneratedProguardFiles
 > Task :cardslider:mergeReleaseConsumerProguardFiles
 > Task :cardslider:compileReleaseSources
-> Task :cardslider:mergeDebugJavaResource
-> Task :cardslider:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :cardslider:bundleDebugAar
-> Task :cardslider:assembleDebug
+> Task :cardslider:javaPreCompileDebug
+> Task :cardslider:compileDebugJavaWithJavac
+> Task :cardslider:extractDebugAnnotations
+> Task :cardslider:mergeDebugGeneratedProguardFiles
+> Task :cardslider:mergeDebugConsumerProguardFiles
+> Task :cardslider:compileDebugSources
 > Task :cardslider:mergeReleaseJavaResource
 > Task :cardslider:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :cardslider:bundleReleaseAar
 > Task :cardslider:assembleRelease
+> Task :cardslider:mergeDebugJavaResource
+> Task :cardslider:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :cardslider:bundleDebugAar
+> Task :cardslider:assembleDebug
 > Task :cardslider:assemble
 > Task :cardslider:build
 
@@ -115,15 +115,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 1m 15s
 58 actionable tasks: 58 executed
 
-2020-01-24 14:43:43,632 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-24 14:43:43,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-24 14:43:50,446 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-24 14:43:50,447 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-24 14:43:50,447 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-24 14:44:36,140 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-15 19:43:33,288 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:43:33,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:43:53,015 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-15 19:43:53,015 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-15 19:43:53,016 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-15 19:45:51,324 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :cardslider:preBuild UP-TO-DATE
 > Task :cardslider:preDebugBuild UP-TO-DATE
 > Task :cardslider:compileDebugAidl NO-SOURCE
@@ -153,8 +153,8 @@ BUILD SUCCESSFUL in 27s
 > Task :sample:checkDebugManifest
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
-> Task :sample:mainApkListPersistenceDebug
 > Task :cardslider:bundleLibCompileDebug
+> Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
@@ -162,9 +162,6 @@ BUILD SUCCESSFUL in 27s
 > Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
 > Task :sample:compileDebugKotlin
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
 > Task :cardslider:mergeDebugShaders UP-TO-DATE
 > Task :cardslider:compileDebugShaders UP-TO-DATE
 > Task :cardslider:generateDebugAssets UP-TO-DATE
@@ -173,6 +170,9 @@ BUILD SUCCESSFUL in 27s
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :cardslider:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :cardslider:bundleLibResDebug
@@ -218,18 +218,18 @@ BUILD SUCCESSFUL in 27s
 > Task :sample:generateReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease
-> Task :cardslider:bundleLibRuntimeRelease
 > Task :sample:checkReleaseDuplicateClasses
+> Task :cardslider:bundleLibRuntimeRelease
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :cardslider:mergeReleaseShaders UP-TO-DATE
 > Task :cardslider:compileReleaseShaders UP-TO-DATE
@@ -241,17 +241,17 @@ BUILD SUCCESSFUL in 27s
 > Task :sample:mergeReleaseAssets
 > Task :cardslider:processReleaseJavaRes NO-SOURCE
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :cardslider:bundleLibResRelease
 > Task :sample:signingConfigWriterRelease
 > Task :cardslider:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :cardslider:mergeReleaseNativeLibs UP-TO-DATE
 > Task :cardslider:stripReleaseDebugSymbols UP-TO-DATE
 > Task :cardslider:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
+> Task :cardslider:bundleLibResRelease
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexDebug
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
@@ -266,7 +266,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 44s
+BUILD SUCCESSFUL in 1m 57s
 101 actionable tasks: 59 executed, 42 up-to-date
 
-2020-01-24 14:44:36,219 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851786134-0/src/CardSlider-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-15 19:45:51,569 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276113699-0/src/CardSlider-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

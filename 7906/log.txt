@@ -1,131 +1,210 @@
-2020-01-24 14:40:18,304 INFO  DownloadService - Downloading "https://github.com/fartem/parse-android-test-app/archive/master.zip", attempt 3
-2020-01-24 14:40:20,536 INFO  DownloadService - Downloaded https://github.com/fartem/parse-android-test-app/archive/master.zip, attempt 3
-2020-01-24 14:40:20,536 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/master.zip": 1 MB
-2020-01-24 14:40:20,536 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-24 14:40:20,537 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/master.zip: true
-2020-01-24 14:40:20,537 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src'.
-2020-01-24 14:40:20,576 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-01-24 14:40:20,576 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src]
-2020-01-24 14:40:20,601 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/.git/
+2020-03-15 19:24:08,061 INFO  DownloadService - Downloading "https://github.com/fartem/parse-android-test-app/archive/master.zip", attempt 3
+2020-03-15 19:24:11,979 INFO  DownloadService - Downloaded https://github.com/fartem/parse-android-test-app/archive/master.zip, attempt 3
+2020-03-15 19:24:11,979 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/master.zip": 1 MB
+2020-03-15 19:24:11,979 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-15 19:24:11,980 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/master.zip: true
+2020-03-15 19:24:11,980 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src'.
+2020-03-15 19:24:12,062 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-15 19:24:12,063 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src]
+2020-03-15 19:24:12,119 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/.git/
 
-2020-01-24 14:40:20,604 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/gradlew
-2020-01-24 14:40:20,608 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/build.gradle
-2020-01-24 14:40:20,612 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/settings.gradle
-2020-01-24 14:40:20,612 INFO  ProjectBuildService - Remote scripts: none
-2020-01-24 14:40:20,612 INFO  ProjectFixService - Fixing project...
-2020-01-24 14:40:20,621 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/local.properties
-2020-01-24 14:40:20,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-24 14:40:20,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/local.properties
-2020-01-24 14:40:20,623 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-24 14:40:20,623 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-24 14:40:20,624 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-24 14:40:20,624 INFO  ProjectFixService - Project was maybe fixed
-2020-01-24 14:40:20,625 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-24 14:40:20,625 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-24 14:40:31,917 INFO  VirusProcessorServiceImpl - Queued project 7929 to scan viruses
-2020-01-24 14:40:33,303 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-01-24 14:40:33,303 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-24 14:40:33,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-24 14:41:57,993 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-15 19:24:12,129 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/gradlew
+2020-03-15 19:24:12,140 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/build.gradle
+2020-03-15 19:24:12,150 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/settings.gradle
+2020-03-15 19:24:12,151 INFO  ProjectBuildService - Remote scripts: none
+2020-03-15 19:24:12,151 INFO  ProjectFixService - Fixing project...
+2020-03-15 19:24:12,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/local.properties
+2020-03-15 19:24:12,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-15 19:24:12,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/local.properties
+2020-03-15 19:24:12,180 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-15 19:24:12,181 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-15 19:24:12,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-15 19:24:12,186 INFO  ProjectFixService - Project was maybe fixed
+2020-03-15 19:24:12,186 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:24:12,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:24:37,387 INFO  ProjectTaskService - Detected possible tasks: 108
+2020-03-15 19:24:37,387 INFO  ProjectTaskService - Excluded tasks (9): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll checkstyle test check connectedAndroidTest
+2020-03-15 19:24:37,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, connectedAndroidTest, build]
+2020-03-15 19:24:54,656 INFO  VirusProcessorServiceImpl - Queued project 7922 to scan viruses
+2020-03-15 19:28:09,439 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
-> Task :app:preDebugBuild UP-TO-DATE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :app:processDebugResources
-> Task :app:kaptGenerateStubsDebugKotlin
-> Task :app:kaptDebugKotlin
+> Task :app:preFakeDebugBuild UP-TO-DATE
+> Task :app:compileFakeDebugAidl NO-SOURCE
+> Task :app:generateFakeDebugBuildConfig
+> Task :app:compileFakeDebugRenderscript NO-SOURCE
+> Task :app:mainApkListPersistenceFakeDebug
+> Task :app:generateFakeDebugResValues
+> Task :app:generateFakeDebugResources
+> Task :app:createFakeDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFakeDebug
+> Task :app:processFakeDebugManifest
+> Task :app:mergeFakeDebugResources
+> Task :app:processFakeDebugResources
+> Task :app:kaptGenerateStubsFakeDebugKotlin
+> Task :app:kaptFakeDebugKotlin
+> Task :app:compileFakeDebugKotlin
+> Task :app:javaPreCompileFakeDebug
 
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/sources/parse/ParseAuth.kt: (29, 70): Parameter 'response' is never used, could be renamed to _
-
-> Task :app:javaPreCompileDebug
-
-> Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/sources/ormlite/config/OrmLiteDatabaseConfigurator.java uses or overrides a deprecated API.
+> Task :app:compileFakeDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/sources/ormlite/config/OrmLiteDatabaseConfigurator.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:mergeDebugJavaResource
-> Task :app:checkDebugDuplicateClasses
-> Task :app:mergeLibDexDebug
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :app:preReleaseBuild UP-TO-DATE
-> Task :app:compileReleaseAidl NO-SOURCE
-> Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
-> Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:mergeProjectDexDebug
-> Task :app:stripDebugDebugSymbols
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
-> Task :app:kaptGenerateStubsReleaseKotlin
-> Task :app:kaptReleaseKotlin
+> Task :app:compileFakeDebugSources
+> Task :app:checkFakeDebugDuplicateClasses
+> Task :app:mergeFakeDebugShaders
+> Task :app:compileFakeDebugShaders
+> Task :app:generateFakeDebugAssets
+> Task :app:mergeFakeDebugAssets
+> Task :app:processFakeDebugJavaRes NO-SOURCE
+> Task :app:mergeLibDexFakeDebug
+> Task :app:mergeFakeDebugJniLibFolders
+> Task :app:validateSigningFakeDebug
+> Task :app:preParseDebugBuild UP-TO-DATE
+> Task :app:compileParseDebugAidl NO-SOURCE
+> Task :app:compileParseDebugRenderscript NO-SOURCE
+> Task :app:generateParseDebugBuildConfig
+> Task :app:mainApkListPersistenceParseDebug
+> Task :app:generateParseDebugResValues
+> Task :app:generateParseDebugResources
+> Task :app:createParseDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksParseDebug
+> Task :app:processParseDebugManifest
+> Task :app:checkParseDebugDuplicateClasses
+> Task :app:jacocoFakeDebug
+> Task :app:dexBuilderFakeDebug
+> Task :app:mergeParseDebugResources
+> Task :app:processParseDebugResources
+> Task :app:kaptGenerateStubsParseDebugKotlin
+> Task :app:mergeProjectDexFakeDebug
+> Task :app:mergeParseDebugShaders
+> Task :app:compileParseDebugShaders
+> Task :app:generateParseDebugAssets
+> Task :app:mergeParseDebugAssets
+> Task :app:processParseDebugJavaRes NO-SOURCE
+> Task :app:mergeParseDebugJniLibFolders
+> Task :app:validateSigningParseDebug
+> Task :app:preFakeReleaseBuild UP-TO-DATE
+> Task :app:compileFakeReleaseAidl NO-SOURCE
+> Task :app:compileFakeReleaseRenderscript NO-SOURCE
+> Task :app:generateFakeReleaseBuildConfig
+> Task :app:mainApkListPersistenceFakeRelease
+> Task :app:generateFakeReleaseResValues
+> Task :app:generateFakeReleaseResources
+> Task :app:mergeExtDexParseDebug
+> Task :app:createFakeReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksFakeRelease
+> Task :app:processFakeReleaseManifest
+> Task :app:mergeParseDebugNativeLibs
+> Task :app:stripParseDebugDebugSymbols
+> Task :app:mergeExtDexFakeDebug
+> Task :app:mergeFakeReleaseResources
+> Task :app:processFakeReleaseResources
+> Task :app:kaptGenerateStubsFakeReleaseKotlin
+> Task :app:kaptParseDebugKotlin
+> Task :app:compileParseDebugKotlin
+> Task :app:kaptFakeReleaseKotlin
+> Task :app:mergeFakeDebugNativeLibs
+> Task :app:stripFakeDebugDebugSymbols
+> Task :app:mergeFakeDebugJavaResource
+> Task :app:mergeLibDexParseDebug
+> Task :app:compileFakeReleaseKotlin
+> Task :app:mergeParseDebugJavaResource
+> Task :app:javaPreCompileParseDebug
 
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/sources/parse/ParseAuth.kt: (29, 70): Parameter 'response' is never used, could be renamed to _
-
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:javaPreCompileRelease
-
-> Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/sources/ormlite/config/OrmLiteDatabaseConfigurator.java uses or overrides a deprecated API.
+> Task :app:compileParseDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/sources/ormlite/config/OrmLiteDatabaseConfigurator.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :app:compileReleaseSources
+> Task :app:compileParseDebugSources
+> Task :app:javaPreCompileFakeRelease
+
+> Task :app:compileFakeReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileFakeReleaseSources
+> Task :app:packageFakeDebug
+> Task :app:assembleFakeDebug
+> Task :app:jacocoParseDebug
+> Task :app:dexBuilderParseDebug
 > Task :app:prepareLintJar
-> Task :app:lintVitalRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDexRelease
-> Task :app:packageRelease
+> Task :app:lintVitalFakeRelease
+> Task :app:checkFakeReleaseDuplicateClasses
+> Task :app:dexBuilderFakeRelease
+> Task :app:mergeProjectDexParseDebug
+> Task :app:packageParseDebug
+> Task :app:assembleParseDebug
+> Task :app:assembleDebug
+> Task :app:mergeFakeReleaseShaders
+> Task :app:compileFakeReleaseShaders
+> Task :app:generateFakeReleaseAssets
+> Task :app:mergeFakeReleaseAssets
+> Task :app:processFakeReleaseJavaRes NO-SOURCE
+> Task :app:mergeFakeReleaseJniLibFolders
+> Task :app:preParseReleaseBuild UP-TO-DATE
+> Task :app:compileParseReleaseAidl NO-SOURCE
+> Task :app:compileParseReleaseRenderscript NO-SOURCE
+> Task :app:generateParseReleaseBuildConfig
+> Task :app:mainApkListPersistenceParseRelease
+> Task :app:generateParseReleaseResValues
+> Task :app:generateParseReleaseResources
+> Task :app:createParseReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksParseRelease
+> Task :app:processParseReleaseManifest
+> Task :app:checkParseReleaseDuplicateClasses
+> Task :app:mergeParseReleaseShaders
+> Task :app:compileParseReleaseShaders
+> Task :app:generateParseReleaseAssets
+> Task :app:mergeParseReleaseAssets
+> Task :app:processParseReleaseJavaRes NO-SOURCE
+> Task :app:mergeParseReleaseJniLibFolders
+> Task :app:mergeFakeReleaseJavaResource
+> Task :app:mergeFakeReleaseNativeLibs
+> Task :app:stripFakeReleaseDebugSymbols
+> Task :app:mergeParseReleaseResources
+> Task :app:processParseReleaseResources
+> Task :app:mergeParseReleaseNativeLibs
+> Task :app:kaptGenerateStubsParseReleaseKotlin
+> Task :app:stripParseReleaseDebugSymbols
+> Task :app:mergeExtDexFakeRelease
+> Task :app:kaptParseReleaseKotlin
+> Task :app:compileParseReleaseKotlin
+> Task :app:mergeExtDexParseRelease
+> Task :app:javaPreCompileParseRelease
+
+> Task :app:compileParseReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/src/main/java/com/smlnskgmail/jaman/randomnotes/logic/repository/impl/local/ormlite/config/OrmLiteDatabaseConfigurator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileParseReleaseSources
+> Task :app:lintVitalParseRelease
+> Task :app:dexBuilderParseRelease
+> Task :app:mergeDexFakeRelease
+> Task :app:packageFakeRelease
+> Task :app:assembleFakeRelease
+> Task :app:assembleFake
+> Task :app:mergeDexParseRelease
+> Task :app:mergeParseReleaseJavaResource
+> Task :app:packageParseRelease
+> Task :app:assembleParseRelease
+> Task :app:assembleParse
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 23s
-56 actionable tasks: 56 executed
+BUILD SUCCESSFUL in 3m 31s
+109 actionable tasks: 109 executed
 
-2020-01-24 14:41:58,098 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851618299-0/src/parse-android-test-app-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-15 19:28:09,835 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275048049-0/src/parse-android-test-app-master/app/build/outputs/apk/parse/release/app-parse-release-unsigned.apk

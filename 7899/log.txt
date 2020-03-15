@@ -1,37 +1,38 @@
-2019-12-29 20:18:04,311 INFO  DownloadService - Downloading "https://github.com/ma7madfawzy/dialogPlus/archive/master.zip", attempt 3
-2019-12-29 20:18:30,283 INFO  DownloadService - Downloaded https://github.com/ma7madfawzy/dialogPlus/archive/master.zip, attempt 3
-2019-12-29 20:18:30,284 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/master.zip": 15 MB
-2019-12-29 20:18:30,284 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-29 20:18:30,291 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/master.zip: true
-2019-12-29 20:18:30,291 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src'.
-2019-12-29 20:18:30,468 INFO  FullProcessService - Size of directory with sources: 18 MB
-2019-12-29 20:18:30,468 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src]
-2019-12-29 20:18:30,506 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/.git/
+2020-03-15 19:30:43,666 INFO  DownloadService - Downloading "https://github.com/ma7madfawzy/dialogPlus/archive/master.zip", attempt 3
+2020-03-15 19:30:48,818 INFO  DownloadService - Downloaded https://github.com/ma7madfawzy/dialogPlus/archive/master.zip, attempt 3
+2020-03-15 19:30:48,819 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/master.zip": 15 MB
+2020-03-15 19:30:48,819 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-15 19:30:48,822 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/master.zip: true
+2020-03-15 19:30:48,822 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src'.
+2020-03-15 19:30:49,291 INFO  FullProcessService - Size of directory with sources: 18 MB
+2020-03-15 19:30:49,292 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src]
+2020-03-15 19:30:49,339 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/.git/
 
-2019-12-29 20:18:30,513 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/gradlew
-2019-12-29 20:18:30,520 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/dialogPlus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/build.gradle
-2019-12-29 20:18:30,527 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/dialogPlus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/settings.gradle
-2019-12-29 20:18:30,535 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-12-29 20:18:31,399 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-12-29 20:18:31,399 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-12-29 20:18:31,652 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-12-29 20:18:31,652 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-12-29 20:18:31,653 INFO  ProjectFixService - Fixing project...
-2019-12-29 20:18:31,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/local.properties
-2019-12-29 20:18:31,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-29 20:18:31,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/dialogPlus/local.properties
-2019-12-29 20:18:31,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/dialogPlus/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-29 20:18:31,675 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/local.properties
-2019-12-29 20:18:31,676 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-29 20:18:31,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-29 20:18:31,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-29 20:18:31,678 INFO  ProjectFixService - Project was maybe fixed
-2019-12-29 20:18:31,678 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-29 20:18:31,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-29 20:18:50,954 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-12-29 20:18:50,954 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-29 20:18:50,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-29 20:18:56,282 ERROR SysUtils - Could not process external command
+2020-03-15 19:30:49,358 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/gradlew
+2020-03-15 19:30:49,378 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/dialogPlus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/build.gradle
+2020-03-15 19:30:49,400 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/dialogPlus/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/settings.gradle
+2020-03-15 19:30:49,414 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2020-03-15 19:30:49,885 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2020-03-15 19:30:49,885 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2020-03-15 19:30:50,061 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2020-03-15 19:30:50,061 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2020-03-15 19:30:50,061 INFO  ProjectFixService - Fixing project...
+2020-03-15 19:30:50,102 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/local.properties
+2020-03-15 19:30:50,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-15 19:30:50,104 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/dialogPlus/local.properties
+2020-03-15 19:30:50,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/dialogPlus/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-15 19:30:50,106 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/local.properties
+2020-03-15 19:30:50,107 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-15 19:30:50,107 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-15 19:30:50,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-15 19:30:50,109 INFO  ProjectFixService - Project was maybe fixed
+2020-03-15 19:30:50,110 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:30:50,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:30:59,511 INFO  VirusProcessorServiceImpl - Queued project 7904 to scan viruses
+2020-03-15 19:31:06,940 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-15 19:31:06,941 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-15 19:31:06,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-15 19:31:23,510 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -50,16 +51,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-12-29 20:18:56,282 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-15 19:31:23,510 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -158,11 +159,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 15s
 
-2019-12-29 20:18:56,282 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-12-29 20:18:56,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-12-29 20:19:59,499 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-15 19:31:23,511 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2020-03-15 19:31:23,511 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-15 19:33:55,417 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :dialogPlus:preBuild UP-TO-DATE
@@ -179,8 +180,8 @@ BUILD FAILED in 5s
 > Task :app:dataBindingExportBuildInfoDebug
 > Task :app:dataBindingExportFeaturePackageIdsDebug
 > Task :dialogPlus:checkDebugManifest
-> Task :dialogPlus:generateDebugBuildConfig
 > Task :dialogPlus:compileDebugRenderscript NO-SOURCE
+> Task :dialogPlus:generateDebugBuildConfig
 > Task :dialogPlus:prepareLintJar
 > Task :dialogPlus:prepareLintJarForPublish
 > Task :dialogPlus:generateDebugSources
@@ -193,11 +194,13 @@ BUILD FAILED in 5s
 > Task :dialogPlus:dataBindingGenBaseClassesDebug
 > Task :dialogPlus:parseDebugLibraryResources
 > Task :dialogPlus:processDebugManifest
-> Task :app:dataBindingMergeGenClassesDebug
 > Task :dialogPlus:javaPreCompileDebug
+> Task :app:dataBindingMergeGenClassesDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :dialogPlus:generateDebugRFile
 
 > Task :dialogPlus:compileDebugJavaWithJavac
@@ -207,19 +210,10 @@ Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:mergeDebugResources
-> Task :dialogPlus:bundleLibCompileDebug
+> Task :app:processDebugResources
 > Task :app:dataBindingMergeDependencyArtifactsDebug
 > Task :app:dataBindingGenBaseClassesDebug
-> Task :app:javaPreCompileDebug
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:processDebugResources
-
-> Task :app:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileDebugSources
+> Task :dialogPlus:bundleLibCompileDebug
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -228,6 +222,13 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :dialogPlus:generateDebugAssets
 > Task :dialogPlus:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :dialogPlus:processDebugJavaRes NO-SOURCE
 > Task :dialogPlus:bundleLibResDebug
@@ -241,6 +242,9 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :dialogPlus:mergeDebugJniLibFolders
+> Task :dialogPlus:mergeDebugNativeLibs
+> Task :dialogPlus:stripDebugDebugSymbols
+> Task :dialogPlus:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :dialogPlus:preReleaseBuild UP-TO-DATE
 > Task :dialogPlus:compileReleaseAidl NO-SOURCE
@@ -251,45 +255,42 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseSources
 > Task :app:dataBindingExportBuildInfoRelease
-> Task :dialogPlus:mergeDebugNativeLibs
-> Task :dialogPlus:stripDebugDebugSymbols
-> Task :dialogPlus:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:dataBindingExportFeaturePackageIdsRelease
 > Task :dialogPlus:compileReleaseRenderscript NO-SOURCE
 > Task :dialogPlus:checkReleaseManifest
 > Task :dialogPlus:generateReleaseBuildConfig
 > Task :dialogPlus:generateReleaseSources
 > Task :dialogPlus:dataBindingExportBuildInfoRelease
-> Task :dialogPlus:dataBindingMergeDependencyArtifactsRelease
+> Task :app:multiDexListDebug
+> Task :app:dataBindingExportFeaturePackageIdsRelease
 > Task :dialogPlus:generateReleaseResValues
 > Task :dialogPlus:generateReleaseResources
 > Task :dialogPlus:packageReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :dialogPlus:dataBindingMergeGenClassesRelease
+> Task :dialogPlus:dataBindingMergeDependencyArtifactsRelease
 > Task :dialogPlus:dataBindingGenBaseClassesRelease
+> Task :dialogPlus:processReleaseManifest
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :dialogPlus:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :app:dataBindingMergeGenClassesRelease
-> Task :dialogPlus:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :dialogPlus:parseReleaseLibraryResources
-> Task :app:multiDexListDebug
-> Task :dialogPlus:javaPreCompileRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:dataBindingMergeGenClassesRelease
 > Task :dialogPlus:generateReleaseRFile
 
 > Task :dialogPlus:compileReleaseJavaWithJavac
-
-> Task :app:dataBindingMergeDependencyArtifactsRelease
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
+
 > Task :app:mergeReleaseResources
-> Task :app:dataBindingGenBaseClassesRelease
 > Task :app:processReleaseResources
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingGenBaseClassesRelease
 > Task :dialogPlus:bundleLibCompileRelease
 > Task :app:javaPreCompileRelease
 
@@ -298,14 +299,17 @@ Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
-> Task :app:lintVitalRelease SKIPPED
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :app:lintVitalRelease SKIPPED
 > Task :dialogPlus:processReleaseJavaRes NO-SOURCE
 > Task :dialogPlus:bundleLibResRelease
+> Task :dialogPlus:bundleLibRuntimeRelease
+> Task :dialogPlus:createFullJarRelease
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:desugarReleaseFileDependencies
+> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -315,27 +319,27 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :dialogPlus:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :dialogPlus:bundleLibRuntimeRelease
-> Task :dialogPlus:createFullJarRelease
-> Task :app:mergeReleaseJavaResource
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :dialogPlus:mergeReleaseJniLibFolders
 
 > Task :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/210bb4b1feaad7ad1d2e9cdaa339b970/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-Ran lint on variant release: 61 issues found
-Ran lint on variant debug: 61 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build/reports/lint-results.xml
 
 > Task :app:multiDexListRelease
+> Task :app:mergeReleaseJavaResource
+> Task :dialogPlus:mergeReleaseNativeLibs
+
+> Task :app:lint
+Ran lint on variant release: 62 issues found
+Ran lint on variant debug: 62 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build/reports/lint-results.xml
+
 > Task :app:preDebugUnitTestBuild UP-TO-DATE
 > Task :app:processDebugUnitTestJavaRes NO-SOURCE
 > Task :app:preReleaseUnitTestBuild UP-TO-DATE
 > Task :app:processReleaseUnitTestJavaRes NO-SOURCE
-> Task :dialogPlus:mergeReleaseNativeLibs
 > Task :dialogPlus:stripReleaseDebugSymbols
 > Task :dialogPlus:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:javaPreCompileDebugUnitTest
@@ -358,7 +362,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 2s
+BUILD SUCCESSFUL in 2m 31s
 114 actionable tasks: 114 executed
 
-2019-12-29 20:19:59,608 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577625484307-0/src/dialogPlus-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-15 19:33:55,744 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275443661-0/src/dialogPlus-master/app/build/outputs/apk/debug/app-debug.apk

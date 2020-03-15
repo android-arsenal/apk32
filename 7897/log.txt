@@ -1,37 +1,37 @@
-2020-01-19 19:41:42,878 INFO  DownloadService - Downloading "https://github.com/HBiSoft/HBRecorder/archive/master.zip", attempt 3
-2020-01-19 19:41:44,752 INFO  DownloadService - Downloaded https://github.com/HBiSoft/HBRecorder/archive/master.zip, attempt 3
-2020-01-19 19:41:44,753 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/master.zip": 133 KB
-2020-01-19 19:41:44,753 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-19 19:41:44,754 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/master.zip: true
-2020-01-19 19:41:44,755 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src'.
-2020-01-19 19:41:44,777 INFO  FullProcessService - Size of directory with sources: 194 KB
-2020-01-19 19:41:44,777 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src]
-2020-01-19 19:41:44,797 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/.git/
+2020-03-15 19:33:58,552 INFO  DownloadService - Downloading "https://github.com/HBiSoft/HBRecorder/archive/master.zip", attempt 3
+2020-03-15 19:34:01,766 INFO  DownloadService - Downloaded https://github.com/HBiSoft/HBRecorder/archive/master.zip, attempt 3
+2020-03-15 19:34:01,767 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/master.zip": 1 MB
+2020-03-15 19:34:01,767 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-15 19:34:01,767 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/master.zip: true
+2020-03-15 19:34:01,768 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src'.
+2020-03-15 19:34:01,819 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-15 19:34:01,819 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src]
+2020-03-15 19:34:01,870 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/.git/
 
-2020-01-19 19:41:44,800 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/gradlew
-2020-01-19 19:41:44,804 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/build.gradle
-2020-01-19 19:41:44,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/settings.gradle
-2020-01-19 19:41:44,807 INFO  ProjectBuildService - Remote scripts: none
-2020-01-19 19:41:44,807 INFO  ProjectFixService - Fixing project...
-2020-01-19 19:41:44,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/local.properties
-2020-01-19 19:41:44,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-19 19:41:44,815 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-19 19:41:44,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/hbrecorder/local.properties
-2020-01-19 19:41:44,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-19 19:41:44,816 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-19 19:41:44,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/local.properties
-2020-01-19 19:41:44,819 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-01-19 19:41:44,819 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-01-19 19:41:44,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-19 19:41:44,821 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2020-01-19 19:41:44,821 INFO  ProjectFixService - Project was maybe fixed
-2020-01-19 19:41:44,821 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 19:41:44,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 19:41:51,586 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-19 19:41:51,587 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-19 19:41:51,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-19 19:41:53,730 INFO  VirusProcessorServiceImpl - Queued project 7996 to scan viruses
-2020-01-19 19:42:20,829 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-15 19:34:01,878 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/gradlew
+2020-03-15 19:34:01,886 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/build.gradle
+2020-03-15 19:34:01,893 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/hbrecorder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/settings.gradle
+2020-03-15 19:34:01,893 INFO  ProjectBuildService - Remote scripts: none
+2020-03-15 19:34:01,893 INFO  ProjectFixService - Fixing project...
+2020-03-15 19:34:01,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/local.properties
+2020-03-15 19:34:01,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-15 19:34:01,915 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-15 19:34:01,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/hbrecorder/local.properties
+2020-03-15 19:34:01,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-15 19:34:01,919 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/hbrecorder/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-15 19:34:01,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/local.properties
+2020-03-15 19:34:01,921 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-03-15 19:34:01,922 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-03-15 19:34:01,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-15 19:34:01,925 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2020-03-15 19:34:01,926 INFO  ProjectFixService - Project was maybe fixed
+2020-03-15 19:34:01,926 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:34:01,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:34:20,497 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-15 19:34:20,497 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-15 19:34:20,497 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-15 19:34:31,283 INFO  VirusProcessorServiceImpl - Queued project 7899 to scan viruses
+2020-03-15 19:35:27,496 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :hbrecorder:preBuild UP-TO-DATE
 > Task :hbrecorder:preDebugBuild UP-TO-DATE
@@ -40,6 +40,10 @@
 > Task :hbrecorder:packageDebugRenderscript NO-SOURCE
 > Task :app:prepareLintJar
 > Task :hbrecorder:generateDebugBuildConfig
+> Task :hbrecorder:generateDebugResValues
+> Task :hbrecorder:prepareLintJar
+> Task :hbrecorder:mergeDebugShaders
+> Task :hbrecorder:compileDebugShaders
 > Task :app:preDebugBuild
 > Task :hbrecorder:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -48,34 +52,30 @@
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
 > Task :hbrecorder:compileDebugRenderscript NO-SOURCE
-> Task :hbrecorder:generateDebugResValues
 > Task :hbrecorder:generateDebugResources
-> Task :hbrecorder:prepareLintJar
-> Task :hbrecorder:generateDebugSources
-> Task :hbrecorder:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
-> Task :app:generateDebugResValues
-> Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
 > Task :hbrecorder:packageDebugResources
 > Task :hbrecorder:generateDebugRFile
+> Task :hbrecorder:generateDebugSources
+> Task :hbrecorder:javaPreCompileDebug
 > Task :hbrecorder:compileDebugJavaWithJavac
 > Task :hbrecorder:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/src/main/java/com/hbisoft/hbrecorderexample/SettingsActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/src/main/java/com/hbisoft/hbrecorderexample/SettingsActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :hbrecorder:mergeDebugShaders
-> Task :hbrecorder:compileDebugShaders
 > Task :hbrecorder:generateDebugAssets
 > Task :hbrecorder:packageDebugAssets
 > Task :app:mergeDebugAssets
@@ -127,24 +127,24 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/src/main/java/com/hbisoft/hbrecorderexample/SettingsActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/src/main/java/com/hbisoft/hbrecorderexample/SettingsActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:compileReleaseSources
 > Task :hbrecorder:prepareLintJarForPublish
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f85379bb14387ce41a5cad89272db491/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :hbrecorder:processReleaseJavaRes NO-SOURCE
 > Task :hbrecorder:bundleLibResRelease
 > Task :hbrecorder:bundleLibRuntimeRelease
 > Task :hbrecorder:createFullJarRelease
 > Task :app:checkReleaseDuplicateClasses
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f85379bb14387ce41a5cad89272db491/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -175,7 +175,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 1m 6s
 91 actionable tasks: 91 executed
 
-2020-01-19 19:42:20,889 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579437702874-0/src/HBRecorder-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-15 19:35:27,683 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275638544-0/src/HBRecorder-master/app/build/outputs/apk/debug/app-debug.apk

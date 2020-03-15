@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "15",
     "targetSdkVersion" : "29",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -31,8 +41,8 @@
   "dexClasses" : 3354,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.santalu.textmatcher.sample\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"29\" />\n\t<application android:theme=\"resourceId:0x7f0f0007\" android:label=\"TextMatcher\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.santalu.textmatcher.sample.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Single Rule Sample\" android:name=\"com.santalu.textmatcher.sample.SingleRuleActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:label=\"Multi Rule Sample\" android:name=\"com.santalu.textmatcher.sample.MultiRuleActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:label=\"Custom Rule Sample\" android:name=\"com.santalu.textmatcher.sample.CustomRuleActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:label=\"TextView Sample\" android:name=\"com.santalu.textmatcher.sample.SimpleTextActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 3413425,
-  "crc32" : 2372364051,
-  "sha256" : "3fa0e5b191085eb0dce17a6eac03dcad5e6f9ecaab3ff6edebb60ac2bb581877",
-  "buildTime" : 1570285203000
+  "fileSize" : 3413631,
+  "crc32" : 2010570197,
+  "sha256" : "044ef05089ddce8b3d3bc08b77b9dabe05c07f212f6d7e1e4e77bd7f2f11a5fc",
+  "buildTime" : 1584276098000
 }

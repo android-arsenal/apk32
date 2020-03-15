@@ -1,102 +1,101 @@
-2020-01-24 14:41:58,954 INFO  DownloadService - Downloading "https://github.com/fartem/android-device-info/archive/master.zip", attempt 3
-2020-01-24 14:42:01,300 INFO  DownloadService - Downloaded https://github.com/fartem/android-device-info/archive/master.zip, attempt 3
-2020-01-24 14:42:01,300 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/master.zip": 2 MB
-2020-01-24 14:42:01,300 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-24 14:42:01,303 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/master.zip: true
-2020-01-24 14:42:01,303 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src'.
-2020-01-24 14:42:01,360 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-01-24 14:42:01,360 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src]
-2020-01-24 14:42:01,405 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/.git/
+2020-03-15 19:28:12,617 INFO  DownloadService - Downloading "https://github.com/fartem/android-device-info/archive/master.zip", attempt 3
+2020-03-15 19:28:15,978 INFO  DownloadService - Downloaded https://github.com/fartem/android-device-info/archive/master.zip, attempt 3
+2020-03-15 19:28:15,979 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/master.zip": 1 MB
+2020-03-15 19:28:15,979 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-15 19:28:15,980 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/master.zip: true
+2020-03-15 19:28:15,980 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src'.
+2020-03-15 19:28:16,103 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-15 19:28:16,103 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src]
+2020-03-15 19:28:16,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/.git/
 
-2020-01-24 14:42:01,410 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/gradlew
-2020-01-24 14:42:01,415 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/build.gradle
-2020-01-24 14:42:01,419 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/settings.gradle
-2020-01-24 14:42:01,420 INFO  ProjectBuildService - Remote scripts: none
-2020-01-24 14:42:01,420 INFO  ProjectFixService - Fixing project...
-2020-01-24 14:42:01,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/local.properties
-2020-01-24 14:42:01,430 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-24 14:42:01,430 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/local.properties
-2020-01-24 14:42:01,431 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-24 14:42:01,431 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-24 14:42:01,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-01-24 14:42:01,432 INFO  ProjectFixService - Project was maybe fixed
-2020-01-24 14:42:01,432 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-24 14:42:01,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-24 14:42:08,512 INFO  ProjectTaskService - Detected possible tasks: 71
-2020-01-24 14:42:08,513 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-24 14:42:08,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-24 14:42:21,408 INFO  VirusProcessorServiceImpl - Queued project 7906 to scan viruses
-2020-01-24 14:43:05,431 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-15 19:28:16,224 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/gradlew
+2020-03-15 19:28:16,237 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/build.gradle
+2020-03-15 19:28:16,252 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/settings.gradle
+2020-03-15 19:28:16,253 INFO  ProjectBuildService - Remote scripts: none
+2020-03-15 19:28:16,253 INFO  ProjectFixService - Fixing project...
+2020-03-15 19:28:16,286 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/local.properties
+2020-03-15 19:28:16,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-15 19:28:16,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/local.properties
+2020-03-15 19:28:16,288 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-15 19:28:16,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-15 19:28:16,292 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-15 19:28:16,292 INFO  ProjectFixService - Project was maybe fixed
+2020-03-15 19:28:16,292 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:28:16,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:28:31,738 INFO  VirusProcessorServiceImpl - Queued project 7906 to scan viruses
+2020-03-15 19:28:36,070 INFO  ProjectTaskService - Detected possible tasks: 80
+2020-03-15 19:28:36,070 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-15 19:28:36,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-15 19:30:42,485 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
 > Task :app:processDebugManifest
 > Task :app:mergeDebugResources
 > Task :app:processDebugResources
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/src/main/java/com/smlnskgmail/jaman/deviceinfo/logic/info/realizations/mainpager/pages/system/DeviceSystemInfo.kt: (30, 53): 'SDK: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/src/main/java/com/smlnskgmail/jaman/deviceinfo/logic/info/impl/androidsdk/pages/system/DeviceSystemInfo.kt: (31, 53): 'SDK: String!' is deprecated. Deprecated in Java
 
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
 > Task :app:processReleaseManifest
+> Task :app:jacocoDebug
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:mergeLibDexDebug
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/src/main/java/com/smlnskgmail/jaman/deviceinfo/logic/info/realizations/mainpager/pages/system/DeviceSystemInfo.kt: (30, 53): 'SDK: String!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/src/main/java/com/smlnskgmail/jaman/deviceinfo/logic/info/impl/androidsdk/pages/system/DeviceSystemInfo.kt: (31, 53): 'SDK: String!' is deprecated. Deprecated in Java
 
+> Task :app:mergeProjectDexDebug
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -107,9 +106,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 56s
-52 actionable tasks: 52 executed
+BUILD SUCCESSFUL in 2m 5s
+51 actionable tasks: 51 executed
 
-2020-01-24 14:43:05,513 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579851718950-0/src/android-device-info-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-15 19:30:42,623 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275292611-0/src/android-device-info-master/app/build/outputs/apk/debug/app-debug.apk

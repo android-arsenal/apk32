@@ -1,36 +1,36 @@
-2020-01-19 18:54:38,804 INFO  DownloadService - Downloading "https://github.com/iamvivekkaushik/DatePickerTimelineFlutter/archive/master.zip", attempt 3
-2020-01-19 18:54:41,908 INFO  DownloadService - Downloaded https://github.com/iamvivekkaushik/DatePickerTimelineFlutter/archive/master.zip, attempt 3
-2020-01-19 18:54:41,908 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/master.zip": 958 KB
-2020-01-19 18:54:41,908 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-19 18:54:41,914 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/master.zip: true
-2020-01-19 18:54:41,914 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src'.
-2020-01-19 18:54:41,943 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-01-19 18:54:41,943 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src]
-2020-01-19 18:54:41,966 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/.git/
+2020-03-15 19:45:53,497 INFO  DownloadService - Downloading "https://github.com/iamvivekkaushik/DatePickerTimelineFlutter/archive/master.zip", attempt 3
+2020-03-15 19:45:56,358 INFO  DownloadService - Downloaded https://github.com/iamvivekkaushik/DatePickerTimelineFlutter/archive/master.zip, attempt 3
+2020-03-15 19:45:56,358 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/master.zip": 958 KB
+2020-03-15 19:45:56,358 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-15 19:45:56,359 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/master.zip: true
+2020-03-15 19:45:56,359 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src'.
+2020-03-15 19:45:56,424 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-03-15 19:45:56,424 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src]
+2020-03-15 19:45:56,481 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/.git/
 
-2020-01-19 18:54:41,969 INFO  ProjectBuildService - Gradle wrapper(s): none
-2020-01-19 18:54:41,969 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2020-01-19 18:54:41,972 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle
-2020-01-19 18:54:41,974 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/settings.gradle
-2020-01-19 18:54:41,975 INFO  ProjectBuildService - Remote scripts: none
-2020-01-19 18:54:41,975 INFO  ProjectFixService - Fixing project...
-2020-01-19 18:54:41,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/local.properties
-2020-01-19 18:54:41,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-19 18:54:41,982 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-19 18:54:41,983 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/local.properties
-2020-01-19 18:54:41,983 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2020-01-19 18:54:41,984 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2020-01-19 18:54:41,985 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-19 18:54:41,985 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-19 18:54:41,985 INFO  ProjectFixService - Project was maybe fixed
-2020-01-19 18:54:41,985 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 18:54:41,985 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 18:54:45,054 INFO  VirusProcessorServiceImpl - Queued project 7854 to scan viruses
-2020-01-19 18:54:59,575 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-19 18:54:59,575 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-19 18:54:59,575 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-19 18:54:59,575 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-19 18:55:03,662 ERROR SysUtils - Could not process external command
+2020-03-15 19:45:56,490 INFO  ProjectBuildService - Gradle wrapper(s): none
+2020-03-15 19:45:56,490 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2020-03-15 19:45:56,501 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle
+2020-03-15 19:45:56,511 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/settings.gradle
+2020-03-15 19:45:56,512 INFO  ProjectBuildService - Remote scripts: none
+2020-03-15 19:45:56,512 INFO  ProjectFixService - Fixing project...
+2020-03-15 19:45:56,537 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/local.properties
+2020-03-15 19:45:56,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-15 19:45:56,539 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-15 19:45:56,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/local.properties
+2020-03-15 19:45:56,544 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2020-03-15 19:45:56,546 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2020-03-15 19:45:56,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-15 19:45:56,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-15 19:45:56,557 INFO  ProjectFixService - Project was maybe fixed
+2020-03-15 19:45:56,557 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:45:56,558 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:46:07,247 INFO  VirusProcessorServiceImpl - Queued project 7856 to scan viruses
+2020-03-15 19:46:33,880 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-15 19:46:33,880 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-03-15 19:46:33,881 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-03-15 19:46:33,881 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-15 19:46:46,007 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,14 +58,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-19 18:55:03,662 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1/userguide/gradle_daemon.html.
+2020-03-15 19:46:46,007 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.2/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -94,15 +94,15 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:107)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:96)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -112,11 +112,11 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:699)
-	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:779)
-	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:771)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:700)
+	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:780)
+	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:772)
 	at org.gradle.api.Project$evaluationDependsOn.call(Unknown Source)
-	at build_757eypkgfi2osahxbpmpfrhdh$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:24)
+	at build_5i1qi6s1dajofzf9xm11q3y1m$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:24)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -133,8 +133,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator$2.run(BuildOperationCrossProjectConfigurator.java:76)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.runProjectConfigureAction(BuildOperationCrossProjectConfigurator.java:73)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.access$400(BuildOperationCrossProjectConfigurator.java:32)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator$1.doRunProjectConfigure(BuildOperationCrossProjectConfigurator.java:67)
@@ -148,7 +148,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.runBlockConfigureAction(BuildOperationCrossProjectConfigurator.java:64)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.subprojects(BuildOperationCrossProjectConfigurator.java:49)
-	at org.gradle.api.internal.project.DefaultProject.subprojects(DefaultProject.java:1167)
+	at org.gradle.api.internal.project.DefaultProject.subprojects(DefaultProject.java:1171)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:483)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:195)
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
@@ -156,7 +156,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:162)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_757eypkgfi2osahxbpmpfrhdh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:23)
+	at build_5i1qi6s1dajofzf9xm11q3y1m.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:23)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:237)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -175,8 +175,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
@@ -184,9 +184,9 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:238)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:232)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:271)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:265)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:96)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -196,7 +196,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:699)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:700)
 	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:142)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:36)
 	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:59)
@@ -209,18 +209,16 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer.prepareProjects(BuildOperatingFiringProjectsPreparer.java:40)
-	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:207)
-	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:145)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:110)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:78)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:120)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:57)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:56)
 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
@@ -264,7 +262,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
 	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:27)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:29)
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
 	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:35)
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
@@ -287,22 +285,22 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.api.GradleException: Flutter SDK not found. Define location with flutter.sdk in the local.properties file.
-	at build_f2xowytkhvl0cbow40t4yfuv0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle:11)
+	at build_7jbtiflzzf8f04kcctlr8ette.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle:11)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
-	... 209 more
+	... 207 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 11s
 
-2020-01-19 18:55:03,668 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-19 18:55:03,668 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-19 18:55:07,710 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-19 18:55:07,710 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-19 18:55:07,710 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-19 18:55:07,710 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-19 18:55:11,822 ERROR SysUtils - Could not process external command
+2020-03-15 19:46:46,017 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-15 19:46:46,018 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-15 19:46:58,334 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-15 19:46:58,334 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-03-15 19:46:58,334 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-03-15 19:46:58,334 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-15 19:47:10,317 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -330,14 +328,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-19 18:55:11,823 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.1/userguide/gradle_daemon.html.
+2020-03-15 19:47:10,318 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.2/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':app'.
@@ -366,15 +364,15 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject$1.run(LifecycleProjectEvaluator.java:107)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:96)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -384,11 +382,11 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:699)
-	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:779)
-	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:771)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:700)
+	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:780)
+	at org.gradle.api.internal.project.DefaultProject.evaluationDependsOn(DefaultProject.java:772)
 	at org.gradle.api.Project$evaluationDependsOn.call(Unknown Source)
-	at build_757eypkgfi2osahxbpmpfrhdh$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:24)
+	at build_5i1qi6s1dajofzf9xm11q3y1m$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:24)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -405,8 +403,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator$2.run(BuildOperationCrossProjectConfigurator.java:76)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.runProjectConfigureAction(BuildOperationCrossProjectConfigurator.java:73)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.access$400(BuildOperationCrossProjectConfigurator.java:32)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator$1.doRunProjectConfigure(BuildOperationCrossProjectConfigurator.java:67)
@@ -420,7 +418,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.runBlockConfigureAction(BuildOperationCrossProjectConfigurator.java:64)
 	at org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator.subprojects(BuildOperationCrossProjectConfigurator.java:49)
-	at org.gradle.api.internal.project.DefaultProject.subprojects(DefaultProject.java:1167)
+	at org.gradle.api.internal.project.DefaultProject.subprojects(DefaultProject.java:1171)
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:483)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:195)
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
@@ -428,7 +426,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:162)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_757eypkgfi2osahxbpmpfrhdh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:23)
+	at build_5i1qi6s1dajofzf9xm11q3y1m.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/build.gradle:23)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:237)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -447,8 +445,8 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
 	at org.gradle.configuration.project.BuildScriptProcessor$1.run(BuildScriptProcessor.java:45)
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:212)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:245)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:42)
 	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
 	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:35)
@@ -456,9 +454,9 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.Factories$1.create(Factories.java:26)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:238)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:232)
-	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:193)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:271)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:265)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withMutableState(DefaultProjectStateRegistry.java:226)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:96)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
@@ -468,7 +466,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:699)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:700)
 	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:142)
 	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:36)
 	at org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:59)
@@ -481,18 +479,16 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
 	at org.gradle.configuration.BuildOperatingFiringProjectsPreparer.prepareProjects(BuildOperatingFiringProjectsPreparer.java:40)
-	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:207)
-	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:145)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:110)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:60)
-	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:57)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:85)
-	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:78)
+	at org.gradle.initialization.DefaultGradleLauncher.prepareProjects(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doClassicBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:120)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)
+	at org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)
 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:189)
 	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:57)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:56)
 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
 	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)
@@ -536,7 +532,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
 	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:27)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:29)
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
 	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:35)
 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)
@@ -559,14 +555,14 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ap
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 Caused by: org.gradle.api.GradleException: Flutter SDK not found. Define location with flutter.sdk in the local.properties file.
-	at build_f2xowytkhvl0cbow40t4yfuv0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579434878796-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle:11)
+	at build_7jbtiflzzf8f04kcctlr8ette.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584276353491-0/src/DatePickerTimelineFlutter-master/example/android/app/build.gradle:11)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
-	... 209 more
+	... 207 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 11s
 
-2020-01-19 18:55:11,827 ERROR FullProcessService - Project build has not produced APK file
-2020-01-19 18:55:11,831 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-15 19:47:10,327 ERROR FullProcessService - Project build has not produced APK file
+2020-03-15 19:47:10,335 ERROR FullProcessService - Could not find generated or existed APK file
