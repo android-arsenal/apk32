@@ -1,42 +1,43 @@
-2019-12-21 23:02:47,777 INFO  DownloadService - Downloading "https://github.com/PatilShreyas/MaterialDialog-Android/archive/master.zip", attempt 3
-2019-12-21 23:02:55,415 INFO  DownloadService - Downloaded https://github.com/PatilShreyas/MaterialDialog-Android/archive/master.zip, attempt 3
-2019-12-21 23:02:55,416 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/master.zip": 8 MB
-2019-12-21 23:02:55,416 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-21 23:02:55,421 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/master.zip: true
-2019-12-21 23:02:55,421 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src'.
-2019-12-21 23:02:55,531 INFO  FullProcessService - Size of directory with sources: 9 MB
-2019-12-21 23:02:55,531 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src]
-2019-12-21 23:02:55,550 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/.git/
+2020-03-22 00:48:36,486 INFO  DownloadService - Downloading "https://github.com/PatilShreyas/MaterialDialog-Android/archive/master.zip", attempt 3
+2020-03-22 00:48:39,880 INFO  DownloadService - Downloaded https://github.com/PatilShreyas/MaterialDialog-Android/archive/master.zip, attempt 3
+2020-03-22 00:48:39,880 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/master.zip": 8 MB
+2020-03-22 00:48:39,880 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-22 00:48:39,881 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/master.zip: true
+2020-03-22 00:48:39,881 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src'.
+2020-03-22 00:48:40,156 INFO  FullProcessService - Size of directory with sources: 9 MB
+2020-03-22 00:48:40,156 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src]
+2020-03-22 00:48:40,201 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/.git/
 
-2019-12-21 23:02:55,554 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/gradlew
-2019-12-21 23:02:55,558 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/build.gradle
-2019-12-21 23:02:55,562 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/settings.gradle
-2019-12-21 23:02:55,563 INFO  ProjectBuildService - Remote scripts: none
-2019-12-21 23:02:55,563 INFO  ProjectFixService - Fixing project...
-2019-12-21 23:02:55,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/local.properties
-2019-12-21 23:02:55,574 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-21 23:02:55,574 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-21 23:02:55,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/local.properties
-2019-12-21 23:02:55,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-21 23:02:55,577 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-21 23:02:55,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/local.properties
-2019-12-21 23:02:55,578 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-21 23:02:55,579 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-21 23:02:55,581 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-21 23:02:55,581 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2019-12-21 23:02:55,582 INFO  ProjectFixService - Project was maybe fixed
-2019-12-21 23:02:55,582 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-21 23:02:55,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-21 23:03:05,996 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-21 23:03:05,996 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-21 23:03:05,996 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-21 23:03:23,172 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 00:48:40,211 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/gradlew
+2020-03-22 00:48:40,224 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/build.gradle
+2020-03-22 00:48:40,239 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/settings.gradle
+2020-03-22 00:48:40,240 INFO  ProjectBuildService - Remote scripts: none
+2020-03-22 00:48:40,240 INFO  ProjectFixService - Fixing project...
+2020-03-22 00:48:40,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/local.properties
+2020-03-22 00:48:40,310 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-22 00:48:40,310 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-22 00:48:40,357 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/local.properties
+2020-03-22 00:48:40,360 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-22 00:48:40,360 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-22 00:48:40,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/local.properties
+2020-03-22 00:48:40,369 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-22 00:48:40,370 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-22 00:48:40,375 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-22 00:48:40,375 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-03-22 00:48:40,377 INFO  ProjectFixService - Project was maybe fixed
+2020-03-22 00:48:40,377 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 00:48:40,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 00:49:09,475 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-22 00:49:09,475 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-22 00:49:09,476 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-22 00:49:48,662 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :MaterialDialogLibrary:preBuild UP-TO-DATE
 > Task :MaterialDialogLibrary:preDebugBuild UP-TO-DATE
 > Task :MaterialDialogLibrary:checkDebugManifest
 > Task :MaterialDialogLibrary:generateDebugBuildConfig
 > Task :MaterialDialogLibrary:generateDebugResValues
 > Task :MaterialDialogLibrary:mergeDebugShaders
+> Task :MaterialDialogLibrary:processDebugManifest
 > Task :MaterialDialogLibrary:compileDebugShaders
 > Task :MaterialDialogLibrary:generateDebugAssets
 > Task :MaterialDialogLibrary:packageDebugAssets
@@ -47,6 +48,7 @@
 > Task :MaterialDialogLibrary:checkReleaseManifest
 > Task :MaterialDialogLibrary:generateReleaseBuildConfig
 > Task :MaterialDialogLibrary:generateReleaseResValues
+> Task :MaterialDialogLibrary:prepareLintJarForPublish
 > Task :MaterialDialogLibrary:mergeReleaseShaders
 > Task :MaterialDialogLibrary:compileReleaseShaders
 > Task :MaterialDialogLibrary:generateReleaseAssets
@@ -58,518 +60,509 @@
 > Task :MaterialDialogLibrary:mergeDebugNativeLibs
 > Task :MaterialDialogLibrary:stripDebugDebugSymbols
 > Task :MaterialDialogLibrary:transformNativeLibsWithSyncJniLibsForDebug
-> Task :MaterialDialogLibrary:prepareLintJarForPublish
 > Task :MaterialDialogLibrary:mergeReleaseNativeLibs
 > Task :MaterialDialogLibrary:stripReleaseDebugSymbols
 > Task :MaterialDialogLibrary:transformNativeLibsWithSyncJniLibsForRelease
-> Task :MaterialDialogLibrary:processDebugManifest
 
 > Task :MaterialDialogLibrary:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:14: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:15: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:16: error: cannot find symbol
 import androidx.annotation.RawRes;
                           ^
   symbol:   class RawRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:17: error: cannot find symbol
-import androidx.annotation.RestrictTo;
-                          ^
-  symbol:   class RestrictTo
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:18: error: package androidx.core.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:17: error: package androidx.core.content does not exist
 import androidx.core.content.ContextCompat;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:20: error: package com.airbnb.lottie does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:19: error: package com.airbnb.lottie does not exist
 import com.airbnb.lottie.LottieAnimationView;
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:21: error: package com.google.android.material.button does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:20: error: package com.google.android.material.button does not exist
 import com.google.android.material.button.MaterialButton;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:28: error: cannot find symbol
-@RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)
- ^
-  symbol: class RestrictTo
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:44: error: cannot find symbol
     protected LottieAnimationView mAnimationView;
               ^
   symbol:   class LottieAnimationView
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:303: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:301: error: cannot find symbol
     public LottieAnimationView getAnimationView() {
            ^
   symbol:   class LottieAnimationView
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:14: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:15: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:16: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:16: error: cannot find symbol
 import androidx.annotation.RawRes;
                           ^
   symbol:   class RawRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:18: error: package com.google.android.material.bottomsheet does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:18: error: package com.google.android.material.bottomsheet does not exist
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
                                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:218: error: package com.google.android.material.bottomsheet does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:218: error: package com.google.android.material.bottomsheet does not exist
     class BottomSheetDialog extends com.google.android.material.bottomsheet.BottomSheetDialog {
                                                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:7: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:7: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:8: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:8: error: cannot find symbol
 import androidx.annotation.RawRes;
                           ^
   symbol:   class RawRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:9: error: package androidx.appcompat.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:9: error: package androidx.appcompat.app does not exist
 import androidx.appcompat.app.AlertDialog;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:51: error: cannot find symbol
     protected AbstractDialog(@NonNull Activity mActivity,
                               ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:52: error: cannot find symbol
                              @NonNull String title,
                               ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:53: error: cannot find symbol
                              @NonNull String message,
                               ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:57: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:55: error: cannot find symbol
                              @NonNull DialogButton mPositiveButton,
                               ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:58: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:56: error: cannot find symbol
                              @NonNull DialogButton mNegativeButton,
                               ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:57: error: cannot find symbol
                              @RawRes int mAnimationResId,
                               ^
   symbol:   class RawRes
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:58: error: cannot find symbol
                              @NonNull String mAnimationFile) {
                               ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:71: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:69: error: cannot find symbol
     protected View createView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container) {
                                ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:71: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:69: error: cannot find symbol
     protected View createView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container) {
                                                                  ^
   symbol:   class Nullable
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:261: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:259: error: cannot find symbol
     public void setOnShowListener(@NonNull final OnShowListener onShowListener) {
                                    ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:275: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:273: error: cannot find symbol
     public void setOnCancelListener(@NonNull final OnCancelListener onCancelListener) {
                                      ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:289: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java:287: error: cannot find symbol
     public void setOnDismissListener(@NonNull final OnDismissListener onDismissListener) {
                                       ^
   symbol:   class NonNull
   location: class AbstractDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:28: error: cannot find symbol
     protected BottomSheetMaterialDialog(@NonNull final Activity mActivity,
                                          ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:29: error: cannot find symbol
                                         @NonNull String title,
                                          ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:30: error: cannot find symbol
                                         @NonNull String message,
                                          ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:32: error: cannot find symbol
                                         @NonNull DialogButton mPositiveButton,
                                          ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:33: error: cannot find symbol
                                         @NonNull DialogButton mNegativeButton,
                                          ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:34: error: cannot find symbol
                                         @RawRes int mAnimationResId,
                                          ^
   symbol:   class RawRes
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:35: error: cannot find symbol
                                         @NonNull String mAnimationFile) {
                                          ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:79: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:79: error: cannot find symbol
     protected View createView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container) {
                                ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:79: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:79: error: cannot find symbol
     protected View createView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container) {
                                                                  ^
   symbol:   class Nullable
   location: class BottomSheetMaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:99: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:99: error: cannot find symbol
         public Builder(@NonNull Activity activity) {
                         ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:108: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:108: error: cannot find symbol
         public Builder setTitle(@NonNull String title) {
                                  ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:107: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:107: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:118: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:118: error: cannot find symbol
         public Builder setMessage(@NonNull String message) {
                                    ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:117: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:117: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:127: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:127: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:141: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:141: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:141: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:141: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                                                 ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:140: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:140: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:154: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:154: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:154: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:154: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:153: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:153: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:167: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:167: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:167: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:167: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                                                 ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:166: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:166: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:180: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:180: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:179: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:179: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:192: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:192: error: cannot find symbol
         public Builder setAnimation(@RawRes int animationResId) {
                                      ^
   symbol:   class RawRes
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:191: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:191: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:204: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:204: error: cannot find symbol
         public Builder setAnimation(@NonNull String fileName) {
                                      ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:203: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:203: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:212: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:212: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:220: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/BottomSheetMaterialDialog.java:220: error: cannot find symbol
         BottomSheetDialog(@NonNull Context context) {
                            ^
   symbol:   class NonNull
   location: class BottomSheetMaterialDialog.BottomSheetDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:21: error: cannot find symbol
     protected MaterialDialog(@NonNull final Activity mActivity,
                               ^
   symbol:   class NonNull
   location: class MaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:22: error: cannot find symbol
                              @NonNull String title,
                               ^
   symbol:   class NonNull
   location: class MaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:23: error: cannot find symbol
                              @NonNull String message,
                               ^
   symbol:   class NonNull
   location: class MaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:25: error: cannot find symbol
                              @NonNull DialogButton mPositiveButton,
                               ^
   symbol:   class NonNull
   location: class MaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:26: error: cannot find symbol
                              @NonNull DialogButton mNegativeButton,
                               ^
   symbol:   class NonNull
   location: class MaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:27: error: cannot find symbol
                              @RawRes int mAnimationResId,
                               ^
   symbol:   class RawRes
   location: class MaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:28: error: cannot find symbol
                              @NonNull String mAnimationFile) {
                               ^
   symbol:   class NonNull
   location: class MaterialDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:63: error: cannot find symbol
         public Builder(@NonNull Activity activity) {
                         ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:72: error: cannot find symbol
         public Builder setTitle(@NonNull String title) {
                                  ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:71: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:71: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:82: error: cannot find symbol
         public Builder setMessage(@NonNull String message) {
                                    ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:81: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:91: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:91: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:103: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:103: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:103: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:103: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                                                 ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:102: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:114: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:114: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:114: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:114: error: cannot find symbol
         public Builder setPositiveButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:113: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:113: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:125: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:125: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:125: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:125: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, @NonNull OnClickListener onClickListener) {
                                                                 ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:124: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:124: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:136: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:136: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:136: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:136: error: cannot find symbol
         public Builder setNegativeButton(@NonNull String name, int icon, @NonNull OnClickListener onClickListener) {
                                                                           ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:135: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:135: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:146: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:146: error: cannot find symbol
         public Builder setAnimation(@RawRes int animationResId) {
                                      ^
   symbol:   class RawRes
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:145: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:145: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:156: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:156: error: cannot find symbol
         public Builder setAnimation(@NonNull String fileName) {
                                      ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:155: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:155: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:164: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/MaterialDialog.java:164: error: cannot find symbol
         @NonNull
          ^
   symbol:   class NonNull
   location: class Builder
-javadoc: warning - Class RestrictTo not found.
-javadoc: warning - Class RestrictTo not found.
-javadoc: warning - Class RestrictTo not found.
-javadoc: warning - Class RestrictTo not found.
-javadoc: warning - Class RestrictTo not found.
-javadoc: warning - Class RestrictTo not found.
-javadoc: warning - Class RestrictTo not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class RawRes not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
 100 warnings
 
 > Task :MaterialDialogLibrary:javadocJar
-> Task :MaterialDialogLibrary:sourcesJar
-> Task :MaterialDialogLibrary:compileDebugRenderscript NO-SOURCE
 > Task :MaterialDialogLibrary:compileDebugAidl NO-SOURCE
+> Task :MaterialDialogLibrary:compileDebugRenderscript NO-SOURCE
 > Task :MaterialDialogLibrary:generateDebugResources
 > Task :MaterialDialogLibrary:packageDebugResources
 > Task :MaterialDialogLibrary:compileReleaseAidl NO-SOURCE
 > Task :MaterialDialogLibrary:compileReleaseRenderscript NO-SOURCE
 > Task :MaterialDialogLibrary:generateReleaseResources
 > Task :MaterialDialogLibrary:packageReleaseResources
+> Task :MaterialDialogLibrary:javaPreCompileDebug
+> Task :MaterialDialogLibrary:sourcesJar
+> Task :MaterialDialogLibrary:mergeReleaseResources
 > Task :MaterialDialogLibrary:parseDebugLibraryResources
 > Task :MaterialDialogLibrary:parseReleaseLibraryResources
-> Task :MaterialDialogLibrary:javaPreCompileDebug
-> Task :MaterialDialogLibrary:mergeReleaseResources
 > Task :MaterialDialogLibrary:javaPreCompileRelease
-> Task :MaterialDialogLibrary:generateDebugRFile
-
-> Task :MaterialDialogLibrary:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :MaterialDialogLibrary:extractDebugAnnotations
-> Task :MaterialDialogLibrary:mergeDebugGeneratedProguardFiles
-> Task :MaterialDialogLibrary:mergeDebugConsumerProguardFiles
-> Task :MaterialDialogLibrary:compileDebugSources
 > Task :MaterialDialogLibrary:generateReleaseRFile
 
 > Task :MaterialDialogLibrary:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :MaterialDialogLibrary:extractReleaseAnnotations
 > Task :MaterialDialogLibrary:mergeReleaseGeneratedProguardFiles
 > Task :MaterialDialogLibrary:mergeReleaseConsumerProguardFiles
 > Task :MaterialDialogLibrary:compileReleaseSources
-> Task :MaterialDialogLibrary:mergeDebugJavaResource
-> Task :MaterialDialogLibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :MaterialDialogLibrary:bundleDebugAar
-> Task :MaterialDialogLibrary:assembleDebug
 > Task :MaterialDialogLibrary:verifyReleaseResources
+> Task :MaterialDialogLibrary:generateDebugRFile
+
+> Task :MaterialDialogLibrary:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/MaterialDialogLibrary/src/main/java/com/shreyaspatil/MaterialDialog/AbstractDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :MaterialDialogLibrary:extractDebugAnnotations
+> Task :MaterialDialogLibrary:mergeDebugGeneratedProguardFiles
+> Task :MaterialDialogLibrary:mergeDebugConsumerProguardFiles
+> Task :MaterialDialogLibrary:compileDebugSources
 > Task :MaterialDialogLibrary:mergeReleaseJavaResource
 > Task :MaterialDialogLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :MaterialDialogLibrary:bundleReleaseAar
 > Task :MaterialDialogLibrary:assembleRelease
+> Task :MaterialDialogLibrary:mergeDebugJavaResource
+> Task :MaterialDialogLibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :MaterialDialogLibrary:bundleDebugAar
+> Task :MaterialDialogLibrary:assembleDebug
 > Task :MaterialDialogLibrary:assemble
 > Task :MaterialDialogLibrary:build
 
@@ -577,15 +570,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 16s
+BUILD SUCCESSFUL in 38s
 50 actionable tasks: 50 executed
 
-2019-12-21 23:03:23,215 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-21 23:03:23,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-21 23:03:29,245 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-21 23:03:29,245 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-21 23:03:29,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-21 23:04:07,766 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 00:49:48,772 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 00:49:48,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 00:50:03,597 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-22 00:50:03,597 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-22 00:50:03,598 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-22 00:51:31,123 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -623,20 +616,20 @@ BUILD SUCCESSFUL in 16s
 > Task :app:generateReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
-> Task :app:javaPreCompileRelease
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:javaPreCompileRelease
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/02fb2b00f7928595c5584b1dbdc428cc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/4de4f4248f163bd1104de1ef0e6b8f74/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
@@ -662,7 +655,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 37s
+BUILD SUCCESSFUL in 1m 26s
 49 actionable tasks: 49 executed
 
-2019-12-21 23:04:07,865 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1576944167769-0/src/MaterialDialog-Android-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-22 00:51:31,534 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584812916479-0/src/MaterialDialog-Android-master/app/build/outputs/apk/debug/app-debug.apk
