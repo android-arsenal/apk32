@@ -1,33 +1,33 @@
-2020-01-05 23:24:24,968 INFO  DownloadService - Downloading "https://github.com/MohamedWessam/no-internet-layout/archive/master.zip", attempt 3
-2020-01-05 23:24:54,398 INFO  DownloadService - Downloaded https://github.com/MohamedWessam/no-internet-layout/archive/master.zip, attempt 3
-2020-01-05 23:24:54,398 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/master.zip": 21 MB
-2020-01-05 23:24:54,398 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-05 23:24:54,404 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/master.zip: true
-2020-01-05 23:24:54,404 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src'.
-2020-01-05 23:24:55,081 INFO  FullProcessService - Size of directory with sources: 33 MB
-2020-01-05 23:24:55,081 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src]
-2020-01-05 23:24:55,102 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/.git/
+2020-03-21 23:53:35,370 INFO  DownloadService - Downloading "https://github.com/MohamedWessam/no-internet-layout/archive/master.zip", attempt 3
+2020-03-21 23:53:52,834 INFO  DownloadService - Downloaded https://github.com/MohamedWessam/no-internet-layout/archive/master.zip, attempt 3
+2020-03-21 23:53:52,835 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/master.zip": 21 MB
+2020-03-21 23:53:52,835 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-21 23:53:52,846 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/master.zip: true
+2020-03-21 23:53:52,846 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src'.
+2020-03-21 23:53:53,562 INFO  FullProcessService - Size of directory with sources: 33 MB
+2020-03-21 23:53:53,562 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src]
+2020-03-21 23:53:53,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/.git/
 
-2020-01-05 23:24:55,133 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/gradlew
-2020-01-05 23:24:55,164 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/nointernetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/build.gradle
-2020-01-05 23:24:55,195 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/nointernetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/settings.gradle
-2020-01-05 23:24:55,196 INFO  ProjectBuildService - Remote scripts: none
-2020-01-05 23:24:55,196 INFO  ProjectFixService - Fixing project...
-2020-01-05 23:24:55,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/app/local.properties
-2020-01-05 23:24:55,262 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-01-05 23:24:55,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/nointernetlayout/local.properties
-2020-01-05 23:24:55,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/nointernetlayout/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-01-05 23:24:55,264 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/local.properties
-2020-01-05 23:24:55,264 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-05 23:24:55,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-05 23:24:55,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-01-05 23:24:55,266 INFO  ProjectFixService - Project was maybe fixed
-2020-01-05 23:24:55,266 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-05 23:24:55,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-05 23:25:01,627 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-05 23:25:01,627 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-05 23:25:01,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-05 23:25:54,323 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-21 23:53:53,632 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/gradlew
+2020-03-21 23:53:53,679 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/nointernetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/build.gradle
+2020-03-21 23:53:53,730 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/nointernetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/settings.gradle
+2020-03-21 23:53:53,731 INFO  ProjectBuildService - Remote scripts: none
+2020-03-21 23:53:53,731 INFO  ProjectFixService - Fixing project...
+2020-03-21 23:53:53,825 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/app/local.properties
+2020-03-21 23:53:53,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-21 23:53:53,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/nointernetlayout/local.properties
+2020-03-21 23:53:53,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/nointernetlayout/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-21 23:53:53,827 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/local.properties
+2020-03-21 23:53:53,827 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-21 23:53:53,827 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-21 23:53:53,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-03-21 23:53:53,829 INFO  ProjectFixService - Project was maybe fixed
+2020-03-21 23:53:53,829 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-21 23:53:53,829 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-21 23:53:59,879 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-21 23:53:59,879 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-21 23:53:59,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-21 23:54:58,929 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :nointernetlayout:preBuild UP-TO-DATE
@@ -50,6 +50,7 @@
 > Task :app:mergeDebugResources
 > Task :nointernetlayout:processDebugManifest
 > Task :app:processDebugManifest
+> Task :nointernetlayout:parseDebugLibraryResources
 > Task :nointernetlayout:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -59,26 +60,25 @@
 > Task :nointernetlayout:generateDebugAssets
 > Task :nointernetlayout:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :nointernetlayout:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :nointernetlayout:processDebugJavaRes NO-SOURCE
 > Task :nointernetlayout:generateDebugRFile
 > Task :app:processDebugResources
 > Task :nointernetlayout:compileDebugKotlin
-> Task :app:checkDebugDuplicateClasses
 > Task :nointernetlayout:javaPreCompileDebug
 > Task :nointernetlayout:compileDebugJavaWithJavac
 > Task :nointernetlayout:bundleLibResDebug
 > Task :nointernetlayout:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :nointernetlayout:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
+> Task :nointernetlayout:bundleLibRuntimeDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :nointernetlayout:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -101,24 +101,24 @@
 > Task :nointernetlayout:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :nointernetlayout:generateReleaseBuildConfig
-> Task :nointernetlayout:parseReleaseLibraryResources
 > Task :nointernetlayout:mergeDebugNativeLibs
 > Task :nointernetlayout:stripDebugDebugSymbols
 > Task :nointernetlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :nointernetlayout:parseReleaseLibraryResources
 > Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
-> Task :nointernetlayout:prepareLintJarForPublish
 > Task :nointernetlayout:generateReleaseRFile
 > Task :nointernetlayout:compileReleaseKotlin
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
+> Task :nointernetlayout:prepareLintJarForPublish
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :nointernetlayout:javaPreCompileRelease
 > Task :nointernetlayout:compileReleaseJavaWithJavac
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :nointernetlayout:bundleLibRuntimeRelease
 > Task :nointernetlayout:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :nointernetlayout:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -141,12 +141,12 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseJniLibFolders
 > Task :nointernetlayout:mergeReleaseJniLibFolders
 > Task :nointernetlayout:bundleLibResRelease
+> Task :app:mergeExtDexDebug
 > Task :nointernetlayout:mergeReleaseNativeLibs
 > Task :nointernetlayout:stripReleaseDebugSymbols
 > Task :nointernetlayout:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
@@ -162,7 +162,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 58s
 92 actionable tasks: 92 executed
 
-2020-01-05 23:25:54,399 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578241464962-0/src/no-internet-layout-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-21 23:54:59,044 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584809615368-0/src/no-internet-layout-master/app/build/outputs/apk/debug/app-debug.apk
