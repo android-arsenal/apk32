@@ -1,37 +1,37 @@
-2020-02-16 19:24:53,799 INFO  DownloadService - Downloading "https://github.com/skydoves/expandablelayout/archive/master.zip", attempt 3
-2020-02-16 19:24:56,470 INFO  DownloadService - Downloaded https://github.com/skydoves/expandablelayout/archive/master.zip, attempt 3
-2020-02-16 19:24:56,471 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/master.zip": 228 KB
-2020-02-16 19:24:56,471 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-02-16 19:24:56,471 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/master.zip: true
-2020-02-16 19:24:56,471 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src'.
-2020-02-16 19:24:56,509 INFO  FullProcessService - Size of directory with sources: 275 KB
-2020-02-16 19:24:56,510 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src]
-2020-02-16 19:24:56,542 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/.git/
+2020-03-22 02:46:11,982 INFO  DownloadService - Downloading "https://github.com/skydoves/expandablelayout/archive/master.zip", attempt 3
+2020-03-22 02:46:14,269 INFO  DownloadService - Downloaded https://github.com/skydoves/expandablelayout/archive/master.zip, attempt 3
+2020-03-22 02:46:14,269 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/master.zip": 228 KB
+2020-03-22 02:46:14,269 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-22 02:46:14,270 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/master.zip: true
+2020-03-22 02:46:14,270 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src'.
+2020-03-22 02:46:14,304 INFO  FullProcessService - Size of directory with sources: 275 KB
+2020-03-22 02:46:14,304 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src]
+2020-03-22 02:46:14,331 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/.git/
 
-2020-02-16 19:24:56,546 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/gradlew
-2020-02-16 19:24:56,550 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/expandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/build.gradle
-2020-02-16 19:24:56,554 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/expandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/spotless.gradle
-2020-02-16 19:24:56,559 INFO  ProjectBuildService - Remote scripts: none
-2020-02-16 19:24:56,560 INFO  ProjectFixService - Fixing project...
-2020-02-16 19:24:56,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/local.properties
-2020-02-16 19:24:56,577 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-02-16 19:24:56,578 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-02-16 19:24:56,580 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/expandablelayout/local.properties
-2020-02-16 19:24:56,584 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/expandablelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-02-16 19:24:56,585 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/expandablelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-02-16 19:24:56,587 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/local.properties
-2020-02-16 19:24:56,588 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-02-16 19:24:56,589 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-02-16 19:24:56,595 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-02-16 19:24:56,595 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-02-16 19:24:56,596 INFO  ProjectFixService - Project was maybe fixed
-2020-02-16 19:24:56,596 INFO  ProjectTaskService - Detecting possible tasks...
-2020-02-16 19:24:56,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-02-16 19:25:06,294 INFO  VirusProcessorServiceImpl - Queued project 7894 to scan viruses
-2020-02-16 19:25:08,420 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-02-16 19:25:08,420 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-02-16 19:25:08,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-02-16 19:26:25,017 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 02:46:14,335 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/gradlew
+2020-03-22 02:46:14,339 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/expandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/build.gradle
+2020-03-22 02:46:14,343 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/expandablelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/spotless.gradle
+2020-03-22 02:46:14,344 INFO  ProjectBuildService - Remote scripts: none
+2020-03-22 02:46:14,344 INFO  ProjectFixService - Fixing project...
+2020-03-22 02:46:14,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/local.properties
+2020-03-22 02:46:14,359 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-22 02:46:14,359 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-22 02:46:14,361 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/expandablelayout/local.properties
+2020-03-22 02:46:14,364 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/expandablelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-22 02:46:14,365 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/expandablelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-22 02:46:14,366 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/local.properties
+2020-03-22 02:46:14,367 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-22 02:46:14,367 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-22 02:46:14,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-22 02:46:14,372 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-22 02:46:14,373 INFO  ProjectFixService - Project was maybe fixed
+2020-03-22 02:46:14,374 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 02:46:14,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 02:46:23,524 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-03-22 02:46:23,524 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-22 02:46:23,525 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-22 02:46:28,673 INFO  VirusProcessorServiceImpl - Queued project 7888 to scan viruses
+2020-03-22 02:47:34,661 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :expandablelayout
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -63,7 +63,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:createDebugCompatibleScreenManifests
 > Task :expandablelayout:checkDebugManifest
 > Task :app:mergeDebugResources
-> Task :expandablelayout:parseDebugLibraryResources
 > Task :expandablelayout:processDebugManifest
 > Task :app:processDebugManifest
 > Task :expandablelayout:generateDebugBuildConfig
@@ -75,6 +74,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :expandablelayout:generateDebugAssets
 > Task :expandablelayout:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :expandablelayout:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :expandablelayout:processDebugJavaRes NO-SOURCE
 > Task :expandablelayout:generateDebugRFile
@@ -95,9 +95,9 @@ compiler or generated code. Use it at your own risk!
 > Task :expandablelayout:javaPreCompileDebug
 > Task :expandablelayout:compileDebugJavaWithJavac
 > Task :expandablelayout:bundleLibResDebug
-> Task :expandablelayout:bundleLibRuntimeDebug
 > Task :expandablelayout:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
+> Task :expandablelayout:bundleLibRuntimeDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -124,16 +124,16 @@ compiler or generated code. Use it at your own risk!
 > Task :expandablelayout:mergeDebugNativeLibs
 > Task :expandablelayout:stripDebugDebugSymbols
 > Task :expandablelayout:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :expandablelayout:checkReleaseManifest
 > Task :expandablelayout:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :expandablelayout:generateReleaseBuildConfig
-> Task :expandablelayout:parseReleaseLibraryResources
-> Task :app:mergeDebugJavaResource
-> Task :app:mergeReleaseResources
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :expandablelayout:parseReleaseLibraryResources
+> Task :app:mergeReleaseResources
 > Task :expandablelayout:generateReleaseRFile
 > Task :app:processReleaseResources
 
@@ -199,7 +199,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 15s
+BUILD SUCCESSFUL in 1m 10s
 92 actionable tasks: 92 executed
 
-2020-02-16 19:26:25,095 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581855893793-0/src/ExpandableLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-22 02:47:34,772 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584819971976-0/src/ExpandableLayout-master/app/build/outputs/apk/debug/app-debug.apk

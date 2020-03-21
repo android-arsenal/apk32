@@ -1,36 +1,37 @@
-2019-07-26 12:59:49,508 INFO  DownloadService - Downloading "https://github.com/ibrahimsn98/live-preferences/archive/master.zip", attempt 3
-2019-07-26 12:59:51,407 INFO  DownloadService - Downloaded https://github.com/ibrahimsn98/live-preferences/archive/master.zip, attempt 3
-2019-07-26 12:59:51,407 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/master.zip": 143 KB
-2019-07-26 12:59:51,407 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-26 12:59:51,413 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/master.zip: true
-2019-07-26 12:59:51,414 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src'.
-2019-07-26 12:59:51,432 INFO  FullProcessService - Size of directory with sources: 151 KB
-2019-07-26 12:59:51,433 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src]
-2019-07-26 12:59:51,461 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/.git/
+2020-03-22 02:56:35,076 INFO  DownloadService - Downloading "https://github.com/ibrahimsn98/live-preferences/archive/master.zip", attempt 3
+2020-03-22 02:56:37,133 INFO  DownloadService - Downloaded https://github.com/ibrahimsn98/live-preferences/archive/master.zip, attempt 3
+2020-03-22 02:56:37,133 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/master.zip": 143 KB
+2020-03-22 02:56:37,133 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-22 02:56:37,133 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/master.zip: true
+2020-03-22 02:56:37,134 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src'.
+2020-03-22 02:56:37,158 INFO  FullProcessService - Size of directory with sources: 151 KB
+2020-03-22 02:56:37,159 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src]
+2020-03-22 02:56:37,194 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/.git/
 
-2019-07-26 12:59:51,465 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/gradlew
-2019-07-26 12:59:51,468 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/build.gradle
-2019-07-26 12:59:51,471 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/settings.gradle
-2019-07-26 12:59:51,471 INFO  ProjectBuildService - Remote scripts: none
-2019-07-26 12:59:51,472 INFO  ProjectFixService - Fixing project...
-2019-07-26 12:59:51,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/local.properties
-2019-07-26 12:59:51,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-26 12:59:51,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-26 12:59:51,483 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/library/local.properties
-2019-07-26 12:59:51,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-26 12:59:51,484 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-26 12:59:51,485 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/local.properties
-2019-07-26 12:59:51,485 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-07-26 12:59:51,486 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-07-26 12:59:51,487 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-26 12:59:51,487 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-26 12:59:51,488 INFO  ProjectFixService - Project was maybe fixed
-2019-07-26 12:59:51,488 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 12:59:51,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 12:59:58,992 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-26 12:59:58,992 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-26 12:59:58,993 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-26 13:00:51,436 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 02:56:37,198 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/gradlew
+2020-03-22 02:56:37,202 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle
+2020-03-22 02:56:37,205 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/settings.gradle
+2020-03-22 02:56:37,206 INFO  ProjectBuildService - Remote scripts: none
+2020-03-22 02:56:37,206 INFO  ProjectFixService - Fixing project...
+2020-03-22 02:56:37,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/local.properties
+2020-03-22 02:56:37,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 02:56:37,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 02:56:37,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/local.properties
+2020-03-22 02:56:37,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 02:56:37,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 02:56:37,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/local.properties
+2020-03-22 02:56:37,218 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2020-03-22 02:56:37,219 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2020-03-22 02:56:37,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 02:56:37,220 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 02:56:37,220 INFO  ProjectFixService - Project was maybe fixed
+2020-03-22 02:56:37,220 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 02:56:37,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 02:56:46,751 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-22 02:56:46,752 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-22 02:56:46,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-22 02:56:47,259 INFO  VirusProcessorServiceImpl - Queued project 7799 to scan viruses
+2020-03-22 02:57:49,302 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -165,7 +166,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 1m 1s
 94 actionable tasks: 94 executed
 
-2019-07-26 13:00:51,525 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564120789505-0/src/live-preferences-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-22 02:57:49,418 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build/outputs/apk/debug/app-debug.apk
