@@ -1,36 +1,36 @@
-2019-12-01 19:03:31,692 INFO  DownloadService - Downloading "https://github.com/TutorialsAndroid/VSpot/archive/master.zip", attempt 3
-2019-12-01 19:03:33,877 INFO  DownloadService - Downloaded https://github.com/TutorialsAndroid/VSpot/archive/master.zip, attempt 3
-2019-12-01 19:03:33,877 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/master.zip": 195 KB
-2019-12-01 19:03:33,877 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-01 19:03:33,877 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/master.zip: true
-2019-12-01 19:03:33,878 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src'.
-2019-12-01 19:03:33,892 INFO  FullProcessService - Size of directory with sources: 337 KB
-2019-12-01 19:03:33,893 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src]
-2019-12-01 19:03:33,913 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/.git/
+2020-03-23 01:58:31,060 INFO  DownloadService - Downloading "https://github.com/TutorialsAndroid/VSpot/archive/master.zip", attempt 3
+2020-03-23 01:58:33,502 INFO  DownloadService - Downloaded https://github.com/TutorialsAndroid/VSpot/archive/master.zip, attempt 3
+2020-03-23 01:58:33,502 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/master.zip": 195 KB
+2020-03-23 01:58:33,502 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 01:58:33,508 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/master.zip: true
+2020-03-23 01:58:33,509 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src'.
+2020-03-23 01:58:33,533 INFO  FullProcessService - Size of directory with sources: 337 KB
+2020-03-23 01:58:33,533 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src]
+2020-03-23 01:58:33,562 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/.git/
 
-2019-12-01 19:03:33,915 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/gradlew
-2019-12-01 19:03:33,917 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/build.gradle
-2019-12-01 19:03:33,919 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/settings.gradle
-2019-12-01 19:03:33,920 INFO  ProjectBuildService - Remote scripts: none
-2019-12-01 19:03:33,920 INFO  ProjectFixService - Fixing project...
-2019-12-01 19:03:33,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/library/local.properties
-2019-12-01 19:03:33,926 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:03:33,926 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:03:33,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/local.properties
-2019-12-01 19:03:33,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:03:33,927 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:03:33,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/local.properties
-2019-12-01 19:03:33,928 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-12-01 19:03:33,929 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-12-01 19:03:33,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:03:33,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-12-01 19:03:33,931 INFO  ProjectFixService - Project was maybe fixed
-2019-12-01 19:03:33,931 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-01 19:03:33,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-01 19:03:41,258 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-12-01 19:03:41,258 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-12-01 19:03:41,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-12-01 19:03:50,268 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 01:58:33,565 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/gradlew
+2020-03-23 01:58:33,568 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/build.gradle
+2020-03-23 01:58:33,571 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/settings.gradle
+2020-03-23 01:58:33,572 INFO  ProjectBuildService - Remote scripts: none
+2020-03-23 01:58:33,572 INFO  ProjectFixService - Fixing project...
+2020-03-23 01:58:33,579 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/library/local.properties
+2020-03-23 01:58:33,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:58:33,580 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:58:33,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/local.properties
+2020-03-23 01:58:33,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:58:33,582 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:58:33,584 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/local.properties
+2020-03-23 01:58:33,585 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-23 01:58:33,585 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-23 01:58:33,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:58:33,586 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:58:33,587 INFO  ProjectFixService - Project was maybe fixed
+2020-03-23 01:58:33,587 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 01:58:33,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 01:58:40,877 INFO  ProjectTaskService - Detected possible tasks: 65
+2020-03-23 01:58:40,877 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-23 01:58:40,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-23 01:58:50,510 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: The option setting 'android.overridePathCheck=true' is experimental and unsupported.
@@ -51,9 +51,9 @@ The current default is 'false'.
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:javaPreCompileDebug
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
+> Task :library:parseDebugLibraryResources
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
@@ -62,10 +62,10 @@ The current default is 'false'.
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :library:processDebugManifest
 > Task :library:mergeDebugNativeLibs
 > Task :library:stripDebugDebugSymbols
 > Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:prepareLintJarForPublish
 > Task :library:processReleaseManifest
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
@@ -74,30 +74,30 @@ The current default is 'false'.
 > Task :library:packageReleaseRenderscript NO-SOURCE
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
-> Task :library:parseDebugLibraryResources
+> Task :library:processDebugManifest
+> Task :library:mergeReleaseResources
+> Task :library:javaPreCompileDebug
 > Task :library:mergeReleaseNativeLibs
 > Task :library:stripReleaseDebugSymbols
 > Task :library:transformNativeLibsWithSyncJniLibsForRelease
-> Task :library:mergeReleaseResources
 > Task :library:generateDebugRFile
 > Task :library:compileDebugJavaWithJavac
 > Task :library:extractDebugAnnotations
 > Task :library:mergeDebugGeneratedProguardFiles
 > Task :library:mergeDebugConsumerProguardFiles
-> Task :library:compileDebugSources
-> Task :library:mergeDebugJavaResource
-> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library:prepareLintJarForPublish
-> Task :library:bundleDebugAar
-> Task :library:assembleDebug
 > Task :library:parseReleaseLibraryResources
+> Task :library:compileDebugSources
 > Task :library:javaPreCompileRelease
+> Task :library:verifyReleaseResources
 > Task :library:generateReleaseRFile
 > Task :library:compileReleaseJavaWithJavac
 > Task :library:extractReleaseAnnotations
 > Task :library:mergeReleaseGeneratedProguardFiles
 > Task :library:mergeReleaseConsumerProguardFiles
-> Task :library:verifyReleaseResources
+> Task :library:mergeDebugJavaResource
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:bundleDebugAar
+> Task :library:assembleDebug
 > Task :library:compileReleaseSources
 > Task :library:mergeReleaseJavaResource
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
@@ -110,15 +110,16 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 9s
 47 actionable tasks: 47 executed
 
-2019-12-01 19:03:50,280 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-01 19:03:50,280 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-01 19:03:55,825 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-12-01 19:03:55,825 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-01 19:03:55,825 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-01 19:04:24,811 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 01:58:50,527 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 01:58:50,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 01:58:57,367 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-03-23 01:58:57,367 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-23 01:58:57,367 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-23 01:59:19,037 INFO  VirusProcessorServiceImpl - Queued project 7922 to scan viruses
+2020-03-23 01:59:31,252 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :sample
 WARNING: The option setting 'android.overridePathCheck=true' is experimental and unsupported.
@@ -210,21 +211,21 @@ The current default is 'false'.
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
 > Task :sample:javaPreCompileRelease
-> Task :sample:mergeProjectDexDebug
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
+> Task :sample:mergeProjectDexDebug
 > Task :library:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f30b5b313ca6b7a9884cd8c7b1f028d9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/579fe06842e86639e9c38ff046763201/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
-> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :sample:checkReleaseDuplicateClasses
-> Task :library:bundleLibResRelease
 > Task :library:bundleLibRuntimeRelease
+> Task :library:bundleLibResRelease
 > Task :library:createFullJarRelease
 > Task :sample:desugarReleaseFileDependencies
 > Task :sample:transformClassesWithDexBuilderForRelease
@@ -237,18 +238,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:signingConfigWriterRelease
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :library:mergeReleaseNativeLibs UP-TO-DATE
 > Task :library:stripReleaseDebugSymbols UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -260,7 +261,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 33s
 93 actionable tasks: 62 executed, 31 up-to-date
 
-2019-12-01 19:04:24,874 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575201811689-0/src/VSpot-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-23 01:59:31,344 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903511056-0/src/VSpot-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

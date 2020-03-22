@@ -1,49 +1,49 @@
-2020-03-15 19:35:29,012 INFO  DownloadService - Downloading "https://github.com/KasperskyLab/Kaspresso/archive/master.zip", attempt 3
-2020-03-15 19:35:35,704 INFO  VirusProcessorServiceImpl - Queued project 7897 to scan viruses
-2020-03-15 19:35:36,263 INFO  DownloadService - Downloaded https://github.com/KasperskyLab/Kaspresso/archive/master.zip, attempt 3
-2020-03-15 19:35:36,264 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/master.zip": 9 MB
-2020-03-15 19:35:36,264 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-15 19:35:36,270 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/master.zip: true
-2020-03-15 19:35:36,270 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src'.
-2020-03-15 19:35:37,011 INFO  FullProcessService - Size of directory with sources: 11 MB
-2020-03-15 19:35:37,011 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src]
-2020-03-15 19:35:37,040 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/.git/
+2020-03-23 01:59:31,821 INFO  DownloadService - Downloading "https://github.com/KasperskyLab/Kaspresso/archive/master.zip", attempt 3
+2020-03-23 01:59:36,183 INFO  DownloadService - Downloaded https://github.com/KasperskyLab/Kaspresso/archive/master.zip, attempt 3
+2020-03-23 01:59:36,184 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/master.zip": 9 MB
+2020-03-23 01:59:36,184 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 01:59:36,188 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/master.zip: true
+2020-03-23 01:59:36,188 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src'.
+2020-03-23 01:59:36,735 INFO  FullProcessService - Size of directory with sources: 11 MB
+2020-03-23 01:59:36,735 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src]
+2020-03-23 01:59:36,756 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/.git/
 
-2020-03-15 19:35:37,113 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/gradlew
-2020-03-15 19:35:37,179 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kautomator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_kautomator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/allure-model/build.gradle
-2020-03-15 19:35:37,292 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kautomator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/dokka.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/static_analysis/config/qualityDetekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/allure-model/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_kautomator/build.gradle
-2020-03-15 19:35:37,294 INFO  ProjectBuildService - Remote scripts: none
-2020-03-15 19:35:37,294 INFO  ProjectFixService - Fixing project...
-2020-03-15 19:35:37,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/local.properties
-2020-03-15 19:35:37,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-03-15 19:35:37,479 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-15 19:35:37,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kautomator/local.properties
-2020-03-15 19:35:37,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kautomator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-03-15 19:35:37,493 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kautomator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-15 19:35:37,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample/local.properties
-2020-03-15 19:35:37,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-03-15 19:35:37,509 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-15 19:35:37,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_kautomator/local.properties
-2020-03-15 19:35:37,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_kautomator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-03-15 19:35:37,523 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_kautomator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-15 19:35:37,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_upgrade_tests/local.properties
-2020-03-15 19:35:37,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-03-15 19:35:37,538 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-15 19:35:37,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/local.properties
-2020-03-15 19:35:37,540 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
-2020-03-15 19:35:37,541 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
-2020-03-15 19:35:37,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-03-15 19:35:37,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-15 19:35:37,555 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/allure-model/local.properties
-2020-03-15 19:35:37,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/allure-model/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-03-15 19:35:37,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/allure-model/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-15 19:35:37,564 INFO  ProjectFixService - Project was maybe fixed
-2020-03-15 19:35:37,564 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-15 19:35:37,564 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-15 19:36:14,916 INFO  ProjectTaskService - Detected possible tasks: 86
-2020-03-15 19:36:14,916 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-15 19:36:14,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-15 19:38:07,127 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 01:59:36,810 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/gradlew
+2020-03-23 01:59:36,864 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kautomator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_kautomator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/allure-model/build.gradle
+2020-03-23 01:59:36,918 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kautomator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/dokka.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/static_analysis/config/qualityDetekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/allure-model/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_kautomator/build.gradle
+2020-03-23 01:59:36,920 INFO  ProjectBuildService - Remote scripts: none
+2020-03-23 01:59:36,920 INFO  ProjectFixService - Fixing project...
+2020-03-23 01:59:37,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/local.properties
+2020-03-23 01:59:37,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-03-23 01:59:37,037 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:59:37,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kautomator/local.properties
+2020-03-23 01:59:37,044 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kautomator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-03-23 01:59:37,044 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kautomator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:59:37,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample/local.properties
+2020-03-23 01:59:37,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-03-23 01:59:37,052 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:59:37,053 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_kautomator/local.properties
+2020-03-23 01:59:37,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_kautomator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-03-23 01:59:37,058 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_kautomator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:59:37,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_upgrade_tests/local.properties
+2020-03-23 01:59:37,065 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-03-23 01:59:37,065 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/sample_upgrade_tests/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:59:37,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/local.properties
+2020-03-23 01:59:37,067 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2020-03-23 01:59:37,067 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2020-03-23 01:59:37,073 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-03-23 01:59:37,073 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:59:37,074 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/allure-model/local.properties
+2020-03-23 01:59:37,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/allure-model/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-03-23 01:59:37,080 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/allure-model/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-03-23 01:59:37,080 INFO  ProjectFixService - Project was maybe fixed
+2020-03-23 01:59:37,080 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 01:59:37,081 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 01:59:37,513 INFO  VirusProcessorServiceImpl - Queued project 7898 to scan viruses
+2020-03-23 01:59:46,548 INFO  ProjectTaskService - Detected possible tasks: 82
+2020-03-23 01:59:46,548 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-23 01:59:46,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-23 02:01:14,079 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :kaspresso:preBuild UP-TO-DATE
 > Task :kaspresso:preDebugBuild UP-TO-DATE
 > Task :kautomator:preBuild UP-TO-DATE
@@ -62,15 +62,18 @@
 > Task :kautomator:generateDebugResources
 > Task :kautomator:packageDebugResources
 > Task :kautomator:checkDebugManifest
+> Task :kautomator:parseDebugLibraryResources
 > Task :kautomator:generateDebugBuildConfig
 > Task :kaspresso:mergeDebugShaders
 > Task :kaspresso:compileDebugShaders
 > Task :kaspresso:generateDebugAssets
 > Task :kaspresso:packageDebugAssets
 > Task :kaspresso:packageDebugRenderscript NO-SOURCE
-> Task :kaspresso:processDebugJavaRes NO-SOURCE
-> Task :kaspresso:mergeDebugJniLibFolders
+> Task :kautomator:processDebugManifest
 > Task :kaspresso:prepareLintJarForPublish
+> Task :kaspresso:processDebugJavaRes NO-SOURCE
+> Task :kaspresso:parseDebugLibraryResources
+> Task :kaspresso:mergeDebugJniLibFolders
 > Task :kaspresso:preReleaseBuild UP-TO-DATE
 > Task :kautomator:preReleaseBuild UP-TO-DATE
 > Task :kautomator:compileReleaseAidl NO-SOURCE
@@ -82,6 +85,7 @@
 > Task :kaspresso:generateReleaseResValues
 > Task :kaspresso:generateReleaseResources
 > Task :kaspresso:packageReleaseResources
+> Task :kaspresso:processDebugManifest
 > Task :kaspresso:mergeDebugNativeLibs
 > Task :kaspresso:stripDebugDebugSymbols
 > Task :kaspresso:transformNativeLibsWithSyncJniLibsForDebug
@@ -89,9 +93,8 @@
 > Task :kautomator:generateReleaseResValues
 > Task :kautomator:generateReleaseResources
 > Task :kautomator:packageReleaseResources
-> Task :kaspresso:parseReleaseLibraryResources
+> Task :kaspresso:processReleaseManifest
 > Task :kautomator:checkReleaseManifest
-> Task :kautomator:processDebugManifest
 > Task :kautomator:generateReleaseBuildConfig
 > Task :kaspresso:mergeReleaseShaders
 > Task :kaspresso:compileReleaseShaders
@@ -100,48 +103,44 @@
 > Task :kaspresso:packageReleaseRenderscript NO-SOURCE
 > Task :kaspresso:processReleaseJavaRes NO-SOURCE
 > Task :kaspresso:mergeReleaseJniLibFolders
-> Task :kaspresso:parseDebugLibraryResources
-> Task :kaspresso:mergeReleaseResources
-> Task :kaspresso:sourcesJar
-> Task :kaspresso:processDebugManifest
-> Task :kaspresso:mergeReleaseNativeLibs
-> Task :kaspresso:stripReleaseDebugSymbols
-> Task :kaspresso:transformNativeLibsWithSyncJniLibsForRelease
-> Task :kautomator:parseDebugLibraryResources
 > Task :kautomator:parseReleaseLibraryResources
-> Task :kaspresso:processReleaseManifest
+> Task :kaspresso:mergeReleaseResources
 > Task :kautomator:generateDebugRFile
-> Task :kautomator:compileDebugKotlin
 > Task :kautomator:processReleaseManifest
-> Task :kaspresso:generateDebugRFile
+> Task :kautomator:compileDebugKotlin
+> Task :kaspresso:verifyReleaseResources
 > Task :kautomator:javaPreCompileDebug
 > Task :kautomator:compileDebugJavaWithJavac
-> Task :kaspresso:verifyReleaseResources
-> Task :kautomator:generateReleaseRFile
-> Task :kautomator:compileReleaseKotlin
-> Task :kaspresso:generateReleaseRFile
+> Task :kaspresso:sourcesJar
+> Task :kaspresso:generateDebugRFile
 > Task :kautomator:bundleLibCompileDebug
+> Task :kaspresso:parseReleaseLibraryResources
+> Task :kaspresso:mergeReleaseNativeLibs
 
 > Task :kaspresso:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/src/main/kotlin/com/kaspersky/kaspresso/device/screenshots/screenshotfiles/ScreenshotsDirectoryStorage.kt: (58, 65): 'MODE_WORLD_READABLE: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/src/main/kotlin/com/kaspersky/kaspresso/device/screenshots/screenshotfiles/ScreenshotsDirectoryStorage.kt: (58, 65): 'MODE_WORLD_READABLE: Int' is deprecated. Deprecated in Java
 
-> Task :kautomator:javaPreCompileRelease
-> Task :kautomator:compileReleaseJavaWithJavac
+> Task :kautomator:generateReleaseRFile
+> Task :kautomator:compileReleaseKotlin
 > Task :kaspresso:javaPreCompileDebug
 > Task :kaspresso:compileDebugJavaWithJavac
 > Task :kaspresso:extractDebugAnnotations
 > Task :kaspresso:mergeDebugGeneratedProguardFiles
 > Task :kaspresso:mergeDebugConsumerProguardFiles
 > Task :kaspresso:compileDebugSources
-> Task :kautomator:bundleLibCompileRelease
-
-> Task :kaspresso:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/kaspresso/src/main/kotlin/com/kaspersky/kaspresso/device/screenshots/screenshotfiles/ScreenshotsDirectoryStorage.kt: (58, 65): 'MODE_WORLD_READABLE: Int' is deprecated. Deprecated in Java
-
+> Task :kaspresso:stripReleaseDebugSymbols
+> Task :kaspresso:transformNativeLibsWithSyncJniLibsForRelease
+> Task :kautomator:javaPreCompileRelease
+> Task :kautomator:compileReleaseJavaWithJavac
 > Task :kaspresso:mergeDebugJavaResource
 > Task :kaspresso:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :kaspresso:bundleDebugAar
 > Task :kaspresso:assembleDebug
+> Task :kaspresso:generateReleaseRFile
+> Task :kautomator:bundleLibCompileRelease
+
+> Task :kaspresso:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/kaspresso/src/main/kotlin/com/kaspersky/kaspresso/device/screenshots/screenshotfiles/ScreenshotsDirectoryStorage.kt: (58, 65): 'MODE_WORLD_READABLE: Int' is deprecated. Deprecated in Java
 
 > Task :kaspresso:dokka
 No documentation for androidx.test.espresso.web.assertion.WebAssertionProxy$webAssertion (WebAssertionProxy.kt:14)
@@ -1630,7 +1629,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 51s
+BUILD SUCCESSFUL in 1m 26s
 74 actionable tasks: 74 executed
 
-2020-03-15 19:38:07,286 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584275729006-0/src/Kaspresso-master/artifacts/upgrade_test_v1.apk
+2020-03-23 02:01:14,244 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903571818-0/src/Kaspresso-master/artifacts/upgrade_test_v1.apk

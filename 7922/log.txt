@@ -1,34 +1,34 @@
-2020-03-15 19:21:15,992 INFO  DownloadService - Downloading "https://github.com/muigukenneth/ElegantDialog/archive/master.zip", attempt 3
-2020-03-15 19:21:19,929 INFO  DownloadService - Downloaded https://github.com/muigukenneth/ElegantDialog/archive/master.zip, attempt 3
-2020-03-15 19:21:19,929 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/master.zip": 6 MB
-2020-03-15 19:21:19,929 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-15 19:21:19,931 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/master.zip: true
-2020-03-15 19:21:19,932 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src'.
-2020-03-15 19:21:19,993 INFO  FullProcessService - Size of directory with sources: 6 MB
-2020-03-15 19:21:19,993 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src]
-2020-03-15 19:21:20,020 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/.git/
+2020-03-23 01:56:13,734 INFO  DownloadService - Downloading "https://github.com/muigukenneth/ElegantDialog/archive/master.zip", attempt 3
+2020-03-23 01:56:18,115 INFO  DownloadService - Downloaded https://github.com/muigukenneth/ElegantDialog/archive/master.zip, attempt 3
+2020-03-23 01:56:18,116 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/master.zip": 6 MB
+2020-03-23 01:56:18,116 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 01:56:18,118 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/master.zip: true
+2020-03-23 01:56:18,119 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src'.
+2020-03-23 01:56:18,191 INFO  FullProcessService - Size of directory with sources: 6 MB
+2020-03-23 01:56:18,192 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src]
+2020-03-23 01:56:18,223 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/.git/
 
-2020-03-15 19:21:20,025 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/gradlew
-2020-03-15 19:21:20,030 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/build.gradle
-2020-03-15 19:21:20,035 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/settings.gradle
-2020-03-15 19:21:20,036 INFO  ProjectBuildService - Remote scripts: none
-2020-03-15 19:21:20,036 INFO  ProjectFixService - Fixing project...
-2020-03-15 19:21:20,050 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/local.properties
-2020-03-15 19:21:20,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-03-15 19:21:20,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/local.properties
-2020-03-15 19:21:20,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-03-15 19:21:20,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/local.properties
-2020-03-15 19:21:20,053 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-15 19:21:20,053 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-15 19:21:20,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2020-03-15 19:21:20,055 INFO  ProjectFixService - Project was maybe fixed
-2020-03-15 19:21:20,055 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-15 19:21:20,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-15 19:21:33,255 INFO  VirusProcessorServiceImpl - Queued project 7982 to scan viruses
-2020-03-15 19:21:41,095 INFO  ProjectTaskService - Detected possible tasks: 63
-2020-03-15 19:21:41,095 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-15 19:21:41,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-15 19:22:13,495 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 01:56:18,229 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/gradlew
+2020-03-23 01:56:18,234 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/build.gradle
+2020-03-23 01:56:18,238 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/settings.gradle
+2020-03-23 01:56:18,239 INFO  ProjectBuildService - Remote scripts: none
+2020-03-23 01:56:18,239 INFO  ProjectFixService - Fixing project...
+2020-03-23 01:56:18,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/local.properties
+2020-03-23 01:56:18,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2020-03-23 01:56:18,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/local.properties
+2020-03-23 01:56:18,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2020-03-23 01:56:18,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/local.properties
+2020-03-23 01:56:18,256 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-23 01:56:18,256 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-23 01:56:18,257 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2020-03-23 01:56:18,258 INFO  ProjectFixService - Project was maybe fixed
+2020-03-23 01:56:18,258 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 01:56:18,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 01:56:26,313 INFO  VirusProcessorServiceImpl - Queued project 7943 to scan viruses
+2020-03-23 01:56:27,580 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-03-23 01:56:27,580 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-23 01:56:27,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-23 01:56:53,723 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :ElegantDialog:preBuild UP-TO-DATE
 > Task :ElegantDialog:preDebugBuild UP-TO-DATE
 > Task :ElegantDialog:checkDebugManifest
@@ -46,6 +46,7 @@
 > Task :ElegantDialog:checkReleaseManifest
 > Task :ElegantDialog:generateReleaseBuildConfig
 > Task :ElegantDialog:generateReleaseResValues
+> Task :ElegantDialog:processDebugManifest
 > Task :ElegantDialog:mergeReleaseShaders
 > Task :ElegantDialog:compileReleaseShaders
 > Task :ElegantDialog:generateReleaseAssets
@@ -53,60 +54,59 @@
 > Task :ElegantDialog:packageReleaseRenderscript NO-SOURCE
 > Task :ElegantDialog:processReleaseJavaRes NO-SOURCE
 > Task :ElegantDialog:mergeReleaseJniLibFolders
-> Task :ElegantDialog:processDebugManifest
 > Task :ElegantDialog:mergeDebugNativeLibs
 > Task :ElegantDialog:stripDebugDebugSymbols
-> Task :ElegantDialog:mergeReleaseNativeLibs
 > Task :ElegantDialog:transformNativeLibsWithSyncJniLibsForDebug
-> Task :ElegantDialog:compileDebugAidl NO-SOURCE
-> Task :ElegantDialog:compileReleaseAidl NO-SOURCE
+> Task :ElegantDialog:mergeReleaseNativeLibs
 > Task :ElegantDialog:stripReleaseDebugSymbols
+> Task :ElegantDialog:transformNativeLibsWithSyncJniLibsForRelease
+> Task :ElegantDialog:processReleaseManifest
+> Task :ElegantDialog:compileDebugAidl NO-SOURCE
 > Task :ElegantDialog:compileDebugRenderscript NO-SOURCE
 > Task :ElegantDialog:generateDebugResources
 > Task :ElegantDialog:packageDebugResources
+> Task :ElegantDialog:compileReleaseAidl NO-SOURCE
 > Task :ElegantDialog:compileReleaseRenderscript NO-SOURCE
 > Task :ElegantDialog:generateReleaseResources
 > Task :ElegantDialog:packageReleaseResources
 > Task :ElegantDialog:parseDebugLibraryResources
-> Task :ElegantDialog:transformNativeLibsWithSyncJniLibsForRelease
-> Task :ElegantDialog:processReleaseManifest
-> Task :ElegantDialog:parseReleaseLibraryResources
 > Task :ElegantDialog:mergeReleaseResources
-> Task :ElegantDialog:generateReleaseRFile
-
-> Task :ElegantDialog:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (352, 43): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (358, 43): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (364, 40): Parameter 'view' is never used
-
-> Task :ElegantDialog:verifyReleaseResources
-> Task :ElegantDialog:javaPreCompileRelease
-> Task :ElegantDialog:compileReleaseJavaWithJavac
-> Task :ElegantDialog:extractReleaseAnnotations
 > Task :ElegantDialog:generateDebugRFile
 
 > Task :ElegantDialog:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (352, 43): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (358, 43): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (364, 40): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (352, 43): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (358, 43): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (364, 40): Parameter 'view' is never used
 
-> Task :ElegantDialog:mergeReleaseGeneratedProguardFiles
-> Task :ElegantDialog:mergeReleaseConsumerProguardFiles
-> Task :ElegantDialog:compileReleaseSources
+> Task :ElegantDialog:verifyReleaseResources
+> Task :ElegantDialog:parseReleaseLibraryResources
 > Task :ElegantDialog:javaPreCompileDebug
 > Task :ElegantDialog:compileDebugJavaWithJavac
 > Task :ElegantDialog:extractDebugAnnotations
 > Task :ElegantDialog:mergeDebugGeneratedProguardFiles
 > Task :ElegantDialog:mergeDebugConsumerProguardFiles
 > Task :ElegantDialog:compileDebugSources
-> Task :ElegantDialog:mergeReleaseJavaResource
-> Task :ElegantDialog:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :ElegantDialog:bundleReleaseAar
-> Task :ElegantDialog:assembleRelease
+> Task :ElegantDialog:generateReleaseRFile
+
+> Task :ElegantDialog:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (352, 43): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (358, 43): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/ElegantDialog/src/main/java/com/gurutouchlabs/kenneth/elegantdialog/ElegantDialog.kt: (364, 40): Parameter 'view' is never used
+
 > Task :ElegantDialog:mergeDebugJavaResource
 > Task :ElegantDialog:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :ElegantDialog:bundleDebugAar
 > Task :ElegantDialog:assembleDebug
+> Task :ElegantDialog:javaPreCompileRelease
+> Task :ElegantDialog:compileReleaseJavaWithJavac
+> Task :ElegantDialog:extractReleaseAnnotations
+> Task :ElegantDialog:mergeReleaseGeneratedProguardFiles
+> Task :ElegantDialog:mergeReleaseConsumerProguardFiles
+> Task :ElegantDialog:compileReleaseSources
+> Task :ElegantDialog:mergeReleaseJavaResource
+> Task :ElegantDialog:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :ElegantDialog:bundleReleaseAar
+> Task :ElegantDialog:assembleRelease
 > Task :ElegantDialog:assemble
 > Task :ElegantDialog:build
 
@@ -114,15 +114,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 25s
 49 actionable tasks: 49 executed
 
-2020-03-15 19:22:13,586 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-15 19:22:13,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-15 19:22:21,261 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-15 19:22:21,262 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-15 19:22:21,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-15 19:24:05,548 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 01:56:53,801 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 01:56:53,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 01:57:01,687 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-23 01:57:01,687 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-23 01:57:01,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-23 01:58:29,547 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :ElegantDialog:preBuild UP-TO-DATE
@@ -152,6 +152,21 @@ BUILD SUCCESSFUL in 31s
 > Task :ElegantDialog:compileDebugKotlin UP-TO-DATE
 > Task :ElegantDialog:javaPreCompileDebug UP-TO-DATE
 > Task :ElegantDialog:compileDebugJavaWithJavac UP-TO-DATE
+> Task :ElegantDialog:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (111, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (140, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (172, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (175, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (211, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (102, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (131, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (163, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (166, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (203, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/TextUtils.kt: (18, 13): Variable 'packageName' is never used
+
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -160,21 +175,6 @@ BUILD SUCCESSFUL in 31s
 > Task :ElegantDialog:generateDebugAssets UP-TO-DATE
 > Task :ElegantDialog:packageDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets
-> Task :ElegantDialog:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (111, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (140, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (172, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (175, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (211, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (102, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (131, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (163, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (166, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (203, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/TextUtils.kt: (18, 13): Variable 'packageName' is never used
-
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
@@ -218,24 +218,24 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/
 > Task :ElegantDialog:compileReleaseKotlin UP-TO-DATE
 > Task :ElegantDialog:javaPreCompileRelease UP-TO-DATE
 > Task :ElegantDialog:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :ElegantDialog:bundleLibCompileRelease
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :ElegantDialog:bundleLibCompileRelease
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (111, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (140, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (172, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (175, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (211, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (102, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (131, 71): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (163, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (166, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (203, 21): Parameter 'dialog' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/TextUtils.kt: (18, 13): Variable 'packageName' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (111, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (140, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (172, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (175, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/CustomDialogFragment.kt: (211, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (102, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (131, 71): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (163, 32): Unnecessary non-null assertion (!!) on a non-null receiver of type Context!
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (166, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/DefaultDialogFragment.kt: (203, 21): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/src/main/java/com/gurutouchlabs/kenneth/elegantdialogapp/TextUtils.kt: (18, 13): Variable 'packageName' is never used
 
 > Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
@@ -248,13 +248,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0e0264fac581812b4321a735ab9017e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:checkReleaseDuplicateClasses
 > Task :ElegantDialog:bundleLibResRelease
 > Task :ElegantDialog:bundleLibRuntimeRelease
 > Task :ElegantDialog:createFullJarRelease
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -285,7 +285,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 43s
+BUILD SUCCESSFUL in 1m 26s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2020-03-15 19:24:05,845 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584274875987-0/src/ElegantDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-23 01:58:29,761 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903373725-0/src/ElegantDialog-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,36 +1,37 @@
-2019-12-01 00:41:26,770 INFO  DownloadService - Downloading "https://github.com/lopspower/GradientView/archive/master.zip", attempt 3
-2019-12-01 00:41:31,796 INFO  DownloadService - Downloaded https://github.com/lopspower/GradientView/archive/master.zip, attempt 3
-2019-12-01 00:41:31,797 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/master.zip": 7 MB
-2019-12-01 00:41:31,797 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-01 00:41:31,799 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/master.zip: true
-2019-12-01 00:41:31,799 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src'.
-2019-12-01 00:41:31,847 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-12-01 00:41:31,847 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src]
-2019-12-01 00:41:31,867 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/.git/
+2020-03-23 02:01:15,214 INFO  DownloadService - Downloading "https://github.com/lopspower/GradientView/archive/master.zip", attempt 3
+2020-03-23 02:01:20,877 INFO  DownloadService - Downloaded https://github.com/lopspower/GradientView/archive/master.zip, attempt 3
+2020-03-23 02:01:20,877 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/master.zip": 7 MB
+2020-03-23 02:01:20,878 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 02:01:20,885 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/master.zip: true
+2020-03-23 02:01:20,886 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src'.
+2020-03-23 02:01:20,937 INFO  FullProcessService - Size of directory with sources: 7 MB
+2020-03-23 02:01:20,937 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src]
+2020-03-23 02:01:20,958 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/.git/
 
-2019-12-01 00:41:31,870 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradlew
-2019-12-01 00:41:31,873 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/build.gradle
-2019-12-01 00:41:31,875 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview/build.gradle
-2019-12-01 00:41:31,876 INFO  ProjectBuildService - Remote scripts: none
-2019-12-01 00:41:31,876 INFO  ProjectFixService - Fixing project...
-2019-12-01 00:41:31,882 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/local.properties
-2019-12-01 00:41:31,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-01 00:41:31,885 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-01 00:41:31,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview/local.properties
-2019-12-01 00:41:31,889 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-01 00:41:31,889 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-01 00:41:31,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/local.properties
-2019-12-01 00:41:31,892 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-12-01 00:41:31,893 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-12-01 00:41:31,897 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-12-01 00:41:31,897 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-12-01 00:41:31,899 INFO  ProjectFixService - Project was maybe fixed
-2019-12-01 00:41:31,899 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-01 00:41:31,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-01 00:41:40,192 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-01 00:41:40,192 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-01 00:41:40,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-01 00:42:21,315 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 02:01:20,961 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradlew
+2020-03-23 02:01:20,970 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/build.gradle
+2020-03-23 02:01:20,975 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview/build.gradle
+2020-03-23 02:01:20,975 INFO  ProjectBuildService - Remote scripts: none
+2020-03-23 02:01:20,975 INFO  ProjectFixService - Fixing project...
+2020-03-23 02:01:20,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/local.properties
+2020-03-23 02:01:20,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-23 02:01:20,987 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-23 02:01:20,989 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview/local.properties
+2020-03-23 02:01:20,992 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-23 02:01:20,992 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-23 02:01:20,994 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/local.properties
+2020-03-23 02:01:20,994 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-03-23 02:01:20,995 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-03-23 02:01:20,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-23 02:01:20,998 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-23 02:01:20,998 INFO  ProjectFixService - Project was maybe fixed
+2020-03-23 02:01:20,998 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 02:01:20,999 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 02:01:28,063 INFO  VirusProcessorServiceImpl - Queued project 7896 to scan viruses
+2020-03-23 02:01:32,820 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-23 02:01:32,820 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-23 02:01:32,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-23 02:02:32,253 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :gradientview:preBuild UP-TO-DATE
 > Task :gradientview:preDebugBuild UP-TO-DATE
 > Task :gradientview:compileDebugAidl NO-SOURCE
@@ -168,7 +169,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 40s
+BUILD SUCCESSFUL in 58s
 93 actionable tasks: 93 executed
 
-2019-12-01 00:42:21,395 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575135686765-0/src/GradientView-master/gradientview-example/build/outputs/apk/release/gradientview-example-release-unsigned.apk
+2020-03-23 02:02:32,357 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903675206-0/src/GradientView-master/gradientview-example/build/outputs/apk/release/gradientview-example-release-unsigned.apk
