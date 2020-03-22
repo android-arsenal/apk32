@@ -1,33 +1,34 @@
-2019-10-22 10:56:43,059 INFO  DownloadService - Downloading "https://github.com/bhoomit11/ValidationHelper/archive/master.zip", attempt 3
-2019-10-22 10:56:45,294 INFO  DownloadService - Downloaded https://github.com/bhoomit11/ValidationHelper/archive/master.zip, attempt 3
-2019-10-22 10:56:45,294 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/master.zip": 151 KB
-2019-10-22 10:56:45,294 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-22 10:56:45,294 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/master.zip: true
-2019-10-22 10:56:45,295 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src'.
-2019-10-22 10:56:45,316 INFO  FullProcessService - Size of directory with sources: 184 KB
-2019-10-22 10:56:45,316 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src]
-2019-10-22 10:56:45,345 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/.git/
+2020-03-22 20:14:23,082 INFO  DownloadService - Downloading "https://github.com/bhoomit11/ValidationHelper/archive/master.zip", attempt 3
+2020-03-22 20:14:24,053 INFO  DownloadService - Downloaded https://github.com/bhoomit11/ValidationHelper/archive/master.zip, attempt 3
+2020-03-22 20:14:24,053 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/master.zip": 174 KB
+2020-03-22 20:14:24,053 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-22 20:14:24,053 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/master.zip: true
+2020-03-22 20:14:24,053 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src'.
+2020-03-22 20:14:24,078 INFO  FullProcessService - Size of directory with sources: 213 KB
+2020-03-22 20:14:24,078 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src]
+2020-03-22 20:14:24,099 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/.git/
 
-2019-10-22 10:56:45,349 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/gradlew
-2019-10-22 10:56:45,353 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/validationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/build.gradle
-2019-10-22 10:56:45,357 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/validationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/settings.gradle
-2019-10-22 10:56:45,358 INFO  ProjectBuildService - Remote scripts: none
-2019-10-22 10:56:45,358 INFO  ProjectFixService - Fixing project...
-2019-10-22 10:56:45,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/app/local.properties
-2019-10-22 10:56:45,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-10-22 10:56:45,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/validationhelper/local.properties
-2019-10-22 10:56:45,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/validationhelper/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-10-22 10:56:45,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/local.properties
-2019-10-22 10:56:45,375 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-22 10:56:45,376 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-22 10:56:45,378 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-10-22 10:56:45,378 INFO  ProjectFixService - Project was maybe fixed
-2019-10-22 10:56:45,379 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-22 10:56:45,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-22 10:56:53,334 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-10-22 10:56:53,335 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-22 10:56:53,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-22 10:57:51,999 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 20:14:24,103 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/gradlew
+2020-03-22 20:14:24,107 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/validationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/build.gradle
+2020-03-22 20:14:24,112 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/validationhelper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/settings.gradle
+2020-03-22 20:14:24,112 INFO  ProjectBuildService - Remote scripts: none
+2020-03-22 20:14:24,113 INFO  ProjectFixService - Fixing project...
+2020-03-22 20:14:24,123 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/app/local.properties
+2020-03-22 20:14:24,123 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:14:24,124 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/validationhelper/local.properties
+2020-03-22 20:14:24,125 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/validationhelper/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:14:24,125 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/local.properties
+2020-03-22 20:14:24,126 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-22 20:14:24,126 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-22 20:14:24,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-03-22 20:14:24,128 INFO  ProjectFixService - Project was maybe fixed
+2020-03-22 20:14:24,128 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 20:14:24,129 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 20:14:32,074 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-22 20:14:32,074 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-22 20:14:32,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-22 20:14:38,666 INFO  VirusProcessorServiceImpl - Queued project 7940 to scan viruses
+2020-03-22 20:15:38,711 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :validationhelper:preBuild UP-TO-DATE
@@ -47,10 +48,9 @@
 > Task :validationhelper:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :validationhelper:checkDebugManifest
+> Task :app:mergeDebugResources
 > Task :validationhelper:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :validationhelper:parseDebugLibraryResources
 > Task :validationhelper:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -60,15 +60,13 @@
 > Task :validationhelper:generateDebugAssets
 > Task :validationhelper:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :validationhelper:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :validationhelper:processDebugJavaRes NO-SOURCE
 > Task :app:checkDebugDuplicateClasses
 > Task :validationhelper:generateDebugRFile
 > Task :app:processDebugResources
-
 > Task :validationhelper:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/validationhelper/src/main/java/com/master/validationhelper/ValidationHelper.kt: (124, 9): Parameter 'mobileNumberPattern' is never used
-
 > Task :validationhelper:javaPreCompileDebug
 > Task :validationhelper:compileDebugJavaWithJavac
 > Task :validationhelper:bundleLibResDebug
@@ -79,12 +77,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :validationhelper:mergeDebugJniLibFolders
+> Task :validationhelper:mergeDebugNativeLibs
+> Task :validationhelper:stripDebugDebugSymbols
+> Task :validationhelper:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :validationhelper:preReleaseBuild UP-TO-DATE
 > Task :validationhelper:compileReleaseAidl NO-SOURCE
@@ -104,31 +105,25 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/
 > Task :validationhelper:checkReleaseManifest
 > Task :validationhelper:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :validationhelper:mergeDebugNativeLibs
-> Task :validationhelper:stripDebugDebugSymbols
-> Task :validationhelper:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :validationhelper:parseReleaseLibraryResources
 > Task :validationhelper:generateReleaseBuildConfig
-> Task :app:mergeReleaseResources
-> Task :validationhelper:generateReleaseRFile
-> Task :app:processReleaseResources
-
-> Task :validationhelper:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/validationhelper/src/main/java/com/master/validationhelper/ValidationHelper.kt: (124, 9): Parameter 'mobileNumberPattern' is never used
-
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :validationhelper:javaPreCompileRelease
-> Task :validationhelper:compileReleaseJavaWithJavac
+> Task :validationhelper:parseReleaseLibraryResources
 > Task :app:prepareLintJar
 > Task :validationhelper:processReleaseJavaRes NO-SOURCE
 > Task :app:checkReleaseDuplicateClasses
 > Task :validationhelper:prepareLintJarForPublish
-> Task :validationhelper:bundleLibRuntimeRelease
-> Task :validationhelper:bundleLibResRelease
-> Task :validationhelper:createFullJarRelease
+> Task :validationhelper:generateReleaseRFile
+> Task :validationhelper:compileReleaseKotlin
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :validationhelper:javaPreCompileRelease
+> Task :validationhelper:compileReleaseJavaWithJavac
 > Task :validationhelper:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
+> Task :validationhelper:bundleLibResRelease
+> Task :validationhelper:bundleLibRuntimeRelease
+> Task :validationhelper:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -147,18 +142,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :validationhelper:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :validationhelper:mergeReleaseJniLibFolders
 > Task :validationhelper:mergeReleaseNativeLibs
 > Task :validationhelper:stripReleaseDebugSymbols
 > Task :validationhelper:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -170,7 +165,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 1m 5s
 94 actionable tasks: 94 executed
 
-2019-10-22 10:57:52,073 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1571716603054-0/src/ValidationHelper-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-22 20:15:38,824 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584882863079-0/src/ValidationHelper-master/app/build/outputs/apk/debug/app-debug.apk

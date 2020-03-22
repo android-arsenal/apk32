@@ -1,38 +1,38 @@
-2020-02-16 19:31:08,614 INFO  DownloadService - Downloading "https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip", attempt 3
-2020-02-16 19:31:09,332 INFO  DownloadService - Downloaded https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip, attempt 3
-2020-02-16 19:31:09,333 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/master.zip": 270 KB
-2020-02-16 19:31:09,333 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-02-16 19:31:09,339 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/master.zip: true
-2020-02-16 19:31:09,339 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src'.
-2020-02-16 19:31:09,394 INFO  FullProcessService - Size of directory with sources: 454 KB
-2020-02-16 19:31:09,394 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src]
-2020-02-16 19:31:09,411 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/.git/
+2020-03-22 20:22:16,390 INFO  DownloadService - Downloading "https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip", attempt 3
+2020-03-22 20:22:18,455 INFO  DownloadService - Downloaded https://github.com/manneohlund/smart-recycler-adapter/archive/master.zip, attempt 3
+2020-03-22 20:22:18,456 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/master.zip": 270 KB
+2020-03-22 20:22:18,456 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-22 20:22:18,457 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/master.zip: true
+2020-03-22 20:22:18,457 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src'.
+2020-03-22 20:22:18,549 INFO  FullProcessService - Size of directory with sources: 454 KB
+2020-03-22 20:22:18,550 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src]
+2020-03-22 20:22:18,572 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/.git/
 
-2020-02-16 19:31:09,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/gradlew
-2020-02-16 19:31:09,420 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/build.gradle
-2020-02-16 19:31:09,424 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/maven-release-script.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/maven-release-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/settings.gradle
-2020-02-16 19:31:09,425 INFO  ProjectBuildService - Remote scripts: none
-2020-02-16 19:31:09,425 INFO  ProjectFixService - Fixing project...
-2020-02-16 19:31:09,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/local.properties
-2020-02-16 19:31:09,438 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-02-16 19:31:09,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-02-16 19:31:09,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/local.properties
-2020-02-16 19:31:09,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-02-16 19:31:09,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-02-16 19:31:09,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/local.properties
-2020-02-16 19:31:09,446 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-02-16 19:31:09,447 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-02-16 19:31:09,450 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-02-16 19:31:09,450 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-02-16 19:31:09,451 INFO  ProjectFixService - Project was maybe fixed
-2020-02-16 19:31:09,451 INFO  ProjectTaskService - Detecting possible tasks...
-2020-02-16 19:31:09,451 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-02-16 19:31:09,907 INFO  VirusProcessorServiceImpl - Queued project 7786 to scan viruses
-2020-02-16 19:31:15,375 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-02-16 19:31:15,375 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-02-16 19:31:15,375 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-02-16 19:31:15,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-02-16 19:31:21,644 ERROR SysUtils - Could not process external command
+2020-03-22 20:22:18,579 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/gradlew
+2020-03-22 20:22:18,588 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/build.gradle
+2020-03-22 20:22:18,595 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/maven-release-script.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/maven-release-config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/settings.gradle
+2020-03-22 20:22:18,595 INFO  ProjectBuildService - Remote scripts: none
+2020-03-22 20:22:18,595 INFO  ProjectFixService - Fixing project...
+2020-03-22 20:22:18,616 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/local.properties
+2020-03-22 20:22:18,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-22 20:22:18,624 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-22 20:22:18,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/local.properties
+2020-03-22 20:22:18,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-22 20:22:18,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-22 20:22:18,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/local.properties
+2020-03-22 20:22:18,638 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-22 20:22:18,639 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-22 20:22:18,645 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-22 20:22:18,646 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-22 20:22:18,647 INFO  ProjectFixService - Project was maybe fixed
+2020-03-22 20:22:18,647 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 20:22:18,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 20:22:27,687 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-22 20:22:27,688 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-03-22 20:22:27,688 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-03-22 20:22:27,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-22 20:22:32,973 INFO  VirusProcessorServiceImpl - Queued project 7854 to scan viruses
+2020-03-22 20:22:37,766 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,23 +49,23 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-02-16 19:31:21,644 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 20:22:37,766 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle' line: 26
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle' line: 26
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -226,7 +226,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_15u8o7x15uax9kwt0rbj8kufm$_run_closure1$_closure4$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:26)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13$_run_closure1$_closure4$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:26)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -235,7 +235,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_15u8o7x15uax9kwt0rbj8kufm$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:25)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:25)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -250,7 +250,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_15u8o7x15uax9kwt0rbj8kufm$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:24)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:24)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -265,21 +265,21 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_15u8o7x15uax9kwt0rbj8kufm.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:8)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:8)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 131 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 9s
 
-2020-02-16 19:31:21,651 INFO  ProjectTaskService - Detecting possible tasks...
-2020-02-16 19:31:21,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-02-16 19:31:31,387 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-02-16 19:31:31,387 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-02-16 19:31:31,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-02-16 19:32:05,040 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 20:22:37,779 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 20:22:37,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 20:22:55,150 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-03-22 20:22:55,150 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-22 20:22:55,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-22 20:23:45,078 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :smartadapter:preBuild UP-TO-DATE
 > Task :smartadapter:preDebugBuild UP-TO-DATE
 > Task :smartadapter:checkDebugManifest
@@ -294,13 +294,23 @@ BUILD FAILED in 5s
 > Task :smartadapter:mergeDebugJniLibFolders
 > Task :smartadapter:prepareLintJarForPublish
 > Task :smartadapter:processDebugManifest
-> Task :smartadapter:preReleaseBuild UP-TO-DATE
-> Task :smartadapter:checkReleaseManifest
-> Task :smartadapter:generateReleaseBuildConfig
-> Task :smartadapter:generateReleaseResValues
+> Task :smartadapter:compileDebugAidl NO-SOURCE
+> Task :smartadapter:compileDebugRenderscript NO-SOURCE
+> Task :smartadapter:generateDebugResources
+> Task :smartadapter:packageDebugResources
 > Task :smartadapter:mergeDebugNativeLibs
 > Task :smartadapter:stripDebugDebugSymbols
 > Task :smartadapter:transformNativeLibsWithSyncJniLibsForDebug
+> Task :smartadapter:preReleaseBuild UP-TO-DATE
+> Task :smartadapter:compileReleaseAidl NO-SOURCE
+> Task :smartadapter:compileReleaseRenderscript NO-SOURCE
+> Task :smartadapter:mergeDebugResources
+> Task :smartadapter:parseDebugLibraryResources
+> Task :smartadapter:checkReleaseManifest
+> Task :smartadapter:generateReleaseBuildConfig
+> Task :smartadapter:generateReleaseResValues
+> Task :smartadapter:generateReleaseResources
+> Task :smartadapter:packageReleaseResources
 > Task :smartadapter:mergeReleaseShaders
 > Task :smartadapter:compileReleaseShaders
 > Task :smartadapter:generateReleaseAssets
@@ -308,99 +318,89 @@ BUILD FAILED in 5s
 > Task :smartadapter:packageReleaseRenderscript NO-SOURCE
 > Task :smartadapter:processReleaseJavaRes NO-SOURCE
 > Task :smartadapter:mergeReleaseJniLibFolders
-> Task :smartadapter:processReleaseManifest
+> Task :smartadapter:mergeReleaseResources
 
 > Task :smartadapter:javadoc
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemMovedListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewDetachedFromWindowListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemSelectedListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewAttachedToWindowListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemClickListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnLoadMoreListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemLongClickListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewEventListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemLongClickSelectedListener.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/SwipeExtensionBuilder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DiffUtilExtensionBuilder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DiffUtilExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DefaultDiffUtilExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DragAndDropExtensionBuilder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/BasicDragAndDropExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DragAndDropExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/SwipeExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/BasicSwipeExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/AutoDragAndDropExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/ViewTypeResolver.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/AutoRemoveItemSwipeExtension.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartRecyclerAdapter.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/extension/ListExtensions.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/extension/KClassExt.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewEventMapper.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewEventBinderProvider.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewHolderMapper.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewHolderConstructorMapper.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/utils/ReflectionUtils.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/utils/ViewEventValidator.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/exception/ConstructorNotFoundException.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/factory/SmartRecyclerAdapterExtensionFactory.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SingleSelectionStateHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SelectionStateHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SmartStateHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartExtensionBuilder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/ISmartRecyclerAdapter.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartEndlessScrollRecyclerAdapter.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartAdapterBuilder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/LoadMoreViewHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/StatefulViewHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/SmartAdapterHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/ViewEventListenerHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/SmartViewHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/DraggableViewHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/BindableViewHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/RecyclableViewHolder.kt"
-javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/ISmartEndlessScrollRecyclerAdapter.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemMovedListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewDetachedFromWindowListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemSelectedListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewAttachedToWindowListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemClickListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnLoadMoreListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemLongClickListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnViewEventListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/listener/OnItemLongClickSelectedListener.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/SwipeExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DiffUtilExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DiffUtilExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DefaultDiffUtilExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DragAndDropExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/BasicDragAndDropExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/DragAndDropExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/SwipeExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/BasicSwipeExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/AutoDragAndDropExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/ViewTypeResolver.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/widget/AutoRemoveItemSwipeExtension.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartRecyclerAdapter.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/extension/ListExtensions.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/extension/KClassExt.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewEventMapper.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewEventBinderProvider.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewHolderMapper.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/mapper/ViewHolderConstructorMapper.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/utils/ReflectionUtils.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/utils/ViewEventValidator.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/exception/ConstructorNotFoundException.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/internal/factory/SmartRecyclerAdapterExtensionFactory.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SingleSelectionStateHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SelectionStateHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/state/SmartStateHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartExtensionBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/ISmartRecyclerAdapter.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartEndlessScrollRecyclerAdapter.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/SmartAdapterBuilder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/LoadMoreViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/StatefulViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/SmartAdapterHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/ViewEventListenerHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/SmartViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/DraggableViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/BindableViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/viewholder/RecyclableViewHolder.kt"
+javadoc: error - Illegal package name: "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/smartadapter/src/main/java/smartadapter/ISmartEndlessScrollRecyclerAdapter.kt"
 48 errors
 
-> Task :smartadapter:mergeReleaseNativeLibs
-> Task :smartadapter:stripReleaseDebugSymbols
-> Task :smartadapter:transformNativeLibsWithSyncJniLibsForRelease
 > Task :smartadapter:javadocJar
-> Task :smartadapter:compileDebugAidl NO-SOURCE
-> Task :smartadapter:compileDebugRenderscript NO-SOURCE
-> Task :smartadapter:generateDebugResources
-> Task :smartadapter:packageDebugResources
-> Task :smartadapter:mergeDebugResources
-> Task :smartadapter:compileReleaseAidl NO-SOURCE
-> Task :smartadapter:compileReleaseRenderscript NO-SOURCE
-> Task :smartadapter:generateReleaseResources
-> Task :smartadapter:packageReleaseResources
-> Task :smartadapter:mergeReleaseResources
 > Task :smartadapter:sourcesJar
-> Task :smartadapter:parseReleaseLibraryResources
-> Task :smartadapter:parseDebugLibraryResources
 > Task :smartadapter:generateDebugRFile
 > Task :smartadapter:compileDebugKotlin
-> Task :smartadapter:verifyReleaseResources
+> Task :smartadapter:parseReleaseLibraryResources
+> Task :smartadapter:processReleaseManifest
 > Task :smartadapter:generateReleaseRFile
 > Task :smartadapter:compileReleaseKotlin
 > Task :smartadapter:javaPreCompileDebug
+> Task :smartadapter:mergeReleaseNativeLibs
 > Task :smartadapter:compileDebugJavaWithJavac
 > Task :smartadapter:extractDebugAnnotations
 > Task :smartadapter:mergeDebugGeneratedProguardFiles
 > Task :smartadapter:mergeDebugConsumerProguardFiles
 > Task :smartadapter:compileDebugSources
+> Task :smartadapter:verifyReleaseResources
 > Task :smartadapter:javaPreCompileRelease
 > Task :smartadapter:compileReleaseJavaWithJavac
 > Task :smartadapter:extractReleaseAnnotations
 > Task :smartadapter:mergeReleaseGeneratedProguardFiles
 > Task :smartadapter:mergeReleaseConsumerProguardFiles
-> Task :smartadapter:compileReleaseSources
 > Task :smartadapter:mergeDebugJavaResource
 > Task :smartadapter:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :smartadapter:bundleDebugAar
 > Task :smartadapter:assembleDebug
+> Task :smartadapter:compileReleaseSources
 > Task :smartadapter:mergeReleaseJavaResource
 > Task :smartadapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :smartadapter:stripReleaseDebugSymbols
+> Task :smartadapter:transformNativeLibsWithSyncJniLibsForRelease
 > Task :smartadapter:bundleReleaseAar
 > Task :smartadapter:assembleRelease
 > Task :smartadapter:assemble
@@ -410,16 +410,16 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 33s
+BUILD SUCCESSFUL in 49s
 53 actionable tasks: 53 executed
 
-2020-02-16 19:32:05,100 INFO  ProjectTaskService - Detecting possible tasks...
-2020-02-16 19:32:05,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-02-16 19:32:09,512 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-02-16 19:32:09,512 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-02-16 19:32:09,512 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-02-16 19:32:09,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-02-16 19:32:14,032 ERROR SysUtils - Could not process external command
+2020-03-22 20:23:45,255 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-22 20:23:45,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-22 20:23:55,953 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-22 20:23:55,954 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-03-22 20:23:55,954 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-03-22 20:23:55,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-22 20:24:03,870 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -436,23 +436,23 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-02-16 19:32:14,033 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-22 20:24:03,871 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle' line: 26
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle' line: 26
 
 * What went wrong:
 A problem occurred evaluating project ':sample'.
@@ -613,7 +613,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:506)
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_15u8o7x15uax9kwt0rbj8kufm$_run_closure1$_closure4$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:26)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13$_run_closure1$_closure4$_closure8.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:26)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -622,7 +622,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:88)
 	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:39)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:65)
-	at build_15u8o7x15uax9kwt0rbj8kufm$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:25)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13$_run_closure1$_closure4.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:25)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:142)
@@ -637,7 +637,7 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.internal.metaobject.CompositeDynamicObject.tryInvokeMethod(CompositeDynamicObject.java:98)
 	at org.gradle.internal.extensibility.MixInClosurePropertiesAsMethodsDynamicObject.tryInvokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:33)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:56)
-	at build_15u8o7x15uax9kwt0rbj8kufm$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:24)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:24)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -652,14 +652,14 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:132)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:81)
-	at build_15u8o7x15uax9kwt0rbj8kufm.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1581856268605-0/src/smart-recycler-adapter-master/sample/build.gradle:8)
+	at build_6zxnsmsrr2dj9phpj4ynl9p13.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584883336386-0/src/smart-recycler-adapter-master/sample/build.gradle:8)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 131 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 7s
 
-2020-02-16 19:32:14,105 ERROR FullProcessService - Project build has not produced APK file
-2020-02-16 19:32:14,172 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-22 20:24:03,983 ERROR FullProcessService - Project build has not produced APK file
+2020-03-22 20:24:04,094 ERROR FullProcessService - Could not find generated or existed APK file
