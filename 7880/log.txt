@@ -1,47 +1,64 @@
-2019-10-06 21:15:45,945 INFO  DownloadService - Downloading "https://github.com/kibotu/AndroidResourceExtensions/archive/master.zip", attempt 3
-2019-10-06 21:15:48,261 INFO  DownloadService - Downloaded https://github.com/kibotu/AndroidResourceExtensions/archive/master.zip, attempt 3
-2019-10-06 21:15:48,261 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/master.zip": 194 KB
-2019-10-06 21:15:48,261 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 21:15:48,266 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/master.zip: true
-2019-10-06 21:15:48,267 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src'.
-2019-10-06 21:15:48,311 INFO  FullProcessService - Size of directory with sources: 267 KB
-2019-10-06 21:15:48,311 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src]
-2019-10-06 21:15:48,360 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/.git/
+2020-03-23 23:21:20,457 INFO  DownloadService - Downloading "https://github.com/kibotu/AndroidResourceExtensions/archive/master.zip", attempt 3
+2020-03-23 23:21:22,517 INFO  DownloadService - Downloaded https://github.com/kibotu/AndroidResourceExtensions/archive/master.zip, attempt 3
+2020-03-23 23:21:22,517 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/master.zip": 198 KB
+2020-03-23 23:21:22,517 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-23 23:21:22,522 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/master.zip: true
+2020-03-23 23:21:22,523 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src'.
+2020-03-23 23:21:22,546 INFO  FullProcessService - Size of directory with sources: 273 KB
+2020-03-23 23:21:22,546 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src]
+2020-03-23 23:21:22,565 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/.git/
 
-2019-10-06 21:15:48,365 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/gradlew
-2019-10-06 21:15:48,372 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/build.gradle
-2019-10-06 21:15:48,380 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/settings.gradle
-2019-10-06 21:15:48,392 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/exozet/Android-Dependencies/master/bintray.gradle", attempt 3
-2019-10-06 21:15:49,252 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/exozet/Android-Dependencies/master/bintray.gradle, attempt 3
-2019-10-06 21:15:49,253 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/exozet/Android-Dependencies/master/bintray.gradle
-2019-10-06 21:15:49,253 INFO  ProjectFixService - Fixing project...
-2019-10-06 21:15:49,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/local.properties
-2019-10-06 21:15:49,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 21:15:49,268 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/local.properties
-2019-10-06 21:15:49,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 21:15:49,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/local.properties
-2019-10-06 21:15:49,270 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-10-06 21:15:49,270 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-10-06 21:15:49,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 21:15:49,271 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 21:15:49,272 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 21:15:49,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 21:15:58,214 INFO  ProjectTaskService - Detected possible tasks: 65
-2019-10-06 21:15:58,214 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-06 21:15:58,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-06 21:16:23,537 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 23:21:22,568 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/gradlew
+2020-03-23 23:21:22,572 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/build.gradle
+2020-03-23 23:21:22,575 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/javadoc.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/settings.gradle
+2020-03-23 23:21:22,576 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/exozet/Android-Dependencies/master/bintray.gradle", attempt 3
+2020-03-23 23:21:22,843 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/exozet/Android-Dependencies/master/bintray.gradle, attempt 3
+2020-03-23 23:21:22,843 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/exozet/Android-Dependencies/master/bintray.gradle
+2020-03-23 23:21:22,843 INFO  ProjectFixService - Fixing project...
+2020-03-23 23:21:22,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/local.properties
+2020-03-23 23:21:22,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:21:22,856 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:21:22,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/local.properties
+2020-03-23 23:21:22,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:21:22,858 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:21:22,859 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/local.properties
+2020-03-23 23:21:22,859 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.2.1-bin.zip
+2020-03-23 23:21:22,861 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-03-23 23:21:22,861 INFO  ProjectFixService - Project was maybe fixed
+2020-03-23 23:21:22,861 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 23:21:22,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 23:21:36,218 INFO  VirusProcessorServiceImpl - Queued project 7904 to scan viruses
+2020-03-23 23:21:48,932 INFO  ProjectTaskService - Detected possible tasks: 77
+2020-03-23 23:21:48,932 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-23 23:21:48,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-23 23:22:13,427 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 
 > Configure project :ResourceExtensions
+WARNING: The following project options are deprecated and have been removed: 
+android.enableUnitTestBinaryResources
+The raw resource for unit test functionality is removed.
+
+
+WARNING: The option 'android.enableR8' is deprecated and should not be used anymore.
+It will be removed in a future version of the Android Gradle plugin, and will no longer allow you to disable R8.
 WARNING: The option setting 'android.enableR8.fullMode=true' is experimental and unsupported.
 The current default is 'false'.
 
 WARNING: The option setting 'android.enableSeparateAnnotationProcessing=true' is experimental and unsupported.
 The current default is 'false'.
 
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Task :ResourceExtensions:preBuild UP-TO-DATE
 > Task :ResourceExtensions:preDebugBuild UP-TO-DATE
-> Task :ResourceExtensions:checkDebugManifest
+> Task :ResourceExtensions:mergeDebugJniLibFolders
+> Task :ResourceExtensions:mergeDebugNativeLibs
+> Task :ResourceExtensions:stripDebugDebugSymbols
+> Task :ResourceExtensions:copyDebugJniLibsProjectAndLocalJars
 > Task :ResourceExtensions:generateDebugBuildConfig
 > Task :ResourceExtensions:generateDebugResValues
 > Task :ResourceExtensions:mergeDebugShaders
@@ -50,9 +67,9 @@ The current default is 'false'.
 > Task :ResourceExtensions:packageDebugAssets
 > Task :ResourceExtensions:packageDebugRenderscript NO-SOURCE
 > Task :ResourceExtensions:processDebugJavaRes NO-SOURCE
-> Task :ResourceExtensions:mergeDebugJniLibFolders
 > Task :ResourceExtensions:preReleaseBuild UP-TO-DATE
-> Task :ResourceExtensions:checkReleaseManifest
+> Task :ResourceExtensions:mergeReleaseJniLibFolders
+> Task :ResourceExtensions:prepareLintJarForPublish
 > Task :ResourceExtensions:generateReleaseBuildConfig
 > Task :ResourceExtensions:generateReleaseResValues
 > Task :ResourceExtensions:mergeReleaseShaders
@@ -61,19 +78,11 @@ The current default is 'false'.
 > Task :ResourceExtensions:packageReleaseAssets
 > Task :ResourceExtensions:packageReleaseRenderscript NO-SOURCE
 > Task :ResourceExtensions:processReleaseJavaRes NO-SOURCE
-> Task :ResourceExtensions:mergeReleaseJniLibFolders
-> Task :ResourceExtensions:mergeDebugNativeLibs
-> Task :ResourceExtensions:stripDebugDebugSymbols
-> Task :ResourceExtensions:transformNativeLibsWithSyncJniLibsForDebug
 > Task :ResourceExtensions:mergeReleaseNativeLibs
 > Task :ResourceExtensions:stripReleaseDebugSymbols
-> Task :ResourceExtensions:transformNativeLibsWithSyncJniLibsForRelease
-> Task :ResourceExtensions:prepareLintJarForPublish
-> Task :ResourceExtensions:processDebugManifest
+> Task :ResourceExtensions:copyReleaseJniLibsProjectAndLocalJars
 > Task :ResourceExtensions:processReleaseManifest
-> Task :ResourceExtensions:javadoc NO-SOURCE
-> Task :ResourceExtensions:javadocJar
-> Task :ResourceExtensions:sourcesJar
+> Task :ResourceExtensions:processDebugManifest
 > Task :ResourceExtensions:compileDebugAidl NO-SOURCE
 > Task :ResourceExtensions:compileDebugRenderscript NO-SOURCE
 > Task :ResourceExtensions:generateDebugResources
@@ -82,167 +91,133 @@ The current default is 'false'.
 > Task :ResourceExtensions:compileReleaseRenderscript NO-SOURCE
 > Task :ResourceExtensions:generateReleaseResources
 > Task :ResourceExtensions:packageReleaseResources
+> Task :ResourceExtensions:parseDebugLocalResources
+> Task :ResourceExtensions:parseReleaseLocalResources
+> Task :ResourceExtensions:javadoc NO-SOURCE
 > Task :ResourceExtensions:mergeReleaseResources
-> Task :ResourceExtensions:parseDebugLibraryResources
-> Task :ResourceExtensions:parseReleaseLibraryResources
-> Task :ResourceExtensions:generateDebugRFile
-
-> Task :ResourceExtensions:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/ManifestPermission.kt: (186, 1): The feature "inline classes" is experimental
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (91, 28): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (92, 10): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (93, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (99, 10): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (100, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-
-> Task :ResourceExtensions:verifyReleaseResources
 > Task :ResourceExtensions:generateReleaseRFile
 
 > Task :ResourceExtensions:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/ManifestPermission.kt: (186, 1): The feature "inline classes" is experimental
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (91, 28): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (92, 10): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (93, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (99, 10): 'locale: Locale!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (100, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/ManifestPermission.kt: (186, 1): The feature "inline classes" is experimental
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (91, 28): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (92, 10): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (93, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (99, 10): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (100, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
 
-> Task :ResourceExtensions:javaPreCompileDebug
-> Task :ResourceExtensions:processDebugAnnotationsWithJavac
-> Task :ResourceExtensions:compileDebugJavaWithJavac
-> Task :ResourceExtensions:extractDebugAnnotations
-> Task :ResourceExtensions:mergeDebugGeneratedProguardFiles
-> Task :ResourceExtensions:mergeDebugConsumerProguardFiles
-> Task :ResourceExtensions:compileDebugSources
+> Task :ResourceExtensions:javadocJar
+> Task :ResourceExtensions:sourcesJar
 > Task :ResourceExtensions:javaPreCompileRelease
-> Task :ResourceExtensions:processReleaseAnnotationsWithJavac
+> Task :ResourceExtensions:processReleaseAnnotationsWithJavac SKIPPED
 > Task :ResourceExtensions:compileReleaseJavaWithJavac
 > Task :ResourceExtensions:extractReleaseAnnotations
 > Task :ResourceExtensions:mergeReleaseGeneratedProguardFiles
 > Task :ResourceExtensions:mergeReleaseConsumerProguardFiles
 > Task :ResourceExtensions:compileReleaseSources
-> Task :ResourceExtensions:mergeDebugJavaResource
-> Task :ResourceExtensions:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :ResourceExtensions:bundleDebugAar
-> Task :ResourceExtensions:assembleDebug
+> Task :ResourceExtensions:verifyReleaseResources
 > Task :ResourceExtensions:mergeReleaseJavaResource
-> Task :ResourceExtensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :ResourceExtensions:syncReleaseLibJars
 > Task :ResourceExtensions:bundleReleaseAar
 > Task :ResourceExtensions:assembleRelease
+> Task :ResourceExtensions:generateDebugRFile
+
+> Task :ResourceExtensions:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/ManifestPermission.kt: (186, 1): The feature "inline classes" is experimental
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (91, 28): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (92, 10): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (93, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (99, 10): 'locale: Locale!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/ResourceExtensions/src/main/java/net/kibotu/resourceextension/Resource+Extensions.kt: (100, 9): 'updateConfiguration(Configuration!, DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+
+> Task :ResourceExtensions:javaPreCompileDebug
+> Task :ResourceExtensions:processDebugAnnotationsWithJavac SKIPPED
+> Task :ResourceExtensions:compileDebugJavaWithJavac
+> Task :ResourceExtensions:extractDebugAnnotations
+> Task :ResourceExtensions:mergeDebugGeneratedProguardFiles
+> Task :ResourceExtensions:mergeDebugConsumerProguardFiles
+> Task :ResourceExtensions:compileDebugSources
+> Task :ResourceExtensions:mergeDebugJavaResource
+> Task :ResourceExtensions:syncDebugLibJars
+> Task :ResourceExtensions:bundleDebugAar
+> Task :ResourceExtensions:assembleDebug
 > Task :ResourceExtensions:assemble
 > Task :ResourceExtensions:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 24s
-53 actionable tasks: 53 executed
+BUILD SUCCESSFUL in 23s
+49 actionable tasks: 49 executed
 
-2019-10-06 21:16:23,580 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 21:16:23,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 21:16:32,036 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-10-06 21:16:32,036 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 21:16:32,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 21:17:27,024 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-23 23:22:13,487 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-23 23:22:13,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-23 23:22:20,781 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-03-23 23:22:20,781 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-23 23:22:20,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-23 23:23:04,006 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.2.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 
 > Configure project :app
+WARNING: The following project options are deprecated and have been removed: 
+android.enableUnitTestBinaryResources
+The raw resource for unit test functionality is removed.
+
+
+WARNING: The option 'android.enableR8' is deprecated and should not be used anymore.
+It will be removed in a future version of the Android Gradle plugin, and will no longer allow you to disable R8.
 WARNING: The option setting 'android.enableR8.fullMode=true' is experimental and unsupported.
 The current default is 'false'.
 
 WARNING: The option setting 'android.enableSeparateAnnotationProcessing=true' is experimental and unsupported.
 The current default is 'false'.
 
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Configure project :ResourceExtensions
+WARNING: The following project options are deprecated and have been removed: 
+android.enableUnitTestBinaryResources
+The raw resource for unit test functionality is removed.
+
+
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.6.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :ResourceExtensions:preBuild UP-TO-DATE
 > Task :ResourceExtensions:preDebugBuild UP-TO-DATE
-> Task :ResourceExtensions:packageDebugRenderscript NO-SOURCE
 > Task :ResourceExtensions:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
+> Task :ResourceExtensions:packageDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
-> Task :app:generateDebugResources
 > Task :ResourceExtensions:generateDebugResValues UP-TO-DATE
 > Task :ResourceExtensions:compileDebugRenderscript NO-SOURCE
 > Task :ResourceExtensions:generateDebugResources UP-TO-DATE
 > Task :ResourceExtensions:packageDebugResources UP-TO-DATE
 > Task :app:createDebugCompatibleScreenManifests
-> Task :ResourceExtensions:checkDebugManifest UP-TO-DATE
+> Task :app:extractDeepLinksDebug
+> Task :ResourceExtensions:extractDeepLinksDebug
 > Task :ResourceExtensions:processDebugManifest UP-TO-DATE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:generateDebugResources
 > Task :app:processDebugManifest
+> Task :ResourceExtensions:compileDebugLibraryResources
 > Task :app:mergeDebugResources
-> Task :ResourceExtensions:parseDebugLibraryResources UP-TO-DATE
+> Task :ResourceExtensions:parseDebugLocalResources UP-TO-DATE
 > Task :ResourceExtensions:generateDebugRFile UP-TO-DATE
 > Task :app:processDebugResources
 > Task :ResourceExtensions:generateDebugBuildConfig UP-TO-DATE
 > Task :ResourceExtensions:compileDebugKotlin UP-TO-DATE
 > Task :ResourceExtensions:javaPreCompileDebug UP-TO-DATE
-> Task :ResourceExtensions:processDebugAnnotationsWithJavac UP-TO-DATE
+> Task :ResourceExtensions:processDebugAnnotationsWithJavac SKIPPED
 > Task :ResourceExtensions:compileDebugJavaWithJavac UP-TO-DATE
-> Task :ResourceExtensions:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (32, 13): Variable 'my_integer' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (33, 13): Variable 'my_long' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (34, 13): Variable 'my_string' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (35, 13): Variable 'my_string_args' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (36, 13): Variable 'my_string_args_float' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (37, 13): Variable 'my_localized_string' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (39, 17): Variable 'my_localized_resources' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (41, 13): Variable 'my_quantityString' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (42, 13): Variable 'my_quantityString_args' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (44, 13): Variable 'my_boolean' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (45, 13): Variable 'my_color_long' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (46, 13): Variable 'my_color' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (47, 13): Variable 'my_dimension' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (48, 13): Variable 'my_string_html' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (49, 13): Variable 'my_html' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (50, 13): Variable 'my_csv' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (51, 13): Variable 'my_xml' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (53, 13): Variable 'my_fraction' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (54, 13): Variable 'my_int_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (55, 13): Variable 'my_string_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (56, 13): Variable 'my_character_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (58, 13): Variable 'my_icons_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (60, 13): Variable 'my_icons_array_color_int' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (62, 13): Variable 'my_colors_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (64, 13): Variable 'my_colors_array_drawable' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (65, 20): Variable 'my_id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (66, 13): Variable 'my_res_name' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (67, 13): Variable 'my_res_type_name' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (68, 13): Variable 'my_res_package_name' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (69, 24): Variable 'my_res_string_id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (70, 26): Variable 'my_res_drawable_id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (71, 26): Variable 'my_res_drawable_id_with_error_handling' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (72, 13): Variable 'my_drawable' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (73, 13): Variable 'my_anim' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (74, 13): Variable 'my_animator' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (75, 13): Variable 'my_font' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (76, 13): Variable 'my_raw' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (77, 13): Variable 'my_interpolator' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (78, 13): Variable 'my_res_layout_animation_controller' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (80, 17): Variable 'my_transition' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (82, 13): Variable 'my_layout' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (83, 13): Variable 'my_inflated_layout' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (84, 13): Variable 'my_dp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (85, 13): Variable 'my_dp_int' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (86, 13): Variable 'my_px' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (87, 13): Variable 'my_px_int' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (88, 13): Variable 'my_sp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (89, 13): Variable 'my_screen_width_dp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (90, 13): Variable 'my_screen_height_dp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (91, 13): Variable 'my_screen_width_pixels' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (92, 13): Variable 'my_screen_height_pixels' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (93, 13): Variable 'my_bytes_from_assets' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (94, 13): Variable 'my_string_from_assets' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (95, 13): Variable 'my_device_is_rtl' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (96, 13): Variable 'my_string_is_a_telephone_link' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (97, 13): Variable 'my_string_is_a_mailto_link' is never used
-
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -251,33 +226,90 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/
 > Task :ResourceExtensions:generateDebugAssets UP-TO-DATE
 > Task :ResourceExtensions:packageDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets
+> Task :ResourceExtensions:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (32, 13): Variable 'my_integer' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (33, 13): Variable 'my_long' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (34, 13): Variable 'my_string' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (35, 13): Variable 'my_string_args' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (36, 13): Variable 'my_string_args_float' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (37, 13): Variable 'my_localized_string' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (39, 17): Variable 'my_localized_resources' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (41, 13): Variable 'my_quantityString' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (42, 13): Variable 'my_quantityString_args' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (44, 13): Variable 'my_boolean' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (45, 13): Variable 'my_color_long' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (46, 13): Variable 'my_color' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (47, 13): Variable 'my_dimension' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (48, 13): Variable 'my_string_html' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (49, 13): Variable 'my_html' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (50, 13): Variable 'my_csv' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (51, 13): Variable 'my_xml' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (53, 13): Variable 'my_fraction' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (54, 13): Variable 'my_int_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (55, 13): Variable 'my_string_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (56, 13): Variable 'my_character_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (58, 13): Variable 'my_icons_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (60, 13): Variable 'my_icons_array_color_int' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (62, 13): Variable 'my_colors_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (64, 13): Variable 'my_colors_array_drawable' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (65, 20): Variable 'my_id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (66, 13): Variable 'my_res_name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (67, 13): Variable 'my_res_type_name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (68, 13): Variable 'my_res_package_name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (69, 24): Variable 'my_res_string_id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (70, 26): Variable 'my_res_drawable_id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (71, 26): Variable 'my_res_drawable_id_with_error_handling' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (72, 13): Variable 'my_drawable' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (73, 13): Variable 'my_anim' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (74, 13): Variable 'my_animator' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (75, 13): Variable 'my_font' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (76, 13): Variable 'my_raw' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (77, 13): Variable 'my_interpolator' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (78, 13): Variable 'my_res_layout_animation_controller' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (80, 17): Variable 'my_transition' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (82, 13): Variable 'my_layout' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (83, 13): Variable 'my_inflated_layout' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (84, 13): Variable 'my_dp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (85, 13): Variable 'my_dp_int' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (86, 13): Variable 'my_px' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (87, 13): Variable 'my_px_int' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (88, 13): Variable 'my_sp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (89, 13): Variable 'my_screen_width_dp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (90, 13): Variable 'my_screen_height_dp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (91, 13): Variable 'my_screen_width_pixels' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (92, 13): Variable 'my_screen_height_pixels' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (93, 13): Variable 'my_bytes_from_assets' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (94, 13): Variable 'my_string_from_assets' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (95, 13): Variable 'my_device_is_rtl' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (96, 13): Variable 'my_string_is_a_telephone_link' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (97, 13): Variable 'my_string_is_a_mailto_link' is never used
+
 > Task :app:javaPreCompileDebug
-> Task :app:processDebugAnnotationsWithJavac
+> Task :app:processDebugAnnotationsWithJavac SKIPPED
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :ResourceExtensions:processDebugJavaRes NO-SOURCE
 > Task :ResourceExtensions:bundleLibResDebug
 > Task :ResourceExtensions:bundleLibRuntimeDebug
-> Task :ResourceExtensions:createFullJarDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugJavaResource
-> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:desugarDebugFileDependencies
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :ResourceExtensions:mergeDebugJniLibFolders UP-TO-DATE
 > Task :ResourceExtensions:mergeDebugNativeLibs UP-TO-DATE
 > Task :ResourceExtensions:stripDebugDebugSymbols UP-TO-DATE
-> Task :ResourceExtensions:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :ResourceExtensions:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :ResourceExtensions:preReleaseBuild UP-TO-DATE
 > Task :ResourceExtensions:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :ResourceExtensions:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -286,92 +318,91 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/
 > Task :ResourceExtensions:generateReleaseResValues UP-TO-DATE
 > Task :ResourceExtensions:generateReleaseResources UP-TO-DATE
 > Task :ResourceExtensions:packageReleaseResources UP-TO-DATE
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :ResourceExtensions:checkReleaseManifest UP-TO-DATE
+> Task :app:extractDeepLinksRelease
+> Task :ResourceExtensions:extractDeepLinksRelease
 > Task :ResourceExtensions:processReleaseManifest UP-TO-DATE
 > Task :app:processReleaseManifest
-> Task :ResourceExtensions:parseReleaseLibraryResources UP-TO-DATE
+> Task :app:mergeReleaseResources
+> Task :ResourceExtensions:parseReleaseLocalResources UP-TO-DATE
 > Task :ResourceExtensions:generateReleaseRFile UP-TO-DATE
 > Task :ResourceExtensions:generateReleaseBuildConfig UP-TO-DATE
 > Task :ResourceExtensions:compileReleaseKotlin UP-TO-DATE
 > Task :ResourceExtensions:javaPreCompileRelease UP-TO-DATE
-> Task :ResourceExtensions:processReleaseAnnotationsWithJavac UP-TO-DATE
+> Task :ResourceExtensions:processReleaseAnnotationsWithJavac SKIPPED
 > Task :ResourceExtensions:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :ResourceExtensions:processReleaseJavaRes NO-SOURCE
-> Task :ResourceExtensions:bundleLibResRelease
-> Task :ResourceExtensions:bundleLibCompileRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :ResourceExtensions:bundleLibRuntimeRelease
-> Task :ResourceExtensions:createFullJarRelease
-> Task :app:mergeReleaseResources
+> Task :ResourceExtensions:compileReleaseLibraryResources
 > Task :app:processReleaseResources
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :ResourceExtensions:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (32, 13): Variable 'my_integer' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (33, 13): Variable 'my_long' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (34, 13): Variable 'my_string' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (35, 13): Variable 'my_string_args' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (36, 13): Variable 'my_string_args_float' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (37, 13): Variable 'my_localized_string' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (39, 17): Variable 'my_localized_resources' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (41, 13): Variable 'my_quantityString' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (42, 13): Variable 'my_quantityString_args' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (44, 13): Variable 'my_boolean' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (45, 13): Variable 'my_color_long' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (46, 13): Variable 'my_color' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (47, 13): Variable 'my_dimension' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (48, 13): Variable 'my_string_html' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (49, 13): Variable 'my_html' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (50, 13): Variable 'my_csv' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (51, 13): Variable 'my_xml' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (53, 13): Variable 'my_fraction' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (54, 13): Variable 'my_int_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (55, 13): Variable 'my_string_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (56, 13): Variable 'my_character_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (58, 13): Variable 'my_icons_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (60, 13): Variable 'my_icons_array_color_int' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (62, 13): Variable 'my_colors_array' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (64, 13): Variable 'my_colors_array_drawable' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (65, 20): Variable 'my_id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (66, 13): Variable 'my_res_name' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (67, 13): Variable 'my_res_type_name' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (68, 13): Variable 'my_res_package_name' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (69, 24): Variable 'my_res_string_id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (70, 26): Variable 'my_res_drawable_id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (71, 26): Variable 'my_res_drawable_id_with_error_handling' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (72, 13): Variable 'my_drawable' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (73, 13): Variable 'my_anim' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (74, 13): Variable 'my_animator' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (75, 13): Variable 'my_font' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (76, 13): Variable 'my_raw' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (77, 13): Variable 'my_interpolator' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (78, 13): Variable 'my_res_layout_animation_controller' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (80, 17): Variable 'my_transition' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (82, 13): Variable 'my_layout' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (83, 13): Variable 'my_inflated_layout' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (84, 13): Variable 'my_dp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (85, 13): Variable 'my_dp_int' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (86, 13): Variable 'my_px' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (87, 13): Variable 'my_px_int' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (88, 13): Variable 'my_sp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (89, 13): Variable 'my_screen_width_dp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (90, 13): Variable 'my_screen_height_dp' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (91, 13): Variable 'my_screen_width_pixels' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (92, 13): Variable 'my_screen_height_pixels' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (93, 13): Variable 'my_bytes_from_assets' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (94, 13): Variable 'my_string_from_assets' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (95, 13): Variable 'my_device_is_rtl' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (96, 13): Variable 'my_string_is_a_telephone_link' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (97, 13): Variable 'my_string_is_a_mailto_link' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (32, 13): Variable 'my_integer' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (33, 13): Variable 'my_long' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (34, 13): Variable 'my_string' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (35, 13): Variable 'my_string_args' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (36, 13): Variable 'my_string_args_float' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (37, 13): Variable 'my_localized_string' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (39, 17): Variable 'my_localized_resources' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (41, 13): Variable 'my_quantityString' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (42, 13): Variable 'my_quantityString_args' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (44, 13): Variable 'my_boolean' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (45, 13): Variable 'my_color_long' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (46, 13): Variable 'my_color' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (47, 13): Variable 'my_dimension' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (48, 13): Variable 'my_string_html' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (49, 13): Variable 'my_html' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (50, 13): Variable 'my_csv' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (51, 13): Variable 'my_xml' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (53, 13): Variable 'my_fraction' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (54, 13): Variable 'my_int_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (55, 13): Variable 'my_string_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (56, 13): Variable 'my_character_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (58, 13): Variable 'my_icons_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (60, 13): Variable 'my_icons_array_color_int' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (62, 13): Variable 'my_colors_array' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (64, 13): Variable 'my_colors_array_drawable' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (65, 20): Variable 'my_id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (66, 13): Variable 'my_res_name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (67, 13): Variable 'my_res_type_name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (68, 13): Variable 'my_res_package_name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (69, 24): Variable 'my_res_string_id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (70, 26): Variable 'my_res_drawable_id' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (71, 26): Variable 'my_res_drawable_id_with_error_handling' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (72, 13): Variable 'my_drawable' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (73, 13): Variable 'my_anim' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (74, 13): Variable 'my_animator' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (75, 13): Variable 'my_font' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (76, 13): Variable 'my_raw' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (77, 13): Variable 'my_interpolator' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (78, 13): Variable 'my_res_layout_animation_controller' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (80, 17): Variable 'my_transition' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (82, 13): Variable 'my_layout' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (83, 13): Variable 'my_inflated_layout' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (84, 13): Variable 'my_dp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (85, 13): Variable 'my_dp_int' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (86, 13): Variable 'my_px' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (87, 13): Variable 'my_px_int' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (88, 13): Variable 'my_sp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (89, 13): Variable 'my_screen_width_dp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (90, 13): Variable 'my_screen_height_dp' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (91, 13): Variable 'my_screen_width_pixels' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (92, 13): Variable 'my_screen_height_pixels' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (93, 13): Variable 'my_bytes_from_assets' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (94, 13): Variable 'my_string_from_assets' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (95, 13): Variable 'my_device_is_rtl' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (96, 13): Variable 'my_string_is_a_telephone_link' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/src/main/java/net/kibotu/resourceextensions/demo/MainActivity.kt: (97, 13): Variable 'my_string_is_a_mailto_link' is never used
 
+> Task :ResourceExtensions:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
-> Task :app:processReleaseAnnotationsWithJavac
+> Task :app:processReleaseAnnotationsWithJavac SKIPPED
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :app:dexBuilderRelease
 > Task :app:desugarReleaseFileDependencies
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -381,12 +412,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/
 > Task :ResourceExtensions:packageReleaseAssets UP-TO-DATE
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
+> Task :ResourceExtensions:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
 > Task :ResourceExtensions:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :ResourceExtensions:mergeReleaseNativeLibs UP-TO-DATE
 > Task :ResourceExtensions:stripReleaseDebugSymbols UP-TO-DATE
-> Task :ResourceExtensions:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :ResourceExtensions:copyReleaseJniLibsProjectOnly
+> Task :ResourceExtensions:bundleLibResRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeExtDexDebug
@@ -401,11 +433,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 54s
-97 actionable tasks: 63 executed, 34 up-to-date
+BUILD SUCCESSFUL in 42s
+91 actionable tasks: 61 executed, 30 up-to-date
 
-2019-10-06 21:17:27,142 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570371345936-0/src/AndroidResourceExtensions-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-23 23:23:04,171 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584980480455-0/src/AndroidResourceExtensions-master/app/build/outputs/apk/debug/app-debug.apk
