@@ -1,36 +1,36 @@
-2020-03-22 02:48:41,380 INFO  DownloadService - Downloading "https://github.com/skydoves/whatif/archive/master.zip", attempt 3
-2020-03-22 02:48:43,279 INFO  DownloadService - Downloaded https://github.com/skydoves/whatif/archive/master.zip, attempt 3
-2020-03-22 02:48:43,280 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/master.zip": 154 KB
-2020-03-22 02:48:43,280 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-22 02:48:43,285 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/master.zip: true
-2020-03-22 02:48:43,285 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src'.
-2020-03-22 02:48:43,306 INFO  FullProcessService - Size of directory with sources: 198 KB
-2020-03-22 02:48:43,306 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src]
-2020-03-22 02:48:43,325 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/.git/
+2020-03-29 01:59:54,744 INFO  DownloadService - Downloading "https://github.com/skydoves/whatif/archive/master.zip", attempt 3
+2020-03-29 01:59:55,431 INFO  DownloadService - Downloaded https://github.com/skydoves/whatif/archive/master.zip, attempt 3
+2020-03-29 01:59:55,432 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/master.zip": 155 KB
+2020-03-29 01:59:55,432 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-29 01:59:55,437 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/master.zip: true
+2020-03-29 01:59:55,437 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src'.
+2020-03-29 01:59:55,459 INFO  FullProcessService - Size of directory with sources: 199 KB
+2020-03-29 01:59:55,459 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src]
+2020-03-29 01:59:55,483 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/.git/
 
-2020-03-22 02:48:43,329 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/gradlew
-2020-03-22 02:48:43,333 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/whatif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/build.gradle
-2020-03-22 02:48:43,336 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/whatif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/spotless.gradle
-2020-03-22 02:48:43,337 INFO  ProjectBuildService - Remote scripts: none
-2020-03-22 02:48:43,337 INFO  ProjectFixService - Fixing project...
-2020-03-22 02:48:43,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/local.properties
-2020-03-22 02:48:43,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-22 02:48:43,350 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-22 02:48:43,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/whatif/local.properties
-2020-03-22 02:48:43,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/whatif/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-22 02:48:43,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/whatif/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-22 02:48:43,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/local.properties
-2020-03-22 02:48:43,355 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-22 02:48:43,356 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-22 02:48:43,359 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-22 02:48:43,359 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-22 02:48:43,360 INFO  ProjectFixService - Project was maybe fixed
-2020-03-22 02:48:43,360 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 02:48:43,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 02:48:51,467 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-03-22 02:48:51,467 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-22 02:48:51,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-22 02:50:00,014 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-29 01:59:55,488 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/gradlew
+2020-03-29 01:59:55,494 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/whatif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/build.gradle
+2020-03-29 01:59:55,499 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/whatif/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/spotless.gradle
+2020-03-29 01:59:55,500 INFO  ProjectBuildService - Remote scripts: none
+2020-03-29 01:59:55,500 INFO  ProjectFixService - Fixing project...
+2020-03-29 01:59:55,516 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/local.properties
+2020-03-29 01:59:55,521 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 01:59:55,521 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 01:59:55,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/whatif/local.properties
+2020-03-29 01:59:55,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/whatif/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 01:59:55,529 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/whatif/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 01:59:55,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/local.properties
+2020-03-29 01:59:55,532 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-29 01:59:55,533 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-29 01:59:55,542 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-29 01:59:55,542 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-29 01:59:55,543 INFO  ProjectFixService - Project was maybe fixed
+2020-03-29 01:59:55,543 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-29 01:59:55,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-29 02:00:01,940 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-03-29 02:00:01,941 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-29 02:00:01,941 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-29 02:00:43,178 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :whatif
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -46,16 +46,25 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :whatif:preBuild UP-TO-DATE
 > Task :whatif:preDebugBuild UP-TO-DATE
+> Task :whatif:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :whatif:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :whatif:generateDebugResValues
+> Task :whatif:compileDebugRenderscript NO-SOURCE
+> Task :whatif:generateDebugResources
+> Task :whatif:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :whatif:checkDebugManifest
+> Task :app:mergeDebugResources
+> Task :whatif:processDebugManifest
+> Task :app:processDebugManifest
+> Task :whatif:parseDebugLibraryResources
 > Task :whatif:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -65,38 +74,29 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :whatif:generateDebugAssets
 > Task :whatif:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :whatif:processDebugManifest
-> Task :whatif:compileDebugRenderscript NO-SOURCE
-> Task :whatif:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :whatif:generateDebugResources
-> Task :whatif:packageDebugResources
-> Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :whatif:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :whatif:processDebugJavaRes NO-SOURCE
+> Task :app:validateSigningDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:signingConfigWriterDebug
 > Task :whatif:generateDebugRFile
 > Task :app:processDebugResources
 > Task :whatif:compileDebugKotlin
 > Task :whatif:javaPreCompileDebug
 > Task :whatif:compileDebugJavaWithJavac
+> Task :app:mergeExtDexDebug
 > Task :whatif:bundleLibResDebug
-> Task :whatif:bundleLibRuntimeDebug
-> Task :whatif:createFullJarDebug
 > Task :whatif:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (39, 35): Variable 'nullableString' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (71, 9): Variable 'newString' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (39, 35): Variable 'nullableString' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (71, 9): Variable 'newString' is never used
 
+> Task :whatif:bundleLibRuntimeDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :whatif:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -117,42 +117,22 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/
 > Task :whatif:mergeDebugNativeLibs
 > Task :whatif:stripDebugDebugSymbols
 > Task :whatif:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDexDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :whatif:checkReleaseManifest
 > Task :whatif:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
 > Task :whatif:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :app:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :whatif:parseReleaseLibraryResources
 > Task :app:prepareLintJar
-> Task :whatif:processReleaseJavaRes NO-SOURCE
 > Task :app:checkReleaseDuplicateClasses
 > Task :whatif:prepareLintJarForPublish
-> Task :whatif:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :whatif:compileReleaseKotlin
-> Task :whatif:javaPreCompileRelease
-> Task :whatif:compileReleaseJavaWithJavac
-> Task :whatif:bundleLibCompileRelease
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (39, 35): Variable 'nullableString' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (71, 9): Variable 'newString' is never used
-
-> Task :whatif:bundleLibResRelease
-> Task :whatif:bundleLibRuntimeRelease
-> Task :whatif:createFullJarRelease
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d1989f13e111ad41a3a364eff63728ff/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -162,20 +142,35 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :whatif:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :whatif:processReleaseJavaRes NO-SOURCE
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :whatif:mergeReleaseJniLibFolders
+> Task :whatif:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :whatif:compileReleaseKotlin
 > Task :whatif:mergeReleaseNativeLibs
 > Task :whatif:stripReleaseDebugSymbols
 > Task :whatif:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :whatif:javaPreCompileRelease
+> Task :whatif:compileReleaseJavaWithJavac
+> Task :whatif:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (39, 35): Variable 'nullableString' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/src/main/java/com/skydoves/whatifdemo/MainActivity.kt: (71, 9): Variable 'newString' is never used
+
+> Task :app:mergeExtDexRelease
+> Task :whatif:bundleLibRuntimeRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :whatif:bundleLibResRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -186,7 +181,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 7s
-94 actionable tasks: 94 executed
+BUILD SUCCESSFUL in 40s
+92 actionable tasks: 92 executed
 
-2020-03-22 02:50:00,107 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820121371-0/src/WhatIf-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-29 02:00:43,260 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421994736-0/src/WhatIf-master/app/build/outputs/apk/debug/app-debug.apk
