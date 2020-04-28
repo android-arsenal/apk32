@@ -1,35 +1,36 @@
-2020-03-29 01:56:57,599 INFO  DownloadService - Downloading "https://github.com/zhpanvip/BannerViewPager/archive/master.zip", attempt 3
-2020-03-29 01:57:01,303 INFO  DownloadService - Downloaded https://github.com/zhpanvip/BannerViewPager/archive/master.zip, attempt 3
-2020-03-29 01:57:01,303 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/master.zip": 9 MB
-2020-03-29 01:57:01,303 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-29 01:57:01,310 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/master.zip: true
-2020-03-29 01:57:01,311 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src'.
-2020-03-29 01:57:01,441 INFO  FullProcessService - Size of directory with sources: 11 MB
-2020-03-29 01:57:01,441 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src]
-2020-03-29 01:57:01,459 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/.git/
+2020-04-28 12:41:59,174 INFO  DownloadService - Downloading "https://github.com/zhpanvip/BannerViewPager/archive/master.zip", attempt 3
+2020-04-28 12:42:15,872 INFO  VirusProcessorServiceImpl - Queued project 7987 to scan viruses
+2020-04-28 12:42:55,386 INFO  DownloadService - Downloaded https://github.com/zhpanvip/BannerViewPager/archive/master.zip, attempt 3
+2020-04-28 12:42:55,387 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/master.zip": 10 MB
+2020-04-28 12:42:55,387 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-28 12:42:55,393 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/master.zip: true
+2020-04-28 12:42:55,394 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src'.
+2020-04-28 12:42:55,595 INFO  FullProcessService - Size of directory with sources: 11 MB
+2020-04-28 12:42:55,595 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src]
+2020-04-28 12:42:55,630 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/.git/
 
-2020-03-29 01:57:01,468 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/gradlew
-2020-03-29 01:57:01,481 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/bannerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/ideahttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/build.gradle
-2020-03-29 01:57:01,489 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/ideahttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/bannerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/settings.gradle
-2020-03-29 01:57:01,490 INFO  ProjectBuildService - Remote scripts: none
-2020-03-29 01:57:01,490 INFO  ProjectFixService - Fixing project...
-2020-03-29 01:57:01,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/local.properties
-2020-03-29 01:57:01,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-29 01:57:01,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/bannerview/local.properties
-2020-03-29 01:57:01,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/bannerview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-29 01:57:01,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/ideahttp/local.properties
-2020-03-29 01:57:01,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/ideahttp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-03-29 01:57:01,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/local.properties
-2020-03-29 01:57:01,516 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-29 01:57:01,516 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-29 01:57:01,517 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
-2020-03-29 01:57:01,517 INFO  ProjectFixService - Project was maybe fixed
-2020-03-29 01:57:01,517 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-29 01:57:01,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-29 01:57:08,043 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-29 01:57:08,043 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-29 01:57:08,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-29 01:58:12,076 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-28 12:42:55,639 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/gradlew
+2020-04-28 12:42:55,649 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/bannerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/ideahttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/build.gradle
+2020-04-28 12:42:55,658 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/ideahttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/bannerview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/settings.gradle
+2020-04-28 12:42:55,658 INFO  ProjectBuildService - Remote scripts: none
+2020-04-28 12:42:55,658 INFO  ProjectFixService - Fixing project...
+2020-04-28 12:42:55,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/local.properties
+2020-04-28 12:42:55,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-04-28 12:42:55,679 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/bannerview/local.properties
+2020-04-28 12:42:55,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/bannerview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-04-28 12:42:55,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/ideahttp/local.properties
+2020-04-28 12:42:55,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/ideahttp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-04-28 12:42:55,681 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/local.properties
+2020-04-28 12:42:55,682 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-04-28 12:42:55,682 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-04-28 12:42:55,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=26]
+2020-04-28 12:42:55,683 INFO  ProjectFixService - Project was maybe fixed
+2020-04-28 12:42:55,683 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-28 12:42:55,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-28 12:43:16,032 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-04-28 12:43:16,032 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-28 12:43:16,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-28 12:45:49,563 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :bannerview:preBuild UP-TO-DATE
@@ -39,16 +40,15 @@
 > Task :ideahttp:preDebugBuild UP-TO-DATE
 > Task :bannerview:packageDebugRenderscript NO-SOURCE
 > Task :ideahttp:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugBuildConfig
 > Task :ideahttp:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :bannerview:compileDebugRenderscript NO-SOURCE
 > Task :bannerview:generateDebugResValues
+> Task :bannerview:compileDebugRenderscript NO-SOURCE
 > Task :bannerview:generateDebugResources
 > Task :bannerview:packageDebugResources
 > Task :ideahttp:generateDebugResValues
@@ -56,41 +56,25 @@
 > Task :ideahttp:generateDebugResources
 > Task :ideahttp:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :bannerview:checkDebugManifest
-> Task :ideahttp:checkDebugManifest
-> Task :bannerview:processDebugManifest
-> Task :app:mergeDebugResources
+> Task :app:extractDeepLinksDebug
+> Task :bannerview:extractDeepLinksDebug
+> Task :ideahttp:extractDeepLinksDebug
 > Task :ideahttp:processDebugManifest
+> Task :bannerview:compileDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :bannerview:parseDebugLocalResources
+> Task :ideahttp:compileDebugLibraryResources
+> Task :bannerview:processDebugManifest
 > Task :app:processDebugManifest
-> Task :bannerview:parseDebugLibraryResources
-> Task :bannerview:generateDebugBuildConfig
-> Task :ideahttp:parseDebugLibraryResources
-> Task :bannerview:javaPreCompileDebug
-> Task :ideahttp:generateDebugBuildConfig
 > Task :bannerview:generateDebugRFile
-
-> Task :bannerview:compileDebugJavaWithJavac
-warning: unknown enum constant AnnotationRetention.SOURCE
-  reason: class file for kotlin.annotation.AnnotationRetention not found
-warning: unknown enum constant AnnotationTarget.VALUE_PARAMETER
-  reason: class file for kotlin.annotation.AnnotationTarget not found
-warning: unknown enum constant AnnotationTarget.FIELD
-warning: unknown enum constant AnnotationRetention.SOURCE
-warning: unknown enum constant AnnotationTarget.VALUE_PARAMETER
-warning: unknown enum constant AnnotationTarget.FIELD
-6 warnings
-
+> Task :ideahttp:parseDebugLocalResources
+> Task :bannerview:generateDebugBuildConfig
 > Task :ideahttp:generateDebugRFile
 > Task :app:processDebugResources
-> Task :bannerview:bundleLibCompileDebug
-> Task :ideahttp:javaPreCompileDebug
-
-> Task :ideahttp:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/ideahttp/src/main/java/com/zhpan/idea/utils/JsonHelper.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
+> Task :ideahttp:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
+> Task :bannerview:compileDebugKotlin
 > Task :app:generateDebugAssets
 > Task :bannerview:mergeDebugShaders
 > Task :bannerview:compileDebugShaders
@@ -101,39 +85,50 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :ideahttp:generateDebugAssets
 > Task :ideahttp:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :bannerview:javaPreCompileDebug
+> Task :bannerview:compileDebugJavaWithJavac
+> Task :ideahttp:javaPreCompileDebug
+
+> Task :ideahttp:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/ideahttp/src/main/java/com/zhpan/idea/utils/JsonHelper.java uses unchecked or unsafe operations.
+
+> Task :bannerview:bundleLibCompileDebug
+Note: Recompile with -Xlint:unchecked for details.
 > Task :ideahttp:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/activity/WelcomeActivity.kt: (73, 17): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/viewholder/PhotoViewHolder.kt: (24, 40): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/activity/WelcomeActivity.kt: (73, 17): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/adapter/ArticleAdapter.kt: (45, 63): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/adapter/ArticleAdapter.kt: (45, 116): 'getColor(Int): Int' is deprecated. Deprecated in Java
 
 > Task :app:javaPreCompileDebug
 
 > Task :app:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/activity/WebViewActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/recyclerview/ui/CustomAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileDebugSources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :bannerview:processDebugJavaRes NO-SOURCE
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/view/DrawableIndicator.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/recyclerview/ui/CustomAdapter.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 > Task :ideahttp:processDebugJavaRes NO-SOURCE
 > Task :bannerview:bundleLibResDebug
 > Task :ideahttp:bundleLibResDebug
-> Task :ideahttp:bundleLibRuntimeDebug
-> Task :ideahttp:createFullJarDebug
-> Task :bannerview:bundleLibRuntimeDebug
-> Task :bannerview:createFullJarDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :ideahttp:bundleLibRuntimeDebug
+> Task :bannerview:bundleLibRuntimeDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeLibDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :bannerview:mergeDebugJniLibFolders
 > Task :ideahttp:mergeDebugJniLibFolders
+> Task :bannerview:mergeDebugNativeLibs
+> Task :bannerview:stripDebugDebugSymbols
+> Task :bannerview:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
 > Task :app:extractProguardFiles
 > Task :app:preReleaseBuild
 > Task :bannerview:preReleaseBuild UP-TO-DATE
@@ -144,7 +139,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :bannerview:packageReleaseRenderscript NO-SOURCE
 > Task :ideahttp:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -158,24 +152,57 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :ideahttp:generateReleaseResources
 > Task :ideahttp:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :bannerview:checkReleaseManifest
-> Task :ideahttp:checkReleaseManifest
+> Task :app:extractDeepLinksRelease
+> Task :bannerview:extractDeepLinksRelease
 > Task :bannerview:processReleaseManifest
+> Task :ideahttp:extractDeepLinksRelease
+> Task :ideahttp:mergeDebugNativeLibs
+> Task :ideahttp:stripDebugDebugSymbols
+> Task :ideahttp:copyDebugJniLibsProjectOnly
+> Task :app:mergeProjectDexDebug
+> Task :bannerview:compileReleaseLibraryResources
 > Task :ideahttp:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :bannerview:generateReleaseBuildConfig
-> Task :app:mergeReleaseResources
-> Task :ideahttp:parseReleaseLibraryResources
-> Task :bannerview:mergeDebugNativeLibs
-> Task :bannerview:stripDebugDebugSymbols
-> Task :bannerview:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :ideahttp:generateReleaseBuildConfig
-> Task :bannerview:parseReleaseLibraryResources
-> Task :bannerview:javaPreCompileRelease
+> Task :ideahttp:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
+> Task :ideahttp:compileReleaseLibraryResources
+> Task :bannerview:parseReleaseLocalResources
+> Task :ideahttp:generateReleaseRFile
 > Task :ideahttp:javaPreCompileRelease
-> Task :ideahttp:mergeDebugNativeLibs
-> Task :ideahttp:stripDebugDebugSymbols
-> Task :ideahttp:transformNativeLibsWithIntermediateJniLibsForDebug
+
+> Task :ideahttp:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/ideahttp/src/main/java/com/zhpan/idea/utils/JsonHelper.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :bannerview:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :bannerview:compileReleaseKotlin
+> Task :app:mergeExtDexDebug
+> Task :bannerview:javaPreCompileRelease
+> Task :bannerview:compileReleaseJavaWithJavac
+> Task :ideahttp:bundleLibCompileRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :bannerview:bundleLibCompileRelease
+
+> Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/activity/WelcomeActivity.kt: (73, 17): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/adapter/ArticleAdapter.kt: (45, 63): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/adapter/ArticleAdapter.kt: (45, 116): 'getColor(Int): Int' is deprecated. Deprecated in Java
+
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/activity/WebViewActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/recyclerview/ui/CustomAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:compileReleaseSources
 > Task :app:prepareLintJar
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -189,90 +216,41 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :ideahttp:generateReleaseAssets
 > Task :ideahttp:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
 > Task :ideahttp:prepareLintJarForPublish
-> Task :app:mergeReleaseJniLibFolders
+> Task :bannerview:prepareLintJarForPublish
+> Task :app:lintVitalRelease
+> Task :ideahttp:mergeReleaseGeneratedProguardFiles
+> Task :bannerview:mergeReleaseGeneratedProguardFiles
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :bannerview:exportReleaseConsumerProguardFiles
+> Task :ideahttp:exportReleaseConsumerProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
 > Task :bannerview:processReleaseJavaRes NO-SOURCE
+> Task :ideahttp:processReleaseJavaRes NO-SOURCE
+> Task :bannerview:bundleLibResRelease
+> Task :app:mergeReleaseJniLibFolders
 > Task :bannerview:mergeReleaseJniLibFolders
-> Task :ideahttp:generateReleaseRFile
-
-> Task :ideahttp:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/ideahttp/src/main/java/com/zhpan/idea/utils/JsonHelper.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
+> Task :ideahttp:mergeReleaseJniLibFolders
+> Task :ideahttp:bundleLibRuntimeRelease
+> Task :bannerview:bundleLibRuntimeRelease
 > Task :bannerview:mergeReleaseNativeLibs
 > Task :bannerview:stripReleaseDebugSymbols
-> Task :bannerview:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :ideahttp:processReleaseJavaRes NO-SOURCE
-> Task :bannerview:prepareLintJarForPublish
-> Task :ideahttp:mergeReleaseJniLibFolders
-> Task :bannerview:generateReleaseRFile
-> Task :app:processReleaseResources
-
-> Task :bannerview:compileReleaseJavaWithJavac
-warning: unknown enum constant AnnotationRetention.SOURCE
-  reason: class file for kotlin.annotation.AnnotationRetention not found
-warning: unknown enum constant AnnotationTarget.VALUE_PARAMETER
-  reason: class file for kotlin.annotation.AnnotationTarget not found
-warning: unknown enum constant AnnotationTarget.FIELD
-warning: unknown enum constant AnnotationRetention.SOURCE
-warning: unknown enum constant AnnotationTarget.VALUE_PARAMETER
-warning: unknown enum constant AnnotationTarget.FIELD
-6 warnings
-
+> Task :bannerview:copyReleaseJniLibsProjectOnly
 > Task :ideahttp:mergeReleaseNativeLibs
-> Task :ideahttp:bundleLibCompileRelease
 > Task :ideahttp:stripReleaseDebugSymbols
-> Task :ideahttp:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :bannerview:bundleLibResRelease
-> Task :app:mergeExtDexDebug
-> Task :bannerview:bundleLibCompileRelease
-
-> Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/activity/WelcomeActivity.kt: (73, 17): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/viewholder/PhotoViewHolder.kt: (24, 40): Parameter 'v' is never used, could be renamed to _
-
-> Task :app:mergeDexDebug
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :ideahttp:copyReleaseJniLibsProjectOnly
 > Task :ideahttp:bundleLibResRelease
-> Task :app:javaPreCompileRelease
-
-> Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/view/DrawableIndicator.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/src/main/java/com/example/zhpan/circleviewpager/recyclerview/ui/CustomAdapter.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
-> Task :app:mergeReleaseGeneratedProguardFiles
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :bannerview:mergeReleaseGeneratedProguardFiles
-> Task :bannerview:mergeReleaseConsumerProguardFiles
-> Task :bannerview:bundleLibRuntimeRelease
-> Task :ideahttp:mergeReleaseGeneratedProguardFiles
-> Task :ideahttp:mergeReleaseConsumerProguardFiles
-> Task :ideahttp:bundleLibRuntimeRelease
 > Task :app:mergeReleaseJavaResource
-
-> Task :app:transformClassesAndResourcesWithR8ForRelease
-R8: Missing class: com.google.android.material.appbar.AppBarLayout$OnOffsetChangedListener
-
+> Task :app:minifyReleaseWithR8
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 2m 32s
+139 actionable tasks: 139 executed
 
-BUILD SUCCESSFUL in 1m 3s
-135 actionable tasks: 135 executed
-
-2020-03-29 01:58:12,201 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585421817595-0/src/BannerViewPager-master/app/build/outputs/apk/debug/app-debug.apk
+2020-04-28 12:45:49,658 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052519166-0/src/BannerViewPager-master/app/build/outputs/apk/debug/app-debug.apk
