@@ -1,32 +1,32 @@
-2020-03-30 01:21:21,517 INFO  DownloadService - Downloading "https://github.com/fartem/ormlite-data-backup/archive/master.zip", attempt 3
-2020-03-30 01:21:22,466 INFO  DownloadService - Downloaded https://github.com/fartem/ormlite-data-backup/archive/master.zip, attempt 3
-2020-03-30 01:21:22,467 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/master.zip": 1 MB
-2020-03-30 01:21:22,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-30 01:21:22,467 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/master.zip: true
-2020-03-30 01:21:22,468 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src'.
-2020-03-30 01:21:22,518 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-03-30 01:21:22,518 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src]
-2020-03-30 01:21:22,539 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/.git/
+2020-05-11 21:11:30,579 INFO  DownloadService - Downloading "https://github.com/fartem/ormlite-data-backup/archive/master.zip", attempt 3
+2020-05-11 21:11:33,655 INFO  DownloadService - Downloaded https://github.com/fartem/ormlite-data-backup/archive/master.zip, attempt 3
+2020-05-11 21:11:33,655 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/master.zip": 1 MB
+2020-05-11 21:11:33,655 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-11 21:11:33,661 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/master.zip: true
+2020-05-11 21:11:33,662 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src'.
+2020-05-11 21:11:33,702 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-05-11 21:11:33,702 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src]
+2020-05-11 21:11:33,721 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/.git/
 
-2020-03-30 01:21:22,545 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/gradlew
-2020-03-30 01:21:22,551 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/build.gradle
-2020-03-30 01:21:22,557 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/settings.gradle
-2020-03-30 01:21:22,560 INFO  ProjectBuildService - Remote scripts: none
-2020-03-30 01:21:22,560 INFO  ProjectFixService - Fixing project...
-2020-03-30 01:21:22,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/local.properties
-2020-03-30 01:21:22,574 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-30 01:21:22,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/local.properties
-2020-03-30 01:21:22,575 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-03-30 01:21:22,576 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-03-30 01:21:22,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-30 01:21:22,580 INFO  ProjectFixService - Project was maybe fixed
-2020-03-30 01:21:22,580 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-30 01:21:22,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-30 01:21:31,476 INFO  ProjectTaskService - Detected possible tasks: 76
-2020-03-30 01:21:31,476 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-30 01:21:31,476 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-30 01:21:40,719 INFO  VirusProcessorServiceImpl - Queued project 8066 to scan viruses
-2020-03-30 01:22:24,987 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-11 21:11:33,726 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/gradlew
+2020-05-11 21:11:33,731 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/build.gradle
+2020-05-11 21:11:33,736 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/settings.gradle
+2020-05-11 21:11:33,739 INFO  ProjectBuildService - Remote scripts: none
+2020-05-11 21:11:33,739 INFO  ProjectFixService - Fixing project...
+2020-05-11 21:11:33,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/local.properties
+2020-05-11 21:11:33,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-05-11 21:11:33,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/local.properties
+2020-05-11 21:11:33,751 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-05-11 21:11:33,752 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-05-11 21:11:33,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-05-11 21:11:33,754 INFO  ProjectFixService - Project was maybe fixed
+2020-05-11 21:11:33,754 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-11 21:11:33,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-11 21:11:40,292 INFO  ProjectTaskService - Detected possible tasks: 76
+2020-05-11 21:11:40,292 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-11 21:11:40,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-11 21:11:51,006 INFO  VirusProcessorServiceImpl - Queued project 8062 to scan viruses
+2020-05-11 21:12:20,532 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -43,7 +43,7 @@
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/src/main/java/com/smlnskgmail/jaman/ormlitedatabackup/logic/ormlite/backup/OrmLiteLocalBackupPath.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/src/main/java/com/smlnskgmail/jaman/ormlitedatabackup/logic/ormlite/backup/OrmLiteLocalBackupPath.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
@@ -56,31 +56,31 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
 > Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
 > Task :app:jacocoDebug
 > Task :app:dexBuilderDebug
-> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
-> Task :app:mergeProjectDexDebug
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :app:processReleaseManifest
 > Task :app:javaPreCompileRelease
+> Task :app:mergeProjectDexDebug
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/src/main/java/com/smlnskgmail/jaman/ormlitedatabackup/logic/ormlite/backup/OrmLiteLocalBackupPath.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/src/main/java/com/smlnskgmail/jaman/ormlitedatabackup/logic/ormlite/backup/OrmLiteLocalBackupPath.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
@@ -110,7 +110,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 52s
+BUILD SUCCESSFUL in 39s
 51 actionable tasks: 51 executed
 
-2020-03-30 01:22:25,040 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506081513-0/src/ormlite-data-backup-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-11 21:12:20,580 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206290571-0/src/ormlite-data-backup-master/app/build/outputs/apk/release/ormlite-data-backup-release_1.1.2.apk

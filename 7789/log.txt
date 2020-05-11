@@ -1,78 +1,62 @@
-2020-03-22 02:56:35,076 INFO  DownloadService - Downloading "https://github.com/ibrahimsn98/live-preferences/archive/master.zip", attempt 3
-2020-03-22 02:56:37,133 INFO  DownloadService - Downloaded https://github.com/ibrahimsn98/live-preferences/archive/master.zip, attempt 3
-2020-03-22 02:56:37,133 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/master.zip": 143 KB
-2020-03-22 02:56:37,133 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-22 02:56:37,133 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/master.zip: true
-2020-03-22 02:56:37,134 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src'.
-2020-03-22 02:56:37,158 INFO  FullProcessService - Size of directory with sources: 151 KB
-2020-03-22 02:56:37,159 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src]
-2020-03-22 02:56:37,194 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/.git/
+2020-05-11 21:19:55,289 INFO  DownloadService - Downloading "https://github.com/ibrahimsn98/live-preferences/archive/master.zip", attempt 3
+2020-05-11 21:19:56,170 INFO  DownloadService - Downloaded https://github.com/ibrahimsn98/live-preferences/archive/master.zip, attempt 3
+2020-05-11 21:19:56,170 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/master.zip": 140 KB
+2020-05-11 21:19:56,170 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-11 21:19:56,176 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/master.zip: true
+2020-05-11 21:19:56,176 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src'.
+2020-05-11 21:19:56,194 INFO  FullProcessService - Size of directory with sources: 153 KB
+2020-05-11 21:19:56,194 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src]
+2020-05-11 21:19:56,213 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/.git/
 
-2020-03-22 02:56:37,198 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/gradlew
-2020-03-22 02:56:37,202 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle
-2020-03-22 02:56:37,205 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/settings.gradle
-2020-03-22 02:56:37,206 INFO  ProjectBuildService - Remote scripts: none
-2020-03-22 02:56:37,206 INFO  ProjectFixService - Fixing project...
-2020-03-22 02:56:37,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/local.properties
-2020-03-22 02:56:37,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 02:56:37,215 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 02:56:37,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/local.properties
-2020-03-22 02:56:37,217 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 02:56:37,217 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 02:56:37,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/local.properties
-2020-03-22 02:56:37,218 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2020-03-22 02:56:37,219 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2020-03-22 02:56:37,220 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 02:56:37,220 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-03-22 02:56:37,220 INFO  ProjectFixService - Project was maybe fixed
-2020-03-22 02:56:37,220 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 02:56:37,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 02:56:46,751 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-03-22 02:56:46,752 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-22 02:56:46,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-22 02:56:47,259 INFO  VirusProcessorServiceImpl - Queued project 7799 to scan viruses
-2020-03-22 02:57:49,302 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :app:checkDebugClasspath
+2020-05-11 21:19:56,216 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/gradlew
+2020-05-11 21:19:56,220 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/build.gradle
+2020-05-11 21:19:56,223 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/settings.gradle
+2020-05-11 21:19:56,223 INFO  ProjectBuildService - Remote scripts: none
+2020-05-11 21:19:56,223 INFO  ProjectFixService - Fixing project...
+2020-05-11 21:19:56,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/local.properties
+2020-05-11 21:19:56,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-11 21:19:56,231 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-11 21:19:56,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/library/local.properties
+2020-05-11 21:19:56,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-05-11 21:19:56,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2020-05-11 21:19:56,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/local.properties
+2020-05-11 21:19:56,234 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-05-11 21:19:56,234 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-05-11 21:19:56,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-11 21:19:56,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-05-11 21:19:56,236 INFO  ProjectFixService - Project was maybe fixed
+2020-05-11 21:19:56,236 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-11 21:19:56,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-11 21:20:02,536 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-05-11 21:20:02,536 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-11 21:20:02,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-11 21:20:09,516 INFO  VirusProcessorServiceImpl - Queued project 7797 to scan viruses
+2020-05-11 21:20:52,942 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:checkDebugManifest
-> Task :library:processDebugManifest
-> Task :app:preDebugBuild
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :library:compileDebugRenderscript
 > Task :library:generateDebugResValues
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :library:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :library:compileDebugLibraryResources
+> Task :library:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:splitsDiscoveryTaskDebug
-> Task :library:generateDebugRFile
-> Task :app:processDebugResources
+> Task :library:parseDebugLocalResources
 > Task :library:generateDebugBuildConfig
-> Task :library:compileDebugKotlin
-> Task :library:prepareLintJar
-> Task :library:generateDebugSources
-> Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -81,64 +65,70 @@
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :library:compileDebugNdk NO-SOURCE
-> Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:checkDebugLibraries
 > Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:generateDebugRFile
+> Task :app:processDebugResources
+> Task :library:compileDebugKotlin
+> Task :app:checkDebugDuplicateClasses
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :library:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugJniLibFolders
+> Task :library:mergeDebugJniLibFolders
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:checkReleaseClasspath
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
-> Task :app:checkReleaseManifest
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :library:compileReleaseRenderscript
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :library:extractDeepLinksRelease
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :library:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:splitsDiscoveryTaskRelease
+> Task :app:mergeReleaseResources
+> Task :library:generateReleaseBuildConfig
+> Task :library:parseReleaseLocalResources
+> Task :library:compileReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :library:prepareLintJarForPublish
 > Task :library:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :library:generateReleaseBuildConfig
 > Task :library:compileReleaseKotlin
-> Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :library:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :app:generateReleaseSources
+> Task :library:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a8cbbb0bbe887a54830f9fc855977806/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
+> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -147,26 +137,29 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :library:generateReleaseAssets
 > Task :library:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :library:compileReleaseNdk NO-SOURCE
-> Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:checkReleaseLibraries
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:mergeReleaseNativeLibs
+> Task :library:stripReleaseDebugSymbols
+> Task :library:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 1s
-94 actionable tasks: 94 executed
+BUILD SUCCESSFUL in 49s
+92 actionable tasks: 92 executed
 
-2020-03-22 02:57:49,418 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820595072-0/src/live-preferences-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-11 21:20:52,995 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206795280-0/src/live-preferences-master/app/build/outputs/apk/debug/app-debug.apk

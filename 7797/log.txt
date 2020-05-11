@@ -1,44 +1,42 @@
-2019-08-12 19:16:44,322 INFO  DownloadService - Downloading "https://github.com/Daniil-Pavenko/coroutines-event-pipe/archive/master.zip", attempt 3
-2019-08-12 19:16:46,609 INFO  DownloadService - Downloaded https://github.com/Daniil-Pavenko/coroutines-event-pipe/archive/master.zip, attempt 3
-2019-08-12 19:16:46,609 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/master.zip": 142 KB
-2019-08-12 19:16:46,609 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-12 19:16:46,615 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/master.zip: true
-2019-08-12 19:16:46,615 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src'.
-2019-08-12 19:16:46,637 INFO  FullProcessService - Size of directory with sources: 149 KB
-2019-08-12 19:16:46,637 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src]
-2019-08-12 19:16:46,661 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/.git/
+2020-05-11 21:18:58,701 INFO  DownloadService - Downloading "https://github.com/Daniil-Pavenko/coroutines-event-pipe/archive/master.zip", attempt 3
+2020-05-11 21:19:01,088 INFO  DownloadService - Downloaded https://github.com/Daniil-Pavenko/coroutines-event-pipe/archive/master.zip, attempt 3
+2020-05-11 21:19:01,088 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/master.zip": 142 KB
+2020-05-11 21:19:01,088 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-11 21:19:01,093 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/master.zip: true
+2020-05-11 21:19:01,094 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src'.
+2020-05-11 21:19:01,115 INFO  FullProcessService - Size of directory with sources: 150 KB
+2020-05-11 21:19:01,115 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src]
+2020-05-11 21:19:01,134 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/.git/
 
-2019-08-12 19:16:46,664 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/gradlew
-2019-08-12 19:16:46,667 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/build.gradle
-2019-08-12 19:16:46,670 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/settings.gradle
-2019-08-12 19:16:46,670 INFO  ProjectBuildService - Remote scripts: none
-2019-08-12 19:16:46,670 INFO  ProjectFixService - Fixing project...
-2019-08-12 19:16:46,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/local.properties
-2019-08-12 19:16:46,679 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-12 19:16:46,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/local.properties
-2019-08-12 19:16:46,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-12 19:16:46,682 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/local.properties
-2019-08-12 19:16:46,683 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-08-12 19:16:46,684 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-08-12 19:16:46,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2019-08-12 19:16:46,685 INFO  ProjectFixService - Project was maybe fixed
-2019-08-12 19:16:46,685 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-12 19:16:46,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-12 19:16:56,941 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-12 19:16:56,942 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-12 19:16:56,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-12 19:17:47,005 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-05-11 21:19:01,137 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/gradlew
+2020-05-11 21:19:01,141 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/build.gradle
+2020-05-11 21:19:01,144 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/settings.gradle
+2020-05-11 21:19:01,144 INFO  ProjectBuildService - Remote scripts: none
+2020-05-11 21:19:01,144 INFO  ProjectFixService - Fixing project...
+2020-05-11 21:19:01,152 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/local.properties
+2020-05-11 21:19:01,152 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-05-11 21:19:01,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/local.properties
+2020-05-11 21:19:01,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-05-11 21:19:01,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/local.properties
+2020-05-11 21:19:01,154 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-05-11 21:19:01,154 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-05-11 21:19:01,155 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-05-11 21:19:01,155 INFO  ProjectFixService - Project was maybe fixed
+2020-05-11 21:19:01,156 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-11 21:19:01,156 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-11 21:19:07,330 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-05-11 21:19:07,331 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-11 21:19:07,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-11 21:19:12,052 INFO  VirusProcessorServiceImpl - Queued project 7841 to scan viruses
+2020-05-11 21:19:54,887 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :libeventpipe:preBuild UP-TO-DATE
 > Task :libeventpipe:preDebugBuild UP-TO-DATE
-> Task :libeventpipe:checkDebugManifest
-> Task :libeventpipe:processDebugManifest
 > Task :libeventpipe:compileDebugAidl NO-SOURCE
-> Task :libeventpipe:packageDebugRenderscript NO-SOURCE
-> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :libeventpipe:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -47,31 +45,15 @@
 > Task :libeventpipe:generateDebugResValues
 > Task :libeventpipe:generateDebugResources
 > Task :libeventpipe:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :libeventpipe:extractDeepLinksDebug
+> Task :libeventpipe:compileDebugLibraryResources
+> Task :libeventpipe:processDebugManifest
 > Task :app:processDebugManifest
-> Task :libeventpipe:generateDebugRFile
-> Task :app:processDebugResources
+> Task :app:mergeDebugResources
 > Task :libeventpipe:generateDebugBuildConfig
-> Task :libeventpipe:prepareLintJar
-
-> Task :libeventpipe:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/EventPipe.kt: (67, 32): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (27, 56): Unchecked cast: Any to T
-
-> Task :libeventpipe:generateDebugSources
-> Task :libeventpipe:javaPreCompileDebug
-> Task :libeventpipe:compileDebugJavaWithJavac
-> Task :libeventpipe:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/src/main/java/com/dansdev/sampleeventpipe/MainActivity.kt: (25, 21): Parameter 'v' is never used
-
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :libeventpipe:parseDebugLocalResources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -80,34 +62,41 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/
 > Task :libeventpipe:generateDebugAssets
 > Task :libeventpipe:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :libeventpipe:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :libeventpipe:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (20, 21): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (25, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (27, 56): Unchecked cast: Any to T
+
+> Task :libeventpipe:javaPreCompileDebug
+> Task :libeventpipe:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :libeventpipe:processDebugJavaRes NO-SOURCE
 > Task :libeventpipe:bundleLibResDebug
+> Task :libeventpipe:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/src/main/java/com/dansdev/sampleeventpipe/MainActivity.kt: (23, 21): Parameter 'v' is never used
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
 > Task :libeventpipe:bundleLibRuntimeDebug
-> Task :libeventpipe:createFullJarDebug
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeProjectDexDebug
 > Task :app:mergeLibDexDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :libeventpipe:mergeDebugJniLibFolders
-> Task :libeventpipe:transformNativeLibsWithMergeJniLibsForDebug
-> Task :libeventpipe:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :libeventpipe:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :libeventpipe:preReleaseBuild UP-TO-DATE
-> Task :libeventpipe:checkReleaseManifest
-> Task :libeventpipe:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :libeventpipe:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :libeventpipe:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -116,43 +105,45 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/
 > Task :libeventpipe:generateReleaseResValues
 > Task :libeventpipe:generateReleaseResources
 > Task :libeventpipe:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :libeventpipe:extractDeepLinksRelease
+> Task :app:mergeProjectDexDebug
+> Task :libeventpipe:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :libeventpipe:compileReleaseLibraryResources
+> Task :libeventpipe:generateReleaseBuildConfig
+> Task :libeventpipe:mergeDebugNativeLibs
+> Task :libeventpipe:stripDebugDebugSymbols
+> Task :libeventpipe:copyDebugJniLibsProjectOnly
+> Task :libeventpipe:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
 > Task :libeventpipe:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :libeventpipe:generateReleaseBuildConfig
 
 > Task :libeventpipe:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/EventPipe.kt: (67, 32): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@UseExperimental(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (27, 56): Unchecked cast: Any to T
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (20, 21): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (25, 22): This declaration is experimental and its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/libeventpipe/src/main/java/com/dansdev/libeventpipe/PipeData.kt: (27, 56): Unchecked cast: Any to T
 
-> Task :libeventpipe:generateReleaseSources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :libeventpipe:javaPreCompileRelease
 > Task :libeventpipe:compileReleaseJavaWithJavac
 > Task :libeventpipe:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/src/main/java/com/dansdev/sampleeventpipe/MainActivity.kt: (25, 21): Parameter 'v' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/src/main/java/com/dansdev/sampleeventpipe/MainActivity.kt: (23, 21): Parameter 'v' is never used
 
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:generateReleaseSources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :libeventpipe:prepareLintJarForPublish
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e508de1fb54a6b13582cd96bb9899704/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :libeventpipe:processReleaseJavaRes NO-SOURCE
-> Task :libeventpipe:bundleLibResRelease
+> Task :app:dexBuilderRelease
 > Task :libeventpipe:bundleLibRuntimeRelease
-> Task :libeventpipe:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForRelease
+> Task :libeventpipe:prepareLintJarForPublish
+> Task :app:lintVitalRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -161,16 +152,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :libeventpipe:generateReleaseAssets
 > Task :libeventpipe:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :libeventpipe:processReleaseJavaRes NO-SOURCE
+> Task :libeventpipe:bundleLibResRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :libeventpipe:mergeReleaseJniLibFolders
-> Task :libeventpipe:transformNativeLibsWithMergeJniLibsForRelease
-> Task :libeventpipe:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :libeventpipe:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :libeventpipe:mergeReleaseNativeLibs
+> Task :libeventpipe:stripReleaseDebugSymbols
+> Task :libeventpipe:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -178,11 +173,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 46s
+93 actionable tasks: 93 executed
 
-BUILD SUCCESSFUL in 49s
-96 actionable tasks: 96 executed
-
-2019-08-12 19:17:47,086 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565612204312-0/src/coroutines-event-pipe-master/app/build/outputs/apk/debug/app-debug.apk
+2020-05-11 21:19:54,944 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589206738694-0/src/coroutines-event-pipe-master/app/build/outputs/apk/debug/app-debug.apk
