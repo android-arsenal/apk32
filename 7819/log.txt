@@ -1,179 +1,134 @@
-2020-02-18 12:04:27,715 INFO  DownloadService - Downloading "https://github.com/Dmitry-Borodin/viewbinder/archive/master.zip", attempt 3
-2020-02-18 12:04:29,909 INFO  DownloadService - Downloaded https://github.com/Dmitry-Borodin/viewbinder/archive/master.zip, attempt 3
-2020-02-18 12:04:29,909 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/master.zip": 321 KB
-2020-02-18 12:04:29,909 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-02-18 12:04:29,910 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/master.zip: true
-2020-02-18 12:04:29,910 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src'.
-2020-02-18 12:04:29,951 INFO  FullProcessService - Size of directory with sources: 321 KB
-2020-02-18 12:04:29,951 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src]
-2020-02-18 12:04:29,982 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/.git/
+2020-05-15 14:50:53,688 INFO  DownloadService - Downloading "https://github.com/Dmitry-Borodin/viewbinder/archive/master.zip", attempt 3
+2020-05-15 14:51:12,265 INFO  VirusProcessorServiceImpl - Queued project 7820 to scan viruses
+2020-05-15 14:51:19,094 INFO  DownloadService - Downloaded https://github.com/Dmitry-Borodin/viewbinder/archive/master.zip, attempt 3
+2020-05-15 14:51:19,095 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/master.zip": 321 KB
+2020-05-15 14:51:19,095 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-05-15 14:51:19,100 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/master.zip: true
+2020-05-15 14:51:19,100 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src'.
+2020-05-15 14:51:19,157 INFO  FullProcessService - Size of directory with sources: 321 KB
+2020-05-15 14:51:19,158 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src]
+2020-05-15 14:51:19,194 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/.git/
 
-2020-02-18 12:04:29,988 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/gradlew
-2020-02-18 12:04:29,995 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/viewbinder-android/build.gradle
-2020-02-18 12:04:29,999 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/viewbinder-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-appcompat/build.gradle
-2020-02-18 12:04:30,000 INFO  ProjectBuildService - Remote scripts: none
-2020-02-18 12:04:30,000 INFO  ProjectFixService - Fixing project...
-2020-02-18 12:04:30,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/local.properties
-2020-02-18 12:04:30,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,014 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-androidx/local.properties
-2020-02-18 12:04:30,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-androidx/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-appcompat/local.properties
-2020-02-18 12:04:30,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-appcompat/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/local.properties
-2020-02-18 12:04:30,022 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-02-18 12:04:30,022 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-02-18 12:04:30,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-android/local.properties
-2020-02-18 12:04:30,025 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,026 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-androidx/local.properties
-2020-02-18 12:04:30,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-androidx/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-appcompat/local.properties
-2020-02-18 12:04:30,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-appcompat/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,033 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/viewbinder-android/local.properties
-2020-02-18 12:04:30,035 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/viewbinder-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
-2020-02-18 12:04:30,036 INFO  ProjectFixService - Project was maybe fixed
-2020-02-18 12:04:30,036 INFO  ProjectTaskService - Detecting possible tasks...
-2020-02-18 12:04:30,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-02-18 12:04:39,469 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-02-18 12:04:39,469 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-02-18 12:04:39,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-02-18 12:04:44,182 INFO  VirusProcessorServiceImpl - Queued project 7854 to scan viruses
-2020-02-18 12:05:16,564 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Task :stub-android:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-android/src/main/java/android/app/Activity.kt: (16, 40): Parameter 'id' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-android/src/main/java/android/content/res/Resources.kt: (7, 18): Parameter 'id' is never used
-
-> Task :stub-android:compileJava
-> Task :stub-android:processResources NO-SOURCE
-> Task :stub-android:classes
-> Task :stub-android:inspectClassesForKotlinIC
-> Task :stub-android:jar
-
-> Task :stub-androidx:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-androidx/src/main/java/androidx/core/content/ContextCompat.kt: (10, 18): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-androidx/src/main/java/androidx/core/content/ContextCompat.kt: (10, 36): Parameter 'id' is never used
-
-> Task :stub-androidx:compileJava NO-SOURCE
-> Task :stub-androidx:processResources NO-SOURCE
-> Task :stub-androidx:classes UP-TO-DATE
-> Task :stub-androidx:inspectClassesForKotlinIC
-> Task :stub-androidx:jar
-
-> Task :stub-appcompat:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-appcompat/src/main/java/android/support/v4/content/ContextCompat.kt: (10, 18): Parameter 'context' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/stub-appcompat/src/main/java/android/support/v4/content/ContextCompat.kt: (10, 36): Parameter 'id' is never used
-
-> Task :stub-appcompat:compileJava
-> Task :stub-appcompat:processResources NO-SOURCE
-> Task :stub-appcompat:classes
-> Task :stub-appcompat:inspectClassesForKotlinIC
-> Task :stub-appcompat:jar
-> Task :viewbinder-android:compileKotlin
-> Task :viewbinder-android:compileJava NO-SOURCE
-> Task :viewbinder-android:processResources NO-SOURCE
-> Task :viewbinder-android:classes UP-TO-DATE
-> Task :viewbinder-android:inspectClassesForKotlinIC
-> Task :viewbinder-android:jar
+2020-05-15 14:51:19,202 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/gradlew
+2020-05-15 14:51:19,212 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/viewbinder-android/build.gradle
+2020-05-15 14:51:19,221 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-androidx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/viewbinder-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-appcompat/build.gradle
+2020-05-15 14:51:19,222 INFO  ProjectBuildService - Remote scripts: none
+2020-05-15 14:51:19,222 INFO  ProjectFixService - Fixing project...
+2020-05-15 14:51:19,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/local.properties
+2020-05-15 14:51:19,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-androidx/local.properties
+2020-05-15 14:51:19,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-androidx/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-appcompat/local.properties
+2020-05-15 14:51:19,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-appcompat/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/local.properties
+2020-05-15 14:51:19,253 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-05-15 14:51:19,253 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-05-15 14:51:19,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-android/local.properties
+2020-05-15 14:51:19,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-androidx/local.properties
+2020-05-15 14:51:19,259 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-androidx/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,260 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-appcompat/local.properties
+2020-05-15 14:51:19,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/stub-appcompat/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/viewbinder-android/local.properties
+2020-05-15 14:51:19,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/viewbinder-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=26]
+2020-05-15 14:51:19,267 INFO  ProjectFixService - Project was maybe fixed
+2020-05-15 14:51:19,267 INFO  ProjectTaskService - Detecting possible tasks...
+2020-05-15 14:51:19,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-05-15 14:51:38,548 INFO  ProjectTaskService - Detected possible tasks: 70
+2020-05-15 14:51:38,548 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-05-15 14:51:38,549 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-05-15 14:52:26,107 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample-android:preBuild UP-TO-DATE
 > Task :sample-android:preDebugBuild UP-TO-DATE
 > Task :sample-android:compileDebugAidl NO-SOURCE
 > Task :sample-android:compileDebugRenderscript NO-SOURCE
-> Task :sample-android:checkDebugManifest
 > Task :sample-android:generateDebugBuildConfig
 > Task :sample-android:mainApkListPersistenceDebug
 > Task :sample-android:generateDebugResValues
 > Task :sample-android:generateDebugResources
 > Task :sample-android:createDebugCompatibleScreenManifests
+> Task :sample-android:extractDeepLinksDebug
 > Task :sample-android:processDebugManifest
 > Task :sample-android:mergeDebugShaders
 > Task :sample-android:compileDebugShaders
 > Task :sample-android:generateDebugAssets
 > Task :sample-android:mergeDebugAssets
+> Task :sample-android:processDebugJavaRes NO-SOURCE
+> Task :sample-android:checkDebugDuplicateClasses
 > Task :sample-android:mergeDebugResources
 > Task :sample-android:processDebugResources
 
 > Task :sample-android:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (3, 20): 'DialogFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (13, 33): 'DialogFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (3, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (12, 27): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (32, 27): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (40, 29): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (48, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (49, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (3, 20): 'DialogFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (13, 33): 'DialogFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (3, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (12, 27): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (32, 27): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (40, 29): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (48, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (49, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
 
-> Task :sample-android:processDebugJavaRes NO-SOURCE
-> Task :sample-android:checkDebugDuplicateClasses
-> Task :sample-android:validateSigningDebug
-> Task :sample-android:signingConfigWriterDebug
-> Task :sample-android:mergeDebugJniLibFolders
 > Task :sample-android:javaPreCompileDebug
 > Task :sample-android:compileDebugJavaWithJavac
 > Task :sample-android:compileDebugSources
-> Task :sample-android:transformClassesWithDexBuilderForDebug
+> Task :sample-android:dexBuilderDebug
+> Task :sample-android:mergeDebugJniLibFolders
+> Task :sample-android:validateSigningDebug
 > Task :sample-android:preReleaseBuild UP-TO-DATE
 > Task :sample-android:compileReleaseAidl NO-SOURCE
 > Task :sample-android:compileReleaseRenderscript NO-SOURCE
-> Task :sample-android:checkReleaseManifest
 > Task :sample-android:generateReleaseBuildConfig
 > Task :sample-android:mainApkListPersistenceRelease
 > Task :sample-android:generateReleaseResValues
 > Task :sample-android:generateReleaseResources
-> Task :sample-android:createReleaseCompatibleScreenManifests
-> Task :sample-android:processReleaseManifest
-> Task :sample-android:prepareLintJar
 > Task :sample-android:mergeDebugNativeLibs
 > Task :sample-android:stripDebugDebugSymbols
+> Task :sample-android:createReleaseCompatibleScreenManifests
+> Task :sample-android:extractDeepLinksRelease
+> Task :sample-android:processReleaseManifest
+> Task :sample-android:prepareLintJar
 > Task :sample-android:checkReleaseDuplicateClasses
 > Task :sample-android:mergeReleaseResources
 > Task :sample-android:processReleaseResources
 
 > Task :sample-android:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (3, 20): 'DialogFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (13, 33): 'DialogFragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (3, 20): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (12, 27): 'Fragment' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (32, 27): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (40, 29): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (48, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (49, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (3, 20): 'DialogFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseDialogFragment.kt: (13, 33): 'DialogFragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (3, 20): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/BaseFragment.kt: (12, 27): 'Fragment' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (32, 27): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (40, 29): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (48, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/src/main/java/com/krenvpravo/viewbinder/sample/ExampleActivity.kt: (49, 13): 'getter for fragmentManager: FragmentManager!' is deprecated. Deprecated in Java
 
+> Task :sample-android:mergeDebugJavaResource
+> Task :sample-android:javaPreCompileRelease
+> Task :sample-android:compileReleaseJavaWithJavac
+> Task :sample-android:compileReleaseSources
+> Task :sample-android:lintVitalRelease
+> Task :sample-android:dexBuilderRelease
 > Task :sample-android:mergeReleaseShaders
 > Task :sample-android:compileReleaseShaders
 > Task :sample-android:generateReleaseAssets
 > Task :sample-android:mergeReleaseAssets
 > Task :sample-android:processReleaseJavaRes NO-SOURCE
-> Task :sample-android:signingConfigWriterRelease
 > Task :sample-android:mergeReleaseJniLibFolders
-> Task :sample-android:mergeDebugJavaResource
-> Task :sample-android:javaPreCompileRelease
-> Task :sample-android:compileReleaseJavaWithJavac
-> Task :sample-android:compileReleaseSources
-
-> Task :sample-android:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5714000c0ba8ae17595bd09b7aedf7bc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :sample-android:transformClassesWithDexBuilderForRelease
+> Task :sample-android:mergeExtDexDebug
 > Task :sample-android:mergeReleaseNativeLibs
 > Task :sample-android:stripReleaseDebugSymbols
-> Task :sample-android:mergeReleaseJavaResource
 > Task :sample-android:mergeExtDexRelease
-> Task :sample-android:mergeExtDexDebug
-> Task :sample-android:mergeDexRelease
-> Task :sample-android:packageRelease
-> Task :sample-android:assembleRelease
+> Task :sample-android:mergeReleaseJavaResource
 > Task :sample-android:mergeDexDebug
 > Task :sample-android:packageDebug
 > Task :sample-android:assembleDebug
+> Task :sample-android:mergeDexRelease
+> Task :sample-android:packageRelease
+> Task :sample-android:assembleRelease
 > Task :sample-android:assemble
 > Task :sample-android:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 46s
+49 actionable tasks: 49 executed
 
-BUILD SUCCESSFUL in 36s
-65 actionable tasks: 65 executed
-
-2020-02-18 12:05:16,592 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1582002267709-0/src/viewbinder-master/sample-android/build/outputs/apk/release/sample-android-release-unsigned.apk
+2020-05-15 14:52:26,145 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589529053686-0/src/viewbinder-master/sample-android/build/outputs/apk/release/sample-android-release-unsigned.apk
