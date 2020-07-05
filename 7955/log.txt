@@ -1,31 +1,32 @@
-2020-04-23 19:00:53,799 INFO  DownloadService - Downloading "https://github.com/fartem/crypto-tracker/archive/master.zip", attempt 3
-2020-04-23 19:00:55,216 INFO  DownloadService - Downloaded https://github.com/fartem/crypto-tracker/archive/master.zip, attempt 3
-2020-04-23 19:00:55,216 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/master.zip": 1 MB
-2020-04-23 19:00:55,216 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 19:00:55,222 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/master.zip: true
-2020-04-23 19:00:55,223 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src'.
-2020-04-23 19:00:55,279 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-04-23 19:00:55,280 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src]
-2020-04-23 19:00:55,310 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/.git/
+2020-07-06 01:58:00,522 INFO  DownloadService - Downloading "https://github.com/fartem/crypto-tracker/archive/master.zip", attempt 3
+2020-07-06 01:58:01,803 INFO  DownloadService - Downloaded https://github.com/fartem/crypto-tracker/archive/master.zip, attempt 3
+2020-07-06 01:58:01,804 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/master.zip": 803 KB
+2020-07-06 01:58:01,804 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-07-06 01:58:01,810 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/master.zip: true
+2020-07-06 01:58:01,810 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src'.
+2020-07-06 01:58:01,863 INFO  FullProcessService - Size of directory with sources: 946 KB
+2020-07-06 01:58:01,863 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src]
+2020-07-06 01:58:01,884 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/.git/
 
-2020-04-23 19:00:55,317 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/gradlew
-2020-04-23 19:00:55,323 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/build.gradle
-2020-04-23 19:00:55,330 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/settings.gradle
-2020-04-23 19:00:55,331 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 19:00:55,331 INFO  ProjectFixService - Fixing project...
-2020-04-23 19:00:55,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/local.properties
-2020-04-23 19:00:55,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 19:00:55,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/local.properties
-2020-04-23 19:00:55,347 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-23 19:00:55,347 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-23 19:00:55,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-04-23 19:00:55,350 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 19:00:55,350 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 19:00:55,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 19:01:16,951 INFO  ProjectTaskService - Detected possible tasks: 107
-2020-04-23 19:01:16,951 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2020-04-23 19:01:16,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2020-04-23 19:03:14,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-07-06 01:58:01,892 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/gradlew
+2020-07-06 01:58:01,901 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/build.gradle
+2020-07-06 01:58:01,909 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/detekt.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/settings.gradle
+2020-07-06 01:58:01,910 INFO  ProjectBuildService - Remote scripts: none
+2020-07-06 01:58:01,910 INFO  ProjectFixService - Fixing project...
+2020-07-06 01:58:01,926 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/local.properties
+2020-07-06 01:58:01,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-06 01:58:01,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/local.properties
+2020-07-06 01:58:01,928 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-07-06 01:58:01,928 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-07-06 01:58:01,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-07-06 01:58:01,930 INFO  ProjectFixService - Project was maybe fixed
+2020-07-06 01:58:01,930 INFO  ProjectTaskService - Detecting possible tasks...
+2020-07-06 01:58:01,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-07-06 01:58:07,966 INFO  VirusProcessorServiceImpl - Queued project 8029 to scan viruses
+2020-07-06 01:58:09,792 INFO  ProjectTaskService - Detected possible tasks: 107
+2020-07-06 01:58:09,793 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2020-07-06 01:58:09,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2020-07-06 01:59:39,167 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preCoinmarketcupDebugBuild UP-TO-DATE
 > Task :app:compileCoinmarketcupDebugAidl NO-SOURCE
@@ -67,12 +68,12 @@
 > Task :app:processCoinmarketcupReleaseManifest
 > Task :app:jacocoCoinmarketcupDebug
 > Task :app:dexBuilderCoinmarketcupDebug
+> Task :app:mergeCoinmarketcupDebugNativeLibs
+> Task :app:stripCoinmarketcupDebugDebugSymbols
 > Task :app:mergeCoinmarketcupReleaseResources
 > Task :app:processCoinmarketcupReleaseResources
 > Task :app:kaptGenerateStubsCoinmarketcupReleaseKotlin
 > Task :app:mergeProjectDexCoinmarketcupDebug
-> Task :app:mergeCoinmarketcupDebugNativeLibs
-> Task :app:stripCoinmarketcupDebugDebugSymbols
 > Task :app:mergeExtDexCoinmarketcupDebug
 > Task :app:packageCoinmarketcupDebug
 > Task :app:assembleCoinmarketcupDebug
@@ -92,85 +93,85 @@
 > Task :app:dexBuilderCoinmarketcupRelease
 > Task :app:mergeCoinmarketcupReleaseJavaResource
 > Task :app:mergeCoinmarketcupReleaseJniLibFolders
-> Task :app:preDebugImplDebugBuild UP-TO-DATE
-> Task :app:compileDebugImplDebugAidl NO-SOURCE
-> Task :app:compileDebugImplDebugRenderscript NO-SOURCE
-> Task :app:generateDebugImplDebugBuildConfig
-> Task :app:mainApkListPersistenceDebugImplDebug
-> Task :app:generateDebugImplDebugResValues
-> Task :app:generateDebugImplDebugResources
-> Task :app:createDebugImplDebugCompatibleScreenManifests
-> Task :app:extractDeepLinksDebugImplDebug
-> Task :app:processDebugImplDebugManifest
-> Task :app:mergeDebugImplDebugShaders
-> Task :app:compileDebugImplDebugShaders
-> Task :app:generateDebugImplDebugAssets
-> Task :app:mergeDebugImplDebugAssets
-> Task :app:processDebugImplDebugJavaRes NO-SOURCE
-> Task :app:checkDebugImplDebugDuplicateClasses
-> Task :app:mergeDebugImplDebugJniLibFolders
-> Task :app:mergeLibDexDebugImplDebug
-> Task :app:validateSigningDebugImplDebug
-> Task :app:preDebugImplReleaseBuild UP-TO-DATE
-> Task :app:compileDebugImplReleaseAidl NO-SOURCE
-> Task :app:compileDebugImplReleaseRenderscript NO-SOURCE
-> Task :app:generateDebugImplReleaseBuildConfig
-> Task :app:mainApkListPersistenceDebugImplRelease
-> Task :app:generateDebugImplReleaseResValues
-> Task :app:generateDebugImplReleaseResources
-> Task :app:mergeDebugImplDebugNativeLibs
-> Task :app:stripDebugImplDebugDebugSymbols
-> Task :app:createDebugImplReleaseCompatibleScreenManifests
-> Task :app:extractDeepLinksDebugImplRelease
-> Task :app:processDebugImplReleaseManifest
-> Task :app:mergeDebugImplReleaseShaders
-> Task :app:compileDebugImplReleaseShaders
-> Task :app:generateDebugImplReleaseAssets
-> Task :app:mergeDebugImplReleaseAssets
-> Task :app:processDebugImplReleaseJavaRes NO-SOURCE
-> Task :app:checkDebugImplReleaseDuplicateClasses
-> Task :app:mergeDebugImplReleaseJniLibFolders
+> Task :app:preDemoDebugBuild UP-TO-DATE
+> Task :app:compileDemoDebugAidl NO-SOURCE
+> Task :app:compileDemoDebugRenderscript NO-SOURCE
+> Task :app:generateDemoDebugBuildConfig
+> Task :app:mainApkListPersistenceDemoDebug
+> Task :app:generateDemoDebugResValues
+> Task :app:generateDemoDebugResources
 > Task :app:mergeCoinmarketcupReleaseNativeLibs
 > Task :app:stripCoinmarketcupReleaseDebugSymbols
-> Task :app:mergeDebugImplReleaseResources
-> Task :app:processDebugImplReleaseResources
-> Task :app:kaptGenerateStubsDebugImplReleaseKotlin
-> Task :app:mergeExtDexDebugImplDebug
-> Task :app:mergeDebugImplReleaseNativeLibs
-> Task :app:stripDebugImplReleaseDebugSymbols
-> Task :app:mergeDebugImplDebugResources
-> Task :app:processDebugImplDebugResources
-> Task :app:kaptGenerateStubsDebugImplDebugKotlin
+> Task :app:createDemoDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDemoDebug
+> Task :app:processDemoDebugManifest
+> Task :app:mergeDemoDebugShaders
+> Task :app:compileDemoDebugShaders
+> Task :app:generateDemoDebugAssets
+> Task :app:mergeDemoDebugAssets
+> Task :app:processDemoDebugJavaRes NO-SOURCE
+> Task :app:checkDemoDebugDuplicateClasses
+> Task :app:mergeDemoDebugJniLibFolders
+> Task :app:mergeDemoDebugResources
+> Task :app:processDemoDebugResources
+> Task :app:kaptGenerateStubsDemoDebugKotlin
+> Task :app:mergeExtDexDemoDebug
+> Task :app:validateSigningDemoDebug
+> Task :app:preDemoReleaseBuild UP-TO-DATE
+> Task :app:compileDemoReleaseAidl NO-SOURCE
+> Task :app:compileDemoReleaseRenderscript NO-SOURCE
+> Task :app:generateDemoReleaseBuildConfig
+> Task :app:mainApkListPersistenceDemoRelease
+> Task :app:generateDemoReleaseResValues
+> Task :app:generateDemoReleaseResources
+> Task :app:createDemoReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksDemoRelease
+> Task :app:processDemoReleaseManifest
+> Task :app:mergeDemoReleaseShaders
+> Task :app:compileDemoReleaseShaders
+> Task :app:generateDemoReleaseAssets
+> Task :app:mergeDemoReleaseAssets
+> Task :app:processDemoReleaseJavaRes NO-SOURCE
+> Task :app:checkDemoReleaseDuplicateClasses
+> Task :app:mergeDemoReleaseJniLibFolders
+> Task :app:mergeDemoDebugNativeLibs
+> Task :app:stripDemoDebugDebugSymbols
+> Task :app:mergeDemoReleaseResources
+> Task :app:processDemoReleaseResources
+> Task :app:kaptGenerateStubsDemoReleaseKotlin
 > Task :app:mergeExtDexCoinmarketcupRelease
-> Task :app:mergeExtDexDebugImplRelease
-> Task :app:kaptDebugImplReleaseKotlin
-> Task :app:compileDebugImplReleaseKotlin
+> Task :app:mergeExtDexDemoRelease
+> Task :app:mergeLibDexDemoDebug
+> Task :app:mergeDemoReleaseNativeLibs
+> Task :app:stripDemoReleaseDebugSymbols
+> Task :app:kaptDemoDebugKotlin
+> Task :app:compileDemoDebugKotlin
+> Task :app:kaptDemoReleaseKotlin
+> Task :app:compileDemoReleaseKotlin
+> Task :app:mergeDemoDebugJavaResource
 > Task :app:mergeDexCoinmarketcupRelease
 > Task :app:packageCoinmarketcupRelease
 > Task :app:assembleCoinmarketcupRelease
 > Task :app:assembleCoinmarketcup
-> Task :app:mergeDebugImplReleaseJavaResource
-> Task :app:kaptDebugImplDebugKotlin
-> Task :app:compileDebugImplDebugKotlin
-> Task :app:javaPreCompileDebugImplRelease
-> Task :app:compileDebugImplReleaseJavaWithJavac
-> Task :app:compileDebugImplReleaseSources
-> Task :app:lintVitalDebugImplRelease
-> Task :app:dexBuilderDebugImplRelease
-> Task :app:javaPreCompileDebugImplDebug
-> Task :app:compileDebugImplDebugJavaWithJavac
-> Task :app:compileDebugImplDebugSources
-> Task :app:mergeDebugImplDebugJavaResource
-> Task :app:jacocoDebugImplDebug
-> Task :app:dexBuilderDebugImplDebug
-> Task :app:mergeProjectDexDebugImplDebug
-> Task :app:packageDebugImplDebug
-> Task :app:assembleDebugImplDebug
+> Task :app:mergeDemoReleaseJavaResource
+> Task :app:javaPreCompileDemoRelease
+> Task :app:compileDemoReleaseJavaWithJavac
+> Task :app:compileDemoReleaseSources
+> Task :app:lintVitalDemoRelease
+> Task :app:dexBuilderDemoRelease
+> Task :app:javaPreCompileDemoDebug
+> Task :app:compileDemoDebugJavaWithJavac
+> Task :app:compileDemoDebugSources
+> Task :app:jacocoDemoDebug
+> Task :app:dexBuilderDemoDebug
+> Task :app:mergeProjectDexDemoDebug
+> Task :app:packageDemoDebug
+> Task :app:assembleDemoDebug
 > Task :app:assembleDebug
-> Task :app:mergeDexDebugImplRelease
-> Task :app:packageDebugImplRelease
-> Task :app:assembleDebugImplRelease
-> Task :app:assembleDebugImpl
+> Task :app:mergeDexDemoRelease
+> Task :app:packageDemoRelease
+> Task :app:assembleDemoRelease
+> Task :app:assembleDemo
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
@@ -179,7 +180,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 56s
+BUILD SUCCESSFUL in 1m 28s
 109 actionable tasks: 109 executed
 
-2020-04-23 19:03:14,321 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643253792-0/src/crypto-tracker-master/app/build/outputs/apk/debugImpl/release/app-debugImpl-release-unsigned.apk
+2020-07-06 01:59:39,339 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975480512-0/src/crypto-tracker-master/app/build/outputs/apk/demo/release/crypto-tracker_2.3.1-demo-release.apk
