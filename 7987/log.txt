@@ -1,193 +1,187 @@
-2020-04-28 12:39:52,004 INFO  DownloadService - Downloading "https://github.com/st235/ExpandableBottomBar/archive/master.zip", attempt 3
-2020-04-28 12:40:08,563 INFO  DownloadService - Downloaded https://github.com/st235/ExpandableBottomBar/archive/master.zip, attempt 3
-2020-04-28 12:40:08,564 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/master.zip": 27 MB
-2020-04-28 12:40:08,564 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-28 12:40:08,565 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/master.zip: true
-2020-04-28 12:40:08,565 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src'.
-2020-04-28 12:40:08,803 INFO  FullProcessService - Size of directory with sources: 27 MB
-2020-04-28 12:40:08,804 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src]
-2020-04-28 12:40:08,822 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/.git/
+2020-09-09 01:03:20,619 INFO  DownloadService - Downloading "https://github.com/st235/ExpandableBottomBar/archive/master.zip", attempt 3
+2020-09-09 01:03:50,194 INFO  DownloadService - Downloaded https://github.com/st235/ExpandableBottomBar/archive/master.zip, attempt 3
+2020-09-09 01:03:50,194 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/master.zip": 27 MB
+2020-09-09 01:03:50,194 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-09 01:03:50,195 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/master.zip: true
+2020-09-09 01:03:50,195 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src'.
+2020-09-09 01:03:50,504 INFO  FullProcessService - Size of directory with sources: 27 MB
+2020-09-09 01:03:50,504 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src]
+2020-09-09 01:03:50,525 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/.git/
 
-2020-04-28 12:40:08,827 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/gradlew
-2020-04-28 12:40:08,832 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/build.gradle
-2020-04-28 12:40:08,836 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/settings.gradle
-2020-04-28 12:40:08,837 INFO  ProjectBuildService - Remote scripts: none
-2020-04-28 12:40:08,837 INFO  ProjectFixService - Fixing project...
-2020-04-28 12:40:08,848 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/local.properties
-2020-04-28 12:40:08,849 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-04-28 12:40:08,850 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-04-28 12:40:08,851 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/lib-expandablebottombar/local.properties
-2020-04-28 12:40:08,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-04-28 12:40:08,852 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
-2020-04-28 12:40:08,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/local.properties
-2020-04-28 12:40:08,853 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-04-28 12:40:08,854 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-04-28 12:40:08,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-04-28 12:40:08,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-04-28 12:40:08,856 INFO  ProjectFixService - Project was maybe fixed
-2020-04-28 12:40:08,856 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-28 12:40:08,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-28 12:40:33,455 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-28 12:40:33,455 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-28 12:40:33,455 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-28 12:41:58,259 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :lib-expandablebottombar
-WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2020-09-09 01:03:50,532 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/gradlew
+2020-09-09 01:03:50,537 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/build.gradle
+2020-09-09 01:03:50,542 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/settings.gradle
+2020-09-09 01:03:50,543 INFO  ProjectBuildService - Remote scripts: none
+2020-09-09 01:03:50,543 INFO  ProjectFixService - Fixing project...
+2020-09-09 01:03:50,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/local.properties
+2020-09-09 01:03:50,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 01:03:50,558 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 01:03:50,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/local.properties
+2020-09-09 01:03:50,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-09-09 01:03:50,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2020-09-09 01:03:50,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/local.properties
+2020-09-09 01:03:50,562 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-09 01:03:50,562 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-09 01:03:50,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 01:03:50,564 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 01:03:50,565 INFO  ProjectFixService - Project was maybe fixed
+2020-09-09 01:03:50,565 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 01:03:50,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 01:04:01,058 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-09-09 01:04:01,058 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-09 01:04:01,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-09 01:05:45,118 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :lib-expandablebottombar:preBuild UP-TO-DATE
 > Task :lib-expandablebottombar:preDebugBuild UP-TO-DATE
-> Task :lib-expandablebottombar:checkDebugManifest
-> Task :lib-expandablebottombar:processDebugManifest
-> Task :app:preDebugBuild
 > Task :lib-expandablebottombar:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :lib-expandablebottombar:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :lib-expandablebottombar:compileDebugRenderscript NO-SOURCE
 > Task :lib-expandablebottombar:generateDebugResValues
 > Task :lib-expandablebottombar:generateDebugResources
 > Task :lib-expandablebottombar:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
+> Task :app:extractDeepLinksDebug
+> Task :lib-expandablebottombar:extractDeepLinksDebug
 > Task :lib-expandablebottombar:generateDebugBuildConfig
-> Task :lib-expandablebottombar:generateDebugRFile
-> Task :app:processDebugResources
-> Task :lib-expandablebottombar:compileDebugKotlin
-> Task :lib-expandablebottombar:prepareLintJar
-> Task :lib-expandablebottombar:generateDebugSources
+> Task :lib-expandablebottombar:processDebugManifest
+> Task :app:processDebugManifest
+> Task :lib-expandablebottombar:parseDebugLocalResources
+> Task :app:mergeDebugResources
 > Task :lib-expandablebottombar:javaPreCompileDebug
+> Task :lib-expandablebottombar:generateDebugRFile
+
+> Task :lib-expandablebottombar:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (39, 37): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (53, 37): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (59, 29): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (94, 39): Parameter 'animator' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/navigation/ExpandableBottomBarNavigationUI.kt: (22, 56): Parameter 'v' is never used, could be renamed to _
+
 > Task :lib-expandablebottombar:compileDebugJavaWithJavac
-> Task :lib-expandablebottombar:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :lib-expandablebottombar:compileDebugLibraryResources
+> Task :app:processDebugResources
+> Task :lib-expandablebottombar:bundleLibCompileToJarDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/src/main/java/github/com/st235/expandablebottombar/ProgrammaticallyCreatedDemoActivity.kt: (44, 48): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/src/main/java/github/com/st235/expandablebottombar/screens/ProgrammaticallyCreatedDemoActivity.kt: (59, 48): Parameter 'v' is never used, could be renamed to _
 
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :lib-expandablebottombar:mergeDebugShaders
-> Task :lib-expandablebottombar:compileDebugShaders
-> Task :lib-expandablebottombar:generateDebugAssets
+> Task :lib-expandablebottombar:compileDebugShaders NO-SOURCE
+> Task :lib-expandablebottombar:generateDebugAssets UP-TO-DATE
 > Task :lib-expandablebottombar:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :lib-expandablebottombar:bundleLibRuntimeDebug
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :lib-expandablebottombar:processDebugJavaRes NO-SOURCE
 > Task :lib-expandablebottombar:bundleLibResDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :lib-expandablebottombar:bundleLibRuntimeToJarDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
 > Task :lib-expandablebottombar:mergeDebugJniLibFolders
-> Task :lib-expandablebottombar:transformNativeLibsWithMergeJniLibsForDebug
-> Task :lib-expandablebottombar:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :lib-expandablebottombar:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :lib-expandablebottombar:extractProguardFiles
-> Task :lib-expandablebottombar:preReleaseBuild
-> Task :lib-expandablebottombar:checkReleaseManifest
-> Task :lib-expandablebottombar:processReleaseManifest
-> Task :app:preReleaseBuild
+> Task :app:validateSigningDebug
+> Task :lib-expandablebottombar:mergeDebugNativeLibs
+> Task :lib-expandablebottombar:stripDebugDebugSymbols NO-SOURCE
+> Task :lib-expandablebottombar:copyDebugJniLibsProjectOnly
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :lib-expandablebottombar:preReleaseBuild UP-TO-DATE
 > Task :lib-expandablebottombar:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :lib-expandablebottombar:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :lib-expandablebottombar:compileReleaseRenderscript NO-SOURCE
 > Task :lib-expandablebottombar:generateReleaseResValues
 > Task :lib-expandablebottombar:generateReleaseResources
 > Task :lib-expandablebottombar:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :lib-expandablebottombar:extractDeepLinksRelease
+> Task :app:mergeProjectDexDebug
+> Task :lib-expandablebottombar:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :lib-expandablebottombar:generateReleaseRFile
-> Task :app:processReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :lib-expandablebottombar:generateReleaseBuildConfig
-> Task :lib-expandablebottombar:compileReleaseKotlin
-> Task :lib-expandablebottombar:generateReleaseSources
+> Task :lib-expandablebottombar:parseReleaseLocalResources
+> Task :app:javaPreCompileRelease
+> Task :app:mergeReleaseResources
 > Task :lib-expandablebottombar:javaPreCompileRelease
+> Task :lib-expandablebottombar:generateReleaseRFile
+
+> Task :lib-expandablebottombar:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (39, 37): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (53, 37): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (59, 29): Type mismatch: inferred type is Runnable? but Runnable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/behavior/ExpandableBottomBarScrollableBehavior.kt: (94, 39): Parameter 'animator' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/lib-expandablebottombar/src/main/java/github/com/st235/lib_expandablebottombar/navigation/ExpandableBottomBarNavigationUI.kt: (22, 56): Parameter 'v' is never used, could be renamed to _
+
 > Task :lib-expandablebottombar:compileReleaseJavaWithJavac
-> Task :lib-expandablebottombar:bundleLibCompileRelease
+> Task :lib-expandablebottombar:compileReleaseLibraryResources
+> Task :app:processReleaseResources
+> Task :lib-expandablebottombar:bundleLibCompileToJarRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/src/main/java/github/com/st235/expandablebottombar/ProgrammaticallyCreatedDemoActivity.kt: (44, 48): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/src/main/java/github/com/st235/expandablebottombar/screens/ProgrammaticallyCreatedDemoActivity.kt: (59, 48): Parameter 'v' is never used, could be renamed to _
 
-> Task :app:generateReleaseSources
-> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :lib-expandablebottombar:bundleLibRuntimeToJarRelease
+> Task :app:dexBuilderRelease
 > Task :lib-expandablebottombar:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/550678cc600538d36c8b5007b7ba6aaa/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/cef725228f9980e865e7a241fd297874/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
+> Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :lib-expandablebottombar:mergeReleaseShaders
-> Task :lib-expandablebottombar:compileReleaseShaders
-> Task :lib-expandablebottombar:generateReleaseAssets
+> Task :lib-expandablebottombar:compileReleaseShaders NO-SOURCE
+> Task :lib-expandablebottombar:generateReleaseAssets UP-TO-DATE
 > Task :lib-expandablebottombar:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :lib-expandablebottombar:bundleLibRuntimeRelease
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :lib-expandablebottombar:processReleaseJavaRes NO-SOURCE
-> Task :lib-expandablebottombar:bundleLibResRelease
-> Task :lib-expandablebottombar:mergeReleaseJniLibFolders
-> Task :lib-expandablebottombar:transformNativeLibsWithMergeJniLibsForRelease
-> Task :lib-expandablebottombar:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :lib-expandablebottombar:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :lib-expandablebottombar:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :lib-expandablebottombar:mergeReleaseJniLibFolders
+> Task :lib-expandablebottombar:bundleLibResRelease
+> Task :lib-expandablebottombar:mergeReleaseNativeLibs
+> Task :lib-expandablebottombar:stripReleaseDebugSymbols NO-SOURCE
+> Task :lib-expandablebottombar:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 43s
+87 actionable tasks: 87 executed
 
-BUILD SUCCESSFUL in 1m 24s
-94 actionable tasks: 94 executed
-
-2020-04-28 12:41:58,387 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052392001-0/src/ExpandableBottomBar-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-09 01:05:45,200 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588200615-0/src/ExpandableBottomBar-master/app/build/outputs/apk/debug/app-debug.apk

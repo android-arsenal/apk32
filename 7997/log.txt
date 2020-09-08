@@ -1,57 +1,57 @@
-2020-03-23 01:52:23,888 INFO  DownloadService - Downloading "https://github.com/esafirm/universal-router/archive/master.zip", attempt 3
-2020-03-23 01:52:26,081 INFO  DownloadService - Downloaded https://github.com/esafirm/universal-router/archive/master.zip, attempt 3
-2020-03-23 01:52:26,081 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/master.zip": 248 KB
-2020-03-23 01:52:26,081 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-23 01:52:26,087 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/master.zip: true
-2020-03-23 01:52:26,087 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src'.
-2020-03-23 01:52:26,135 INFO  FullProcessService - Size of directory with sources: 299 KB
-2020-03-23 01:52:26,135 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src]
-2020-03-23 01:52:26,164 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/.git/
+2020-09-09 00:59:02,579 INFO  DownloadService - Downloading "https://github.com/esafirm/universal-router/archive/master.zip", attempt 3
+2020-09-09 00:59:04,313 INFO  DownloadService - Downloaded https://github.com/esafirm/universal-router/archive/master.zip, attempt 3
+2020-09-09 00:59:04,314 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/master.zip": 248 KB
+2020-09-09 00:59:04,314 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-09 00:59:04,318 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/master.zip: true
+2020-09-09 00:59:04,319 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src'.
+2020-09-09 00:59:04,366 INFO  FullProcessService - Size of directory with sources: 299 KB
+2020-09-09 00:59:04,366 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src]
+2020-09-09 00:59:04,398 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/.git/
 
-2020-03-23 01:52:26,171 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/gradlew
-2020-03-23 01:52:26,179 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/approuter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/cart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/product/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/processor/build.gradle
-2020-03-23 01:52:26,187 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/approuter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/product/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/cart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/settings.gradle
-2020-03-23 01:52:26,188 INFO  ProjectBuildService - Remote scripts: none
-2020-03-23 01:52:26,188 INFO  ProjectFixService - Fixing project...
-2020-03-23 01:52:26,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/android/local.properties
-2020-03-23 01:52:26,209 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/android/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/app/local.properties
-2020-03-23 01:52:26,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/approuter/local.properties
-2020-03-23 01:52:26,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/approuter/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/cart/local.properties
-2020-03-23 01:52:26,214 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/cart/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/product/local.properties
-2020-03-23 01:52:26,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/product/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/local.properties
-2020-03-23 01:52:26,216 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.0.1-all.zip
-2020-03-23 01:52:26,217 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.0.1-bin.zip)
-2020-03-23 01:52:26,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,220 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/local.properties
-2020-03-23 01:52:26,220 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-23 01:52:26,221 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-23 01:52:26,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/annotations/local.properties
-2020-03-23 01:52:26,225 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/annotations/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/core/local.properties
-2020-03-23 01:52:26,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/core/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,229 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/processor/local.properties
-2020-03-23 01:52:26,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/processor/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-03-23 01:52:26,232 INFO  ProjectFixService - Project was maybe fixed
-2020-03-23 01:52:26,232 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-23 01:52:26,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-23 01:52:34,504 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-03-23 01:52:34,504 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-03-23 01:52:34,504 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-03-23 01:52:43,955 INFO  VirusProcessorServiceImpl - Queued project 8002 to scan viruses
-2020-03-23 01:52:58,784 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-09 00:59:04,410 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/gradlew
+2020-09-09 00:59:04,422 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/approuter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/cart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/product/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/processor/build.gradle
+2020-09-09 00:59:04,431 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/approuter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/product/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/cart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/settings.gradle
+2020-09-09 00:59:04,433 INFO  ProjectBuildService - Remote scripts: none
+2020-09-09 00:59:04,433 INFO  ProjectFixService - Fixing project...
+2020-09-09 00:59:04,453 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/android/local.properties
+2020-09-09 00:59:04,457 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/android/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/app/local.properties
+2020-09-09 00:59:04,460 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,461 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/approuter/local.properties
+2020-09-09 00:59:04,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/approuter/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/cart/local.properties
+2020-09-09 00:59:04,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/cart/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/product/local.properties
+2020-09-09 00:59:04,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/product/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/local.properties
+2020-09-09 00:59:04,467 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.0.1-all.zip
+2020-09-09 00:59:04,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.0.1-bin.zip)
+2020-09-09 00:59:04,471 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/local.properties
+2020-09-09 00:59:04,472 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-09-09 00:59:04,473 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-09-09 00:59:04,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/annotations/local.properties
+2020-09-09 00:59:04,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/annotations/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/core/local.properties
+2020-09-09 00:59:04,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/core/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/processor/local.properties
+2020-09-09 00:59:04,486 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/processor/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-09 00:59:04,486 INFO  ProjectFixService - Project was maybe fixed
+2020-09-09 00:59:04,486 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 00:59:04,486 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 00:59:18,879 INFO  VirusProcessorServiceImpl - Queued project 8000 to scan viruses
+2020-09-09 00:59:46,599 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-09-09 00:59:46,600 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-09 00:59:46,600 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-09 01:00:32,434 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :android:preBuild UP-TO-DATE
 > Task :android:preDebugBuild UP-TO-DATE
 > Task :core:compileKotlin
 > Task :core:compileJava
 > Task :core:processResources NO-SOURCE
-> Task :core:classes
 > Task :android:compileDebugAidl NO-SOURCE
+> Task :core:classes
 > Task :core:inspectClassesForKotlinIC
 > Task :core:jar
 > Task :android:checkDebugManifest
@@ -67,6 +67,7 @@
 > Task :android:packageDebugRenderscript NO-SOURCE
 > Task :android:processDebugJavaRes NO-SOURCE
 > Task :android:mergeDebugJniLibFolders
+> Task :android:parseDebugLibraryResources
 > Task :android:preReleaseBuild UP-TO-DATE
 > Task :android:compileReleaseAidl NO-SOURCE
 > Task :android:compileReleaseRenderscript NO-SOURCE
@@ -75,7 +76,9 @@
 > Task :android:generateReleaseResValues
 > Task :android:generateReleaseResources
 > Task :android:packageReleaseResources
-> Task :android:parseDebugLibraryResources
+> Task :android:processDebugManifest
+> Task :android:parseReleaseLibraryResources
+> Task :android:prepareLintJarForPublish
 > Task :android:mergeReleaseShaders
 > Task :android:compileReleaseShaders
 > Task :android:generateReleaseAssets
@@ -83,21 +86,17 @@
 > Task :android:packageReleaseRenderscript NO-SOURCE
 > Task :android:processReleaseJavaRes NO-SOURCE
 > Task :android:mergeReleaseJniLibFolders
-> Task :android:parseReleaseLibraryResources
 > Task :android:mergeDebugNativeLibs
 > Task :android:stripDebugDebugSymbols
 > Task :android:transformNativeLibsWithSyncJniLibsForDebug
 > Task :android:mergeReleaseNativeLibs
 > Task :android:stripReleaseDebugSymbols
 > Task :android:transformNativeLibsWithSyncJniLibsForRelease
-> Task :android:prepareLintJarForPublish
-> Task :android:processDebugManifest
 > Task :android:processReleaseManifest
 > Task :android:sourcesJar
 > Task :android:mergeReleaseResources
 > Task :android:generateReleaseRFile
 > Task :android:compileReleaseKotlin
-> Task :android:verifyReleaseResources
 > Task :android:generateDebugRFile
 > Task :android:compileDebugKotlin
 > Task :android:javaPreCompileRelease
@@ -106,6 +105,7 @@
 > Task :android:mergeReleaseGeneratedProguardFiles
 > Task :android:mergeReleaseConsumerProguardFiles
 > Task :android:compileReleaseSources
+> Task :android:verifyReleaseResources
 > Task :android:javaPreCompileDebug
 > Task :android:compileDebugJavaWithJavac
 > Task :android:extractDebugAnnotations
@@ -127,15 +127,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/6.0.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 45s
 54 actionable tasks: 54 executed
 
-2020-03-23 01:52:58,844 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-23 01:52:58,844 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-23 01:53:05,310 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-23 01:53:05,311 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-23 01:53:05,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-23 01:54:25,814 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-09 01:00:32,500 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 01:00:32,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 01:00:42,333 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-09-09 01:00:42,333 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-09 01:00:42,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-09 01:02:28,422 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :core:compileKotlin
 > Task :core:compileJava
 > Task :core:processResources NO-SOURCE
@@ -155,11 +155,11 @@ BUILD SUCCESSFUL in 23s
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :approuter:preBuild UP-TO-DATE
 > Task :approuter:preDebugBuild UP-TO-DATE
-> Task :approuter:compileDebugAidl NO-SOURCE
 > Task :cart:preBuild UP-TO-DATE
 > Task :cart:preDebugBuild UP-TO-DATE
-> Task :cart:compileDebugAidl NO-SOURCE
 > Task :product:preBuild UP-TO-DATE
+> Task :approuter:compileDebugAidl NO-SOURCE
+> Task :cart:compileDebugAidl NO-SOURCE
 > Task :product:preDebugBuild UP-TO-DATE
 > Task :product:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -174,11 +174,11 @@ BUILD SUCCESSFUL in 23s
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :android:processDebugManifest
 > Task :approuter:generateDebugResValues
 > Task :approuter:compileDebugRenderscript NO-SOURCE
 > Task :approuter:generateDebugResources
 > Task :approuter:packageDebugResources
+> Task :android:processDebugManifest
 > Task :cart:generateDebugResValues
 > Task :cart:compileDebugRenderscript NO-SOURCE
 > Task :cart:generateDebugResources
@@ -194,10 +194,10 @@ BUILD SUCCESSFUL in 23s
 > Task :android:compileDebugJavaWithJavac
 > Task :app:createDebugCompatibleScreenManifests
 > Task :approuter:checkDebugManifest
+> Task :android:bundleLibCompileDebug
 > Task :cart:checkDebugManifest
 > Task :product:checkDebugManifest
 > Task :approuter:processDebugManifest
-> Task :android:bundleLibCompileDebug
 > Task :cart:processDebugManifest
 > Task :product:processDebugManifest
 > Task :app:processDebugManifest
@@ -214,17 +214,17 @@ BUILD SUCCESSFUL in 23s
 > Task :annotations:jar
 > Task :approuter:generateDebugRFile
 > Task :approuter:compileDebugKotlin
-> Task :cart:generateDebugRFile
 > Task :product:generateDebugRFile
-> Task :app:processDebugResources
 > Task :product:generateDebugBuildConfig
 > Task :approuter:javaPreCompileDebug
 > Task :approuter:compileDebugJavaWithJavac
+> Task :cart:generateDebugRFile
+> Task :app:processDebugResources
 > Task :processor:kaptGenerateStubsKotlin
 > Task :processor:kaptKotlin
 
 > Task :processor:compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/processor/src/main/java/nolambda/linkrouter/processor/RouteInitGenerator.kt: (34, 9): Parameter 'routeClass' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/processor/src/main/java/nolambda/linkrouter/processor/RouteInitGenerator.kt: (34, 9): Parameter 'routeClass' is never used
 
 > Task :processor:compileJava NO-SOURCE
 > Task :processor:processResources NO-SOURCE
@@ -274,11 +274,11 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :approuter:processDebugJavaRes NO-SOURCE
 > Task :cart:processDebugJavaRes NO-SOURCE
-> Task :product:processDebugJavaRes NO-SOURCE
 > Task :android:bundleLibResDebug
+> Task :product:processDebugJavaRes NO-SOURCE
+> Task :approuter:bundleLibResDebug
 > Task :cart:bundleLibResDebug
 > Task :product:bundleLibResDebug
-> Task :approuter:bundleLibResDebug
 > Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
 > Task :android:bundleLibRuntimeDebug
@@ -315,7 +315,6 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :product:stripDebugDebugSymbols
 > Task :product:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :android:parseReleaseLibraryResources
-> Task :android:processReleaseManifest
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :approuter:preReleaseBuild UP-TO-DATE
 > Task :approuter:compileReleaseAidl NO-SOURCE
@@ -349,37 +348,38 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :approuter:checkReleaseManifest
 > Task :app:mergeProjectDexDebug
+> Task :approuter:processReleaseManifest
 > Task :cart:checkReleaseManifest
+> Task :cart:processReleaseManifest
+> Task :product:checkReleaseManifest
+> Task :android:processReleaseManifest
+> Task :product:processReleaseManifest
+> Task :app:processReleaseManifest
 > Task :android:generateReleaseRFile
 > Task :android:compileReleaseKotlin
-> Task :product:checkReleaseManifest
+> Task :android:javaPreCompileRelease
+> Task :android:compileReleaseJavaWithJavac
 > Task :app:mergeReleaseResources
-> Task :cart:processReleaseManifest
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :approuter:parseReleaseLibraryResources
 > Task :approuter:generateReleaseBuildConfig
 > Task :cart:generateReleaseBuildConfig
 > Task :product:generateReleaseBuildConfig
 > Task :cart:parseReleaseLibraryResources
-> Task :product:processReleaseManifest
-> Task :android:javaPreCompileRelease
-> Task :android:compileReleaseJavaWithJavac
-> Task :product:parseReleaseLibraryResources
-> Task :approuter:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :android:bundleLibCompileRelease
+> Task :approuter:parseReleaseLibraryResources
+> Task :product:parseReleaseLibraryResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:prepareLintJar
-> Task :android:prepareLintJarForPublish
 > Task :approuter:prepareLintJarForPublish
 > Task :cart:prepareLintJarForPublish
+> Task :android:prepareLintJarForPublish
 > Task :app:checkReleaseDuplicateClasses
 > Task :android:bundleLibRuntimeRelease
 > Task :product:prepareLintJarForPublish
 > Task :approuter:generateReleaseRFile
 > Task :approuter:compileReleaseKotlin
-> Task :product:generateReleaseRFile
 > Task :cart:generateReleaseRFile
+> Task :product:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :approuter:javaPreCompileRelease
 > Task :approuter:compileReleaseJavaWithJavac
@@ -394,11 +394,12 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :product:compileReleaseKotlin
 > Task :cart:javaPreCompileRelease
 > Task :cart:compileReleaseJavaWithJavac
-> Task :approuter:bundleLibRuntimeRelease
-> Task :cart:bundleLibCompileRelease
 > Task :product:javaPreCompileRelease
 > Task :product:compileReleaseJavaWithJavac
 > Task :cart:bundleLibRuntimeRelease
+> Task :approuter:bundleLibRuntimeRelease
+> Task :cart:bundleLibCompileRelease
+> Task :product:bundleLibRuntimeRelease
 > Task :product:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:mergeExtDexDebug
@@ -409,10 +410,9 @@ w: [kapt] Incremental annotation processing requested, but support is disabled b
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d1601ff05cbb21ebb25eb4ba4c8e5532/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b588842348538c51b56ebd1fc87dd373/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/e45858a0760bba53e23bf8012a8ed6b1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ea7c36ac055b97f8be466c225dca887e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :product:bundleLibRuntimeRelease
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :android:mergeReleaseShaders
 > Task :android:compileReleaseShaders
@@ -438,14 +438,14 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :approuter:processReleaseJavaRes NO-SOURCE
 > Task :cart:processReleaseJavaRes NO-SOURCE
+> Task :android:bundleLibResRelease
 > Task :product:processReleaseJavaRes NO-SOURCE
 > Task :approuter:bundleLibResRelease
 > Task :app:signingConfigWriterRelease
 > Task :android:mergeReleaseJniLibFolders
-> Task :cart:bundleLibResRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :approuter:mergeReleaseJniLibFolders
-> Task :android:bundleLibResRelease
+> Task :product:bundleLibResRelease
 > Task :cart:mergeReleaseJniLibFolders
 > Task :approuter:mergeReleaseNativeLibs
 > Task :approuter:stripReleaseDebugSymbols
@@ -457,7 +457,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :product:mergeReleaseNativeLibs
 > Task :product:stripReleaseDebugSymbols
 > Task :product:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :product:bundleLibResRelease
+> Task :cart:bundleLibResRelease
 > Task :android:mergeReleaseNativeLibs
 > Task :android:stripReleaseDebugSymbols
 > Task :android:transformNativeLibsWithIntermediateJniLibsForRelease
@@ -475,7 +475,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 19s
+BUILD SUCCESSFUL in 1m 45s
 232 actionable tasks: 232 executed
 
-2020-03-23 01:54:25,999 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584903143880-0/src/universal-router-master/samples/app/build/outputs/apk/debug/app-debug.apk
+2020-09-09 01:02:28,628 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599587942575-0/src/universal-router-master/samples/app/build/outputs/apk/debug/app-debug.apk

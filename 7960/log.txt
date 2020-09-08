@@ -1,47 +1,47 @@
-2020-04-28 12:45:50,315 INFO  DownloadService - Downloading "https://github.com/bytedance/AabResGuard/archive/master.zip", attempt 3
-2020-04-28 12:46:20,029 INFO  DownloadService - Downloaded https://github.com/bytedance/AabResGuard/archive/master.zip, attempt 3
-2020-04-28 12:46:20,029 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/master.zip": 6 MB
-2020-04-28 12:46:20,029 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-28 12:46:20,031 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/master.zip: true
-2020-04-28 12:46:20,031 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src'.
-2020-04-28 12:46:20,110 INFO  FullProcessService - Size of directory with sources: 6 MB
-2020-04-28 12:46:20,110 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src]
-2020-04-28 12:46:20,137 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/.git/
+2020-09-09 01:10:49,432 INFO  DownloadService - Downloading "https://github.com/bytedance/AabResGuard/archive/master.zip", attempt 3
+2020-09-09 01:10:53,357 INFO  DownloadService - Downloaded https://github.com/bytedance/AabResGuard/archive/master.zip, attempt 3
+2020-09-09 01:10:53,358 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/master.zip": 6 MB
+2020-09-09 01:10:53,358 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-09 01:10:53,358 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/master.zip: true
+2020-09-09 01:10:53,358 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src'.
+2020-09-09 01:10:53,445 INFO  FullProcessService - Size of directory with sources: 6 MB
+2020-09-09 01:10:53,445 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src]
+2020-09-09 01:10:53,482 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/.git/
 
-2020-04-28 12:46:20,144 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradlew
-2020-04-28 12:46:20,151 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/plugin/build.gradle
-2020-04-28 12:46:20,158 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/gradle-chrome-trace.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/publish-shadow.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/publish-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/aabresguard.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradle/ext.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/settings.gradle
-2020-04-28 12:46:20,159 INFO  ProjectBuildService - Remote scripts: none
-2020-04-28 12:46:20,159 INFO  ProjectFixService - Fixing project...
-2020-04-28 12:46:20,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/app/local.properties
-2020-04-28 12:46:20,189 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-28 12:46:20,189 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-28 12:46:20,190 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module1/local.properties
-2020-04-28 12:46:20,199 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-28 12:46:20,199 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-28 12:46:20,200 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module2/local.properties
-2020-04-28 12:46:20,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-28 12:46:20,209 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-28 12:46:20,210 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/local.properties
-2020-04-28 12:46:20,210 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-04-28 12:46:20,210 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-04-28 12:46:20,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-28 12:46:20,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-28 12:46:20,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/core/local.properties
-2020-04-28 12:46:20,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-28 12:46:20,227 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-28 12:46:20,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/plugin/local.properties
-2020-04-28 12:46:20,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-04-28 12:46:20,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-04-28 12:46:20,237 INFO  ProjectFixService - Project was maybe fixed
-2020-04-28 12:46:20,237 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-28 12:46:20,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-28 12:46:23,730 INFO  VirusProcessorServiceImpl - Queued project 7961 to scan viruses
-2020-04-28 12:46:37,012 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-04-28 12:46:37,013 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-04-28 12:46:37,013 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-04-28 12:46:37,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-04-28 12:46:46,240 ERROR SysUtils - Could not process external command
+2020-09-09 01:10:53,490 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradlew
+2020-09-09 01:10:53,498 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/plugin/build.gradle
+2020-09-09 01:10:53,505 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/gradle-chrome-trace.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/publish-shadow.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/publish-bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/aabresguard.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradle/ext.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/settings.gradle
+2020-09-09 01:10:53,507 INFO  ProjectBuildService - Remote scripts: none
+2020-09-09 01:10:53,507 INFO  ProjectFixService - Fixing project...
+2020-09-09 01:10:53,528 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/app/local.properties
+2020-09-09 01:10:53,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-09 01:10:53,535 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-09 01:10:53,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module1/local.properties
+2020-09-09 01:10:53,545 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-09 01:10:53,545 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module1/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-09 01:10:53,546 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module2/local.properties
+2020-09-09 01:10:53,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-09 01:10:53,557 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/dynamic-features/df_module2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-09 01:10:53,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/local.properties
+2020-09-09 01:10:53,559 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-09-09 01:10:53,559 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-09-09 01:10:53,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-09 01:10:53,566 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-09 01:10:53,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/core/local.properties
+2020-09-09 01:10:53,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-09 01:10:53,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-09 01:10:53,578 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/plugin/local.properties
+2020-09-09 01:10:53,585 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-09 01:10:53,585 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-09 01:10:53,585 INFO  ProjectFixService - Project was maybe fixed
+2020-09-09 01:10:53,586 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-09 01:10:53,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-09 01:11:24,099 INFO  VirusProcessorServiceImpl - Queued project 7961 to scan viruses
+2020-09-09 01:11:35,903 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-09-09 01:11:35,903 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-09-09 01:11:35,903 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-09-09 01:11:35,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-09-09 01:11:45,279 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,8 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
@@ -69,7 +68,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-04-28 12:46:46,240 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-09 01:11:45,279 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :
 ======== read local.properties ========
@@ -116,8 +115,8 @@ A problem occurred configuring root project 'AabResGuard-master'.
        - https://dl.google.com/dl/android/maven2/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
        - https://jcenter.bintray.com/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
        - https://jcenter.bintray.com/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
-       - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
-       - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
+       - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
+       - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
        - https://plugins.gradle.org/m2/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
        - https://plugins.gradle.org/m2/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
      Required by:
@@ -255,8 +254,8 @@ Searched in the following locations:
   - https://dl.google.com/dl/android/maven2/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
   - https://jcenter.bintray.com/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
   - https://jcenter.bintray.com/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
-  - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
-  - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
+  - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
+  - file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
   - https://plugins.gradle.org/m2/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.pom
   - https://plugins.gradle.org/m2/com/bytedance/android/aabresguard-plugin/0.0.1-beta2/aabresguard-plugin-0.0.1-beta2.jar
 Required by:
@@ -301,4 +300,4 @@ Required by:
 
 BUILD FAILED in 9s
 
-2020-04-28 12:46:46,250 ERROR FullProcessService - APK file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1588052750311-0/src/AabResGuard-master/core/src/test/resources/com/bytedance/android/aabresguard/demo/test.apk" is corrupted
+2020-09-09 01:11:45,286 ERROR FullProcessService - APK file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588649428-0/src/AabResGuard-master/core/src/test/resources/com/bytedance/android/aabresguard/demo/test.apk" is corrupted
