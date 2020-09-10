@@ -1,47 +1,45 @@
-2019-11-12 10:50:45,841 INFO  DownloadService - Downloading "https://github.com/prabhat1707/EasyWayLocation/archive/master.zip", attempt 3
-2019-11-12 10:50:47,349 INFO  DownloadService - Downloaded https://github.com/prabhat1707/EasyWayLocation/archive/master.zip, attempt 3
-2019-11-12 10:50:47,350 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/master.zip": 175 KB
-2019-11-12 10:50:47,350 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-12 10:50:47,355 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/master.zip: true
-2019-11-12 10:50:47,356 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src'.
-2019-11-12 10:50:47,382 INFO  FullProcessService - Size of directory with sources: 246 KB
-2019-11-12 10:50:47,382 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src]
-2019-11-12 10:50:47,409 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/.git/
+2020-09-11 01:23:47,488 INFO  DownloadService - Downloading "https://github.com/prabhat1707/EasyWayLocation/archive/master.zip", attempt 3
+2020-09-11 01:23:49,073 INFO  DownloadService - Downloaded https://github.com/prabhat1707/EasyWayLocation/archive/master.zip, attempt 3
+2020-09-11 01:23:49,073 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/master.zip": 174 KB
+2020-09-11 01:23:49,073 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-11 01:23:49,074 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/master.zip: true
+2020-09-11 01:23:49,074 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src'.
+2020-09-11 01:23:49,106 INFO  FullProcessService - Size of directory with sources: 246 KB
+2020-09-11 01:23:49,106 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src]
+2020-09-11 01:23:49,140 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/.git/
 
-2019-11-12 10:50:47,413 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/gradlew
-2019-11-12 10:50:47,416 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/build.gradle
-2019-11-12 10:50:47,419 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/settings.gradle
-2019-11-12 10:50:47,419 INFO  ProjectBuildService - Remote scripts: none
-2019-11-12 10:50:47,419 INFO  ProjectFixService - Fixing project...
-2019-11-12 10:50:47,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/local.properties
-2019-11-12 10:50:47,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-11-12 10:50:47,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/local.properties
-2019-11-12 10:50:47,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-12 10:50:47,429 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/local.properties
-2019-11-12 10:50:47,430 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-11-12 10:50:47,430 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-11-12 10:50:47,431 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
-2019-11-12 10:50:47,432 INFO  ProjectFixService - Project was maybe fixed
-2019-11-12 10:50:47,432 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-12 10:50:47,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-12 10:50:56,112 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-11-12 10:50:56,112 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-12 10:50:56,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-12 10:51:35,495 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-11 01:23:49,145 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/gradlew
+2020-09-11 01:23:49,150 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/build.gradle
+2020-09-11 01:23:49,154 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/settings.gradle
+2020-09-11 01:23:49,155 INFO  ProjectBuildService - Remote scripts: none
+2020-09-11 01:23:49,155 INFO  ProjectFixService - Fixing project...
+2020-09-11 01:23:49,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/local.properties
+2020-09-11 01:23:49,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-09-11 01:23:49,167 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/local.properties
+2020-09-11 01:23:49,168 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-09-11 01:23:49,168 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/local.properties
+2020-09-11 01:23:49,169 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-09-11 01:23:49,169 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-09-11 01:23:49,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=17,targetSdkVersion=29]
+2020-09-11 01:23:49,170 INFO  ProjectFixService - Project was maybe fixed
+2020-09-11 01:23:49,170 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-11 01:23:49,171 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-11 01:23:58,678 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-09-11 01:23:58,679 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-11 01:23:58,679 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-11 01:23:59,590 INFO  VirusProcessorServiceImpl - Queued project 7943 to scan viruses
+2020-09-11 01:25:23,477 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :easywaylocation
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
 
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :easywaylocation:preBuild UP-TO-DATE
 > Task :easywaylocation:preDebugBuild UP-TO-DATE
-> Task :easywaylocation:checkDebugManifest
-> Task :easywaylocation:processDebugManifest
-> Task :app:preDebugBuild
 > Task :easywaylocation:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :easywaylocation:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
@@ -51,36 +49,15 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :easywaylocation:compileDebugRenderscript NO-SOURCE
 > Task :easywaylocation:generateDebugResources
 > Task :easywaylocation:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :easywaylocation:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :easywaylocation:processDebugManifest
 > Task :app:processDebugManifest
-> Task :easywaylocation:generateDebugRFile
-> Task :app:processDebugResources
+> Task :easywaylocation:compileDebugLibraryResources
 > Task :easywaylocation:generateDebugBuildConfig
-> Task :easywaylocation:prepareLintJar
-> Task :easywaylocation:generateDebugSources
-> Task :app:prepareLintJar
-
-> Task :easywaylocation:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (153, 17): Variable 'polyLine' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (196, 37): Variable 'iStream' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/MapAnimator.kt: (62, 66): Parameter 'polyLineDataBean' is never used
-
-> Task :easywaylocation:javaPreCompileDebug
-
-> Task :easywaylocation:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/EasyWayLocation.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :easywaylocation:bundleLibCompileDebug
-
-> Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/src/main/java/com/example/prabhat/locationsample/MapsActivity.kt: (18, 27): Type mismatch: inferred type is String? but String was expected
-
-> Task :app:generateDebugSources
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
+> Task :easywaylocation:parseDebugLocalResources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -89,35 +66,48 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/
 > Task :easywaylocation:generateDebugAssets
 > Task :easywaylocation:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
-> Task :easywaylocation:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
+> Task :easywaylocation:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :easywaylocation:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (153, 17): Variable 'polyLine' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (196, 37): Variable 'iStream' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/MapAnimator.kt: (62, 66): Parameter 'polyLineDataBean' is never used
+
+> Task :easywaylocation:javaPreCompileDebug
+
+> Task :easywaylocation:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/EasyWayLocation.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:processDebugJavaRes NO-SOURCE
 > Task :easywaylocation:processDebugJavaRes NO-SOURCE
 > Task :easywaylocation:bundleLibResDebug
+> Task :easywaylocation:bundleLibRuntimeDebug
+> Task :easywaylocation:bundleLibCompileDebug
+
+> Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/src/main/java/com/example/prabhat/locationsample/MapsActivity.kt: (19, 27): Type mismatch: inferred type is String? but String was expected
+
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
 > Task :easywaylocation:mergeDebugJniLibFolders
-> Task :easywaylocation:transformNativeLibsWithMergeJniLibsForDebug
-> Task :easywaylocation:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :easywaylocation:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :easywaylocation:mergeDebugNativeLibs
+> Task :easywaylocation:stripDebugDebugSymbols
+> Task :easywaylocation:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :easywaylocation:preReleaseBuild UP-TO-DATE
-> Task :easywaylocation:checkReleaseManifest
-> Task :easywaylocation:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :easywaylocation:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :easywaylocation:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -126,36 +116,50 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/
 > Task :easywaylocation:generateReleaseResValues
 > Task :easywaylocation:generateReleaseResources
 > Task :easywaylocation:packageReleaseResources
-> Task :app:mergeReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :easywaylocation:extractDeepLinksRelease
+> Task :app:mergeReleaseResources
+> Task :easywaylocation:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :easywaylocation:generateReleaseBuildConfig
+> Task :easywaylocation:compileReleaseLibraryResources
+> Task :easywaylocation:parseReleaseLocalResources
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
 > Task :easywaylocation:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :easywaylocation:generateReleaseBuildConfig
 
 > Task :easywaylocation:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (153, 17): Variable 'polyLine' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (196, 37): Variable 'iStream' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/MapAnimator.kt: (62, 66): Parameter 'polyLineDataBean' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (153, 17): Variable 'polyLine' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/DirectionUtil.kt: (196, 37): Variable 'iStream' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/draw_path/MapAnimator.kt: (62, 66): Parameter 'polyLineDataBean' is never used
 
-> Task :easywaylocation:generateReleaseSources
+> Task :easywaylocation:prepareLintJarForPublish
 > Task :easywaylocation:javaPreCompileRelease
 
 > Task :easywaylocation:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/EasyWayLocation.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/easywaylocation/src/main/java/com/example/easywaylocation/EasyWayLocation.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :easywaylocation:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/src/main/java/com/example/prabhat/locationsample/MapsActivity.kt: (18, 27): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/src/main/java/com/example/prabhat/locationsample/MapsActivity.kt: (19, 27): Type mismatch: inferred type is String? but String was expected
 
-> Task :app:generateReleaseSources
+> Task :easywaylocation:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :easywaylocation:prepareLintJarForPublish
 > Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -164,33 +168,25 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/
 > Task :easywaylocation:generateReleaseAssets
 > Task :easywaylocation:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :easywaylocation:bundleLibRuntimeRelease
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :easywaylocation:processReleaseJavaRes NO-SOURCE
-> Task :easywaylocation:bundleLibResRelease
-> Task :easywaylocation:mergeReleaseJniLibFolders
-> Task :easywaylocation:transformNativeLibsWithMergeJniLibsForRelease
-> Task :easywaylocation:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :easywaylocation:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :easywaylocation:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseJniLibFolders
+> Task :easywaylocation:mergeReleaseJniLibFolders
+> Task :easywaylocation:bundleLibResRelease
+> Task :easywaylocation:mergeReleaseNativeLibs
+> Task :easywaylocation:stripReleaseDebugSymbols
+> Task :easywaylocation:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 24s
+94 actionable tasks: 94 executed
 
-BUILD SUCCESSFUL in 38s
-93 actionable tasks: 93 executed
-
-2019-11-12 10:51:35,563 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573545045837-0/src/EasyWayLocation-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-11 01:25:23,551 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762227486-0/src/EasyWayLocation-master/app/build/outputs/apk/debug/app-debug.apk
