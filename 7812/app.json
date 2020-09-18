@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "21",
     "targetSdkVersion" : "29",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ "android.permission.CAMERA" ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -31,8 +41,8 @@
   "dexClasses" : 5435,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.kroegerama.bcode\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f0f0007\" android:label=\"Barcode Kaiteki\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.kroegerama.bcode.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"androidx.camera.camera2.impl.Camera2Initializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.kroegerama.bcode.camerax-init\" android:initOrder=\"100\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 4708257,
-  "crc32" : 3305734663,
-  "sha256" : "1127b5eadd7eef9a1538c85447ea17361b8d4a1ea82e869a7afe50c72f993d82",
-  "buildTime" : 1569836567000
+  "fileSize" : 4707915,
+  "crc32" : 576472215,
+  "sha256" : "9aa2dd8fe5a69790ce67aed3eded69b7b9b08c66eaec0fab68a3b9e21cfe0fd8",
+  "buildTime" : 1600416861000
 }

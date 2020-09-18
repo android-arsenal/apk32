@@ -1,42 +1,70 @@
-2019-12-01 19:12:18,619 INFO  DownloadService - Downloading "https://github.com/TecOrb-Developers/SmartAlertDialog/archive/master.zip", attempt 3
-2019-12-01 19:12:21,624 INFO  DownloadService - Downloaded https://github.com/TecOrb-Developers/SmartAlertDialog/archive/master.zip, attempt 3
-2019-12-01 19:12:21,624 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/master.zip": 1 MB
-2019-12-01 19:12:21,624 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-12-01 19:12:21,625 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/master.zip: true
-2019-12-01 19:12:21,625 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src'.
-2019-12-01 19:12:21,663 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-12-01 19:12:21,663 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src]
-2019-12-01 19:12:21,692 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/.git/
+2020-09-18 15:14:35,111 INFO  DownloadService - Downloading "https://github.com/TecOrb-Developers/SmartAlertDialog/archive/master.zip", attempt 3
+2020-09-18 15:14:37,855 INFO  DownloadService - Downloaded https://github.com/TecOrb-Developers/SmartAlertDialog/archive/master.zip, attempt 3
+2020-09-18 15:14:37,855 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/master.zip": 1 MB
+2020-09-18 15:14:37,855 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-18 15:14:37,856 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/master.zip: true
+2020-09-18 15:14:37,856 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src'.
+2020-09-18 15:14:37,899 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-09-18 15:14:37,899 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src]
+2020-09-18 15:14:37,925 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/.git/
 
-2019-12-01 19:12:21,695 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/gradlew
-2019-12-01 19:12:21,699 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/dialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/build.gradle
-2019-12-01 19:12:21,701 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/dialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/settings.gradle
-2019-12-01 19:12:21,701 INFO  ProjectBuildService - Remote scripts: none
-2019-12-01 19:12:21,701 INFO  ProjectFixService - Fixing project...
-2019-12-01 19:12:21,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/local.properties
-2019-12-01 19:12:21,710 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-12-01 19:12:21,710 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-12-01 19:12:21,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/dialog/local.properties
-2019-12-01 19:12:21,711 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/dialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-12-01 19:12:21,711 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/dialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-12-01 19:12:21,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/local.properties
-2019-12-01 19:12:21,712 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-12-01 19:12:21,713 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-12-01 19:12:21,714 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-12-01 19:12:21,714 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-12-01 19:12:21,714 INFO  ProjectFixService - Project was maybe fixed
-2019-12-01 19:12:21,714 INFO  ProjectTaskService - Detecting possible tasks...
-2019-12-01 19:12:21,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-12-01 19:12:31,195 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-12-01 19:12:31,195 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-12-01 19:12:31,195 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-12-01 19:12:58,225 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-18 15:14:37,929 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/gradlew
+2020-09-18 15:14:37,934 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/dialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/build.gradle
+2020-09-18 15:14:37,938 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/dialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/settings.gradle
+2020-09-18 15:14:37,939 INFO  ProjectBuildService - Remote scripts: none
+2020-09-18 15:14:37,939 INFO  ProjectFixService - Fixing project...
+2020-09-18 15:14:37,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/local.properties
+2020-09-18 15:14:37,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-09-18 15:14:37,949 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-09-18 15:14:37,950 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/dialog/local.properties
+2020-09-18 15:14:37,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/dialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-09-18 15:14:37,951 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/dialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-09-18 15:14:37,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/local.properties
+2020-09-18 15:14:37,953 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-09-18 15:14:37,953 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-09-18 15:14:37,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-09-18 15:14:37,954 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2020-09-18 15:14:37,954 INFO  ProjectFixService - Project was maybe fixed
+2020-09-18 15:14:37,954 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 15:14:37,955 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 15:14:56,578 INFO  VirusProcessorServiceImpl - Queued project 7812 to scan viruses
+2020-09-18 15:15:15,174 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-09-18 15:15:15,174 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-18 15:15:15,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-18 15:15:58,896 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :dialog:preBuild UP-TO-DATE
 :dialog:preDebugBuild UP-TO-DATE
 :dialog:checkDebugManifest
 :dialog:processDebugManifest
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.0/constraint-layout-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.1/appcompat-v7-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.1/support-vector-drawable-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.1/animated-vector-drawable-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0/constraint-layout-solver-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.1/support-compat-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.1/support-core-ui-27.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.0/constraint-layout-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/27.1.1/appcompat-v7-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/27.1.1/animated-vector-drawable-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/27.1.1/support-core-ui-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/27.1.1/support-vector-drawable-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.0/livedata-core-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.0/viewmodel-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.0/runtime-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.0/runtime-1.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.aar
 :dialog:compileDebugAidl
 :app:compileDebugAidl
 :dialog:packageDebugRenderscript NO-SOURCE
@@ -59,6 +87,10 @@
 :dialog:generateDebugBuildConfig
 :dialog:prepareLintJar
 :dialog:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.0/common-1.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.0/constraint-layout-solver-1.1.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.0/common-1.1.0.jar
 :dialog:processDebugJavaRes NO-SOURCE
 :app:compileDebugNdk NO-SOURCE
 :app:mergeDebugShaders
@@ -144,6 +176,22 @@
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
@@ -155,7 +203,7 @@
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 26s
+BUILD SUCCESSFUL in 42s
 91 actionable tasks: 91 executed
 
-2019-12-01 19:12:58,285 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1575202338611-0/src/SmartAlertDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-18 15:15:58,985 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416875108-0/src/SmartAlertDialog-master/app/build/outputs/apk/debug/app-debug.apk

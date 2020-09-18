@@ -1,45 +1,46 @@
-2019-09-30 16:41:38,984 INFO  DownloadService - Downloading "https://github.com/kroegerama/barcode-kaiteki/archive/master.zip", attempt 3
-2019-09-30 16:41:41,629 INFO  DownloadService - Downloaded https://github.com/kroegerama/barcode-kaiteki/archive/master.zip, attempt 3
-2019-09-30 16:41:41,629 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/master.zip": 779 KB
-2019-09-30 16:41:41,629 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-30 16:41:41,634 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/master.zip: true
-2019-09-30 16:41:41,635 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src'.
-2019-09-30 16:41:41,660 INFO  FullProcessService - Size of directory with sources: 822 KB
-2019-09-30 16:41:41,661 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src]
-2019-09-30 16:41:41,683 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/.git/
+2020-09-18 15:12:56,587 INFO  DownloadService - Downloading "https://github.com/kroegerama/barcode-kaiteki/archive/master.zip", attempt 3
+2020-09-18 15:12:58,155 INFO  DownloadService - Downloaded https://github.com/kroegerama/barcode-kaiteki/archive/master.zip, attempt 3
+2020-09-18 15:12:58,155 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/master.zip": 779 KB
+2020-09-18 15:12:58,155 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-18 15:12:58,161 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/master.zip: true
+2020-09-18 15:12:58,161 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src'.
+2020-09-18 15:12:58,191 INFO  FullProcessService - Size of directory with sources: 822 KB
+2020-09-18 15:12:58,191 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src]
+2020-09-18 15:12:58,211 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/.git/
 
-2019-09-30 16:41:41,686 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/gradlew
-2019-09-30 16:41:41,689 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/build.gradle
-2019-09-30 16:41:41,692 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/settings.gradle
-2019-09-30 16:41:41,692 INFO  ProjectBuildService - Remote scripts: none
-2019-09-30 16:41:41,692 INFO  ProjectFixService - Fixing project...
-2019-09-30 16:41:41,700 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/local.properties
-2019-09-30 16:41:41,701 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-30 16:41:41,701 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-30 16:41:41,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/local.properties
-2019-09-30 16:41:41,703 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-30 16:41:41,704 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-30 16:41:41,705 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/local.properties
-2019-09-30 16:41:41,705 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-30 16:41:41,706 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-30 16:41:41,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-30 16:41:41,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-09-30 16:41:41,708 INFO  ProjectFixService - Project was maybe fixed
-2019-09-30 16:41:41,708 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-30 16:41:41,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-30 16:41:47,604 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-30 16:41:47,604 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-30 16:41:47,604 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-30 16:42:59,411 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-18 15:12:58,214 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/gradlew
+2020-09-18 15:12:58,218 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/build.gradle
+2020-09-18 15:12:58,221 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/settings.gradle
+2020-09-18 15:12:58,222 INFO  ProjectBuildService - Remote scripts: none
+2020-09-18 15:12:58,222 INFO  ProjectFixService - Fixing project...
+2020-09-18 15:12:58,232 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/local.properties
+2020-09-18 15:12:58,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:12:58,234 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:12:58,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/local.properties
+2020-09-18 15:12:58,236 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:12:58,236 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:12:58,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/local.properties
+2020-09-18 15:12:58,237 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-09-18 15:12:58,238 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-09-18 15:12:58,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:12:58,239 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:12:58,239 INFO  ProjectFixService - Project was maybe fixed
+2020-09-18 15:12:58,239 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 15:12:58,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 15:13:05,768 INFO  VirusProcessorServiceImpl - Queued project 7817 to scan viruses
+2020-09-18 15:13:06,553 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-09-18 15:13:06,553 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-18 15:13:06,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-18 15:14:34,104 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :library:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -50,9 +51,9 @@
 > Task :library:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :library:checkDebugManifest
+> Task :app:mergeDebugResources
 > Task :library:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :library:parseDebugLibraryResources
 > Task :library:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
@@ -70,9 +71,9 @@
 
 > Task :library:compileDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: barcode.kaiteki
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeBottomSheet.kt: (21, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeDialog.kt: (22, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeFragment.kt: (17, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeBottomSheet.kt: (21, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeDialog.kt: (22, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeFragment.kt: (17, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
 
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
@@ -87,8 +88,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/
 > Task :app:desugarDebugFileDependencies
 > Task :library:bundleLibRuntimeDebug
 > Task :library:createFullJarDebug
-> Task :app:mergeLibDexDebug
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeLibDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
@@ -104,47 +105,50 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :library:mergeDebugNativeLibs
+> Task :library:stripDebugDebugSymbols
+> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
-> Task :app:mergeProjectDexDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :library:checkReleaseManifest
 > Task :library:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :app:mergeProjectDexDebug
 > Task :library:generateReleaseBuildConfig
-> Task :library:mergeDebugNativeLibs
-> Task :library:stripDebugDebugSymbols
-> Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :library:parseReleaseLibraryResources
+> Task :app:prepareLintJar
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :library:prepareLintJarForPublish
 > Task :app:mergeReleaseResources
 > Task :library:generateReleaseRFile
 > Task :app:processReleaseResources
 
 > Task :library:compileReleaseKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: barcode.kaiteki
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeBottomSheet.kt: (21, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeDialog.kt: (22, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeFragment.kt: (17, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeBottomSheet.kt: (21, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeDialog.kt: (22, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/library/src/main/java/com/kroegerama/kaiteki/bcode/ui/BarcodeFragment.kt: (17, 49): Unchecked cast: Serializable? to List<BarcodeFormat>
 
-> Task :app:prepareLintJar
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :app:checkReleaseDuplicateClasses
-> Task :library:prepareLintJarForPublish
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
+> Task :library:bundleLibResRelease
 > Task :library:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :library:bundleLibRuntimeRelease
-> Task :library:bundleLibResRelease
 > Task :library:createFullJarRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/036cdf4a93d174920882d8add984d676/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
 > Task :app:mergeExtDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
@@ -179,7 +183,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 11s
+BUILD SUCCESSFUL in 1m 26s
 97 actionable tasks: 97 executed
 
-2019-09-30 16:42:59,491 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569836498980-0/src/barcode-kaiteki-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-18 15:14:34,228 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416776584-0/src/barcode-kaiteki-master/app/build/outputs/apk/debug/app-debug.apk

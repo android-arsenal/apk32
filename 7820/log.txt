@@ -1,36 +1,40 @@
-2020-05-15 14:41:41,759 INFO  DownloadService - Downloading "https://github.com/Dmitry-Borodin/pdfview-android/archive/master.zip", attempt 3
-2020-05-15 14:49:09,827 INFO  DownloadService - Downloaded https://github.com/Dmitry-Borodin/pdfview-android/archive/master.zip, attempt 3
-2020-05-15 14:49:09,828 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/master.zip": 5 MB
-2020-05-15 14:49:09,828 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-05-15 14:49:09,833 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/master.zip: true
-2020-05-15 14:49:09,833 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src'.
-2020-05-15 14:49:09,907 INFO  FullProcessService - Size of directory with sources: 5 MB
-2020-05-15 14:49:09,907 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src]
-2020-05-15 14:49:09,933 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/.git/
+2020-09-18 15:09:19,108 INFO  DownloadService - Downloading "https://github.com/Dmitry-Borodin/pdfview-android/archive/master.zip", attempt 3
+2020-09-18 15:09:21,323 INFO  DownloadService - Downloaded https://github.com/Dmitry-Borodin/pdfview-android/archive/master.zip, attempt 3
+2020-09-18 15:09:21,323 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/master.zip": 5 MB
+2020-09-18 15:09:21,323 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-18 15:09:21,324 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/master.zip: true
+2020-09-18 15:09:21,324 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src'.
+2020-09-18 15:09:21,409 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-09-18 15:09:21,409 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src]
+2020-09-18 15:09:21,433 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/.git/
 
-2020-05-15 14:49:09,937 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/gradlew
-2020-05-15 14:49:09,942 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/pdfview-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/build.gradle
-2020-05-15 14:49:09,946 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/pdfview-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/jcenter/info.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/settings.gradle
-2020-05-15 14:49:09,947 INFO  ProjectBuildService - Remote scripts: none
-2020-05-15 14:49:09,947 INFO  ProjectFixService - Fixing project...
-2020-05-15 14:49:09,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/pdfview-library/local.properties
-2020-05-15 14:49:09,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/pdfview-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-15 14:49:09,963 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/pdfview-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-15 14:49:09,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/local.properties
-2020-05-15 14:49:09,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-15 14:49:09,966 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-15 14:49:09,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/local.properties
-2020-05-15 14:49:09,967 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-05-15 14:49:09,968 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-05-15 14:49:09,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-15 14:49:09,971 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-05-15 14:49:09,972 INFO  ProjectFixService - Project was maybe fixed
-2020-05-15 14:49:09,972 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 14:49:09,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/pdfview-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 14:49:19,920 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-05-15 14:49:19,920 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-05-15 14:49:19,921 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/pdfview-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-05-15 14:49:45,247 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-18 15:09:21,438 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/gradlew
+2020-09-18 15:09:21,443 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/build.gradle
+2020-09-18 15:09:21,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-network/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/jcenter/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/jcenter/info.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/jcenter/maven-install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/settings.gradle
+2020-09-18 15:09:21,449 INFO  ProjectBuildService - Remote scripts: none
+2020-09-18 15:09:21,449 INFO  ProjectFixService - Fixing project...
+2020-09-18 15:09:21,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/local.properties
+2020-09-18 15:09:21,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,467 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/local.properties
+2020-09-18 15:09:21,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,471 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-network/local.properties
+2020-09-18 15:09:21,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-network/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,474 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-network/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/local.properties
+2020-09-18 15:09:21,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-18 15:09:21,476 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-18 15:09:21,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-18 15:09:21,479 INFO  ProjectFixService - Project was maybe fixed
+2020-09-18 15:09:21,479 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 15:09:21,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 15:09:30,948 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-09-18 15:09:30,948 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-18 15:09:30,948 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-18 15:09:32,197 INFO  VirusProcessorServiceImpl - Queued project 7826 to scan viruses
+2020-09-18 15:09:54,911 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :pdfview-library:preBuild UP-TO-DATE
 > Task :pdfview-library:preDebugBuild UP-TO-DATE
 > Task :pdfview-library:compileDebugAidl NO-SOURCE
@@ -40,147 +44,211 @@
 > Task :pdfview-library:generateDebugResValues
 > Task :pdfview-library:generateDebugResources
 > Task :pdfview-library:packageDebugResources
-> Task :pdfview-library:mergeDebugNativeLibs
-> Task :pdfview-library:stripDebugDebugSymbols
-> Task :pdfview-library:copyDebugJniLibsProjectAndLocalJars
 > Task :pdfview-library:mergeDebugShaders
-> Task :pdfview-library:compileDebugShaders
-> Task :pdfview-library:generateDebugAssets
+> Task :pdfview-library:compileDebugShaders NO-SOURCE
+> Task :pdfview-library:generateDebugAssets UP-TO-DATE
 > Task :pdfview-library:packageDebugAssets
 > Task :pdfview-library:packageDebugRenderscript NO-SOURCE
+> Task :pdfview-library:mergeDebugNativeLibs
+> Task :pdfview-library:stripDebugDebugSymbols NO-SOURCE
+> Task :pdfview-library:copyDebugJniLibsProjectAndLocalJars
 > Task :pdfview-library:processDebugJavaRes NO-SOURCE
 > Task :pdfview-library:preReleaseBuild UP-TO-DATE
 > Task :pdfview-library:compileReleaseAidl NO-SOURCE
 > Task :pdfview-library:mergeReleaseJniLibFolders
+> Task :pdfview-library:prepareLintJarForPublish
 > Task :pdfview-library:compileReleaseRenderscript NO-SOURCE
 > Task :pdfview-library:generateReleaseBuildConfig
 > Task :pdfview-library:generateReleaseResValues
 > Task :pdfview-library:generateReleaseResources
 > Task :pdfview-library:packageReleaseResources
 > Task :pdfview-library:processDebugManifest
-> Task :pdfview-library:mergeReleaseNativeLibs
-> Task :pdfview-library:stripReleaseDebugSymbols
-> Task :pdfview-library:copyReleaseJniLibsProjectAndLocalJars
+> Task :pdfview-library:parseReleaseLocalResources
 > Task :pdfview-library:mergeReleaseShaders
-> Task :pdfview-library:compileReleaseShaders
-> Task :pdfview-library:generateReleaseAssets
+> Task :pdfview-library:compileReleaseShaders NO-SOURCE
+> Task :pdfview-library:generateReleaseAssets UP-TO-DATE
 > Task :pdfview-library:packageReleaseAssets
 > Task :pdfview-library:packageReleaseRenderscript NO-SOURCE
 > Task :pdfview-library:processReleaseJavaRes NO-SOURCE
 > Task :pdfview-library:mergeReleaseResources
+> Task :pdfview-library:javaPreCompileDebug
 > Task :pdfview-library:sourcesJar
-> Task :pdfview-library:processReleaseManifest
-> Task :pdfview-library:parseDebugLocalResources
-> Task :pdfview-library:prepareLintJarForPublish
-> Task :pdfview-library:parseReleaseLocalResources
-> Task :pdfview-library:generateDebugRFile
-> Task :pdfview-library:compileDebugKotlin
-> Task :pdfview-library:verifyReleaseResources
-> Task :pdfview-library:generateReleaseRFile
-> Task :pdfview-library:compileReleaseKotlin
-> Task :pdfview-library:mergeDebugJavaResource
 > Task :pdfview-library:javaPreCompileRelease
+> Task :pdfview-library:parseDebugLocalResources
+> Task :pdfview-library:processReleaseManifest
+> Task :pdfview-library:generateReleaseRFile
+
+> Task :pdfview-library:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/src/main/java/com/pdfview/FileUtils.kt: (13, 13): Unsafe use of a nullable receiver of type File?
+
 > Task :pdfview-library:compileReleaseJavaWithJavac
 > Task :pdfview-library:extractReleaseAnnotations
 > Task :pdfview-library:mergeReleaseGeneratedProguardFiles
 > Task :pdfview-library:mergeReleaseConsumerProguardFiles
-> Task :pdfview-library:compileReleaseSources
-> Task :pdfview-library:javaPreCompileDebug
+> Task :pdfview-library:generateDebugRFile
+
+> Task :pdfview-library:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/pdfview-library/src/main/java/com/pdfview/FileUtils.kt: (13, 13): Unsafe use of a nullable receiver of type File?
+
 > Task :pdfview-library:compileDebugJavaWithJavac
 > Task :pdfview-library:extractDebugAnnotations
 > Task :pdfview-library:mergeDebugGeneratedProguardFiles
 > Task :pdfview-library:mergeDebugConsumerProguardFiles
-> Task :pdfview-library:syncDebugLibJars
-> Task :pdfview-library:bundleDebugAar
 > Task :pdfview-library:compileDebugSources
-> Task :pdfview-library:assembleDebug
+> Task :pdfview-library:compileReleaseSources
 > Task :pdfview-library:mergeReleaseJavaResource
 > Task :pdfview-library:syncReleaseLibJars
+> Task :pdfview-library:verifyReleaseResources
+> Task :pdfview-library:mergeDebugJavaResource
+> Task :pdfview-library:syncDebugLibJars
+> Task :pdfview-library:bundleDebugAar
+> Task :pdfview-library:assembleDebug
+> Task :pdfview-library:mergeReleaseNativeLibs
+> Task :pdfview-library:stripReleaseDebugSymbols NO-SOURCE
+> Task :pdfview-library:copyReleaseJniLibsProjectAndLocalJars
 > Task :pdfview-library:bundleReleaseAar
 > Task :pdfview-library:assembleRelease
 > Task :pdfview-library:assemble
 > Task :pdfview-library:build
 
-BUILD SUCCESSFUL in 24s
-48 actionable tasks: 48 executed
+BUILD SUCCESSFUL in 23s
+44 actionable tasks: 44 executed
 
-2020-05-15 14:49:45,269 INFO  ProjectTaskService - Detecting possible tasks...
-2020-05-15 14:49:45,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-05-15 14:49:53,093 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-05-15 14:49:53,093 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-05-15 14:49:53,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-05-15 14:50:53,225 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :sample:preBuild UP-TO-DATE
-> Task :sample:preDebugBuild UP-TO-DATE
-> Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:generateDebugBuildConfig
-> Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:mainApkListPersistenceDebug
-> Task :sample:generateDebugResValues
-> Task :sample:generateDebugResources
-> Task :sample:createDebugCompatibleScreenManifests
-> Task :sample:extractDeepLinksDebug
-> Task :sample:processDebugManifest
-> Task :sample:mergeDebugResources
-> Task :sample:processDebugResources
-> Task :sample:compileDebugKotlin
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
-> Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
-> Task :sample:mergeDebugAssets
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:mergeDebugJavaResource
-> Task :sample:checkDebugDuplicateClasses
-> Task :sample:mergeLibDexDebug
-> Task :sample:dexBuilderDebug
-> Task :sample:mergeDebugJniLibFolders
-> Task :sample:validateSigningDebug
-> Task :sample:preReleaseBuild UP-TO-DATE
-> Task :sample:compileReleaseAidl NO-SOURCE
-> Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:generateReleaseBuildConfig
-> Task :sample:mainApkListPersistenceRelease
-> Task :sample:generateReleaseResValues
-> Task :sample:generateReleaseResources
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:extractDeepLinksRelease
-> Task :sample:processReleaseManifest
-> Task :sample:mergeProjectDexDebug
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
-> Task :sample:compileReleaseKotlin
-> Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
-> Task :sample:prepareLintJar
-> Task :sample:lintVitalRelease
-> Task :sample:checkReleaseDuplicateClasses
-> Task :sample:dexBuilderRelease
-> Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
-> Task :sample:mergeReleaseAssets
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeExtDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :sample:mergeReleaseJavaResource
-> Task :sample:mergeExtDexRelease
-> Task :sample:mergeDexRelease
-> Task :sample:packageRelease
-> Task :sample:assembleRelease
-> Task :sample:assemble
-> Task :sample:build
+2020-09-18 15:09:54,931 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 15:09:54,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 15:10:03,678 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-09-18 15:10:03,678 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-18 15:10:03,678 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-18 15:10:59,592 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :pdfview-library:preBuild UP-TO-DATE
+> Task :pdfview-library:preDebugBuild UP-TO-DATE
+> Task :pdfview-library:compileDebugAidl NO-SOURCE
+> Task :pdfview-library:compileDebugRenderscript NO-SOURCE
+> Task :pdfview-library:generateDebugBuildConfig UP-TO-DATE
+> Task :pdfview-library:generateDebugResValues UP-TO-DATE
+> Task :pdfview-library:generateDebugResources UP-TO-DATE
+> Task :pdfview-library:packageDebugResources UP-TO-DATE
+> Task :pdfview-library:parseDebugLocalResources UP-TO-DATE
+> Task :pdfview-library:processDebugManifest UP-TO-DATE
+> Task :pdfview-library:generateDebugRFile UP-TO-DATE
+> Task :pdfview-library:compileDebugKotlin UP-TO-DATE
+> Task :pdfview-library:javaPreCompileDebug UP-TO-DATE
+> Task :pdfview-library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :sample-local:preBuild UP-TO-DATE
+> Task :sample-local:preDebugBuild UP-TO-DATE
+> Task :sample-local:compileDebugAidl NO-SOURCE
+> Task :pdfview-library:packageDebugRenderscript NO-SOURCE
+> Task :sample-local:compileDebugRenderscript NO-SOURCE
+> Task :sample-local:generateDebugBuildConfig
+> Task :pdfview-library:bundleLibCompileToJarDebug
+> Task :pdfview-library:compileDebugLibraryResources
+> Task :sample-local:generateDebugResValues
+> Task :sample-local:generateDebugResources
+> Task :pdfview-library:extractDeepLinksDebug
+> Task :sample-local:createDebugCompatibleScreenManifests
+> Task :sample-local:extractDeepLinksDebug
+> Task :sample-local:processDebugManifest
+> Task :sample-local:mergeDebugResources
+> Task :sample-local:processDebugResources
+> Task :sample-local:compileDebugKotlin
+> Task :sample-local:javaPreCompileDebug
+> Task :sample-local:compileDebugJavaWithJavac
+> Task :sample-local:compileDebugSources
+> Task :pdfview-library:mergeDebugShaders UP-TO-DATE
+> Task :pdfview-library:compileDebugShaders NO-SOURCE
+> Task :pdfview-library:generateDebugAssets UP-TO-DATE
+> Task :pdfview-library:packageDebugAssets UP-TO-DATE
+> Task :sample-local:mergeDebugShaders
+> Task :sample-local:compileDebugShaders NO-SOURCE
+> Task :sample-local:generateDebugAssets UP-TO-DATE
+> Task :sample-local:mergeDebugAssets
+> Task :pdfview-library:processDebugJavaRes NO-SOURCE
+> Task :sample-local:processDebugJavaRes NO-SOURCE
+> Task :pdfview-library:bundleLibResDebug
+> Task :sample-local:mergeDebugJavaResource
+> Task :sample-local:checkDebugDuplicateClasses
+> Task :pdfview-library:bundleLibRuntimeToJarDebug
+> Task :sample-local:dexBuilderDebug
+> Task :pdfview-library:mergeDebugJniLibFolders UP-TO-DATE
+> Task :pdfview-library:mergeDebugNativeLibs UP-TO-DATE
+> Task :pdfview-library:stripDebugDebugSymbols NO-SOURCE
+> Task :pdfview-library:copyDebugJniLibsProjectOnly
+> Task :sample-local:mergeDebugJniLibFolders
+> Task :sample-local:mergeProjectDexDebug
+> Task :sample-local:validateSigningDebug
+> Task :pdfview-library:preReleaseBuild UP-TO-DATE
+> Task :pdfview-library:compileReleaseAidl NO-SOURCE
+> Task :pdfview-library:compileReleaseRenderscript NO-SOURCE
+> Task :pdfview-library:generateReleaseBuildConfig UP-TO-DATE
+> Task :pdfview-library:generateReleaseResValues UP-TO-DATE
+> Task :pdfview-library:generateReleaseResources UP-TO-DATE
+> Task :pdfview-library:packageReleaseResources UP-TO-DATE
+> Task :pdfview-library:parseReleaseLocalResources UP-TO-DATE
+> Task :pdfview-library:processReleaseManifest UP-TO-DATE
+> Task :pdfview-library:generateReleaseRFile UP-TO-DATE
+> Task :pdfview-library:compileReleaseKotlin UP-TO-DATE
+> Task :pdfview-library:javaPreCompileRelease UP-TO-DATE
+> Task :pdfview-library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :sample-local:mergeDebugNativeLibs
+> Task :sample-local:stripDebugDebugSymbols NO-SOURCE
+> Task :sample-local:preReleaseBuild UP-TO-DATE
+> Task :sample-local:compileReleaseAidl NO-SOURCE
+> Task :pdfview-library:packageReleaseRenderscript NO-SOURCE
+> Task :sample-local:compileReleaseRenderscript NO-SOURCE
+> Task :sample-local:generateReleaseBuildConfig
+> Task :pdfview-library:bundleLibCompileToJarRelease
+> Task :sample-local:generateReleaseResValues
+> Task :sample-local:generateReleaseResources
+> Task :pdfview-library:extractDeepLinksRelease
+> Task :sample-local:createReleaseCompatibleScreenManifests
+> Task :sample-local:extractDeepLinksRelease
+> Task :sample-local:processReleaseManifest
+> Task :sample-local:mergeReleaseResources
+> Task :sample-local:mergeLibDexDebug
+> Task :pdfview-library:compileReleaseLibraryResources
+> Task :sample-local:processReleaseResources
+> Task :sample-local:compileReleaseKotlin
+> Task :sample-local:javaPreCompileRelease
+> Task :sample-local:compileReleaseJavaWithJavac
+> Task :sample-local:compileReleaseSources
+> Task :pdfview-library:prepareLintJarForPublish UP-TO-DATE
+> Task :sample-local:prepareLintJar
+> Task :sample-local:lintVitalRelease
+> Task :sample-local:checkReleaseDuplicateClasses
+> Task :sample-local:dexBuilderRelease
+> Task :pdfview-library:bundleLibRuntimeToJarRelease
+> Task :pdfview-library:mergeReleaseShaders UP-TO-DATE
+> Task :pdfview-library:compileReleaseShaders NO-SOURCE
+> Task :pdfview-library:generateReleaseAssets UP-TO-DATE
+> Task :pdfview-library:packageReleaseAssets UP-TO-DATE
+> Task :sample-local:mergeReleaseShaders
+> Task :sample-local:compileReleaseShaders NO-SOURCE
+> Task :sample-local:generateReleaseAssets UP-TO-DATE
+> Task :sample-local:mergeReleaseAssets
+> Task :pdfview-library:processReleaseJavaRes NO-SOURCE
+> Task :pdfview-library:bundleLibResRelease
+> Task :sample-local:processReleaseJavaRes NO-SOURCE
+> Task :sample-local:collectReleaseDependencies
+> Task :sample-local:sdkReleaseDependencyData
+> Task :pdfview-library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :pdfview-library:mergeReleaseNativeLibs UP-TO-DATE
+> Task :pdfview-library:stripReleaseDebugSymbols NO-SOURCE
+> Task :pdfview-library:copyReleaseJniLibsProjectOnly
+> Task :sample-local:mergeReleaseJniLibFolders
+> Task :sample-local:mergeReleaseJavaResource
+> Task :sample-local:mergeExtDexDebug
+> Task :sample-local:packageDebug
+> Task :sample-local:assembleDebug
+> Task :sample-local:mergeReleaseNativeLibs
+> Task :sample-local:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample-local:mergeExtDexRelease
+> Task :sample-local:mergeDexRelease
+> Task :sample-local:packageRelease
+> Task :sample-local:assembleRelease
+> Task :sample-local:assemble
+> Task :sample-local:build
 
-BUILD SUCCESSFUL in 59s
-50 actionable tasks: 50 executed
+BUILD SUCCESSFUL in 55s
+85 actionable tasks: 58 executed, 27 up-to-date
 
-2020-05-15 14:50:53,289 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1589528501756-0/src/pdfview-android-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-09-18 15:10:59,657 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416559104-0/src/pdfview-android-master/sample-local/build/outputs/apk/release/sample-local-release-unsigned.apk
