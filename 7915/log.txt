@@ -1,37 +1,37 @@
-2020-09-11 01:33:54,999 INFO  DownloadService - Downloading "https://github.com/BlueCat-Community/View404/archive/master.zip", attempt 3
-2020-09-11 01:33:56,797 INFO  DownloadService - Downloaded https://github.com/BlueCat-Community/View404/archive/master.zip, attempt 3
-2020-09-11 01:33:56,797 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/master.zip": 510 KB
-2020-09-11 01:33:56,797 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-11 01:33:56,799 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/master.zip: true
-2020-09-11 01:33:56,799 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src'.
-2020-09-11 01:33:56,830 INFO  FullProcessService - Size of directory with sources: 547 KB
-2020-09-11 01:33:56,831 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src]
-2020-09-11 01:33:56,871 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/.git/
+2020-09-18 13:39:09,136 INFO  DownloadService - Downloading "https://github.com/BlueCat-Community/View404/archive/master.zip", attempt 3
+2020-09-18 13:39:09,845 INFO  DownloadService - Downloaded https://github.com/BlueCat-Community/View404/archive/master.zip, attempt 3
+2020-09-18 13:39:09,845 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/master.zip": 510 KB
+2020-09-18 13:39:09,845 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-18 13:39:09,846 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/master.zip: true
+2020-09-18 13:39:09,846 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src'.
+2020-09-18 13:39:09,868 INFO  FullProcessService - Size of directory with sources: 547 KB
+2020-09-18 13:39:09,869 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src]
+2020-09-18 13:39:09,889 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/.git/
 
-2020-09-11 01:33:56,878 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/gradlew
-2020-09-11 01:33:56,884 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/view404/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/build.gradle
-2020-09-11 01:33:56,888 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/view404/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/spotless.gradle
-2020-09-11 01:33:56,889 INFO  ProjectBuildService - Remote scripts: none
-2020-09-11 01:33:56,890 INFO  ProjectFixService - Fixing project...
-2020-09-11 01:33:56,902 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/local.properties
-2020-09-11 01:33:56,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:33:56,907 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:33:56,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/view404/local.properties
-2020-09-11 01:33:56,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/view404/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:33:56,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/view404/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:33:56,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/local.properties
-2020-09-11 01:33:56,916 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-09-11 01:33:56,917 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-09-11 01:33:56,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:33:56,921 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:33:56,923 INFO  ProjectFixService - Project was maybe fixed
-2020-09-11 01:33:56,923 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-11 01:33:56,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-11 01:34:07,675 INFO  VirusProcessorServiceImpl - Queued project 7918 to scan viruses
-2020-09-11 01:34:12,983 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-09-11 01:34:12,983 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-11 01:34:12,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-11 01:35:19,850 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-18 13:39:09,893 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/gradlew
+2020-09-18 13:39:09,896 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/view404/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/build.gradle
+2020-09-18 13:39:09,899 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/view404/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/spotless.gradle
+2020-09-18 13:39:09,899 INFO  ProjectBuildService - Remote scripts: none
+2020-09-18 13:39:09,899 INFO  ProjectFixService - Fixing project...
+2020-09-18 13:39:09,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/local.properties
+2020-09-18 13:39:09,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-18 13:39:09,909 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-18 13:39:09,910 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/view404/local.properties
+2020-09-18 13:39:09,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/view404/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-18 13:39:09,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/view404/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-18 13:39:09,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/local.properties
+2020-09-18 13:39:09,913 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-09-18 13:39:09,913 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-09-18 13:39:09,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-09-18 13:39:09,915 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-09-18 13:39:09,916 INFO  ProjectFixService - Project was maybe fixed
+2020-09-18 13:39:09,916 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-18 13:39:09,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-18 13:39:17,742 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-09-18 13:39:17,742 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-18 13:39:17,742 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-18 13:39:22,113 INFO  VirusProcessorServiceImpl - Queued project 7961 to scan viruses
+2020-09-18 13:40:04,692 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :view404:preBuild UP-TO-DATE
@@ -54,6 +54,7 @@
 > Task :app:mergeDebugResources
 > Task :view404:processDebugManifest
 > Task :app:processDebugManifest
+> Task :view404:parseDebugLibraryResources
 > Task :view404:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -63,13 +64,12 @@
 > Task :view404:generateDebugAssets
 > Task :view404:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :view404:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :view404:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
 > Task :view404:generateDebugRFile
 > Task :app:processDebugResources
 > Task :view404:compileDebugKotlin
+> Task :app:checkDebugDuplicateClasses
 > Task :view404:javaPreCompileDebug
 > Task :view404:compileDebugJavaWithJavac
 > Task :view404:bundleLibResDebug
@@ -102,27 +102,27 @@
 > Task :view404:mergeDebugNativeLibs
 > Task :view404:stripDebugDebugSymbols
 > Task :view404:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :view404:checkReleaseManifest
+> Task :app:mergeDebugJavaResource
 > Task :view404:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :view404:generateReleaseBuildConfig
 > Task :view404:parseReleaseLibraryResources
-> Task :app:prepareLintJar
-> Task :app:checkReleaseDuplicateClasses
-> Task :view404:prepareLintJarForPublish
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
 > Task :app:mergeReleaseResources
 > Task :view404:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :view404:compileReleaseKotlin
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :view404:prepareLintJarForPublish
 > Task :view404:javaPreCompileRelease
 > Task :view404:compileReleaseJavaWithJavac
+> Task :view404:bundleLibRuntimeRelease
 > Task :view404:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :view404:bundleLibRuntimeRelease
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -166,7 +166,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 6s
+BUILD SUCCESSFUL in 46s
 92 actionable tasks: 92 executed
 
-2020-09-11 01:35:19,967 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762834993-0/src/View404-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-18 13:40:04,790 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411149131-0/src/View404-master/app/build/outputs/apk/debug/app-debug.apk
