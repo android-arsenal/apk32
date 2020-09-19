@@ -1,53 +1,45 @@
-2020-04-23 19:08:33,944 INFO  DownloadService - Downloading "https://github.com/FarshidRoohi/CustomAdapterRecyclerview/archive/master.zip", attempt 3
-2020-04-23 19:08:36,613 INFO  DownloadService - Downloaded https://github.com/FarshidRoohi/CustomAdapterRecyclerview/archive/master.zip, attempt 3
-2020-04-23 19:08:36,614 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/master.zip": 825 KB
-2020-04-23 19:08:36,614 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-04-23 19:08:36,614 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/master.zip: true
-2020-04-23 19:08:36,614 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src'.
-2020-04-23 19:08:36,646 INFO  FullProcessService - Size of directory with sources: 848 KB
-2020-04-23 19:08:36,646 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src]
-2020-04-23 19:08:36,678 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/.git/
+2020-09-20 02:44:20,586 INFO  DownloadService - Downloading "https://github.com/FarshidRoohi/CustomAdapterRecyclerview/archive/master.zip", attempt 3
+2020-09-20 02:44:22,765 INFO  DownloadService - Downloaded https://github.com/FarshidRoohi/CustomAdapterRecyclerview/archive/master.zip, attempt 3
+2020-09-20 02:44:22,765 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/master.zip": 823 KB
+2020-09-20 02:44:22,765 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:44:22,770 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/master.zip: true
+2020-09-20 02:44:22,770 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src'.
+2020-09-20 02:44:22,797 INFO  FullProcessService - Size of directory with sources: 847 KB
+2020-09-20 02:44:22,798 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src]
+2020-09-20 02:44:22,817 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/.git/
 
-2020-04-23 19:08:36,682 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/gradlew
-2020-04-23 19:08:36,686 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/build.gradle
-2020-04-23 19:08:36,690 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/settings.gradle
-2020-04-23 19:08:36,691 INFO  ProjectBuildService - Remote scripts: none
-2020-04-23 19:08:36,691 INFO  ProjectFixService - Fixing project...
-2020-04-23 19:08:36,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/local.properties
-2020-04-23 19:08:36,702 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 19:08:36,702 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 19:08:36,703 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/local.properties
-2020-04-23 19:08:36,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 19:08:36,704 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 19:08:36,705 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/local.properties
-2020-04-23 19:08:36,706 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-04-23 19:08:36,706 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-04-23 19:08:36,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 19:08:36,707 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
-2020-04-23 19:08:36,708 INFO  ProjectFixService - Project was maybe fixed
-2020-04-23 19:08:36,708 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 19:08:36,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 19:08:46,642 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-23 19:08:46,642 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-04-23 19:08:46,642 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-04-23 19:08:48,664 INFO  VirusProcessorServiceImpl - Queued project 7886 to scan viruses
-2020-04-23 19:09:16,100 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:44:22,821 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/gradlew
+2020-09-20 02:44:22,825 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/build.gradle
+2020-09-20 02:44:22,829 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/settings.gradle
+2020-09-20 02:44:22,829 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:44:22,829 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:44:22,839 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/local.properties
+2020-09-20 02:44:22,840 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-09-20 02:44:22,840 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-09-20 02:44:22,841 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/local.properties
+2020-09-20 02:44:22,842 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-09-20 02:44:22,842 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-09-20 02:44:22,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/local.properties
+2020-09-20 02:44:22,843 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-09-20 02:44:22,844 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-09-20 02:44:22,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-09-20 02:44:22,845 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2020-09-20 02:44:22,845 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:44:22,845 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:44:22,845 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:44:33,651 INFO  VirusProcessorServiceImpl - Queued project 7760 to scan viruses
+2020-09-20 02:44:35,390 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-09-20 02:44:35,390 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-09-20 02:44:35,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-09-20 02:45:10,217 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :customAdapterRecycleView:preBuild UP-TO-DATE
 > Task :customAdapterRecycleView:preDebugBuild UP-TO-DATE
-> Task :customAdapterRecycleView:generateDebugBuildConfig
-> Task :customAdapterRecycleView:prepareLintJar
-> Task :customAdapterRecycleView:prepareLintJarForPublish
-> Task :customAdapterRecycleView:compileDebugRenderscript NO-SOURCE
-> Task :customAdapterRecycleView:compileDebugAidl NO-SOURCE
-> Task :customAdapterRecycleView:generateDebugSources
-> Task :customAdapterRecycleView:dataBindingExportBuildInfoDebug
-> Task :customAdapterRecycleView:dataBindingMergeDependencyArtifactsDebug
-> Task :customAdapterRecycleView:generateDebugResValues
-> Task :customAdapterRecycleView:generateDebugResources
-> Task :customAdapterRecycleView:packageDebugResources
-> Task :customAdapterRecycleView:dataBindingMergeGenClassesDebug
-> Task :customAdapterRecycleView:dataBindingGenBaseClassesDebug
 > Task :customAdapterRecycleView:mergeDebugJniLibFolders
+> Task :customAdapterRecycleView:mergeDebugNativeLibs
+> Task :customAdapterRecycleView:stripDebugDebugSymbols
+> Task :customAdapterRecycleView:copyDebugJniLibsProjectAndLocalJars
+> Task :customAdapterRecycleView:generateDebugBuildConfig
+> Task :customAdapterRecycleView:generateDebugResValues
 > Task :customAdapterRecycleView:mergeDebugShaders
 > Task :customAdapterRecycleView:compileDebugShaders
 > Task :customAdapterRecycleView:generateDebugAssets
@@ -55,314 +47,64 @@
 > Task :customAdapterRecycleView:packageDebugRenderscript NO-SOURCE
 > Task :customAdapterRecycleView:processDebugJavaRes NO-SOURCE
 > Task :customAdapterRecycleView:preReleaseBuild UP-TO-DATE
-> Task :customAdapterRecycleView:compileReleaseAidl NO-SOURCE
-> Task :customAdapterRecycleView:compileReleaseRenderscript NO-SOURCE
-> Task :customAdapterRecycleView:generateReleaseBuildConfig
-> Task :customAdapterRecycleView:generateReleaseSources
-> Task :customAdapterRecycleView:dataBindingExportBuildInfoRelease
-> Task :customAdapterRecycleView:javaPreCompileDebug
-> Task :customAdapterRecycleView:dataBindingMergeDependencyArtifactsRelease
-> Task :customAdapterRecycleView:generateReleaseResValues
-> Task :customAdapterRecycleView:generateReleaseResources
-> Task :customAdapterRecycleView:packageReleaseResources
-> Task :customAdapterRecycleView:dataBindingMergeGenClassesRelease
-> Task :customAdapterRecycleView:dataBindingGenBaseClassesRelease
-> Task :customAdapterRecycleView:processDebugManifest
-> Task :customAdapterRecycleView:parseReleaseLocalResources
 > Task :customAdapterRecycleView:mergeReleaseJniLibFolders
-> Task :customAdapterRecycleView:javaPreCompileRelease
+> Task :customAdapterRecycleView:prepareLintJarForPublish
+> Task :customAdapterRecycleView:generateReleaseBuildConfig
+> Task :customAdapterRecycleView:generateReleaseResValues
+> Task :customAdapterRecycleView:mergeReleaseNativeLibs
+> Task :customAdapterRecycleView:stripReleaseDebugSymbols
+> Task :customAdapterRecycleView:copyReleaseJniLibsProjectAndLocalJars
 > Task :customAdapterRecycleView:mergeReleaseShaders
 > Task :customAdapterRecycleView:compileReleaseShaders
 > Task :customAdapterRecycleView:generateReleaseAssets
 > Task :customAdapterRecycleView:packageReleaseAssets
 > Task :customAdapterRecycleView:packageReleaseRenderscript NO-SOURCE
 > Task :customAdapterRecycleView:processReleaseJavaRes NO-SOURCE
-> Task :customAdapterRecycleView:mergeReleaseNativeLibs
-> Task :customAdapterRecycleView:stripReleaseDebugSymbols
-> Task :customAdapterRecycleView:copyReleaseJniLibsProjectAndLocalJars
-> Task :customAdapterRecycleView:mergeDebugNativeLibs
-> Task :customAdapterRecycleView:stripDebugDebugSymbols
-> Task :customAdapterRecycleView:copyDebugJniLibsProjectAndLocalJars
 > Task :customAdapterRecycleView:processReleaseManifest
-> Task :customAdapterRecycleView:parseDebugLocalResources
-
-> Task :customAdapterRecycleView:generateJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:5: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:6: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.RecyclerView;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:16: error: package RecyclerView does not exist
-public class RecyclerTouchListener implements RecyclerView.OnItemTouchListener {
-                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:21: error: cannot find symbol
-    public RecyclerTouchListener(Context context, final RecyclerView recyclerView, final OnItemListenerRecyclerViewListener clickListener) {
-                                                        ^
-  symbol:   class RecyclerView
-  location: class RecyclerTouchListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:40: error: cannot find symbol
-    public boolean onInterceptTouchEvent(@NonNull RecyclerView rv, @NonNull MotionEvent e) {
-                                                  ^
-  symbol:   class RecyclerView
-  location: class RecyclerTouchListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:50: error: cannot find symbol
-    public void onTouchEvent(@NonNull RecyclerView rv, @NonNull MotionEvent e) {
-                                      ^
-  symbol:   class RecyclerView
-  location: class RecyclerTouchListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/IProgressLayout.java:3: error: cannot find symbol
-import androidx.annotation.LayoutRes;
-                          ^
-  symbol:   class LayoutRes
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ItemViewHolder.java:3: error: package androidx.databinding does not exist
-import androidx.databinding.ViewDataBinding;
-                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ItemViewHolder.java:4: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.RecyclerView;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ItemViewHolder.java:12: error: package RecyclerView does not exist
-public class ItemViewHolder extends RecyclerView.ViewHolder {
-                                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ItemViewHolder.java:13: error: cannot find symbol
-    public ViewDataBinding binding;
-           ^
-  symbol:   class ViewDataBinding
-  location: class ItemViewHolder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ItemViewHolder.java:15: error: cannot find symbol
-    public ItemViewHolder(ViewDataBinding viewDataBinding) {
-                          ^
-  symbol:   class ViewDataBinding
-  location: class ItemViewHolder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ProgressViewHolder.java:3: error: package androidx.databinding does not exist
-import androidx.databinding.ViewDataBinding;
-                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ProgressViewHolder.java:4: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.RecyclerView;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ProgressViewHolder.java:12: error: package RecyclerView does not exist
-public class ProgressViewHolder extends RecyclerView.ViewHolder {
-                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ProgressViewHolder.java:14: error: cannot find symbol
-    ViewDataBinding progressBinding;
-    ^
-  symbol:   class ViewDataBinding
-  location: class ProgressViewHolder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/viewHolder/ProgressViewHolder.java:16: error: cannot find symbol
-    public ProgressViewHolder(ViewDataBinding viewDataBinding) {
-                              ^
-  symbol:   class ViewDataBinding
-  location: class ProgressViewHolder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:7: error: cannot find symbol
-import androidx.annotation.LayoutRes;
-                          ^
-  symbol:   class LayoutRes
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:8: error: cannot find symbol
-import androidx.annotation.NonNull;
-                          ^
-  symbol:   class NonNull
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:9: error: cannot find symbol
-import androidx.annotation.Nullable;
-                          ^
-  symbol:   class Nullable
-  location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:10: error: package androidx.databinding does not exist
-import androidx.databinding.DataBindingUtil;
-                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:11: error: package androidx.databinding does not exist
-import androidx.databinding.ViewDataBinding;
-                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:12: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.GridLayoutManager;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:13: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.LinearLayoutManager;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:14: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.RecyclerView;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:15: error: package androidx.recyclerview.widget does not exist
-import androidx.recyclerview.widget.StaggeredGridLayoutManager;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:32: error: package RecyclerView does not exist
-public abstract class AdapterRecyclerView<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements IProgressLayout {
-                                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:32: error: package RecyclerView does not exist
-public abstract class AdapterRecyclerView<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> implements IProgressLayout {
-                                                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:40: error: package RecyclerView does not exist
-    private RecyclerView.LayoutManager layoutManager;
-                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:49: error: cannot find symbol
-    public abstract void onBindView(ViewDataBinding binding, ItemViewHolder viewHolder, int position, int viewType, T element);
-                                    ^
-  symbol:   class ViewDataBinding
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:54: error: cannot find symbol
-    public AdapterRecyclerView(RecyclerView recyclerView) {
-                               ^
-  symbol:   class RecyclerView
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:69: error: package RecyclerView does not exist
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:88: error: package RecyclerView does not exist
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, final int position) {
-                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:153: error: cannot find symbol
-    public void endLessScrolled(RecyclerView recyclerView) {
-                                ^
-  symbol:   class RecyclerView
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:166: error: cannot find symbol
-    private void initRecyclerViewListener(RecyclerView recyclerView) {
-                                          ^
-  symbol:   class RecyclerView
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:263: error: cannot find symbol
-    public void setOnClickItemListener(RecyclerView recyclerView, final OnClickItemListener<T> listener) {
-                                       ^
-  symbol:   class RecyclerView
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:40: error: cannot find symbol
-    public boolean onInterceptTouchEvent(@NonNull RecyclerView rv, @NonNull MotionEvent e) {
-                                          ^
-  symbol:   class NonNull
-  location: class RecyclerTouchListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:40: error: cannot find symbol
-    public boolean onInterceptTouchEvent(@NonNull RecyclerView rv, @NonNull MotionEvent e) {
-                                                                    ^
-  symbol:   class NonNull
-  location: class RecyclerTouchListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:50: error: cannot find symbol
-    public void onTouchEvent(@NonNull RecyclerView rv, @NonNull MotionEvent e) {
-                              ^
-  symbol:   class NonNull
-  location: class RecyclerTouchListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java:50: error: cannot find symbol
-    public void onTouchEvent(@NonNull RecyclerView rv, @NonNull MotionEvent e) {
-                                                        ^
-  symbol:   class NonNull
-  location: class RecyclerTouchListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/IProgressLayout.java:10: error: cannot find symbol
-    @LayoutRes
-     ^
-  symbol:   class LayoutRes
-  location: interface IProgressLayout
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:46: error: cannot find symbol
-    @LayoutRes
-     ^
-  symbol:   class LayoutRes
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:69: error: cannot find symbol
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-                                                       ^
-  symbol:   class NonNull
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:67: error: cannot find symbol
-    @NonNull
-     ^
-  symbol:   class NonNull
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:88: error: cannot find symbol
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder viewHolder, final int position) {
-                                  ^
-  symbol:   class NonNull
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java:210: error: cannot find symbol
-    @Nullable
-     ^
-  symbol:   class Nullable
-  location: class AdapterRecyclerView<T>
-  where T is a type-variable:
-    T extends Object declared in class AdapterRecyclerView
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class Nullable not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class LayoutRes not found.
-javadoc: warning - Class NonNull not found.
-javadoc: warning - Class Nullable not found.
-76 warnings
-
-> Task :customAdapterRecycleView:mergeReleaseResources
+> Task :customAdapterRecycleView:processDebugManifest
+> Task :customAdapterRecycleView:generateJavadocs SKIPPED
 > Task :customAdapterRecycleView:generateJavadocsJar
 > Task :customAdapterRecycleView:generateSourcesJar
+> Task :customAdapterRecycleView:compileDebugRenderscript NO-SOURCE
+> Task :customAdapterRecycleView:compileDebugAidl NO-SOURCE
+> Task :customAdapterRecycleView:generateDebugResources
+> Task :customAdapterRecycleView:packageDebugResources
+> Task :customAdapterRecycleView:compileReleaseAidl NO-SOURCE
+> Task :customAdapterRecycleView:compileReleaseRenderscript NO-SOURCE
+> Task :customAdapterRecycleView:generateReleaseResources
+> Task :customAdapterRecycleView:packageReleaseResources
+> Task :customAdapterRecycleView:mergeReleaseResources
+> Task :customAdapterRecycleView:parseDebugLocalResources
+> Task :customAdapterRecycleView:parseReleaseLocalResources
 > Task :customAdapterRecycleView:generateReleaseRFile
 
-> Task :customAdapterRecycleView:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
+> Task :customAdapterRecycleView:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.kt: (28, 60): 'getChildPosition(View): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.kt: (38, 38): 'getChildPosition(View): Int' is deprecated. Deprecated in Java
 
+> Task :customAdapterRecycleView:verifyReleaseResources
+> Task :customAdapterRecycleView:javaPreCompileRelease
+> Task :customAdapterRecycleView:compileReleaseJavaWithJavac
 > Task :customAdapterRecycleView:extractReleaseAnnotations
 > Task :customAdapterRecycleView:mergeReleaseGeneratedProguardFiles
 > Task :customAdapterRecycleView:mergeReleaseConsumerProguardFiles
 > Task :customAdapterRecycleView:compileReleaseSources
-> Task :customAdapterRecycleView:verifyReleaseResources
 > Task :customAdapterRecycleView:generateDebugRFile
 
-> Task :customAdapterRecycleView:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/AdapterRecyclerView.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
+> Task :customAdapterRecycleView:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.kt: (28, 60): 'getChildPosition(View): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/customAdapterRecycleView/src/main/java/ir/farshid_roohi/customadapterrecycleview/listener/RecyclerTouchListener.kt: (38, 38): 'getChildPosition(View): Int' is deprecated. Deprecated in Java
 
-> Task :customAdapterRecycleView:extractDebugAnnotations
-> Task :customAdapterRecycleView:mergeDebugGeneratedProguardFiles
-> Task :customAdapterRecycleView:mergeDebugConsumerProguardFiles
-> Task :customAdapterRecycleView:compileDebugSources
 > Task :customAdapterRecycleView:mergeReleaseJavaResource
 > Task :customAdapterRecycleView:syncReleaseLibJars
 > Task :customAdapterRecycleView:bundleReleaseAar
 > Task :customAdapterRecycleView:assembleRelease
+> Task :customAdapterRecycleView:javaPreCompileDebug
+> Task :customAdapterRecycleView:compileDebugJavaWithJavac
+> Task :customAdapterRecycleView:extractDebugAnnotations
+> Task :customAdapterRecycleView:mergeDebugGeneratedProguardFiles
+> Task :customAdapterRecycleView:mergeDebugConsumerProguardFiles
+> Task :customAdapterRecycleView:compileDebugSources
 > Task :customAdapterRecycleView:mergeDebugJavaResource
 > Task :customAdapterRecycleView:syncDebugLibJars
 > Task :customAdapterRecycleView:bundleDebugAar
@@ -370,63 +112,51 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :customAdapterRecycleView:assemble
 > Task :customAdapterRecycleView:build
 
-BUILD SUCCESSFUL in 29s
-57 actionable tasks: 57 executed
+BUILD SUCCESSFUL in 34s
+49 actionable tasks: 49 executed
 
-2020-04-23 19:09:16,157 INFO  ProjectTaskService - Detecting possible tasks...
-2020-04-23 19:09:16,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-04-23 19:09:25,957 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-04-23 19:09:25,957 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-04-23 19:09:25,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-04-23 19:10:17,735 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:45:10,292 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:45:10,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:45:21,835 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-09-20 02:45:21,836 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:45:21,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:46:31,754 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :sample
+Kotlin plugin should be enabled before 'kotlin-android-extensions'
+
 > Task :customAdapterRecycleView:preBuild UP-TO-DATE
 > Task :customAdapterRecycleView:preDebugBuild UP-TO-DATE
 > Task :customAdapterRecycleView:compileDebugAidl NO-SOURCE
 > Task :customAdapterRecycleView:generateDebugBuildConfig UP-TO-DATE
 > Task :customAdapterRecycleView:compileDebugRenderscript NO-SOURCE
-> Task :customAdapterRecycleView:prepareLintJar UP-TO-DATE
-> Task :customAdapterRecycleView:prepareLintJarForPublish UP-TO-DATE
-> Task :customAdapterRecycleView:generateDebugSources UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingExportBuildInfoDebug UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
 > Task :customAdapterRecycleView:generateDebugResValues UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingMergeGenClassesDebug UP-TO-DATE
 > Task :customAdapterRecycleView:generateDebugResources UP-TO-DATE
 > Task :customAdapterRecycleView:packageDebugResources UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingGenBaseClassesDebug UP-TO-DATE
 > Task :customAdapterRecycleView:parseDebugLocalResources UP-TO-DATE
 > Task :customAdapterRecycleView:processDebugManifest UP-TO-DATE
 > Task :customAdapterRecycleView:generateDebugRFile UP-TO-DATE
+> Task :customAdapterRecycleView:compileDebugKotlin UP-TO-DATE
 > Task :customAdapterRecycleView:javaPreCompileDebug UP-TO-DATE
 > Task :customAdapterRecycleView:compileDebugJavaWithJavac UP-TO-DATE
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
-> Task :sample:compileDebugAidl NO-SOURCE
 > Task :customAdapterRecycleView:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
-> Task :sample:prepareLintJar
-> Task :sample:prepareLintJarForPublish
-> Task :sample:generateDebugSources
-> Task :sample:dataBindingExportBuildInfoDebug
-> Task :customAdapterRecycleView:bundleLibCompileDebug
-> Task :sample:dataBindingExportFeaturePackageIdsDebug
-> Task :sample:dataBindingMergeDependencyArtifactsDebug
-> Task :sample:generateDebugResValues
-> Task :sample:generateDebugResources
-> Task :sample:dataBindingMergeGenClassesDebug
-> Task :sample:javaPreCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :customAdapterRecycleView:compileDebugLibraryResources
-> Task :sample:mergeDebugResources
-> Task :sample:dataBindingGenBaseClassesDebug
+> Task :customAdapterRecycleView:bundleLibCompileDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
 > Task :customAdapterRecycleView:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugResources
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
+> Task :sample:compileDebugKotlin
 > Task :customAdapterRecycleView:mergeDebugShaders UP-TO-DATE
 > Task :customAdapterRecycleView:compileDebugShaders UP-TO-DATE
 > Task :customAdapterRecycleView:generateDebugAssets UP-TO-DATE
@@ -435,6 +165,9 @@ BUILD SUCCESSFUL in 29s
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :customAdapterRecycleView:processDebugJavaRes NO-SOURCE
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :customAdapterRecycleView:bundleLibResDebug
@@ -452,33 +185,24 @@ BUILD SUCCESSFUL in 29s
 > Task :customAdapterRecycleView:compileReleaseAidl NO-SOURCE
 > Task :customAdapterRecycleView:compileReleaseRenderscript NO-SOURCE
 > Task :customAdapterRecycleView:generateReleaseBuildConfig UP-TO-DATE
-> Task :customAdapterRecycleView:generateReleaseSources UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingExportBuildInfoRelease UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingMergeGenClassesRelease UP-TO-DATE
 > Task :customAdapterRecycleView:generateReleaseResValues UP-TO-DATE
 > Task :customAdapterRecycleView:generateReleaseResources UP-TO-DATE
 > Task :customAdapterRecycleView:packageReleaseResources UP-TO-DATE
-> Task :customAdapterRecycleView:dataBindingGenBaseClassesRelease UP-TO-DATE
 > Task :customAdapterRecycleView:parseReleaseLocalResources UP-TO-DATE
 > Task :customAdapterRecycleView:processReleaseManifest UP-TO-DATE
 > Task :customAdapterRecycleView:generateReleaseRFile UP-TO-DATE
+> Task :customAdapterRecycleView:compileReleaseKotlin UP-TO-DATE
 > Task :customAdapterRecycleView:javaPreCompileRelease UP-TO-DATE
 > Task :customAdapterRecycleView:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :customAdapterRecycleView:bundleLibCompileRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :customAdapterRecycleView:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:generateReleaseBuildConfig
-> Task :sample:generateReleaseSources
-> Task :sample:dataBindingExportBuildInfoRelease
-> Task :customAdapterRecycleView:bundleLibCompileRelease
-> Task :sample:dataBindingExportFeaturePackageIdsRelease
-> Task :sample:dataBindingMergeDependencyArtifactsRelease
+> Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:javaPreCompileRelease
-> Task :sample:mainApkListPersistenceRelease
 > Task :customAdapterRecycleView:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:extractDeepLinksRelease
@@ -488,18 +212,16 @@ BUILD SUCCESSFUL in 29s
 > Task :sample:mergeReleaseResources
 > Task :customAdapterRecycleView:compileReleaseLibraryResources
 > Task :sample:processReleaseResources
-> Task :sample:dataBindingMergeGenClassesRelease
-> Task :sample:dataBindingGenBaseClassesRelease
+> Task :sample:compileReleaseKotlin
+> Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
+> Task :customAdapterRecycleView:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
 > Task :sample:lintVitalRelease
 > Task :sample:checkReleaseDuplicateClasses
 > Task :sample:dexBuilderRelease
 > Task :customAdapterRecycleView:bundleLibRuntimeRelease
-> Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :customAdapterRecycleView:mergeReleaseShaders UP-TO-DATE
 > Task :customAdapterRecycleView:compileReleaseShaders UP-TO-DATE
 > Task :customAdapterRecycleView:generateReleaseAssets UP-TO-DATE
@@ -509,16 +231,20 @@ BUILD SUCCESSFUL in 29s
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
 > Task :customAdapterRecycleView:processReleaseJavaRes NO-SOURCE
+> Task :customAdapterRecycleView:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :customAdapterRecycleView:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :customAdapterRecycleView:mergeReleaseNativeLibs UP-TO-DATE
 > Task :customAdapterRecycleView:stripReleaseDebugSymbols UP-TO-DATE
 > Task :customAdapterRecycleView:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
-> Task :customAdapterRecycleView:bundleLibResRelease
+> Task :sample:mergeExtDexDebug
 > Task :sample:mergeReleaseNativeLibs
 > Task :sample:stripReleaseDebugSymbols
 > Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -526,7 +252,7 @@ BUILD SUCCESSFUL in 29s
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 51s
-108 actionable tasks: 70 executed, 38 up-to-date
+BUILD SUCCESSFUL in 1m 8s
+92 actionable tasks: 61 executed, 31 up-to-date
 
-2020-04-23 19:10:17,827 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1587643713941-0/src/CustomAdapterRecyclerview-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-09-20 02:46:31,870 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544660583-0/src/CustomAdapterRecyclerview-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

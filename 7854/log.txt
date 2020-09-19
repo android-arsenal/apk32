@@ -1,31 +1,32 @@
-2020-09-18 14:57:02,033 INFO  DownloadService - Downloading "https://github.com/fartem/hash-checker/archive/master.zip", attempt 3
-2020-09-18 14:57:08,888 INFO  DownloadService - Downloaded https://github.com/fartem/hash-checker/archive/master.zip, attempt 3
-2020-09-18 14:57:08,888 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/master.zip": 22 MB
-2020-09-18 14:57:08,888 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 14:57:08,890 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/master.zip: true
-2020-09-18 14:57:08,890 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src'.
-2020-09-18 14:57:09,504 INFO  FullProcessService - Size of directory with sources: 31 MB
-2020-09-18 14:57:09,504 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src]
-2020-09-18 14:57:09,553 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/.git/
+2020-09-20 02:31:43,921 INFO  DownloadService - Downloading "https://github.com/fartem/hash-checker/archive/master.zip", attempt 3
+2020-09-20 02:31:52,198 INFO  DownloadService - Downloaded https://github.com/fartem/hash-checker/archive/master.zip, attempt 3
+2020-09-20 02:31:52,198 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/master.zip": 22 MB
+2020-09-20 02:31:52,198 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:31:52,199 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/master.zip: true
+2020-09-20 02:31:52,199 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src'.
+2020-09-20 02:31:52,554 INFO  FullProcessService - Size of directory with sources: 31 MB
+2020-09-20 02:31:52,554 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src]
+2020-09-20 02:31:52,582 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/.git/
 
-2020-09-18 14:57:09,615 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/gradlew
-2020-09-18 14:57:09,641 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/build.gradle
-2020-09-18 14:57:09,672 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/settings.gradle
-2020-09-18 14:57:09,674 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 14:57:09,674 INFO  ProjectFixService - Fixing project...
-2020-09-18 14:57:09,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/local.properties
-2020-09-18 14:57:09,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-09-18 14:57:09,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/local.properties
-2020-09-18 14:57:09,746 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
-2020-09-18 14:57:09,747 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
-2020-09-18 14:57:09,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2020-09-18 14:57:09,753 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 14:57:09,753 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 14:57:09,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 14:57:27,554 INFO  ProjectTaskService - Detected possible tasks: 74
-2020-09-18 14:57:27,554 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-18 14:57:27,555 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-18 14:58:57,375 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:31:52,594 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/gradlew
+2020-09-20 02:31:52,605 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/build.gradle
+2020-09-20 02:31:52,616 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/cpd.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/settings.gradle
+2020-09-20 02:31:52,621 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:31:52,621 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:31:52,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/local.properties
+2020-09-20 02:31:52,644 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-20 02:31:52,645 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/local.properties
+2020-09-20 02:31:52,645 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-09-20 02:31:52,646 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-09-20 02:31:52,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/build.gradle": [buildToolsVersion=29.0.3,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2020-09-20 02:31:52,648 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:31:52,648 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:31:52,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:31:54,755 INFO  VirusProcessorServiceImpl - Queued project 7939 to scan viruses
+2020-09-20 02:32:02,301 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-09-20 02:32:02,301 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:32:02,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:32:55,663 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -50,7 +51,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:generateDebugAssets UP-TO-DATE
 > Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:mergeDebugJavaResource
 > Task :app:checkDebugDuplicateClasses
 > Task :app:desugarDebugFileDependencies
 > Task :app:mergeLibDexDebug
@@ -63,12 +63,16 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :app:mergeDebugJavaResource
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :app:processReleaseManifest
-> Task :app:javaPreCompileRelease
 > Task :app:jacocoDebug
 > Task :app:dexBuilderDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeExtDexDebug
+> Task :app:javaPreCompileRelease
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 
@@ -78,8 +82,8 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
 > Task :app:mergeProjectDexDebug
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:prepareLintJar
 > Task :app:lintVitalRelease
 > Task :app:mergeReleaseShaders
@@ -95,9 +99,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeReleaseJavaResource
 > Task :app:minifyReleaseWithR8
 > Task :app:shrinkReleaseRes
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:packageRelease
@@ -105,7 +106,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 28s
+BUILD SUCCESSFUL in 52s
 47 actionable tasks: 47 executed
 
-2020-09-18 14:58:57,595 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415822023-0/src/hash-checker-master/app/build/outputs/apk/release/hash-checker_3.5.1.apk
+2020-09-20 02:32:55,780 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600543903918-0/src/hash-checker-master/app/build/outputs/apk/release/hash-checker_3.5.1.apk

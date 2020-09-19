@@ -1,37 +1,37 @@
-2020-03-22 02:59:26,832 INFO  DownloadService - Downloading "https://github.com/shivpujan12/LocationPicker/archive/master.zip", attempt 3
-2020-03-22 02:59:29,417 INFO  DownloadService - Downloaded https://github.com/shivpujan12/LocationPicker/archive/master.zip, attempt 3
-2020-03-22 02:59:29,417 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/master.zip": 654 KB
-2020-03-22 02:59:29,417 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-22 02:59:29,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/master.zip: true
-2020-03-22 02:59:29,418 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src'.
-2020-03-22 02:59:29,452 INFO  FullProcessService - Size of directory with sources: 698 KB
-2020-03-22 02:59:29,452 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src]
-2020-03-22 02:59:29,478 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/.git/
+2020-09-20 02:41:48,527 INFO  DownloadService - Downloading "https://github.com/shivpujan12/LocationPicker/archive/master.zip", attempt 3
+2020-09-20 02:41:51,748 INFO  DownloadService - Downloaded https://github.com/shivpujan12/LocationPicker/archive/master.zip, attempt 3
+2020-09-20 02:41:51,748 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/master.zip": 5 MB
+2020-09-20 02:41:51,748 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-09-20 02:41:51,748 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/master.zip: true
+2020-09-20 02:41:51,749 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src'.
+2020-09-20 02:41:51,843 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-09-20 02:41:51,843 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src]
+2020-09-20 02:41:51,876 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/.git/
 
-2020-03-22 02:59:29,483 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/gradlew
-2020-03-22 02:59:29,487 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/maplocationpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/build.gradle
-2020-03-22 02:59:29,491 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/maplocationpicker/build.gradle
-2020-03-22 02:59:29,492 INFO  ProjectBuildService - Remote scripts: none
-2020-03-22 02:59:29,492 INFO  ProjectFixService - Fixing project...
-2020-03-22 02:59:29,501 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/local.properties
-2020-03-22 02:59:29,502 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 02:59:29,502 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 02:59:29,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/maplocationpicker/local.properties
-2020-03-22 02:59:29,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/maplocationpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 02:59:29,504 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/maplocationpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 02:59:29,505 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/local.properties
-2020-03-22 02:59:29,505 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-03-22 02:59:29,506 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-03-22 02:59:29,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 02:59:29,507 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-03-22 02:59:29,507 INFO  ProjectFixService - Project was maybe fixed
-2020-03-22 02:59:29,507 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-22 02:59:29,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-22 02:59:37,512 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-03-22 02:59:37,512 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-22 02:59:37,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-22 02:59:43,396 INFO  VirusProcessorServiceImpl - Queued project 7769 to scan viruses
-2020-03-22 03:00:24,865 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-09-20 02:41:51,881 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/gradlew
+2020-09-20 02:41:51,889 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/maplocationpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/build.gradle
+2020-09-20 02:41:51,897 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/maplocationpicker/build.gradle
+2020-09-20 02:41:51,898 INFO  ProjectBuildService - Remote scripts: none
+2020-09-20 02:41:51,898 INFO  ProjectFixService - Fixing project...
+2020-09-20 02:41:51,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/local.properties
+2020-09-20 02:41:51,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-09-20 02:41:51,915 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-09-20 02:41:51,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/maplocationpicker/local.properties
+2020-09-20 02:41:51,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/maplocationpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-09-20 02:41:51,918 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/maplocationpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-09-20 02:41:51,920 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/local.properties
+2020-09-20 02:41:51,921 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-09-20 02:41:51,922 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-09-20 02:41:51,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-09-20 02:41:51,927 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-09-20 02:41:51,928 INFO  ProjectFixService - Project was maybe fixed
+2020-09-20 02:41:51,928 INFO  ProjectTaskService - Detecting possible tasks...
+2020-09-20 02:41:51,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-09-20 02:41:54,905 INFO  VirusProcessorServiceImpl - Queued project 7765 to scan viruses
+2020-09-20 02:42:04,893 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-09-20 02:42:04,894 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-09-20 02:42:04,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-09-20 02:43:08,717 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :maplocationpicker:preBuild UP-TO-DATE
 > Task :maplocationpicker:preDebugBuild UP-TO-DATE
@@ -47,12 +47,12 @@
 > Task :maplocationpicker:generateDebugAssets
 > Task :maplocationpicker:packageDebugAssets
 > Task :maplocationpicker:processDebugJavaRes NO-SOURCE
-> Task :app:preDebugBuild
 > Task :maplocationpicker:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugSources
 > Task :maplocationpicker:compileDebugRenderscript NO-SOURCE
 > Task :maplocationpicker:generateDebugResources
@@ -62,7 +62,7 @@
 > Task :maplocationpicker:javaPreCompileDebug
 
 > Task :maplocationpicker:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/maplocationpicker/src/main/java/com/shivtechs/maplocationpicker/LocationPickerActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/maplocationpicker/src/main/java/com/shivtechs/maplocationpicker/LocationPickerActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :maplocationpicker:bundleLibCompileDebug
@@ -117,7 +117,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :maplocationpicker:javaPreCompileRelease
 
 > Task :maplocationpicker:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/maplocationpicker/src/main/java/com/shivtechs/maplocationpicker/LocationPickerActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/maplocationpicker/src/main/java/com/shivtechs/maplocationpicker/LocationPickerActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :maplocationpicker:bundleLibCompileRelease
@@ -172,7 +172,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 1m 2s
 91 actionable tasks: 91 executed
 
-2020-03-22 03:00:24,996 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1584820766829-0/src/LocationPicker-master/app/build/outputs/apk/debug/app-debug.apk
+2020-09-20 02:43:08,834 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544508522-0/src/LocationPicker-master/app/build/outputs/apk/debug/app-debug.apk
