@@ -1,36 +1,37 @@
-2019-11-12 10:49:23,121 INFO  DownloadService - Downloading "https://github.com/skydoves/Flourish/archive/master.zip", attempt 3
-2019-11-12 10:49:23,573 INFO  DownloadService - Downloaded https://github.com/skydoves/Flourish/archive/master.zip, attempt 3
-2019-11-12 10:49:23,573 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/master.zip": 583 KB
-2019-11-12 10:49:23,573 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-12 10:49:23,574 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/master.zip: true
-2019-11-12 10:49:23,574 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src'.
-2019-11-12 10:49:23,603 INFO  FullProcessService - Size of directory with sources: 613 KB
-2019-11-12 10:49:23,604 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src]
-2019-11-12 10:49:23,626 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/.git/
+2020-10-07 02:46:24,426 INFO  DownloadService - Downloading "https://github.com/skydoves/Flourish/archive/master.zip", attempt 3
+2020-10-07 02:46:26,300 INFO  DownloadService - Downloaded https://github.com/skydoves/Flourish/archive/master.zip, attempt 3
+2020-10-07 02:46:26,300 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/master.zip": 582 KB
+2020-10-07 02:46:26,300 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-07 02:46:26,301 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/master.zip: true
+2020-10-07 02:46:26,301 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src'.
+2020-10-07 02:46:26,336 INFO  FullProcessService - Size of directory with sources: 613 KB
+2020-10-07 02:46:26,336 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src]
+2020-10-07 02:46:26,356 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/.git/
 
-2019-11-12 10:49:23,629 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/gradlew
-2019-11-12 10:49:23,634 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/flourish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/build.gradle
-2019-11-12 10:49:23,637 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/flourish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/spotless.gradle
-2019-11-12 10:49:23,642 INFO  ProjectBuildService - Remote scripts: none
-2019-11-12 10:49:23,642 INFO  ProjectFixService - Fixing project...
-2019-11-12 10:49:23,650 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/local.properties
-2019-11-12 10:49:23,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-12 10:49:23,661 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-12 10:49:23,663 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/flourish/local.properties
-2019-11-12 10:49:23,668 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/flourish/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-12 10:49:23,668 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/flourish/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-12 10:49:23,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/local.properties
-2019-11-12 10:49:23,670 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-12 10:49:23,670 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-12 10:49:23,674 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-11-12 10:49:23,674 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-11-12 10:49:23,675 INFO  ProjectFixService - Project was maybe fixed
-2019-11-12 10:49:23,675 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-12 10:49:23,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-12 10:49:37,106 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-11-12 10:49:37,106 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-11-12 10:49:37,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-11-12 10:50:28,889 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-07 02:46:26,360 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/gradlew
+2020-10-07 02:46:26,364 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/flourish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/build.gradle
+2020-10-07 02:46:26,367 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/flourish/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/spotless.gradle
+2020-10-07 02:46:26,368 INFO  ProjectBuildService - Remote scripts: none
+2020-10-07 02:46:26,368 INFO  ProjectFixService - Fixing project...
+2020-10-07 02:46:26,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/local.properties
+2020-10-07 02:46:26,381 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:46:26,381 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:46:26,382 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/flourish/local.properties
+2020-10-07 02:46:26,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/flourish/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:46:26,385 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/flourish/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:46:26,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/local.properties
+2020-10-07 02:46:26,386 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-10-07 02:46:26,387 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-10-07 02:46:26,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-07 02:46:26,390 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-07 02:46:26,390 INFO  ProjectFixService - Project was maybe fixed
+2020-10-07 02:46:26,391 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-07 02:46:26,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-07 02:46:35,701 INFO  VirusProcessorServiceImpl - Queued project 7943 to scan viruses
+2020-10-07 02:46:41,968 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-10-07 02:46:41,968 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-07 02:46:41,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-07 02:47:56,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :flourish
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -49,9 +50,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :flourish:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :flourish:packageDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
@@ -60,11 +60,13 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :flourish:generateDebugResources
 > Task :flourish:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :flourish:checkDebugManifest
-> Task :app:mergeDebugResources
+> Task :app:extractDeepLinksDebug
+> Task :flourish:extractDeepLinksDebug
 > Task :flourish:processDebugManifest
 > Task :app:processDebugManifest
-> Task :flourish:parseDebugLibraryResources
+> Task :app:mergeDebugResources
+> Task :flourish:parseDebugLocalResources
+> Task :flourish:compileDebugLibraryResources
 > Task :flourish:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -74,35 +76,37 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :flourish:generateDebugAssets
 > Task :flourish:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :flourish:processDebugJavaRes NO-SOURCE
-> Task :app:checkDebugDuplicateClasses
 > Task :flourish:generateDebugRFile
 > Task :app:processDebugResources
 > Task :flourish:compileDebugKotlin
 > Task :flourish:javaPreCompileDebug
 > Task :flourish:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :flourish:processDebugJavaRes NO-SOURCE
 > Task :flourish:bundleLibResDebug
-> Task :flourish:bundleLibRuntimeDebug
-> Task :flourish:createFullJarDebug
 > Task :flourish:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
+> Task :flourish:bundleLibRuntimeDebug
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :app:dexBuilderDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :flourish:mergeDebugJniLibFolders
+> Task :flourish:mergeDebugNativeLibs
+> Task :flourish:stripDebugDebugSymbols
+> Task :flourish:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :flourish:preReleaseBuild UP-TO-DATE
 > Task :flourish:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :flourish:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -112,16 +116,14 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :flourish:generateReleaseResources
 > Task :flourish:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :flourish:checkReleaseManifest
+> Task :app:extractDeepLinksRelease
+> Task :flourish:extractDeepLinksRelease
 > Task :flourish:processReleaseManifest
 > Task :app:processReleaseManifest
 > Task :flourish:generateReleaseBuildConfig
-> Task :flourish:parseReleaseLibraryResources
-> Task :flourish:mergeDebugNativeLibs
-> Task :flourish:stripDebugDebugSymbols
-> Task :flourish:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :flourish:compileReleaseLibraryResources
+> Task :flourish:parseReleaseLocalResources
 > Task :app:prepareLintJar
-> Task :flourish:processReleaseJavaRes NO-SOURCE
 > Task :app:checkReleaseDuplicateClasses
 > Task :flourish:prepareLintJarForPublish
 > Task :flourish:generateReleaseRFile
@@ -130,22 +132,14 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:processReleaseResources
 > Task :flourish:javaPreCompileRelease
 > Task :flourish:compileReleaseJavaWithJavac
+> Task :flourish:bundleLibRuntimeRelease
 > Task :flourish:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
-> Task :flourish:bundleLibResRelease
-> Task :flourish:bundleLibRuntimeRelease
-> Task :flourish:createFullJarRelease
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9f18a6fc77782854e881c55bdc2b2218/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :app:mergeExtDexDebug
-> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:dexBuilderRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -155,18 +149,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :flourish:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:signingConfigWriterRelease
+> Task :flourish:processReleaseJavaRes NO-SOURCE
 > Task :app:mergeReleaseJniLibFolders
 > Task :flourish:mergeReleaseJniLibFolders
+> Task :flourish:bundleLibResRelease
 > Task :flourish:mergeReleaseNativeLibs
 > Task :flourish:stripReleaseDebugSymbols
-> Task :flourish:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :flourish:copyReleaseJniLibsProjectOnly
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:mergeReleaseJavaResource
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -174,11 +170,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 13s
+92 actionable tasks: 92 executed
 
-BUILD SUCCESSFUL in 50s
-94 actionable tasks: 94 executed
-
-2019-11-12 10:50:28,970 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573544963118-0/src/Flourish-master/app/build/outputs/apk/debug/app-debug.apk
+2020-10-07 02:47:56,578 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013584423-0/src/Flourish-master/app/build/outputs/apk/debug/app-debug.apk

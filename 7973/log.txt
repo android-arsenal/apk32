@@ -1,106 +1,106 @@
-2020-09-09 01:05:45,761 INFO  DownloadService - Downloading "https://github.com/Chrisvin/FlipTabs/archive/master.zip", attempt 3
-2020-09-09 01:05:47,694 INFO  DownloadService - Downloaded https://github.com/Chrisvin/FlipTabs/archive/master.zip, attempt 3
-2020-09-09 01:05:47,695 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/master.zip": 696 KB
-2020-09-09 01:05:47,695 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-09 01:05:47,695 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/master.zip: true
-2020-09-09 01:05:47,696 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src'.
-2020-09-09 01:05:47,737 INFO  FullProcessService - Size of directory with sources: 757 KB
-2020-09-09 01:05:47,737 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src]
-2020-09-09 01:05:47,771 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/.git/
+2020-10-07 02:42:55,802 INFO  DownloadService - Downloading "https://github.com/Chrisvin/FlipTabs/archive/master.zip", attempt 3
+2020-10-07 02:42:57,558 INFO  DownloadService - Downloaded https://github.com/Chrisvin/FlipTabs/archive/master.zip, attempt 3
+2020-10-07 02:42:57,558 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/master.zip": 697 KB
+2020-10-07 02:42:57,558 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-10-07 02:42:57,560 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/master.zip: true
+2020-10-07 02:42:57,561 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src'.
+2020-10-07 02:42:57,591 INFO  FullProcessService - Size of directory with sources: 763 KB
+2020-10-07 02:42:57,591 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src]
+2020-10-07 02:42:57,632 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/.git/
 
-2020-09-09 01:05:47,775 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/gradlew
-2020-09-09 01:05:47,779 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/fliptabs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/build.gradle
-2020-09-09 01:05:47,783 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/fliptabs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/settings.gradle
-2020-09-09 01:05:47,783 INFO  ProjectBuildService - Remote scripts: none
-2020-09-09 01:05:47,783 INFO  ProjectFixService - Fixing project...
-2020-09-09 01:05:47,794 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/local.properties
-2020-09-09 01:05:47,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-09-09 01:05:47,795 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-09-09 01:05:47,796 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/fliptabs/local.properties
-2020-09-09 01:05:47,797 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/fliptabs/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-09-09 01:05:47,797 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/fliptabs/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-09-09 01:05:47,797 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/local.properties
-2020-09-09 01:05:47,798 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2020-09-09 01:05:47,798 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2020-09-09 01:05:47,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-09-09 01:05:47,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-09-09 01:05:47,799 INFO  ProjectFixService - Project was maybe fixed
-2020-09-09 01:05:47,799 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-09 01:05:47,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-09 01:06:07,679 INFO  VirusProcessorServiceImpl - Queued project 7987 to scan viruses
-2020-09-09 01:06:31,601 INFO  ProjectTaskService - Detected possible tasks: 74
-2020-09-09 01:06:31,601 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-09 01:06:31,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-09 01:07:47,426 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-07 02:42:57,636 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/gradlew
+2020-10-07 02:42:57,640 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/fliptabs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/build.gradle
+2020-10-07 02:42:57,644 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/fliptabs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/settings.gradle
+2020-10-07 02:42:57,644 INFO  ProjectBuildService - Remote scripts: none
+2020-10-07 02:42:57,644 INFO  ProjectFixService - Fixing project...
+2020-10-07 02:42:57,653 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/local.properties
+2020-10-07 02:42:57,654 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-07 02:42:57,654 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-07 02:42:57,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/fliptabs/local.properties
+2020-10-07 02:42:57,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/fliptabs/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-07 02:42:57,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/fliptabs/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-07 02:42:57,657 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/local.properties
+2020-10-07 02:42:57,657 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2020-10-07 02:42:57,658 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2020-10-07 02:42:57,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-07 02:42:57,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-07 02:42:57,659 INFO  ProjectFixService - Project was maybe fixed
+2020-10-07 02:42:57,659 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-07 02:42:57,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-07 02:43:12,276 INFO  VirusProcessorServiceImpl - Queued project 8000 to scan viruses
+2020-10-07 02:43:41,680 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-10-07 02:43:41,681 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-07 02:43:41,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-07 02:44:38,450 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
 Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0/appcompat-v7-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.3/constraint-layout-1.1.3.pom
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-android-extensions-runtime/1.3.50/kotlin-android-extensions-runtime-1.3.50.pom
 Download https://jitpack.io/com/github/Chrisvin/FlipTabs/v1.3/FlipTabs-v1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0/support-core-utils-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0/cursoradapter-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0/support-compat-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0/support-fragment-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0/support-annotations-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0/support-vector-drawable-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0/cursoradapter-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0/animated-vector-drawable-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0/support-core-utils-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0/collections-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0/animated-vector-drawable-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0/support-vector-drawable-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0/support-annotations-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.3/constraint-layout-solver-1.1.3.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0/versionedparcelable-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0/localbroadcastmanager-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0/documentfile-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0/print-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0/loader-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0/documentfile-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0/localbroadcastmanager-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0/support-core-ui-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.1/viewmodel-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.1/common-1.1.1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.1/common-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.1/common-1.1.1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata/1.1.1/livedata-1.1.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0/coordinatorlayout-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0/interpolator-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0/drawerlayout-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0/asynclayoutinflater-28.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0/viewpager-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0/slidingpanelayout-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0/customview-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0/drawerlayout-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0/interpolator-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0/viewpager-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0/coordinatorlayout-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0/swiperefreshlayout-28.0.0.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0/asynclayoutinflater-28.0.0.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.1/livedata-core-1.1.1.pom
 Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.1/runtime-1.1.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.3/constraint-layout-1.1.3.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0/support-fragment-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0/appcompat-v7-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.1.3/constraint-layout-1.1.3.aar
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-android-extensions-runtime/1.3.50/kotlin-android-extensions-runtime-1.3.50.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0/appcompat-v7-28.0.0.aar
 Download https://jitpack.io/com/github/Chrisvin/FlipTabs/v1.3/FlipTabs-v1.3.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0/animated-vector-drawable-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0/support-core-ui-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0/animated-vector-drawable-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0/support-core-utils-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0/support-vector-drawable-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0/loader-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0/viewpager-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0/drawerlayout-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0/coordinatorlayout-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0/slidingpanelayout-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0/drawerlayout-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0/customview-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0/swiperefreshlayout-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0/support-compat-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0/asynclayoutinflater-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0/support-compat-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0/collections-28.0.0.jar
 Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0/documentfile-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0/localbroadcastmanager-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0/cursoradapter-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0/collections-28.0.0.jar
 Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0/versionedparcelable-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.1/livedata-core-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.1/viewmodel-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0/print-28.0.0.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata/1.1.1/livedata-1.1.1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.1.1/runtime-1.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0/cursoradapter-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.1.1/common-1.1.1.jar
 Download https://dl.google.com/dl/android/maven2/android/arch/core/runtime/1.1.1/runtime-1.1.1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.1/common-1.1.1.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata/1.1.1/livedata-1.1.1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/viewmodel/1.1.1/viewmodel-1.1.1.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/livedata-core/1.1.1/livedata-core-1.1.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0/print-28.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0/support-annotations-28.0.0.jar
 Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0/interpolator-28.0.0.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.1.3/constraint-layout-solver-1.1.3.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0/support-annotations-28.0.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.1.1/common-1.1.1.jar
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
 :app:compileDebugAidl NO-SOURCE
@@ -163,34 +163,38 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3
 :app:lintVitalRelease
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.1/lint-gradle-26.2.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.1/lint-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.1/uast-26.2.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.1/intellij-core-26.2.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.1/uast-26.2.1.pom
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.0/kotlin-reflect-1.2.0.pom
 Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.1/kotlin-compiler-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.1/lint-kotlin-26.2.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.1/lint-checks-26.2.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.1/lint-kotlin-26.2.1.pom
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.1/lint-api-26.2.1.pom
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.1/lint-gradle-26.2.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.1/lint-26.2.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.71/kotlin-stdlib-common-1.2.71.pom
 Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.1/lint-api-26.2.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.1/lint-checks-26.2.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.1/intellij-core-26.2.1.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.1/lint-kotlin-26.2.1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.1/lint-gradle-26.2.1.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.1/uast-26.2.1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.1/intellij-core-26.2.1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.1/lint-checks-26.2.1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.1/lint-26.2.1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.1/lint-kotlin-26.2.1.jar
 Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.jar
 Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.1/kotlin-compiler-26.2.1.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-common/1.2.71/kotlin-stdlib-common-1.2.71.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.71/kotlin-stdlib-1.2.71.jar
 Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.0/kotlin-reflect-1.2.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/27.1.1/support-annotations-27.1.1.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.pom
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/monitor/1.0.2/monitor-1.0.2.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.aar
 Download https://dl.google.com/dl/android/maven2/com/android/support/test/runner/1.0.2/runner-1.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-core/3.0.2/espresso-core-3.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-idling-resource/3.0.2/espresso-idling-resource-3.0.2.aar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/bc5e900c42276eebcf5eafc7ad7e633b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
@@ -210,7 +214,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 15s
+BUILD SUCCESSFUL in 56s
 57 actionable tasks: 57 executed
 
-2020-09-09 01:07:47,521 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599588345757-0/src/FlipTabs-master/app/build/outputs/apk/debug/app-debug.apk
+2020-10-07 02:44:38,550 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1602013375798-0/src/FlipTabs-master/app/build/outputs/apk/debug/app-debug.apk
