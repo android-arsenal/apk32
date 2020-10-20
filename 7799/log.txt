@@ -1,512 +1,510 @@
-2020-09-18 15:15:59,554 INFO  DownloadService - Downloading "https://github.com/sagar-viradiya/eazypermissions/archive/master.zip", attempt 3
-2020-09-18 15:16:01,091 INFO  DownloadService - Downloaded https://github.com/sagar-viradiya/eazypermissions/archive/master.zip, attempt 3
-2020-09-18 15:16:01,091 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/master.zip": 297 KB
-2020-09-18 15:16:01,091 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 15:16:01,092 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/master.zip: true
-2020-09-18 15:16:01,092 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src'.
-2020-09-18 15:16:01,136 INFO  FullProcessService - Size of directory with sources: 369 KB
-2020-09-18 15:16:01,136 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src]
-2020-09-18 15:16:01,162 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/.git/
+2020-10-20 14:13:35,021 INFO  DownloadService - Downloading "https://github.com/sagar-viradiya/eazypermissions/archive/master.zip", attempt 3
+2020-10-20 14:13:55,466 INFO  VirusProcessorServiceImpl - Queued project 7820 to scan viruses
+2020-10-20 14:14:35,679 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-10-20 14:14:36,506 INFO  GithubDownloadService - Default branch of this repository: master
+2020-10-20 14:14:36,506 INFO  DownloadService - Downloading "https://github.com/sagar-viradiya/eazypermissions/archive/master.zip", attempt 3
+2020-10-20 14:15:37,855 DEBUG FullProcessService - Repository https://github.com/sagar-viradiya/eazypermissions available: true
+2020-10-20 14:15:37,855 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-10-20 14:15:37,855 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/sagar-viradiya/eazypermissions, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src]
+2020-10-20 14:15:39,769 INFO  SysUtils - 
+2020-10-20 14:15:39,781 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/.git": true
+2020-10-20 14:15:39,790 INFO  FullProcessService - Size of directory with sources: 369 KB
+2020-10-20 14:15:39,790 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src]
+2020-10-20 14:15:39,810 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/.git/
 
-2020-09-18 15:16:01,170 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew
-2020-09-18 15:16:01,179 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/coroutinespermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/build.gradle
-2020-09-18 15:16:01,186 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/scripts/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/scripts/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/coroutinespermission/build.gradle
-2020-09-18 15:16:01,187 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 15:16:01,187 INFO  ProjectFixService - Fixing project...
-2020-09-18 15:16:01,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/common/local.properties
-2020-09-18 15:16:01,211 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,211 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/coroutinespermission/local.properties
-2020-09-18 15:16:01,218 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/coroutinespermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,218 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/coroutinespermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,219 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/dslpermission/local.properties
-2020-09-18 15:16:01,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/dslpermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,224 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/dslpermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/livedatapermission/local.properties
-2020-09-18 15:16:01,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/livedatapermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/livedatapermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,230 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/local.properties
-2020-09-18 15:16:01,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,234 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/local.properties
-2020-09-18 15:16:01,235 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
-2020-09-18 15:16:01,236 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
-2020-09-18 15:16:01,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,238 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=20,targetSdkVersion=29]
-2020-09-18 15:16:01,238 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 15:16:01,239 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 15:16:01,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 15:16:11,459 INFO  VirusProcessorServiceImpl - Queued project 7802 to scan viruses
-2020-09-18 15:16:30,074 INFO  ProjectTaskService - Detected possible tasks: 80
-2020-09-18 15:16:30,074 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-18 15:16:30,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-18 15:16:52,046 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-20 14:15:39,817 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew
+2020-10-20 14:15:39,825 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/coroutinespermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/build.gradle
+2020-10-20 14:15:39,832 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/livedatapermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/dslpermission/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/scripts/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/scripts/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/coroutinespermission/build.gradle
+2020-10-20 14:15:39,833 INFO  ProjectBuildService - Remote scripts: none
+2020-10-20 14:15:39,833 INFO  ProjectFixService - Fixing project...
+2020-10-20 14:15:39,852 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/common/local.properties
+2020-10-20 14:15:39,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,857 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/coroutinespermission/local.properties
+2020-10-20 14:15:39,863 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/coroutinespermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/coroutinespermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/dslpermission/local.properties
+2020-10-20 14:15:39,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/dslpermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/dslpermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/livedatapermission/local.properties
+2020-10-20 14:15:39,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/livedatapermission/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,875 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/livedatapermission/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/local.properties
+2020-10-20 14:15:39,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=29]
+2020-10-20 14:15:39,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=29]
+2020-10-20 14:15:39,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/local.properties
+2020-10-20 14:15:39,881 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.6.1-all.zip
+2020-10-20 14:15:39,881 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.6.1-bin.zip)
+2020-10-20 14:15:39,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=20,targetSdkVersion=30]
+2020-10-20 14:15:39,884 INFO  ProjectFixService - Project was maybe fixed
+2020-10-20 14:15:39,884 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:15:39,884 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:16:02,652 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-10-20 14:16:02,653 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-20 14:16:02,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-20 14:16:26,683 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
-> Task :common:checkDebugManifest
+> Task :common:compileDebugAidl NO-SOURCE
+> Task :common:mergeDebugJniLibFolders
+> Task :common:compileDebugRenderscript NO-SOURCE
 > Task :common:generateDebugBuildConfig
 > Task :common:generateDebugResValues
-> Task :common:mergeDebugShaders
-> Task :common:compileDebugShaders
-> Task :common:generateDebugAssets
-> Task :common:packageDebugAssets
-> Task :common:packageDebugRenderscript NO-SOURCE
-> Task :common:processDebugJavaRes NO-SOURCE
-> Task :common:mergeDebugJniLibFolders
-> Task :common:prepareLintJarForPublish
-> Task :common:processDebugManifest
-> Task :common:compileDebugAidl NO-SOURCE
-> Task :common:compileDebugRenderscript NO-SOURCE
 > Task :common:generateDebugResources
 > Task :common:packageDebugResources
+> Task :common:mergeDebugShaders
+> Task :common:compileDebugShaders NO-SOURCE
+> Task :common:generateDebugAssets UP-TO-DATE
+> Task :common:packageDebugAssets
+> Task :common:packageDebugRenderscript NO-SOURCE
+> Task :common:javaPreCompileDebug
+> Task :common:processDebugJavaRes NO-SOURCE
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:compileReleaseAidl NO-SOURCE
+> Task :common:mergeReleaseJniLibFolders
+> Task :common:prepareLintJarForPublish
 > Task :common:compileReleaseRenderscript NO-SOURCE
-> Task :common:checkReleaseManifest
 > Task :common:generateReleaseBuildConfig
 > Task :common:generateReleaseResValues
 > Task :common:generateReleaseResources
 > Task :common:packageReleaseResources
+> Task :common:parseDebugLocalResources
 > Task :common:mergeReleaseShaders
-> Task :common:compileReleaseShaders
-> Task :common:generateReleaseAssets
+> Task :common:compileReleaseShaders NO-SOURCE
+> Task :common:generateReleaseAssets UP-TO-DATE
 > Task :common:packageReleaseAssets
 > Task :common:packageReleaseRenderscript NO-SOURCE
 > Task :common:processReleaseJavaRes NO-SOURCE
-> Task :common:mergeReleaseJniLibFolders
-> Task :common:parseDebugLibraryResources
-> Task :common:parseReleaseLibraryResources
-> Task :common:processReleaseManifest
-> Task :common:mergeDebugNativeLibs
-> Task :common:stripDebugDebugSymbols
-> Task :common:transformNativeLibsWithSyncJniLibsForDebug
-> Task :common:mergeReleaseNativeLibs
-> Task :common:stripReleaseDebugSymbols
-> Task :common:transformNativeLibsWithSyncJniLibsForRelease
+> Task :common:mergeReleaseResources
 > Task :common:javadoc SKIPPED
 > Task :common:javadocJar
-> Task :common:mergeReleaseResources
+> Task :common:sourcesJar
+> Task :common:mergeDebugNativeLibs
+> Task :common:stripDebugDebugSymbols NO-SOURCE
+> Task :common:copyDebugJniLibsProjectAndLocalJars
+> Task :common:processDebugManifest
+> Task :common:parseReleaseLocalResources
+> Task :common:processReleaseManifest
 > Task :common:generateReleaseRFile
 > Task :common:compileReleaseKotlin
 > Task :common:verifyReleaseResources
-> Task :common:sourcesJar
+> Task :common:mergeReleaseNativeLibs
+> Task :common:stripReleaseDebugSymbols NO-SOURCE
+> Task :common:copyReleaseJniLibsProjectAndLocalJars
+> Task :common:mergeReleaseJavaResource
 > Task :common:javaPreCompileRelease
 > Task :common:compileReleaseJavaWithJavac
 > Task :common:extractReleaseAnnotations
 > Task :common:mergeReleaseGeneratedProguardFiles
 > Task :common:mergeReleaseConsumerProguardFiles
+> Task :common:syncReleaseLibJars
+> Task :common:bundleReleaseAar
 > Task :common:compileReleaseSources
+> Task :common:assembleRelease
 > Task :common:generateDebugRFile
 > Task :common:compileDebugKotlin
-> Task :common:mergeReleaseJavaResource
-> Task :common:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :common:bundleReleaseAar
-> Task :common:assembleRelease
-> Task :common:javaPreCompileDebug
 > Task :common:compileDebugJavaWithJavac
 > Task :common:extractDebugAnnotations
 > Task :common:mergeDebugGeneratedProguardFiles
 > Task :common:mergeDebugConsumerProguardFiles
 > Task :common:compileDebugSources
 > Task :common:mergeDebugJavaResource
-> Task :common:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :common:syncDebugLibJars
 > Task :common:bundleDebugAar
 > Task :common:assembleDebug
 > Task :common:assemble
 > Task :common:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 21s
-51 actionable tasks: 51 executed
+BUILD SUCCESSFUL in 23s
+45 actionable tasks: 45 executed
 
-2020-09-18 15:16:52,107 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 15:16:52,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 15:16:59,835 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-09-18 15:16:59,835 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-18 15:16:59,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-18 15:17:18,844 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-20 14:16:26,739 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:16:26,739 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:16:34,456 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-10-20 14:16:34,456 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-20 14:16:34,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/coroutinespermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-20 14:16:53,268 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
 > Task :coroutinespermission:preBuild UP-TO-DATE
 > Task :coroutinespermission:preDebugBuild UP-TO-DATE
-> Task :common:checkDebugManifest UP-TO-DATE
-> Task :common:compileDebugAidl NO-SOURCE
 > Task :coroutinespermission:compileDebugAidl NO-SOURCE
+> Task :coroutinespermission:mergeDebugJniLibFolders
 > Task :common:compileDebugRenderscript NO-SOURCE
 > Task :common:generateDebugBuildConfig UP-TO-DATE
 > Task :common:generateDebugResValues UP-TO-DATE
 > Task :common:generateDebugResources UP-TO-DATE
 > Task :common:packageDebugResources UP-TO-DATE
-> Task :common:parseDebugLibraryResources UP-TO-DATE
+> Task :common:parseDebugLocalResources UP-TO-DATE
 > Task :common:processDebugManifest UP-TO-DATE
 > Task :common:generateDebugRFile UP-TO-DATE
 > Task :common:compileDebugKotlin UP-TO-DATE
 > Task :common:javaPreCompileDebug UP-TO-DATE
 > Task :common:compileDebugJavaWithJavac UP-TO-DATE
+> Task :coroutinespermission:mergeDebugNativeLibs
+> Task :coroutinespermission:stripDebugDebugSymbols NO-SOURCE
+> Task :coroutinespermission:copyDebugJniLibsProjectAndLocalJars
 > Task :common:packageDebugRenderscript NO-SOURCE
 > Task :coroutinespermission:compileDebugRenderscript NO-SOURCE
-> Task :coroutinespermission:checkDebugManifest
 > Task :coroutinespermission:generateDebugBuildConfig
-> Task :common:bundleLibCompileDebug
 > Task :coroutinespermission:generateDebugResValues
 > Task :coroutinespermission:generateDebugResources
 > Task :coroutinespermission:packageDebugResources
+> Task :common:bundleLibCompileToJarDebug
 > Task :coroutinespermission:mergeDebugShaders
-> Task :coroutinespermission:compileDebugShaders
-> Task :coroutinespermission:generateDebugAssets
+> Task :coroutinespermission:compileDebugShaders NO-SOURCE
+> Task :coroutinespermission:generateDebugAssets UP-TO-DATE
 > Task :coroutinespermission:packageDebugAssets
 > Task :coroutinespermission:packageDebugRenderscript NO-SOURCE
+> Task :coroutinespermission:javaPreCompileDebug
 > Task :coroutinespermission:processDebugJavaRes NO-SOURCE
-> Task :coroutinespermission:mergeDebugJniLibFolders
-> Task :coroutinespermission:parseDebugLibraryResources
-> Task :coroutinespermission:prepareLintJarForPublish
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:compileReleaseAidl NO-SOURCE
 > Task :coroutinespermission:preReleaseBuild UP-TO-DATE
 > Task :coroutinespermission:compileReleaseAidl NO-SOURCE
+> Task :coroutinespermission:mergeReleaseJniLibFolders
+> Task :coroutinespermission:prepareLintJarForPublish
 > Task :common:compileReleaseRenderscript NO-SOURCE
-> Task :common:checkReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseBuildConfig UP-TO-DATE
 > Task :common:generateReleaseResValues UP-TO-DATE
 > Task :common:generateReleaseResources UP-TO-DATE
 > Task :common:packageReleaseResources UP-TO-DATE
-> Task :common:parseReleaseLibraryResources UP-TO-DATE
+> Task :common:parseReleaseLocalResources UP-TO-DATE
 > Task :common:processReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseRFile UP-TO-DATE
 > Task :common:compileReleaseKotlin UP-TO-DATE
 > Task :common:javaPreCompileRelease UP-TO-DATE
 > Task :common:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :coroutinespermission:processDebugManifest
 > Task :common:packageReleaseRenderscript NO-SOURCE
 > Task :coroutinespermission:compileReleaseRenderscript NO-SOURCE
-> Task :coroutinespermission:checkReleaseManifest
 > Task :coroutinespermission:generateReleaseBuildConfig
 > Task :coroutinespermission:generateReleaseResValues
+> Task :common:bundleLibCompileToJarRelease
 > Task :coroutinespermission:generateReleaseResources
 > Task :coroutinespermission:packageReleaseResources
-> Task :coroutinespermission:mergeDebugNativeLibs
-> Task :coroutinespermission:stripDebugDebugSymbols
-> Task :coroutinespermission:transformNativeLibsWithSyncJniLibsForDebug
+> Task :coroutinespermission:mergeReleaseNativeLibs
+> Task :coroutinespermission:stripReleaseDebugSymbols NO-SOURCE
+> Task :coroutinespermission:copyReleaseJniLibsProjectAndLocalJars
+> Task :coroutinespermission:parseReleaseLocalResources
 > Task :coroutinespermission:mergeReleaseShaders
-> Task :coroutinespermission:compileReleaseShaders
-> Task :coroutinespermission:generateReleaseAssets
+> Task :coroutinespermission:compileReleaseShaders NO-SOURCE
+> Task :coroutinespermission:generateReleaseAssets UP-TO-DATE
 > Task :coroutinespermission:packageReleaseAssets
 > Task :coroutinespermission:packageReleaseRenderscript NO-SOURCE
 > Task :coroutinespermission:processReleaseJavaRes NO-SOURCE
-> Task :coroutinespermission:mergeReleaseJniLibFolders
 > Task :coroutinespermission:processReleaseManifest
-> Task :coroutinespermission:mergeReleaseNativeLibs
-> Task :coroutinespermission:stripReleaseDebugSymbols
-> Task :coroutinespermission:transformNativeLibsWithSyncJniLibsForRelease
-> Task :coroutinespermission:parseReleaseLibraryResources
-> Task :common:bundleLibCompileRelease
-> Task :coroutinespermission:processDebugManifest
+> Task :common:compileReleaseLibraryResources
+> Task :coroutinespermission:mergeReleaseResources
 > Task :coroutinespermission:javadoc SKIPPED
 > Task :coroutinespermission:javadocJar
-> Task :coroutinespermission:mergeReleaseResources
+> Task :coroutinespermission:sourcesJar
+> Task :coroutinespermission:parseDebugLocalResources
 > Task :coroutinespermission:generateReleaseRFile
 > Task :coroutinespermission:compileReleaseKotlin
-> Task :coroutinespermission:sourcesJar
 > Task :coroutinespermission:verifyReleaseResources
-> Task :coroutinespermission:javaPreCompileRelease
-> Task :coroutinespermission:compileReleaseJavaWithJavac
-> Task :coroutinespermission:extractReleaseAnnotations
-> Task :coroutinespermission:mergeReleaseGeneratedProguardFiles
-> Task :coroutinespermission:mergeReleaseConsumerProguardFiles
-> Task :coroutinespermission:compileReleaseSources
 > Task :coroutinespermission:generateDebugRFile
 > Task :coroutinespermission:compileDebugKotlin
-> Task :coroutinespermission:mergeReleaseJavaResource
-> Task :coroutinespermission:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :coroutinespermission:bundleReleaseAar
-> Task :coroutinespermission:assembleRelease
-> Task :coroutinespermission:javaPreCompileDebug
 > Task :coroutinespermission:compileDebugJavaWithJavac
 > Task :coroutinespermission:extractDebugAnnotations
 > Task :coroutinespermission:mergeDebugGeneratedProguardFiles
 > Task :coroutinespermission:mergeDebugConsumerProguardFiles
 > Task :coroutinespermission:compileDebugSources
+> Task :coroutinespermission:mergeReleaseJavaResource
+> Task :coroutinespermission:javaPreCompileRelease
+> Task :coroutinespermission:compileReleaseJavaWithJavac
+> Task :coroutinespermission:extractReleaseAnnotations
+> Task :coroutinespermission:mergeReleaseGeneratedProguardFiles
+> Task :coroutinespermission:mergeReleaseConsumerProguardFiles
+> Task :coroutinespermission:syncReleaseLibJars
+> Task :coroutinespermission:bundleReleaseAar
+> Task :coroutinespermission:compileReleaseSources
+> Task :coroutinespermission:assembleRelease
 > Task :coroutinespermission:mergeDebugJavaResource
-> Task :coroutinespermission:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :coroutinespermission:syncDebugLibJars
 > Task :coroutinespermission:bundleDebugAar
 > Task :coroutinespermission:assembleDebug
 > Task :coroutinespermission:assemble
 > Task :coroutinespermission:build
 
-BUILD SUCCESSFUL in 18s
-73 actionable tasks: 53 executed, 20 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-09-18 15:17:18,949 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 15:17:18,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 15:17:27,024 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-09-18 15:17:27,024 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-18 15:17:27,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-18 15:17:45,675 INFO  SysUtils - Configuration on demand is an incubating feature.
+BUILD SUCCESSFUL in 18s
+66 actionable tasks: 48 executed, 18 up-to-date
+
+2020-10-20 14:16:53,364 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:16:53,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:17:00,724 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-10-20 14:17:00,724 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-20 14:17:00,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/dslpermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-20 14:17:18,309 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
 > Task :dslpermission:preBuild UP-TO-DATE
 > Task :dslpermission:preDebugBuild UP-TO-DATE
-> Task :common:checkDebugManifest UP-TO-DATE
-> Task :common:generateDebugBuildConfig UP-TO-DATE
-> Task :common:compileDebugAidl NO-SOURCE
 > Task :dslpermission:compileDebugAidl NO-SOURCE
+> Task :dslpermission:mergeDebugJniLibFolders
 > Task :common:compileDebugRenderscript NO-SOURCE
+> Task :common:generateDebugBuildConfig UP-TO-DATE
 > Task :common:generateDebugResValues UP-TO-DATE
 > Task :common:generateDebugResources UP-TO-DATE
 > Task :common:packageDebugResources UP-TO-DATE
-> Task :common:parseDebugLibraryResources UP-TO-DATE
+> Task :common:parseDebugLocalResources UP-TO-DATE
 > Task :common:processDebugManifest UP-TO-DATE
 > Task :common:generateDebugRFile UP-TO-DATE
 > Task :common:compileDebugKotlin UP-TO-DATE
 > Task :common:javaPreCompileDebug UP-TO-DATE
 > Task :common:compileDebugJavaWithJavac UP-TO-DATE
-> Task :common:bundleLibCompileDebug UP-TO-DATE
+> Task :common:bundleLibCompileToJarDebug UP-TO-DATE
 > Task :common:packageDebugRenderscript NO-SOURCE
 > Task :dslpermission:compileDebugRenderscript NO-SOURCE
-> Task :dslpermission:checkDebugManifest
 > Task :dslpermission:generateDebugBuildConfig
 > Task :dslpermission:generateDebugResValues
 > Task :dslpermission:generateDebugResources
 > Task :dslpermission:packageDebugResources
+> Task :dslpermission:mergeDebugNativeLibs
+> Task :dslpermission:stripDebugDebugSymbols NO-SOURCE
+> Task :dslpermission:copyDebugJniLibsProjectAndLocalJars
 > Task :dslpermission:mergeDebugShaders
-> Task :dslpermission:compileDebugShaders
-> Task :dslpermission:generateDebugAssets
+> Task :dslpermission:compileDebugShaders NO-SOURCE
+> Task :dslpermission:generateDebugAssets UP-TO-DATE
 > Task :dslpermission:packageDebugAssets
 > Task :dslpermission:packageDebugRenderscript NO-SOURCE
 > Task :dslpermission:processDebugJavaRes NO-SOURCE
-> Task :dslpermission:mergeDebugJniLibFolders
-> Task :dslpermission:prepareLintJarForPublish
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:compileReleaseAidl NO-SOURCE
 > Task :dslpermission:preReleaseBuild UP-TO-DATE
 > Task :dslpermission:compileReleaseAidl NO-SOURCE
+> Task :dslpermission:mergeReleaseJniLibFolders
+> Task :dslpermission:prepareLintJarForPublish
 > Task :common:compileReleaseRenderscript NO-SOURCE
-> Task :common:checkReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseBuildConfig UP-TO-DATE
 > Task :common:generateReleaseResValues UP-TO-DATE
 > Task :common:generateReleaseResources UP-TO-DATE
 > Task :common:packageReleaseResources UP-TO-DATE
-> Task :common:parseReleaseLibraryResources UP-TO-DATE
+> Task :common:parseReleaseLocalResources UP-TO-DATE
 > Task :common:processReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseRFile UP-TO-DATE
 > Task :common:compileReleaseKotlin UP-TO-DATE
 > Task :common:javaPreCompileRelease UP-TO-DATE
 > Task :common:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :common:bundleLibCompileRelease UP-TO-DATE
+> Task :common:bundleLibCompileToJarRelease UP-TO-DATE
 > Task :common:packageReleaseRenderscript NO-SOURCE
 > Task :dslpermission:compileReleaseRenderscript NO-SOURCE
-> Task :dslpermission:checkReleaseManifest
 > Task :dslpermission:generateReleaseBuildConfig
 > Task :dslpermission:generateReleaseResValues
 > Task :dslpermission:generateReleaseResources
 > Task :dslpermission:packageReleaseResources
+> Task :dslpermission:javaPreCompileDebug
 > Task :dslpermission:mergeReleaseShaders
-> Task :dslpermission:compileReleaseShaders
-> Task :dslpermission:generateReleaseAssets
+> Task :dslpermission:compileReleaseShaders NO-SOURCE
+> Task :dslpermission:generateReleaseAssets UP-TO-DATE
 > Task :dslpermission:packageReleaseAssets
 > Task :dslpermission:packageReleaseRenderscript NO-SOURCE
 > Task :dslpermission:processReleaseJavaRes NO-SOURCE
-> Task :dslpermission:mergeReleaseJniLibFolders
-> Task :dslpermission:parseReleaseLibraryResources
-> Task :dslpermission:parseDebugLibraryResources
-> Task :dslpermission:processReleaseManifest
-> Task :dslpermission:mergeReleaseNativeLibs
-> Task :dslpermission:stripReleaseDebugSymbols
-> Task :dslpermission:transformNativeLibsWithSyncJniLibsForRelease
-> Task :dslpermission:processDebugManifest
-> Task :dslpermission:mergeDebugNativeLibs
-> Task :dslpermission:stripDebugDebugSymbols
-> Task :dslpermission:transformNativeLibsWithSyncJniLibsForDebug
+> Task :common:compileReleaseLibraryResources UP-TO-DATE
+> Task :dslpermission:mergeReleaseResources
 > Task :dslpermission:javadoc SKIPPED
 > Task :dslpermission:javadocJar
-> Task :dslpermission:mergeReleaseResources
+> Task :dslpermission:sourcesJar
+> Task :dslpermission:mergeReleaseNativeLibs
+> Task :dslpermission:stripReleaseDebugSymbols NO-SOURCE
+> Task :dslpermission:copyReleaseJniLibsProjectAndLocalJars
+> Task :dslpermission:processDebugManifest
+> Task :dslpermission:parseDebugLocalResources
+> Task :dslpermission:processReleaseManifest
+> Task :dslpermission:parseReleaseLocalResources
+> Task :dslpermission:javaPreCompileRelease
 > Task :dslpermission:generateDebugRFile
 > Task :dslpermission:compileDebugKotlin
-> Task :dslpermission:verifyReleaseResources
-> Task :dslpermission:sourcesJar
-> Task :dslpermission:generateReleaseRFile
-> Task :dslpermission:compileReleaseKotlin
-> Task :dslpermission:javaPreCompileDebug
 > Task :dslpermission:compileDebugJavaWithJavac
 > Task :dslpermission:extractDebugAnnotations
 > Task :dslpermission:mergeDebugGeneratedProguardFiles
 > Task :dslpermission:mergeDebugConsumerProguardFiles
+> Task :dslpermission:verifyReleaseResources
 > Task :dslpermission:compileDebugSources
-> Task :dslpermission:javaPreCompileRelease
+> Task :dslpermission:generateReleaseRFile
+> Task :dslpermission:compileReleaseKotlin
 > Task :dslpermission:compileReleaseJavaWithJavac
 > Task :dslpermission:extractReleaseAnnotations
 > Task :dslpermission:mergeReleaseGeneratedProguardFiles
 > Task :dslpermission:mergeReleaseConsumerProguardFiles
 > Task :dslpermission:compileReleaseSources
 > Task :dslpermission:mergeDebugJavaResource
-> Task :dslpermission:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :dslpermission:syncDebugLibJars
 > Task :dslpermission:bundleDebugAar
 > Task :dslpermission:assembleDebug
 > Task :dslpermission:mergeReleaseJavaResource
-> Task :dslpermission:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :dslpermission:syncReleaseLibJars
 > Task :dslpermission:bundleReleaseAar
 > Task :dslpermission:assembleRelease
 > Task :dslpermission:assemble
 > Task :dslpermission:build
 
-BUILD SUCCESSFUL in 18s
-73 actionable tasks: 51 executed, 22 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-09-18 15:17:45,823 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 15:17:45,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 15:17:53,683 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-09-18 15:17:53,683 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2020-09-18 15:17:53,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2020-09-18 15:18:12,717 INFO  SysUtils - Configuration on demand is an incubating feature.
+BUILD SUCCESSFUL in 16s
+66 actionable tasks: 45 executed, 21 up-to-date
+
+2020-10-20 14:17:18,430 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:17:18,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:17:25,990 INFO  ProjectTaskService - Detected possible tasks: 74
+2020-10-20 14:17:25,990 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-10-20 14:17:25,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/livedatapermission/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-10-20 14:17:45,060 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
+> Task :common:compileDebugAidl NO-SOURCE
 > Task :livedatapermission:preBuild UP-TO-DATE
 > Task :livedatapermission:preDebugBuild UP-TO-DATE
-> Task :common:checkDebugManifest UP-TO-DATE
-> Task :common:compileDebugAidl NO-SOURCE
 > Task :livedatapermission:compileDebugAidl NO-SOURCE
+> Task :livedatapermission:mergeDebugJniLibFolders
 > Task :common:compileDebugRenderscript NO-SOURCE
 > Task :common:generateDebugBuildConfig UP-TO-DATE
 > Task :common:generateDebugResValues UP-TO-DATE
 > Task :common:generateDebugResources UP-TO-DATE
 > Task :common:packageDebugResources UP-TO-DATE
-> Task :common:parseDebugLibraryResources UP-TO-DATE
+> Task :common:parseDebugLocalResources UP-TO-DATE
 > Task :common:processDebugManifest UP-TO-DATE
 > Task :common:generateDebugRFile UP-TO-DATE
 > Task :common:compileDebugKotlin UP-TO-DATE
 > Task :common:javaPreCompileDebug UP-TO-DATE
 > Task :common:compileDebugJavaWithJavac UP-TO-DATE
-> Task :common:bundleLibCompileDebug UP-TO-DATE
+> Task :common:bundleLibCompileToJarDebug UP-TO-DATE
 > Task :common:packageDebugRenderscript NO-SOURCE
 > Task :livedatapermission:compileDebugRenderscript NO-SOURCE
-> Task :livedatapermission:checkDebugManifest
 > Task :livedatapermission:generateDebugBuildConfig
 > Task :livedatapermission:generateDebugResValues
 > Task :livedatapermission:generateDebugResources
 > Task :livedatapermission:packageDebugResources
 > Task :livedatapermission:mergeDebugShaders
-> Task :livedatapermission:compileDebugShaders
-> Task :livedatapermission:generateDebugAssets
+> Task :livedatapermission:compileDebugShaders NO-SOURCE
+> Task :livedatapermission:generateDebugAssets UP-TO-DATE
 > Task :livedatapermission:packageDebugAssets
 > Task :livedatapermission:packageDebugRenderscript NO-SOURCE
 > Task :livedatapermission:processDebugJavaRes NO-SOURCE
-> Task :livedatapermission:mergeDebugJniLibFolders
-> Task :livedatapermission:prepareLintJarForPublish
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:compileReleaseAidl NO-SOURCE
 > Task :livedatapermission:preReleaseBuild UP-TO-DATE
 > Task :livedatapermission:compileReleaseAidl NO-SOURCE
+> Task :livedatapermission:mergeReleaseJniLibFolders
+> Task :livedatapermission:parseDebugLocalResources
 > Task :common:compileReleaseRenderscript NO-SOURCE
-> Task :common:checkReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseBuildConfig UP-TO-DATE
 > Task :common:generateReleaseResValues UP-TO-DATE
 > Task :common:generateReleaseResources UP-TO-DATE
 > Task :common:packageReleaseResources UP-TO-DATE
-> Task :common:parseReleaseLibraryResources UP-TO-DATE
+> Task :common:parseReleaseLocalResources UP-TO-DATE
+> Task :livedatapermission:mergeDebugNativeLibs
+> Task :livedatapermission:stripDebugDebugSymbols NO-SOURCE
+> Task :livedatapermission:copyDebugJniLibsProjectAndLocalJars
 > Task :common:processReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseRFile UP-TO-DATE
 > Task :common:compileReleaseKotlin UP-TO-DATE
 > Task :common:javaPreCompileRelease UP-TO-DATE
 > Task :common:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :common:bundleLibCompileRelease UP-TO-DATE
+> Task :common:bundleLibCompileToJarRelease UP-TO-DATE
 > Task :common:packageReleaseRenderscript NO-SOURCE
 > Task :livedatapermission:compileReleaseRenderscript NO-SOURCE
-> Task :livedatapermission:checkReleaseManifest
 > Task :livedatapermission:generateReleaseBuildConfig
 > Task :livedatapermission:generateReleaseResValues
 > Task :livedatapermission:generateReleaseResources
 > Task :livedatapermission:packageReleaseResources
-> Task :livedatapermission:processDebugManifest
+> Task :livedatapermission:javaPreCompileDebug
+> Task :livedatapermission:mergeReleaseNativeLibs
+> Task :livedatapermission:stripReleaseDebugSymbols NO-SOURCE
+> Task :livedatapermission:copyReleaseJniLibsProjectAndLocalJars
 > Task :livedatapermission:mergeReleaseShaders
-> Task :livedatapermission:compileReleaseShaders
-> Task :livedatapermission:generateReleaseAssets
+> Task :livedatapermission:compileReleaseShaders NO-SOURCE
+> Task :livedatapermission:generateReleaseAssets UP-TO-DATE
 > Task :livedatapermission:packageReleaseAssets
 > Task :livedatapermission:packageReleaseRenderscript NO-SOURCE
 > Task :livedatapermission:processReleaseJavaRes NO-SOURCE
-> Task :livedatapermission:mergeReleaseJniLibFolders
-> Task :livedatapermission:parseReleaseLibraryResources
-> Task :livedatapermission:processReleaseManifest
-> Task :livedatapermission:mergeDebugNativeLibs
-> Task :livedatapermission:stripDebugDebugSymbols
-> Task :livedatapermission:transformNativeLibsWithSyncJniLibsForDebug
-> Task :livedatapermission:mergeReleaseNativeLibs
-> Task :livedatapermission:stripReleaseDebugSymbols
-> Task :livedatapermission:transformNativeLibsWithSyncJniLibsForRelease
-> Task :livedatapermission:parseDebugLibraryResources
+> Task :common:compileReleaseLibraryResources UP-TO-DATE
+> Task :livedatapermission:mergeReleaseResources
 > Task :livedatapermission:javadoc SKIPPED
 > Task :livedatapermission:javadocJar
-> Task :livedatapermission:mergeReleaseResources
 > Task :livedatapermission:sourcesJar
+> Task :livedatapermission:processDebugManifest
+> Task :livedatapermission:javaPreCompileRelease
+> Task :livedatapermission:processReleaseManifest
+> Task :livedatapermission:parseReleaseLocalResources
+> Task :livedatapermission:prepareLintJarForPublish
 > Task :livedatapermission:generateDebugRFile
 > Task :livedatapermission:compileDebugKotlin
-> Task :livedatapermission:verifyReleaseResources
-> Task :livedatapermission:javaPreCompileDebug
 > Task :livedatapermission:compileDebugJavaWithJavac
 > Task :livedatapermission:extractDebugAnnotations
 > Task :livedatapermission:mergeDebugGeneratedProguardFiles
 > Task :livedatapermission:mergeDebugConsumerProguardFiles
 > Task :livedatapermission:compileDebugSources
+> Task :livedatapermission:verifyReleaseResources
 > Task :livedatapermission:generateReleaseRFile
 > Task :livedatapermission:compileReleaseKotlin
-> Task :livedatapermission:mergeDebugJavaResource
-> Task :livedatapermission:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :livedatapermission:bundleDebugAar
-> Task :livedatapermission:assembleDebug
-> Task :livedatapermission:javaPreCompileRelease
 > Task :livedatapermission:compileReleaseJavaWithJavac
 > Task :livedatapermission:extractReleaseAnnotations
 > Task :livedatapermission:mergeReleaseGeneratedProguardFiles
 > Task :livedatapermission:mergeReleaseConsumerProguardFiles
 > Task :livedatapermission:compileReleaseSources
+> Task :livedatapermission:mergeDebugJavaResource
+> Task :livedatapermission:syncDebugLibJars
+> Task :livedatapermission:bundleDebugAar
+> Task :livedatapermission:assembleDebug
 > Task :livedatapermission:mergeReleaseJavaResource
-> Task :livedatapermission:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :livedatapermission:syncReleaseLibJars
 > Task :livedatapermission:bundleReleaseAar
 > Task :livedatapermission:assembleRelease
 > Task :livedatapermission:assemble
 > Task :livedatapermission:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 18s
-73 actionable tasks: 51 executed, 22 up-to-date
+66 actionable tasks: 45 executed, 21 up-to-date
 
-2020-09-18 15:18:12,915 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 15:18:12,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 15:18:19,657 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-09-18 15:18:19,657 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-18 15:18:19,658 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-18 15:19:36,137 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-20 14:17:45,252 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:17:45,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:17:52,014 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-10-20 14:17:52,014 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-20 14:17:52,015 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-20 14:19:06,060 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :common:preBuild UP-TO-DATE
 > Task :common:preDebugBuild UP-TO-DATE
 > Task :common:compileDebugAidl NO-SOURCE
-> Task :common:checkDebugManifest UP-TO-DATE
 > Task :common:compileDebugRenderscript NO-SOURCE
 > Task :common:generateDebugBuildConfig UP-TO-DATE
 > Task :common:generateDebugResValues UP-TO-DATE
 > Task :common:generateDebugResources UP-TO-DATE
 > Task :common:packageDebugResources UP-TO-DATE
-> Task :common:parseDebugLibraryResources UP-TO-DATE
+> Task :common:parseDebugLocalResources UP-TO-DATE
 > Task :common:processDebugManifest UP-TO-DATE
 > Task :common:generateDebugRFile UP-TO-DATE
 > Task :common:compileDebugKotlin UP-TO-DATE
 > Task :common:javaPreCompileDebug UP-TO-DATE
 > Task :common:compileDebugJavaWithJavac UP-TO-DATE
-> Task :common:bundleLibCompileDebug UP-TO-DATE
+> Task :common:bundleLibCompileToJarDebug UP-TO-DATE
 > Task :coroutinespermission:preBuild UP-TO-DATE
 > Task :coroutinespermission:preDebugBuild UP-TO-DATE
 > Task :coroutinespermission:compileDebugAidl NO-SOURCE
 > Task :common:packageDebugRenderscript NO-SOURCE
 > Task :coroutinespermission:compileDebugRenderscript NO-SOURCE
-> Task :coroutinespermission:checkDebugManifest UP-TO-DATE
 > Task :coroutinespermission:generateDebugBuildConfig UP-TO-DATE
 > Task :coroutinespermission:generateDebugResValues UP-TO-DATE
 > Task :coroutinespermission:generateDebugResources UP-TO-DATE
 > Task :coroutinespermission:packageDebugResources UP-TO-DATE
-> Task :coroutinespermission:parseDebugLibraryResources UP-TO-DATE
+> Task :coroutinespermission:parseDebugLocalResources UP-TO-DATE
 > Task :coroutinespermission:processDebugManifest UP-TO-DATE
 > Task :coroutinespermission:generateDebugRFile UP-TO-DATE
 > Task :coroutinespermission:compileDebugKotlin UP-TO-DATE
@@ -515,36 +513,31 @@ BUILD SUCCESSFUL in 18s
 > Task :dslpermission:preBuild UP-TO-DATE
 > Task :dslpermission:preDebugBuild UP-TO-DATE
 > Task :dslpermission:compileDebugAidl NO-SOURCE
-> Task :dslpermission:checkDebugManifest UP-TO-DATE
 > Task :dslpermission:compileDebugRenderscript NO-SOURCE
 > Task :dslpermission:generateDebugBuildConfig UP-TO-DATE
 > Task :dslpermission:generateDebugResValues UP-TO-DATE
 > Task :dslpermission:generateDebugResources UP-TO-DATE
 > Task :dslpermission:packageDebugResources UP-TO-DATE
-> Task :dslpermission:parseDebugLibraryResources UP-TO-DATE
+> Task :dslpermission:parseDebugLocalResources UP-TO-DATE
 > Task :dslpermission:processDebugManifest UP-TO-DATE
 > Task :dslpermission:generateDebugRFile UP-TO-DATE
 > Task :dslpermission:compileDebugKotlin UP-TO-DATE
 > Task :dslpermission:javaPreCompileDebug UP-TO-DATE
 > Task :dslpermission:compileDebugJavaWithJavac UP-TO-DATE
-> Task :coroutinespermission:bundleLibCompileDebug
 > Task :livedatapermission:preBuild UP-TO-DATE
-> Task :dslpermission:bundleLibCompileDebug
 > Task :livedatapermission:preDebugBuild UP-TO-DATE
-> Task :livedatapermission:checkDebugManifest UP-TO-DATE
-> Task :livedatapermission:generateDebugBuildConfig UP-TO-DATE
 > Task :livedatapermission:compileDebugAidl NO-SOURCE
 > Task :livedatapermission:compileDebugRenderscript NO-SOURCE
+> Task :livedatapermission:generateDebugBuildConfig UP-TO-DATE
 > Task :livedatapermission:generateDebugResValues UP-TO-DATE
 > Task :livedatapermission:generateDebugResources UP-TO-DATE
 > Task :livedatapermission:packageDebugResources UP-TO-DATE
-> Task :livedatapermission:parseDebugLibraryResources UP-TO-DATE
+> Task :livedatapermission:parseDebugLocalResources UP-TO-DATE
 > Task :livedatapermission:processDebugManifest UP-TO-DATE
 > Task :livedatapermission:generateDebugRFile UP-TO-DATE
 > Task :livedatapermission:compileDebugKotlin UP-TO-DATE
 > Task :livedatapermission:javaPreCompileDebug UP-TO-DATE
 > Task :livedatapermission:compileDebugJavaWithJavac UP-TO-DATE
-> Task :livedatapermission:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
 > Task :sample:compileDebugAidl NO-SOURCE
@@ -552,247 +545,249 @@ BUILD SUCCESSFUL in 18s
 > Task :dslpermission:packageDebugRenderscript NO-SOURCE
 > Task :livedatapermission:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
-> Task :sample:mainApkListPersistenceDebug
+> Task :coroutinespermission:bundleLibCompileToJarDebug
+> Task :common:compileDebugLibraryResources
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
+> Task :common:extractDeepLinksDebug
+> Task :coroutinespermission:extractDeepLinksDebug
+> Task :dslpermission:extractDeepLinksDebug
+> Task :livedatapermission:extractDeepLinksDebug
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:extractDeepLinksDebug
 > Task :sample:processDebugManifest
-> Task :sample:mergeDebugResources
-> Task :sample:processDebugResources
-> Task :sample:compileDebugKotlin
-> Task :sample:javaPreCompileDebug
-> Task :sample:compileDebugJavaWithJavac
-> Task :sample:compileDebugSources
+> Task :livedatapermission:compileDebugLibraryResources
 > Task :common:mergeDebugShaders UP-TO-DATE
-> Task :common:compileDebugShaders UP-TO-DATE
+> Task :common:compileDebugShaders NO-SOURCE
 > Task :common:generateDebugAssets UP-TO-DATE
 > Task :common:packageDebugAssets UP-TO-DATE
 > Task :coroutinespermission:mergeDebugShaders UP-TO-DATE
-> Task :coroutinespermission:compileDebugShaders UP-TO-DATE
+> Task :coroutinespermission:compileDebugShaders NO-SOURCE
 > Task :coroutinespermission:generateDebugAssets UP-TO-DATE
 > Task :coroutinespermission:packageDebugAssets UP-TO-DATE
 > Task :dslpermission:mergeDebugShaders UP-TO-DATE
-> Task :dslpermission:compileDebugShaders UP-TO-DATE
+> Task :dslpermission:compileDebugShaders NO-SOURCE
 > Task :dslpermission:generateDebugAssets UP-TO-DATE
 > Task :dslpermission:packageDebugAssets UP-TO-DATE
 > Task :livedatapermission:mergeDebugShaders UP-TO-DATE
-> Task :livedatapermission:compileDebugShaders UP-TO-DATE
+> Task :livedatapermission:compileDebugShaders NO-SOURCE
 > Task :livedatapermission:generateDebugAssets UP-TO-DATE
 > Task :livedatapermission:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
-> Task :sample:compileDebugShaders
-> Task :sample:generateDebugAssets
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugAssets
 > Task :common:processDebugJavaRes NO-SOURCE
+> Task :dslpermission:bundleLibCompileToJarDebug
 > Task :coroutinespermission:processDebugJavaRes NO-SOURCE
+> Task :livedatapermission:bundleLibCompileToJarDebug
 > Task :dslpermission:processDebugJavaRes NO-SOURCE
+> Task :sample:mergeDebugResources
 > Task :livedatapermission:processDebugJavaRes NO-SOURCE
+> Task :coroutinespermission:compileDebugLibraryResources
 > Task :sample:processDebugJavaRes NO-SOURCE
-> Task :common:bundleLibRuntimeDebug
-> Task :coroutinespermission:bundleLibResDebug
-> Task :livedatapermission:bundleLibResDebug
-> Task :dslpermission:bundleLibRuntimeDebug
 > Task :common:bundleLibResDebug
-> Task :common:createFullJarDebug
-> Task :dslpermission:bundleLibResDebug
-> Task :dslpermission:createFullJarDebug
-> Task :coroutinespermission:bundleLibRuntimeDebug
-> Task :coroutinespermission:createFullJarDebug
-> Task :livedatapermission:bundleLibRuntimeDebug
-> Task :livedatapermission:createFullJarDebug
+> Task :coroutinespermission:bundleLibResDebug
+> Task :livedatapermission:bundleLibRuntimeToJarDebug
 > Task :sample:checkDebugDuplicateClasses
-> Task :sample:mergeDebugJavaResource
 > Task :sample:desugarDebugFileDependencies
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:signingConfigWriterDebug
+> Task :sample:javaPreCompileDebug
 > Task :common:mergeDebugJniLibFolders UP-TO-DATE
 > Task :common:mergeDebugNativeLibs UP-TO-DATE
-> Task :common:stripDebugDebugSymbols UP-TO-DATE
-> Task :common:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :common:stripDebugDebugSymbols NO-SOURCE
+> Task :common:copyDebugJniLibsProjectOnly
 > Task :coroutinespermission:mergeDebugJniLibFolders UP-TO-DATE
 > Task :coroutinespermission:mergeDebugNativeLibs UP-TO-DATE
-> Task :coroutinespermission:stripDebugDebugSymbols UP-TO-DATE
-> Task :coroutinespermission:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :coroutinespermission:stripDebugDebugSymbols NO-SOURCE
+> Task :coroutinespermission:copyDebugJniLibsProjectOnly
 > Task :dslpermission:mergeDebugJniLibFolders UP-TO-DATE
 > Task :dslpermission:mergeDebugNativeLibs UP-TO-DATE
-> Task :dslpermission:stripDebugDebugSymbols UP-TO-DATE
-> Task :dslpermission:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :dslpermission:stripDebugDebugSymbols NO-SOURCE
+> Task :dslpermission:copyDebugJniLibsProjectOnly
 > Task :livedatapermission:mergeDebugJniLibFolders UP-TO-DATE
 > Task :livedatapermission:mergeDebugNativeLibs UP-TO-DATE
-> Task :livedatapermission:stripDebugDebugSymbols UP-TO-DATE
-> Task :livedatapermission:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :livedatapermission:stripDebugDebugSymbols NO-SOURCE
+> Task :livedatapermission:copyDebugJniLibsProjectOnly
 > Task :sample:mergeDebugJniLibFolders
+> Task :sample:validateSigningDebug
 > Task :common:preReleaseBuild UP-TO-DATE
 > Task :common:compileReleaseAidl NO-SOURCE
 > Task :common:compileReleaseRenderscript NO-SOURCE
-> Task :common:checkReleaseManifest UP-TO-DATE
+> Task :dslpermission:bundleLibResDebug
 > Task :common:generateReleaseBuildConfig UP-TO-DATE
 > Task :common:generateReleaseResValues UP-TO-DATE
 > Task :common:generateReleaseResources UP-TO-DATE
 > Task :common:packageReleaseResources UP-TO-DATE
-> Task :common:parseReleaseLibraryResources UP-TO-DATE
+> Task :common:parseReleaseLocalResources UP-TO-DATE
 > Task :common:processReleaseManifest UP-TO-DATE
 > Task :common:generateReleaseRFile UP-TO-DATE
 > Task :common:compileReleaseKotlin UP-TO-DATE
 > Task :common:javaPreCompileRelease UP-TO-DATE
 > Task :common:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :common:bundleLibCompileRelease UP-TO-DATE
+> Task :common:bundleLibCompileToJarRelease UP-TO-DATE
 > Task :coroutinespermission:preReleaseBuild UP-TO-DATE
 > Task :coroutinespermission:compileReleaseAidl NO-SOURCE
 > Task :common:packageReleaseRenderscript NO-SOURCE
 > Task :coroutinespermission:compileReleaseRenderscript NO-SOURCE
-> Task :coroutinespermission:checkReleaseManifest UP-TO-DATE
 > Task :coroutinespermission:generateReleaseBuildConfig UP-TO-DATE
 > Task :coroutinespermission:generateReleaseResValues UP-TO-DATE
 > Task :coroutinespermission:generateReleaseResources UP-TO-DATE
 > Task :coroutinespermission:packageReleaseResources UP-TO-DATE
-> Task :coroutinespermission:parseReleaseLibraryResources UP-TO-DATE
+> Task :coroutinespermission:parseReleaseLocalResources UP-TO-DATE
 > Task :coroutinespermission:processReleaseManifest UP-TO-DATE
 > Task :coroutinespermission:generateReleaseRFile UP-TO-DATE
 > Task :coroutinespermission:compileReleaseKotlin UP-TO-DATE
 > Task :coroutinespermission:javaPreCompileRelease UP-TO-DATE
 > Task :coroutinespermission:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :dslpermission:bundleLibRuntimeToJarDebug
 > Task :dslpermission:preReleaseBuild UP-TO-DATE
 > Task :dslpermission:compileReleaseAidl NO-SOURCE
 > Task :dslpermission:compileReleaseRenderscript NO-SOURCE
-> Task :dslpermission:checkReleaseManifest UP-TO-DATE
 > Task :dslpermission:generateReleaseBuildConfig UP-TO-DATE
 > Task :dslpermission:generateReleaseResValues UP-TO-DATE
 > Task :dslpermission:generateReleaseResources UP-TO-DATE
 > Task :dslpermission:packageReleaseResources UP-TO-DATE
-> Task :dslpermission:parseReleaseLibraryResources UP-TO-DATE
+> Task :dslpermission:parseReleaseLocalResources UP-TO-DATE
 > Task :dslpermission:processReleaseManifest UP-TO-DATE
 > Task :dslpermission:generateReleaseRFile UP-TO-DATE
 > Task :dslpermission:compileReleaseKotlin UP-TO-DATE
 > Task :dslpermission:javaPreCompileRelease UP-TO-DATE
 > Task :dslpermission:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :dslpermission:compileDebugLibraryResources
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
 > Task :livedatapermission:preReleaseBuild UP-TO-DATE
 > Task :livedatapermission:compileReleaseAidl NO-SOURCE
+> Task :coroutinespermission:bundleLibCompileToJarRelease
 > Task :livedatapermission:compileReleaseRenderscript NO-SOURCE
-> Task :livedatapermission:checkReleaseManifest UP-TO-DATE
 > Task :livedatapermission:generateReleaseBuildConfig UP-TO-DATE
 > Task :livedatapermission:generateReleaseResValues UP-TO-DATE
 > Task :livedatapermission:generateReleaseResources UP-TO-DATE
 > Task :livedatapermission:packageReleaseResources UP-TO-DATE
-> Task :livedatapermission:parseReleaseLibraryResources UP-TO-DATE
+> Task :livedatapermission:parseReleaseLocalResources UP-TO-DATE
 > Task :livedatapermission:processReleaseManifest UP-TO-DATE
 > Task :livedatapermission:generateReleaseRFile UP-TO-DATE
 > Task :livedatapermission:compileReleaseKotlin UP-TO-DATE
 > Task :livedatapermission:javaPreCompileRelease UP-TO-DATE
 > Task :livedatapermission:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :dslpermission:bundleLibCompileRelease
+> Task :dslpermission:bundleLibCompileToJarRelease
 > Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :coroutinespermission:packageReleaseRenderscript NO-SOURCE
 > Task :dslpermission:packageReleaseRenderscript NO-SOURCE
 > Task :livedatapermission:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
-> Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
-> Task :sample:mainApkListPersistenceRelease
+> Task :common:compileReleaseLibraryResources UP-TO-DATE
+> Task :common:bundleLibRuntimeToJarDebug
+> Task :coroutinespermission:compileReleaseLibraryResources
+> Task :dslpermission:compileReleaseLibraryResources
+> Task :livedatapermission:bundleLibResDebug
+> Task :sample:mergeExtDexDebug
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
+> Task :common:extractDeepLinksRelease
+> Task :coroutinespermission:extractDeepLinksRelease
+> Task :dslpermission:extractDeepLinksRelease
+> Task :livedatapermission:extractDeepLinksRelease
 > Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:extractDeepLinksRelease
 > Task :sample:processReleaseManifest
-> Task :sample:mergeDebugNativeLibs
-> Task :sample:stripDebugDebugSymbols
-> Task :sample:mergeReleaseResources
-> Task :sample:processReleaseResources
-> Task :coroutinespermission:bundleLibCompileRelease
-> Task :livedatapermission:bundleLibCompileRelease
-> Task :sample:compileReleaseKotlin
-> Task :sample:javaPreCompileRelease
-> Task :sample:compileReleaseJavaWithJavac
-> Task :sample:compileReleaseSources
+> Task :livedatapermission:bundleLibCompileToJarRelease
 > Task :common:prepareLintJarForPublish UP-TO-DATE
 > Task :coroutinespermission:prepareLintJarForPublish UP-TO-DATE
 > Task :dslpermission:prepareLintJarForPublish UP-TO-DATE
 > Task :livedatapermission:prepareLintJarForPublish UP-TO-DATE
 > Task :sample:prepareLintJar
-
-> Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/5cc9388705f49c855d4737779cadf2fc/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
-> Task :common:processReleaseJavaRes NO-SOURCE
-> Task :dslpermission:processReleaseJavaRes NO-SOURCE
-> Task :coroutinespermission:processReleaseJavaRes NO-SOURCE
-> Task :sample:mergeExtDexDebug
-> Task :coroutinespermission:bundleLibResRelease
-> Task :common:bundleLibResRelease
-> Task :livedatapermission:processReleaseJavaRes NO-SOURCE
-> Task :dslpermission:bundleLibResRelease
-> Task :common:bundleLibRuntimeRelease
-> Task :common:createFullJarRelease
-> Task :dslpermission:bundleLibRuntimeRelease
-> Task :dslpermission:createFullJarRelease
+> Task :sample:mergeDebugJavaResource
+> Task :livedatapermission:compileReleaseLibraryResources
+> Task :common:bundleLibRuntimeToJarRelease
+> Task :livedatapermission:bundleLibRuntimeToJarRelease
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :coroutinespermission:bundleLibRuntimeToJarRelease
+> Task :sample:javaPreCompileRelease
 > Task :sample:checkReleaseDuplicateClasses
-> Task :livedatapermission:bundleLibRuntimeRelease
-> Task :coroutinespermission:bundleLibRuntimeRelease
-> Task :coroutinespermission:createFullJarRelease
-> Task :livedatapermission:bundleLibResRelease
-> Task :livedatapermission:createFullJarRelease
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :sample:desugarReleaseFileDependencies
-> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :coroutinespermission:bundleLibRuntimeToJarDebug
 > Task :common:mergeReleaseShaders UP-TO-DATE
-> Task :common:compileReleaseShaders UP-TO-DATE
+> Task :common:compileReleaseShaders NO-SOURCE
 > Task :common:generateReleaseAssets UP-TO-DATE
 > Task :common:packageReleaseAssets UP-TO-DATE
 > Task :coroutinespermission:mergeReleaseShaders UP-TO-DATE
-> Task :coroutinespermission:compileReleaseShaders UP-TO-DATE
+> Task :coroutinespermission:compileReleaseShaders NO-SOURCE
 > Task :coroutinespermission:generateReleaseAssets UP-TO-DATE
 > Task :coroutinespermission:packageReleaseAssets UP-TO-DATE
 > Task :dslpermission:mergeReleaseShaders UP-TO-DATE
-> Task :dslpermission:compileReleaseShaders UP-TO-DATE
+> Task :dslpermission:compileReleaseShaders NO-SOURCE
 > Task :dslpermission:generateReleaseAssets UP-TO-DATE
 > Task :dslpermission:packageReleaseAssets UP-TO-DATE
 > Task :livedatapermission:mergeReleaseShaders UP-TO-DATE
-> Task :livedatapermission:compileReleaseShaders UP-TO-DATE
+> Task :livedatapermission:compileReleaseShaders NO-SOURCE
 > Task :livedatapermission:generateReleaseAssets UP-TO-DATE
 > Task :livedatapermission:packageReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseShaders
-> Task :sample:compileReleaseShaders
-> Task :sample:generateReleaseAssets
+> Task :sample:compileReleaseShaders NO-SOURCE
+> Task :sample:generateReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseAssets
+> Task :common:processReleaseJavaRes NO-SOURCE
+> Task :sample:dexBuilderDebug
+> Task :coroutinespermission:processReleaseJavaRes NO-SOURCE
+> Task :common:bundleLibResRelease
+> Task :dslpermission:processReleaseJavaRes NO-SOURCE
+> Task :dslpermission:bundleLibRuntimeToJarRelease
+> Task :livedatapermission:processReleaseJavaRes NO-SOURCE
+> Task :coroutinespermission:bundleLibResRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:signingConfigWriterRelease
+> Task :sample:collectReleaseDependencies
+> Task :sample:sdkReleaseDependencyData
 > Task :common:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :common:mergeReleaseNativeLibs UP-TO-DATE
-> Task :common:stripReleaseDebugSymbols UP-TO-DATE
-> Task :common:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :common:stripReleaseDebugSymbols NO-SOURCE
+> Task :common:copyReleaseJniLibsProjectOnly
 > Task :coroutinespermission:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :coroutinespermission:mergeReleaseNativeLibs UP-TO-DATE
-> Task :coroutinespermission:stripReleaseDebugSymbols UP-TO-DATE
-> Task :coroutinespermission:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :coroutinespermission:stripReleaseDebugSymbols NO-SOURCE
+> Task :coroutinespermission:copyReleaseJniLibsProjectOnly
 > Task :dslpermission:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :dslpermission:mergeReleaseNativeLibs UP-TO-DATE
-> Task :dslpermission:stripReleaseDebugSymbols UP-TO-DATE
-> Task :dslpermission:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :dslpermission:stripReleaseDebugSymbols NO-SOURCE
+> Task :dslpermission:copyReleaseJniLibsProjectOnly
 > Task :livedatapermission:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :livedatapermission:mergeReleaseNativeLibs UP-TO-DATE
-> Task :livedatapermission:stripReleaseDebugSymbols UP-TO-DATE
-> Task :livedatapermission:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :livedatapermission:stripReleaseDebugSymbols NO-SOURCE
+> Task :livedatapermission:copyReleaseJniLibsProjectOnly
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:mergeReleaseNativeLibs
-> Task :sample:stripReleaseDebugSymbols
-> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeReleaseResources
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
 > Task :sample:mergeExtDexRelease
+> Task :sample:lintVitalRelease
+> Task :sample:dexBuilderRelease
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :dslpermission:bundleLibResRelease
+> Task :livedatapermission:bundleLibResRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols NO-SOURCE
+> Task :sample:mergeReleaseJavaResource
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 15s
-225 actionable tasks: 91 executed, 134 up-to-date
+BUILD SUCCESSFUL in 1m 13s
+203 actionable tasks: 92 executed, 111 up-to-date
 
-2020-09-18 15:19:36,446 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416959546-0/src/eazypermissions-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-10-20 14:19:06,309 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178015018-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

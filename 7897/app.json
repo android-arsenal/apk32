@@ -41,8 +41,8 @@
   "dexClasses" : 1857,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"29\" android:compileSdkVersionCodename=\"10\" package=\"com.hbisoft.hbrecorderexample\" platformBuildVersionCode=\"29\" platformBuildVersionName=\"10\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"29\" />\n\t<uses-permission android:name=\"android.permission.WRITE_INTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0f0005\" android:label=\"HBRecorderExample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.hbisoft.hbrecorderexample.SettingsActivity\" />\n\t\t<activity android:name=\"com.hbisoft.hbrecorderexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:name=\"com.hbisoft.hbrecorder.ScreenRecordService\" android:foregroundServiceType=\"0x20\" />\n\t\t<receiver android:name=\"com.hbisoft.hbrecorder.NotificationReceiver\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1999264,
-  "crc32" : 1171526099,
-  "sha256" : "af271a19178a2c815259d418935d5ee5f7d4d5697fa55bc600a65ab570c24fbf",
-  "buildTime" : 1600411334000
+  "fileSize" : 2003035,
+  "crc32" : 823877200,
+  "sha256" : "5ea613a0169bed5f2defcca1195c1caeda78fdde612a1cfe4c480ba1208ea0de",
+  "buildTime" : 1603176332000
 }

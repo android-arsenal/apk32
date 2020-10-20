@@ -1,34 +1,37 @@
-2020-09-20 02:35:38,329 INFO  DownloadService - Downloading "https://github.com/ismaeldivita/change-tracker-plugin/archive/master.zip", attempt 3
-2020-09-20 02:35:39,833 INFO  DownloadService - Downloaded https://github.com/ismaeldivita/change-tracker-plugin/archive/master.zip, attempt 3
-2020-09-20 02:35:39,833 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/master.zip": 194 KB
-2020-09-20 02:35:39,833 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-20 02:35:39,839 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/master.zip: true
-2020-09-20 02:35:39,839 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src'.
-2020-09-20 02:35:39,851 INFO  FullProcessService - Size of directory with sources: 210 KB
-2020-09-20 02:35:39,851 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src]
-2020-09-20 02:35:39,884 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/.git/
+2020-10-20 14:19:07,700 INFO  DownloadService - Downloading "https://github.com/ismaeldivita/change-tracker-plugin/archive/master.zip", attempt 3
+2020-10-20 14:19:20,775 INFO  VirusProcessorServiceImpl - Queued project 7799 to scan viruses
+2020-10-20 14:20:08,241 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-10-20 14:20:09,333 INFO  GithubDownloadService - Default branch of this repository: master
+2020-10-20 14:20:09,333 INFO  DownloadService - Downloading "https://github.com/ismaeldivita/change-tracker-plugin/archive/master.zip", attempt 3
+2020-10-20 14:21:10,569 DEBUG FullProcessService - Repository https://github.com/ismaeldivita/change-tracker-plugin available: true
+2020-10-20 14:21:10,570 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-10-20 14:21:10,570 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ismaeldivita/change-tracker-plugin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src]
+2020-10-20 14:21:12,521 INFO  SysUtils - 
+2020-10-20 14:21:12,540 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/.git": true
+2020-10-20 14:21:12,542 INFO  FullProcessService - Size of directory with sources: 210 KB
+2020-10-20 14:21:12,542 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src]
+2020-10-20 14:21:12,562 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/.git/
 
-2020-09-20 02:35:39,887 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/gradlew
-2020-09-20 02:35:39,890 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/change_tracker/build.gradle
-2020-09-20 02:35:39,892 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/change_tracker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/settings.gradle
-2020-09-20 02:35:39,893 INFO  ProjectBuildService - Remote scripts: none
-2020-09-20 02:35:39,893 INFO  ProjectFixService - Fixing project...
-2020-09-20 02:35:39,900 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/local.properties
-2020-09-20 02:35:39,901 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-09-20 02:35:39,901 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-09-20 02:35:39,904 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-20 02:35:39,904 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-20 02:35:39,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/change_tracker/local.properties
-2020-09-20 02:35:39,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/change_tracker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-20 02:35:39,907 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/change_tracker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-20 02:35:39,908 INFO  ProjectFixService - Project was maybe fixed
-2020-09-20 02:35:39,908 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-20 02:35:39,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-20 02:35:51,519 INFO  VirusProcessorServiceImpl - Queued project 7777 to scan viruses
-2020-09-20 02:36:03,196 INFO  ProjectTaskService - Detected possible tasks: 51
-2020-09-20 02:36:03,196 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2020-09-20 02:36:03,196 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2020-09-20 02:36:31,756 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-20 14:21:12,564 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/gradlew
+2020-10-20 14:21:12,566 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/change_tracker/build.gradle
+2020-10-20 14:21:12,568 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/change_tracker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/settings.gradle
+2020-10-20 14:21:12,568 INFO  ProjectBuildService - Remote scripts: none
+2020-10-20 14:21:12,568 INFO  ProjectFixService - Fixing project...
+2020-10-20 14:21:12,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/local.properties
+2020-10-20 14:21:12,574 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-10-20 14:21:12,574 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-10-20 14:21:12,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-20 14:21:12,575 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-20 14:21:12,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/change_tracker/local.properties
+2020-10-20 14:21:12,577 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/change_tracker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-10-20 14:21:12,577 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/change_tracker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-10-20 14:21:12,578 INFO  ProjectFixService - Project was maybe fixed
+2020-10-20 14:21:12,578 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:21:12,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:21:38,140 INFO  ProjectTaskService - Detected possible tasks: 51
+2020-10-20 14:21:38,140 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-10-20 14:21:38,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-10-20 14:22:00,659 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :change_tracker:compileKotlin
 > Task :change_tracker:compileJava NO-SOURCE
 > Task :change_tracker:processResources
@@ -40,15 +43,15 @@
 > Task :change_tracker:assemble
 > Task :change_tracker:build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 21s
 6 actionable tasks: 6 executed
 
-2020-09-20 02:36:31,763 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-20 02:36:31,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/change_tracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-20 02:36:35,962 INFO  ProjectTaskService - Detected possible tasks: 51
-2020-09-20 02:36:35,963 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2020-09-20 02:36:35,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600544138326-0/src/change-tracker-plugin-master/change_tracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2020-09-20 02:36:40,651 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-20 14:22:00,666 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 14:22:00,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/change_tracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 14:22:03,978 INFO  ProjectTaskService - Detected possible tasks: 51
+2020-10-20 14:22:03,978 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-10-20 14:22:03,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603178347696-0/src/change_tracker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-10-20 14:22:07,817 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :change_tracker:compileKotlin UP-TO-DATE
 > Task :change_tracker:compileJava NO-SOURCE
 > Task :change_tracker:processResources UP-TO-DATE
@@ -60,8 +63,8 @@ BUILD SUCCESSFUL in 27s
 > Task :change_tracker:assemble UP-TO-DATE
 > Task :change_tracker:build
 
-BUILD SUCCESSFUL in 4s
+BUILD SUCCESSFUL in 3s
 6 actionable tasks: 6 up-to-date
 
-2020-09-20 02:36:40,658 ERROR FullProcessService - Project build has not produced APK file
-2020-09-20 02:36:40,663 ERROR FullProcessService - Could not find generated or existed APK file
+2020-10-20 14:22:07,823 ERROR FullProcessService - Project build has not produced APK file
+2020-10-20 14:22:07,829 ERROR FullProcessService - Could not find generated or existed APK file

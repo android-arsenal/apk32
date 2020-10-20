@@ -1,44 +1,47 @@
-2020-06-23 00:57:30,427 INFO  DownloadService - Downloading "https://github.com/mejdi14/Flat-Dialog-Android/archive/master.zip", attempt 3
-2020-06-23 00:57:35,916 INFO  DownloadService - Downloaded https://github.com/mejdi14/Flat-Dialog-Android/archive/master.zip, attempt 3
-2020-06-23 00:57:35,916 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/master.zip": 1 MB
-2020-06-23 00:57:35,917 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-06-23 00:57:35,917 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/master.zip: true
-2020-06-23 00:57:35,918 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src'.
-2020-06-23 00:57:35,990 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-06-23 00:57:35,990 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src]
-2020-06-23 00:57:36,153 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/.git/
+2020-10-20 13:35:11,135 INFO  DownloadService - Downloading "https://github.com/mejdi14/Flat-Dialog-Android/archive/master.zip", attempt 3
+2020-10-20 13:35:30,878 INFO  VirusProcessorServiceImpl - Queued project 8049 to scan viruses
+2020-10-20 13:36:11,781 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-10-20 13:36:12,519 INFO  GithubDownloadService - Default branch of this repository: master
+2020-10-20 13:36:12,519 INFO  DownloadService - Downloading "https://github.com/mejdi14/Flat-Dialog-Android/archive/master.zip", attempt 3
+2020-10-20 13:37:13,938 DEBUG FullProcessService - Repository https://github.com/mejdi14/Flat-Dialog-Android available: true
+2020-10-20 13:37:13,938 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-10-20 13:37:13,938 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mejdi14/Flat-Dialog-Android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src]
+2020-10-20 13:37:16,586 INFO  SysUtils - 
+2020-10-20 13:37:16,598 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/.git": true
+2020-10-20 13:37:16,604 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-10-20 13:37:16,604 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src]
+2020-10-20 13:37:16,630 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/.git/
 
-2020-06-23 00:57:36,163 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/gradlew
-2020-06-23 00:57:36,174 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/build.gradle
-2020-06-23 00:57:36,183 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/settings.gradle
-2020-06-23 00:57:36,184 INFO  ProjectBuildService - Remote scripts: none
-2020-06-23 00:57:36,185 INFO  ProjectFixService - Fixing project...
-2020-06-23 00:57:36,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/local.properties
-2020-06-23 00:57:36,208 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-06-23 00:57:36,209 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-06-23 00:57:36,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/flatdialoglibrary/local.properties
-2020-06-23 00:57:36,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-06-23 00:57:36,213 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/flatdialoglibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-06-23 00:57:36,215 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/local.properties
-2020-06-23 00:57:36,216 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-06-23 00:57:36,217 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-06-23 00:57:36,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-06-23 00:57:36,220 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2020-06-23 00:57:36,221 INFO  ProjectFixService - Project was maybe fixed
-2020-06-23 00:57:36,221 INFO  ProjectTaskService - Detecting possible tasks...
-2020-06-23 00:57:36,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-06-23 00:57:45,812 INFO  VirusProcessorServiceImpl - Queued project 8049 to scan viruses
-2020-06-23 00:58:09,307 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-06-23 00:58:09,308 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-06-23 00:58:09,308 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-06-23 01:00:30,496 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-10-20 13:37:16,637 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/gradlew
+2020-10-20 13:37:16,644 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/flatdialoglibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/build.gradle
+2020-10-20 13:37:16,650 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/flatdialoglibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/settings.gradle
+2020-10-20 13:37:16,651 INFO  ProjectBuildService - Remote scripts: none
+2020-10-20 13:37:16,651 INFO  ProjectFixService - Fixing project...
+2020-10-20 13:37:16,664 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/local.properties
+2020-10-20 13:37:16,666 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-20 13:37:16,666 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-20 13:37:16,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/flatdialoglibrary/local.properties
+2020-10-20 13:37:16,671 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/flatdialoglibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-10-20 13:37:16,672 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/flatdialoglibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-10-20 13:37:16,674 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/local.properties
+2020-10-20 13:37:16,675 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-10-20 13:37:16,676 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-10-20 13:37:16,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-20 13:37:16,679 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2020-10-20 13:37:16,680 INFO  ProjectFixService - Project was maybe fixed
+2020-10-20 13:37:16,680 INFO  ProjectTaskService - Detecting possible tasks...
+2020-10-20 13:37:16,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-10-20 13:37:26,610 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-10-20 13:37:26,610 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-10-20 13:37:26,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-10-20 13:38:09,376 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :flatdialoglibrary:preBuild UP-TO-DATE
 > Task :flatdialoglibrary:preDebugBuild UP-TO-DATE
-> Task :flatdialoglibrary:packageDebugRenderscript NO-SOURCE
 > Task :flatdialoglibrary:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :flatdialoglibrary:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
@@ -53,9 +56,9 @@
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :flatdialoglibrary:processDebugManifest
-> Task :flatdialoglibrary:parseDebugLibraryResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
+> Task :flatdialoglibrary:parseDebugLibraryResources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -64,9 +67,9 @@
 > Task :flatdialoglibrary:generateDebugAssets
 > Task :flatdialoglibrary:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
 > Task :flatdialoglibrary:generateDebugRFile
 > Task :flatdialoglibrary:compileDebugJavaWithJavac
-> Task :app:mergeDebugResources
 > Task :app:processDebugResources
 > Task :flatdialoglibrary:bundleLibCompileDebug
 > Task :app:processDebugJavaRes NO-SOURCE
@@ -96,42 +99,30 @@
 > Task :flatdialoglibrary:checkReleaseManifest
 > Task :flatdialoglibrary:generateReleaseBuildConfig
 > Task :flatdialoglibrary:generateReleaseResValues
-> Task :flatdialoglibrary:mergeDebugNativeLibs
-> Task :flatdialoglibrary:stripDebugDebugSymbols
-> Task :flatdialoglibrary:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :flatdialoglibrary:generateReleaseResources
 > Task :flatdialoglibrary:packageReleaseResources
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :flatdialoglibrary:javaPreCompileRelease
 > Task :app:createReleaseCompatibleScreenManifests
-> Task :flatdialoglibrary:parseReleaseLibraryResources
 > Task :app:prepareLintJar
 > Task :flatdialoglibrary:prepareLintJarForPublish
 > Task :flatdialoglibrary:processReleaseJavaRes NO-SOURCE
 > Task :app:checkReleaseDuplicateClasses
+> Task :flatdialoglibrary:mergeDebugNativeLibs
+> Task :flatdialoglibrary:stripDebugDebugSymbols
+> Task :flatdialoglibrary:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
 > Task :flatdialoglibrary:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :flatdialoglibrary:javaPreCompileRelease
+> Task :flatdialoglibrary:parseReleaseLibraryResources
 > Task :flatdialoglibrary:generateReleaseRFile
 > Task :flatdialoglibrary:compileReleaseJavaWithJavac
 > Task :flatdialoglibrary:bundleLibResRelease
-> Task :flatdialoglibrary:bundleLibCompileRelease
 > Task :flatdialoglibrary:bundleLibRuntimeRelease
 > Task :flatdialoglibrary:createFullJarRelease
-> Task :app:javaPreCompileRelease
-> Task :app:mergeReleaseResources
-> Task :app:processReleaseResources
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-
-> Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f46b0924f2552b0574a43a36941948c7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :app:mergeExtDexDebug
-> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -149,11 +140,23 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :flatdialoglibrary:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
+> Task :flatdialoglibrary:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f46b0924f2552b0574a43a36941948c7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
@@ -164,7 +167,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 2m 19s
+BUILD SUCCESSFUL in 41s
 90 actionable tasks: 90 executed
 
-2020-06-23 01:00:31,235 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1592848650421-0/src/Flat-Dialog-Android-master/app/build/outputs/apk/debug/app-debug.apk
+2020-10-20 13:38:09,497 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1603175711131-0/src/app/build/outputs/apk/debug/app-debug.apk
