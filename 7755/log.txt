@@ -1,162 +1,159 @@
-2020-07-06 02:00:50,171 INFO  DownloadService - Downloading "https://github.com/umairayub79/MaDialog/archive/master.zip", attempt 3
-2020-07-06 02:00:52,437 INFO  DownloadService - Downloaded https://github.com/umairayub79/MaDialog/archive/master.zip, attempt 3
-2020-07-06 02:00:52,438 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/master.zip": 271 KB
-2020-07-06 02:00:52,438 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-07-06 02:00:52,438 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/master.zip: true
-2020-07-06 02:00:52,438 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src'.
-2020-07-06 02:00:52,464 INFO  FullProcessService - Size of directory with sources: 308 KB
-2020-07-06 02:00:52,464 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src]
-2020-07-06 02:00:52,488 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/.git/
+2020-11-02 00:22:40,550 INFO  DownloadService - Downloading "https://github.com/umairayub79/MaDialog/archive/master.zip", attempt 3
+2020-11-02 00:22:41,061 INFO  DownloadService - Downloaded https://github.com/umairayub79/MaDialog/archive/master.zip, attempt 3
+2020-11-02 00:22:41,062 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/master.zip": 277 KB
+2020-11-02 00:22:41,062 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-02 00:22:41,067 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/master.zip: true
+2020-11-02 00:22:41,068 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src'.
+2020-11-02 00:22:41,105 INFO  FullProcessService - Size of directory with sources: 328 KB
+2020-11-02 00:22:41,110 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src]
+2020-11-02 00:22:41,154 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/.git/
 
-2020-07-06 02:00:52,492 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/gradlew
-2020-07-06 02:00:52,496 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/madialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/build.gradle
-2020-07-06 02:00:52,499 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/madialog/build.gradle
-2020-07-06 02:00:52,499 INFO  ProjectBuildService - Remote scripts: none
-2020-07-06 02:00:52,499 INFO  ProjectFixService - Fixing project...
-2020-07-06 02:00:52,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/app/local.properties
-2020-07-06 02:00:52,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:00:52,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/madialog/local.properties
-2020-07-06 02:00:52,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/madialog/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:00:52,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/local.properties
-2020-07-06 02:00:52,509 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-07-06 02:00:52,509 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-07-06 02:00:52,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-07-06 02:00:52,510 INFO  ProjectFixService - Project was maybe fixed
-2020-07-06 02:00:52,510 INFO  ProjectTaskService - Detecting possible tasks...
-2020-07-06 02:00:52,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-07-06 02:01:07,246 INFO  VirusProcessorServiceImpl - Queued project 7932 to scan viruses
-2020-07-06 02:01:11,425 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-07-06 02:01:11,425 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-07-06 02:01:11,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-07-06 02:02:03,402 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-02 00:22:41,168 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/gradlew
+2020-11-02 00:22:41,182 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/madialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/build.gradle
+2020-11-02 00:22:41,189 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/madialog/build.gradle
+2020-11-02 00:22:41,193 INFO  ProjectBuildService - Remote scripts: none
+2020-11-02 00:22:41,194 INFO  ProjectFixService - Fixing project...
+2020-11-02 00:22:41,249 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-11-02 00:22:41,249 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-11-02 00:22:41,253 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 30.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-11-02 00:22:41,256 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 30.0.2 28.0.0-rc1 28.0.0-rc2
+2020-11-02 00:22:41,260 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 30 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-11-02 00:22:41,261 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+2020-11-02 00:22:41,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/app/local.properties
+2020-11-02 00:22:41,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:22:41,270 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/madialog/local.properties
+2020-11-02 00:22:41,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/madialog/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:22:41,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/local.properties
+2020-11-02 00:22:41,275 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+2020-11-02 00:22:41,276 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.1.1-bin.zip)
+2020-11-02 00:22:41,279 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-02 00:22:41,279 INFO  ProjectFixService - Project was maybe fixed
+2020-11-02 00:22:41,281 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-02 00:22:41,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-02 00:22:53,580 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-11-02 00:22:53,580 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-02 00:22:53,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-02 00:24:10,761 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :madialog:preBuild UP-TO-DATE
 > Task :madialog:preDebugBuild UP-TO-DATE
-> Task :madialog:checkDebugManifest
-> Task :madialog:processDebugManifest
-> Task :madialog:packageDebugRenderscript NO-SOURCE
-> Task :madialog:generateDebugResValues
-> Task :madialog:generateDebugBuildConfig
-> Task :madialog:prepareLintJar
-> Task :app:prepareLintJar
-> Task :madialog:mergeDebugShaders
-> Task :madialog:compileDebugShaders
-> Task :madialog:generateDebugAssets
-> Task :madialog:packageDebugAssets
-> Task :madialog:processDebugJavaRes NO-SOURCE
-> Task :app:preDebugBuild
 > Task :madialog:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :madialog:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :madialog:generateDebugResValues
 > Task :madialog:compileDebugRenderscript NO-SOURCE
 > Task :madialog:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :madialog:generateDebugSources
-> Task :app:generateDebugSources
-> Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
-> Task :app:mergeDebugAssets
 > Task :madialog:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :madialog:extractDeepLinksDebug
 > Task :app:mergeDebugResources
+> Task :madialog:compileDebugLibraryResources
+> Task :madialog:processDebugManifest
+> Task :app:processDebugManifest
+> Task :madialog:generateDebugBuildConfig
+> Task :madialog:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :madialog:mergeDebugShaders
+> Task :madialog:compileDebugShaders NO-SOURCE
+> Task :madialog:generateDebugAssets UP-TO-DATE
+> Task :madialog:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :madialog:parseDebugLocalResources
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :madialog:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
 > Task :madialog:generateDebugRFile
 > Task :app:processDebugResources
 > Task :madialog:compileDebugKotlin
-> Task :madialog:javaPreCompileDebug
 > Task :madialog:compileDebugJavaWithJavac
-> Task :madialog:bundleLibCompileDebug
+> Task :madialog:bundleLibResDebug
+> Task :madialog:bundleLibRuntimeToJarDebug
+> Task :madialog:bundleLibCompileToJarDebug
 > Task :app:compileDebugKotlin
-> Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :madialog:bundleLibResDebug
-> Task :madialog:bundleLibRuntimeDebug
-> Task :madialog:createFullJarDebug
-> Task :app:checkDebugDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:validateSigningDebug
-> Task :app:signingConfigWriterDebug
+> Task :app:dexBuilderDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :madialog:mergeDebugJniLibFolders
-> Task :madialog:transformNativeLibsWithMergeJniLibsForDebug
-> Task :madialog:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :madialog:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:validateSigningDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :madialog:preReleaseBuild UP-TO-DATE
-> Task :madialog:checkReleaseManifest
-> Task :madialog:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :madialog:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :madialog:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :madialog:compileReleaseRenderscript NO-SOURCE
 > Task :madialog:generateReleaseResValues
 > Task :madialog:generateReleaseResources
 > Task :madialog:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :madialog:extractDeepLinksRelease
+> Task :app:mergeDebugJavaResource
+> Task :madialog:compileReleaseLibraryResources
+> Task :madialog:generateReleaseBuildConfig
+> Task :madialog:mergeDebugNativeLibs
+> Task :madialog:stripDebugDebugSymbols NO-SOURCE
+> Task :madialog:copyDebugJniLibsProjectOnly
+> Task :madialog:javaPreCompileRelease
+> Task :madialog:processReleaseManifest
 > Task :app:processReleaseManifest
+> Task :app:javaPreCompileRelease
+> Task :app:mergeReleaseResources
+> Task :madialog:parseReleaseLocalResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:prepareLintJar
+> Task :app:checkReleaseDuplicateClasses
+> Task :madialog:prepareLintJarForPublish
 > Task :madialog:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :madialog:generateReleaseBuildConfig
 > Task :madialog:compileReleaseKotlin
-> Task :madialog:generateReleaseSources
-> Task :madialog:javaPreCompileRelease
 > Task :madialog:compileReleaseJavaWithJavac
-> Task :madialog:bundleLibCompileRelease
+> Task :madialog:bundleLibRuntimeToJarRelease
+> Task :madialog:bundleLibCompileToJarRelease
 > Task :app:compileReleaseKotlin
-> Task :app:generateReleaseSources
-> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
-> Task :madialog:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/b21ff0c091409728fa902a287a793f59/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-
+> Task :app:dexBuilderRelease
 > Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :madialog:mergeReleaseShaders
+> Task :madialog:compileReleaseShaders NO-SOURCE
+> Task :madialog:generateReleaseAssets UP-TO-DATE
+> Task :madialog:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :madialog:processReleaseJavaRes NO-SOURCE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:mergeReleaseJniLibFolders
+> Task :madialog:mergeReleaseJniLibFolders
+> Task :madialog:bundleLibResRelease
+> Task :madialog:mergeReleaseNativeLibs
+> Task :madialog:stripReleaseDebugSymbols NO-SOURCE
+> Task :madialog:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:mergeReleaseJavaResource
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :madialog:processReleaseJavaRes NO-SOURCE
-> Task :madialog:bundleLibResRelease
-> Task :madialog:bundleLibRuntimeRelease
-> Task :madialog:createFullJarRelease
-> Task :app:checkReleaseDuplicateClasses
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
-> Task :madialog:mergeReleaseShaders
-> Task :madialog:compileReleaseShaders
-> Task :madialog:generateReleaseAssets
-> Task :madialog:packageReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:signingConfigWriterRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :madialog:mergeReleaseJniLibFolders
-> Task :madialog:transformNativeLibsWithMergeJniLibsForRelease
-> Task :madialog:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :madialog:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
@@ -164,11 +161,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+BUILD SUCCESSFUL in 1m 16s
+84 actionable tasks: 84 executed
 
-BUILD SUCCESSFUL in 51s
-95 actionable tasks: 95 executed
-
-2020-07-06 02:02:03,489 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1593975650168-0/src/MaDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2020-11-02 00:24:10,861 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604251360547-0/src/MaDialog-master/app/build/outputs/apk/debug/app-debug.apk
