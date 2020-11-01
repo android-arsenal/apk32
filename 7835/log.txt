@@ -1,48 +1,38 @@
-2020-09-18 15:04:26,295 INFO  DownloadService - Downloading "https://github.com/skydoves/ProgressView/archive/master.zip", attempt 3
-2020-09-18 15:04:27,980 INFO  DownloadService - Downloaded https://github.com/skydoves/ProgressView/archive/master.zip, attempt 3
-2020-09-18 15:04:27,980 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/master.zip": 247 KB
-2020-09-18 15:04:27,980 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 15:04:27,981 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/master.zip: true
-2020-09-18 15:04:27,981 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src'.
-2020-09-18 15:04:28,009 INFO  FullProcessService - Size of directory with sources: 318 KB
-2020-09-18 15:04:28,009 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src]
-2020-09-18 15:04:28,034 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/.git/
+2020-11-01 23:55:27,514 INFO  DownloadService - Downloading "https://github.com/skydoves/ProgressView/archive/master.zip", attempt 3
+2020-11-01 23:55:28,277 INFO  DownloadService - Downloaded https://github.com/skydoves/ProgressView/archive/master.zip, attempt 3
+2020-11-01 23:55:28,277 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/master.zip": 253 KB
+2020-11-01 23:55:28,277 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-01 23:55:28,282 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/master.zip: true
+2020-11-01 23:55:28,283 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src'.
+2020-11-01 23:55:28,309 INFO  FullProcessService - Size of directory with sources: 327 KB
+2020-11-01 23:55:28,309 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src]
+2020-11-01 23:55:28,330 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/.git/
 
-2020-09-18 15:04:28,037 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/gradlew
-2020-09-18 15:04:28,041 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/progressview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/build.gradle
-2020-09-18 15:04:28,044 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/spotless.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/progressview/build.gradle
-2020-09-18 15:04:28,045 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 15:04:28,045 INFO  ProjectFixService - Fixing project...
-2020-09-18 15:04:28,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/local.properties
-2020-09-18 15:04:28,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-18 15:04:28,058 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-18 15:04:28,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/progressview/local.properties
-2020-09-18 15:04:28,062 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/progressview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-18 15:04:28,062 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/progressview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-18 15:04:28,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/local.properties
-2020-09-18 15:04:28,064 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-09-18 15:04:28,065 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-09-18 15:04:28,068 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-18 15:04:28,069 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-18 15:04:28,069 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 15:04:28,070 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 15:04:28,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 15:04:37,725 INFO  VirusProcessorServiceImpl - Queued project 7840 to scan viruses
-2020-09-18 15:04:40,200 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-09-18 15:04:40,200 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-18 15:04:40,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-18 15:06:00,335 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :progressview
-WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2020-11-01 23:55:28,334 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/gradlew
+2020-11-01 23:55:28,338 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/progressview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/build.gradle
+2020-11-01 23:55:28,341 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/spotless.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/progressview/build.gradle
+2020-11-01 23:55:28,341 INFO  ProjectBuildService - Remote scripts: none
+2020-11-01 23:55:28,341 INFO  ProjectFixService - Fixing project...
+2020-11-01 23:55:28,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/local.properties
+2020-11-01 23:55:28,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-01 23:55:28,354 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-01 23:55:28,355 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/progressview/local.properties
+2020-11-01 23:55:28,358 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/progressview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-01 23:55:28,358 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/progressview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-01 23:55:28,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/local.properties
+2020-11-01 23:55:28,359 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.6.1-all.zip
+2020-11-01 23:55:28,360 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.6.1-bin.zip)
+2020-11-01 23:55:28,364 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-01 23:55:28,365 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-01 23:55:28,366 INFO  ProjectFixService - Project was maybe fixed
+2020-11-01 23:55:28,366 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:55:28,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:55:39,272 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-11-01 23:55:39,273 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-01 23:55:39,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-01 23:57:01,856 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :progressview:preBuild UP-TO-DATE
@@ -50,54 +40,34 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :progressview:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :progressview:packageDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugBuildConfig
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :progressview:generateDebugResValues
 > Task :progressview:compileDebugRenderscript NO-SOURCE
+> Task :progressview:generateDebugResValues
 > Task :progressview:generateDebugResources
 > Task :progressview:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:extractDeepLinksDebug
 > Task :progressview:extractDeepLinksDebug
-> Task :progressview:compileDebugLibraryResources
-> Task :app:mergeDebugResources
-> Task :progressview:processDebugManifest
-> Task :app:processDebugManifest
 > Task :progressview:generateDebugBuildConfig
-> Task :progressview:parseDebugLocalResources
+> Task :progressview:compileDebugLibraryResources
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :progressview:mergeDebugShaders
-> Task :progressview:compileDebugShaders
-> Task :progressview:generateDebugAssets
+> Task :progressview:compileDebugShaders NO-SOURCE
+> Task :progressview:generateDebugAssets UP-TO-DATE
 > Task :progressview:packageDebugAssets
-> Task :app:mergeDebugAssets
-> Task :progressview:generateDebugRFile
-> Task :app:processDebugResources
-> Task :progressview:compileDebugKotlin
 > Task :progressview:javaPreCompileDebug
-> Task :progressview:compileDebugJavaWithJavac
+> Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :progressview:processDebugJavaRes NO-SOURCE
-> Task :progressview:bundleLibResDebug
-> Task :progressview:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
-> Task :progressview:bundleLibRuntimeDebug
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
-> Task :app:dexBuilderDebug
 > Task :app:checkDebugDuplicateClasses
-> Task :app:mergeDebugJavaResource
+> Task :progressview:parseDebugLocalResources
 > Task :app:mergeDebugJniLibFolders
 > Task :progressview:mergeDebugJniLibFolders
-> Task :progressview:mergeDebugNativeLibs
-> Task :progressview:stripDebugDebugSymbols
-> Task :progressview:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :progressview:preReleaseBuild UP-TO-DATE
@@ -106,7 +76,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :progressview:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :progressview:compileReleaseRenderscript NO-SOURCE
@@ -116,61 +85,86 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :progressview:extractDeepLinksRelease
+> Task :progressview:mergeDebugNativeLibs
+> Task :progressview:stripDebugDebugSymbols NO-SOURCE
+> Task :progressview:copyDebugJniLibsProjectOnly
+> Task :app:mergeDebugResources
+> Task :progressview:compileReleaseLibraryResources
+> Task :progressview:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :app:prepareLintJar
 > Task :progressview:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:mergeReleaseResources
-> Task :progressview:generateReleaseBuildConfig
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :progressview:parseReleaseLocalResources
-> Task :progressview:compileReleaseLibraryResources
-> Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
-> Task :progressview:prepareLintJarForPublish
-> Task :progressview:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :progressview:compileReleaseKotlin
-> Task :progressview:javaPreCompileRelease
-> Task :progressview:compileReleaseJavaWithJavac
-> Task :progressview:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
-> Task :progressview:bundleLibRuntimeRelease
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:dexBuilderRelease
+> Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :progressview:mergeReleaseShaders
-> Task :progressview:compileReleaseShaders
-> Task :progressview:generateReleaseAssets
+> Task :progressview:compileReleaseShaders NO-SOURCE
+> Task :progressview:generateReleaseAssets UP-TO-DATE
 > Task :progressview:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :progressview:processReleaseJavaRes NO-SOURCE
-> Task :progressview:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :progressview:mergeReleaseJniLibFolders
+> Task :progressview:javaPreCompileRelease
+> Task :progressview:prepareLintJarForPublish
+> Task :app:javaPreCompileRelease
+> Task :progressview:parseReleaseLocalResources
+> Task :app:javaPreCompileDebug
+> Task :app:mergeExtDexRelease
 > Task :progressview:mergeReleaseNativeLibs
-> Task :progressview:stripReleaseDebugSymbols
+> Task :progressview:stripReleaseDebugSymbols NO-SOURCE
 > Task :progressview:copyReleaseJniLibsProjectOnly
+> Task :progressview:processDebugManifest
+> Task :app:processDebugManifest
+> Task :progressview:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :progressview:compileReleaseKotlin
+> Task :progressview:compileReleaseJavaWithJavac
+> Task :progressview:generateDebugRFile
+> Task :app:processDebugResources
+> Task :progressview:compileDebugKotlin
+> Task :progressview:compileDebugJavaWithJavac
+> Task :progressview:bundleLibRuntimeToJarRelease
+> Task :progressview:bundleLibCompileToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :progressview:bundleLibResDebug
+> Task :progressview:bundleLibRuntimeToJarDebug
+> Task :progressview:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:dexBuilderDebug
+> Task :app:dexBuilderRelease
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :progressview:bundleLibResRelease
 > Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 19s
-92 actionable tasks: 92 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-09-18 15:06:00,406 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600416266291-0/src/ProgressView-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 1m 21s
+84 actionable tasks: 84 executed
+
+2020-11-01 23:57:01,950 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249727510-0/src/ProgressView-master/app/build/outputs/apk/debug/app-debug.apk

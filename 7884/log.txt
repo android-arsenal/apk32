@@ -1,46 +1,74 @@
-2020-09-18 13:47:40,940 INFO  DownloadService - Downloading "https://github.com/hamzaahmedkhan/SpinnerDialog/archive/master.zip", attempt 3
-2020-09-18 13:47:42,786 INFO  DownloadService - Downloaded https://github.com/hamzaahmedkhan/SpinnerDialog/archive/master.zip, attempt 3
-2020-09-18 13:47:42,786 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/master.zip": 456 KB
-2020-09-18 13:47:42,786 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 13:47:42,787 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/master.zip: true
-2020-09-18 13:47:42,787 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src'.
-2020-09-18 13:47:42,824 INFO  FullProcessService - Size of directory with sources: 566 KB
-2020-09-18 13:47:42,824 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src]
-2020-09-18 13:47:42,854 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/.git/
+2020-11-01 23:50:08,774 INFO  DownloadService - Downloading "https://github.com/hamzaahmedkhan/SpinnerDialog/archive/master.zip", attempt 3
+2020-11-01 23:50:11,360 INFO  DownloadService - Downloaded https://github.com/hamzaahmedkhan/SpinnerDialog/archive/master.zip, attempt 3
+2020-11-01 23:50:11,360 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/master.zip": 1 MB
+2020-11-01 23:50:11,360 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-01 23:50:11,366 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/master.zip: true
+2020-11-01 23:50:11,367 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src'.
+2020-11-01 23:50:11,414 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-11-01 23:50:11,414 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src]
+2020-11-01 23:50:11,433 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/.git/
 
-2020-09-18 13:47:42,860 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/gradlew
-2020-09-18 13:47:42,865 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/build.gradle
-2020-09-18 13:47:42,869 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/settings.gradle
-2020-09-18 13:47:42,869 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 13:47:42,870 INFO  ProjectFixService - Fixing project...
-2020-09-18 13:47:42,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/local.properties
-2020-09-18 13:47:42,881 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-09-18 13:47:42,881 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-09-18 13:47:42,882 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/local.properties
-2020-09-18 13:47:42,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-09-18 13:47:42,883 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-09-18 13:47:42,884 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/local.properties
-2020-09-18 13:47:42,885 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2020-09-18 13:47:42,885 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2020-09-18 13:47:42,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-09-18 13:47:42,886 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
-2020-09-18 13:47:42,887 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 13:47:42,887 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 13:47:42,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 13:47:58,618 INFO  VirusProcessorServiceImpl - Queued project 7886 to scan viruses
-2020-09-18 13:47:59,175 INFO  ProjectTaskService - Detected possible tasks: 65
-2020-09-18 13:47:59,175 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-18 13:47:59,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-18 13:48:53,516 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-01 23:50:11,438 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/gradlew
+2020-11-01 23:50:11,443 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/build.gradle
+2020-11-01 23:50:11,448 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/settings.gradle
+2020-11-01 23:50:11,449 INFO  ProjectBuildService - Remote scripts: none
+2020-11-01 23:50:11,449 INFO  ProjectFixService - Fixing project...
+2020-11-01 23:50:11,460 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/local.properties
+2020-11-01 23:50:11,461 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-11-01 23:50:11,461 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-11-01 23:50:11,462 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/local.properties
+2020-11-01 23:50:11,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-11-01 23:50:11,463 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-11-01 23:50:11,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/local.properties
+2020-11-01 23:50:11,464 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2020-11-01 23:50:11,464 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2020-11-01 23:50:11,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-11-01 23:50:11,466 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=21,targetSdkVersion=28]
+2020-11-01 23:50:11,466 INFO  ProjectFixService - Project was maybe fixed
+2020-11-01 23:50:11,466 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:50:11,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:50:26,035 INFO  VirusProcessorServiceImpl - Queued project 7886 to scan viruses
+2020-11-01 23:50:37,584 INFO  ProjectTaskService - Detected possible tasks: 65
+2020-11-01 23:50:37,584 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-01 23:50:37,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-01 23:52:09,066 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :spinnerdialog:preBuild UP-TO-DATE
 > Task :spinnerdialog:preDebugBuild UP-TO-DATE
 > Task :spinnerdialog:checkDebugManifest
 > Task :spinnerdialog:processDebugManifest
+> Task :spinnerdialog:packageDebugRenderscript NO-SOURCE
+> Task :spinnerdialog:generateDebugResValues
+> Task :spinnerdialog:generateDebugBuildConfig
+> Task :spinnerdialog:prepareLintJar
+> Task :app:prepareLintJar
+> Task :spinnerdialog:mergeDebugShaders
+> Task :spinnerdialog:compileDebugShaders
+> Task :spinnerdialog:generateDebugAssets
+> Task :spinnerdialog:packageDebugAssets
+> Task :spinnerdialog:processDebugJavaRes NO-SOURCE
+> Task :spinnerdialog:mergeDebugJniLibFolders
+> Task :spinnerdialog:transformNativeLibsWithMergeJniLibsForDebug
+> Task :spinnerdialog:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :spinnerdialog:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :spinnerdialog:preReleaseBuild UP-TO-DATE
+> Task :spinnerdialog:checkReleaseManifest
+> Task :spinnerdialog:processReleaseManifest
+> Task :spinnerdialog:packageReleaseRenderscript NO-SOURCE
+> Task :spinnerdialog:generateReleaseResValues
+> Task :spinnerdialog:generateReleaseBuildConfig
+> Task :spinnerdialog:mergeReleaseShaders
+> Task :spinnerdialog:compileReleaseShaders
+> Task :spinnerdialog:generateReleaseAssets
+> Task :spinnerdialog:packageReleaseAssets
+> Task :spinnerdialog:processReleaseJavaRes NO-SOURCE
+> Task :spinnerdialog:mergeReleaseJniLibFolders
+> Task :spinnerdialog:transformNativeLibsWithMergeJniLibsForRelease
+> Task :spinnerdialog:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :spinnerdialog:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:preDebugBuild
 > Task :spinnerdialog:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :spinnerdialog:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
@@ -48,7 +76,6 @@
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
 > Task :spinnerdialog:compileDebugRenderscript NO-SOURCE
-> Task :spinnerdialog:generateDebugResValues
 > Task :spinnerdialog:generateDebugResources
 > Task :spinnerdialog:packageDebugResources
 > Task :app:mergeDebugResources
@@ -56,73 +83,63 @@
 > Task :app:processDebugManifest
 > Task :spinnerdialog:generateDebugRFile
 > Task :app:processDebugResources
-> Task :spinnerdialog:generateDebugBuildConfig
+> Task :spinnerdialog:generateDebugSources
+> Task :app:generateDebugSources
+> Task :app:mergeDebugShaders
 
 > Task :spinnerdialog:compileDebugKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.60/51aaa4c2a3dab2054bc1554d29632cc5510bdb4f/kotlin-stdlib-jre7-1.1.60.jar (version 1.1)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar (version 1.3)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.70/9318bb9dadaa56534ac8b0728a1ffa2bd0e48b28/kotlin-stdlib-jdk7-1.2.70.jar (version 1.2)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.10/ea29e063d2bbe695be13e9d044dcfb0c7add398e/kotlin-stdlib-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.10/6229be3465805c99db1142ad75e6c6ddeac0b04c/kotlin-stdlib-common-1.4.10.jar (version 1.4)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.60/51aaa4c2a3dab2054bc1554d29632cc5510bdb4f/kotlin-stdlib-jre7-1.1.60.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/models/SpinnerModel.kt: (14, 25): The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/multi/SpinnerDialogMultiSelectAdapter.kt: (44, 56): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/single/SpinnerDialogSingleSelectAdapter.kt: (44, 54): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/models/SpinnerModel.kt: (55, 25): The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/multi/SpinnerDialogMultiSelectAdapter.kt: (66, 56): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/single/SpinnerDialogSingleSelectAdapter.kt: (64, 56): Parameter 'view' is never used, could be renamed to _
 
-> Task :spinnerdialog:prepareLintJar
-> Task :spinnerdialog:generateDebugSources
 > Task :spinnerdialog:javaPreCompileDebug
-
 > Task :spinnerdialog:compileDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-8.5.1.jar (com.jakewharton:butterknife-compiler:8.5.1), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-
 > Task :spinnerdialog:bundleLibCompileDebug
 
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (78, 71): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (86, 70): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.10/ea29e063d2bbe695be13e9d044dcfb0c7add398e/kotlin-stdlib-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.10/6229be3465805c99db1142ad75e6c6ddeac0b04c/kotlin-stdlib-common-1.4.10.jar (version 1.4)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (74, 23): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (85, 23): 'getColor(Int): Int' is deprecated. Deprecated in Java
 
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :spinnerdialog:mergeDebugShaders
-> Task :spinnerdialog:compileDebugShaders
-> Task :spinnerdialog:generateDebugAssets
-> Task :spinnerdialog:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :app:checkDebugDuplicateClasses
 > Task :spinnerdialog:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.12/d3e1ce1d2b3119adf270b2d00d947beb03fe3321/okhttp-3.12.12.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.12/d3e1ce1d2b3119adf270b2d00d947beb03fe3321/okhttp-3.12.12.jar: D8: Type `android.net.ssl.SSLSockets` was not found, it is required for default or static interface methods desugaring of `void okhttp3.internal.platform.Android10Platform.enableSessionTickets(javax.net.ssl.SSLSocket)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.9/4be434f5e86c1998a273e7f19a7286440894f0b0/kotlinx-coroutines-core-1.3.9.jar: D8: Type `sun.misc.Signal` was not found, it is required for default or static interface methods desugaring of `void kotlinx.coroutines.debug.AgentPremain.installSignalHandler()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.9/4be434f5e86c1998a273e7f19a7286440894f0b0/kotlinx-coroutines-core-1.3.9.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `kotlinx.coroutines.debug.AgentPremain$DebugProbesTransformer` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.9/4be434f5e86c1998a273e7f19a7286440894f0b0/kotlinx-coroutines-core-1.3.9.jar: D8: Interface `sun.misc.SignalHandler` not found. It's needed to make sure desugaring of `kotlinx.coroutines.debug.AgentPremain$installSignalHandler$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/165c6850300bceb923c7532fe08fd744/jars/classes.jar: D8: Type `android.graphics.Insets` was not found, it is required for default or static interface methods desugaring of `android.graphics.Insets androidx.core.graphics.Insets.toPlatformInsets()`
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :spinnerdialog:processDebugJavaRes NO-SOURCE
 > Task :spinnerdialog:bundleLibResDebug
-> Task :spinnerdialog:mergeDebugJniLibFolders
-> Task :spinnerdialog:transformNativeLibsWithMergeJniLibsForDebug
-> Task :spinnerdialog:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :spinnerdialog:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
-> Task :spinnerdialog:preReleaseBuild UP-TO-DATE
-> Task :spinnerdialog:checkReleaseManifest
-> Task :spinnerdialog:processReleaseManifest
 > Task :app:preReleaseBuild
 > Task :spinnerdialog:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
-> Task :spinnerdialog:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
@@ -130,7 +147,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :spinnerdialog:compileReleaseRenderscript NO-SOURCE
-> Task :spinnerdialog:generateReleaseResValues
 > Task :spinnerdialog:generateReleaseResources
 > Task :spinnerdialog:packageReleaseResources
 > Task :app:mergeReleaseResources
@@ -138,31 +154,30 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/
 > Task :app:processReleaseManifest
 > Task :spinnerdialog:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :spinnerdialog:generateReleaseBuildConfig
 
 > Task :spinnerdialog:compileReleaseKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.60/51aaa4c2a3dab2054bc1554d29632cc5510bdb4f/kotlin-stdlib-jre7-1.1.60.jar (version 1.1)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar (version 1.3)
-    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.70/9318bb9dadaa56534ac8b0728a1ffa2bd0e48b28/kotlin-stdlib-jdk7-1.2.70.jar (version 1.2)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.10/ea29e063d2bbe695be13e9d044dcfb0c7add398e/kotlin-stdlib-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.10/6229be3465805c99db1142ad75e6c6ddeac0b04c/kotlin-stdlib-common-1.4.10.jar (version 1.4)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.1.60/51aaa4c2a3dab2054bc1554d29632cc5510bdb4f/kotlin-stdlib-jre7-1.1.60.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/models/SpinnerModel.kt: (14, 25): The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/multi/SpinnerDialogMultiSelectAdapter.kt: (44, 56): Parameter 'view' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/single/SpinnerDialogSingleSelectAdapter.kt: (44, 54): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/models/SpinnerModel.kt: (55, 25): The corresponding parameter in the supertype 'Any' is named 'other'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/multi/SpinnerDialogMultiSelectAdapter.kt: (66, 56): Parameter 'view' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/spinnerdialog/src/main/java/com/github/hamzaahmedkhan/spinnerdialog/ui/single/SpinnerDialogSingleSelectAdapter.kt: (64, 56): Parameter 'view' is never used, could be renamed to _
 
 > Task :spinnerdialog:generateReleaseSources
 > Task :spinnerdialog:javaPreCompileRelease
-
 > Task :spinnerdialog:compileReleaseJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-8.5.1.jar (com.jakewharton:butterknife-compiler:8.5.1), auto-service-1.0-rc2.jar (com.google.auto.service:auto-service:1.0-rc2).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-
 > Task :spinnerdialog:bundleLibCompileRelease
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (78, 71): 'getColor(Int): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (86, 70): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.4.10/ea29e063d2bbe695be13e9d044dcfb0c7add398e/kotlin-stdlib-1.4.10.jar (version 1.4)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.4.10/6229be3465805c99db1142ad75e6c6ddeac0b04c/kotlin-stdlib-common-1.4.10.jar (version 1.4)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (74, 23): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/src/main/java/com/github/hamzaahmedkhan/MainActivity.kt: (85, 23): 'getColor(Int): Int' is deprecated. Deprecated in Java
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -171,24 +186,21 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
-> Task :spinnerdialog:mergeReleaseShaders
-> Task :spinnerdialog:compileReleaseShaders
-> Task :spinnerdialog:generateReleaseAssets
-> Task :spinnerdialog:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:checkReleaseDuplicateClasses
 > Task :spinnerdialog:bundleLibRuntimeRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.12/d3e1ce1d2b3119adf270b2d00d947beb03fe3321/okhttp-3.12.12.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `java.security.Provider okhttp3.internal.platform.ConscryptPlatform.getProvider()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.12.12/d3e1ce1d2b3119adf270b2d00d947beb03fe3321/okhttp-3.12.12.jar: D8: Type `android.net.ssl.SSLSockets` was not found, it is required for default or static interface methods desugaring of `void okhttp3.internal.platform.Android10Platform.enableSessionTickets(javax.net.ssl.SSLSocket)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.9/4be434f5e86c1998a273e7f19a7286440894f0b0/kotlinx-coroutines-core-1.3.9.jar: D8: Type `sun.misc.Signal` was not found, it is required for default or static interface methods desugaring of `void kotlinx.coroutines.debug.AgentPremain.installSignalHandler()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.9/4be434f5e86c1998a273e7f19a7286440894f0b0/kotlinx-coroutines-core-1.3.9.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `kotlinx.coroutines.debug.AgentPremain$DebugProbesTransformer` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.9/4be434f5e86c1998a273e7f19a7286440894f0b0/kotlinx-coroutines-core-1.3.9.jar: D8: Interface `sun.misc.SignalHandler` not found. It's needed to make sure desugaring of `kotlinx.coroutines.debug.AgentPremain$installSignalHandler$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/165c6850300bceb923c7532fe08fd744/jars/classes.jar: D8: Type `android.graphics.Insets` was not found, it is required for default or static interface methods desugaring of `android.graphics.Insets androidx.core.graphics.Insets.toPlatformInsets()`
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :app:transformDexArchiveWithDexMergerForRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :spinnerdialog:processReleaseJavaRes NO-SOURCE
 > Task :spinnerdialog:bundleLibResRelease
-> Task :spinnerdialog:mergeReleaseJniLibFolders
-> Task :spinnerdialog:transformNativeLibsWithMergeJniLibsForRelease
-> Task :spinnerdialog:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :spinnerdialog:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
@@ -202,7 +214,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 53s
+BUILD SUCCESSFUL in 1m 30s
 91 actionable tasks: 91 executed
 
-2020-09-18 13:48:53,613 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411660935-0/src/SpinnerDialog-master/app/build/outputs/apk/debug/app-debug.apk
+2020-11-01 23:52:09,169 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249408770-0/src/SpinnerDialog-master/app/build/outputs/apk/debug/app-debug.apk

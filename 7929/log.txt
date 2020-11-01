@@ -1,48 +1,39 @@
-2020-09-11 01:28:15,043 INFO  DownloadService - Downloading "https://github.com/skydoves/doublelift/archive/master.zip", attempt 3
-2020-09-11 01:28:16,626 INFO  DownloadService - Downloaded https://github.com/skydoves/doublelift/archive/master.zip, attempt 3
-2020-09-11 01:28:16,626 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/master.zip": 159 KB
-2020-09-11 01:28:16,626 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-11 01:28:16,626 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/master.zip: true
-2020-09-11 01:28:16,627 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src'.
-2020-09-11 01:28:16,681 INFO  FullProcessService - Size of directory with sources: 210 KB
-2020-09-11 01:28:16,681 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src]
-2020-09-11 01:28:16,732 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/.git/
+2020-11-01 23:44:33,537 INFO  DownloadService - Downloading "https://github.com/skydoves/doublelift/archive/master.zip", attempt 3
+2020-11-01 23:44:35,197 INFO  DownloadService - Downloaded https://github.com/skydoves/doublelift/archive/master.zip, attempt 3
+2020-11-01 23:44:35,197 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/master.zip": 165 KB
+2020-11-01 23:44:35,197 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-01 23:44:35,198 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/master.zip: true
+2020-11-01 23:44:35,198 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src'.
+2020-11-01 23:44:35,221 INFO  FullProcessService - Size of directory with sources: 219 KB
+2020-11-01 23:44:35,221 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src]
+2020-11-01 23:44:35,247 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/.git/
 
-2020-09-11 01:28:16,737 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/gradlew
-2020-09-11 01:28:16,743 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/doublelift/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/build.gradle
-2020-09-11 01:28:16,750 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/doublelift/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/spotless.gradle
-2020-09-11 01:28:16,751 INFO  ProjectBuildService - Remote scripts: none
-2020-09-11 01:28:16,751 INFO  ProjectFixService - Fixing project...
-2020-09-11 01:28:16,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/local.properties
-2020-09-11 01:28:16,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:28:16,770 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:28:16,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/doublelift/local.properties
-2020-09-11 01:28:16,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/doublelift/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:28:16,779 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/doublelift/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:28:16,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/local.properties
-2020-09-11 01:28:16,781 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-09-11 01:28:16,782 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-09-11 01:28:16,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-09-11 01:28:16,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
-2020-09-11 01:28:16,790 INFO  ProjectFixService - Project was maybe fixed
-2020-09-11 01:28:16,790 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-11 01:28:16,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-11 01:28:25,994 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-09-11 01:28:25,994 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-11 01:28:25,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-11 01:28:32,798 INFO  VirusProcessorServiceImpl - Queued project 7932 to scan viruses
-2020-09-11 01:29:42,306 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :doublelift
-WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
+2020-11-01 23:44:35,250 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/gradlew
+2020-11-01 23:44:35,253 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/doublelift/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/build.gradle
+2020-11-01 23:44:35,256 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/doublelift/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/spotless.gradle
+2020-11-01 23:44:35,257 INFO  ProjectBuildService - Remote scripts: none
+2020-11-01 23:44:35,258 INFO  ProjectFixService - Fixing project...
+2020-11-01 23:44:35,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/local.properties
+2020-11-01 23:44:35,269 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-01 23:44:35,270 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-01 23:44:35,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/doublelift/local.properties
+2020-11-01 23:44:35,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/doublelift/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-01 23:44:35,277 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/doublelift/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-01 23:44:35,278 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/local.properties
+2020-11-01 23:44:35,279 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.6.1-all.zip
+2020-11-01 23:44:35,279 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-6.6.1-bin.zip)
+2020-11-01 23:44:35,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-11-01 23:44:35,283 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=30,targetSdkVersion=30]
+2020-11-01 23:44:35,284 INFO  ProjectFixService - Project was maybe fixed
+2020-11-01 23:44:35,284 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:44:35,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:44:50,887 INFO  VirusProcessorServiceImpl - Queued project 7932 to scan viruses
+2020-11-01 23:44:53,631 INFO  ProjectTaskService - Detected possible tasks: 71
+2020-11-01 23:44:53,631 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-01 23:44:53,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-01 23:46:03,280 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.6.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :doublelift:preBuild UP-TO-DATE
@@ -52,11 +43,10 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :doublelift:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :doublelift:generateDebugResValues
 > Task :doublelift:compileDebugRenderscript NO-SOURCE
+> Task :doublelift:generateDebugResValues
 > Task :doublelift:generateDebugResources
 > Task :doublelift:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
@@ -64,113 +54,118 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :doublelift:extractDeepLinksDebug
 > Task :doublelift:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
-> Task :doublelift:compileDebugLibraryResources
-> Task :doublelift:parseDebugLocalResources
 > Task :doublelift:generateDebugBuildConfig
+> Task :doublelift:parseDebugLocalResources
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :doublelift:mergeDebugShaders
-> Task :doublelift:compileDebugShaders
-> Task :doublelift:generateDebugAssets
+> Task :doublelift:compileDebugShaders NO-SOURCE
+> Task :doublelift:generateDebugAssets UP-TO-DATE
 > Task :doublelift:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :doublelift:generateDebugRFile
-> Task :app:processDebugResources
-> Task :doublelift:compileDebugKotlin
-> Task :doublelift:javaPreCompileDebug
-> Task :doublelift:compileDebugJavaWithJavac
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :doublelift:processDebugJavaRes NO-SOURCE
-> Task :doublelift:bundleLibResDebug
-> Task :doublelift:bundleLibRuntimeDebug
-> Task :doublelift:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:checkDebugDuplicateClasses
-> Task :app:dexBuilderDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :doublelift:mergeDebugJniLibFolders
-> Task :doublelift:mergeDebugNativeLibs
-> Task :doublelift:stripDebugDebugSymbols
-> Task :doublelift:copyDebugJniLibsProjectOnly
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
+> Task :app:javaPreCompileDebug
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :doublelift:preReleaseBuild UP-TO-DATE
 > Task :doublelift:compileReleaseAidl NO-SOURCE
+> Task :doublelift:generateDebugRFile
+> Task :doublelift:compileDebugKotlin
+> Task :doublelift:mergeDebugNativeLibs
+> Task :doublelift:stripDebugDebugSymbols NO-SOURCE
+> Task :doublelift:copyDebugJniLibsProjectOnly
 > Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:mergeDebugResources
 > Task :doublelift:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:generateReleaseBuildConfig
-> Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :doublelift:compileReleaseRenderscript NO-SOURCE
 > Task :doublelift:generateReleaseResValues
 > Task :doublelift:generateReleaseResources
 > Task :doublelift:packageReleaseResources
+> Task :doublelift:bundleLibResDebug
+> Task :doublelift:javaPreCompileDebug
+> Task :doublelift:compileDebugJavaWithJavac
+> Task :doublelift:compileDebugLibraryResources
+> Task :app:processDebugResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :doublelift:extractDeepLinksRelease
-> Task :doublelift:compileReleaseLibraryResources
+> Task :doublelift:bundleLibCompileToJarDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :doublelift:processReleaseManifest
+> Task :app:dexBuilderDebug
+> Task :app:processReleaseManifest
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:mergeReleaseResources
 > Task :doublelift:generateReleaseBuildConfig
-> Task :doublelift:parseReleaseLocalResources
-> Task :doublelift:processReleaseManifest
-> Task :app:processReleaseManifest
 > Task :app:prepareLintJar
+> Task :app:mergeDebugJavaResource
 > Task :app:checkReleaseDuplicateClasses
-> Task :doublelift:prepareLintJarForPublish
-> Task :doublelift:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :doublelift:compileReleaseKotlin
-> Task :doublelift:javaPreCompileRelease
-> Task :doublelift:compileReleaseJavaWithJavac
-> Task :doublelift:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
-> Task :doublelift:bundleLibRuntimeRelease
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
-> Task :app:lintVitalRelease
-> Task :app:dexBuilderRelease
 > Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :doublelift:mergeReleaseShaders
-> Task :doublelift:compileReleaseShaders
-> Task :doublelift:generateReleaseAssets
+> Task :doublelift:compileReleaseShaders NO-SOURCE
+> Task :doublelift:generateReleaseAssets UP-TO-DATE
 > Task :doublelift:packageReleaseAssets
 > Task :app:mergeReleaseAssets
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :doublelift:processReleaseJavaRes NO-SOURCE
-> Task :doublelift:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :doublelift:mergeReleaseJniLibFolders
+> Task :doublelift:compileReleaseLibraryResources
+> Task :app:javaPreCompileRelease
+> Task :doublelift:prepareLintJarForPublish
+> Task :doublelift:bundleLibRuntimeToJarDebug
+> Task :doublelift:javaPreCompileRelease
 > Task :doublelift:mergeReleaseNativeLibs
-> Task :doublelift:stripReleaseDebugSymbols
+> Task :doublelift:stripReleaseDebugSymbols NO-SOURCE
 > Task :doublelift:copyReleaseJniLibsProjectOnly
-> Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :doublelift:parseReleaseLocalResources
+> Task :doublelift:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :doublelift:compileReleaseKotlin
+> Task :doublelift:compileReleaseJavaWithJavac
+> Task :app:mergeExtDexRelease
+> Task :doublelift:bundleLibCompileToJarRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease
+> Task :app:dexBuilderRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :doublelift:bundleLibRuntimeToJarRelease
+> Task :doublelift:bundleLibResRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 15s
-92 actionable tasks: 92 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.6.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2020-09-11 01:29:42,379 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1599762495040-0/src/DoubleLift-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 1m 9s
+84 actionable tasks: 84 executed
+
+2020-11-01 23:46:03,362 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249073529-0/src/DoubleLift-master/app/build/outputs/apk/debug/app-debug.apk

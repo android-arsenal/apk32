@@ -1,38 +1,34 @@
-2019-09-28 21:24:47,025 INFO  DownloadService - Downloading "https://github.com/BilalSiddiqui/AddressPicker/archive/master.zip", attempt 3
-2019-09-28 21:24:48,297 INFO  DownloadService - Downloaded https://github.com/BilalSiddiqui/AddressPicker/archive/master.zip, attempt 3
-2019-09-28 21:24:48,298 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/master.zip": 851 KB
-2019-09-28 21:24:48,298 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-28 21:24:48,300 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/master.zip: true
-2019-09-28 21:24:48,300 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src'.
-2019-09-28 21:24:48,329 INFO  FullProcessService - Size of directory with sources: 904 KB
-2019-09-28 21:24:48,329 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src]
-2019-09-28 21:24:52,037 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/.git/
+2020-11-01 23:52:09,846 INFO  DownloadService - Downloading "https://github.com/BilalSiddiqui/AddressPicker/archive/master.zip", attempt 3
+2020-11-01 23:52:12,027 INFO  DownloadService - Downloaded https://github.com/BilalSiddiqui/AddressPicker/archive/master.zip, attempt 3
+2020-11-01 23:52:12,027 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/master.zip": 851 KB
+2020-11-01 23:52:12,027 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-01 23:52:12,028 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/master.zip: true
+2020-11-01 23:52:12,028 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src'.
+2020-11-01 23:52:12,057 INFO  FullProcessService - Size of directory with sources: 904 KB
+2020-11-01 23:52:12,057 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src]
+2020-11-01 23:52:12,082 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/.git/
 
-2019-09-28 21:24:52,040 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/gradlew
-2019-09-28 21:24:52,044 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/build.gradle
-2019-09-28 21:24:52,050 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/settings.gradle
-2019-09-28 21:24:52,051 INFO  ProjectBuildService - Remote scripts: none
-2019-09-28 21:24:52,051 INFO  ProjectFixService - Fixing project...
-2019-09-28 21:24:52,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/local.properties
-2019-09-28 21:24:52,063 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-28 21:24:52,063 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-28 21:24:52,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/local.properties
-2019-09-28 21:24:52,066 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-28 21:24:52,066 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-28 21:24:52,068 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/local.properties
-2019-09-28 21:24:52,069 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-09-28 21:24:52,069 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-09-28 21:24:52,070 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-09-28 21:24:52,071 INFO  ProjectFixService - Project was maybe fixed
-2019-09-28 21:24:52,071 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-28 21:24:52,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-28 21:25:01,382 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-09-28 21:25:01,382 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-09-28 21:25:01,383 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-09-28 21:25:33,717 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2020-11-01 23:52:12,086 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/gradlew
+2020-11-01 23:52:12,090 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/build.gradle
+2020-11-01 23:52:12,094 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/settings.gradle
+2020-11-01 23:52:12,094 INFO  ProjectBuildService - Remote scripts: none
+2020-11-01 23:52:12,094 INFO  ProjectFixService - Fixing project...
+2020-11-01 23:52:12,103 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/local.properties
+2020-11-01 23:52:12,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-11-01 23:52:12,104 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/sample/local.properties
+2020-11-01 23:52:12,104 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/sample/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-11-01 23:52:12,105 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/local.properties
+2020-11-01 23:52:12,106 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-11-01 23:52:12,106 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-11-01 23:52:12,107 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-11-01 23:52:12,107 INFO  ProjectFixService - Project was maybe fixed
+2020-11-01 23:52:12,107 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:52:12,107 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:52:20,295 INFO  ProjectTaskService - Detected possible tasks: 63
+2020-11-01 23:52:20,295 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-11-01 23:52:20,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-11-01 23:52:27,317 INFO  VirusProcessorServiceImpl - Queued project 7884 to scan viruses
+2020-11-01 23:52:46,745 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :addresspicker:preBuild UP-TO-DATE
 > Task :addresspicker:preDebugBuild UP-TO-DATE
 > Task :addresspicker:checkDebugManifest
@@ -43,7 +39,6 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :addresspicker:generateDebugAssets
 > Task :addresspicker:packageDebugAssets
 > Task :addresspicker:packageDebugRenderscript NO-SOURCE
-> Task :addresspicker:prepareLintJarForPublish
 > Task :addresspicker:processDebugJavaRes NO-SOURCE
 > Task :addresspicker:mergeDebugJniLibFolders
 > Task :addresspicker:preReleaseBuild UP-TO-DATE
@@ -61,12 +56,13 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :addresspicker:mergeDebugNativeLibs
 > Task :addresspicker:stripDebugDebugSymbols
 > Task :addresspicker:mergeReleaseNativeLibs
-> Task :addresspicker:processReleaseManifest
 > Task :addresspicker:transformNativeLibsWithSyncJniLibsForDebug
 > Task :addresspicker:stripReleaseDebugSymbols
 > Task :addresspicker:transformNativeLibsWithSyncJniLibsForRelease
-> Task :addresspicker:compileDebugAidl NO-SOURCE
+> Task :addresspicker:prepareLintJarForPublish
+> Task :addresspicker:processReleaseManifest
 > Task :addresspicker:compileDebugRenderscript NO-SOURCE
+> Task :addresspicker:compileDebugAidl NO-SOURCE
 > Task :addresspicker:generateDebugResources
 > Task :addresspicker:packageDebugResources
 > Task :addresspicker:compileReleaseAidl NO-SOURCE
@@ -79,32 +75,32 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :addresspicker:generateDebugRFile
 
 > Task :addresspicker:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (154, 66): Unchecked cast: Serializable! to ArrayList<Pin>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (659, 41): 'APPLICATION_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (154, 66): Unchecked cast: Serializable! to ArrayList<Pin>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (659, 41): 'APPLICATION_ID: String' is deprecated. Deprecated in Java
 
 > Task :addresspicker:verifyReleaseResources
-> Task :addresspicker:generateReleaseRFile
-
-> Task :addresspicker:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (154, 66): Unchecked cast: Serializable! to ArrayList<Pin>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (659, 41): 'APPLICATION_ID: String' is deprecated. Deprecated in Java
-
 > Task :addresspicker:javaPreCompileDebug
 > Task :addresspicker:compileDebugJavaWithJavac
 > Task :addresspicker:extractDebugAnnotations
 > Task :addresspicker:mergeDebugGeneratedProguardFiles
 > Task :addresspicker:mergeDebugConsumerProguardFiles
 > Task :addresspicker:compileDebugSources
+> Task :addresspicker:generateReleaseRFile
+
+> Task :addresspicker:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (154, 66): Unchecked cast: Serializable! to ArrayList<Pin>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/addresspicker/src/main/java/com/smartlib/addresspicker/AddressPickerActivity.kt: (659, 41): 'APPLICATION_ID: String' is deprecated. Deprecated in Java
+
+> Task :addresspicker:mergeDebugJavaResource
+> Task :addresspicker:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :addresspicker:bundleDebugAar
+> Task :addresspicker:assembleDebug
 > Task :addresspicker:javaPreCompileRelease
 > Task :addresspicker:compileReleaseJavaWithJavac
 > Task :addresspicker:extractReleaseAnnotations
 > Task :addresspicker:mergeReleaseGeneratedProguardFiles
 > Task :addresspicker:mergeReleaseConsumerProguardFiles
 > Task :addresspicker:compileReleaseSources
-> Task :addresspicker:mergeDebugJavaResource
-> Task :addresspicker:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :addresspicker:bundleDebugAar
-> Task :addresspicker:assembleDebug
 > Task :addresspicker:mergeReleaseJavaResource
 > Task :addresspicker:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :addresspicker:bundleReleaseAar
@@ -116,21 +112,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 25s
 49 actionable tasks: 49 executed
 
-2019-09-28 21:25:33,783 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-28 21:25:33,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-28 21:25:41,411 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-09-28 21:25:41,411 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-09-28 21:25:41,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-09-28 21:26:50,747 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
-WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.5.0.
-Android SDK Build Tools 28.0.3 will be used.
-To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+2020-11-01 23:52:46,807 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:52:46,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:52:52,282 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-11-01 23:52:52,282 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-01 23:52:52,282 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-01 23:54:24,148 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :addresspicker:preBuild UP-TO-DATE
 > Task :addresspicker:preDebugBuild UP-TO-DATE
 > Task :addresspicker:compileDebugAidl NO-SOURCE
@@ -148,10 +138,10 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :addresspicker:compileDebugJavaWithJavac UP-TO-DATE
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild UP-TO-DATE
-> Task :sample:compileDebugAidl NO-SOURCE
 > Task :addresspicker:packageDebugRenderscript NO-SOURCE
-> Task :sample:checkDebugManifest
+> Task :sample:compileDebugAidl NO-SOURCE
 > Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
 > Task :addresspicker:bundleLibCompileDebug
 > Task :sample:mainApkListPersistenceDebug
@@ -211,25 +201,28 @@ To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your buil
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:createReleaseCompatibleScreenManifests
-> Task :sample:processReleaseManifest
 > Task :sample:mergeDebugNativeLibs
 > Task :sample:stripDebugDebugSymbols
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
 > Task :addresspicker:bundleLibCompileRelease
+> Task :addresspicker:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :addresspicker:processReleaseJavaRes NO-SOURCE
+> Task :sample:checkReleaseDuplicateClasses
+> Task :addresspicker:bundleLibResRelease
+> Task :addresspicker:bundleLibRuntimeRelease
+> Task :addresspicker:createFullJarRelease
 > Task :sample:mergeReleaseResources
 > Task :sample:processReleaseResources
 > Task :sample:compileReleaseKotlin
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
-> Task :addresspicker:prepareLintJarForPublish UP-TO-DATE
-> Task :sample:prepareLintJar
+
 > Task :sample:lintVitalRelease
-> Task :addresspicker:processReleaseJavaRes NO-SOURCE
-> Task :sample:checkReleaseDuplicateClasses
-> Task :addresspicker:bundleLibResRelease
-> Task :addresspicker:bundleLibRuntimeRelease
-> Task :addresspicker:createFullJarRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/69a808748e99cbba397676b44fb48d56/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :sample:mergeExtDexDebug
 > Task :sample:mergeDexDebug
 > Task :sample:packageDebug
@@ -264,7 +257,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 8s
+BUILD SUCCESSFUL in 1m 31s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2019-09-28 21:26:50,891 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569680687019-0/src/AddressPicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-11-01 23:54:24,293 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249529843-0/src/AddressPicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

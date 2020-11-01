@@ -1,42 +1,36 @@
-2020-09-18 14:56:11,699 INFO  DownloadService - Downloading "https://github.com/exozet/Geolocator/archive/master.zip", attempt 3
-2020-09-18 14:56:13,803 INFO  DownloadService - Downloaded https://github.com/exozet/Geolocator/archive/master.zip, attempt 3
-2020-09-18 14:56:13,804 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/master.zip": 718 KB
-2020-09-18 14:56:13,804 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 14:56:13,817 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/master.zip: true
-2020-09-18 14:56:13,822 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src'.
-2020-09-18 14:56:13,882 INFO  FullProcessService - Size of directory with sources: 783 KB
-2020-09-18 14:56:13,887 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src]
-2020-09-18 14:56:13,950 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/.git/
+2020-11-01 23:54:58,443 INFO  DownloadService - Downloading "https://github.com/exozet/Geolocator/archive/master.zip", attempt 3
+2020-11-01 23:54:59,111 INFO  DownloadService - Downloaded https://github.com/exozet/Geolocator/archive/master.zip, attempt 3
+2020-11-01 23:54:59,111 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/master.zip": 719 KB
+2020-11-01 23:54:59,112 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-01 23:54:59,112 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/master.zip: true
+2020-11-01 23:54:59,112 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src'.
+2020-11-01 23:54:59,142 INFO  FullProcessService - Size of directory with sources: 786 KB
+2020-11-01 23:54:59,142 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src]
+2020-11-01 23:54:59,173 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/.git/
 
-2020-09-18 14:56:13,974 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/gradlew
-2020-09-18 14:56:13,998 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Geolocator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle
-2020-09-18 14:56:14,008 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Geolocator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/settings.gradle
-2020-09-18 14:56:14,018 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 14:56:14,018 INFO  ProjectFixService - Fixing project...
-2020-09-18 14:56:14,104 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
-2020-09-18 14:56:14,104 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
-2020-09-18 14:56:14,108 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 29.0.3 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
-2020-09-18 14:56:14,110 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 29.0.3 28.0.0-rc1 28.0.0-rc2
-2020-09-18 14:56:14,115 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 30 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
-2020-09-18 14:56:14,116 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
-2020-09-18 14:56:14,117 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Geolocator/local.properties
-2020-09-18 14:56:14,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Geolocator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-09-18 14:56:14,141 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Geolocator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2020-09-18 14:56:14,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/app/local.properties
-2020-09-18 14:56:14,148 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-09-18 14:56:14,149 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2020-09-18 14:56:14,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/local.properties
-2020-09-18 14:56:14,152 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5.1-bin.zip
-2020-09-18 14:56:14,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2020-09-18 14:56:14,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
-2020-09-18 14:56:14,159 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 14:56:14,162 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 14:56:14,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Geolocator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 14:56:22,766 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-09-18 14:56:22,767 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-09-18 14:56:22,767 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-09-18 14:56:22,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Geolocator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-09-18 14:56:29,944 ERROR SysUtils - Could not process external command
+2020-11-01 23:54:59,177 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/gradlew
+2020-11-01 23:54:59,182 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Geolocator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle
+2020-11-01 23:54:59,187 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Geolocator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/settings.gradle
+2020-11-01 23:54:59,187 INFO  ProjectBuildService - Remote scripts: none
+2020-11-01 23:54:59,188 INFO  ProjectFixService - Fixing project...
+2020-11-01 23:54:59,200 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Geolocator/local.properties
+2020-11-01 23:54:59,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Geolocator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-11-01 23:54:59,204 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Geolocator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-11-01 23:54:59,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/app/local.properties
+2020-11-01 23:54:59,210 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-11-01 23:54:59,210 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-11-01 23:54:59,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/local.properties
+2020-11-01 23:54:59,212 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5.1-bin.zip
+2020-11-01 23:54:59,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2020-11-01 23:54:59,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=21,targetSdkVersion=30]
+2020-11-01 23:54:59,217 INFO  ProjectFixService - Project was maybe fixed
+2020-11-01 23:54:59,217 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:54:59,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Geolocator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:55:06,305 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-11-01 23:55:06,305 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-11-01 23:55:06,305 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-11-01 23:55:06,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Geolocator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-11-01 23:55:10,541 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -64,18 +58,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-09-18 14:56:29,945 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5.1/userguide/gradle_daemon.html.
+2020-11-01 23:55:10,541 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating root project 'Geolocator-master'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -205,7 +199,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:132)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:101)
 	at org.gradle.internal.resource.CachingTextResource.getContentHash(CachingTextResource.java:89)
@@ -235,29 +229,29 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:196)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:130)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_90om5pnubvbo5l2s6gykf4iu0$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle:3)
+	at build_9i62tuj2rmkzz605xytrc7mn4$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle:3)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
 	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1245)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:47)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_90om5pnubvbo5l2s6gykf4iu0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle:1)
+	at build_9i62tuj2rmkzz605xytrc7mn4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 122 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 3s
 
-2020-09-18 14:56:29,963 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 14:56:29,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 14:56:38,698 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-09-18 14:56:38,699 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-09-18 14:56:38,699 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-09-18 14:56:38,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-09-18 14:56:46,024 ERROR SysUtils - Could not process external command
+2020-11-01 23:55:10,549 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:55:10,549 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:55:14,461 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-11-01 23:55:14,461 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-11-01 23:55:14,461 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-11-01 23:55:14,462 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-11-01 23:55:18,652 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -285,18 +279,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-09-18 14:56:46,025 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5.1/userguide/gradle_daemon.html.
+2020-11-01 23:55:18,653 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating root project 'Geolocator-master'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -426,7 +420,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:132)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:101)
 	at org.gradle.internal.resource.CachingTextResource.getContentHash(CachingTextResource.java:89)
@@ -456,29 +450,29 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:196)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:130)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_90om5pnubvbo5l2s6gykf4iu0$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle:3)
+	at build_9i62tuj2rmkzz605xytrc7mn4$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle:3)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
 	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1245)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:47)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_90om5pnubvbo5l2s6gykf4iu0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle:1)
+	at build_9i62tuj2rmkzz605xytrc7mn4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 122 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 3s
 
-2020-09-18 14:56:46,040 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 14:56:46,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 14:56:53,560 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-09-18 14:56:53,560 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-09-18 14:56:53,560 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-09-18 14:56:53,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-09-18 14:57:01,927 ERROR SysUtils - Could not process external command
+2020-11-01 23:55:18,659 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-01 23:55:18,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-01 23:55:23,090 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-11-01 23:55:23,091 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-11-01 23:55:23,091 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-11-01 23:55:23,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-11-01 23:55:27,455 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -506,18 +500,18 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-09-18 14:57:01,928 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5.1/userguide/gradle_daemon.html.
+2020-11-01 23:55:27,456 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/6.5.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating root project 'Geolocator-master'.
-> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+> Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -647,7 +641,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating root project
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
+Caused by: org.gradle.api.resources.MissingResourceException: Could not read script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/Android-Dependencies/dependencies.gradle' as it does not exist.
 	at org.gradle.internal.resource.UriTextResource.getText(UriTextResource.java:132)
 	at org.gradle.internal.resource.CachingTextResource.maybeFetch(CachingTextResource.java:101)
 	at org.gradle.internal.resource.CachingTextResource.getContentHash(CachingTextResource.java:89)
@@ -677,21 +671,21 @@ Caused by: org.gradle.api.resources.MissingResourceException: Could not read scr
 	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:196)
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:130)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:77)
-	at build_90om5pnubvbo5l2s6gykf4iu0$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle:3)
+	at build_9i62tuj2rmkzz605xytrc7mn4$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle:3)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:71)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
 	at org.gradle.api.internal.project.DefaultProject.buildscript(DefaultProject.java:1245)
 	at org.gradle.api.internal.project.ProjectScript.buildscript(ProjectScript.java:47)
 	at org.gradle.api.Script$buildscript.callCurrent(Unknown Source)
-	at build_90om5pnubvbo5l2s6gykf4iu0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600415771589-0/src/Geolocator-master/build.gradle:1)
+	at build_9i62tuj2rmkzz605xytrc7mn4.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1604249698440-0/src/Geolocator-master/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 122 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 3s
 
-2020-09-18 14:57:01,939 ERROR FullProcessService - Project build has not produced APK file
-2020-09-18 14:57:01,948 ERROR FullProcessService - Could not find generated or existed APK file
+2020-11-01 23:55:27,462 ERROR FullProcessService - Project build has not produced APK file
+2020-11-01 23:55:27,470 ERROR FullProcessService - Could not find generated or existed APK file
