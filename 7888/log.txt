@@ -1,39 +1,39 @@
-2020-09-18 13:43:32,518 INFO  DownloadService - Downloading "https://github.com/OmarShehe/FormInputs/archive/master.zip", attempt 3
-2020-09-18 13:43:33,417 INFO  DownloadService - Downloaded https://github.com/OmarShehe/FormInputs/archive/master.zip, attempt 3
-2020-09-18 13:43:33,418 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/master.zip": 1 MB
-2020-09-18 13:43:33,418 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 13:43:33,418 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/master.zip: true
-2020-09-18 13:43:33,419 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src'.
-2020-09-18 13:43:33,481 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-09-18 13:43:33,481 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src]
-2020-09-18 13:43:33,501 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/.git/
+2020-11-11 03:12:14,116 INFO  DownloadService - Downloading "https://github.com/OmarShehe/FormInputs/archive/master.zip", attempt 3
+2020-11-11 03:12:15,103 INFO  DownloadService - Downloaded https://github.com/OmarShehe/FormInputs/archive/master.zip, attempt 3
+2020-11-11 03:12:15,103 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/master.zip": 1 MB
+2020-11-11 03:12:15,103 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-11 03:12:15,104 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/master.zip: true
+2020-11-11 03:12:15,105 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src'.
+2020-11-11 03:12:15,235 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-11-11 03:12:15,235 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src]
+2020-11-11 03:12:15,271 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/.git/
 
-2020-09-18 13:43:33,507 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/gradlew
-2020-09-18 13:43:33,514 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/build.gradle
-2020-09-18 13:43:33,520 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputjava/build.gradle
-2020-09-18 13:43:33,520 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 13:43:33,520 INFO  ProjectFixService - Fixing project...
-2020-09-18 13:43:33,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/local.properties
-2020-09-18 13:43:33,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,535 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,536 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputjava/local.properties
-2020-09-18 13:43:33,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,538 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/local.properties
-2020-09-18 13:43:33,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,540 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,540 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/local.properties
-2020-09-18 13:43:33,541 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.6.1-bin.zip
-2020-09-18 13:43:33,542 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,542 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:43:33,543 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 13:43:33,543 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 13:43:33,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 13:43:39,612 INFO  VirusProcessorServiceImpl - Queued project 7890 to scan viruses
-2020-09-18 13:44:25,795 INFO  ProjectTaskService - Detected possible tasks: 73
-2020-09-18 13:44:25,796 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-18 13:44:25,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-18 13:46:23,544 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-11 03:12:15,285 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/gradlew
+2020-11-11 03:12:15,300 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputjava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/build.gradle
+2020-11-11 03:12:15,313 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputjava/build.gradle
+2020-11-11 03:12:15,314 INFO  ProjectBuildService - Remote scripts: none
+2020-11-11 03:12:15,314 INFO  ProjectFixService - Fixing project...
+2020-11-11 03:12:15,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/local.properties
+2020-11-11 03:12:15,337 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,338 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,340 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputjava/local.properties
+2020-11-11 03:12:15,342 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,343 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputjava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/local.properties
+2020-11-11 03:12:15,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/local.properties
+2020-11-11 03:12:15,348 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.6.1-bin.zip
+2020-11-11 03:12:15,351 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-11-11 03:12:15,352 INFO  ProjectFixService - Project was maybe fixed
+2020-11-11 03:12:15,352 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-11 03:12:15,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-11 03:12:22,263 INFO  VirusProcessorServiceImpl - Queued project 7890 to scan viruses
+2020-11-11 03:12:39,004 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-11-11 03:12:39,004 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-11 03:12:39,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-11 03:14:43,345 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
@@ -68,10 +68,10 @@ It will be removed in version 5.0 of the Android Gradle plugin.
 
 > Task :forminputkotlin:compileDebugLibraryResources
 > Task :app:dataBindingGenBaseClassesDebug
-> Task :app:checkDebugAarMetadata
 > Task :app:processDebugMainManifest
 > Task :app:processDebugManifest
 > Task :forminputkotlin:generateDebugBuildConfig
+> Task :app:processDebugManifestForPackage
 > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
 > Task :app:javaPreCompileDebug
 > Task :app:mergeDebugShaders
@@ -93,20 +93,20 @@ It will be removed in version 5.0 of the Android Gradle plugin.
 > Task :app:mergeExtDexDebug
 > Task :forminputkotlin:kaptGenerateStubsDebugKotlin
 > Task :forminputkotlin:kaptDebugKotlin
-> Task :app:processDebugManifestForPackage
 
 > Task :forminputkotlin:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinner.kt: (174, 46): Parameter 'listener' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (80, 13): Name shadowed: convertView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinner.kt: (174, 46): Parameter 'listener' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (80, 13): Name shadowed: convertView
 
 > Task :forminputkotlin:compileDebugJavaWithJavac
 > Task :forminputkotlin:bundleLibResDebug
+> Task :forminputkotlin:bundleLibCompileToJarDebug
+> Task :app:checkDebugAarMetadata
+> Task :forminputkotlin:bundleLibRuntimeToJarDebug
 > Task :forminputkotlin:mergeDebugJniLibFolders
 > Task :forminputkotlin:mergeDebugNativeLibs NO-SOURCE
 > Task :forminputkotlin:stripDebugDebugSymbols NO-SOURCE
-> Task :forminputkotlin:bundleLibRuntimeToJarDebug
 > Task :forminputkotlin:copyDebugJniLibsProjectOnly
-> Task :forminputkotlin:bundleLibCompileToJarDebug
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :forminputkotlin:preReleaseBuild UP-TO-DATE
@@ -117,43 +117,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/
 > Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols NO-SOURCE
 > Task :app:generateReleaseResources
 > Task :forminputkotlin:compileReleaseRenderscript NO-SOURCE
 > Task :forminputkotlin:generateReleaseResValues
 > Task :forminputkotlin:generateReleaseResources
 > Task :forminputkotlin:packageReleaseResources
-> Task :app:generateReleaseBuildConfig
-> Task :forminputkotlin:writeReleaseAarMetadata
-> Task :app:checkReleaseAarMetadata
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:extractDeepLinksRelease
-> Task :forminputkotlin:extractDeepLinksRelease
-> Task :forminputkotlin:processReleaseManifest
-> Task :forminputkotlin:compileReleaseLibraryResources
-> Task :forminputkotlin:parseReleaseLocalResources
-> Task :app:processReleaseMainManifest
-> Task :app:processReleaseManifest
-> Task :forminputkotlin:generateReleaseBuildConfig
-> Task :app:javaPreCompileRelease
-> Task :app:writeReleaseApplicationId
-> Task :app:analyticsRecordingRelease
-> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
-> Task :app:mergeReleaseShaders
-> Task :forminputkotlin:prepareLintJarForPublish
-> Task :app:compileReleaseShaders NO-SOURCE
-> Task :forminputkotlin:generateReleaseRFile
-> Task :app:generateReleaseAssets UP-TO-DATE
-> Task :forminputkotlin:mergeReleaseShaders
-> Task :forminputkotlin:compileReleaseShaders NO-SOURCE
-> Task :forminputkotlin:generateReleaseAssets UP-TO-DATE
-> Task :forminputkotlin:packageReleaseAssets
-> Task :app:mergeReleaseAssets
-> Task :app:compressReleaseAssets
 > Task :app:processDebugResources
-> Task :app:processReleaseManifestForPackage
-> Task :app:checkReleaseDuplicateClasses
 
 > Task :app:mergeReleaseResources
 /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c7ab2324d25cc23912bf54e9a68ea50e/material-1.2.1/res/values/values.xml:394:4: Multiple substitutions specified in non-positional format of string resource string/label. Did you mean to add the formatted="false" attribute?
@@ -162,13 +131,58 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/
 > Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
-> Task :app:dexBuilderDebug
 > Task :app:dataBindingGenBaseClassesRelease
-> Task :app:desugarReleaseFileDependencies
+> Task :app:generateReleaseBuildConfig
+> Task :forminputkotlin:writeReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :forminputkotlin:extractDeepLinksRelease
+> Task :forminputkotlin:processReleaseManifest
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugNativeLibs
+> Task :app:processReleaseMainManifest
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :app:checkReleaseAarMetadata
+> Task :forminputkotlin:generateReleaseBuildConfig
 > Task :app:mergeDebugJavaResource
+> Task :forminputkotlin:compileReleaseLibraryResources
+> Task :app:javaPreCompileRelease
+> Task :app:writeReleaseApplicationId
+> Task :app:analyticsRecordingRelease
+> Task :forminputkotlin:parseReleaseLocalResources
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :forminputkotlin:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :forminputkotlin:mergeReleaseShaders
+> Task :forminputkotlin:compileReleaseShaders NO-SOURCE
+> Task :forminputkotlin:generateReleaseAssets UP-TO-DATE
+> Task :forminputkotlin:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :forminputkotlin:generateReleaseRFile
+> Task :app:desugarReleaseFileDependencies
+> Task :app:checkReleaseDuplicateClasses
+> Task :forminputkotlin:kaptGenerateStubsReleaseKotlin
+> Task :forminputkotlin:kaptReleaseKotlin
+> Task :app:processReleaseResources
 > Task :app:mergeDexDebug
+
+> Task :forminputkotlin:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinner.kt: (174, 46): Parameter 'listener' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (80, 13): Name shadowed: convertView
+
+> Task :forminputkotlin:compileReleaseJavaWithJavac
+> Task :forminputkotlin:bundleLibCompileToJarRelease
+> Task :forminputkotlin:bundleLibRuntimeToJarRelease
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :forminputkotlin:processReleaseJavaRes NO-SOURCE
+> Task :forminputkotlin:bundleLibResRelease
 > Task :app:collectReleaseDependencies
 > Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
@@ -176,21 +190,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/
 > Task :forminputkotlin:mergeReleaseNativeLibs NO-SOURCE
 > Task :forminputkotlin:stripReleaseDebugSymbols NO-SOURCE
 > Task :forminputkotlin:copyReleaseJniLibsProjectOnly
-> Task :forminputkotlin:kaptGenerateStubsReleaseKotlin
-> Task :forminputkotlin:kaptReleaseKotlin
 > Task :app:mergeExtDexRelease
-> Task :app:processReleaseResources
-
-> Task :forminputkotlin:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/FormInputSpinner.kt: (174, 46): Parameter 'listener' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/forminputkotlin/src/main/java/com/omarshehe/forminputkotlin/adapter/AutoCompleteAdapter.kt: (80, 13): Name shadowed: convertView
-
-> Task :forminputkotlin:compileReleaseJavaWithJavac
-> Task :forminputkotlin:bundleLibCompileToJarRelease
-> Task :forminputkotlin:bundleLibResRelease
-> Task :forminputkotlin:bundleLibRuntimeToJarRelease
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
@@ -206,7 +206,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 56s
+BUILD SUCCESSFUL in 2m 3s
 104 actionable tasks: 104 executed
 
-2020-09-18 13:46:23,624 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411412514-0/src/FormInputs-master/app/build/outputs/apk/debug/app-debug.apk
+2020-11-11 03:14:43,424 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605039134113-0/src/FormInputs-master/app/build/outputs/apk/debug/app-debug.apk

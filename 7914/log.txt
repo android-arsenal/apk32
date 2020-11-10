@@ -1,47 +1,40 @@
-2020-09-18 13:40:05,357 INFO  DownloadService - Downloading "https://github.com/AntonPopoff/android-color-wheel/archive/master.zip", attempt 3
-2020-09-18 13:40:07,866 INFO  DownloadService - Downloaded https://github.com/AntonPopoff/android-color-wheel/archive/master.zip, attempt 3
-2020-09-18 13:40:07,866 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/master.zip": 6 MB
-2020-09-18 13:40:07,866 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-09-18 13:40:07,869 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/master.zip: true
-2020-09-18 13:40:07,869 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src'.
-2020-09-18 13:40:07,952 INFO  FullProcessService - Size of directory with sources: 6 MB
-2020-09-18 13:40:07,954 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src]
-2020-09-18 13:40:07,985 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/.git/
+2020-11-11 03:09:43,112 INFO  DownloadService - Downloading "https://github.com/AntonPopoff/android-color-wheel/archive/master.zip", attempt 3
+2020-11-11 03:09:46,117 INFO  DownloadService - Downloaded https://github.com/AntonPopoff/android-color-wheel/archive/master.zip, attempt 3
+2020-11-11 03:09:46,118 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/master.zip": 6 MB
+2020-11-11 03:09:46,118 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-11-11 03:09:46,125 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/master.zip: true
+2020-11-11 03:09:46,126 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src'.
+2020-11-11 03:09:46,205 INFO  FullProcessService - Size of directory with sources: 6 MB
+2020-11-11 03:09:46,206 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src]
+2020-11-11 03:09:46,243 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/.git/
 
-2020-09-18 13:40:07,990 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/gradlew
-2020-09-18 13:40:07,997 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/build.gradle
-2020-09-18 13:40:08,002 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/settings.gradle
-2020-09-18 13:40:08,003 INFO  ProjectBuildService - Remote scripts: none
-2020-09-18 13:40:08,003 INFO  ProjectFixService - Fixing project...
-2020-09-18 13:40:08,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/local.properties
-2020-09-18 13:40:08,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:40:08,018 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:40:08,019 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/colorwheel/local.properties
-2020-09-18 13:40:08,020 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:40:08,020 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:40:08,021 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/local.properties
-2020-09-18 13:40:08,022 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
-2020-09-18 13:40:08,022 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
-2020-09-18 13:40:08,023 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:40:08,023 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-09-18 13:40:08,024 INFO  ProjectFixService - Project was maybe fixed
-2020-09-18 13:40:08,024 INFO  ProjectTaskService - Detecting possible tasks...
-2020-09-18 13:40:08,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-09-18 13:40:14,668 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-09-18 13:40:14,668 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-09-18 13:40:14,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-09-18 13:40:15,331 INFO  VirusProcessorServiceImpl - Queued project 7915 to scan viruses
-2020-09-18 13:41:23,220 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-11-11 03:09:46,249 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/gradlew
+2020-11-11 03:09:46,258 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/build.gradle
+2020-11-11 03:09:46,265 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/colorwheel/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/settings.gradle
+2020-11-11 03:09:46,266 INFO  ProjectBuildService - Remote scripts: none
+2020-11-11 03:09:46,266 INFO  ProjectFixService - Fixing project...
+2020-11-11 03:09:46,281 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/local.properties
+2020-11-11 03:09:46,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-11-11 03:09:46,283 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-11-11 03:09:46,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/colorwheel/local.properties
+2020-11-11 03:09:46,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-11-11 03:09:46,287 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/colorwheel/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-11-11 03:09:46,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/local.properties
+2020-11-11 03:09:46,289 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-6.5-bin.zip
+2020-11-11 03:09:46,292 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-11-11 03:09:46,292 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=30,minSdkVersion=16,targetSdkVersion=30]
+2020-11-11 03:09:46,293 INFO  ProjectFixService - Project was maybe fixed
+2020-11-11 03:09:46,293 INFO  ProjectTaskService - Detecting possible tasks...
+2020-11-11 03:09:46,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-11-11 03:09:53,457 INFO  VirusProcessorServiceImpl - Queued project 7915 to scan viruses
+2020-11-11 03:09:57,097 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-11-11 03:09:57,097 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-11-11 03:09:57,097 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-11-11 03:11:26,049 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-> Configure project :colorwheel
-WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-WARNING: API 'variantOutput.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+> Configure project :app
+WARNING: DSL element 'android.dataBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.dataBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
@@ -51,11 +44,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :colorwheel:packageDebugRenderscript NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
-> Task :app:prepareLintJarForPublish
-> Task :app:generateDebugSources
-> Task :app:dataBindingExportBuildInfoDebug
 > Task :app:dataBindingMergeDependencyArtifactsDebug
 > Task :app:dataBindingMergeGenClassesDebug
 > Task :app:generateDebugResValues
@@ -64,42 +52,49 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :colorwheel:generateDebugResValues
 > Task :colorwheel:generateDebugResources
 > Task :colorwheel:packageDebugResources
-> Task :app:dataBindingExportFeaturePackageIdsDebug
-> Task :app:mainApkListPersistenceDebug
+> Task :app:dataBindingTriggerDebug
+> Task :app:generateDebugBuildConfig
+> Task :colorwheel:writeDebugAarMetadata
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:checkDebugAarMetadata
 > Task :app:extractDeepLinksDebug
 > Task :colorwheel:extractDeepLinksDebug
 > Task :app:mergeDebugResources
-> Task :app:dataBindingGenBaseClassesDebug
 > Task :colorwheel:compileDebugLibraryResources
 > Task :colorwheel:processDebugManifest
-> Task :app:processDebugManifest
 > Task :colorwheel:parseDebugLocalResources
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
 > Task :colorwheel:generateDebugBuildConfig
+> Task :colorwheel:javaPreCompileDebug
+> Task :colorwheel:generateDebugRFile
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileDebug
+> Task :colorwheel:compileDebugKotlin
+> Task :colorwheel:compileDebugJavaWithJavac
+> Task :app:processDebugManifestForPackage
+> Task :colorwheel:bundleLibCompileToJarDebug
+> Task :app:processDebugResources
+> Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugShaders
-> Task :app:generateDebugAssets
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
 > Task :colorwheel:mergeDebugShaders
-> Task :colorwheel:compileDebugShaders
-> Task :colorwheel:generateDebugAssets
+> Task :colorwheel:compileDebugShaders NO-SOURCE
+> Task :colorwheel:generateDebugAssets UP-TO-DATE
 > Task :colorwheel:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :colorwheel:generateDebugRFile
-> Task :app:processDebugResources
-> Task :colorwheel:compileDebugKotlin
-> Task :colorwheel:javaPreCompileDebug
-> Task :colorwheel:compileDebugJavaWithJavac
+> Task :app:compressDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :colorwheel:processDebugJavaRes NO-SOURCE
-> Task :colorwheel:bundleLibCompileDebug
-> Task :app:kaptGenerateStubsDebugKotlin
 > Task :colorwheel:bundleLibResDebug
-> Task :colorwheel:bundleLibRuntimeDebug
+> Task :colorwheel:bundleLibRuntimeToJarDebug
 > Task :app:checkDebugDuplicateClasses
 > Task :app:mergeDebugJniLibFolders
 > Task :colorwheel:mergeDebugJniLibFolders
-> Task :colorwheel:mergeDebugNativeLibs
-> Task :colorwheel:stripDebugDebugSymbols
+> Task :colorwheel:mergeDebugNativeLibs NO-SOURCE
+> Task :colorwheel:stripDebugDebugSymbols NO-SOURCE
 > Task :colorwheel:copyDebugJniLibsProjectOnly
 > Task :app:validateSigningDebug
 > Task :app:preReleaseBuild UP-TO-DATE
@@ -108,9 +103,6 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :colorwheel:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
-> Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
-> Task :app:dataBindingExportBuildInfoRelease
 > Task :app:dataBindingMergeDependencyArtifactsRelease
 > Task :app:dataBindingMergeGenClassesRelease
 > Task :app:generateReleaseResValues
@@ -120,61 +112,68 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :colorwheel:generateReleaseResources
 > Task :colorwheel:packageReleaseResources
 > Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :app:mainApkListPersistenceRelease
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:extractDeepLinksRelease
-> Task :colorwheel:extractDeepLinksRelease
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:dataBindingTriggerRelease
 > Task :app:kaptDebugKotlin
-> Task :app:compileDebugKotlin
-> Task :colorwheel:generateReleaseBuildConfig
+> Task :app:generateReleaseBuildConfig
 > Task :app:mergeReleaseResources
-> Task :app:dataBindingGenBaseClassesRelease
-> Task :app:javaPreCompileDebug
-> Task :colorwheel:parseReleaseLocalResources
+> Task :app:compileDebugKotlin
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:dexBuilderDebug
-> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :colorwheel:writeReleaseAarMetadata
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :colorwheel:extractDeepLinksRelease
 > Task :colorwheel:compileReleaseLibraryResources
+> Task :app:checkReleaseAarMetadata
+> Task :colorwheel:generateReleaseBuildConfig
 > Task :colorwheel:processReleaseManifest
-> Task :app:processReleaseManifest
-> Task :app:checkReleaseDuplicateClasses
-> Task :colorwheel:prepareLintJarForPublish
-> Task :colorwheel:generateReleaseRFile
-> Task :app:processReleaseResources
-> Task :colorwheel:compileReleaseKotlin
-> Task :app:mergeExtDexDebug
+> Task :colorwheel:parseReleaseLocalResources
 > Task :colorwheel:javaPreCompileRelease
-> Task :colorwheel:compileReleaseJavaWithJavac
 > Task :app:mergeDebugJavaResource
-> Task :colorwheel:bundleLibCompileRelease
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :colorwheel:generateReleaseRFile
+> Task :app:javaPreCompileRelease
+> Task :colorwheel:compileReleaseKotlin
+> Task :colorwheel:compileReleaseJavaWithJavac
+> Task :app:processReleaseManifestForPackage
+> Task :colorwheel:bundleLibCompileToJarRelease
+> Task :app:processReleaseResources
+> Task :app:mergeExtDexDebug
 > Task :app:kaptGenerateStubsReleaseKotlin
-> Task :colorwheel:bundleLibRuntimeRelease
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :colorwheel:prepareLintJarForPublish
 > Task :app:mergeReleaseShaders
-> Task :app:compileReleaseShaders
-> Task :app:generateReleaseAssets
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
 > Task :colorwheel:mergeReleaseShaders
-> Task :colorwheel:compileReleaseShaders
-> Task :colorwheel:generateReleaseAssets
+> Task :colorwheel:compileReleaseShaders NO-SOURCE
+> Task :colorwheel:generateReleaseAssets UP-TO-DATE
 > Task :colorwheel:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :colorwheel:bundleLibRuntimeToJarRelease
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :colorwheel:processReleaseJavaRes NO-SOURCE
+> Task :colorwheel:bundleLibResRelease
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
 > Task :app:mergeReleaseJniLibFolders
 > Task :colorwheel:mergeReleaseJniLibFolders
-> Task :colorwheel:bundleLibResRelease
-> Task :colorwheel:mergeReleaseNativeLibs
-> Task :colorwheel:stripReleaseDebugSymbols
+> Task :colorwheel:mergeReleaseNativeLibs NO-SOURCE
+> Task :colorwheel:stripReleaseDebugSymbols NO-SOURCE
 > Task :colorwheel:copyReleaseJniLibsProjectOnly
+> Task :app:mergeDexDebug
 > Task :app:mergeReleaseNativeLibs
-> Task :app:stripReleaseDebugSymbols
+> Task :app:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:kaptReleaseKotlin
 > Task :app:compileReleaseKotlin
-> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :app:lintVitalRelease
@@ -187,7 +186,7 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 1m 7s
-107 actionable tasks: 107 executed
+BUILD SUCCESSFUL in 1m 28s
+103 actionable tasks: 103 executed
 
-2020-09-18 13:41:23,303 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1600411205354-0/src/android-color-wheel-master/app/build/outputs/apk/debug/app-debug.apk
+2020-11-11 03:11:26,149 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1605038983107-0/src/android-color-wheel-master/app/build/outputs/apk/debug/app-debug.apk
